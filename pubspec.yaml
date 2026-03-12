@@ -1,0 +1,47 @@
+name: vocabo
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.3.1
+  http: ^1.4.0
+  package_info_plus: ^8.3.0
+  razorpay_flutter: ^1.4.0
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.4.6
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/data/
+
+flutter_native_splash:
+  color: "#F7FAFC"
+  image: assets/images/app_icon.png
+  android_12:
+    color: "#F7FAFC"
+    image: assets/images/app_icon.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/images/app_icon.png
+  adaptive_icon_background: "#F7FAFC"
+  min_sdk_android: 21
+  remove_alpha_ios: true

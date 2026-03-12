@@ -1,0 +1,3129 @@
+[
+  {
+    "word": "abandon",
+    "meaning_en": "leave completely",
+    "meaning_hi": "त्यागना",
+    "synonyms": [
+      "desert",
+      "forsake",
+      "relinquish",
+      "abdicate",
+      "vacate"
+    ],
+    "antonyms": [
+      "retain",
+      "preserve",
+      "keep"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "ability",
+    "meaning_en": "capacity to do",
+    "meaning_hi": "क्षमता",
+    "synonyms": [
+      "skill",
+      "aptitude",
+      "capability",
+      "competence"
+    ],
+    "antonyms": [
+      "inability",
+      "incapacity"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "abundant",
+    "meaning_en": "present in large quantity",
+    "meaning_hi": "प्रचुर",
+    "synonyms": [
+      "plentiful",
+      "ample",
+      "copious",
+      "profuse"
+    ],
+    "antonyms": [
+      "scarce",
+      "meager"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "accurate",
+    "meaning_en": "correct and precise",
+    "meaning_hi": "सटीक",
+    "synonyms": [
+      "precise",
+      "exact",
+      "correct"
+    ],
+    "antonyms": [
+      "inaccurate",
+      "wrong"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "anger",
+    "meaning_en": "strong displeasure",
+    "meaning_hi": "क्रोध",
+    "synonyms": [
+      "rage",
+      "fury",
+      "wrath",
+      "ire"
+    ],
+    "antonyms": [
+      "calm",
+      "peace"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "approve",
+    "meaning_en": "officially agree",
+    "meaning_hi": "अनुमोदन करना",
+    "synonyms": [
+      "endorse",
+      "sanction",
+      "ratify"
+    ],
+    "antonyms": [
+      "reject",
+      "oppose"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "argue",
+    "meaning_en": "give reasons against",
+    "meaning_hi": "तर्क करना",
+    "synonyms": [
+      "dispute",
+      "contend",
+      "debate"
+    ],
+    "antonyms": [
+      "agree",
+      "accept"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "arrange",
+    "meaning_en": "put in order",
+    "meaning_hi": "व्यवस्थित करना",
+    "synonyms": [
+      "organize",
+      "order",
+      "systematize"
+    ],
+    "antonyms": [
+      "disorganize",
+      "scatter"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "ask",
+    "meaning_en": "request information",
+    "meaning_hi": "पूछना",
+    "synonyms": [
+      "inquire",
+      "request",
+      "seek"
+    ],
+    "antonyms": [
+      "answer",
+      "reply"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "assure",
+    "meaning_en": "make certain",
+    "meaning_hi": "आश्वस्त करना",
+    "synonyms": [
+      "guarantee",
+      "ensure",
+      "secure"
+    ],
+    "antonyms": [
+      "doubt",
+      "uncertain"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "bad",
+    "meaning_en": "morally wrong",
+    "meaning_hi": "बुरा",
+    "synonyms": [
+      "evil",
+      "wicked",
+      "vile"
+    ],
+    "antonyms": [
+      "good",
+      "virtuous"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "begin",
+    "meaning_en": "start",
+    "meaning_hi": "आरंभ करना",
+    "synonyms": [
+      "start",
+      "commence",
+      "initiate"
+    ],
+    "antonyms": [
+      "end",
+      "finish"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "belief",
+    "meaning_en": "accepted truth",
+    "meaning_hi": "विश्वास",
+    "synonyms": [
+      "faith",
+      "conviction",
+      "creed"
+    ],
+    "antonyms": [
+      "doubt",
+      "disbelief"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "big",
+    "meaning_en": "large in size",
+    "meaning_hi": "बड़ा",
+    "synonyms": [
+      "large",
+      "huge",
+      "immense",
+      "vast"
+    ],
+    "antonyms": [
+      "small",
+      "tiny"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "brave",
+    "meaning_en": "showing courage",
+    "meaning_hi": "बहादुर",
+    "synonyms": [
+      "bold",
+      "courageous",
+      "valiant"
+    ],
+    "antonyms": [
+      "cowardly",
+      "timid"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "bright",
+    "meaning_en": "giving light or intelligence",
+    "meaning_hi": "उज्ज्वल/बुद्धिमान",
+    "synonyms": [
+      "luminous",
+      "radiant",
+      "brilliant"
+    ],
+    "antonyms": [
+      "dim",
+      "dull"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "build",
+    "meaning_en": "construct",
+    "meaning_hi": "निर्माण करना",
+    "synonyms": [
+      "construct",
+      "erect",
+      "fabricate"
+    ],
+    "antonyms": [
+      "destroy",
+      "demolish"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "busy",
+    "meaning_en": "occupied with activity",
+    "meaning_hi": "व्यस्त",
+    "synonyms": [
+      "occupied",
+      "engaged",
+      "active"
+    ],
+    "antonyms": [
+      "idle",
+      "free"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "calm",
+    "meaning_en": "peaceful",
+    "meaning_hi": "शांत",
+    "synonyms": [
+      "tranquil",
+      "serene",
+      "placid"
+    ],
+    "antonyms": [
+      "agitated",
+      "turbulent"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "careful",
+    "meaning_en": "avoiding danger",
+    "meaning_hi": "सावधान",
+    "synonyms": [
+      "cautious",
+      "prudent",
+      "vigilant"
+    ],
+    "antonyms": [
+      "careless",
+      "rash"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "change",
+    "meaning_en": "make different",
+    "meaning_hi": "बदलना",
+    "synonyms": [
+      "alter",
+      "modify",
+      "transform"
+    ],
+    "antonyms": [
+      "maintain",
+      "preserve"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "choose",
+    "meaning_en": "select",
+    "meaning_hi": "चुनना",
+    "synonyms": [
+      "select",
+      "opt",
+      "pick"
+    ],
+    "antonyms": [
+      "reject",
+      "refuse"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "clear",
+    "meaning_en": "easy to understand",
+    "meaning_hi": "स्पष्ट",
+    "synonyms": [
+      "evident",
+      "obvious",
+      "explicit"
+    ],
+    "antonyms": [
+      "unclear",
+      "vague"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "clever",
+    "meaning_en": "intelligent",
+    "meaning_hi": "चतुर",
+    "synonyms": [
+      "smart",
+      "shrewd",
+      "astute"
+    ],
+    "antonyms": [
+      "foolish",
+      "naive"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "common",
+    "meaning_en": "occurring often",
+    "meaning_hi": "सामान्य",
+    "synonyms": [
+      "ordinary",
+      "usual",
+      "prevalent"
+    ],
+    "antonyms": [
+      "rare",
+      "uncommon"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "complete",
+    "meaning_en": "whole",
+    "meaning_hi": "पूर्ण",
+    "synonyms": [
+      "entire",
+      "whole",
+      "total"
+    ],
+    "antonyms": [
+      "partial",
+      "incomplete"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "confuse",
+    "meaning_en": "make unclear",
+    "meaning_hi": "भ्रमित करना",
+    "synonyms": [
+      "perplex",
+      "baffle",
+      "bewilder"
+    ],
+    "antonyms": [
+      "clarify",
+      "explain"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "connect",
+    "meaning_en": "join together",
+    "meaning_hi": "जोड़ना",
+    "synonyms": [
+      "link",
+      "join",
+      "unite"
+    ],
+    "antonyms": [
+      "separate",
+      "disconnect"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "danger",
+    "meaning_en": "risk",
+    "meaning_hi": "खतरा",
+    "synonyms": [
+      "peril",
+      "hazard",
+      "risk"
+    ],
+    "antonyms": [
+      "safety",
+      "security"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "dark",
+    "meaning_en": "lacking light",
+    "meaning_hi": "अंधकारमय",
+    "synonyms": [
+      "dim",
+      "obscure",
+      "murky"
+    ],
+    "antonyms": [
+      "bright",
+      "clear"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "decide",
+    "meaning_en": "make a choice",
+    "meaning_hi": "निर्णय करना",
+    "synonyms": [
+      "determine",
+      "resolve",
+      "settle"
+    ],
+    "antonyms": [
+      "hesitate",
+      "delay"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "decrease",
+    "meaning_en": "become smaller",
+    "meaning_hi": "कम होना",
+    "synonyms": [
+      "reduce",
+      "diminish",
+      "lessen"
+    ],
+    "antonyms": [
+      "increase",
+      "grow"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "deep",
+    "meaning_en": "extending far down",
+    "meaning_hi": "गहरा",
+    "synonyms": [
+      "profound",
+      "intense",
+      "thorough"
+    ],
+    "antonyms": [
+      "shallow",
+      "superficial"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "defeat",
+    "meaning_en": "win over",
+    "meaning_hi": "पराजित करना",
+    "synonyms": [
+      "conquer",
+      "vanquish",
+      "overcome"
+    ],
+    "antonyms": [
+      "lose",
+      "surrender"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "delay",
+    "meaning_en": "postpone",
+    "meaning_hi": "विलंब करना",
+    "synonyms": [
+      "postpone",
+      "defer",
+      "stall"
+    ],
+    "antonyms": [
+      "hasten",
+      "advance"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "deny",
+    "meaning_en": "refuse to accept",
+    "meaning_hi": "इंकार करना",
+    "synonyms": [
+      "refuse",
+      "reject",
+      "repudiate"
+    ],
+    "antonyms": [
+      "accept",
+      "admit"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "destroy",
+    "meaning_en": "ruin completely",
+    "meaning_hi": "नष्ट करना",
+    "synonyms": [
+      "ruin",
+      "devastate",
+      "wreck"
+    ],
+    "antonyms": [
+      "create",
+      "build"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "difficult",
+    "meaning_en": "hard to do",
+    "meaning_hi": "कठिन",
+    "synonyms": [
+      "hard",
+      "arduous",
+      "tough"
+    ],
+    "antonyms": [
+      "easy",
+      "simple"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "early",
+    "meaning_en": "before expected time",
+    "meaning_hi": "शीघ्र/प्रारंभिक",
+    "synonyms": [
+      "premature",
+      "initial",
+      "prior"
+    ],
+    "antonyms": [
+      "late",
+      "delayed"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "easy",
+    "meaning_en": "requiring little effort",
+    "meaning_hi": "सरल",
+    "synonyms": [
+      "simple",
+      "effortless",
+      "straightforward"
+    ],
+    "antonyms": [
+      "difficult",
+      "hard"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "empty",
+    "meaning_en": "containing nothing",
+    "meaning_hi": "खाली",
+    "synonyms": [
+      "vacant",
+      "void",
+      "blank"
+    ],
+    "antonyms": [
+      "full",
+      "occupied"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "end",
+    "meaning_en": "come to a finish",
+    "meaning_hi": "समाप्त करना",
+    "synonyms": [
+      "finish",
+      "terminate",
+      "cease"
+    ],
+    "antonyms": [
+      "begin",
+      "start"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "enemy",
+    "meaning_en": "one who opposes",
+    "meaning_hi": "शत्रु",
+    "synonyms": [
+      "foe",
+      "adversary",
+      "opponent"
+    ],
+    "antonyms": [
+      "ally",
+      "friend"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "enough",
+    "meaning_en": "as much as needed",
+    "meaning_hi": "पर्याप्त",
+    "synonyms": [
+      "sufficient",
+      "adequate",
+      "ample"
+    ],
+    "antonyms": [
+      "insufficient",
+      "lacking"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "equal",
+    "meaning_en": "same in amount or value",
+    "meaning_hi": "समान",
+    "synonyms": [
+      "identical",
+      "equivalent",
+      "uniform"
+    ],
+    "antonyms": [
+      "unequal",
+      "different"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "error",
+    "meaning_en": "mistake",
+    "meaning_hi": "त्रुटि",
+    "synonyms": [
+      "mistake",
+      "fault",
+      "blunder"
+    ],
+    "antonyms": [
+      "accuracy",
+      "correctness"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "escape",
+    "meaning_en": "get away",
+    "meaning_hi": "भाग निकलना",
+    "synonyms": [
+      "flee",
+      "evade",
+      "elude"
+    ],
+    "antonyms": [
+      "capture",
+      "surrender"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "essential",
+    "meaning_en": "absolutely necessary",
+    "meaning_hi": "आवश्यक",
+    "synonyms": [
+      "vital",
+      "crucial",
+      "indispensable"
+    ],
+    "antonyms": [
+      "optional",
+      "unnecessary"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "false",
+    "meaning_en": "not true",
+    "meaning_hi": "झूठा",
+    "synonyms": [
+      "fake",
+      "spurious",
+      "erroneous"
+    ],
+    "antonyms": [
+      "true",
+      "genuine"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "famous",
+    "meaning_en": "widely known",
+    "meaning_hi": "प्रसिद्ध",
+    "synonyms": [
+      "renowned",
+      "eminent",
+      "celebrated"
+    ],
+    "antonyms": [
+      "unknown",
+      "obscure"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "fear",
+    "meaning_en": "feeling of danger",
+    "meaning_hi": "भय",
+    "synonyms": [
+      "dread",
+      "terror",
+      "fright"
+    ],
+    "antonyms": [
+      "courage",
+      "confidence"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "fight",
+    "meaning_en": "engage in battle",
+    "meaning_hi": "लड़ना",
+    "synonyms": [
+      "battle",
+      "combat",
+      "clash"
+    ],
+    "antonyms": [
+      "peace",
+      "surrender"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "find",
+    "meaning_en": "discover",
+    "meaning_hi": "खोजना",
+    "synonyms": [
+      "discover",
+      "detect",
+      "locate"
+    ],
+    "antonyms": [
+      "lose",
+      "miss"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "finish",
+    "meaning_en": "complete",
+    "meaning_hi": "समाप्त करना",
+    "synonyms": [
+      "complete",
+      "conclude",
+      "end"
+    ],
+    "antonyms": [
+      "begin",
+      "start"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "fix",
+    "meaning_en": "repair",
+    "meaning_hi": "मरम्मत करना",
+    "synonyms": [
+      "repair",
+      "mend",
+      "restore"
+    ],
+    "antonyms": [
+      "break",
+      "damage"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "force",
+    "meaning_en": "make happen by power",
+    "meaning_hi": "बलपूर्वक कराना",
+    "synonyms": [
+      "compel",
+      "coerce",
+      "pressure"
+    ],
+    "antonyms": [
+      "persuade",
+      "allow"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "free",
+    "meaning_en": "not under control",
+    "meaning_hi": "स्वतंत्र",
+    "synonyms": [
+      "liberate",
+      "release",
+      "emancipate"
+    ],
+    "antonyms": [
+      "confine",
+      "restrain"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "friend",
+    "meaning_en": "supporter or companion",
+    "meaning_hi": "मित्र",
+    "synonyms": [
+      "ally",
+      "companion",
+      "associate"
+    ],
+    "antonyms": [
+      "enemy",
+      "foe"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "gather",
+    "meaning_en": "bring together",
+    "meaning_hi": "एकत्र करना",
+    "synonyms": [
+      "collect",
+      "assemble",
+      "accumulate"
+    ],
+    "antonyms": [
+      "scatter",
+      "disperse"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "genuine",
+    "meaning_en": "truly what it claims to be",
+    "meaning_hi": "असली",
+    "synonyms": [
+      "authentic",
+      "real",
+      "sincere"
+    ],
+    "antonyms": [
+      "fake",
+      "artificial"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "give",
+    "meaning_en": "provide",
+    "meaning_hi": "देना",
+    "synonyms": [
+      "grant",
+      "provide",
+      "bestow"
+    ],
+    "antonyms": [
+      "take",
+      "withhold"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "glad",
+    "meaning_en": "happy",
+    "meaning_hi": "प्रसन्न",
+    "synonyms": [
+      "happy",
+      "joyful",
+      "pleased"
+    ],
+    "antonyms": [
+      "sad",
+      "unhappy"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "good",
+    "meaning_en": "morally right",
+    "meaning_hi": "अच्छा",
+    "synonyms": [
+      "virtuous",
+      "moral",
+      "upright"
+    ],
+    "antonyms": [
+      "evil",
+      "bad"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "gracious",
+    "meaning_en": "courteous and kind",
+    "meaning_hi": "कृपालु",
+    "synonyms": [
+      "courteous",
+      "kind",
+      "polite"
+    ],
+    "antonyms": [
+      "rude",
+      "unkind"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "grant",
+    "meaning_en": "give formally",
+    "meaning_hi": "प्रदान करना",
+    "synonyms": [
+      "give",
+      "bestow",
+      "award"
+    ],
+    "antonyms": [
+      "deny",
+      "withhold"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "grave",
+    "meaning_en": "serious and solemn",
+    "meaning_hi": "गंभीर",
+    "synonyms": [
+      "serious",
+      "solemn",
+      "severe"
+    ],
+    "antonyms": [
+      "trivial",
+      "lighthearted"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "grow",
+    "meaning_en": "increase",
+    "meaning_hi": "बढ़ना",
+    "synonyms": [
+      "expand",
+      "increase",
+      "develop"
+    ],
+    "antonyms": [
+      "shrink",
+      "decline"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "guess",
+    "meaning_en": "form opinion without proof",
+    "meaning_hi": "अनुमान लगाना",
+    "synonyms": [
+      "suppose",
+      "infer",
+      "estimate"
+    ],
+    "antonyms": [
+      "know",
+      "confirm"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "happy",
+    "meaning_en": "feeling pleasure",
+    "meaning_hi": "खुश",
+    "synonyms": [
+      "glad",
+      "joyful",
+      "elated"
+    ],
+    "antonyms": [
+      "sad",
+      "unhappy"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "harm",
+    "meaning_en": "cause damage",
+    "meaning_hi": "हानि पहुंचाना",
+    "synonyms": [
+      "damage",
+      "injure",
+      "hurt"
+    ],
+    "antonyms": [
+      "protect",
+      "benefit"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "hate",
+    "meaning_en": "strong dislike",
+    "meaning_hi": "घृणा करना",
+    "synonyms": [
+      "detest",
+      "loathe",
+      "abhor"
+    ],
+    "antonyms": [
+      "love",
+      "admire"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "help",
+    "meaning_en": "assist",
+    "meaning_hi": "सहायता करना",
+    "synonyms": [
+      "assist",
+      "aid",
+      "support"
+    ],
+    "antonyms": [
+      "hinder",
+      "obstruct"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "hide",
+    "meaning_en": "keep out of sight",
+    "meaning_hi": "छिपाना",
+    "synonyms": [
+      "conceal",
+      "obscure",
+      "mask"
+    ],
+    "antonyms": [
+      "reveal",
+      "expose"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "honest",
+    "meaning_en": "truthful",
+    "meaning_hi": "ईमानदार",
+    "synonyms": [
+      "sincere",
+      "upright",
+      "truthful"
+    ],
+    "antonyms": [
+      "dishonest",
+      "deceitful"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "huge",
+    "meaning_en": "very large",
+    "meaning_hi": "विशाल",
+    "synonyms": [
+      "enormous",
+      "gigantic",
+      "immense"
+    ],
+    "antonyms": [
+      "tiny",
+      "small"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "idea",
+    "meaning_en": "thought or concept",
+    "meaning_hi": "विचार",
+    "synonyms": [
+      "notion",
+      "concept",
+      "perception"
+    ],
+    "antonyms": [
+      "reality",
+      "fact"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "idle",
+    "meaning_en": "not active",
+    "meaning_hi": "निष्क्रिय",
+    "synonyms": [
+      "lazy",
+      "inactive",
+      "sluggish"
+    ],
+    "antonyms": [
+      "active",
+      "industrious"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "ignore",
+    "meaning_en": "pay no attention",
+    "meaning_hi": "अनदेखा करना",
+    "synonyms": [
+      "neglect",
+      "overlook",
+      "disregard"
+    ],
+    "antonyms": [
+      "notice",
+      "attend"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "ill",
+    "meaning_en": "not healthy",
+    "meaning_hi": "बीमार",
+    "synonyms": [
+      "sick",
+      "unwell",
+      "ailing"
+    ],
+    "antonyms": [
+      "healthy",
+      "well"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "important",
+    "meaning_en": "of great value",
+    "meaning_hi": "महत्वपूर्ण",
+    "synonyms": [
+      "vital",
+      "significant",
+      "crucial"
+    ],
+    "antonyms": [
+      "trivial",
+      "unimportant"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "increase",
+    "meaning_en": "become greater",
+    "meaning_hi": "बढ़ाना",
+    "synonyms": [
+      "augment",
+      "enhance",
+      "expand"
+    ],
+    "antonyms": [
+      "decrease",
+      "reduce"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "influence",
+    "meaning_en": "affect actions",
+    "meaning_hi": "प्रभावित करना",
+    "synonyms": [
+      "sway",
+      "affect",
+      "impact"
+    ],
+    "antonyms": [
+      "deter",
+      "discourage"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "intelligent",
+    "meaning_en": "having high ability",
+    "meaning_hi": "बुद्धिमान",
+    "synonyms": [
+      "smart",
+      "clever",
+      "bright"
+    ],
+    "antonyms": [
+      "stupid",
+      "dull"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "interesting",
+    "meaning_en": "holding attention",
+    "meaning_hi": "रोचक",
+    "synonyms": [
+      "engaging",
+      "fascinating",
+      "intriguing"
+    ],
+    "antonyms": [
+      "boring",
+      "dull"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "job",
+    "meaning_en": "paid work",
+    "meaning_hi": "नौकरी",
+    "synonyms": [
+      "work",
+      "occupation",
+      "profession"
+    ],
+    "antonyms": [
+      "unemployment",
+      "idleness"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "join",
+    "meaning_en": "connect together",
+    "meaning_hi": "जोड़ना",
+    "synonyms": [
+      "unite",
+      "link",
+      "attach"
+    ],
+    "antonyms": [
+      "separate",
+      "detach"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "judge",
+    "meaning_en": "form opinion",
+    "meaning_hi": "निर्णय करना",
+    "synonyms": [
+      "assess",
+      "evaluate",
+      "determine"
+    ],
+    "antonyms": [
+      "misjudge",
+      "guess"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "jump",
+    "meaning_en": "leap upward",
+    "meaning_hi": "कूदना",
+    "synonyms": [
+      "leap",
+      "spring",
+      "bound"
+    ],
+    "antonyms": [
+      "fall",
+      "drop"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "keen",
+    "meaning_en": "eager and enthusiastic",
+    "meaning_hi": "उत्सुक",
+    "synonyms": [
+      "eager",
+      "enthusiastic",
+      "ardent"
+    ],
+    "antonyms": [
+      "indifferent",
+      "apathetic"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "keep",
+    "meaning_en": "retain in possession",
+    "meaning_hi": "रखना",
+    "synonyms": [
+      "retain",
+      "preserve",
+      "maintain"
+    ],
+    "antonyms": [
+      "discard",
+      "abandon"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "kill",
+    "meaning_en": "cause death",
+    "meaning_hi": "मारना",
+    "synonyms": [
+      "slay",
+      "murder",
+      "execute"
+    ],
+    "antonyms": [
+      "save",
+      "preserve"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "kind",
+    "meaning_en": "showing care",
+    "meaning_hi": "दयालु",
+    "synonyms": [
+      "benevolent",
+      "compassionate",
+      "gentle"
+    ],
+    "antonyms": [
+      "cruel",
+      "harsh"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "kindle",
+    "meaning_en": "arouse or inspire feeling",
+    "meaning_hi": "जगाना",
+    "synonyms": [
+      "ignite",
+      "arouse",
+      "inspire"
+    ],
+    "antonyms": [
+      "extinguish",
+      "suppress"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "knowledgeable",
+    "meaning_en": "having much knowledge",
+    "meaning_hi": "जानकार",
+    "synonyms": [
+      "informed",
+      "learned",
+      "educated"
+    ],
+    "antonyms": [
+      "ignorant",
+      "uninformed"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "know",
+    "meaning_en": "be aware of",
+    "meaning_hi": "जानना",
+    "synonyms": [
+      "understand",
+      "realize",
+      "comprehend"
+    ],
+    "antonyms": [
+      "ignore",
+      "misunderstand"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "large",
+    "meaning_en": "big in size",
+    "meaning_hi": "बड़ा",
+    "synonyms": [
+      "big",
+      "huge",
+      "vast"
+    ],
+    "antonyms": [
+      "small",
+      "tiny"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "laugh",
+    "meaning_en": "express amusement",
+    "meaning_hi": "हंसना",
+    "synonyms": [
+      "giggle",
+      "chuckle",
+      "snicker"
+    ],
+    "antonyms": [
+      "cry",
+      "weep"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "leave",
+    "meaning_en": "go away",
+    "meaning_hi": "छोड़ना",
+    "synonyms": [
+      "abandon",
+      "depart",
+      "quit"
+    ],
+    "antonyms": [
+      "stay",
+      "remain"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "less",
+    "meaning_en": "smaller amount",
+    "meaning_hi": "कम",
+    "synonyms": [
+      "reduce",
+      "diminish",
+      "decrease"
+    ],
+    "antonyms": [
+      "more",
+      "increase"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "limit",
+    "meaning_en": "set boundary",
+    "meaning_hi": "सीमित करना",
+    "synonyms": [
+      "restrict",
+      "confine",
+      "bound"
+    ],
+    "antonyms": [
+      "expand",
+      "extend"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "live",
+    "meaning_en": "reside",
+    "meaning_hi": "रहना",
+    "synonyms": [
+      "reside",
+      "dwell",
+      "inhabit"
+    ],
+    "antonyms": [
+      "leave",
+      "vacate"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "look",
+    "meaning_en": "see with eyes",
+    "meaning_hi": "देखना",
+    "synonyms": [
+      "see",
+      "observe",
+      "view"
+    ],
+    "antonyms": [
+      "ignore",
+      "overlook"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "make",
+    "meaning_en": "create or produce",
+    "meaning_hi": "बनाना",
+    "synonyms": [
+      "create",
+      "produce",
+      "form"
+    ],
+    "antonyms": [
+      "destroy",
+      "break"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "manage",
+    "meaning_en": "handle successfully",
+    "meaning_hi": "प्रबंध करना",
+    "synonyms": [
+      "handle",
+      "control",
+      "administer"
+    ],
+    "antonyms": [
+      "mismanage",
+      "neglect"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "mean",
+    "meaning_en": "signify",
+    "meaning_hi": "अर्थ होना",
+    "synonyms": [
+      "signify",
+      "denote",
+      "indicate"
+    ],
+    "antonyms": [
+      "misrepresent",
+      "contradict"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "meet",
+    "meaning_en": "come across",
+    "meaning_hi": "मिलना",
+    "synonyms": [
+      "encounter",
+      "confront",
+      "greet"
+    ],
+    "antonyms": [
+      "avoid",
+      "miss"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "mighty",
+    "meaning_en": "very strong",
+    "meaning_hi": "शक्तिशाली",
+    "synonyms": [
+      "powerful",
+      "strong",
+      "forceful"
+    ],
+    "antonyms": [
+      "weak",
+      "feeble"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "mistake",
+    "meaning_en": "error",
+    "meaning_hi": "गलती",
+    "synonyms": [
+      "error",
+      "fault",
+      "blunder"
+    ],
+    "antonyms": [
+      "accuracy",
+      "correctness"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "modest",
+    "meaning_en": "not boastful",
+    "meaning_hi": "विनम्र",
+    "synonyms": [
+      "humble",
+      "meek",
+      "reserved"
+    ],
+    "antonyms": [
+      "arrogant",
+      "boastful"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "move",
+    "meaning_en": "change position",
+    "meaning_hi": "चलना/हिलना",
+    "synonyms": [
+      "shift",
+      "relocate",
+      "transfer"
+    ],
+    "antonyms": [
+      "stay",
+      "remain"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "much",
+    "meaning_en": "great quantity",
+    "meaning_hi": "अधिक",
+    "synonyms": [
+      "abundant",
+      "plenty",
+      "ample"
+    ],
+    "antonyms": [
+      "little",
+      "scarce"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "mysterious",
+    "meaning_en": "difficult to understand",
+    "meaning_hi": "रहस्यमय",
+    "synonyms": [
+      "enigmatic",
+      "puzzling",
+      "obscure"
+    ],
+    "antonyms": [
+      "clear",
+      "obvious"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "name",
+    "meaning_en": "title or designation",
+    "meaning_hi": "नाम",
+    "synonyms": [
+      "title",
+      "designation",
+      "label"
+    ],
+    "antonyms": [
+      "anonymity",
+      "nameless"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "need",
+    "meaning_en": "require",
+    "meaning_hi": "आवश्यकता होना",
+    "synonyms": [
+      "require",
+      "demand",
+      "necessitate"
+    ],
+    "antonyms": [
+      "lack",
+      "dispense"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "neglect",
+    "meaning_en": "fail to care for",
+    "meaning_hi": "उपेक्षा करना",
+    "synonyms": [
+      "ignore",
+      "disregard",
+      "overlook"
+    ],
+    "antonyms": [
+      "care",
+      "attend"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "new",
+    "meaning_en": "recently made",
+    "meaning_hi": "नया",
+    "synonyms": [
+      "novel",
+      "recent",
+      "fresh"
+    ],
+    "antonyms": [
+      "old",
+      "ancient"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "noble",
+    "meaning_en": "having fine qualities",
+    "meaning_hi": "कुलीन/श्रेष्ठ",
+    "synonyms": [
+      "honorable",
+      "virtuous",
+      "dignified"
+    ],
+    "antonyms": [
+      "ignoble",
+      "base"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "normal",
+    "meaning_en": "usual state",
+    "meaning_hi": "सामान्य",
+    "synonyms": [
+      "usual",
+      "standard",
+      "typical"
+    ],
+    "antonyms": [
+      "abnormal",
+      "unusual"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "notice",
+    "meaning_en": "observe",
+    "meaning_hi": "ध्यान देना",
+    "synonyms": [
+      "observe",
+      "perceive",
+      "detect"
+    ],
+    "antonyms": [
+      "ignore",
+      "overlook"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "numerous",
+    "meaning_en": "great in number",
+    "meaning_hi": "अनेक",
+    "synonyms": [
+      "many",
+      "several",
+      "abundant"
+    ],
+    "antonyms": [
+      "few",
+      "scarce"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "obey",
+    "meaning_en": "follow commands",
+    "meaning_hi": "आज्ञा मानना",
+    "synonyms": [
+      "comply",
+      "submit",
+      "heed"
+    ],
+    "antonyms": [
+      "disobey",
+      "defy"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "obtain",
+    "meaning_en": "get or acquire",
+    "meaning_hi": "प्राप्त करना",
+    "synonyms": [
+      "acquire",
+      "gain",
+      "secure"
+    ],
+    "antonyms": [
+      "lose",
+      "surrender"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "obvious",
+    "meaning_en": "easily seen",
+    "meaning_hi": "स्पष्ट",
+    "synonyms": [
+      "clear",
+      "evident",
+      "apparent"
+    ],
+    "antonyms": [
+      "unclear",
+      "obscure"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "offer",
+    "meaning_en": "present for acceptance",
+    "meaning_hi": "प्रस्ताव देना",
+    "synonyms": [
+      "propose",
+      "present",
+      "extend"
+    ],
+    "antonyms": [
+      "withdraw",
+      "refuse"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "omit",
+    "meaning_en": "leave out",
+    "meaning_hi": "छोड़ देना",
+    "synonyms": [
+      "exclude",
+      "skip",
+      "disregard"
+    ],
+    "antonyms": [
+      "include",
+      "add"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "oppose",
+    "meaning_en": "resist",
+    "meaning_hi": "विरोध करना",
+    "synonyms": [
+      "resist",
+      "contradict",
+      "defy"
+    ],
+    "antonyms": [
+      "support",
+      "approve"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "order",
+    "meaning_en": "command",
+    "meaning_hi": "आदेश",
+    "synonyms": [
+      "command",
+      "directive",
+      "instruction"
+    ],
+    "antonyms": [
+      "disorder",
+      "chaos"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "overcome",
+    "meaning_en": "succeed against difficulty",
+    "meaning_hi": "पार पाना",
+    "synonyms": [
+      "conquer",
+      "defeat",
+      "surmount"
+    ],
+    "antonyms": [
+      "succumb",
+      "surrender"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "pain",
+    "meaning_en": "physical suffering",
+    "meaning_hi": "दर्द",
+    "synonyms": [
+      "agony",
+      "suffering",
+      "ache"
+    ],
+    "antonyms": [
+      "pleasure",
+      "comfort"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "part",
+    "meaning_en": "portion",
+    "meaning_hi": "भाग",
+    "synonyms": [
+      "portion",
+      "segment",
+      "section"
+    ],
+    "antonyms": [
+      "whole",
+      "entire"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "peace",
+    "meaning_en": "state of calm",
+    "meaning_hi": "शांति",
+    "synonyms": [
+      "calm",
+      "tranquility",
+      "harmony"
+    ],
+    "antonyms": [
+      "war",
+      "conflict"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "people",
+    "meaning_en": "persons collectively",
+    "meaning_hi": "लोग",
+    "synonyms": [
+      "persons",
+      "individuals",
+      "population"
+    ],
+    "antonyms": [
+      "nobody",
+      "none"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "place",
+    "meaning_en": "location",
+    "meaning_hi": "स्थान",
+    "synonyms": [
+      "location",
+      "site",
+      "spot"
+    ],
+    "antonyms": [
+      "nowhere",
+      "void"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "plan",
+    "meaning_en": "scheme for action",
+    "meaning_hi": "योजना",
+    "synonyms": [
+      "scheme",
+      "strategy",
+      "design"
+    ],
+    "antonyms": [
+      "improvise",
+      "chance"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "poor",
+    "meaning_en": "lacking wealth",
+    "meaning_hi": "गरीब",
+    "synonyms": [
+      "needy",
+      "destitute",
+      "impoverished"
+    ],
+    "antonyms": [
+      "rich",
+      "wealthy"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "praise",
+    "meaning_en": "express approval",
+    "meaning_hi": "प्रशंसा करना",
+    "synonyms": [
+      "laud",
+      "extol",
+      "commend"
+    ],
+    "antonyms": [
+      "criticize",
+      "condemn"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "prevent",
+    "meaning_en": "stop from happening",
+    "meaning_hi": "रोकना",
+    "synonyms": [
+      "hinder",
+      "obstruct",
+      "block"
+    ],
+    "antonyms": [
+      "allow",
+      "permit"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "problem",
+    "meaning_en": "difficulty",
+    "meaning_hi": "समस्या",
+    "synonyms": [
+      "issue",
+      "difficulty",
+      "trouble"
+    ],
+    "antonyms": [
+      "solution",
+      "ease"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "qualified",
+    "meaning_en": "having necessary skills",
+    "meaning_hi": "योग्य",
+    "synonyms": [
+      "competent",
+      "capable",
+      "eligible"
+    ],
+    "antonyms": [
+      "unqualified",
+      "incompetent"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "quarrel",
+    "meaning_en": "angry dispute",
+    "meaning_hi": "झगड़ा",
+    "synonyms": [
+      "dispute",
+      "argument",
+      "conflict"
+    ],
+    "antonyms": [
+      "agreement",
+      "harmony"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "quench",
+    "meaning_en": "satisfy a need fully",
+    "meaning_hi": "बुझाना",
+    "synonyms": [
+      "satisfy",
+      "extinguish",
+      "suppress"
+    ],
+    "antonyms": [
+      "ignite",
+      "intensify"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "query",
+    "meaning_en": "ask or question",
+    "meaning_hi": "प्रश्न करना",
+    "synonyms": [
+      "question",
+      "inquire",
+      "ask"
+    ],
+    "antonyms": [
+      "answer",
+      "respond"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "quick",
+    "meaning_en": "moving fast",
+    "meaning_hi": "तेज़",
+    "synonyms": [
+      "rapid",
+      "swift",
+      "speedy"
+    ],
+    "antonyms": [
+      "slow",
+      "sluggish"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "quiet",
+    "meaning_en": "making little noise",
+    "meaning_hi": "शांत",
+    "synonyms": [
+      "silent",
+      "calm",
+      "still"
+    ],
+    "antonyms": [
+      "loud",
+      "noisy"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "quit",
+    "meaning_en": "leave or stop",
+    "meaning_hi": "छोड़ना",
+    "synonyms": [
+      "leave",
+      "abandon",
+      "resign"
+    ],
+    "antonyms": [
+      "stay",
+      "continue"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "raise",
+    "meaning_en": "lift upward",
+    "meaning_hi": "उठाना",
+    "synonyms": [
+      "lift",
+      "elevate",
+      "hoist"
+    ],
+    "antonyms": [
+      "lower",
+      "drop"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "rare",
+    "meaning_en": "not common",
+    "meaning_hi": "दुर्लभ",
+    "synonyms": [
+      "scarce",
+      "uncommon",
+      "infrequent"
+    ],
+    "antonyms": [
+      "common",
+      "abundant"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "real",
+    "meaning_en": "true or genuine",
+    "meaning_hi": "वास्तविक",
+    "synonyms": [
+      "genuine",
+      "authentic",
+      "actual"
+    ],
+    "antonyms": [
+      "fake",
+      "false"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "reduce",
+    "meaning_en": "make smaller",
+    "meaning_hi": "कम करना",
+    "synonyms": [
+      "lessen",
+      "diminish",
+      "decrease"
+    ],
+    "antonyms": [
+      "increase",
+      "expand"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "reject",
+    "meaning_en": "refuse to accept",
+    "meaning_hi": "अस्वीकार करना",
+    "synonyms": [
+      "refuse",
+      "repudiate",
+      "decline"
+    ],
+    "antonyms": [
+      "accept",
+      "approve"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "rich",
+    "meaning_en": "having wealth",
+    "meaning_hi": "धनी",
+    "synonyms": [
+      "wealthy",
+      "affluent",
+      "prosperous"
+    ],
+    "antonyms": [
+      "poor",
+      "needy"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "right",
+    "meaning_en": "correct",
+    "meaning_hi": "सही",
+    "synonyms": [
+      "correct",
+      "accurate",
+      "proper"
+    ],
+    "antonyms": [
+      "wrong",
+      "incorrect"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "rise",
+    "meaning_en": "move upward",
+    "meaning_hi": "ऊपर उठना",
+    "synonyms": [
+      "ascend",
+      "soar",
+      "climb"
+    ],
+    "antonyms": [
+      "fall",
+      "descend"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "rule",
+    "meaning_en": "govern",
+    "meaning_hi": "शासन करना",
+    "synonyms": [
+      "govern",
+      "regulate",
+      "direct"
+    ],
+    "antonyms": [
+      "obey",
+      "submit"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "sad",
+    "meaning_en": "feeling sorrow",
+    "meaning_hi": "दुखी",
+    "synonyms": [
+      "unhappy",
+      "sorrowful",
+      "gloomy"
+    ],
+    "antonyms": [
+      "happy",
+      "joyful"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "safe",
+    "meaning_en": "free from danger",
+    "meaning_hi": "सुरक्षित",
+    "synonyms": [
+      "secure",
+      "protected",
+      "guarded"
+    ],
+    "antonyms": [
+      "unsafe",
+      "dangerous"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "say",
+    "meaning_en": "express in words",
+    "meaning_hi": "कहना",
+    "synonyms": [
+      "state",
+      "declare",
+      "utter"
+    ],
+    "antonyms": [
+      "deny",
+      "conceal"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "see",
+    "meaning_en": "perceive with eyes",
+    "meaning_hi": "देखना",
+    "synonyms": [
+      "observe",
+      "perceive",
+      "view"
+    ],
+    "antonyms": [
+      "ignore",
+      "miss"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "show",
+    "meaning_en": "display",
+    "meaning_hi": "दिखाना",
+    "synonyms": [
+      "display",
+      "exhibit",
+      "reveal"
+    ],
+    "antonyms": [
+      "hide",
+      "conceal"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "small",
+    "meaning_en": "little in size",
+    "meaning_hi": "छोटा",
+    "synonyms": [
+      "tiny",
+      "minute",
+      "little"
+    ],
+    "antonyms": [
+      "big",
+      "large"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "start",
+    "meaning_en": "begin",
+    "meaning_hi": "आरंभ करना",
+    "synonyms": [
+      "begin",
+      "commence",
+      "initiate"
+    ],
+    "antonyms": [
+      "end",
+      "finish"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "stop",
+    "meaning_en": "cease action",
+    "meaning_hi": "रोकना",
+    "synonyms": [
+      "cease",
+      "halt",
+      "terminate"
+    ],
+    "antonyms": [
+      "continue",
+      "proceed"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "strong",
+    "meaning_en": "having power",
+    "meaning_hi": "मजबूत",
+    "synonyms": [
+      "robust",
+      "sturdy",
+      "powerful"
+    ],
+    "antonyms": [
+      "weak",
+      "fragile"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "support",
+    "meaning_en": "give assistance",
+    "meaning_hi": "समर्थन करना",
+    "synonyms": [
+      "aid",
+      "assist",
+      "back"
+    ],
+    "antonyms": [
+      "oppose",
+      "hinder"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "sure",
+    "meaning_en": "certain",
+    "meaning_hi": "निश्चित",
+    "synonyms": [
+      "certain",
+      "definite",
+      "assured"
+    ],
+    "antonyms": [
+      "uncertain",
+      "doubtful"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "take",
+    "meaning_en": "seize",
+    "meaning_hi": "लेना",
+    "synonyms": [
+      "seize",
+      "grasp",
+      "capture"
+    ],
+    "antonyms": [
+      "give",
+      "release"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "talk",
+    "meaning_en": "speak",
+    "meaning_hi": "बात करना",
+    "synonyms": [
+      "speak",
+      "converse",
+      "chat"
+    ],
+    "antonyms": [
+      "listen",
+      "silence"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "teach",
+    "meaning_en": "give knowledge to",
+    "meaning_hi": "सिखाना",
+    "synonyms": [
+      "instruct",
+      "educate",
+      "train"
+    ],
+    "antonyms": [
+      "learn",
+      "study"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "tell",
+    "meaning_en": "inform",
+    "meaning_hi": "बताना",
+    "synonyms": [
+      "inform",
+      "notify",
+      "relate"
+    ],
+    "antonyms": [
+      "conceal",
+      "hide"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "think",
+    "meaning_en": "use mind",
+    "meaning_hi": "सोचना",
+    "synonyms": [
+      "ponder",
+      "reflect",
+      "consider"
+    ],
+    "antonyms": [
+      "ignore",
+      "neglect"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "tolerate",
+    "meaning_en": "accept patiently",
+    "meaning_hi": "सहन करना",
+    "synonyms": [
+      "endure",
+      "bear",
+      "accept"
+    ],
+    "antonyms": [
+      "reject",
+      "resist"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "true",
+    "meaning_en": "correct",
+    "meaning_hi": "सत्य",
+    "synonyms": [
+      "correct",
+      "accurate",
+      "valid"
+    ],
+    "antonyms": [
+      "false",
+      "wrong"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "trust",
+    "meaning_en": "firm belief in reliability",
+    "meaning_hi": "विश्वास",
+    "synonyms": [
+      "confidence",
+      "faith",
+      "reliance"
+    ],
+    "antonyms": [
+      "distrust",
+      "doubt"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "try",
+    "meaning_en": "attempt",
+    "meaning_hi": "प्रयास करना",
+    "synonyms": [
+      "attempt",
+      "endeavor",
+      "strive"
+    ],
+    "antonyms": [
+      "quit",
+      "abandon"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "understand",
+    "meaning_en": "comprehend",
+    "meaning_hi": "समझना",
+    "synonyms": [
+      "comprehend",
+      "grasp",
+      "perceive"
+    ],
+    "antonyms": [
+      "misunderstand",
+      "ignore"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "unique",
+    "meaning_en": "one of a kind",
+    "meaning_hi": "अद्वितीय",
+    "synonyms": [
+      "distinctive",
+      "rare",
+      "singular"
+    ],
+    "antonyms": [
+      "common",
+      "ordinary"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "unite",
+    "meaning_en": "come together",
+    "meaning_hi": "एकजुट होना",
+    "synonyms": [
+      "join",
+      "merge",
+      "combine"
+    ],
+    "antonyms": [
+      "divide",
+      "separate"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "uplift",
+    "meaning_en": "raise to higher level",
+    "meaning_hi": "उत्थान करना",
+    "synonyms": [
+      "raise",
+      "elevate",
+      "improve"
+    ],
+    "antonyms": [
+      "degrade",
+      "lower"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "uphold",
+    "meaning_en": "support or maintain",
+    "meaning_hi": "समर्थन करना",
+    "synonyms": [
+      "support",
+      "maintain",
+      "sustain"
+    ],
+    "antonyms": [
+      "abandon",
+      "oppose"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "urgent",
+    "meaning_en": "requiring immediate action",
+    "meaning_hi": "अत्यावश्यक",
+    "synonyms": [
+      "pressing",
+      "critical",
+      "immediate"
+    ],
+    "antonyms": [
+      "unimportant",
+      "trivial"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "use",
+    "meaning_en": "employ",
+    "meaning_hi": "उपयोग करना",
+    "synonyms": [
+      "utilize",
+      "employ",
+      "apply"
+    ],
+    "antonyms": [
+      "neglect",
+      "waste"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "usual",
+    "meaning_en": "common",
+    "meaning_hi": "सामान्य",
+    "synonyms": [
+      "common",
+      "normal",
+      "typical"
+    ],
+    "antonyms": [
+      "unusual",
+      "rare"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "vague",
+    "meaning_en": "not clear",
+    "meaning_hi": "अस्पष्ट",
+    "synonyms": [
+      "unclear",
+      "ambiguous",
+      "obscure"
+    ],
+    "antonyms": [
+      "clear",
+      "precise"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "valid",
+    "meaning_en": "legally or logically sound",
+    "meaning_hi": "वैध",
+    "synonyms": [
+      "sound",
+      "legitimate",
+      "justified"
+    ],
+    "antonyms": [
+      "invalid",
+      "unsound"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "value",
+    "meaning_en": "worth",
+    "meaning_hi": "मूल्य",
+    "synonyms": [
+      "worth",
+      "importance",
+      "merit"
+    ],
+    "antonyms": [
+      "worthless",
+      "trivial"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "vast",
+    "meaning_en": "very great in size",
+    "meaning_hi": "विशाल",
+    "synonyms": [
+      "huge",
+      "immense",
+      "enormous"
+    ],
+    "antonyms": [
+      "tiny",
+      "small"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "very",
+    "meaning_en": "to high degree",
+    "meaning_hi": "बहुत",
+    "synonyms": [
+      "extremely",
+      "highly",
+      "greatly"
+    ],
+    "antonyms": [
+      "slightly",
+      "barely"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "view",
+    "meaning_en": "opinion",
+    "meaning_hi": "मत",
+    "synonyms": [
+      "opinion",
+      "perspective",
+      "outlook"
+    ],
+    "antonyms": [
+      "fact",
+      "reality"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "vital",
+    "meaning_en": "absolutely necessary",
+    "meaning_hi": "महत्वपूर्ण",
+    "synonyms": [
+      "essential",
+      "crucial",
+      "critical"
+    ],
+    "antonyms": [
+      "trivial",
+      "unimportant"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "vivid",
+    "meaning_en": "very clear and bright",
+    "meaning_hi": "स्पष्ट और जीवंत",
+    "synonyms": [
+      "bright",
+      "striking",
+      "lively"
+    ],
+    "antonyms": [
+      "dull",
+      "faint"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "want",
+    "meaning_en": "desire",
+    "meaning_hi": "चाहना",
+    "synonyms": [
+      "desire",
+      "wish",
+      "crave"
+    ],
+    "antonyms": [
+      "reject",
+      "avoid"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "warn",
+    "meaning_en": "give caution",
+    "meaning_hi": "चेतावनी देना",
+    "synonyms": [
+      "caution",
+      "alert",
+      "advise"
+    ],
+    "antonyms": [
+      "mislead",
+      "deceive"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "waste",
+    "meaning_en": "use carelessly",
+    "meaning_hi": "बर्बाद करना",
+    "synonyms": [
+      "squander",
+      "misuse",
+      "deplete"
+    ],
+    "antonyms": [
+      "conserve",
+      "save"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "weak",
+    "meaning_en": "lacking strength",
+    "meaning_hi": "कमजोर",
+    "synonyms": [
+      "frail",
+      "feeble",
+      "fragile"
+    ],
+    "antonyms": [
+      "strong",
+      "powerful"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "willing",
+    "meaning_en": "ready to do something",
+    "meaning_hi": "तैयार",
+    "synonyms": [
+      "ready",
+      "prepared",
+      "eager"
+    ],
+    "antonyms": [
+      "reluctant",
+      "unwilling"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "wise",
+    "meaning_en": "having good judgment",
+    "meaning_hi": "बुद्धिमान",
+    "synonyms": [
+      "prudent",
+      "sensible",
+      "sagacious"
+    ],
+    "antonyms": [
+      "foolish",
+      "unwise"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "work",
+    "meaning_en": "labor",
+    "meaning_hi": "काम",
+    "synonyms": [
+      "labor",
+      "toil",
+      "effort"
+    ],
+    "antonyms": [
+      "rest",
+      "idle"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "wrong",
+    "meaning_en": "not correct",
+    "meaning_hi": "गलत",
+    "synonyms": [
+      "incorrect",
+      "false",
+      "erroneous"
+    ],
+    "antonyms": [
+      "right",
+      "correct"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "xenial",
+    "meaning_en": "hospitable to strangers",
+    "meaning_hi": "अतिथि-सत्कारी",
+    "synonyms": [
+      "hospitable",
+      "welcoming",
+      "generous"
+    ],
+    "antonyms": [
+      "hostile",
+      "unwelcoming"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "xerography",
+    "meaning_en": "dry copying process",
+    "meaning_hi": "शुष्क छपाई",
+    "synonyms": [
+      "copying",
+      "duplication",
+      "printing"
+    ],
+    "antonyms": [
+      "original",
+      "handwriting"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "yearn",
+    "meaning_en": "long strongly",
+    "meaning_hi": "लालायित होना",
+    "synonyms": [
+      "long",
+      "crave",
+      "desire"
+    ],
+    "antonyms": [
+      "reject",
+      "dislike"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "yell",
+    "meaning_en": "shout loudly",
+    "meaning_hi": "चिल्लाना",
+    "synonyms": [
+      "shout",
+      "scream",
+      "holler"
+    ],
+    "antonyms": [
+      "whisper",
+      "murmur"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "yield",
+    "meaning_en": "surrender or produce results",
+    "meaning_hi": "समर्पण करना/उत्पन्न करना",
+    "synonyms": [
+      "surrender",
+      "submit",
+      "concede"
+    ],
+    "antonyms": [
+      "resist",
+      "oppose"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "youthful",
+    "meaning_en": "having qualities of youth",
+    "meaning_hi": "युवा जैसा",
+    "synonyms": [
+      "young",
+      "juvenile",
+      "fresh"
+    ],
+    "antonyms": [
+      "old",
+      "aged"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "zeal",
+    "meaning_en": "great enthusiasm",
+    "meaning_hi": "उत्साह",
+    "synonyms": [
+      "enthusiasm",
+      "fervor",
+      "passion"
+    ],
+    "antonyms": [
+      "apathy",
+      "indifference"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "zealous",
+    "meaning_en": "enthusiastic and devoted",
+    "meaning_hi": "उत्साही",
+    "synonyms": [
+      "fervent",
+      "passionate",
+      "dedicated"
+    ],
+    "antonyms": [
+      "apathetic",
+      "indifferent"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "zenith",
+    "meaning_en": "highest point",
+    "meaning_hi": "चरम",
+    "synonyms": [
+      "peak",
+      "apex",
+      "summit"
+    ],
+    "antonyms": [
+      "nadir",
+      "bottom"
+    ],
+    "category": "synonyms"
+  },
+  {
+    "word": "zone",
+    "meaning_en": "defined area",
+    "meaning_hi": "क्षेत्र",
+    "synonyms": [
+      "area",
+      "region",
+      "district"
+    ],
+    "antonyms": [
+      "whole",
+      "entirety"
+    ],
+    "category": "synonyms"
+  }
+]

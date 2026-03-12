@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: vocabo-backend
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: PREMIUM_AMOUNT_PAISE
+        value: "19900"
+      - key: PREMIUM_CURRENCY
+        value: INR

@@ -1,0 +1,2005 @@
+[
+  {
+    "word": "Accept",
+    "confusion_with": [
+      "Except"
+    ],
+    "meaning_hi": "स्वीकार करना",
+    "meaning_en": "To receive or agree",
+    "example": "She accepted the job offer gladly.",
+    "category": "confusing"
+  },
+  {
+    "word": "Adverse",
+    "confusion_with": [
+      "Averse"
+    ],
+    "meaning_hi": "प्रतिकूल",
+    "meaning_en": "Unfavourable or harmful",
+    "example": "Adverse weather delayed the match.",
+    "category": "confusing"
+  },
+  {
+    "word": "Advice",
+    "confusion_with": [
+      "Advise"
+    ],
+    "meaning_hi": "सलाह (संज्ञा)",
+    "meaning_en": "Guidance given to someone (noun)",
+    "example": "The doctor gave him sound advice.",
+    "category": "confusing"
+  },
+  {
+    "word": "Advise",
+    "confusion_with": [
+      "Advice"
+    ],
+    "meaning_hi": "सलाह देना (क्रिया)",
+    "meaning_en": "To recommend or counsel (verb)",
+    "example": "I advise you to study regularly.",
+    "category": "confusing"
+  },
+  {
+    "word": "Affect",
+    "confusion_with": [
+      "Effect"
+    ],
+    "meaning_hi": "प्रभाव डालना",
+    "meaning_en": "To influence (verb)",
+    "example": "Noise pollution affects concentration badly.",
+    "category": "confusing"
+  },
+  {
+    "word": "All ready",
+    "confusion_with": [
+      "Already"
+    ],
+    "meaning_hi": "पूरी तरह तैयार",
+    "meaning_en": "Completely prepared",
+    "example": "The troops were all ready to march.",
+    "category": "confusing"
+  },
+  {
+    "word": "Allude",
+    "confusion_with": [
+      "Elude"
+    ],
+    "meaning_hi": "संकेत करना",
+    "meaning_en": "To refer to something indirectly",
+    "example": "The speaker alluded to past failures.",
+    "category": "confusing"
+  },
+  {
+    "word": "Already",
+    "confusion_with": [
+      "All ready"
+    ],
+    "meaning_hi": "पहले से",
+    "meaning_en": "Before the expected time",
+    "example": "She had already submitted the form.",
+    "category": "confusing"
+  },
+  {
+    "word": "Altar",
+    "confusion_with": [
+      "Alter"
+    ],
+    "meaning_hi": "वेदी",
+    "meaning_en": "Sacred table used in religious ceremonies",
+    "example": "Flowers were placed on the altar.",
+    "category": "confusing"
+  },
+  {
+    "word": "Alter",
+    "confusion_with": [
+      "Altar"
+    ],
+    "meaning_hi": "बदलना",
+    "meaning_en": "To make changes to something",
+    "example": "He altered the plan at the last minute.",
+    "category": "confusing"
+  },
+  {
+    "word": "Amiable",
+    "confusion_with": [
+      "Amicable"
+    ],
+    "meaning_hi": "मिलनसार (व्यक्ति)",
+    "meaning_en": "Friendly and pleasant (of people)",
+    "example": "She has an amiable personality.",
+    "category": "confusing"
+  },
+  {
+    "word": "Amicable",
+    "confusion_with": [
+      "Amiable"
+    ],
+    "meaning_hi": "सौहार्दपूर्ण (स्थिति)",
+    "meaning_en": "Done in a friendly spirit (of situations)",
+    "example": "They reached an amicable settlement.",
+    "category": "confusing"
+  },
+  {
+    "word": "Assure",
+    "confusion_with": [
+      "Ensure",
+      "Insure"
+    ],
+    "meaning_hi": "आश्वस्त करना",
+    "meaning_en": "To promise or give confidence to someone",
+    "example": "I assure you the results will be fair.",
+    "category": "confusing"
+  },
+  {
+    "word": "Averse",
+    "confusion_with": [
+      "Adverse"
+    ],
+    "meaning_hi": "विरुद्ध / अनिच्छुक",
+    "meaning_en": "Strongly disinclined",
+    "example": "She is averse to taking risks.",
+    "category": "confusing"
+  },
+  {
+    "word": "Bare",
+    "confusion_with": [
+      "Bear"
+    ],
+    "meaning_hi": "नंगा / खुला",
+    "meaning_en": "Uncovered or exposed",
+    "example": "He walked on bare feet through the mud.",
+    "category": "confusing"
+  },
+  {
+    "word": "Bear",
+    "confusion_with": [
+      "Bare"
+    ],
+    "meaning_hi": "सहन करना / भालू",
+    "meaning_en": "To endure, or a large wild animal",
+    "example": "She could not bear the pain any longer.",
+    "category": "confusing"
+  },
+  {
+    "word": "Berth",
+    "confusion_with": [
+      "Birth"
+    ],
+    "meaning_hi": "शयन स्थान (रेल/जहाज़)",
+    "meaning_en": "Sleeping place in a train or ship",
+    "example": "I reserved an upper berth on the train.",
+    "category": "confusing"
+  },
+  {
+    "word": "Beside",
+    "confusion_with": [
+      "Besides"
+    ],
+    "meaning_hi": "के पास / बगल में",
+    "meaning_en": "Next to or at the side of",
+    "example": "He sat beside me during the ceremony.",
+    "category": "confusing"
+  },
+  {
+    "word": "Besides",
+    "confusion_with": [
+      "Beside"
+    ],
+    "meaning_hi": "इसके अतिरिक्त",
+    "meaning_en": "In addition to",
+    "example": "Besides English, she knows three languages.",
+    "category": "confusing"
+  },
+  {
+    "word": "Birth",
+    "confusion_with": [
+      "Berth"
+    ],
+    "meaning_hi": "जन्म",
+    "meaning_en": "The act of being born",
+    "example": "His birth was celebrated with great joy.",
+    "category": "confusing"
+  },
+  {
+    "word": "Borrow",
+    "confusion_with": [
+      "Lend"
+    ],
+    "meaning_hi": "उधार लेना",
+    "meaning_en": "To take something temporarily",
+    "example": "May I borrow your umbrella please?",
+    "category": "confusing"
+  },
+  {
+    "word": "Brake",
+    "confusion_with": [
+      "Break"
+    ],
+    "meaning_hi": "ब्रेक (वाहन रोकने का यंत्र)",
+    "meaning_en": "Device used to stop a vehicle",
+    "example": "He pressed the brake hard to avoid a collision.",
+    "category": "confusing"
+  },
+  {
+    "word": "Break",
+    "confusion_with": [
+      "Brake"
+    ],
+    "meaning_hi": "तोड़ना",
+    "meaning_en": "To separate into pieces by force",
+    "example": "Do not break the glass vase.",
+    "category": "confusing"
+  },
+  {
+    "word": "Buy",
+    "confusion_with": [
+      "By",
+      "Bye"
+    ],
+    "meaning_hi": "खरीदना",
+    "meaning_en": "To purchase something",
+    "example": "I will buy a new book tomorrow.",
+    "category": "confusing"
+  },
+  {
+    "word": "By",
+    "confusion_with": [
+      "Buy",
+      "Bye"
+    ],
+    "meaning_hi": "द्वारा / पास",
+    "meaning_en": "Near, through, or indicating agent",
+    "example": "The novel was written by Premchand.",
+    "category": "confusing"
+  },
+  {
+    "word": "Bye",
+    "confusion_with": [
+      "Buy",
+      "By"
+    ],
+    "meaning_hi": "अलविदा",
+    "meaning_en": "An informal farewell",
+    "example": "She waved bye and left the room.",
+    "category": "confusing"
+  },
+  {
+    "word": "Cloth",
+    "confusion_with": [
+      "Clothe"
+    ],
+    "meaning_hi": "कपड़ा",
+    "meaning_en": "Woven fabric or material",
+    "example": "This cotton cloth is very soft.",
+    "category": "confusing"
+  },
+  {
+    "word": "Clothe",
+    "confusion_with": [
+      "Cloth"
+    ],
+    "meaning_hi": "कपड़े पहनाना",
+    "meaning_en": "To dress or provide clothes to someone",
+    "example": "She clothed the child in warm layers.",
+    "category": "confusing"
+  },
+  {
+    "word": "Coarse",
+    "confusion_with": [
+      "Course"
+    ],
+    "meaning_hi": "खुरदरा",
+    "meaning_en": "Rough in texture or manner",
+    "example": "The coarse fabric irritated his skin.",
+    "category": "confusing"
+  },
+  {
+    "word": "Colonel",
+    "confusion_with": [
+      "Kernel"
+    ],
+    "meaning_hi": "कर्नल (सैन्य पद)",
+    "meaning_en": "A senior army officer rank",
+    "example": "The colonel led his regiment into battle.",
+    "category": "confusing"
+  },
+  {
+    "word": "Complement",
+    "confusion_with": [
+      "Compliment"
+    ],
+    "meaning_hi": "पूरक / पूर्ण करने वाला",
+    "meaning_en": "Something that completes or enhances",
+    "example": "The sauce perfectly complements the dish.",
+    "category": "confusing"
+  },
+  {
+    "word": "Compliment",
+    "confusion_with": [
+      "Complement"
+    ],
+    "meaning_hi": "प्रशंसा",
+    "meaning_en": "An expression of praise",
+    "example": "She received a compliment on her speech.",
+    "category": "confusing"
+  },
+  {
+    "word": "Continual",
+    "confusion_with": [
+      "Continuous"
+    ],
+    "meaning_hi": "बार-बार होने वाला",
+    "meaning_en": "Frequently recurring with short breaks",
+    "example": "Continual interruptions broke his concentration.",
+    "category": "confusing"
+  },
+  {
+    "word": "Continuous",
+    "confusion_with": [
+      "Continual"
+    ],
+    "meaning_hi": "बिना रुके जारी",
+    "meaning_en": "Without any interruption at all",
+    "example": "Continuous rain flooded the roads overnight.",
+    "category": "confusing"
+  },
+  {
+    "word": "Council",
+    "confusion_with": [
+      "Counsel"
+    ],
+    "meaning_hi": "परिषद",
+    "meaning_en": "An advisory or governing body",
+    "example": "The municipal council met to discuss roads.",
+    "category": "confusing"
+  },
+  {
+    "word": "Counsel",
+    "confusion_with": [
+      "Council"
+    ],
+    "meaning_hi": "सलाह / वकील",
+    "meaning_en": "Legal advice or a lawyer",
+    "example": "He sought the counsel of a senior advocate.",
+    "category": "confusing"
+  },
+  {
+    "word": "Course",
+    "confusion_with": [
+      "Coarse"
+    ],
+    "meaning_hi": "पाठ्यक्रम / मार्ग",
+    "meaning_en": "Study programme or direction of movement",
+    "example": "He enrolled in an engineering course.",
+    "category": "confusing"
+  },
+  {
+    "word": "Credible",
+    "confusion_with": [
+      "Credulous"
+    ],
+    "meaning_hi": "विश्वसनीय",
+    "meaning_en": "Capable of being believed",
+    "example": "The witness gave a credible account of events.",
+    "category": "confusing"
+  },
+  {
+    "word": "Credulous",
+    "confusion_with": [
+      "Credible"
+    ],
+    "meaning_hi": "भोला / आसानी से विश्वास करने वाला",
+    "meaning_en": "Too ready to believe things",
+    "example": "A credulous person is easily cheated.",
+    "category": "confusing"
+  },
+  {
+    "word": "Desert",
+    "confusion_with": [
+      "Dessert"
+    ],
+    "meaning_hi": "रेगिस्तान / त्यागना",
+    "meaning_en": "Dry barren land, or to abandon",
+    "example": "Camels are well suited to life in the desert.",
+    "category": "confusing"
+  },
+  {
+    "word": "Dessert",
+    "confusion_with": [
+      "Desert"
+    ],
+    "meaning_hi": "मिठाई (खाने के बाद)",
+    "meaning_en": "Sweet course served after a meal",
+    "example": "We had gulab jamun for dessert.",
+    "category": "confusing"
+  },
+  {
+    "word": "Device",
+    "confusion_with": [
+      "Devise"
+    ],
+    "meaning_hi": "उपकरण (संज्ञा)",
+    "meaning_en": "A machine or tool (noun)",
+    "example": "This device measures body temperature accurately.",
+    "category": "confusing"
+  },
+  {
+    "word": "Devise",
+    "confusion_with": [
+      "Device"
+    ],
+    "meaning_hi": "योजना बनाना (क्रिया)",
+    "meaning_en": "To plan or invent something (verb)",
+    "example": "She devised a clever strategy to win.",
+    "category": "confusing"
+  },
+  {
+    "word": "Disinterested",
+    "confusion_with": [
+      "Uninterested"
+    ],
+    "meaning_hi": "निष्पक्ष",
+    "meaning_en": "Impartial, having no personal stake",
+    "example": "A judge must be completely disinterested.",
+    "category": "confusing"
+  },
+  {
+    "word": "Draft",
+    "confusion_with": [
+      "Draught"
+    ],
+    "meaning_hi": "मसौदा",
+    "meaning_en": "A rough version of a document",
+    "example": "Submit your first draft before the deadline.",
+    "category": "confusing"
+  },
+  {
+    "word": "Draught",
+    "confusion_with": [
+      "Draft"
+    ],
+    "meaning_hi": "हवा का झोंका",
+    "meaning_en": "A current of cold air indoors",
+    "example": "A cold draught entered through the broken window.",
+    "category": "confusing"
+  },
+  {
+    "word": "Earn",
+    "confusion_with": [
+      "Yearn"
+    ],
+    "meaning_hi": "कमाना",
+    "meaning_en": "To obtain money through work or effort",
+    "example": "He earns a comfortable salary at the firm.",
+    "category": "confusing"
+  },
+  {
+    "word": "Economic",
+    "confusion_with": [
+      "Economical"
+    ],
+    "meaning_hi": "आर्थिक",
+    "meaning_en": "Relating to the economy or finances",
+    "example": "Economic reforms boosted growth significantly.",
+    "category": "confusing"
+  },
+  {
+    "word": "Economical",
+    "confusion_with": [
+      "Economic"
+    ],
+    "meaning_hi": "मितव्ययी",
+    "meaning_en": "Using money or resources carefully",
+    "example": "She is very economical with household expenses.",
+    "category": "confusing"
+  },
+  {
+    "word": "Effect",
+    "confusion_with": [
+      "Affect"
+    ],
+    "meaning_hi": "प्रभाव (संज्ञा)",
+    "meaning_en": "Result or outcome (noun)",
+    "example": "The effect of the medicine was immediate.",
+    "category": "confusing"
+  },
+  {
+    "word": "Elicit",
+    "confusion_with": [
+      "Illicit"
+    ],
+    "meaning_hi": "प्रकट कराना",
+    "meaning_en": "To draw out a response or reaction",
+    "example": "The question elicited an honest answer.",
+    "category": "confusing"
+  },
+  {
+    "word": "Eligible",
+    "confusion_with": [
+      "Illegible"
+    ],
+    "meaning_hi": "योग्य / पात्र",
+    "meaning_en": "Qualified or suitable for something",
+    "example": "He is eligible for the scholarship.",
+    "category": "confusing"
+  },
+  {
+    "word": "Elude",
+    "confusion_with": [
+      "Allude"
+    ],
+    "meaning_hi": "बचकर निकल जाना",
+    "meaning_en": "To escape or avoid cleverly",
+    "example": "The thief eluded the police for weeks.",
+    "category": "confusing"
+  },
+  {
+    "word": "Eminent",
+    "confusion_with": [
+      "Imminent",
+      "Immanent"
+    ],
+    "meaning_hi": "प्रसिद्ध",
+    "meaning_en": "Famous or distinguished in a field",
+    "example": "He is an eminent scientist in the country.",
+    "category": "confusing"
+  },
+  {
+    "word": "Empathetic",
+    "confusion_with": [
+      "Sympathetic"
+    ],
+    "meaning_hi": "समदर्शी",
+    "meaning_en": "Able to understand and share another's feelings",
+    "example": "A good counsellor must be empathetic to clients.",
+    "category": "confusing"
+  },
+  {
+    "word": "Ensure",
+    "confusion_with": [
+      "Insure",
+      "Assure"
+    ],
+    "meaning_hi": "सुनिश्चित करना",
+    "meaning_en": "To make certain that something happens",
+    "example": "Ensure all windows are locked before leaving.",
+    "category": "confusing"
+  },
+  {
+    "word": "Envious",
+    "confusion_with": [
+      "Jealous"
+    ],
+    "meaning_hi": "ईर्ष्यालु (किसी की वस्तु चाहना)",
+    "meaning_en": "Wishing you had what another person has",
+    "example": "She was envious of his success abroad.",
+    "category": "confusing"
+  },
+  {
+    "word": "Except",
+    "confusion_with": [
+      "Accept"
+    ],
+    "meaning_hi": "को छोड़कर",
+    "meaning_en": "Excluding",
+    "example": "Everyone attended except Rahul.",
+    "category": "confusing"
+  },
+  {
+    "word": "Explicit",
+    "confusion_with": [
+      "Implicit"
+    ],
+    "meaning_hi": "स्पष्ट / प्रत्यक्ष",
+    "meaning_en": "Stated clearly and in detail",
+    "example": "Please give explicit instructions to avoid confusion.",
+    "category": "confusing"
+  },
+  {
+    "word": "Farther",
+    "confusion_with": [
+      "Further"
+    ],
+    "meaning_hi": "भौतिक दूरी में अधिक दूर",
+    "meaning_en": "Greater physical distance",
+    "example": "Jaipur is farther from Delhi than Agra.",
+    "category": "confusing"
+  },
+  {
+    "word": "Fewer",
+    "confusion_with": [
+      "Less"
+    ],
+    "meaning_hi": "कम (गिनने योग्य वस्तुओं के लिए)",
+    "meaning_en": "Smaller number of countable things",
+    "example": "Fewer students passed this year than last.",
+    "category": "confusing"
+  },
+  {
+    "word": "Flaunt",
+    "confusion_with": [
+      "Flout"
+    ],
+    "meaning_hi": "दिखावा करना",
+    "meaning_en": "To display something proudly or ostentatiously",
+    "example": "He flaunts his wealth at every occasion.",
+    "category": "confusing"
+  },
+  {
+    "word": "Flout",
+    "confusion_with": [
+      "Flaunt"
+    ],
+    "meaning_hi": "अवहेलना करना",
+    "meaning_en": "To openly disregard a rule or convention",
+    "example": "He flouted traffic rules repeatedly.",
+    "category": "confusing"
+  },
+  {
+    "word": "Former",
+    "confusion_with": [
+      "Latter"
+    ],
+    "meaning_hi": "पहला (दो में से)",
+    "meaning_en": "The first of two things mentioned",
+    "example": "Of tea and coffee, I prefer the former.",
+    "category": "confusing"
+  },
+  {
+    "word": "Further",
+    "confusion_with": [
+      "Farther"
+    ],
+    "meaning_hi": "अधिक / अतिरिक्त",
+    "meaning_en": "Additional or to a greater extent",
+    "example": "The matter needs further investigation.",
+    "category": "confusing"
+  },
+  {
+    "word": "Gait",
+    "confusion_with": [
+      "Gate"
+    ],
+    "meaning_hi": "चलने की चाल",
+    "meaning_en": "A person's manner of walking",
+    "example": "The soldier had a confident, upright gait.",
+    "category": "confusing"
+  },
+  {
+    "word": "Gamble",
+    "confusion_with": [
+      "Gambol"
+    ],
+    "meaning_hi": "जुआ खेलना",
+    "meaning_en": "To bet money on an uncertain outcome",
+    "example": "He likes to gamble at card games.",
+    "category": "confusing"
+  },
+  {
+    "word": "Gambol",
+    "confusion_with": [
+      "Gamble"
+    ],
+    "meaning_hi": "उछलना-कूदना",
+    "meaning_en": "To jump or skip about playfully",
+    "example": "Lambs gambol in the fields during spring.",
+    "category": "confusing"
+  },
+  {
+    "word": "Gate",
+    "confusion_with": [
+      "Gait"
+    ],
+    "meaning_hi": "द्वार / फाटक",
+    "meaning_en": "A hinged barrier or entrance",
+    "example": "Please close the gate when you leave.",
+    "category": "confusing"
+  },
+  {
+    "word": "Gracious",
+    "confusion_with": [
+      "Grateful"
+    ],
+    "meaning_hi": "कृपालु / शालीन",
+    "meaning_en": "Courteous and kind in manner",
+    "example": "She was gracious in accepting her defeat.",
+    "category": "confusing"
+  },
+  {
+    "word": "Grateful",
+    "confusion_with": [
+      "Gracious"
+    ],
+    "meaning_hi": "आभारी",
+    "meaning_en": "Feeling or showing thankfulness",
+    "example": "He was grateful for all the support received.",
+    "category": "confusing"
+  },
+  {
+    "word": "Grisly",
+    "confusion_with": [
+      "Grizzly"
+    ],
+    "meaning_hi": "भयानक / रोंगटे खड़े करने वाला",
+    "meaning_en": "Causing horror or disgust",
+    "example": "The police found a grisly scene at the site.",
+    "category": "confusing"
+  },
+  {
+    "word": "Grizzly",
+    "confusion_with": [
+      "Grisly"
+    ],
+    "meaning_hi": "भूरा भालू",
+    "meaning_en": "A large species of bear found in North America",
+    "example": "A grizzly bear can weigh over 400 kg.",
+    "category": "confusing"
+  },
+  {
+    "word": "Hanged",
+    "confusion_with": [
+      "Hung"
+    ],
+    "meaning_hi": "फाँसी दी गई (व्यक्ति को)",
+    "meaning_en": "Executed by hanging (used only for people)",
+    "example": "The convicted murderer was hanged at dawn.",
+    "category": "confusing"
+  },
+  {
+    "word": "Historic",
+    "confusion_with": [
+      "Historical"
+    ],
+    "meaning_hi": "ऐतिहासिक महत्व का",
+    "meaning_en": "Famous or important in history",
+    "example": "The signing of the treaty was a historic moment.",
+    "category": "confusing"
+  },
+  {
+    "word": "Historical",
+    "confusion_with": [
+      "Historic"
+    ],
+    "meaning_hi": "इतिहास से संबंधित",
+    "meaning_en": "Relating to history or past events",
+    "example": "The museum has several historical artefacts.",
+    "category": "confusing"
+  },
+  {
+    "word": "Hoard",
+    "confusion_with": [
+      "Horde"
+    ],
+    "meaning_hi": "भंडार जमा करना",
+    "meaning_en": "To accumulate and store secretly",
+    "example": "He hoards old newspapers in his basement.",
+    "category": "confusing"
+  },
+  {
+    "word": "Horde",
+    "confusion_with": [
+      "Hoard"
+    ],
+    "meaning_hi": "भीड़",
+    "meaning_en": "A large disorganised crowd or group",
+    "example": "A horde of protesters gathered outside.",
+    "category": "confusing"
+  },
+  {
+    "word": "Human",
+    "confusion_with": [
+      "Humane"
+    ],
+    "meaning_hi": "मानव",
+    "meaning_en": "A person; relating to people",
+    "example": "Humans are the most adaptable species.",
+    "category": "confusing"
+  },
+  {
+    "word": "Humane",
+    "confusion_with": [
+      "Human"
+    ],
+    "meaning_hi": "दयालु / मानवीय",
+    "meaning_en": "Showing compassion and kindness",
+    "example": "The organisation advocates for humane treatment of animals.",
+    "category": "confusing"
+  },
+  {
+    "word": "Hung",
+    "confusion_with": [
+      "Hanged"
+    ],
+    "meaning_hi": "लटकाया गया (वस्तु को)",
+    "meaning_en": "Suspended from above (used for objects)",
+    "example": "She hung the painting on the drawing room wall.",
+    "category": "confusing"
+  },
+  {
+    "word": "Illegible",
+    "confusion_with": [
+      "Eligible"
+    ],
+    "meaning_hi": "अपठनीय",
+    "meaning_en": "Impossible to read due to poor handwriting",
+    "example": "His handwriting is completely illegible.",
+    "category": "confusing"
+  },
+  {
+    "word": "Illicit",
+    "confusion_with": [
+      "Elicit"
+    ],
+    "meaning_hi": "अवैध",
+    "meaning_en": "Forbidden by law or custom",
+    "example": "Illicit drug trade was banned by the government.",
+    "category": "confusing"
+  },
+  {
+    "word": "Immanent",
+    "confusion_with": [
+      "Imminent",
+      "Eminent"
+    ],
+    "meaning_hi": "अंतर्निहित",
+    "meaning_en": "Existing or operating within something",
+    "example": "The philosopher believed God is immanent in nature.",
+    "category": "confusing"
+  },
+  {
+    "word": "Imminent",
+    "confusion_with": [
+      "Eminent",
+      "Immanent"
+    ],
+    "meaning_hi": "निकट आने वाला",
+    "meaning_en": "About to happen very soon",
+    "example": "A storm is imminent along the coastline.",
+    "category": "confusing"
+  },
+  {
+    "word": "Implicit",
+    "confusion_with": [
+      "Explicit"
+    ],
+    "meaning_hi": "अप्रत्यक्ष / निहित",
+    "meaning_en": "Suggested but not directly stated",
+    "example": "There was an implicit understanding between them.",
+    "category": "confusing"
+  },
+  {
+    "word": "Ingenious",
+    "confusion_with": [
+      "Ingenuous"
+    ],
+    "meaning_hi": "चतुर / कुशल",
+    "meaning_en": "Clever and inventive",
+    "example": "The engineer found an ingenious solution to the problem.",
+    "category": "confusing"
+  },
+  {
+    "word": "Ingenuous",
+    "confusion_with": [
+      "Ingenious"
+    ],
+    "meaning_hi": "भोला / निष्कपट",
+    "meaning_en": "Innocent, frank, and unsuspecting",
+    "example": "An ingenuous child asked an awkward question.",
+    "category": "confusing"
+  },
+  {
+    "word": "Insure",
+    "confusion_with": [
+      "Ensure",
+      "Assure"
+    ],
+    "meaning_hi": "बीमा करना",
+    "meaning_en": "To provide financial insurance",
+    "example": "You must insure your car before driving it.",
+    "category": "confusing"
+  },
+  {
+    "word": "Jealous",
+    "confusion_with": [
+      "Envious"
+    ],
+    "meaning_hi": "ईर्ष्यालु (खोने का डर)",
+    "meaning_en": "Fearful of losing what one already has",
+    "example": "He became jealous when she spoke to others.",
+    "category": "confusing"
+  },
+  {
+    "word": "Judicial",
+    "confusion_with": [
+      "Judicious"
+    ],
+    "meaning_hi": "न्यायिक",
+    "meaning_en": "Relating to courts of law and judges",
+    "example": "The judicial system must remain independent.",
+    "category": "confusing"
+  },
+  {
+    "word": "Judicious",
+    "confusion_with": [
+      "Judicial"
+    ],
+    "meaning_hi": "विवेकपूर्ण",
+    "meaning_en": "Having or showing good judgement",
+    "example": "A judicious use of resources prevents waste.",
+    "category": "confusing"
+  },
+  {
+    "word": "Kernel",
+    "confusion_with": [
+      "Colonel"
+    ],
+    "meaning_hi": "बीज का दाना / मूल भाग",
+    "meaning_en": "Central or essential part; a seed",
+    "example": "The kernel of his argument was sound.",
+    "category": "confusing"
+  },
+  {
+    "word": "Later",
+    "confusion_with": [
+      "Latter"
+    ],
+    "meaning_hi": "बाद में",
+    "meaning_en": "At a subsequent or future time",
+    "example": "I will call you later in the evening.",
+    "category": "confusing"
+  },
+  {
+    "word": "Latter",
+    "confusion_with": [
+      "Former",
+      "Later"
+    ],
+    "meaning_hi": "दूसरा (दो में से)",
+    "meaning_en": "The second of two things mentioned",
+    "example": "Between iron and steel, the latter is stronger.",
+    "category": "confusing"
+  },
+  {
+    "word": "Lay",
+    "confusion_with": [
+      "Lie"
+    ],
+    "meaning_hi": "रखना (सकर्मक)",
+    "meaning_en": "To put something down — needs an object",
+    "example": "Lay the books on the table carefully.",
+    "category": "confusing"
+  },
+  {
+    "word": "Lend",
+    "confusion_with": [
+      "Borrow"
+    ],
+    "meaning_hi": "उधार देना",
+    "meaning_en": "To give something temporarily",
+    "example": "Can you lend me your pen for a moment?",
+    "category": "confusing"
+  },
+  {
+    "word": "Less",
+    "confusion_with": [
+      "Fewer"
+    ],
+    "meaning_hi": "कम (अगणनीय वस्तुओं के लिए)",
+    "meaning_en": "Smaller amount of uncountable things",
+    "example": "He has less time to complete the paper.",
+    "category": "confusing"
+  },
+  {
+    "word": "Libel",
+    "confusion_with": [
+      "Slander"
+    ],
+    "meaning_hi": "लिखित मानहानि",
+    "meaning_en": "A written false statement that damages reputation",
+    "example": "The journalist was sued for libel.",
+    "category": "confusing"
+  },
+  {
+    "word": "Lie",
+    "confusion_with": [
+      "Lay"
+    ],
+    "meaning_hi": "लेटना (अकर्मक)",
+    "meaning_en": "To recline — needs no object",
+    "example": "Lie down and rest for a while.",
+    "category": "confusing"
+  },
+  {
+    "word": "Loose",
+    "confusion_with": [
+      "Lose"
+    ],
+    "meaning_hi": "ढीला",
+    "meaning_en": "Not tight or firmly fixed",
+    "example": "This shirt is very loose around the waist.",
+    "category": "confusing"
+  },
+  {
+    "word": "Lose",
+    "confusion_with": [
+      "Loose"
+    ],
+    "meaning_hi": "खो देना",
+    "meaning_en": "To be unable to find or to fail to win",
+    "example": "Do not lose your admit card before the exam.",
+    "category": "confusing"
+  },
+  {
+    "word": "Medal",
+    "confusion_with": [
+      "Meddle"
+    ],
+    "meaning_hi": "पदक",
+    "meaning_en": "An award given for achievement",
+    "example": "She won a gold medal at the Olympics.",
+    "category": "confusing"
+  },
+  {
+    "word": "Meddle",
+    "confusion_with": [
+      "Medal"
+    ],
+    "meaning_hi": "हस्तक्षेप करना",
+    "meaning_en": "To interfere in others' affairs",
+    "example": "Do not meddle in matters that do not concern you.",
+    "category": "confusing"
+  },
+  {
+    "word": "Meter",
+    "confusion_with": [
+      "Metre"
+    ],
+    "meaning_hi": "मापक यंत्र",
+    "meaning_en": "A device that measures and records",
+    "example": "The electricity meter was checked by the officer.",
+    "category": "confusing"
+  },
+  {
+    "word": "Metre",
+    "confusion_with": [
+      "Meter"
+    ],
+    "meaning_hi": "मीटर (लंबाई की माप)",
+    "meaning_en": "A unit of length equal to 100 cm",
+    "example": "The cloth was exactly two metres long.",
+    "category": "confusing"
+  },
+  {
+    "word": "Militate",
+    "confusion_with": [
+      "Mitigate"
+    ],
+    "meaning_hi": "प्रतिकूल प्रभाव डालना",
+    "meaning_en": "To have a strong effect against something",
+    "example": "His past record militated against his promotion.",
+    "category": "confusing"
+  },
+  {
+    "word": "Mitigate",
+    "confusion_with": [
+      "Militate"
+    ],
+    "meaning_hi": "कम करना",
+    "meaning_en": "To make something less severe or serious",
+    "example": "Rest and medicine mitigate the symptoms.",
+    "category": "confusing"
+  },
+  {
+    "word": "Moral",
+    "confusion_with": [
+      "Morale"
+    ],
+    "meaning_hi": "नैतिक",
+    "meaning_en": "Relating to right and wrong behaviour",
+    "example": "Moral values should be taught from childhood.",
+    "category": "confusing"
+  },
+  {
+    "word": "Morale",
+    "confusion_with": [
+      "Moral"
+    ],
+    "meaning_hi": "मनोबल",
+    "meaning_en": "Confidence and spirit of a group",
+    "example": "The team's morale was high after the victory.",
+    "category": "confusing"
+  },
+  {
+    "word": "Nauseating",
+    "confusion_with": [
+      "Nauseous"
+    ],
+    "meaning_hi": "मतली दिलाने वाला",
+    "meaning_en": "Causing nausea in others",
+    "example": "The smell of the garbage was nauseating.",
+    "category": "confusing"
+  },
+  {
+    "word": "Nauseous",
+    "confusion_with": [
+      "Nauseating"
+    ],
+    "meaning_hi": "मतली महसूस करना",
+    "meaning_en": "Feeling sick or queasy",
+    "example": "She felt nauseous throughout the journey.",
+    "category": "confusing"
+  },
+  {
+    "word": "Naval",
+    "confusion_with": [
+      "Navel"
+    ],
+    "meaning_hi": "नौसेना संबंधी",
+    "meaning_en": "Relating to a country's navy",
+    "example": "The naval base was established on the coast.",
+    "category": "confusing"
+  },
+  {
+    "word": "Navel",
+    "confusion_with": [
+      "Naval"
+    ],
+    "meaning_hi": "नाभि",
+    "meaning_en": "The small hollow on the abdomen",
+    "example": "The scar was located near her navel.",
+    "category": "confusing"
+  },
+  {
+    "word": "Notable",
+    "confusion_with": [
+      "Noticeable"
+    ],
+    "meaning_hi": "प्रसिद्ध / उल्लेखनीय",
+    "meaning_en": "Famous or worthy of attention",
+    "example": "He is a notable figure in Indian politics.",
+    "category": "confusing"
+  },
+  {
+    "word": "Noticeable",
+    "confusion_with": [
+      "Notable"
+    ],
+    "meaning_hi": "स्पष्ट दिखने वाला",
+    "meaning_en": "Easily observed or detected",
+    "example": "There was a noticeable improvement in her work.",
+    "category": "confusing"
+  },
+  {
+    "word": "Oar",
+    "confusion_with": [
+      "Ore"
+    ],
+    "meaning_hi": "चप्पू",
+    "meaning_en": "A long pole used for rowing a boat",
+    "example": "He pulled hard on the oar against the current.",
+    "category": "confusing"
+  },
+  {
+    "word": "Obsolescent",
+    "confusion_with": [
+      "Obsolete"
+    ],
+    "meaning_hi": "धीरे-धीरे पुराना पड़ता हुआ",
+    "meaning_en": "Becoming out of date gradually",
+    "example": "This method is obsolescent and being phased out.",
+    "category": "confusing"
+  },
+  {
+    "word": "Obsolete",
+    "confusion_with": [
+      "Obsolescent"
+    ],
+    "meaning_hi": "पुराना / प्रचलन से बाहर",
+    "meaning_en": "No longer in use or production",
+    "example": "That technology is now completely obsolete.",
+    "category": "confusing"
+  },
+  {
+    "word": "Oral",
+    "confusion_with": [
+      "Verbal"
+    ],
+    "meaning_hi": "मौखिक (मुँह से बोला गया)",
+    "meaning_en": "Spoken by mouth specifically",
+    "example": "The oral examination was held in the morning.",
+    "category": "confusing"
+  },
+  {
+    "word": "Ore",
+    "confusion_with": [
+      "Oar"
+    ],
+    "meaning_hi": "खनिज अयस्क",
+    "meaning_en": "A naturally occurring mineral containing metal",
+    "example": "Iron ore is found in abundance in Jharkhand.",
+    "category": "confusing"
+  },
+  {
+    "word": "Outer",
+    "confusion_with": [
+      "Utter"
+    ],
+    "meaning_hi": "बाहरी",
+    "meaning_en": "Located on the outside",
+    "example": "The outer wall of the fort was very thick.",
+    "category": "confusing"
+  },
+  {
+    "word": "Overlook",
+    "confusion_with": [
+      "Oversee"
+    ],
+    "meaning_hi": "अनदेखा करना",
+    "meaning_en": "To fail to notice something",
+    "example": "He overlooked the error in the final report.",
+    "category": "confusing"
+  },
+  {
+    "word": "Oversee",
+    "confusion_with": [
+      "Overlook"
+    ],
+    "meaning_hi": "निगरानी करना",
+    "meaning_en": "To supervise and manage work",
+    "example": "She was appointed to oversee the entire project.",
+    "category": "confusing"
+  },
+  {
+    "word": "Personal",
+    "confusion_with": [
+      "Personnel"
+    ],
+    "meaning_hi": "व्यक्तिगत",
+    "meaning_en": "Private or belonging to an individual",
+    "example": "He kept his personal life separate from work.",
+    "category": "confusing"
+  },
+  {
+    "word": "Personnel",
+    "confusion_with": [
+      "Personal"
+    ],
+    "meaning_hi": "कर्मचारी वर्ग",
+    "meaning_en": "The staff or employees of an organisation",
+    "example": "All army personnel were present at the parade.",
+    "category": "confusing"
+  },
+  {
+    "word": "Plain",
+    "confusion_with": [
+      "Plane"
+    ],
+    "meaning_hi": "साधारण / समतल मैदान",
+    "meaning_en": "Simple, or a flat area of land",
+    "example": "She wore a plain white saree to the function.",
+    "category": "confusing"
+  },
+  {
+    "word": "Plane",
+    "confusion_with": [
+      "Plain"
+    ],
+    "meaning_hi": "विमान / समतल सतह",
+    "meaning_en": "An aircraft or a flat geometric surface",
+    "example": "The plane landed safely at the airport.",
+    "category": "confusing"
+  },
+  {
+    "word": "Practicable",
+    "confusion_with": [
+      "Practical"
+    ],
+    "meaning_hi": "व्यावहारिक रूप से संभव",
+    "meaning_en": "Able to be done or put into practice",
+    "example": "The proposed solution is not practicable within budget.",
+    "category": "confusing"
+  },
+  {
+    "word": "Practical",
+    "confusion_with": [
+      "Practicable"
+    ],
+    "meaning_hi": "व्यावहारिक / उपयोगी",
+    "meaning_en": "Concerned with actual use rather than theory",
+    "example": "She gave practical advice on time management.",
+    "category": "confusing"
+  },
+  {
+    "word": "Prescribe",
+    "confusion_with": [
+      "Proscribe"
+    ],
+    "meaning_hi": "निर्धारित करना / दवा लिखना",
+    "meaning_en": "To recommend or officially order something",
+    "example": "The doctor prescribed complete bed rest.",
+    "category": "confusing"
+  },
+  {
+    "word": "Principal",
+    "confusion_with": [
+      "Principle"
+    ],
+    "meaning_hi": "प्रधान / प्राचार्य",
+    "meaning_en": "Most important, or the head of a school",
+    "example": "The school principal addressed the students.",
+    "category": "confusing"
+  },
+  {
+    "word": "Principle",
+    "confusion_with": [
+      "Principal"
+    ],
+    "meaning_hi": "सिद्धांत",
+    "meaning_en": "A fundamental rule or belief",
+    "example": "He stood by his principles even under pressure.",
+    "category": "confusing"
+  },
+  {
+    "word": "Proscribe",
+    "confusion_with": [
+      "Prescribe"
+    ],
+    "meaning_hi": "प्रतिबंध लगाना",
+    "meaning_en": "To officially forbid something",
+    "example": "The organisation was proscribed under anti-terror laws.",
+    "category": "confusing"
+  },
+  {
+    "word": "Quash",
+    "confusion_with": [
+      "Squash"
+    ],
+    "meaning_hi": "रद्द करना",
+    "meaning_en": "To reject or suppress officially",
+    "example": "The High Court quashed the lower court order.",
+    "category": "confusing"
+  },
+  {
+    "word": "Quiet",
+    "confusion_with": [
+      "Quite"
+    ],
+    "meaning_hi": "शांत / चुप",
+    "meaning_en": "Making little or no noise",
+    "example": "Please keep quiet in the examination hall.",
+    "category": "confusing"
+  },
+  {
+    "word": "Quite",
+    "confusion_with": [
+      "Quiet"
+    ],
+    "meaning_hi": "पूरी तरह / काफी",
+    "meaning_en": "Completely or to a considerable degree",
+    "example": "The answer you gave is quite correct.",
+    "category": "confusing"
+  },
+  {
+    "word": "Raise",
+    "confusion_with": [
+      "Rise"
+    ],
+    "meaning_hi": "उठाना (सकर्मक)",
+    "meaning_en": "To lift something up — needs an object",
+    "example": "Raise your hand if you know the answer.",
+    "category": "confusing"
+  },
+  {
+    "word": "Reluctant",
+    "confusion_with": [
+      "Reticent"
+    ],
+    "meaning_hi": "अनिच्छुक",
+    "meaning_en": "Unwilling to do something",
+    "example": "He was reluctant to accept the new assignment.",
+    "category": "confusing"
+  },
+  {
+    "word": "Respectful",
+    "confusion_with": [
+      "Respective"
+    ],
+    "meaning_hi": "सम्मानपूर्ण",
+    "meaning_en": "Showing politeness and respect",
+    "example": "Students should maintain a respectful tone in class.",
+    "category": "confusing"
+  },
+  {
+    "word": "Respective",
+    "confusion_with": [
+      "Respectful"
+    ],
+    "meaning_hi": "अपने-अपने",
+    "meaning_en": "Belonging separately to each person mentioned",
+    "example": "They returned to their respective classrooms.",
+    "category": "confusing"
+  },
+  {
+    "word": "Reticent",
+    "confusion_with": [
+      "Reluctant"
+    ],
+    "meaning_hi": "कम बोलने वाला",
+    "meaning_en": "Not revealing thoughts or feelings readily",
+    "example": "She is reticent about discussing her personal life.",
+    "category": "confusing"
+  },
+  {
+    "word": "Right",
+    "confusion_with": [
+      "Write",
+      "Rite"
+    ],
+    "meaning_hi": "सही / दायाँ",
+    "meaning_en": "Correct, or the direction opposite to left",
+    "example": "You are absolutely right in your analysis.",
+    "category": "confusing"
+  },
+  {
+    "word": "Rise",
+    "confusion_with": [
+      "Raise"
+    ],
+    "meaning_hi": "उठना (अकर्मक)",
+    "meaning_en": "To move upward by itself — no object needed",
+    "example": "The sun will rise at six tomorrow morning.",
+    "category": "confusing"
+  },
+  {
+    "word": "Rite",
+    "confusion_with": [
+      "Right",
+      "Write"
+    ],
+    "meaning_hi": "धार्मिक अनुष्ठान",
+    "meaning_en": "A religious or ceremonial act",
+    "example": "The last rite was performed at the cremation ground.",
+    "category": "confusing"
+  },
+  {
+    "word": "Sensible",
+    "confusion_with": [
+      "Sensitive"
+    ],
+    "meaning_hi": "समझदार",
+    "meaning_en": "Showing practical good sense",
+    "example": "She made a sensible decision under pressure.",
+    "category": "confusing"
+  },
+  {
+    "word": "Sensitive",
+    "confusion_with": [
+      "Sensible"
+    ],
+    "meaning_hi": "संवेदनशील",
+    "meaning_en": "Easily affected by emotions or stimuli",
+    "example": "This is a sensitive topic and must be handled carefully.",
+    "category": "confusing"
+  },
+  {
+    "word": "Sew",
+    "confusion_with": [
+      "So",
+      "Sow"
+    ],
+    "meaning_hi": "सिलना",
+    "meaning_en": "To join fabric using needle and thread",
+    "example": "She can sew her own clothes from scratch.",
+    "category": "confusing"
+  },
+  {
+    "word": "Slander",
+    "confusion_with": [
+      "Libel"
+    ],
+    "meaning_hi": "मौखिक मानहानि",
+    "meaning_en": "A spoken false statement that harms reputation",
+    "example": "He was taken to court for slander.",
+    "category": "confusing"
+  },
+  {
+    "word": "So",
+    "confusion_with": [
+      "Sow",
+      "Sew"
+    ],
+    "meaning_hi": "इसलिए / इतना",
+    "meaning_en": "Therefore, or to that extent",
+    "example": "I was exhausted, so I went to sleep early.",
+    "category": "confusing"
+  },
+  {
+    "word": "Sow",
+    "confusion_with": [
+      "So",
+      "Sew"
+    ],
+    "meaning_hi": "बीज बोना",
+    "meaning_en": "To plant seeds in the ground",
+    "example": "Farmers sow seeds at the onset of monsoon.",
+    "category": "confusing"
+  },
+  {
+    "word": "Squash",
+    "confusion_with": [
+      "Quash"
+    ],
+    "meaning_hi": "कुचलना / दबाना",
+    "meaning_en": "To crush or squeeze something flat",
+    "example": "He squashed the insect under his shoe.",
+    "category": "confusing"
+  },
+  {
+    "word": "Stationary",
+    "confusion_with": [
+      "Stationery"
+    ],
+    "meaning_hi": "स्थिर / न हिलने वाला",
+    "meaning_en": "Not moving",
+    "example": "The vehicle remained stationary at the signal.",
+    "category": "confusing"
+  },
+  {
+    "word": "Stationery",
+    "confusion_with": [
+      "Stationary"
+    ],
+    "meaning_hi": "लेखन सामग्री",
+    "meaning_en": "Writing and office materials",
+    "example": "Buy notebooks and pens from the stationery shop.",
+    "category": "confusing"
+  },
+  {
+    "word": "Suit",
+    "confusion_with": [
+      "Suite"
+    ],
+    "meaning_hi": "कोट-पतलून / अनुकूल होना",
+    "meaning_en": "A set of clothes, or to be convenient",
+    "example": "He wore a formal black suit to the interview.",
+    "category": "confusing"
+  },
+  {
+    "word": "Suite",
+    "confusion_with": [
+      "Suit"
+    ],
+    "meaning_hi": "कमरों का समूह",
+    "meaning_en": "A set of connected rooms or musical pieces",
+    "example": "They booked the presidential suite at the hotel.",
+    "category": "confusing"
+  },
+  {
+    "word": "Sympathetic",
+    "confusion_with": [
+      "Empathetic"
+    ],
+    "meaning_hi": "सहानुभूतिपूर्ण",
+    "meaning_en": "Feeling pity or sorrow for another's misfortune",
+    "example": "She was sympathetic towards the flood victims.",
+    "category": "confusing"
+  },
+  {
+    "word": "Than",
+    "confusion_with": [
+      "Then"
+    ],
+    "meaning_hi": "से (तुलना में)",
+    "meaning_en": "Used in comparisons",
+    "example": "She scored higher marks than I did.",
+    "category": "confusing"
+  },
+  {
+    "word": "Their",
+    "confusion_with": [
+      "There",
+      "They're"
+    ],
+    "meaning_hi": "उनका",
+    "meaning_en": "Belonging to them",
+    "example": "Their house is located near the railway station.",
+    "category": "confusing"
+  },
+  {
+    "word": "Then",
+    "confusion_with": [
+      "Than"
+    ],
+    "meaning_hi": "तब / उसके बाद",
+    "meaning_en": "At that time, or next in sequence",
+    "example": "He finished the paper, then left the hall.",
+    "category": "confusing"
+  },
+  {
+    "word": "There",
+    "confusion_with": [
+      "Their",
+      "They're"
+    ],
+    "meaning_hi": "वहाँ",
+    "meaning_en": "In, at, or to that place",
+    "example": "Please sit there and wait for your turn.",
+    "category": "confusing"
+  },
+  {
+    "word": "They're",
+    "confusion_with": [
+      "Their",
+      "There"
+    ],
+    "meaning_hi": "वे हैं (contraction)",
+    "meaning_en": "Contraction of they are",
+    "example": "They're ready to begin the presentation now.",
+    "category": "confusing"
+  },
+  {
+    "word": "Thorough",
+    "confusion_with": [
+      "Through"
+    ],
+    "meaning_hi": "पूर्ण / संपूर्ण",
+    "meaning_en": "Complete and careful in every detail",
+    "example": "The police conducted a thorough investigation.",
+    "category": "confusing"
+  },
+  {
+    "word": "Threw",
+    "confusion_with": [
+      "Through"
+    ],
+    "meaning_hi": "फेंका (भूतकाल)",
+    "meaning_en": "Past tense of throw",
+    "example": "He threw the ball across the entire field.",
+    "category": "confusing"
+  },
+  {
+    "word": "Through",
+    "confusion_with": [
+      "Threw",
+      "Thorough"
+    ],
+    "meaning_hi": "के माध्यम से",
+    "meaning_en": "From one end or side to the other",
+    "example": "He drove through the tunnel without stopping.",
+    "category": "confusing"
+  },
+  {
+    "word": "Turbid",
+    "confusion_with": [
+      "Turgid"
+    ],
+    "meaning_hi": "मटमैला / गंदला",
+    "meaning_en": "Cloudy or muddy (liquid)",
+    "example": "The river water was turbid after heavy rainfall.",
+    "category": "confusing"
+  },
+  {
+    "word": "Turgid",
+    "confusion_with": [
+      "Turbid"
+    ],
+    "meaning_hi": "फूला हुआ / अत्यधिक जटिल",
+    "meaning_en": "Swollen or pompously dull in style",
+    "example": "His turgid prose made the essay unreadable.",
+    "category": "confusing"
+  },
+  {
+    "word": "Unaware",
+    "confusion_with": [
+      "Unawares"
+    ],
+    "meaning_hi": "अनजान",
+    "meaning_en": "Not having knowledge of something",
+    "example": "She was unaware of the change in schedule.",
+    "category": "confusing"
+  },
+  {
+    "word": "Unawares",
+    "confusion_with": [
+      "Unaware"
+    ],
+    "meaning_hi": "अचानक / अप्रत्याशित रूप से",
+    "meaning_en": "Unexpectedly or by surprise",
+    "example": "The announcement caught everyone unawares.",
+    "category": "confusing"
+  },
+  {
+    "word": "Uninterested",
+    "confusion_with": [
+      "Disinterested"
+    ],
+    "meaning_hi": "अनिच्छुक / रुचिहीन",
+    "meaning_en": "Having no interest or curiosity",
+    "example": "He seemed uninterested in the entire discussion.",
+    "category": "confusing"
+  },
+  {
+    "word": "Urban",
+    "confusion_with": [
+      "Urbane"
+    ],
+    "meaning_hi": "शहरी",
+    "meaning_en": "Relating to a city or town",
+    "example": "Urban infrastructure needs better maintenance.",
+    "category": "confusing"
+  },
+  {
+    "word": "Urbane",
+    "confusion_with": [
+      "Urban"
+    ],
+    "meaning_hi": "सभ्य / शिष्ट",
+    "meaning_en": "Suave, polite and refined in manner",
+    "example": "He is an urbane and charming diplomat.",
+    "category": "confusing"
+  },
+  {
+    "word": "Utter",
+    "confusion_with": [
+      "Outer"
+    ],
+    "meaning_hi": "पूर्ण / बोलना",
+    "meaning_en": "Complete or absolute, or to speak",
+    "example": "The entire plan was in utter confusion.",
+    "category": "confusing"
+  },
+  {
+    "word": "Vain",
+    "confusion_with": [
+      "Vein",
+      "Vane"
+    ],
+    "meaning_hi": "घमंडी / व्यर्थ",
+    "meaning_en": "Excessively proud, or producing no result",
+    "example": "All his vain attempts to escape failed.",
+    "category": "confusing"
+  },
+  {
+    "word": "Vane",
+    "confusion_with": [
+      "Vain",
+      "Vein"
+    ],
+    "meaning_hi": "दिशा सूचक पंख",
+    "meaning_en": "A device showing the direction of the wind",
+    "example": "The weather vane on the roof turned east.",
+    "category": "confusing"
+  },
+  {
+    "word": "Vary",
+    "confusion_with": [
+      "Very"
+    ],
+    "meaning_hi": "भिन्न होना / बदलना",
+    "meaning_en": "To change or be different",
+    "example": "Prices of vegetables vary with the season.",
+    "category": "confusing"
+  },
+  {
+    "word": "Vein",
+    "confusion_with": [
+      "Vain",
+      "Vane"
+    ],
+    "meaning_hi": "नस / रक्तवाहिनी",
+    "meaning_en": "A blood vessel that carries blood to the heart",
+    "example": "The nurse located a vein to draw blood.",
+    "category": "confusing"
+  },
+  {
+    "word": "Venal",
+    "confusion_with": [
+      "Venial"
+    ],
+    "meaning_hi": "भ्रष्ट / रिश्वती",
+    "meaning_en": "Willing to act dishonestly for money",
+    "example": "The venal officer was caught accepting bribes.",
+    "category": "confusing"
+  },
+  {
+    "word": "Venial",
+    "confusion_with": [
+      "Venal"
+    ],
+    "meaning_hi": "क्षमा योग्य",
+    "meaning_en": "A minor sin or fault that can be forgiven",
+    "example": "It was a venial mistake, easily overlooked.",
+    "category": "confusing"
+  },
+  {
+    "word": "Verbal",
+    "confusion_with": [
+      "Oral"
+    ],
+    "meaning_hi": "शाब्दिक (शब्दों में)",
+    "meaning_en": "Relating to words, spoken or written",
+    "example": "A verbal agreement was made between the parties.",
+    "category": "confusing"
+  },
+  {
+    "word": "Very",
+    "confusion_with": [
+      "Vary"
+    ],
+    "meaning_hi": "बहुत",
+    "meaning_en": "To a high degree or extent",
+    "example": "She was very pleased with the result.",
+    "category": "confusing"
+  },
+  {
+    "word": "Waist",
+    "confusion_with": [
+      "Waste"
+    ],
+    "meaning_hi": "कमर",
+    "meaning_en": "The part of the body between ribs and hips",
+    "example": "She wore a belt tightly around her waist.",
+    "category": "confusing"
+  },
+  {
+    "word": "Waste",
+    "confusion_with": [
+      "Waist"
+    ],
+    "meaning_hi": "व्यर्थ करना",
+    "meaning_en": "To use carelessly or squander",
+    "example": "Do not waste water during a drought.",
+    "category": "confusing"
+  },
+  {
+    "word": "Weak",
+    "confusion_with": [
+      "Week"
+    ],
+    "meaning_hi": "कमज़ोर",
+    "meaning_en": "Lacking physical or mental strength",
+    "example": "He felt weak after the long illness.",
+    "category": "confusing"
+  },
+  {
+    "word": "Weather",
+    "confusion_with": [
+      "Whether"
+    ],
+    "meaning_hi": "मौसम",
+    "meaning_en": "Atmospheric conditions at a particular time",
+    "example": "The weather was pleasant during the morning walk.",
+    "category": "confusing"
+  },
+  {
+    "word": "Week",
+    "confusion_with": [
+      "Weak"
+    ],
+    "meaning_hi": "सप्ताह",
+    "meaning_en": "A period of seven consecutive days",
+    "example": "The results will be declared in one week.",
+    "category": "confusing"
+  },
+  {
+    "word": "Whether",
+    "confusion_with": [
+      "Weather"
+    ],
+    "meaning_hi": "क्या / यदि",
+    "meaning_en": "Expressing doubt or introducing a condition",
+    "example": "Ask whether she is attending the meeting.",
+    "category": "confusing"
+  },
+  {
+    "word": "Who's",
+    "confusion_with": [
+      "Whose"
+    ],
+    "meaning_hi": "कौन है (contraction)",
+    "meaning_en": "Contraction of who is or who has",
+    "example": "Who's responsible for this error?",
+    "category": "confusing"
+  },
+  {
+    "word": "Whose",
+    "confusion_with": [
+      "Who's"
+    ],
+    "meaning_hi": "किसका",
+    "meaning_en": "Belonging to or associated with whom",
+    "example": "Whose bag is lying on the bench?",
+    "category": "confusing"
+  },
+  {
+    "word": "Write",
+    "confusion_with": [
+      "Right",
+      "Rite"
+    ],
+    "meaning_hi": "लिखना",
+    "meaning_en": "To form letters or words on a surface",
+    "example": "Write your full name on the answer sheet.",
+    "category": "confusing"
+  },
+  {
+    "word": "Xenial",
+    "confusion_with": [
+      "Xenophobia"
+    ],
+    "meaning_hi": "अतिथि-सत्कार से संबंधित",
+    "meaning_en": "Relating to hospitality shown to guests",
+    "example": "The xenial host made all visitors feel welcome.",
+    "category": "confusing"
+  },
+  {
+    "word": "Xenophobia",
+    "confusion_with": [
+      "Xenial"
+    ],
+    "meaning_hi": "विदेशियों से डर या घृणा",
+    "meaning_en": "Intense fear or dislike of foreigners",
+    "example": "Xenophobia is a serious social problem globally.",
+    "category": "confusing"
+  },
+  {
+    "word": "Yearn",
+    "confusion_with": [
+      "Earn"
+    ],
+    "meaning_hi": "तड़प / लालसा रखना",
+    "meaning_en": "To have a strong longing for something",
+    "example": "She yearns to travel abroad someday.",
+    "category": "confusing"
+  },
+  {
+    "word": "Yoke",
+    "confusion_with": [
+      "Yolk"
+    ],
+    "meaning_hi": "जुआ / बोझ",
+    "meaning_en": "A wooden frame joining two animals, or a burden",
+    "example": "The oxen pulled the plough under the yoke.",
+    "category": "confusing"
+  },
+  {
+    "word": "Yolk",
+    "confusion_with": [
+      "Yoke"
+    ],
+    "meaning_hi": "अंडे की जर्दी",
+    "meaning_en": "The yellow centre of an egg",
+    "example": "Separate the yolk from the white carefully.",
+    "category": "confusing"
+  },
+  {
+    "word": "Zeal",
+    "confusion_with": [
+      "Zealotry"
+    ],
+    "meaning_hi": "उत्साह",
+    "meaning_en": "Great energy and enthusiasm for a cause",
+    "example": "She works with remarkable zeal and dedication.",
+    "category": "confusing"
+  },
+  {
+    "word": "Zealotry",
+    "confusion_with": [
+      "Zeal"
+    ],
+    "meaning_hi": "कट्टरपंथ",
+    "meaning_en": "Excessive and fanatical enthusiasm",
+    "example": "Religious zealotry has caused many conflicts in history.",
+    "category": "confusing"
+  },
+  {
+    "word": "Zone",
+    "confusion_with": [
+      "Zon"
+    ],
+    "meaning_hi": "क्षेत्र",
+    "meaning_en": "A defined area for a particular purpose",
+    "example": "No vehicles are allowed in the pedestrian zone.",
+    "category": "confusing"
+  }
+]
