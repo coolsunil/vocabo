@@ -3,7 +3,6 @@
 import '../data/premium_store.dart';
 import '../data/weak_areas_store.dart';
 import '../models/weak_attempt.dart';
-import 'premium_screen.dart';
 
 class WeakAreasScreen extends StatefulWidget {
   final String category;
@@ -315,4 +314,5 @@ class _AnswerChip extends StatelessWidget {
     );
   }
 }
+
 

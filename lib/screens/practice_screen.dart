@@ -1,4 +1,4 @@
-import 'dart:convert';
+﻿import 'dart:convert';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -10,7 +10,6 @@ import '../data/premium_store.dart';
 import '../data/weak_areas_store.dart';
 import '../models/weak_attempt.dart';
 import '../models/word_model.dart';
-import 'premium_screen.dart';
 
 class PracticeScreen extends StatefulWidget {
   final String category;
@@ -399,12 +398,11 @@ class _PracticeScreenState extends State<PracticeScreen> {
       accuracy: percent,
     );
 
-    if (mounted) {
-      setState(() {
-        bestScore = getStoredBestScore(widget.category);
-        bestAccuracy = getStoredBestAccuracy(widget.category);
-      });
-    }
+    if (!mounted) return;
+    setState(() {
+      bestScore = getStoredBestScore(widget.category);
+      bestAccuracy = getStoredBestAccuracy(widget.category);
+    });
 
     showDialog<void>(
       context: context,
@@ -1011,3 +1009,5 @@ class _ResultStatCard extends StatelessWidget {
     );
   }
 }
+
+

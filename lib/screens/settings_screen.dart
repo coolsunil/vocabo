@@ -1,10 +1,9 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
 import '../data/bookmark_store.dart';
 import '../data/premium_store.dart';
 import '../data/progress_store.dart';
-import 'premium_screen.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -116,7 +115,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 title: premiumUnlocked ? 'Premium Active' : 'Unlock Premium',
                 subtitle: premiumUnlocked
                     ? 'Unlimited practice and revision unlocked'
-                    : 'See premium features and upcoming payment access',
+                    : 'See premium features and purchase with Google Play',
                 onTap: () {
                   Navigator.push(
                     context,
@@ -301,3 +300,4 @@ class _SettingsInfoTile extends StatelessWidget {
     );
   }
 }
+

@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import '../data/premium_store.dart';
 import '../data/progress_store.dart';
 import '../widgets/interactive_pressable.dart';
@@ -402,3 +402,4 @@ class _QuizCategoryTile extends StatelessWidget {
     );
   }
 }
+

@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'home_screen.dart';
 
@@ -92,7 +92,7 @@ class WelcomeScreen extends StatelessWidget {
                         style: const TextStyle(
                           fontSize: 44,
                           fontWeight: FontWeight.bold,
-                          color: const Color(0xFF0F172A),
+                          color: Color(0xFF0F172A),
                         ),
                       ),
                     ),
@@ -104,7 +104,7 @@ class WelcomeScreen extends StatelessWidget {
                         style: const TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w600,
-                          color: const Color(0xFF1E293B),
+                          color: Color(0xFF1E293B),
                         ),
                       ),
                     ),
@@ -166,3 +166,4 @@ class WelcomeScreen extends StatelessWidget {
     );
   }
 }
+

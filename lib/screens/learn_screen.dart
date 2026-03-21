@@ -12,7 +12,6 @@ import '../widgets/cards/core_card.dart';
 import '../widgets/cards/idiom_card.dart';
 import '../widgets/cards/oneword_card.dart';
 import '../widgets/cards/synonym_card.dart';
-import 'premium_screen.dart';
 
 class LearnScreen extends StatefulWidget {
   final String category;
@@ -337,6 +336,7 @@ class _LearnScreenState extends State<LearnScreen> {
     if (!isCurrentlyBookmarked) {
       await loadPremiumStore();
       final canSave = await canAddBookmark();
+      if (!mounted) return;
       if (!canSave) {
         final messenger = ScaffoldMessenger.of(context);
         messenger.hideCurrentSnackBar();
@@ -427,4 +427,6 @@ class _LearnScreenState extends State<LearnScreen> {
     return null;
   }
 }
+
+
 
