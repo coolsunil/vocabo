@@ -1,4 +1,4 @@
-﻿import 'dart:convert';
+import 'dart:convert';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -410,7 +410,8 @@ class _PracticeScreenState extends State<PracticeScreen> {
       builder: (context) {
         return AlertDialog(
           title: const Text('Practice Complete'),
-          content: Column(
+          content: SingleChildScrollView(
+            child: Column(
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -529,7 +530,7 @@ class _PracticeScreenState extends State<PracticeScreen> {
                     const SizedBox(height: 8),
                     Text(
                       premiumUnlocked
-                          ? 'Premium active: unlimited sets available.'
+                          ? 'Premium active: unlimited new sets.'
                           : 'Remaining new sets today: $remainingSessions',
                       style: const TextStyle(
                         color: Color(0xFF92400E),
@@ -540,6 +541,7 @@ class _PracticeScreenState extends State<PracticeScreen> {
                 ),
               ),
             ],
+            ),
           ),
           actionsPadding: const EdgeInsets.fromLTRB(20, 0, 20, 20),
           actions: [
