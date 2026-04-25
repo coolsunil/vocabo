@@ -575,7 +575,7 @@ class _PracticeScreenState extends State<PracticeScreen> {
                       alignment: Alignment.center,
                       padding: const EdgeInsets.symmetric(vertical: 12),
                     ),
-                    child: const Text('Repeat Same Set'),
+                    child: const Text('Repeat'),
                   ),
                 ),
               ],
