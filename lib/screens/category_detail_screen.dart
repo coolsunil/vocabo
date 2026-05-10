@@ -1,4 +1,4 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import '../data/bookmark_store.dart';
 import '../data/premium_store.dart';
 import '../data/practice_stats_store.dart';
@@ -26,6 +26,25 @@ class CategoryDetailScreen extends StatefulWidget {
 }
 
 class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
+  static const Map<String, (String, String)> _learnLabels = {
+    'core':                 ('Learn Words',           'Swipe through vocabulary'),
+    'synonyms':             ('Learn Words',           'Swipe through vocabulary'),
+    'idioms':               ('Learn Idioms',          'Swipe through idioms & phrases'),
+    'confusing':            ('Learn Pairs',           'Swipe through confusing pairs'),
+    'oneword':              ('Learn Substitutions',   'Swipe through one-word substitutions'),
+    'advanced':             ('Learn Words',           'Swipe through vocabulary'),
+    'fixed_prepositions':   ('Learn Prepositions',    'Swipe through fixed prepositions'),
+    'phrasal_verbs':        ('Learn Phrasal Verbs',   'Swipe through phrasal verbs'),
+    'root_words':           ('Learn Root Words',      'Swipe through root words'),
+    'common_errors':        ('Study Errors',          'Learn to spot common mistakes'),
+    'homophones':           ('Learn Homophones',      'Swipe through sound-alike words'),
+    'spellings':            ('Learn Spellings',       'Swipe through spelling rules'),
+    'foreign_words':        ('Learn Foreign Words',   'Swipe through foreign expressions'),
+    'proverbs':             ('Learn Proverbs',        'Swipe through proverbs'),
+    'sentence_improvement': ('Study Sentences',       'Learn to improve sentences'),
+    'cloze_test':           ('Study Fill-in-Blanks',  'Swipe through cloze questions'),
+  };
+
   static const Map<String, Color> _categoryAccents = {
     'core': Color(0xFF1F3C6D),
     'synonyms': Color(0xFF3B82F6),
@@ -33,6 +52,16 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
     'confusing': Color(0xFFF59E0B),
     'idioms': Color(0xFF8B5CF6),
     'advanced': Color(0xFFC26A2D),
+    'fixed_prepositions': Color(0xFF0F766E),
+    'phrasal_verbs': Color(0xFFBE185D),
+    'root_words': Color(0xFF7C2D12),
+    'common_errors': Color(0xFFDC2626),
+    'homophones': Color(0xFF4F46E5),
+    'spellings': Color(0xFF0891B2),
+    'foreign_words': Color(0xFF9333EA),
+    'proverbs': Color(0xFF4D7C0F),
+    'sentence_improvement': Color(0xFF475569),
+    'cloze_test': Color(0xFFC2410C),
   };
 
   int _bestScore = 0;
@@ -239,8 +268,8 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
               const SizedBox(height: 14),
               _ModernActionTile(
                 icon: Icons.swipe_rounded,
-                title: 'Learn Words',
-                subtitle: 'Swipe through vocabulary',
+                title: _learnLabels[widget.categoryKey]?.$1 ?? 'Learn Words',
+                subtitle: _learnLabels[widget.categoryKey]?.$2 ?? 'Swipe through vocabulary',
                 accent: accent,
                 onTap: () {
                   Navigator.push(
@@ -402,4 +431,3 @@ class _ModernActionTile extends StatelessWidget {
     );
   }
 }
-

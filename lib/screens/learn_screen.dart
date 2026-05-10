@@ -1,4 +1,4 @@
-﻿import 'dart:convert';
+import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -7,10 +7,15 @@ import '../data/category_sources.dart';
 import '../data/premium_store.dart';
 import '../data/progress_store.dart';
 import '../models/word_model.dart';
+import '../widgets/cards/cloze_test_card.dart';
+import '../widgets/cards/common_error_card.dart';
 import '../widgets/cards/confusing_card.dart';
 import '../widgets/cards/core_card.dart';
+import '../widgets/cards/fixed_preposition_card.dart';
 import '../widgets/cards/idiom_card.dart';
 import '../widgets/cards/oneword_card.dart';
+import '../widgets/cards/sentence_improvement_card.dart';
+import '../widgets/cards/spelling_card.dart';
 import '../widgets/cards/synonym_card.dart';
 
 class LearnScreen extends StatefulWidget {
@@ -30,6 +35,16 @@ class _LearnScreenState extends State<LearnScreen> {
     'confusing': 'Confusing Pairs',
     'oneword': 'One-word Substitutions',
     'advanced': 'Advanced Vocabulary',
+    'fixed_prepositions': 'Fixed Prepositions',
+    'phrasal_verbs': 'Phrasal Verbs',
+    'root_words': 'Root Words',
+    'common_errors': 'Common Errors',
+    'homophones': 'Homophones',
+    'spellings': 'Spellings',
+    'foreign_words': 'Foreign Words',
+    'proverbs': 'Proverbs',
+    'sentence_improvement': 'Sentence Improvement',
+    'cloze_test': 'Cloze Test',
   };
 
   int currentIndex = 0;
@@ -204,7 +219,9 @@ class _LearnScreenState extends State<LearnScreen> {
                     width: double.infinity,
                     child: ElevatedButton(
                       onPressed: () {
-                        final value = int.tryParse(numberController.text.trim());
+                        final value = int.tryParse(
+                          numberController.text.trim(),
+                        );
                         Navigator.pop(context, value);
                       },
                       child: const Text('Go'),
@@ -270,9 +287,9 @@ class _LearnScreenState extends State<LearnScreen> {
     if (result == null) return;
     if (result == -1) {
       if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('No matching word found.')),
-      );
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(const SnackBar(content: Text('No matching word found.')));
       return;
     }
     if (result < 1 || result > words.length) {
@@ -350,9 +367,7 @@ class _LearnScreenState extends State<LearnScreen> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(
-                    builder: (_) => const PremiumScreen(),
-                  ),
+                  MaterialPageRoute(builder: (_) => const PremiumScreen()),
                 );
               },
             ),
@@ -405,6 +420,46 @@ class _LearnScreenState extends State<LearnScreen> {
           index: currentIndex + 1,
           total: words.length,
         );
+      case 'fixed_prepositions':
+        return FixedPrepositionCard(
+          word: word,
+          isBookmarked: bookmarkedIndices.contains(currentIndex),
+          onBookmarkToggle: _toggleCurrentBookmark,
+          index: currentIndex + 1,
+          total: words.length,
+        );
+      case 'common_errors':
+        return CommonErrorCard(
+          word: word,
+          isBookmarked: bookmarkedIndices.contains(currentIndex),
+          onBookmarkToggle: _toggleCurrentBookmark,
+          index: currentIndex + 1,
+          total: words.length,
+        );
+      case 'spellings':
+        return SpellingCard(
+          word: word,
+          isBookmarked: bookmarkedIndices.contains(currentIndex),
+          onBookmarkToggle: _toggleCurrentBookmark,
+          index: currentIndex + 1,
+          total: words.length,
+        );
+      case 'sentence_improvement':
+        return SentenceImprovementCard(
+          word: word,
+          isBookmarked: bookmarkedIndices.contains(currentIndex),
+          onBookmarkToggle: _toggleCurrentBookmark,
+          index: currentIndex + 1,
+          total: words.length,
+        );
+      case 'cloze_test':
+        return ClozeTestCard(
+          word: word,
+          isBookmarked: bookmarkedIndices.contains(currentIndex),
+          onBookmarkToggle: _toggleCurrentBookmark,
+          index: currentIndex + 1,
+          total: words.length,
+        );
       default:
         return CoreCard(
           word: word,
@@ -427,6 +482,3 @@ class _LearnScreenState extends State<LearnScreen> {
     return null;
   }
 }
-
-
-

@@ -1,0 +1,4178 @@
+[
+  {
+    "wrong": "He do not understand the question.",
+    "correct": "He does not understand the question.",
+    "explanation_hi": "'He' के साथ 'does' का प्रयोग होता है।",
+    "explanation_en": "Use 'does' with singular subjects.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She have two sisters.",
+    "correct": "She has two sisters.",
+    "explanation_hi": "Singular subject के साथ 'has' प्रयोग होता है।",
+    "explanation_en": "Use 'has' with singular subjects.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "They was playing football.",
+    "correct": "They were playing football.",
+    "explanation_hi": "'They' के साथ 'were' प्रयोग होता है।",
+    "explanation_en": "Use 'were' with plural subjects.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "I am agree with you.",
+    "correct": "I agree with you.",
+    "explanation_hi": "'Agree' adjective नहीं है; helping verb के साथ नहीं आता।",
+    "explanation_en": "'Agree' is a verb and does not take 'am' before it.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He returned back yesterday.",
+    "correct": "He returned yesterday.",
+    "explanation_hi": "'Return' में वापस आने का अर्थ पहले से होता है।",
+    "explanation_en": "'Return' already means 'come back'; 'back' is redundant.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Discuss about the topic.",
+    "correct": "Discuss the topic.",
+    "explanation_hi": "'Discuss' के बाद 'about' नहीं आता।",
+    "explanation_en": "'Discuss' is a transitive verb; do not use 'about' after it.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "One of the boys are absent.",
+    "correct": "One of the boys is absent.",
+    "explanation_hi": "'One' singular subject है।",
+    "explanation_en": "The subject is 'one', which is singular; use 'is'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Each boys got a prize.",
+    "correct": "Each boy got a prize.",
+    "explanation_hi": "'Each' के बाद singular noun आता है।",
+    "explanation_en": "'Each' is followed by a singular noun.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is senior than me.",
+    "correct": "He is senior to me.",
+    "explanation_hi": "Latin-rooted comparatives (senior, junior, superior, inferior, prior) के साथ 'to' प्रयोग होता है।",
+    "explanation_en": "Latin-origin comparatives (senior, junior, superior, inferior) take 'to', not 'than'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is married with a doctor.",
+    "correct": "She is married to a doctor.",
+    "explanation_hi": "'Married' के साथ 'to' आता है।",
+    "explanation_en": "Use 'to' after 'married'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "I prefer tea than coffee.",
+    "correct": "I prefer tea to coffee.",
+    "explanation_hi": "'Prefer' के साथ 'to' आता है, 'than' नहीं।",
+    "explanation_en": "'Prefer' takes 'to', not 'than', in comparison.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is good in English.",
+    "correct": "He is good at English.",
+    "explanation_hi": "Skills/subjects के लिए 'good at' प्रयोग होता है।",
+    "explanation_en": "Use 'good at' for skills and subjects.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is suffering with fever.",
+    "correct": "She is suffering from fever.",
+    "explanation_hi": "'Suffer' के साथ 'from' प्रयोग होता है।",
+    "explanation_en": "Use 'from' after 'suffer'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The sceneries are beautiful.",
+    "correct": "The scenery is beautiful.",
+    "explanation_hi": "'Scenery' uncountable noun है; इसका plural नहीं बनता।",
+    "explanation_en": "'Scenery' is an uncountable noun and has no plural form.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Informations are useful.",
+    "correct": "Information is useful.",
+    "explanation_hi": "'Information' uncountable noun है।",
+    "explanation_en": "'Information' is uncountable and does not take a plural form.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He gave me many advices.",
+    "correct": "He gave me much advice.",
+    "explanation_hi": "'Advice' uncountable noun है।",
+    "explanation_en": "'Advice' is uncountable; use 'much' not 'many'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She did not wrote the letter.",
+    "correct": "She did not write the letter.",
+    "explanation_hi": "'Did' के बाद verb की first form (base form) आती है।",
+    "explanation_en": "Use the base form of the verb after 'did'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "I am having a car.",
+    "correct": "I have a car.",
+    "explanation_hi": "Possession दिखाने के लिए 'have' continuous form में नहीं आता।",
+    "explanation_en": "Stative verbs like 'have' (possession) are not used in continuous tense.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Neither Ram nor his friends was present.",
+    "correct": "Neither Ram nor his friends were present.",
+    "explanation_hi": "Verb nearest subject (friends) के अनुसार आता है।",
+    "explanation_en": "With 'neither...nor', the verb agrees with the subject nearest to it.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Either of the books are useful.",
+    "correct": "Either of the books is useful.",
+    "explanation_hi": "'Either of' के साथ singular verb आता है।",
+    "explanation_en": "'Either of' takes a singular verb.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is one of those students who works hard.",
+    "correct": "He is one of those students who work hard.",
+    "explanation_hi": "Relative clause 'students' (plural) के अनुसार है।",
+    "explanation_en": "The relative clause verb agrees with 'students', not 'one'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She enjoys to dance.",
+    "correct": "She enjoys dancing.",
+    "explanation_hi": "'Enjoy' के बाद gerund (-ing form) आता है।",
+    "explanation_en": "'Enjoy' is followed by a gerund, not an infinitive.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "I look forward to meet you.",
+    "correct": "I look forward to meeting you.",
+    "explanation_hi": "'Look forward to' में 'to' preposition है; इसके बाद gerund आता है।",
+    "explanation_en": "'To' in 'look forward to' is a preposition; use gerund after it.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "No sooner he arrived than it started raining.",
+    "correct": "No sooner had he arrived than it started raining.",
+    "explanation_hi": "'No sooner' के बाद subject-auxiliary inversion होता है।",
+    "explanation_en": "Use subject-auxiliary inversion after 'No sooner'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Hardly I had reached when he left.",
+    "correct": "Hardly had I reached when he left.",
+    "explanation_hi": "'Hardly' sentence की शुरुआत में आने पर inversion होता है।",
+    "explanation_en": "Use inversion (auxiliary before subject) when 'Hardly' starts a sentence.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is accustomed with hard work.",
+    "correct": "He is accustomed to hard work.",
+    "explanation_hi": "'Accustomed' के साथ 'to' प्रयोग होता है।",
+    "explanation_en": "Use 'to' after 'accustomed'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "My father is angry on me.",
+    "correct": "My father is angry with me.",
+    "explanation_hi": "व्यक्ति के साथ 'angry with' प्रयोग होता है।",
+    "explanation_en": "Use 'angry with' when referring to a person.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He insisted to go there.",
+    "correct": "He insisted on going there.",
+    "explanation_hi": "'Insist' के साथ 'on + gerund' आता है।",
+    "explanation_en": "Use 'on + gerund' after 'insist'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is taller than any boy in the class.",
+    "correct": "He is taller than any other boy in the class.",
+    "explanation_hi": "Same group comparison में 'any other' प्रयोग होता है।",
+    "explanation_en": "Use 'any other' when comparing within the same group.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "This is more better.",
+    "correct": "This is better.",
+    "explanation_hi": "'Better' already comparative है; 'more' जोड़ना double comparative है।",
+    "explanation_en": "'Better' is already comparative; do not use 'more better'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is the most smartest boy.",
+    "correct": "He is the smartest boy.",
+    "explanation_hi": "'Smartest' already superlative है; 'most' जोड़ना double superlative है।",
+    "explanation_en": "'Smartest' is already superlative; do not add 'most'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is my cousin sister.",
+    "correct": "She is my cousin.",
+    "explanation_hi": "'Cousin' gender-neutral होता है; 'sister' जोड़ना अनावश्यक है।",
+    "explanation_en": "'Cousin' is gender-neutral; adding 'sister' or 'brother' is incorrect.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Myself Rahul.",
+    "correct": "I am Rahul.",
+    "explanation_hi": "Reflexive pronoun 'myself' self-introduction के लिए प्रयोग नहीं होता।",
+    "explanation_en": "Do not use 'myself' to introduce yourself; use 'I am'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He denied to help me.",
+    "correct": "He denied helping me.",
+    "explanation_hi": "'Deny' के बाद gerund आता है।",
+    "explanation_en": "Use gerund after 'deny'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She prevented me to go there.",
+    "correct": "She prevented me from going there.",
+    "explanation_hi": "'Prevent someone from + gerund' सही structure है।",
+    "explanation_en": "Use 'from + gerund' after 'prevent'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He ordered for tea.",
+    "correct": "He ordered tea.",
+    "explanation_hi": "'Order' transitive verb है; 'for' आवश्यक नहीं।",
+    "explanation_en": "'Order' is transitive; do not add 'for' before the object.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The police is investigating the case.",
+    "correct": "The police are investigating the case.",
+    "explanation_hi": "'Police' collective noun है जो plural verb लेता है।",
+    "explanation_en": "'Police' is treated as a plural noun and takes a plural verb.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Mathematics are difficult.",
+    "correct": "Mathematics is difficult.",
+    "explanation_hi": "'-ics' subjects (Mathematics, Physics, Economics) singular verb लेते हैं।",
+    "explanation_en": "Subjects ending in '-ics' take singular verbs.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The news are true.",
+    "correct": "The news is true.",
+    "explanation_hi": "'News' singular uncountable noun है।",
+    "explanation_en": "'News' is a singular uncountable noun; use singular verb.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is addicted with drugs.",
+    "correct": "He is addicted to drugs.",
+    "explanation_hi": "'Addicted' के साथ 'to' प्रयोग होता है।",
+    "explanation_en": "Use 'to' after 'addicted'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She resembles with her mother.",
+    "correct": "She resembles her mother.",
+    "explanation_hi": "'Resemble' transitive verb है; preposition नहीं आता।",
+    "explanation_en": "'Resemble' is transitive; do not use a preposition after it.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He entered into the room.",
+    "correct": "He entered the room.",
+    "explanation_hi": "'Enter' transitive verb है; 'into' नहीं आता।",
+    "explanation_en": "'Enter' is transitive; do not use 'into' after it.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He lacks of confidence.",
+    "correct": "He lacks confidence.",
+    "explanation_hi": "'Lack' (verb) के साथ 'of' नहीं आता।",
+    "explanation_en": "Do not use 'of' after 'lack' when used as a verb.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "I cannot cope up with pressure.",
+    "correct": "I cannot cope with pressure.",
+    "explanation_hi": "'Cope with' सही phrase है; 'up' अनावश्यक है।",
+    "explanation_en": "The correct phrase is 'cope with'; do not add 'up'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She emphasized on discipline.",
+    "correct": "She emphasized discipline.",
+    "explanation_hi": "'Emphasize' transitive verb है; 'on' नहीं आता।",
+    "explanation_en": "'Emphasize' is transitive; do not use 'on' after it.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The meeting will be held on tomorrow.",
+    "correct": "The meeting will be held tomorrow.",
+    "explanation_hi": "'Tomorrow' adverb है; इससे पहले preposition नहीं आता।",
+    "explanation_en": "'Tomorrow' is an adverb; do not use a preposition before it.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is capable to do this work.",
+    "correct": "He is capable of doing this work.",
+    "explanation_hi": "'Capable' के साथ 'of + gerund' आता है।",
+    "explanation_en": "Use 'of + gerund' after 'capable'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is addicted in gambling.",
+    "correct": "He is addicted to gambling.",
+    "explanation_hi": "'Addicted to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'addicted'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The man is devoid from fear.",
+    "correct": "The man is devoid of fear.",
+    "explanation_hi": "'Devoid of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'devoid'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is different than me.",
+    "correct": "He is different from me.",
+    "explanation_hi": "'Different from' सही phrase है।",
+    "explanation_en": "Use 'from' after 'different'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is eligible for appear in the exam.",
+    "correct": "He is eligible to appear in the exam.",
+    "explanation_hi": "'Eligible to + infinitive' सही structure है।",
+    "explanation_en": "Use infinitive after 'eligible'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is fond for music.",
+    "correct": "She is fond of music.",
+    "explanation_hi": "'Fond of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'fond'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He was guilty for theft.",
+    "correct": "He was guilty of theft.",
+    "explanation_hi": "'Guilty of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'guilty'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "I am hopeful to success.",
+    "correct": "I am hopeful of success.",
+    "explanation_hi": "'Hopeful of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'hopeful'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is junior than me.",
+    "correct": "He is junior to me.",
+    "explanation_hi": "Latin-origin comparatives 'to' लेते हैं।",
+    "explanation_en": "Latin-origin comparatives take 'to', not 'than'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is lacking of confidence.",
+    "correct": "She lacks confidence.",
+    "explanation_hi": "'Lack' verb के साथ 'of' नहीं आता।",
+    "explanation_en": "Use 'lack' directly without 'of'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He ordered me for leave the room.",
+    "correct": "He ordered me to leave the room.",
+    "explanation_hi": "'Order someone to + infinitive' सही structure है।",
+    "explanation_en": "Use infinitive after 'order someone'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She resembles to her sister.",
+    "correct": "She resembles her sister.",
+    "explanation_hi": "'Resemble' के बाद preposition नहीं आता।",
+    "explanation_en": "Do not use preposition after 'resemble'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He was surprised on my behavior.",
+    "correct": "He was surprised at my behavior.",
+    "explanation_hi": "'Surprised at' सही phrase है।",
+    "explanation_en": "Use 'at' after 'surprised'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is tired from work.",
+    "correct": "She is tired of work.",
+    "explanation_hi": "'Tired of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'tired'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He was vexed on me.",
+    "correct": "He was vexed with me.",
+    "explanation_hi": "'Vexed with' सही phrase है।",
+    "explanation_en": "Use 'with' after 'vexed'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The room was infected by mosquitoes.",
+    "correct": "The room was infested with mosquitoes.",
+    "explanation_hi": "कीड़े-मकोड़ों के लिए 'infested with' प्रयोग होता है।",
+    "explanation_en": "Use 'infested with' for insects or pests; 'infected' means diseased.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher is popular between students.",
+    "correct": "The teacher is popular among students.",
+    "explanation_hi": "दो से अधिक लोगों के बीच 'among' प्रयोग होता है।",
+    "explanation_en": "Use 'among' for more than two people.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Distribute the sweets between the students.",
+    "correct": "Distribute the sweets among the students.",
+    "explanation_hi": "अनेक लोगों के बीच 'among' प्रयोग होता है।",
+    "explanation_en": "Use 'among' when distributing to more than two.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "One should keep his promise.",
+    "correct": "One should keep one's promise.",
+    "explanation_hi": "'One' के साथ 'one's' pronoun प्रयोग होता है।",
+    "explanation_en": "Use 'one's' as the pronoun for 'one'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "None of the information are useful.",
+    "correct": "None of the information is useful.",
+    "explanation_hi": "'Information' uncountable noun है; singular verb आता है।",
+    "explanation_en": "'Information' is uncountable; use singular verb.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Physics are my favorite subject.",
+    "correct": "Physics is my favorite subject.",
+    "explanation_hi": "'-ics' subjects singular verb लेते हैं।",
+    "explanation_en": "Subjects ending in '-ics' take singular verbs.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The cattle is grazing.",
+    "correct": "The cattle are grazing.",
+    "explanation_hi": "'Cattle' हमेशा plural होता है।",
+    "explanation_en": "'Cattle' is always plural and takes a plural verb.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "People is happy with the result.",
+    "correct": "People are happy with the result.",
+    "explanation_hi": "'People' plural noun है।",
+    "explanation_en": "'People' is plural and takes a plural verb.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "A pair of shoes are lying there.",
+    "correct": "A pair of shoes is lying there.",
+    "explanation_hi": "'A pair of' singular unit है; singular verb आता है।",
+    "explanation_en": "'A pair of' is singular; use a singular verb.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The committee are divided in its opinion.",
+    "correct": "The committee is divided in its opinion.",
+    "explanation_hi": "एक इकाई के रूप में collective noun singular verb लेता है।",
+    "explanation_en": "When acting as a unit, a collective noun takes a singular verb.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Scarcely had I reached than the train left.",
+    "correct": "Scarcely had I reached when the train left.",
+    "explanation_hi": "'Scarcely' के साथ 'when' आता है, 'than' नहीं।",
+    "explanation_en": "Use 'when' (not 'than') with 'scarcely'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "No sooner did he see me when he ran away.",
+    "correct": "No sooner did he see me than he ran away.",
+    "explanation_hi": "'No sooner' के साथ 'than' आता है।",
+    "explanation_en": "Use 'than' (not 'when') with 'no sooner'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Hardly he had entered when it rained.",
+    "correct": "Hardly had he entered when it rained.",
+    "explanation_hi": "'Hardly' sentence शुरू में आने पर inversion होता है।",
+    "explanation_en": "Use inversion after 'Hardly' at the start of a sentence.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He asked me that why I was late.",
+    "correct": "He asked me why I was late.",
+    "explanation_hi": "Indirect question में 'that' नहीं आता।",
+    "explanation_en": "Do not use 'that' to introduce indirect questions.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher asked to me a question.",
+    "correct": "The teacher asked me a question.",
+    "explanation_hi": "'Ask' के साथ object सीधे आता है।",
+    "explanation_en": "Do not use 'to' before the indirect object after 'ask'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He explained me the rule.",
+    "correct": "He explained the rule to me.",
+    "explanation_hi": "'Explain something to someone' सही structure है।",
+    "explanation_en": "Use 'explain something to someone'; not 'explain someone something'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She described me the scene.",
+    "correct": "She described the scene to me.",
+    "explanation_hi": "'Describe something to someone' सही structure है।",
+    "explanation_en": "Use 'describe something to someone'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "I suggested him to leave.",
+    "correct": "I suggested that he leave.",
+    "explanation_hi": "'Suggest' के बाद clause आता है, infinitive नहीं।",
+    "explanation_en": "Use a 'that-clause' after 'suggest', not an infinitive.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is too clever to not understand this.",
+    "correct": "He is too clever not to understand this.",
+    "explanation_hi": "'Too...not to' structure में 'not' infinitive के पहले आता है।",
+    "explanation_en": "In 'too...to' structure, 'not' comes before the infinitive.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She has no any friends.",
+    "correct": "She has no friends.",
+    "explanation_hi": "'No' और 'any' एक साथ नहीं आते।",
+    "explanation_en": "Do not use 'no' and 'any' together; it creates a double negative.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "I don't know nothing.",
+    "correct": "I don't know anything.",
+    "explanation_hi": "Double negative (don't + nothing) गलत है।",
+    "explanation_en": "Avoid double negatives; use 'anything' with 'don't'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He seldom or ever goes there.",
+    "correct": "He seldom or never goes there.",
+    "explanation_hi": "'Seldom or never' सही idiomatic expression है।",
+    "explanation_en": "The correct expression is 'seldom or never', not 'seldom or ever'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The boy was punished of theft.",
+    "correct": "The boy was punished for theft.",
+    "explanation_hi": "'Punished for' सही phrase है।",
+    "explanation_en": "Use 'for' after 'punished'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He died with cancer.",
+    "correct": "He died of cancer.",
+    "explanation_hi": "Disease/illness से मृत्यु के लिए 'die of' प्रयोग होता है।",
+    "explanation_en": "Use 'die of' when the cause of death is a disease.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child is crying from hunger.",
+    "correct": "The child is crying with hunger.",
+    "explanation_hi": "Emotion/condition के लिए 'with' प्रयोग होता है।",
+    "explanation_en": "Use 'with' to express the emotion or condition causing the action.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is angry upon me.",
+    "correct": "He is angry with me.",
+    "explanation_hi": "व्यक्ति के साथ 'angry with' प्रयोग होता है।",
+    "explanation_en": "Use 'angry with' when referring to a person.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He congratulated me for my success.",
+    "correct": "He congratulated me on my success.",
+    "explanation_hi": "'Congratulate someone on something' सही structure है।",
+    "explanation_en": "Use 'on' after 'congratulate'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is capable to solve the problem.",
+    "correct": "She is capable of solving the problem.",
+    "explanation_hi": "'Capable of + gerund' सही structure है।",
+    "explanation_en": "Use 'of + gerund' after 'capable'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He prevented me to enter the room.",
+    "correct": "He prevented me from entering the room.",
+    "explanation_hi": "'Prevent someone from + gerund' सही structure है।",
+    "explanation_en": "Use 'from + gerund' after 'prevent'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "I objected his proposal.",
+    "correct": "I objected to his proposal.",
+    "explanation_hi": "'Object to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'object'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is devoted for her family.",
+    "correct": "She is devoted to her family.",
+    "explanation_hi": "'Devoted to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'devoted'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He has applied for the post yesterday.",
+    "correct": "He applied for the post yesterday.",
+    "explanation_hi": "Definite past time ('yesterday') के साथ simple past आता है।",
+    "explanation_en": "Use simple past (not present perfect) with definite past time expressions.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "I am here since Monday.",
+    "correct": "I have been here since Monday.",
+    "explanation_hi": "'Since' के साथ present perfect tense प्रयोग होता है।",
+    "explanation_en": "Use present perfect tense with 'since'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is married with her since 2010.",
+    "correct": "He has been married to her since 2010.",
+    "explanation_hi": "'Married to' और 'since' के साथ perfect tense प्रयोग होता है।",
+    "explanation_en": "Use 'married to' and present perfect tense with 'since'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "I did not knew the answer.",
+    "correct": "I did not know the answer.",
+    "explanation_hi": "'Did' के बाद verb की base form आती है।",
+    "explanation_en": "Use the base form of the verb after 'did'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is knowing him very well.",
+    "correct": "She knows him very well.",
+    "explanation_hi": "'Know' stative verb है; continuous tense में नहीं आता।",
+    "explanation_en": "Stative verbs like 'know' are not used in continuous tense.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He has much friends here.",
+    "correct": "He has many friends here.",
+    "explanation_hi": "Countable noun के साथ 'many' प्रयोग होता है।",
+    "explanation_en": "Use 'many' with countable nouns; 'much' is for uncountable nouns.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "There are less students in the class.",
+    "correct": "There are fewer students in the class.",
+    "explanation_hi": "Countable noun के लिए 'fewer' प्रयोग होता है।",
+    "explanation_en": "Use 'fewer' with countable nouns; 'less' is for uncountable nouns.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The meeting was comprised of five members.",
+    "correct": "The meeting comprised five members.",
+    "explanation_hi": "'Comprise' active form में प्रयोग होता है; 'of' नहीं आता।",
+    "explanation_en": "'Comprise' is used in active voice and does not take 'of'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The match was postponed due to rain heavily.",
+    "correct": "The match was postponed due to heavy rain.",
+    "explanation_hi": "Adjective noun के पहले आता है।",
+    "explanation_en": "Use adjective before noun; 'heavy rain', not 'rain heavily'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He denied to have stolen the money.",
+    "correct": "He denied having stolen the money.",
+    "explanation_hi": "'Deny' के बाद gerund आता है।",
+    "explanation_en": "Use gerund after 'deny'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is too weak so that she cannot walk.",
+    "correct": "She is so weak that she cannot walk.",
+    "explanation_hi": "'So...that' सही structure है।",
+    "explanation_en": "Use 'so...that' structure; not 'too...so that'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "I could not help but to laugh.",
+    "correct": "I could not help but laugh.",
+    "explanation_hi": "'Cannot help but' के बाद base verb आता है।",
+    "explanation_en": "Use bare infinitive (base form) after 'cannot help but'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He hardly never comes late.",
+    "correct": "He hardly ever comes late.",
+    "explanation_hi": "'Hardly' negative है; 'never' जोड़ना double negative है।",
+    "explanation_en": "'Hardly' is itself negative; do not use 'never' with it.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "No less than ten persons was injured.",
+    "correct": "No less than ten persons were injured.",
+    "explanation_hi": "Plural noun 'persons' के साथ plural verb आता है।",
+    "explanation_en": "Use plural verb with plural noun 'persons'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The principal along with teachers were present.",
+    "correct": "The principal along with teachers was present.",
+    "explanation_hi": "'Along with' के साथ verb पहले subject के अनुसार आता है।",
+    "explanation_en": "When 'along with' connects subjects, the verb agrees with the first subject.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "I have been waiting you for two hours.",
+    "correct": "I have been waiting for you for two hours.",
+    "explanation_hi": "'Wait for' सही phrase है।",
+    "explanation_en": "Use 'for' before the object with 'wait'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He ordered that the work should be completed immediately.",
+    "correct": "He ordered that the work be completed immediately.",
+    "explanation_hi": "'Order' के बाद subjunctive form प्रयोग होता है।",
+    "explanation_en": "Use subjunctive (base form) in 'that-clause' after 'order'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "If I was you, I would refuse.",
+    "correct": "If I were you, I would refuse.",
+    "explanation_hi": "Unreal/hypothetical condition में 'were' प्रयोग होता है।",
+    "explanation_en": "Use 'were' (not 'was') in unreal or hypothetical conditions.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "I wish I was rich.",
+    "correct": "I wish I were rich.",
+    "explanation_hi": "'Wish' के साथ unreal condition में 'were' प्रयोग होता है।",
+    "explanation_en": "Use 'were' after 'wish' for unreal situations.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He talks as if he is mad.",
+    "correct": "He talks as if he were mad.",
+    "explanation_hi": "'As if' के साथ unreal condition में 'were' प्रयोग होता है।",
+    "explanation_en": "Use 'were' after 'as if' for imaginary conditions.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is one of the girls who sings well.",
+    "correct": "She is one of the girls who sing well.",
+    "explanation_hi": "Relative clause plural noun 'girls' के अनुसार है।",
+    "explanation_en": "The relative verb agrees with plural noun 'girls'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "This is the best of the two books.",
+    "correct": "This is the better of the two books.",
+    "explanation_hi": "दो वस्तुओं की तुलना में comparative degree प्रयोग होता है।",
+    "explanation_en": "Use comparative degree when comparing exactly two things.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is more intelligent than any student in the class.",
+    "correct": "He is more intelligent than any other student in the class.",
+    "explanation_hi": "Same group comparison में 'any other' प्रयोग होता है।",
+    "explanation_en": "Use 'any other' when comparing within the same group.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Please revert back soon.",
+    "correct": "Please revert soon.",
+    "explanation_hi": "'Revert' में वापस आने का अर्थ पहले से होता है।",
+    "explanation_en": "'Revert' already means to go back; 'back' is redundant.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Repeat again what you said.",
+    "correct": "Repeat what you said.",
+    "explanation_hi": "'Repeat' में again का अर्थ पहले से होता है।",
+    "explanation_en": "'Repeat' already includes the meaning of 'again'; it is redundant.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The reason is because he was absent.",
+    "correct": "The reason is that he was absent.",
+    "explanation_hi": "'The reason is that' सही structure है।",
+    "explanation_en": "Use 'the reason is that', not 'the reason is because'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He can be able to solve this problem.",
+    "correct": "He can solve this problem.",
+    "explanation_hi": "'Can' और 'be able to' एक साथ नहीं आते।",
+    "explanation_en": "Do not combine 'can' with 'be able to'; they are both modals.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The boy is too much intelligent.",
+    "correct": "The boy is very intelligent.",
+    "explanation_hi": "Adjective के पहले 'too much' नहीं आता।",
+    "explanation_en": "Do not use 'too much' before an adjective; use 'very'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He seldom never tells lies.",
+    "correct": "He seldom tells lies.",
+    "explanation_hi": "'Seldom' खुद negative है; 'never' जोड़ना double negative है।",
+    "explanation_en": "'Seldom' is negative; adding 'never' creates a double negative.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "I am unable to cope up with stress.",
+    "correct": "I am unable to cope with stress.",
+    "explanation_hi": "'Cope with' सही phrase है।",
+    "explanation_en": "The correct phrase is 'cope with'; 'up' is redundant.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She prefers coffee than tea.",
+    "correct": "She prefers coffee to tea.",
+    "explanation_hi": "'Prefer' के साथ 'to' आता है।",
+    "explanation_en": "'Prefer' takes 'to', not 'than'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He accused me for stealing the money.",
+    "correct": "He accused me of stealing the money.",
+    "explanation_hi": "'Accuse of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'accuse'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The train arrived to the station late.",
+    "correct": "The train arrived at the station late.",
+    "explanation_hi": "'Arrive at' छोटे स्थानों के लिए प्रयोग होता है।",
+    "explanation_en": "Use 'arrive at' for smaller places; 'arrive in' for cities/countries.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He reached to Delhi yesterday.",
+    "correct": "He reached Delhi yesterday.",
+    "explanation_hi": "'Reach' transitive verb है; preposition नहीं आता।",
+    "explanation_en": "'Reach' is transitive; do not use a preposition after it.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He married with a rich woman.",
+    "correct": "He married a rich woman.",
+    "explanation_hi": "'Marry' transitive verb है; 'with' नहीं आता।",
+    "explanation_en": "'Marry' is transitive; do not use 'with' after it.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher made me to stand outside.",
+    "correct": "The teacher made me stand outside.",
+    "explanation_hi": "Causative 'make' के बाद bare infinitive (base form) आता है।",
+    "explanation_en": "Use bare infinitive after causative 'make'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He bade me to go.",
+    "correct": "He bade me go.",
+    "explanation_hi": "'Bid/Bade' के बाद bare infinitive आता है।",
+    "explanation_en": "Use bare infinitive after 'bid/bade'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "I am here for last two years.",
+    "correct": "I have been here for the last two years.",
+    "explanation_hi": "Ongoing action के लिए present perfect continuous और 'the' का प्रयोग होता है।",
+    "explanation_en": "Use present perfect tense; also use 'the' before 'last two years'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is addicted towards smoking.",
+    "correct": "He is addicted to smoking.",
+    "explanation_hi": "'Addicted to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'addicted'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The judge acquitted him from all charges.",
+    "correct": "The judge acquitted him of all charges.",
+    "explanation_hi": "'Acquit of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'acquit'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is anxious for know the result.",
+    "correct": "He is anxious to know the result.",
+    "explanation_hi": "'Anxious to + infinitive' सही structure है।",
+    "explanation_en": "Use infinitive after 'anxious'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She has applied the job.",
+    "correct": "She has applied for the job.",
+    "explanation_hi": "'Apply for' सही phrase है।",
+    "explanation_en": "Use 'for' after 'apply'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer complied to the order.",
+    "correct": "The officer complied with the order.",
+    "explanation_hi": "'Comply with' सही phrase है।",
+    "explanation_en": "Use 'with' after 'comply'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child confided his secret with me.",
+    "correct": "The child confided his secret to me.",
+    "explanation_hi": "'Confide something to someone' सही structure है।",
+    "explanation_en": "Use 'confide something to someone'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She deprived him from his rights.",
+    "correct": "She deprived him of his rights.",
+    "explanation_hi": "'Deprive of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'deprive'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is desirous to buy a car.",
+    "correct": "He is desirous of buying a car.",
+    "explanation_hi": "'Desirous of + gerund' सही structure है।",
+    "explanation_en": "Use 'of + gerund' after 'desirous'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The accused was charged of murder.",
+    "correct": "The accused was charged with murder.",
+    "explanation_hi": "'Charged with' सही phrase है।",
+    "explanation_en": "Use 'with' after 'charged'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The manager entrusted me with this work yesterday night.",
+    "correct": "The manager entrusted me with this work last night.",
+    "explanation_hi": "'Yesterday night' गलत expression है; 'last night' सही है।",
+    "explanation_en": "Use 'last night', not 'yesterday night'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He excelled than all other players.",
+    "correct": "He excelled all other players.",
+    "explanation_hi": "'Excel' transitive verb है; 'than' नहीं आता।",
+    "explanation_en": "'Excel' is transitive; do not use 'than' after it.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher forbade the students to entering the lab.",
+    "correct": "The teacher forbade the students to enter the lab.",
+    "explanation_hi": "'Forbid to + infinitive' सही structure है।",
+    "explanation_en": "Use bare infinitive (not gerund) after 'forbid to'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He furnished me all the details.",
+    "correct": "He furnished me with all the details.",
+    "explanation_hi": "'Furnish someone with something' सही structure है।",
+    "explanation_en": "Use 'with' after 'furnish'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The boy is grieving on his father's death.",
+    "correct": "The boy is grieving over his father's death.",
+    "explanation_hi": "'Grieve over' सही phrase है।",
+    "explanation_en": "Use 'over' after 'grieve'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He hinted me about the danger.",
+    "correct": "He hinted to me about the danger.",
+    "explanation_hi": "'Hint to someone' सही structure है।",
+    "explanation_en": "Use 'to' before the indirect object after 'hint'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer impressed me by his honesty.",
+    "correct": "The officer impressed me with his honesty.",
+    "explanation_hi": "'Impress someone with something' सही structure है।",
+    "explanation_en": "Use 'with' after 'impress'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He insisted me on staying there.",
+    "correct": "He insisted on my staying there.",
+    "explanation_hi": "'Insist on someone's + gerund' सही structure है।",
+    "explanation_en": "Use possessive + gerund after 'insist on'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is intent to complete the work.",
+    "correct": "She is intent on completing the work.",
+    "explanation_hi": "'Intent on + gerund' सही structure है।",
+    "explanation_en": "Use 'on + gerund' after 'intent'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He introduced me with his brother.",
+    "correct": "He introduced me to his brother.",
+    "explanation_hi": "'Introduce someone to someone' सही structure है।",
+    "explanation_en": "Use 'to' after 'introduce'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher is irritated from his behavior.",
+    "correct": "The teacher is irritated by his behavior.",
+    "explanation_hi": "'Irritated by' सही phrase है।",
+    "explanation_en": "Use 'by' after 'irritated'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He laughed on the beggar.",
+    "correct": "He laughed at the beggar.",
+    "explanation_hi": "'Laugh at' सही phrase है।",
+    "explanation_en": "Use 'at' after 'laugh'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The company supplied books for the students.",
+    "correct": "The company supplied the students with books.",
+    "explanation_hi": "'Supply someone with something' सही structure है।",
+    "explanation_en": "Use 'supply someone with something'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The judge sentenced him for five years.",
+    "correct": "The judge sentenced him to five years.",
+    "explanation_hi": "'Sentence someone to (a term)' सही structure है।",
+    "explanation_en": "Use 'to' after 'sentence'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He subscribed the newspaper.",
+    "correct": "He subscribed to the newspaper.",
+    "explanation_hi": "'Subscribe to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'subscribe'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child takes pride for his success.",
+    "correct": "The child takes pride in his success.",
+    "explanation_hi": "'Take pride in' सही phrase है।",
+    "explanation_en": "Use 'in' after 'take pride'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He tampered the records.",
+    "correct": "He tampered with the records.",
+    "explanation_hi": "'Tamper with' सही phrase है।",
+    "explanation_en": "Use 'with' after 'tamper'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The students were warned for the consequences.",
+    "correct": "The students were warned of the consequences.",
+    "explanation_hi": "'Warn of/about' सही phrase है।",
+    "explanation_en": "Use 'of' after 'warned'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The thief was convicted from robbery.",
+    "correct": "The thief was convicted of robbery.",
+    "explanation_hi": "'Convicted of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'convicted'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He was blessed by a baby boy.",
+    "correct": "He was blessed with a baby boy.",
+    "explanation_hi": "'Blessed with' सही phrase है।",
+    "explanation_en": "Use 'with' after 'blessed'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is bored from this work.",
+    "correct": "She is bored with this work.",
+    "explanation_hi": "'Bored with' सही phrase है।",
+    "explanation_en": "Use 'with' after 'bored'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher complimented me for my handwriting.",
+    "correct": "The teacher complimented me on my handwriting.",
+    "explanation_hi": "'Compliment someone on something' सही structure है।",
+    "explanation_en": "Use 'on' after 'compliment'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The doctor cured him from malaria.",
+    "correct": "The doctor cured him of malaria.",
+    "explanation_hi": "'Cure someone of something' सही structure है।",
+    "explanation_en": "Use 'of' after 'cure'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He differs with me in this matter.",
+    "correct": "He differs from me in this matter.",
+    "explanation_hi": "'Differ from' सही phrase है।",
+    "explanation_en": "Use 'from' after 'differ'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He was exempted from paying taxs.",
+    "correct": "He was exempted from paying taxes.",
+    "explanation_hi": "'Tax' का plural 'taxes' है।",
+    "explanation_en": "The plural of 'tax' is 'taxes'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer is entrusted by important duties.",
+    "correct": "The officer is entrusted with important duties.",
+    "explanation_hi": "'Entrusted with' सही phrase है।",
+    "explanation_en": "Use 'with' after 'entrusted'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The accused fled away from the city.",
+    "correct": "The accused fled from the city.",
+    "explanation_hi": "'Fled' में away का अर्थ पहले से होता है।",
+    "explanation_en": "'Fled' implies movement away; 'away' is redundant.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher glanced the answer sheet quickly.",
+    "correct": "The teacher glanced at the answer sheet quickly.",
+    "explanation_hi": "'Glance at' सही phrase है।",
+    "explanation_en": "Use 'at' after 'glance'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is ignorant for the rules.",
+    "correct": "He is ignorant of the rules.",
+    "explanation_hi": "'Ignorant of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'ignorant'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The minister hinted about a new policy.",
+    "correct": "The minister hinted at a new policy.",
+    "explanation_hi": "'Hint at' सही phrase है।",
+    "explanation_en": "Use 'at' after 'hint'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer imposed the fine against him.",
+    "correct": "The officer imposed the fine on him.",
+    "explanation_hi": "'Impose on' सही phrase है।",
+    "explanation_en": "Use 'on' after 'impose'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is indifferent for politics.",
+    "correct": "He is indifferent to politics.",
+    "explanation_hi": "'Indifferent to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'indifferent'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She was jealous from her sister.",
+    "correct": "She was jealous of her sister.",
+    "explanation_hi": "'Jealous of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'jealous'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The principal presided the meeting.",
+    "correct": "The principal presided over the meeting.",
+    "explanation_hi": "'Preside over' सही phrase है।",
+    "explanation_en": "Use 'over' after 'preside'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child was prohibited to enter the room.",
+    "correct": "The child was prohibited from entering the room.",
+    "explanation_hi": "'Prohibit from + gerund' सही structure है।",
+    "explanation_en": "Use 'from + gerund' after 'prohibited'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The judge suspected him for theft.",
+    "correct": "The judge suspected him of theft.",
+    "explanation_hi": "'Suspect of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'suspect'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The old man survives with his son.",
+    "correct": "The old man survives on his son.",
+    "explanation_hi": "Dependence के लिए 'survive on' सही phrase है।",
+    "explanation_en": "Use 'survive on' to express living by means of something.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer warned him against enter the building.",
+    "correct": "The officer warned him against entering the building.",
+    "explanation_hi": "'Against' के बाद gerund आता है।",
+    "explanation_en": "Use gerund after 'against'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He yearned of success throughout his life.",
+    "correct": "He yearned for success throughout his life.",
+    "explanation_hi": "'Yearn for' सही phrase है।",
+    "explanation_en": "Use 'for' after 'yearn'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He absented from the meeting yesterday.",
+    "correct": "He was absent from the meeting yesterday.",
+    "explanation_hi": "'Absent' adjective है; verb की तरह प्रयोग नहीं होता।",
+    "explanation_en": "'Absent' is an adjective, not a verb; use 'was absent from'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The lawyer adhered the rules strictly.",
+    "correct": "The lawyer adhered to the rules strictly.",
+    "explanation_hi": "'Adhere to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'adhere'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The students aim to success in life.",
+    "correct": "The students aim at success in life.",
+    "explanation_hi": "'Aim at' noun/gerund के साथ प्रयोग होता है।",
+    "explanation_en": "Use 'aim at' when followed by a noun.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer apologized me for the mistake.",
+    "correct": "The officer apologized to me for the mistake.",
+    "explanation_hi": "'Apologize to someone for something' सही structure है।",
+    "explanation_en": "Use 'apologize to someone for something'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He aspires for become a doctor.",
+    "correct": "He aspires to become a doctor.",
+    "explanation_hi": "'Aspire to + infinitive' सही structure है।",
+    "explanation_en": "Use infinitive after 'aspire to'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher attributed his success with hard work.",
+    "correct": "The teacher attributed his success to hard work.",
+    "explanation_hi": "'Attribute to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'attribute'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child begged money from his father politely.",
+    "correct": "The child begged for money from his father politely.",
+    "explanation_hi": "'Beg for' सही phrase है।",
+    "explanation_en": "Use 'for' after 'beg'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The company boasts for its achievements.",
+    "correct": "The company boasts of its achievements.",
+    "explanation_hi": "'Boast of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'boast'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He borrowed me some money.",
+    "correct": "He lent me some money.",
+    "explanation_hi": "'Borrow' और 'lend' का प्रयोग अलग होता है; borrow=उधार लेना, lend=उधार देना।",
+    "explanation_en": "'Borrow' means to take; 'lend' means to give; they are not interchangeable.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The students concentrated in their studies.",
+    "correct": "The students concentrated on their studies.",
+    "explanation_hi": "'Concentrate on' सही phrase है।",
+    "explanation_en": "Use 'on' after 'concentrate'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The principal consented the proposal.",
+    "correct": "The principal consented to the proposal.",
+    "explanation_hi": "'Consent to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'consent'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The manager deals with garments and deals in customers politely.",
+    "correct": "The manager deals in garments and deals with customers politely.",
+    "explanation_hi": "'Deal in' वस्तुओं के लिए और 'deal with' लोगों/समस्याओं के लिए है।",
+    "explanation_en": "Use 'deal in' for goods and 'deal with' for people or problems.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer deprived him from promotion.",
+    "correct": "The officer deprived him of promotion.",
+    "explanation_hi": "'Deprive of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'deprive'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The students entered into the examination hall quietly.",
+    "correct": "The students entered the examination hall quietly.",
+    "explanation_hi": "'Enter' transitive verb है; 'into' नहीं आता।",
+    "explanation_en": "Do not use 'into' after 'enter'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher exhorted the students for work hard.",
+    "correct": "The teacher exhorted the students to work hard.",
+    "explanation_hi": "'Exhort someone to + infinitive' सही structure है।",
+    "explanation_en": "Use infinitive after 'exhort'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The judge fined him with five hundred rupees.",
+    "correct": "The judge fined him five hundred rupees.",
+    "explanation_hi": "'Fine someone an amount' सही structure है।",
+    "explanation_en": "Use 'fine someone an amount' directly without 'with'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child furnished all details to the teacher.",
+    "correct": "The child furnished the teacher with all details.",
+    "explanation_hi": "'Furnish someone with something' सही structure है।",
+    "explanation_en": "Use 'furnish someone with something'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The patient groaned with pain loudly.",
+    "correct": "The patient groaned in pain loudly.",
+    "explanation_hi": "'In pain' सही phrase है।",
+    "explanation_en": "Use 'in pain', not 'with pain'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He hankers after for money.",
+    "correct": "He hankers after money.",
+    "explanation_hi": "'Hanker after' के बाद अतिरिक्त 'for' नहीं आता।",
+    "explanation_en": "Do not use extra 'for' after 'hanker after'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher hinted the answer to students indirectly.",
+    "correct": "The teacher hinted at the answer to the students indirectly.",
+    "explanation_hi": "'Hint at something' सही phrase है।",
+    "explanation_en": "Use 'hint at something'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The lawyer insisted me to sign the papers.",
+    "correct": "The lawyer insisted that I sign the papers.",
+    "explanation_hi": "'Insist that + subjunctive clause' सही structure है।",
+    "explanation_en": "Use a 'that-clause' with subjunctive after 'insist'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The company insured the workers from accidents.",
+    "correct": "The company insured the workers against accidents.",
+    "explanation_hi": "'Insure against' सही phrase है।",
+    "explanation_en": "Use 'against' after 'insure'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher instructed me for complete the work.",
+    "correct": "The teacher instructed me to complete the work.",
+    "explanation_hi": "'Instruct someone to + infinitive' सही structure है।",
+    "explanation_en": "Use infinitive after 'instruct'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is junior than all his colleagues.",
+    "correct": "He is junior to all his colleagues.",
+    "explanation_hi": "Latin-origin comparatives 'to' लेते हैं।",
+    "explanation_en": "Latin-origin comparatives take 'to', not 'than'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer kept on to talk continuously.",
+    "correct": "The officer kept on talking continuously.",
+    "explanation_hi": "'Keep on + gerund' सही structure है।",
+    "explanation_en": "Use gerund after 'keep on'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child laughed upon the beggar.",
+    "correct": "The child laughed at the beggar.",
+    "explanation_hi": "'Laugh at' सही phrase है।",
+    "explanation_en": "Use 'at' after 'laugh'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The students listened the lecture carefully.",
+    "correct": "The students listened to the lecture carefully.",
+    "explanation_hi": "'Listen to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'listen'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher ordered the students that they should leave.",
+    "correct": "The teacher ordered the students to leave.",
+    "explanation_hi": "'Order someone to + infinitive' सही structure है।",
+    "explanation_en": "Use infinitive after 'order someone'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer presided the annual function.",
+    "correct": "The officer presided over the annual function.",
+    "explanation_hi": "'Preside over' सही phrase है।",
+    "explanation_en": "Use 'over' after 'preside'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The doctor prohibited him to smoke.",
+    "correct": "The doctor prohibited him from smoking.",
+    "explanation_hi": "'Prohibit from + gerund' सही structure है।",
+    "explanation_en": "Use 'from + gerund' after 'prohibit'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher reproached him for careless.",
+    "correct": "The teacher reproached him for being careless.",
+    "explanation_hi": "'For' के बाद gerund/noun phrase आता है।",
+    "explanation_en": "Use gerund or noun after 'for'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The police searched the thief in the house.",
+    "correct": "The police searched for the thief in the house.",
+    "explanation_hi": "'Search for' (व्यक्ति/वस्तु खोजना) सही phrase है।",
+    "explanation_en": "Use 'search for' when looking for a person or thing.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The company supplied poor people by food.",
+    "correct": "The company supplied poor people with food.",
+    "explanation_hi": "'Supply someone with something' सही structure है।",
+    "explanation_en": "Use 'supply someone with something'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer suspected on his honesty.",
+    "correct": "The officer suspected his honesty.",
+    "explanation_hi": "'Suspect' transitive verb है; 'on' नहीं आता।",
+    "explanation_en": "'Suspect' is transitive; do not use 'on' after it.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child takes keen interest for painting.",
+    "correct": "The child takes keen interest in painting.",
+    "explanation_hi": "'Interest in' सही phrase है।",
+    "explanation_en": "Use 'in' after 'interest'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The old man was trembling by fear.",
+    "correct": "The old man was trembling with fear.",
+    "explanation_hi": "'Tremble with fear' सही phrase है।",
+    "explanation_en": "Use 'with' after 'trembling'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer warned him from entering the area.",
+    "correct": "The officer warned him against entering the area.",
+    "explanation_hi": "'Warn against + gerund' सही structure है।",
+    "explanation_en": "Use 'against + gerund' after 'warn'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The manager welcomed us in the office warmly.",
+    "correct": "The manager welcomed us to the office warmly.",
+    "explanation_hi": "'Welcome to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'welcome'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child was yearning after success desperately.",
+    "correct": "The child was yearning for success desperately.",
+    "explanation_hi": "'Yearn for' सही phrase है।",
+    "explanation_en": "Use 'for' after 'yearn'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer ordered for an enquiry immediately.",
+    "correct": "The officer ordered an enquiry immediately.",
+    "explanation_hi": "'Order' transitive verb है; 'for' नहीं आता।",
+    "explanation_en": "Do not use 'for' after 'order'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child prefers playing than studying.",
+    "correct": "The child prefers playing to studying.",
+    "explanation_hi": "'Prefer gerund to gerund' सही structure है।",
+    "explanation_en": "Use 'to' (not 'than') after 'prefer'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The students protested against to the decision.",
+    "correct": "The students protested against the decision.",
+    "explanation_hi": "'Against' के बाद अतिरिक्त 'to' नहीं आता।",
+    "explanation_en": "Do not use extra 'to' after 'against'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer replied me immediately.",
+    "correct": "The officer replied to me immediately.",
+    "explanation_hi": "'Reply to someone' सही structure है।",
+    "explanation_en": "Use 'to' after 'reply'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher said me to sit down.",
+    "correct": "The teacher told me to sit down.",
+    "explanation_hi": "'Say' के साथ object सीधे नहीं आता; 'tell' प्रयोग होता है।",
+    "explanation_en": "Do not use a direct object after 'say'; use 'tell' instead.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child shouted on his friend angrily.",
+    "correct": "The child shouted at his friend angrily.",
+    "explanation_hi": "'Shout at' सही phrase है।",
+    "explanation_en": "Use 'at' after 'shout'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer signed on the document.",
+    "correct": "The officer signed the document.",
+    "explanation_hi": "'Sign' transitive verb है; 'on' आवश्यक नहीं।",
+    "explanation_en": "'Sign' is transitive; do not use 'on' after it.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher stressed on discipline.",
+    "correct": "The teacher stressed discipline.",
+    "explanation_hi": "'Stress' transitive verb है; 'on' आवश्यक नहीं।",
+    "explanation_en": "'Stress' is transitive; do not add 'on'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer succeeded to achieve the target.",
+    "correct": "The officer succeeded in achieving the target.",
+    "explanation_hi": "'Succeed in + gerund' सही structure है।",
+    "explanation_en": "Use 'in + gerund' after 'succeed'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The principal threatened the students for punishment.",
+    "correct": "The principal threatened the students with punishment.",
+    "explanation_hi": "'Threaten someone with something' सही structure है।",
+    "explanation_en": "Use 'with' after 'threaten'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The old man was trembling from cold.",
+    "correct": "The old man was trembling with cold.",
+    "explanation_hi": "'Tremble with cold' सही phrase है।",
+    "explanation_en": "Use 'with cold', not 'from cold'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child was vexed on his friend's behavior.",
+    "correct": "The child was vexed with his friend's behavior.",
+    "explanation_hi": "'Vexed with' सही phrase है।",
+    "explanation_en": "Use 'with' after 'vexed'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer warned him for the danger.",
+    "correct": "The officer warned him of the danger.",
+    "explanation_hi": "'Warn of/about danger' सही phrase है।",
+    "explanation_en": "Use 'of' after 'warned'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The manager wrote me yesterday.",
+    "correct": "The manager wrote to me yesterday.",
+    "explanation_hi": "'Write to someone' सही phrase है।",
+    "explanation_en": "Use 'to' after 'write'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher yielded under pressure.",
+    "correct": "The teacher yielded to pressure.",
+    "explanation_hi": "'Yield to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'yield'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He has great affection towards his mother very much.",
+    "correct": "He has great affection for his mother.",
+    "explanation_hi": "'Affection for' सही phrase है; 'very much' अनावश्यक है।",
+    "explanation_en": "Use 'affection for'; 'very much' at the end is redundant.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher agreed with my proposal yesterday night.",
+    "correct": "The teacher agreed to my proposal last night.",
+    "explanation_hi": "Proposal के लिए 'agree to' और 'last night' सही है।",
+    "explanation_en": "Use 'agree to' for proposals; use 'last night', not 'yesterday night'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer appealed the people for calm.",
+    "correct": "The officer appealed to the people for calm.",
+    "explanation_hi": "'Appeal to someone for something' सही structure है।",
+    "explanation_en": "Use 'to' after 'appeal'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The doctor attended the patient carefully.",
+    "correct": "The doctor attended to the patient carefully.",
+    "explanation_hi": "'Attend to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'attend'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher blamed me of carelessness.",
+    "correct": "The teacher blamed me for carelessness.",
+    "explanation_hi": "'Blame someone for something' सही structure है।",
+    "explanation_en": "Use 'for' after 'blame'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher cautioned me for the danger.",
+    "correct": "The teacher cautioned me against the danger.",
+    "explanation_hi": "'Caution someone against something' सही structure है।",
+    "explanation_en": "Use 'against' after 'caution'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer charged him of theft.",
+    "correct": "The officer charged him with theft.",
+    "explanation_hi": "'Charge someone with something' सही structure है।",
+    "explanation_en": "Use 'with' after 'charge'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher commented the issue openly.",
+    "correct": "The teacher commented on the issue openly.",
+    "explanation_hi": "'Comment on' सही phrase है।",
+    "explanation_en": "Use 'on' after 'comment'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer communicated me the decision.",
+    "correct": "The officer communicated the decision to me.",
+    "explanation_hi": "'Communicate something to someone' सही structure है।",
+    "explanation_en": "Use 'communicate something to someone'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child complained against headache.",
+    "correct": "The child complained of headache.",
+    "explanation_hi": "Illness/pain के लिए 'complain of' प्रयोग होता है।",
+    "explanation_en": "Use 'of' for illness after 'complain'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The manager complied my request quickly.",
+    "correct": "The manager complied with my request quickly.",
+    "explanation_hi": "'Comply with' सही phrase है।",
+    "explanation_en": "Use 'with' after 'comply'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The students confided each other their secrets.",
+    "correct": "The students confided their secrets to each other.",
+    "explanation_hi": "'Confide something to someone' सही structure है।",
+    "explanation_en": "Use 'confide something to someone'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher convinced me for his honesty.",
+    "correct": "The teacher convinced me of his honesty.",
+    "explanation_hi": "'Convince someone of something' सही structure है।",
+    "explanation_en": "Use 'of' after 'convince'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer dealt the matter wisely.",
+    "correct": "The officer dealt with the matter wisely.",
+    "explanation_hi": "'Deal with' सही phrase है।",
+    "explanation_en": "Use 'with' after 'deal'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child died from hunger.",
+    "correct": "The child died of hunger.",
+    "explanation_hi": "'Die of' disease/hunger के लिए प्रयोग होता है।",
+    "explanation_en": "Use 'die of' for disease or deprivation.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer differed with my opinion completely.",
+    "correct": "The officer differed from my opinion completely.",
+    "explanation_hi": "'Differ from' सही phrase है।",
+    "explanation_en": "Use 'from' after 'differ'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher disposed all useless papers.",
+    "correct": "The teacher disposed of all useless papers.",
+    "explanation_hi": "'Dispose of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'dispose'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer excused me from attending the meeting.",
+    "correct": "The officer excused me for not attending the meeting.",
+    "explanation_hi": "'Excuse someone for something' सही structure है।",
+    "explanation_en": "Use 'excuse for' appropriately.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher favoured to my proposal.",
+    "correct": "The teacher favoured my proposal.",
+    "explanation_hi": "'Favour' transitive verb है; preposition नहीं आता।",
+    "explanation_en": "'Favour' is transitive; do not use a preposition after it.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer furnished all information to us.",
+    "correct": "The officer furnished us with all information.",
+    "explanation_hi": "'Furnish someone with something' सही structure है।",
+    "explanation_en": "Use 'furnish someone with something'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher informed me the schedule yesterday.",
+    "correct": "The teacher informed me of the schedule yesterday.",
+    "explanation_hi": "'Inform someone of something' सही structure है।",
+    "explanation_en": "Use 'inform someone of something'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer insisted for immediate action.",
+    "correct": "The officer insisted on immediate action.",
+    "explanation_hi": "'Insist on' सही phrase है।",
+    "explanation_en": "Use 'on' after 'insist'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The manager interfered on my work unnecessarily.",
+    "correct": "The manager interfered with my work unnecessarily.",
+    "explanation_hi": "'Interfere with' सही phrase है।",
+    "explanation_en": "Use 'with' after 'interfere'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer laughed upon my mistake.",
+    "correct": "The officer laughed at my mistake.",
+    "explanation_hi": "'Laugh at' सही phrase है।",
+    "explanation_en": "Use 'at' after 'laugh'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher objected the proposal strongly.",
+    "correct": "The teacher objected to the proposal strongly.",
+    "explanation_hi": "'Object to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'object'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child obeyed to his parents always.",
+    "correct": "The child obeyed his parents always.",
+    "explanation_hi": "'Obey' transitive verb है; preposition नहीं आता।",
+    "explanation_en": "'Obey' is transitive; do not use a preposition after it.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher pointed towards the blackboard clearly.",
+    "correct": "The teacher pointed at the blackboard clearly.",
+    "explanation_hi": "'Point at' (किसी वस्तु की ओर इशारा) सही phrase है।",
+    "explanation_en": "Use 'point at' when indicating something.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer replied my question immediately.",
+    "correct": "The officer replied to my question immediately.",
+    "explanation_hi": "'Reply to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'reply'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher requested me to not make noise.",
+    "correct": "The teacher requested me not to make noise.",
+    "explanation_hi": "'Not' को infinitive से पहले रखा जाता है।",
+    "explanation_en": "Place 'not' before the infinitive.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer searched the missing file everywhere.",
+    "correct": "The officer searched for the missing file everywhere.",
+    "explanation_hi": "'Search for' सही phrase है।",
+    "explanation_en": "Use 'for' after 'search'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer suspected on his intentions.",
+    "correct": "The officer suspected his intentions.",
+    "explanation_hi": "'Suspect' transitive verb है; 'on' नहीं आता।",
+    "explanation_en": "'Suspect' is transitive; do not use 'on' after it.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher thanked me for helping him very much.",
+    "correct": "The teacher thanked me very much for helping him.",
+    "explanation_hi": "Adverb 'very much' verb के बाद आता है।",
+    "explanation_en": "Place adverb 'very much' after the verb, not at the end.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child trembled by fear during the storm.",
+    "correct": "The child trembled with fear during the storm.",
+    "explanation_hi": "'Tremble with fear' सही phrase है।",
+    "explanation_en": "Use 'with fear'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer warned me against to enter the room.",
+    "correct": "The officer warned me against entering the room.",
+    "explanation_hi": "'Against' के बाद gerund आता है।",
+    "explanation_en": "Use gerund after 'against'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer yielded before public pressure.",
+    "correct": "The officer yielded to public pressure.",
+    "explanation_hi": "'Yield to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'yield'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The boy is weak in English but good in Mathematics.",
+    "correct": "The boy is weak in English but good at Mathematics.",
+    "explanation_hi": "Skills/subjects की mastery के लिए 'good at' प्रयोग होता है।",
+    "explanation_en": "Use 'good at' for skills or subjects; 'weak in' is correct as given.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is superior than me in intelligence.",
+    "correct": "He is superior to me in intelligence.",
+    "explanation_hi": "Latin-origin comparatives 'to' लेते हैं।",
+    "explanation_en": "Latin-origin comparatives take 'to', not 'than'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "This pen is preferable than that one.",
+    "correct": "This pen is preferable to that one.",
+    "explanation_hi": "'Preferable to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'preferable'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The train is preferable than the bus.",
+    "correct": "The train is preferable to the bus.",
+    "explanation_hi": "'Preferable to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'preferable'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is equal than me in strength.",
+    "correct": "He is equal to me in strength.",
+    "explanation_hi": "'Equal to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'equal'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is related with my uncle.",
+    "correct": "She is related to my uncle.",
+    "explanation_hi": "'Related to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'related'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is acquainted to the principal.",
+    "correct": "He is acquainted with the principal.",
+    "explanation_hi": "'Acquainted with' सही phrase है।",
+    "explanation_en": "Use 'with' after 'acquainted'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher is pleased from your performance.",
+    "correct": "The teacher is pleased with your performance.",
+    "explanation_hi": "'Pleased with' सही phrase है।",
+    "explanation_en": "Use 'with' after 'pleased'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer is satisfied from the report.",
+    "correct": "The officer is satisfied with the report.",
+    "explanation_hi": "'Satisfied with' सही phrase है।",
+    "explanation_en": "Use 'with' after 'satisfied'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is annoyed from the noise.",
+    "correct": "He is annoyed with the noise.",
+    "explanation_hi": "'Annoyed with' सही phrase है।",
+    "explanation_en": "Use 'with' after 'annoyed'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is disgusted from his behavior.",
+    "correct": "She is disgusted with his behavior.",
+    "explanation_hi": "'Disgusted with' सही phrase है।",
+    "explanation_en": "Use 'with' after 'disgusted'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is expert in repairing machines.",
+    "correct": "He is expert at repairing machines.",
+    "explanation_hi": "Skill के लिए 'expert at' प्रयोग होता है।",
+    "explanation_en": "Use 'at' for expertise in a skill.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is devoid from sympathy.",
+    "correct": "He is devoid of sympathy.",
+    "explanation_hi": "'Devoid of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'devoid'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is bent to become a doctor.",
+    "correct": "She is bent on becoming a doctor.",
+    "explanation_hi": "'Bent on + gerund' सही structure है।",
+    "explanation_en": "Use 'on + gerund' after 'bent'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child is incapable to solve the puzzle.",
+    "correct": "The child is incapable of solving the puzzle.",
+    "explanation_hi": "'Incapable of + gerund' सही structure है।",
+    "explanation_en": "Use 'of + gerund' after 'incapable'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is confident to win the election.",
+    "correct": "He is confident of winning the election.",
+    "explanation_hi": "'Confident of + gerund' सही structure है।",
+    "explanation_en": "Use 'of + gerund' after 'confident'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer is desirous to meet the minister.",
+    "correct": "The officer is desirous of meeting the minister.",
+    "explanation_hi": "'Desirous of + gerund' सही structure है।",
+    "explanation_en": "Use 'of + gerund' after 'desirous'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher is conscious for her duties.",
+    "correct": "The teacher is conscious of her duties.",
+    "explanation_hi": "'Conscious of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'conscious'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is addicted with alcohol.",
+    "correct": "He is addicted to alcohol.",
+    "explanation_hi": "'Addicted to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'addicted'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The principal is opposed for the proposal.",
+    "correct": "The principal is opposed to the proposal.",
+    "explanation_hi": "'Opposed to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'opposed'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer is indebted with his friend.",
+    "correct": "The officer is indebted to his friend.",
+    "explanation_hi": "'Indebted to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'indebted'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is fond for reading novels.",
+    "correct": "He is fond of reading novels.",
+    "explanation_hi": "'Fond of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'fond'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is grateful for me for the help.",
+    "correct": "She is grateful to me for the help.",
+    "explanation_hi": "'Grateful to someone for something' सही structure है।",
+    "explanation_en": "Use 'grateful to someone for something'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer is negligent from his duties.",
+    "correct": "The officer is negligent of his duties.",
+    "explanation_hi": "'Negligent of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'negligent'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child is obedient with his parents.",
+    "correct": "The child is obedient to his parents.",
+    "explanation_hi": "'Obedient to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'obedient'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher is partial for hardworking students.",
+    "correct": "The teacher is partial to hardworking students.",
+    "explanation_hi": "'Partial to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'partial'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child is proficient for drawing.",
+    "correct": "The child is proficient in drawing.",
+    "explanation_hi": "'Proficient in' सही phrase है।",
+    "explanation_en": "Use 'in' after 'proficient'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher is proud for her students.",
+    "correct": "The teacher is proud of her students.",
+    "explanation_hi": "'Proud of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'proud'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer is responsible of the project.",
+    "correct": "The officer is responsible for the project.",
+    "explanation_hi": "'Responsible for' सही phrase है।",
+    "explanation_en": "Use 'for' after 'responsible'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child is sensitive for criticism.",
+    "correct": "The child is sensitive to criticism.",
+    "explanation_hi": "'Sensitive to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'sensitive'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher is short from temper.",
+    "correct": "The teacher is short-tempered.",
+    "explanation_hi": "'Short-tempered' एक compound adjective है।",
+    "explanation_en": "Use the compound adjective 'short-tempered'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer is worthy for praise.",
+    "correct": "The officer is worthy of praise.",
+    "explanation_hi": "'Worthy of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'worthy'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher was absent since two days.",
+    "correct": "The teacher has been absent for two days.",
+    "explanation_hi": "Duration के लिए 'for' और perfect tense प्रयोग होता है।",
+    "explanation_en": "Use 'for' with duration; use perfect tense.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer has been working here since five years.",
+    "correct": "The officer has been working here for five years.",
+    "explanation_hi": "Duration के लिए 'for' प्रयोग होता है।",
+    "explanation_en": "Use 'for' (not 'since') with a period of time.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child did not went to school yesterday.",
+    "correct": "The child did not go to school yesterday.",
+    "explanation_hi": "'Did' के बाद verb की base form आती है।",
+    "explanation_en": "Use the base form after 'did'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher had already saw the report.",
+    "correct": "The teacher had already seen the report.",
+    "explanation_hi": "Perfect tense में past participle (third form) प्रयोग होती है।",
+    "explanation_en": "Use the past participle in perfect tense.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer has wrote the letter already.",
+    "correct": "The officer has written the letter already.",
+    "explanation_hi": "Perfect tense में past participle प्रयोग होती है।",
+    "explanation_en": "Use the past participle in perfect tense.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child is reading since morning.",
+    "correct": "The child has been reading since morning.",
+    "explanation_hi": "'Since' के साथ present perfect continuous tense प्रयोग होता है।",
+    "explanation_en": "Use present perfect continuous tense with 'since'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher has been teaching since ten years.",
+    "correct": "The teacher has been teaching for ten years.",
+    "explanation_hi": "Duration के लिए 'for' प्रयोग होता है।",
+    "explanation_en": "Use 'for' with a duration of time.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer is having three cars.",
+    "correct": "The officer has three cars.",
+    "explanation_hi": "Possession के लिए continuous tense नहीं आता।",
+    "explanation_en": "Do not use continuous tense for possession.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child is knowing the answer correctly.",
+    "correct": "The child knows the answer correctly.",
+    "explanation_hi": "'Know' stative verb है; continuous में नहीं आता।",
+    "explanation_en": "Stative verbs like 'know' are not used in continuous tense.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher is understanding your problem now.",
+    "correct": "The teacher understands your problem now.",
+    "explanation_hi": "'Understand' stative verb है; continuous में नहीं आता।",
+    "explanation_en": "Stative verbs like 'understand' are not used in continuous tense.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer has no any information regarding the case.",
+    "correct": "The officer has no information regarding the case.",
+    "explanation_hi": "'No' और 'any' एक साथ नहीं आते।",
+    "explanation_en": "Do not use 'no' and 'any' together.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child does not know nothing about it.",
+    "correct": "The child does not know anything about it.",
+    "explanation_hi": "Double negative गलत है।",
+    "explanation_en": "Avoid double negatives.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The teacher seldom never gets angry.",
+    "correct": "The teacher seldom gets angry.",
+    "explanation_hi": "'Seldom' खुद negative है; 'never' जोड़ना double negative है।",
+    "explanation_en": "'Seldom' is already negative; do not add 'never'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The officer returned back from Delhi yesterday.",
+    "correct": "The officer returned from Delhi yesterday.",
+    "explanation_hi": "'Return' में वापस आने का अर्थ पहले से होता है।",
+    "explanation_en": "'Return' already implies coming back; 'back' is redundant.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The child repeated again the same mistake.",
+    "correct": "The child repeated the same mistake.",
+    "explanation_hi": "'Repeat' में again का अर्थ पहले से होता है।",
+    "explanation_en": "'Repeat' already includes the idea of 'again'.",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is an university student.",
+    "correct": "She is a university student.",
+    "explanation_hi": "'University' 'यू' (consonant sound) से शुरू होता है इसलिए 'a' आता है।",
+    "explanation_en": "'University' begins with a consonant sound /j/; use 'a', not 'an'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He is a honest man.",
+    "correct": "He is an honest man.",
+    "explanation_hi": "'Honest' में 'H' silent है; vowel sound से शुरू होने पर 'an' आता है।",
+    "explanation_en": "'Honest' begins with a silent 'H' and a vowel sound; use 'an'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He is a heir to the throne.",
+    "correct": "He is an heir to the throne.",
+    "explanation_hi": "'Heir' में 'H' silent है; vowel sound से शुरू होने पर 'an' आता है।",
+    "explanation_en": "'Heir' begins with a silent 'H' and vowel sound; use 'an'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "I saw a one-eyed man.",
+    "correct": "I saw a one-eyed man.",
+    "explanation_hi": "'One' 'वन' (W sound, consonant) से शुरू होता है इसलिए 'a' सही है।",
+    "explanation_en": "'One' begins with a /w/ consonant sound; 'a' is correct.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He has an MA degree.",
+    "correct": "He has an MA degree.",
+    "explanation_hi": "Abbreviation में पहले letter का sound देखा जाता है; 'M' vowel sound /em/ देता है।",
+    "explanation_en": "When reading abbreviations, check the first letter sound; 'M' sounds like /em/ (vowel sound).",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He is the best student of a class.",
+    "correct": "He is the best student of the class.",
+    "explanation_hi": "Specific/particular noun के पहले 'the' आता है।",
+    "explanation_en": "Use 'the' before a specific or particular noun.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Sun rises in east.",
+    "correct": "The sun rises in the east.",
+    "explanation_hi": "Unique objects (sun, moon) और directions के पहले 'the' आता है।",
+    "explanation_en": "Use 'the' before unique objects like the sun and before directions.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She plays piano very well.",
+    "correct": "She plays the piano very well.",
+    "explanation_hi": "Musical instruments के पहले 'the' आता है।",
+    "explanation_en": "Use 'the' before musical instruments.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He is in hospital.",
+    "correct": "He is in the hospital.",
+    "explanation_hi": "American English में hospital के पहले 'the' आता है।",
+    "explanation_en": "Use 'the' before 'hospital' in standard usage.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Gold is a most valuable metal.",
+    "correct": "Gold is the most valuable metal.",
+    "explanation_hi": "Superlative degree के पहले 'the' आता है।",
+    "explanation_en": "Use 'the' before superlatives.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "I met a MP yesterday.",
+    "correct": "I met an MP yesterday.",
+    "explanation_hi": "Abbreviation 'MP' vowel sound /em/ से शुरू होता है।",
+    "explanation_en": "Abbreviation 'MP' starts with vowel sound /em/; use 'an'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He gave me an useful information.",
+    "correct": "He gave me useful information.",
+    "explanation_hi": "'Useful' /j/ consonant sound से शुरू होता है; 'a useful' सही था, पर 'information' uncountable है।",
+    "explanation_en": "'Information' is uncountable; no article needed. 'Useful' takes 'a' (consonant sound /j/).",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The wisdom is a virtue.",
+    "correct": "Wisdom is a virtue.",
+    "explanation_hi": "Abstract nouns general sense में article नहीं लेते।",
+    "explanation_en": "Abstract nouns used in a general sense do not take an article.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The honesty is the best policy.",
+    "correct": "Honesty is the best policy.",
+    "explanation_hi": "Proverbs और general abstract nouns article नहीं लेते।",
+    "explanation_en": "Abstract nouns in general or proverbial statements do not take an article.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He returned after the hour.",
+    "correct": "He returned after an hour.",
+    "explanation_hi": "'Hour' silent 'H' से शुरू होता है; vowel sound के लिए 'an' आता है।",
+    "explanation_en": "'Hour' has a silent 'H' and begins with a vowel sound; use 'an'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She is the teacher by profession.",
+    "correct": "She is a teacher by profession.",
+    "explanation_hi": "Profession बताते समय 'a/an' आता है।",
+    "explanation_en": "When stating a profession, use 'a/an'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He is best player in the team.",
+    "correct": "He is the best player in the team.",
+    "explanation_hi": "Superlative adjective के पहले 'the' आता है।",
+    "explanation_en": "Use 'the' before a superlative adjective.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "India is secular country.",
+    "correct": "India is a secular country.",
+    "explanation_hi": "Singular countable noun के पहले article आना चाहिए।",
+    "explanation_en": "Use 'a' before a singular countable noun.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He hurt him while playing.",
+    "correct": "He hurt himself while playing.",
+    "explanation_hi": "जब subject और object एक ही व्यक्ति हो तो reflexive pronoun आता है।",
+    "explanation_en": "Use reflexive pronoun when the subject and object refer to the same person.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Please help yourself with the food.",
+    "correct": "Please help yourself with the food.",
+    "explanation_hi": "'Help yourself' सही reflexive expression है।",
+    "explanation_en": "'Help yourself' is the correct reflexive expression; this sentence is correct.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The man which came here is my uncle.",
+    "correct": "The man who came here is my uncle.",
+    "explanation_hi": "व्यक्तियों के लिए 'which' की जगह 'who' का प्रयोग होता है।",
+    "explanation_en": "Use 'who' (not 'which') for persons.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The book which I borrowed it is good.",
+    "correct": "The book which I borrowed is good.",
+    "explanation_hi": "Relative clause में extra pronoun नहीं आता।",
+    "explanation_en": "Do not repeat the pronoun in a relative clause.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Between you and I, this is wrong.",
+    "correct": "Between you and me, this is wrong.",
+    "explanation_hi": "Preposition के बाद objective case (me) आता है।",
+    "explanation_en": "Use objective case after prepositions; 'between you and me'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Its my book.",
+    "correct": "It's my book.",
+    "explanation_hi": "'Its' possessive है; 'It's' = It is। यहाँ 'It is' के लिए 'It's' सही है।",
+    "explanation_en": "'Its' is possessive; 'It's' is a contraction of 'it is'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The team played their best.",
+    "correct": "The team played its best.",
+    "explanation_hi": "Collective noun एक unit के रूप में singular pronoun लेता है।",
+    "explanation_en": "When a collective noun acts as a unit, use singular pronoun 'its'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Each student must bring their own pen.",
+    "correct": "Each student must bring his or her own pen.",
+    "explanation_hi": "Traditional grammar में 'each' के साथ singular pronoun आता है।",
+    "explanation_en": "In formal/exam usage, 'each' takes singular pronoun 'his or her'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Everyone should do their work honestly.",
+    "correct": "Everyone should do his or her work honestly.",
+    "explanation_hi": "Formal grammar में indefinite pronouns singular pronoun लेते हैं।",
+    "explanation_en": "In formal grammar, indefinite pronouns take singular pronoun.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "This is the boy who's bag was stolen.",
+    "correct": "This is the boy whose bag was stolen.",
+    "explanation_hi": "'Whose' possessive relative pronoun है; 'who's' = who is।",
+    "explanation_en": "'Whose' is a possessive relative pronoun; 'who's' means 'who is'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Him and his friend went to Delhi.",
+    "correct": "He and his friend went to Delhi.",
+    "explanation_hi": "Subject position में nominative case (He) आता है।",
+    "explanation_en": "Use nominative case (He/She/They) for subjects.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The teacher scolded he.",
+    "correct": "The teacher scolded him.",
+    "explanation_hi": "Object position में objective case (him) आता है।",
+    "explanation_en": "Use objective case (him/her/them) for objects.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "It was me who called you.",
+    "correct": "It was I who called you.",
+    "explanation_hi": "Formal English में 'It is I' grammatically correct है।",
+    "explanation_en": "In formal grammar, 'It is I' is correct (nominative case after 'be').",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She is as tall as him.",
+    "correct": "She is as tall as he (is).",
+    "explanation_hi": "'As...as' comparison में nominative case प्रयोग होता है।",
+    "explanation_en": "Use nominative case in comparisons with 'as...as'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "You should to attend the class.",
+    "correct": "You should attend the class.",
+    "explanation_hi": "Modal verbs के बाद bare infinitive आता है; 'to' नहीं लगता।",
+    "explanation_en": "Use bare infinitive after modal verbs; do not add 'to'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He might to come tomorrow.",
+    "correct": "He might come tomorrow.",
+    "explanation_hi": "Modal verb 'might' के बाद bare infinitive आता है।",
+    "explanation_en": "Use bare infinitive after modal 'might'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She would to help you.",
+    "correct": "She would help you.",
+    "explanation_hi": "Modal verb के बाद bare infinitive आता है।",
+    "explanation_en": "Use bare infinitive after modal 'would'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "You must to finish this today.",
+    "correct": "You must finish this today.",
+    "explanation_hi": "Modal 'must' के बाद bare infinitive आता है।",
+    "explanation_en": "Do not use 'to' after modal 'must'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He dares to not speak the truth.",
+    "correct": "He dare not speak the truth.",
+    "explanation_hi": "'Dare' modal के रूप में 'not' के बाद bare infinitive लेता है।",
+    "explanation_en": "When 'dare' is used as a modal, use 'dare not + bare infinitive'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "We shall met tomorrow.",
+    "correct": "We shall meet tomorrow.",
+    "explanation_hi": "Modal 'shall' के बाद verb की base form आती है।",
+    "explanation_en": "Use base form after modal 'shall'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He need not to worry.",
+    "correct": "He need not worry.",
+    "explanation_hi": "'Need' modal के रूप में 'not' के बाद bare infinitive लेता है।",
+    "explanation_en": "When 'need' is a modal, use 'need not + bare infinitive' without 'to'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "You ought attend the meeting.",
+    "correct": "You ought to attend the meeting.",
+    "explanation_hi": "'Ought to' के साथ 'to' हमेशा आता है।",
+    "explanation_en": "'Ought' always takes 'to'; use 'ought to + infinitive'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He may be went there.",
+    "correct": "He may have gone there.",
+    "explanation_hi": "Past possibility के लिए 'may have + past participle' आता है।",
+    "explanation_en": "Use 'may have + past participle' for past possibility.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She would have went there.",
+    "correct": "She would have gone there.",
+    "explanation_hi": "Perfect modal में 'have + past participle' आता है।",
+    "explanation_en": "Use 'would have + past participle' (not past tense).",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He should has completed the work.",
+    "correct": "He should have completed the work.",
+    "explanation_hi": "'Should have + past participle' सही structure है।",
+    "explanation_en": "Use 'should have + past participle'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "I used to can swim.",
+    "correct": "I used to be able to swim.",
+    "explanation_hi": "Modal के past के लिए 'used to be able to' प्रयोग होता है।",
+    "explanation_en": "Do not combine 'used to' with a modal; use 'used to be able to'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He said that he is tired.",
+    "correct": "He said that he was tired.",
+    "explanation_hi": "Reported speech में main verb past होने पर verb का tense back-shift होता है।",
+    "explanation_en": "In indirect speech, tense shifts back when the reporting verb is past.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She said, 'I will help you.'",
+    "correct": "She said that she would help me.",
+    "explanation_hi": "Direct speech को indirect में बदलने पर 'will' → 'would' और pronouns बदलते हैं।",
+    "explanation_en": "In indirect speech, 'will' becomes 'would' and pronouns change accordingly.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He told that he was ill.",
+    "correct": "He said that he was ill.",
+    "explanation_hi": "'Tell' के बाद object आना चाहिए; 'said that' सही है।",
+    "explanation_en": "'Tell' must have an object (tell someone); use 'said that' without object.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She asked me that where I lived.",
+    "correct": "She asked me where I lived.",
+    "explanation_hi": "Indirect question में 'that' नहीं आता।",
+    "explanation_en": "Do not use 'that' to introduce an indirect question.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He asked me that what I wanted.",
+    "correct": "He asked me what I wanted.",
+    "explanation_hi": "Indirect question में 'that' नहीं आता; question word clause बनती है।",
+    "explanation_en": "Do not use 'that' before question words in indirect speech.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She said me that she was happy.",
+    "correct": "She told me that she was happy.",
+    "explanation_hi": "'Said' के साथ indirect object नहीं आता; 'told' सही है।",
+    "explanation_en": "Use 'told me' (not 'said me'); 'say' does not take a direct object.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He ordered me that I should sit down.",
+    "correct": "He ordered me to sit down.",
+    "explanation_hi": "Order/command के liye infinitive structure प्रयोग होता है।",
+    "explanation_en": "Use 'ordered someone to + infinitive' for commands in indirect speech.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The teacher said me to be quiet.",
+    "correct": "The teacher told me to be quiet.",
+    "explanation_hi": "'Said' के बाद indirect object नहीं आता।",
+    "explanation_en": "Use 'told me' (not 'said me') when a direct object follows.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He advised me that I should rest.",
+    "correct": "He advised me to rest.",
+    "explanation_hi": "Advice indirect speech में 'advised someone to + infinitive' बनती है।",
+    "explanation_en": "Use 'advised someone to + infinitive' in indirect speech.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She requested him that he should help her.",
+    "correct": "She requested him to help her.",
+    "explanation_hi": "Request indirect speech में 'requested someone to + infinitive' बनती है।",
+    "explanation_en": "Use 'requested someone to + infinitive' in indirect speech.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He said he will come tomorrow.",
+    "correct": "He said he would come the next day.",
+    "explanation_hi": "Past reporting में 'will' → 'would' और 'tomorrow' → 'the next day' बदलता है।",
+    "explanation_en": "In past indirect speech, 'will' becomes 'would' and 'tomorrow' becomes 'the next day'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The letter was written by him yesterday.",
+    "correct": "The letter was written by him yesterday.",
+    "explanation_hi": "Passive voice सही है: was + past participle + by + agent।",
+    "explanation_en": "This passive construction is correct: was + past participle + by + agent.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The work is being did by him.",
+    "correct": "The work is being done by him.",
+    "explanation_hi": "Passive में past participle (done) आता है, not 'did'।",
+    "explanation_en": "Use past participle 'done' in passive voice, not 'did'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The letter has been wrote by her.",
+    "correct": "The letter has been written by her.",
+    "explanation_hi": "Perfect passive में past participle 'written' आता है।",
+    "explanation_en": "Use past participle 'written' in perfect passive construction.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He was given a prize by the teacher.",
+    "correct": "He was given a prize by the teacher.",
+    "explanation_hi": "यह सही passive construction है।",
+    "explanation_en": "This is correct passive construction with indirect object as subject.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The thief was catched by the police.",
+    "correct": "The thief was caught by the police.",
+    "explanation_hi": "'Catch' का past participle 'caught' है।",
+    "explanation_en": "The past participle of 'catch' is 'caught'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She is knowing by everyone.",
+    "correct": "She is known to everyone.",
+    "explanation_hi": "Stative verbs passive में नहीं आते; 'known to' सही phrase है।",
+    "explanation_en": "Stative verbs like 'know' use 'known to' in passive; they do not take 'being known'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The match is been played.",
+    "correct": "The match is being played.",
+    "explanation_hi": "Present continuous passive में 'is being + past participle' आता है।",
+    "explanation_en": "Present continuous passive: 'is being + past participle'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He has been gave the task.",
+    "correct": "He has been given the task.",
+    "explanation_hi": "Perfect passive में 'been + past participle' आता है।",
+    "explanation_en": "Use 'been + past participle'; 'given' not 'gave'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "If he will study hard, he will pass.",
+    "correct": "If he studies hard, he will pass.",
+    "explanation_hi": "Type 1 conditional में 'if clause' में simple present आता है।",
+    "explanation_en": "In Type 1 conditional, use simple present in the 'if-clause', not 'will'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "If I would know the answer, I would tell you.",
+    "correct": "If I knew the answer, I would tell you.",
+    "explanation_hi": "Type 2 conditional में 'if clause' में simple past आता है।",
+    "explanation_en": "In Type 2 conditional, use simple past in the 'if-clause', not 'would'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "If he had studied, he will have passed.",
+    "correct": "If he had studied, he would have passed.",
+    "explanation_hi": "Type 3 conditional में 'would have + past participle' आता है।",
+    "explanation_en": "In Type 3 conditional, use 'would have + past participle' in the main clause.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "If you heat ice, it will melt.",
+    "correct": "If you heat ice, it melts.",
+    "explanation_hi": "Type 0 conditional (general truth) में दोनों clauses simple present होती हैं।",
+    "explanation_en": "In Type 0 conditional (universal truth), both clauses use simple present.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Unless you will not study, you will fail.",
+    "correct": "Unless you study, you will fail.",
+    "explanation_hi": "'Unless' में negation पहले से होता है; 'not' जोड़ना गलत है।",
+    "explanation_en": "'Unless' already contains a negative meaning; do not add 'not'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Provided that he will agree, we can proceed.",
+    "correct": "Provided that he agrees, we can proceed.",
+    "explanation_hi": "'Provided that' conditional clause में simple present आता है।",
+    "explanation_en": "Use simple present (not 'will') after 'provided that'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "In case he will come, inform me.",
+    "correct": "In case he comes, inform me.",
+    "explanation_hi": "'In case' के बाद simple present आता है।",
+    "explanation_en": "Use simple present after 'in case', not 'will'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Neither he nor his friends is coming.",
+    "correct": "Neither he nor his friends are coming.",
+    "explanation_hi": "Verb nearest subject (friends-plural) के अनुसार आता है।",
+    "explanation_en": "With 'neither...nor', verb agrees with the nearest subject.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Not only he plays cricket but also he paints.",
+    "correct": "Not only does he play cricket but he also paints.",
+    "explanation_hi": "'Not only' sentence शुरू में आने पर inversion होता है।",
+    "explanation_en": "When 'not only' begins a sentence, use auxiliary inversion.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Both he as well as his friend are wrong.",
+    "correct": "Both he and his friend are wrong.",
+    "explanation_hi": "'Both' के साथ 'and' आता है, 'as well as' नहीं।",
+    "explanation_en": "'Both' is always paired with 'and', not 'as well as'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Either he or you is responsible.",
+    "correct": "Either he or you are responsible.",
+    "explanation_hi": "Verb nearest subject (you-plural) के अनुसार आता है।",
+    "explanation_en": "With 'either...or', the verb agrees with the nearest subject.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Although he was tired, but he continued.",
+    "correct": "Although he was tired, he continued.",
+    "explanation_hi": "'Although' और 'but' एक साथ नहीं आते।",
+    "explanation_en": "Do not use 'but' with 'although'; they are both connectors for contrast.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Though she studied hard, yet she failed.",
+    "correct": "Though she studied hard, she failed.",
+    "explanation_hi": "'Though' के साथ 'yet' आवश्यक नहीं है; दोनों एक साथ नहीं आते।",
+    "explanation_en": "Do not use 'yet' with 'though'; they serve the same purpose.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Since he was ill therefore he could not come.",
+    "correct": "Since he was ill, he could not come.",
+    "explanation_hi": "'Since' और 'therefore' एक साथ नहीं आते।",
+    "explanation_en": "Do not use 'therefore' with 'since'; they serve the same causal purpose.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He is so brave that he cannot be frightened.",
+    "correct": "He is so brave that he can be frightened by nothing.",
+    "explanation_hi": "'So brave that he cannot' meaning को check करें; 'too brave to be frightened' अधिक natural है।",
+    "explanation_en": "Check meaning carefully with 'so...that' constructions involving negatives.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Scarcely he had left when it began to rain.",
+    "correct": "Scarcely had he left when it began to rain.",
+    "explanation_hi": "'Scarcely' sentence शुरू में आने पर inversion होता है।",
+    "explanation_en": "Use auxiliary inversion when 'scarcely' begins a sentence.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Barely he finished when the bell rang.",
+    "correct": "Barely had he finished when the bell rang.",
+    "explanation_hi": "'Barely' sentence शुरू में आने पर inversion होता है।",
+    "explanation_en": "Use auxiliary inversion when 'barely' begins a sentence.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He is too weak that he cannot walk.",
+    "correct": "He is too weak to walk.",
+    "explanation_hi": "'Too...to' structure में 'that' नहीं आता।",
+    "explanation_en": "Use 'too + adjective + to + infinitive', not 'too...that'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He works not only sincerely but also he is honest.",
+    "correct": "He is not only sincere but also honest.",
+    "explanation_hi": "'Not only...but also' parallel structure में होना चाहिए।",
+    "explanation_en": "'Not only...but also' must connect grammatically parallel elements.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "This is a new innovation.",
+    "correct": "This is an innovation.",
+    "explanation_hi": "'Innovation' में new का अर्थ पहले से होता है।",
+    "explanation_en": "'Innovation' already means something new; 'new' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He gave a free gift to her.",
+    "correct": "He gave a gift to her.",
+    "explanation_hi": "'Gift' में free का अर्थ पहले से होता है।",
+    "explanation_en": "A gift is by definition free; 'free' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The past history shows this is wrong.",
+    "correct": "History shows this is wrong.",
+    "explanation_hi": "'History' में past का अर्थ पहले से होता है।",
+    "explanation_en": "'History' already refers to the past; 'past' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He joined together with them.",
+    "correct": "He joined them.",
+    "explanation_hi": "'Join' में together का अर्थ पहले से होता है।",
+    "explanation_en": "'Join' already implies coming together; 'together' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Please forward it on ahead.",
+    "correct": "Please forward it.",
+    "explanation_hi": "'Forward' में ahead का अर्थ पहले से होता है।",
+    "explanation_en": "'Forward' already means to send ahead; 'on ahead' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He finally ended up at last.",
+    "correct": "He finally ended up.",
+    "explanation_hi": "'Finally' और 'at last' दोनों एक ही अर्थ देते हैं।",
+    "explanation_en": "'Finally' and 'at last' are redundant together.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She is an ATM machine.",
+    "correct": "She withdrew money from an ATM.",
+    "explanation_hi": "'ATM' में 'Machine' का अर्थ पहले से होता है।",
+    "explanation_en": "'ATM' stands for Automated Teller Machine; 'machine' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Please enter your PIN number.",
+    "correct": "Please enter your PIN.",
+    "explanation_hi": "'PIN' में 'Number' का अर्थ पहले से होता है।",
+    "explanation_en": "'PIN' stands for Personal Identification Number; 'number' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He made an unexpected surprise visit.",
+    "correct": "He made a surprise visit.",
+    "explanation_hi": "'Surprise' में unexpected का अर्थ पहले से होता है।",
+    "explanation_en": "A surprise is by definition unexpected; 'unexpected' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The two twins look alike.",
+    "correct": "The twins look alike.",
+    "explanation_hi": "'Twins' में two का अर्थ पहले से होता है।",
+    "explanation_en": "'Twins' already means two; 'two' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He wrote his autobiography of his own life.",
+    "correct": "He wrote his autobiography.",
+    "explanation_hi": "'Autobiography' में 'of his own life' का अर्थ पहले से होता है।",
+    "explanation_en": "'Autobiography' already means the story of one's own life.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She is a widow woman.",
+    "correct": "She is a widow.",
+    "explanation_hi": "'Widow' में woman का अर्थ पहले से होता है।",
+    "explanation_en": "'Widow' is always female; 'woman' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He is a temporary stopgap measure.",
+    "correct": "It is a stopgap measure.",
+    "explanation_hi": "'Stopgap' में temporary का अर्थ पहले से होता है।",
+    "explanation_en": "A stopgap is by definition temporary; the word is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Please reduce down the volume.",
+    "correct": "Please reduce the volume.",
+    "explanation_hi": "'Reduce' में down का अर्थ पहले से होता है।",
+    "explanation_en": "'Reduce' already means to bring down; 'down' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Walking down the street, the trees looked beautiful.",
+    "correct": "Walking down the street, I noticed the trees looked beautiful.",
+    "explanation_hi": "Participial phrase का subject main clause के subject से मेल खाना चाहिए।",
+    "explanation_en": "The participial phrase must relate to the subject of the main clause.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Having finished the work, the TV was switched on.",
+    "correct": "Having finished the work, he switched on the TV.",
+    "explanation_hi": "Dangling participle: participial phrase का subject missing है।",
+    "explanation_en": "Dangling participle error; the doer of 'having finished' must be the sentence subject.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Being a hot day, we decided to stay indoors.",
+    "correct": "As it was a hot day, we decided to stay indoors.",
+    "explanation_hi": "Dangling participle: 'Being a hot day' का कोई subject नहीं है।",
+    "explanation_en": "Dangling modifier; rewrite to avoid the participial phrase.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He only eats vegetables.",
+    "correct": "He eats only vegetables.",
+    "explanation_hi": "'Only' को उस शब्द के पास रखना चाहिए जिसे वह modify करे।",
+    "explanation_en": "Place 'only' immediately before the word it modifies.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She almost drove her children to school every day.",
+    "correct": "She drove her children to school almost every day.",
+    "explanation_hi": "'Almost' को 'every day' के पास रखना चाहिए।",
+    "explanation_en": "Place 'almost' next to the word it modifies.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Running quickly, the bus was caught.",
+    "correct": "Running quickly, he caught the bus.",
+    "explanation_hi": "Participial phrase का subject main clause के subject से मिलना चाहिए।",
+    "explanation_en": "The subject of the participial phrase must match the subject of the main clause.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "To improve your writing, books should be read.",
+    "correct": "To improve your writing, you should read books.",
+    "explanation_hi": "Infinitive phrase का implied subject main clause के subject से मिलना चाहिए।",
+    "explanation_en": "The implied subject of the infinitive must match the main clause subject.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She likes singing, dancing and to read.",
+    "correct": "She likes singing, dancing and reading.",
+    "explanation_hi": "Parallel structure में सभी elements एक ही form में होने चाहिए।",
+    "explanation_en": "Maintain parallel structure; all items should be in the same grammatical form.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He is tall, dark and has intelligence.",
+    "correct": "He is tall, dark and intelligent.",
+    "explanation_hi": "Coordinate adjectives parallel होने चाहिए।",
+    "explanation_en": "Parallel structure requires all adjectives; use 'intelligent' not 'has intelligence'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She not only sings but also dancing.",
+    "correct": "She not only sings but also dances.",
+    "explanation_hi": "'Not only...but also' parallel structure के लिए दोनों parts same form में होने चाहिए।",
+    "explanation_en": "Maintain parallel form with 'not only...but also'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He prefers reading to watch TV.",
+    "correct": "He prefers reading to watching TV.",
+    "explanation_hi": "'Prefer gerund to gerund' — दोनों gerund होने चाहिए।",
+    "explanation_en": "Both elements after 'prefer...to' should be in the same form (gerund).",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "To err is human, forgiving is divine.",
+    "correct": "To err is human; to forgive is divine.",
+    "explanation_hi": "Parallel structure — दोनों elements infinitive होने चाहिए।",
+    "explanation_en": "Parallel structure requires matching forms; both should be infinitives.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He works quickly, accurately, and in a careful way.",
+    "correct": "He works quickly, accurately and carefully.",
+    "explanation_hi": "Parallel adverbs एक ही form में होने चाहिए।",
+    "explanation_en": "Use parallel adverb forms; 'carefully' not 'in a careful way'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He is a doctor, isn't it?",
+    "correct": "He is a doctor, isn't he?",
+    "explanation_hi": "Question tag में subject pronoun main clause के subject से मेल खाना चाहिए।",
+    "explanation_en": "The tag pronoun must match the subject of the main clause.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She doesn't like coffee, does it?",
+    "correct": "She doesn't like coffee, does she?",
+    "explanation_hi": "Tag question में pronoun 'she' होना चाहिए।",
+    "explanation_en": "Use correct pronoun in question tag.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Let us go, isn't it?",
+    "correct": "Let us go, shall we?",
+    "explanation_hi": "'Let us' के साथ 'shall we?' question tag आता है।",
+    "explanation_en": "Use 'shall we?' as the tag for 'let us' suggestions.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He can swim, can't it?",
+    "correct": "He can swim, can't he?",
+    "explanation_hi": "Tag में subject pronoun मिलना चाहिए।",
+    "explanation_en": "The question tag must use the matching subject pronoun.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Nobody came, did they?",
+    "correct": "Nobody came, did they?",
+    "explanation_hi": "Negative indefinite pronouns (nobody, no one) के साथ plural tag 'they' आता है।",
+    "explanation_en": "With negative indefinites like 'nobody', use plural pronoun 'they' in the tag.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She has finished, hasn't she?",
+    "correct": "She has finished, hasn't she?",
+    "explanation_hi": "यह सही question tag है।",
+    "explanation_en": "This is the correct question tag.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "I am right, am I not?",
+    "correct": "I am right, aren't I?",
+    "explanation_hi": "'Am I not?' formal है; 'Aren't I?' अधिक प्रचलित है।",
+    "explanation_en": "'Aren't I?' is the standard question tag for 'I am'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He used to play cricket, used he not?",
+    "correct": "He used to play cricket, didn't he?",
+    "explanation_hi": "'Used to' के साथ 'didn't he?' question tag आता है।",
+    "explanation_en": "Use 'didn't he?' as the question tag for 'used to'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The house which roof is red is mine.",
+    "correct": "The house whose roof is red is mine.",
+    "explanation_hi": "Possession के लिए 'whose' relative pronoun आता है।",
+    "explanation_en": "Use 'whose' for possession in relative clauses.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "This is the place where I was born in.",
+    "correct": "This is the place where I was born.",
+    "explanation_hi": "'Where' के बाद preposition अनावश्यक है।",
+    "explanation_en": "Do not add 'in' after 'where' in a relative clause.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He is a man which everyone trusts.",
+    "correct": "He is a man whom everyone trusts.",
+    "explanation_hi": "Object position में person के लिए 'whom' आता है।",
+    "explanation_en": "Use 'whom' (not 'which') when referring to a person in object position.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The reason why he failed is that he was careless.",
+    "correct": "The reason he failed is that he was careless.",
+    "explanation_hi": "'Reason why' में 'why' अनावश्यक है।",
+    "explanation_en": "'The reason' alone is sufficient; 'why' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She is the one which I trust the most.",
+    "correct": "She is the one whom I trust the most.",
+    "explanation_hi": "Person के लिए 'whom' आता है जब object position में हो।",
+    "explanation_en": "Use 'whom' for persons in object position.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "I know the man who you met him.",
+    "correct": "I know the man whom you met.",
+    "explanation_hi": "Relative clause में extra pronoun नहीं आता।",
+    "explanation_en": "Do not repeat the pronoun (him) in a relative clause.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She sings very beautiful.",
+    "correct": "She sings very beautifully.",
+    "explanation_hi": "Verb को modify करने के लिए adverb आता है, adjective नहीं।",
+    "explanation_en": "Use adverb 'beautifully' to modify the verb 'sings'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He spoke very polite.",
+    "correct": "He spoke very politely.",
+    "explanation_hi": "Verb modify करने के लिए adverb (politely) आता है।",
+    "explanation_en": "Use adverb form to modify a verb.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She is a good cook but cooks bad.",
+    "correct": "She is a good cook but cooks badly.",
+    "explanation_hi": "Verb modify करने के लिए adverb 'badly' आता है।",
+    "explanation_en": "Use adverb 'badly' to modify the verb 'cooks'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He drives the car careless.",
+    "correct": "He drives the car carelessly.",
+    "explanation_hi": "Verb modify करने के लिए adverb (-ly form) आता है।",
+    "explanation_en": "Use adverb form 'carelessly' to modify the verb.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "I feel badly about the incident.",
+    "correct": "I feel bad about the incident.",
+    "explanation_hi": "Linking verb के बाद adjective आता है, adverb नहीं।",
+    "explanation_en": "Use adjective 'bad' after the linking verb 'feel'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She looks beautifully.",
+    "correct": "She looks beautiful.",
+    "explanation_hi": "Linking verb 'looks' के बाद adjective आता है।",
+    "explanation_en": "Use adjective 'beautiful' after the linking verb 'looks'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He is the most cleverest student.",
+    "correct": "He is the cleverest student.",
+    "explanation_hi": "Double superlative गलत है।",
+    "explanation_en": "Do not use double superlative.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The younger of the three sisters is Meera.",
+    "correct": "The youngest of the three sisters is Meera.",
+    "explanation_hi": "तीन या अधिक के लिए superlative degree प्रयोग होती है।",
+    "explanation_en": "Use superlative (not comparative) when referring to three or more.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She writes as good as him.",
+    "correct": "She writes as well as he does.",
+    "explanation_hi": "Verb modify करने के लिए adverb 'well' आता है।",
+    "explanation_en": "Use adverb 'well' (not adjective 'good') to modify the verb 'writes'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "I have seen him yesterday.",
+    "correct": "I saw him yesterday.",
+    "explanation_hi": "Definite past time ('yesterday') के साथ simple past आता है।",
+    "explanation_en": "Use simple past with definite past time expressions like 'yesterday'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She has completed the work two days ago.",
+    "correct": "She completed the work two days ago.",
+    "explanation_hi": "Definite past ('two days ago') के साथ simple past आता है।",
+    "explanation_en": "Use simple past with 'ago'; do not use present perfect.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "When I will reach home, I will call you.",
+    "correct": "When I reach home, I will call you.",
+    "explanation_hi": "Time clause में simple present आता है; 'will' नहीं।",
+    "explanation_en": "Use simple present in time clauses beginning with 'when', 'after', 'before', 'until'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "After he will finish, he will leave.",
+    "correct": "After he finishes, he will leave.",
+    "explanation_hi": "Time clause में simple present आता है।",
+    "explanation_en": "Use simple present in time clauses with 'after'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He was sleeping when I will arrive.",
+    "correct": "He was sleeping when I arrived.",
+    "explanation_hi": "Past time के लिए simple past; 'will' future tense है।",
+    "explanation_en": "Use past tense consistently; 'will arrive' is incorrect here.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "By the time she arrives, I will finish the work.",
+    "correct": "By the time she arrives, I will have finished the work.",
+    "explanation_hi": "'By the time' के साथ future perfect आता है।",
+    "explanation_en": "Use future perfect ('will have finished') with 'by the time'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She is working here since 2010.",
+    "correct": "She has been working here since 2010.",
+    "explanation_hi": "'Since' के साथ present perfect continuous tense आता है।",
+    "explanation_en": "Use present perfect continuous tense with 'since'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He knows her since childhood.",
+    "correct": "He has known her since childhood.",
+    "explanation_hi": "'Since' के साथ perfect tense आता है।",
+    "explanation_en": "Use present perfect tense with 'since'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The effect of pollution affects the health badly.",
+    "correct": "The effects of pollution affect health badly.",
+    "explanation_hi": "'Effect' noun है; 'affect' verb है। इनका प्रयोग भिन्न है।",
+    "explanation_en": "'Effect' is a noun; 'affect' is a verb. Do not confuse them.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He rose the flag.",
+    "correct": "He raised the flag.",
+    "explanation_hi": "'Raise' transitive verb है (object लेता है); 'rise' intransitive है।",
+    "explanation_en": "'Raise' is transitive (takes object); 'rise' is intransitive.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "The sun rises the horizon.",
+    "correct": "The sun rises above the horizon.",
+    "explanation_hi": "'Rise' intransitive verb है; object directly नहीं लेता।",
+    "explanation_en": "'Rise' is intransitive and does not take a direct object.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He laid on the bed all day.",
+    "correct": "He lay on the bed all day.",
+    "explanation_hi": "'Lie' (लेटना) past tense 'lay' है; 'laid' 'lay' (रखना) का past है।",
+    "explanation_en": "'Lay' is the past tense of 'lie' (recline); 'laid' is past of 'lay' (place).",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She lied the books on the table.",
+    "correct": "She laid the books on the table.",
+    "explanation_hi": "'Lay' (रखना) का past tense 'laid' है।",
+    "explanation_en": "Past tense of 'lay' (to place) is 'laid'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "I shall borrow you my pen.",
+    "correct": "I shall lend you my pen.",
+    "explanation_hi": "'Lend' = उधार देना; 'borrow' = उधार लेना।",
+    "explanation_en": "'Lend' means to give temporarily; 'borrow' means to take temporarily.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He has less books than her.",
+    "correct": "He has fewer books than her.",
+    "explanation_hi": "Countable noun के साथ 'fewer' आता है।",
+    "explanation_en": "Use 'fewer' with countable nouns; 'less' is for uncountable.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "He is elder than his brother.",
+    "correct": "He is older than his brother.",
+    "explanation_hi": "'Elder' family relation के लिए है और 'than' के साथ नहीं आता; 'older' तुलना के लिए है।",
+    "explanation_en": "'Elder' is used for family relations and cannot take 'than'; use 'older' for comparison.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "She is the eldest of the two sisters.",
+    "correct": "She is the elder of the two sisters.",
+    "explanation_hi": "दो के लिए comparative (elder) प्रयोग होता है।",
+    "explanation_en": "Use comparative form for two; 'elder' for family, 'older' for general.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  },
+  {
+    "wrong": "Bring these books to me when you will come.",
+    "correct": "Bring these books to me when you come.",
+    "explanation_hi": "Time clause में simple present आता है।",
+    "explanation_en": "Use simple present in time clauses.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "common_errors"
+  }
+]

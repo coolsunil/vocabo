@@ -137,11 +137,23 @@ class _PracticeScreenState extends State<PracticeScreen> {
       case 'synonyms':
         return _buildSynonymQuestions(words);
       case 'idioms':
+      case 'proverbs':
         return _buildIdiomQuestions(words);
       case 'oneword':
         return _buildOneWordQuestions(words);
       case 'confusing':
+      case 'homophones':
         return _buildConfusingQuestions(words);
+      case 'common_errors':
+      case 'sentence_improvement':
+        return _buildSentenceCorrectionQuestions(words);
+      case 'cloze_test':
+        return _buildClozeTestQuestions(words);
+      case 'fixed_prepositions':
+      case 'phrasal_verbs':
+      case 'root_words':
+      case 'spellings':
+      case 'foreign_words':
       case 'advanced':
       case 'core':
       default:
@@ -166,6 +178,28 @@ class _PracticeScreenState extends State<PracticeScreen> {
     mixed.addAll(_buildIdiomQuestions(byCategory['idioms'] ?? const []));
     mixed.addAll(_buildOneWordQuestions(byCategory['oneword'] ?? const []));
     mixed.addAll(_buildConfusingQuestions(byCategory['confusing'] ?? const []));
+    mixed.addAll(
+      _buildMeaningToWordQuestions(
+        byCategory['fixed_prepositions'] ?? const [],
+      ),
+    );
+    mixed.addAll(
+      _buildMeaningToWordQuestions(byCategory['phrasal_verbs'] ?? const []),
+    );
+    mixed.addAll(
+      _buildMeaningToWordQuestions(byCategory['root_words'] ?? const []),
+    );
+    mixed.addAll(
+      _buildSentenceCorrectionQuestions(byCategory['common_errors'] ?? const []),
+    );
+    mixed.addAll(_buildConfusingQuestions(byCategory['homophones'] ?? const []));
+    mixed.addAll(_buildMeaningToWordQuestions(byCategory['spellings'] ?? const []));
+    mixed.addAll(_buildMeaningToWordQuestions(byCategory['foreign_words'] ?? const []));
+    mixed.addAll(_buildIdiomQuestions(byCategory['proverbs'] ?? const []));
+    mixed.addAll(
+      _buildSentenceCorrectionQuestions(byCategory['sentence_improvement'] ?? const []),
+    );
+    mixed.addAll(_buildClozeTestQuestions(byCategory['cloze_test'] ?? const []));
     return mixed;
   }
 
@@ -281,6 +315,52 @@ class _PracticeScreenState extends State<PracticeScreen> {
           prompt: 'Choose the correct meaning for:\n${word.word}',
           options: options,
           correctAnswer: word.meaningEn.trim(),
+        ),
+      );
+    }
+    return questions;
+  }
+
+  // Used for common_errors and sentence_improvement:
+  // prompt = wrong/original sentence, correct answer = corrected sentence.
+  List<_PracticeQuestion> _buildSentenceCorrectionQuestions(List<Word> words) {
+    final correctPool = words
+        .map((w) => w.example.trim())
+        .where((s) => s.isNotEmpty)
+        .toSet()
+        .toList();
+
+    final questions = <_PracticeQuestion>[];
+    for (final word in words) {
+      if (word.word.trim().isEmpty || word.example.trim().isEmpty) continue;
+      final options = _buildOptions(word.example.trim(), correctPool);
+      if (options.length < 4) continue;
+      questions.add(
+        _PracticeQuestion(
+          prompt: 'Correct this sentence:\n${word.word}',
+          options: options,
+          correctAnswer: word.example.trim(),
+        ),
+      );
+    }
+    return questions;
+  }
+
+  // Uses the options/answer already present in each cloze_test entry.
+  List<_PracticeQuestion> _buildClozeTestQuestions(List<Word> words) {
+    final questions = <_PracticeQuestion>[];
+    for (final word in words) {
+      if (word.word.trim().isEmpty ||
+          word.example.trim().isEmpty ||
+          word.options.length < 2) {
+        continue;
+      }
+      final shuffled = List<String>.from(word.options)..shuffle(_random);
+      questions.add(
+        _PracticeQuestion(
+          prompt: 'Fill in the blank:\n${word.word}',
+          options: shuffled,
+          correctAnswer: word.example.trim(),
         ),
       );
     }
@@ -412,135 +492,135 @@ class _PracticeScreenState extends State<PracticeScreen> {
           title: const Text('Practice Complete'),
           content: SingleChildScrollView(
             child: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  Expanded(
-                    child: _ResultStatCard(
-                      label: 'Score',
-                      value: '$correctCount/$total',
-                      valueColor: const Color(0xFF0F172A),
-                      backgroundColor: const Color(0xFFF8FAFC),
-                    ),
-                  ),
-                  const SizedBox(width: 10),
-                  Expanded(
-                    child: _ResultStatCard(
-                      label: 'Accuracy',
-                      value: '$percent%',
-                      valueColor: const Color(0xFF0F766E),
-                      backgroundColor: const Color(0xFFF0FDFA),
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 10),
-              Row(
-                children: [
-                  Expanded(
-                    child: _ResultStatCard(
-                      label: 'Correct',
-                      value: '$correctCount',
-                      valueColor: const Color(0xFF15803D),
-                      backgroundColor: const Color(0xFFF0FDF4),
-                    ),
-                  ),
-                  const SizedBox(width: 10),
-                  Expanded(
-                    child: _ResultStatCard(
-                      label: 'Incorrect',
-                      value: '$incorrectCount',
-                      valueColor: const Color(0xFFDC2626),
-                      backgroundColor: const Color(0xFFFEF2F2),
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 14),
-              Container(
-                width: double.infinity,
-                padding: const EdgeInsets.all(14),
-                decoration: BoxDecoration(
-                  color: const Color(0xFFEFF6FF),
-                  borderRadius: BorderRadius.circular(14),
-                  border: Border.all(color: const Color(0xFFBFDBFE)),
-                ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
                   children: [
-                    const Text(
-                      'Best Performance',
-                      style: TextStyle(
-                        fontSize: 13,
-                        fontWeight: FontWeight.w700,
-                        color: Color(0xFF475569),
+                    Expanded(
+                      child: _ResultStatCard(
+                        label: 'Score',
+                        value: '$correctCount/$total',
+                        valueColor: const Color(0xFF0F172A),
+                        backgroundColor: const Color(0xFFF8FAFC),
                       ),
                     ),
-                    const SizedBox(height: 8),
-                    Text(
-                      'Best Score: $bestScore/$total',
-                      style: const TextStyle(
-                        fontWeight: FontWeight.w700,
-                        color: Color(0xFF0F172A),
-                      ),
-                    ),
-                    const SizedBox(height: 4),
-                    Text(
-                      'Best Accuracy: $bestAccuracy%',
-                      style: const TextStyle(
-                        fontWeight: FontWeight.w700,
-                        color: Color(0xFF1D4ED8),
+                    const SizedBox(width: 10),
+                    Expanded(
+                      child: _ResultStatCard(
+                        label: 'Accuracy',
+                        value: '$percent%',
+                        valueColor: const Color(0xFF0F766E),
+                        backgroundColor: const Color(0xFFF0FDFA),
                       ),
                     ),
                   ],
                 ),
-              ),
-              const SizedBox(height: 14),
-              Container(
-                width: double.infinity,
-                padding: const EdgeInsets.all(14),
-                decoration: BoxDecoration(
-                  color: const Color(0xFFFFFBEB),
-                  borderRadius: BorderRadius.circular(14),
-                  border: Border.all(color: const Color(0xFFFDE68A)),
-                ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                const SizedBox(height: 10),
+                Row(
                   children: [
-                    const Text(
-                      'Choose your next step',
-                      style: TextStyle(
-                        fontSize: 13,
-                        fontWeight: FontWeight.w700,
-                        color: Color(0xFF92400E),
+                    Expanded(
+                      child: _ResultStatCard(
+                        label: 'Correct',
+                        value: '$correctCount',
+                        valueColor: const Color(0xFF15803D),
+                        backgroundColor: const Color(0xFFF0FDF4),
                       ),
                     ),
-                    const SizedBox(height: 6),
-                    Text(
-                      _isMixedQuiz
-                          ? 'Repeat Same Set keeps these questions. New Set uses another daily mixed quiz session.'
-                          : 'Repeat Same Set keeps these questions. New Set uses one more daily practice session.',
-                      style: const TextStyle(
-                        color: Color(0xFF92400E),
-                        height: 1.4,
-                      ),
-                    ),
-                    const SizedBox(height: 8),
-                    Text(
-                      premiumUnlocked
-                          ? 'Premium active: unlimited new sets.'
-                          : 'Remaining new sets today: $remainingSessions',
-                      style: const TextStyle(
-                        color: Color(0xFF92400E),
-                        fontWeight: FontWeight.w700,
+                    const SizedBox(width: 10),
+                    Expanded(
+                      child: _ResultStatCard(
+                        label: 'Incorrect',
+                        value: '$incorrectCount',
+                        valueColor: const Color(0xFFDC2626),
+                        backgroundColor: const Color(0xFFFEF2F2),
                       ),
                     ),
                   ],
                 ),
-              ),
-            ],
+                const SizedBox(height: 14),
+                Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.all(14),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFFEFF6FF),
+                    borderRadius: BorderRadius.circular(14),
+                    border: Border.all(color: const Color(0xFFBFDBFE)),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text(
+                        'Best Performance',
+                        style: TextStyle(
+                          fontSize: 13,
+                          fontWeight: FontWeight.w700,
+                          color: Color(0xFF475569),
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        'Best Score: $bestScore/$total',
+                        style: const TextStyle(
+                          fontWeight: FontWeight.w700,
+                          color: Color(0xFF0F172A),
+                        ),
+                      ),
+                      const SizedBox(height: 4),
+                      Text(
+                        'Best Accuracy: $bestAccuracy%',
+                        style: const TextStyle(
+                          fontWeight: FontWeight.w700,
+                          color: Color(0xFF1D4ED8),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 14),
+                Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.all(14),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFFFFFBEB),
+                    borderRadius: BorderRadius.circular(14),
+                    border: Border.all(color: const Color(0xFFFDE68A)),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text(
+                        'Choose your next step',
+                        style: TextStyle(
+                          fontSize: 13,
+                          fontWeight: FontWeight.w700,
+                          color: Color(0xFF92400E),
+                        ),
+                      ),
+                      const SizedBox(height: 6),
+                      Text(
+                        _isMixedQuiz
+                            ? 'Repeat Same Set keeps these questions. New Set uses another daily mixed quiz session.'
+                            : 'Repeat Same Set keeps these questions. New Set uses one more daily practice session.',
+                        style: const TextStyle(
+                          color: Color(0xFF92400E),
+                          height: 1.4,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        premiumUnlocked
+                            ? 'Premium active: unlimited new sets.'
+                            : 'Remaining new sets today: $remainingSessions',
+                        style: const TextStyle(
+                          color: Color(0xFF92400E),
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
             ),
           ),
           actionsPadding: const EdgeInsets.fromLTRB(20, 0, 20, 20),
@@ -610,7 +690,9 @@ class _PracticeScreenState extends State<PracticeScreen> {
     final pool = List<_PracticeQuestion>.from(allQuestions);
 
     if (excludeCurrentSet && questions.isNotEmpty) {
-      final currentPrompts = questions.map((question) => question.prompt).toSet();
+      final currentPrompts = questions
+          .map((question) => question.prompt)
+          .toSet();
       final filtered = pool
           .where((question) => !currentPrompts.contains(question.prompt))
           .toList();
@@ -826,7 +908,10 @@ class _PracticeScreenState extends State<PracticeScreen> {
             if (showFreeTierInfo) ...[
               const SizedBox(height: 10),
               Container(
-                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 14,
+                  vertical: 12,
+                ),
                 decoration: BoxDecoration(
                   color: const Color(0xFFFFFBEB),
                   borderRadius: BorderRadius.circular(14),
@@ -1011,5 +1096,3 @@ class _ResultStatCard extends StatelessWidget {
     );
   }
 }
-
-

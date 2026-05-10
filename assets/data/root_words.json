@@ -1,0 +1,3953 @@
+[
+  {
+    "word": "ab",
+    "meaning_hi": "दूर",
+    "meaning_en": "away from",
+    "example": "Abnormal means deviating away from what is considered standard.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "acro",
+    "meaning_hi": "ऊँचा",
+    "meaning_en": "high",
+    "example": "Acrobats perform daring acts at great heights.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ad",
+    "meaning_hi": "की ओर",
+    "meaning_en": "toward",
+    "example": "To advance means to move steadily toward a desired goal.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "aer",
+    "meaning_hi": "वायु",
+    "meaning_en": "air",
+    "example": "Aerodynamics studies how objects move through air.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "agog",
+    "meaning_hi": "नेता / मार्गदर्शक",
+    "meaning_en": "leader or guide",
+    "example": "A pedagogue is a teacher who guides and leads children in learning.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "agri",
+    "meaning_hi": "खेत",
+    "meaning_en": "field",
+    "example": "Agriculture is the science of cultivating fields.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "alg",
+    "meaning_hi": "दर्द",
+    "meaning_en": "pain",
+    "example": "Neuralgia refers to sharp nerve pain.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "alter",
+    "meaning_hi": "दूसरा",
+    "meaning_en": "other",
+    "example": "An alternative is another available option.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ambi",
+    "meaning_hi": "दोनों",
+    "meaning_en": "both",
+    "example": "An ambidextrous person can write with both hands.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "amphi",
+    "meaning_hi": "दोनों ओर",
+    "meaning_en": "both sides",
+    "example": "An amphibian lives on both land and in water.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "anim",
+    "meaning_hi": "जीवन / आत्मा",
+    "meaning_en": "spirit or life",
+    "example": "Animated films are full of life and movement.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ann",
+    "meaning_hi": "वर्ष",
+    "meaning_en": "year",
+    "example": "An annual report is published once every year.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "anthrop",
+    "meaning_hi": "मनुष्य",
+    "meaning_en": "human",
+    "example": "Anthropology is the systematic study of humans.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "anti",
+    "meaning_hi": "विरोध",
+    "meaning_en": "against",
+    "example": "Antibiotics work against harmful bacteria.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "appell",
+    "meaning_hi": "पुकारना / नाम",
+    "meaning_en": "call or name",
+    "example": "An appellate court reviews cases that have been called up on appeal.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "aqu",
+    "meaning_hi": "जल",
+    "meaning_en": "water",
+    "example": "An aquarium is a tank that holds water animals.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "aqua",
+    "meaning_hi": "जल",
+    "meaning_en": "water",
+    "example": "Aquatic creatures are adapted to life in water.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "arch",
+    "meaning_hi": "मुख्य",
+    "meaning_en": "chief",
+    "example": "An archbishop is the chief bishop of a diocese.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "archaeo",
+    "meaning_hi": "प्राचीन",
+    "meaning_en": "ancient",
+    "example": "Archaeology is the study of ancient civilisations.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "arteri",
+    "meaning_hi": "धमनी",
+    "meaning_en": "artery",
+    "example": "Arteriosclerosis is the hardening and narrowing of artery walls.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "astr",
+    "meaning_hi": "तारा",
+    "meaning_en": "star",
+    "example": "An astrophysicist studies the physical properties of stars and galaxies.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "astro",
+    "meaning_hi": "तारा",
+    "meaning_en": "star",
+    "example": "Astronomy is the scientific study of stars.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "aud",
+    "meaning_hi": "सुनना",
+    "meaning_en": "hear",
+    "example": "An audience is a group assembled to hear a performance.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "auto",
+    "meaning_hi": "स्वयं",
+    "meaning_en": "self",
+    "example": "An autobiography is the story of one's own life.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "avi",
+    "meaning_hi": "पक्षी",
+    "meaning_en": "bird",
+    "example": "Aviation was inspired by the flight of birds.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "bar",
+    "meaning_hi": "भार / दाब",
+    "meaning_en": "weight or pressure",
+    "example": "A barometer measures atmospheric air pressure.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "bas",
+    "meaning_hi": "आधार",
+    "meaning_en": "base or foundation",
+    "example": "Basic knowledge forms the essential base of all learning.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "bell",
+    "meaning_hi": "युद्ध",
+    "meaning_en": "war",
+    "example": "Belligerent countries are engaged in open war.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "belli",
+    "meaning_hi": "युद्ध",
+    "meaning_en": "war",
+    "example": "Belligerent nations are those actively engaged in warfare.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "bene",
+    "meaning_hi": "अच्छा",
+    "meaning_en": "good",
+    "example": "A benevolent person is kind and does good to others.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "bi",
+    "meaning_hi": "दो",
+    "meaning_en": "two",
+    "example": "A bilingual person speaks two languages with fluency.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "bibli",
+    "meaning_hi": "पुस्तक",
+    "meaning_en": "book",
+    "example": "A bibliography is an organised list of books.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "bio",
+    "meaning_hi": "जीवन",
+    "meaning_en": "life",
+    "example": "Biology is the study of all living life forms.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "brev",
+    "meaning_hi": "छोटा",
+    "meaning_en": "short",
+    "example": "Brevity means using few words to express something.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "cad",
+    "meaning_hi": "गिरना",
+    "meaning_en": "fall",
+    "example": "A cascade is a series of falling water steps.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "cand",
+    "meaning_hi": "चमकना",
+    "meaning_en": "glow",
+    "example": "A candle glows to provide light in darkness.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "cant",
+    "meaning_hi": "गाना",
+    "meaning_en": "sing",
+    "example": "A cantor is a person who leads congregational singing.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "cap",
+    "meaning_hi": "सिर",
+    "meaning_en": "head",
+    "example": "A captain is the recognised head of a team.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "capit",
+    "meaning_hi": "सिर",
+    "meaning_en": "head",
+    "example": "The capital is the head city of a nation.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "cardi",
+    "meaning_hi": "हृदय",
+    "meaning_en": "heart",
+    "example": "Cardiology is the branch of medicine dealing with the heart.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "carn",
+    "meaning_hi": "मांस",
+    "meaning_en": "flesh",
+    "example": "Carnivores are animals that eat the flesh of others.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ced",
+    "meaning_hi": "जाना",
+    "meaning_en": "go",
+    "example": "Recede means to go back or retreat gradually.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "cede",
+    "meaning_hi": "जाना",
+    "meaning_en": "go",
+    "example": "Proceed means to go forward with a plan.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ceive",
+    "meaning_hi": "प्राप्त करना",
+    "meaning_en": "receive or take",
+    "example": "To perceive means to take in information through the senses.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "celer",
+    "meaning_hi": "तेज़",
+    "meaning_en": "swift",
+    "example": "Acceleration means becoming increasingly swift.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "cent",
+    "meaning_hi": "सौ",
+    "meaning_en": "hundred",
+    "example": "A century consists of one hundred years.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "cephal",
+    "meaning_hi": "सिर",
+    "meaning_en": "head",
+    "example": "A cephalic presentation means the baby's head comes out first.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "cept",
+    "meaning_hi": "पकड़ना",
+    "meaning_en": "take or seize",
+    "example": "To accept means to take something that is offered willingly.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "chemi",
+    "meaning_hi": "रसायन",
+    "meaning_en": "chemical",
+    "example": "Chemistry is the branch of science that studies chemical substances.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "chrom",
+    "meaning_hi": "रंग",
+    "meaning_en": "color",
+    "example": "Chromatic means relating to a range of colors.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "chron",
+    "meaning_hi": "समय",
+    "meaning_en": "time",
+    "example": "Chronology is the arrangement of events in time order.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "chrono",
+    "meaning_hi": "समय",
+    "meaning_en": "time",
+    "example": "A chronometer is a precise instrument for measuring time.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "cid",
+    "meaning_hi": "मारना",
+    "meaning_en": "kill",
+    "example": "Pesticides are chemicals used to kill harmful pests.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "circum",
+    "meaning_hi": "चारों ओर",
+    "meaning_en": "around",
+    "example": "To circumnavigate means to travel all the way around the earth.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "civ",
+    "meaning_hi": "नागरिक",
+    "meaning_en": "citizen",
+    "example": "Civil rights are the rights guaranteed to every citizen.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "claim",
+    "meaning_hi": "घोषणा करना",
+    "meaning_en": "declare or shout",
+    "example": "To proclaim means to declare something publicly and with authority.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "clam",
+    "meaning_hi": "चिल्लाना",
+    "meaning_en": "cry out",
+    "example": "To exclaim means to cry out in surprise.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "clin",
+    "meaning_hi": "झुकना",
+    "meaning_en": "lean",
+    "example": "To incline means to lean or tilt toward something.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "clud",
+    "meaning_hi": "बंद करना",
+    "meaning_en": "close or shut",
+    "example": "To exclude means to close the door on someone or something.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "clus",
+    "meaning_hi": "बंद करना",
+    "meaning_en": "close",
+    "example": "A conclusion is the final closing statement of an argument.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "cogn",
+    "meaning_hi": "जानना",
+    "meaning_en": "know",
+    "example": "Cognition refers to the mental process of knowing and understanding.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "com",
+    "meaning_hi": "साथ",
+    "meaning_en": "together or with",
+    "example": "To combine means to bring two or more things together.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "con",
+    "meaning_hi": "साथ",
+    "meaning_en": "together or with",
+    "example": "To congregate means to come together as a group in one place.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "contra",
+    "meaning_hi": "विरुद्ध",
+    "meaning_en": "against",
+    "example": "To contradict means to say something against what was said before.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "corp",
+    "meaning_hi": "शरीर",
+    "meaning_en": "body",
+    "example": "A corpse is the dead body of a person.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "corpor",
+    "meaning_hi": "शरीर",
+    "meaning_en": "body",
+    "example": "Corporate refers to a body of people acting together.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "cosm",
+    "meaning_hi": "विश्व",
+    "meaning_en": "universe",
+    "example": "Cosmology is the scientific study of the universe.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "cracy",
+    "meaning_hi": "शासन",
+    "meaning_en": "rule",
+    "example": "Democracy is a system of rule by the people.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "crat",
+    "meaning_hi": "शासक",
+    "meaning_en": "ruler",
+    "example": "An autocrat is a ruler who holds complete and unchecked power.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "cred",
+    "meaning_hi": "विश्वास",
+    "meaning_en": "belief",
+    "example": "A credible witness is one whose testimony can be believed.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "crit",
+    "meaning_hi": "न्याय करना / आलोचना",
+    "meaning_en": "judge or criticise",
+    "example": "A critic is trained to judge and evaluate artistic works.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "crypt",
+    "meaning_hi": "छिपा हुआ",
+    "meaning_en": "hidden",
+    "example": "A cryptic clue contains a hidden or obscure meaning.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "culp",
+    "meaning_hi": "दोष",
+    "meaning_en": "fault or guilt",
+    "example": "Culpable means legally or morally guilty of a fault.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "cultur",
+    "meaning_hi": "संस्कृति / खेती",
+    "meaning_en": "culture or cultivation",
+    "example": "Agriculture is the science and practice of land cultivation.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "cur",
+    "meaning_hi": "दौड़ना",
+    "meaning_en": "run",
+    "example": "A current is water that runs continuously in one direction.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "cura",
+    "meaning_hi": "देखभाल",
+    "meaning_en": "care",
+    "example": "A curator is a professional who takes care of a collection.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "cycl",
+    "meaning_hi": "चक्र",
+    "meaning_en": "circle",
+    "example": "A bicycle is a vehicle with two circular wheels.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "de",
+    "meaning_hi": "नीचे / विपरीत",
+    "meaning_en": "down or reverse",
+    "example": "To deactivate means to reverse the active state of something.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "dec",
+    "meaning_hi": "दस",
+    "meaning_en": "ten",
+    "example": "A decade is a period of ten years.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "demi",
+    "meaning_hi": "आधा",
+    "meaning_en": "half",
+    "example": "A demigod is considered half-divine and half-human.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "demo",
+    "meaning_hi": "जनता",
+    "meaning_en": "people",
+    "example": "Democracy means governance by the people.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "dent",
+    "meaning_hi": "दांत",
+    "meaning_en": "tooth",
+    "example": "A dentist is a specialist who treats tooth problems.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "derm",
+    "meaning_hi": "त्वचा",
+    "meaning_en": "skin",
+    "example": "Dermatology is the medical study of skin diseases.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "dict",
+    "meaning_hi": "कहना",
+    "meaning_en": "to say",
+    "example": "A dictator gives orders and expects all to obey.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "dis",
+    "meaning_hi": "विपरीt",
+    "meaning_en": "not or opposite",
+    "example": "Dishonest means not possessing the quality of honesty.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "doc",
+    "meaning_hi": "सिखाना",
+    "meaning_en": "teach",
+    "example": "A doctor was originally one who teaches or learned.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "dom",
+    "meaning_hi": "घर",
+    "meaning_en": "home",
+    "example": "Domestic animals are those kept and raised at home.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "don",
+    "meaning_hi": "देना",
+    "meaning_en": "give",
+    "example": "To donate means to give something freely to others.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "dorm",
+    "meaning_hi": "सोना",
+    "meaning_en": "sleep",
+    "example": "A dormant volcano is one that is currently sleeping.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "dox",
+    "meaning_hi": "मत / विश्वास",
+    "meaning_en": "belief or opinion",
+    "example": "Orthodox means adhering to the conventional and accepted belief.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "duc",
+    "meaning_hi": "नेतृत्व करना",
+    "meaning_en": "lead",
+    "example": "To conduct means to lead or guide something.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "dur",
+    "meaning_hi": "कठोर / टिकाऊ",
+    "meaning_en": "hard or lasting",
+    "example": "Durable goods are those that last for a long period of time.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ego",
+    "meaning_hi": "स्वयं",
+    "meaning_en": "self",
+    "example": "An egotistic person has an inflated view of their own self.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "electr",
+    "meaning_hi": "बिजली",
+    "meaning_en": "electric",
+    "example": "Electricity is the flow of electric charge through a conductor.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "encephal",
+    "meaning_hi": "मस्तिष्क",
+    "meaning_en": "brain",
+    "example": "Encephalitis is a serious inflammation of the brain tissue.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "enter",
+    "meaning_hi": "आंत",
+    "meaning_en": "intestine",
+    "example": "Enteritis is inflammation of the lining of the small intestine.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "equ",
+    "meaning_hi": "समान",
+    "meaning_en": "equal",
+    "example": "Equality means the state of being equal in value or rights.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "err",
+    "meaning_hi": "भटकना",
+    "meaning_en": "wander or stray",
+    "example": "To err means to stray from what is correct or right.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ex",
+    "meaning_hi": "बाहर / पूर्व",
+    "meaning_en": "out or former",
+    "example": "An expatriate is someone living outside their native country.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "extra",
+    "meaning_hi": "बाहर / अधिक",
+    "meaning_en": "outside or beyond",
+    "example": "Extraordinary means beyond what is ordinary or expected.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "fab",
+    "meaning_hi": "कहानी",
+    "meaning_en": "story",
+    "example": "A fable is a short story with a moral lesson.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "fac",
+    "meaning_hi": "करना",
+    "meaning_en": "make or do",
+    "example": "A factory is a place where goods are made.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "fals",
+    "meaning_hi": "झूठा",
+    "meaning_en": "false or deceptive",
+    "example": "To falsify means to make a document deliberately false.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "fect",
+    "meaning_hi": "बनाना",
+    "meaning_en": "make",
+    "example": "Perfect means completely and faultlessly made.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "felic",
+    "meaning_hi": "खुशी",
+    "meaning_en": "happiness",
+    "example": "Felicity means great happiness and joyfulness.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "fer",
+    "meaning_hi": "ले जाना",
+    "meaning_en": "carry",
+    "example": "To transfer means to carry something from one place to another.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "fid",
+    "meaning_hi": "विश्वास",
+    "meaning_en": "faith",
+    "example": "Confident means having full faith in one's own abilities.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "fil",
+    "meaning_hi": "पुत्र / संतान",
+    "meaning_en": "son or child",
+    "example": "Filial duty refers to the respect a child owes to parents.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "fin",
+    "meaning_hi": "अंत",
+    "meaning_en": "end",
+    "example": "The final stage is the last and concluding end.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "flect",
+    "meaning_hi": "मोड़ना",
+    "meaning_en": "bend",
+    "example": "To reflect means to bend light or thought back toward its source.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "flex",
+    "meaning_hi": "मोड़ना",
+    "meaning_en": "bend",
+    "example": "A flexible material is one that bends easily without breaking.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "flu",
+    "meaning_hi": "बहना",
+    "meaning_en": "flow",
+    "example": "Fluid substances are those that can flow freely.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "form",
+    "meaning_hi": "आकार",
+    "meaning_en": "shape",
+    "example": "A uniform has one consistent shape and appearance.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "fort",
+    "meaning_hi": "मजबूत",
+    "meaning_en": "strong",
+    "example": "To fortify means to make something stronger and more secure.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "frag",
+    "meaning_hi": "तोड़ना",
+    "meaning_en": "break",
+    "example": "Fragile objects are those that break easily.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "frat",
+    "meaning_hi": "भाई",
+    "meaning_en": "brother",
+    "example": "Fraternal twins are born together from the same pregnancy.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "frig",
+    "meaning_hi": "ठंड",
+    "meaning_en": "cold",
+    "example": "A refrigerator keeps food cold to prevent spoiling.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "fug",
+    "meaning_hi": "भागना",
+    "meaning_en": "flee",
+    "example": "A fugitive is a person who flees to escape capture or punishment.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "fund",
+    "meaning_hi": "आधार",
+    "meaning_en": "bottom or base",
+    "example": "A fundamental principle forms the very base of a system.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "fus",
+    "meaning_hi": "बहाना",
+    "meaning_en": "pour",
+    "example": "Fusion means pouring two things together to become one.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "gam",
+    "meaning_hi": "विवाह",
+    "meaning_en": "marriage",
+    "example": "Monogamy means being in a marriage with only one person.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "gastr",
+    "meaning_hi": "पेट",
+    "meaning_en": "stomach",
+    "example": "Gastric problems are those that affect the stomach.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "gen",
+    "meaning_hi": "जन्म",
+    "meaning_en": "birth",
+    "example": "A generation refers to people born in the same era.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "genu",
+    "meaning_hi": "वास्तविक",
+    "meaning_en": "genuine or real",
+    "example": "Genuine means truly real and not an imitation or fake.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "geo",
+    "meaning_hi": "पृथ्वी",
+    "meaning_en": "earth",
+    "example": "Geography is the scientific study of the earth's surface.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "gno",
+    "meaning_hi": "जानना",
+    "meaning_en": "know",
+    "example": "An agnostic is one who claims not to know whether god exists.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "gon",
+    "meaning_hi": "कोण",
+    "meaning_en": "angle",
+    "example": "A polygon is a closed figure with many angles.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "grad",
+    "meaning_hi": "कदम",
+    "meaning_en": "step",
+    "example": "Gradual progress means advancing carefully step by step.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "grad2",
+    "meaning_hi": "उपाधि",
+    "meaning_en": "degree or rank",
+    "example": "Graduation marks the completion of a degree at a university.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "gram",
+    "meaning_hi": "लिखा हुआ",
+    "meaning_en": "written thing",
+    "example": "A telegram is a written message sent electronically.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "graph",
+    "meaning_hi": "लिखना",
+    "meaning_en": "to write",
+    "example": "An autograph is something personally written by the author.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "graphy",
+    "meaning_hi": "लेखन",
+    "meaning_en": "writing",
+    "example": "Biography is the writing of another person's life story.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "grav",
+    "meaning_hi": "भारी / गंभीर",
+    "meaning_en": "heavy or serious",
+    "example": "Gravity is the natural force that pulls heavy objects downward.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "greg",
+    "meaning_hi": "झुंड / समूह",
+    "meaning_en": "flock or group",
+    "example": "To congregate means to gather together as a large group.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "greg2",
+    "meaning_hi": "सामाजिक",
+    "meaning_en": "group",
+    "example": "An egregious error is one that stands out badly from the group.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "gress",
+    "meaning_hi": "चलना",
+    "meaning_en": "step",
+    "example": "Progress means moving forward step by step.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "habit",
+    "meaning_hi": "रहना",
+    "meaning_en": "live",
+    "example": "A habitat is the natural environment where an animal lives.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "helio",
+    "meaning_hi": "सूर्य",
+    "meaning_en": "sun",
+    "example": "The heliocentric model places the sun at the centre.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "hem",
+    "meaning_hi": "रक्त",
+    "meaning_en": "blood",
+    "example": "Haemoglobin is the protein in red blood cells that carries oxygen.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "hepat",
+    "meaning_hi": "यकृत",
+    "meaning_en": "liver",
+    "example": "Hepatitis is an inflammation of the liver.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "hept",
+    "meaning_hi": "सात",
+    "meaning_en": "seven",
+    "example": "A heptagon is a polygon that has exactly seven sides.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "herb",
+    "meaning_hi": "घास",
+    "meaning_en": "grass",
+    "example": "Herbivores are animals that eat only grass and plants.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "hetero",
+    "meaning_hi": "भिन्न",
+    "meaning_en": "different",
+    "example": "A heterogeneous mixture contains many different elements.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "hex",
+    "meaning_hi": "छह",
+    "meaning_en": "six",
+    "example": "A hexagon is a regular polygon with six equal sides.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "homo",
+    "meaning_hi": "समान",
+    "meaning_en": "same",
+    "example": "A homogeneous substance has the same composition throughout.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "human",
+    "meaning_hi": "मानव",
+    "meaning_en": "human",
+    "example": "Humanitarian work is done to relieve human suffering and need.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "hydr",
+    "meaning_hi": "जल",
+    "meaning_en": "water",
+    "example": "Hydration means providing the body with sufficient water.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "hyper",
+    "meaning_hi": "अत्यधिक",
+    "meaning_en": "over or excessive",
+    "example": "Hyperactive children display excessively high levels of energy.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "hypo",
+    "meaning_hi": "कम / नीचे",
+    "meaning_en": "under or below normal",
+    "example": "Hypothermia occurs when body temperature falls below normal.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ign",
+    "meaning_hi": "आग",
+    "meaning_en": "fire",
+    "example": "To ignite means to set fire to something and cause it to burn.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "in",
+    "meaning_hi": "अंदर / नहीं",
+    "meaning_en": "in or not",
+    "example": "Inhuman means not possessing the compassion of a human being.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "infra",
+    "meaning_hi": "नीचे",
+    "meaning_en": "below or beneath",
+    "example": "Infrastructure forms the basic framework beneath a city's surface.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "inter",
+    "meaning_hi": "बीच",
+    "meaning_en": "between",
+    "example": "International relations exist between two or more nations.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "intra",
+    "meaning_hi": "अंदर",
+    "meaning_en": "within",
+    "example": "An intranet is a private network operating within an organisation.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "iso",
+    "meaning_hi": "समान",
+    "meaning_en": "equal",
+    "example": "Isometric exercises involve equal and balanced muscle effort.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ject",
+    "meaning_hi": "फेंकना",
+    "meaning_en": "throw",
+    "example": "To reject means to throw back or refuse something.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "jur",
+    "meaning_hi": "कानून",
+    "meaning_en": "law",
+    "example": "Jurisdiction refers to the legal authority over a territory.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "juven",
+    "meaning_hi": "युवा",
+    "meaning_en": "young",
+    "example": "A juvenile is a young person below the age of adulthood.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "kilo",
+    "meaning_hi": "हजार",
+    "meaning_en": "thousand",
+    "example": "A kilogram is equal to exactly one thousand grams.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "kine",
+    "meaning_hi": "गति",
+    "meaning_en": "movement",
+    "example": "Kinetic energy is the energy of an object in motion.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "labor",
+    "meaning_hi": "काम",
+    "meaning_en": "work",
+    "example": "A laboratory is a workplace for scientific experiments.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "laryng",
+    "meaning_hi": "कंठ",
+    "meaning_en": "throat or larynx",
+    "example": "Laryngitis is inflammation of the larynx causing voice loss.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "lat",
+    "meaning_hi": "ले जाना",
+    "meaning_en": "carry or bring",
+    "example": "To translate means to carry meaning across from one language to another.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "leg",
+    "meaning_hi": "कानून",
+    "meaning_en": "law",
+    "example": "Legal proceedings relate to matters governed by law.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "lev",
+    "meaning_hi": "उठाना",
+    "meaning_en": "raise",
+    "example": "To elevate means to raise something to a higher level.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "liber",
+    "meaning_hi": "स्वतंत्र",
+    "meaning_en": "free",
+    "example": "Liberty is the freedom to act and speak without restriction.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "liga",
+    "meaning_hi": "बाँधना",
+    "meaning_en": "bind",
+    "example": "A ligament is the tissue that binds bones together at a joint.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ling",
+    "meaning_hi": "भाषा / जीभ",
+    "meaning_en": "tongue or language",
+    "example": "A bilingual person speaks in two languages with equal fluency.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "lingu",
+    "meaning_hi": "भाषा",
+    "meaning_en": "language",
+    "example": "Linguistics is the scientific study of human language.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "liqu",
+    "meaning_hi": "तरल",
+    "meaning_en": "liquid",
+    "example": "Liquid water flows freely and takes the shape of its container.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "lit",
+    "meaning_hi": "विवाद",
+    "meaning_en": "dispute or quarrel",
+    "example": "Litigants are people involved in a legal dispute or case.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "liter",
+    "meaning_hi": "अक्षर",
+    "meaning_en": "letter",
+    "example": "Literature consists of written works composed of letters.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "loc",
+    "meaning_hi": "स्थान",
+    "meaning_en": "place",
+    "example": "A location is a specific place or position.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "logy",
+    "meaning_hi": "अध्ययन",
+    "meaning_en": "study of",
+    "example": "Psychology is the study of the human mind and behaviour.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "loqu",
+    "meaning_hi": "बोलना",
+    "meaning_en": "speak",
+    "example": "An eloquent speaker communicates with great clarity and persuasion.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "loqui",
+    "meaning_hi": "बोलना",
+    "meaning_en": "speak",
+    "example": "A loquacious person speaks at great length about everything.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "luc",
+    "meaning_hi": "प्रकाश",
+    "meaning_en": "light",
+    "example": "A lucid explanation is bright, clear and easy to understand.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "lud",
+    "meaning_hi": "खेलना",
+    "meaning_en": "play",
+    "example": "An illusion is something that plays tricks on the mind.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "lum",
+    "meaning_hi": "प्रकाश",
+    "meaning_en": "light",
+    "example": "Luminous objects emit their own visible light in darkness.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "lun",
+    "meaning_hi": "चंद्रमा",
+    "meaning_en": "moon",
+    "example": "Lunacy was once believed to be caused by the influence of the moon.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "luna",
+    "meaning_hi": "चंद्रमा",
+    "meaning_en": "moon",
+    "example": "A lunar eclipse occurs when the moon enters earth's shadow.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "lus",
+    "meaning_hi": "खेलना",
+    "meaning_en": "play",
+    "example": "Elusive means hard to catch, like something always playing away.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "magn",
+    "meaning_hi": "महान",
+    "meaning_en": "great",
+    "example": "A magnet has the great power to attract iron objects.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "magnet",
+    "meaning_hi": "चुंबक",
+    "meaning_en": "magnet",
+    "example": "Magnetic fields attract iron and other ferrous materials.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "magni",
+    "meaning_hi": "महान",
+    "meaning_en": "great",
+    "example": "Magnificent means impressively great in scale or beauty.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "mal",
+    "meaning_hi": "बुरा",
+    "meaning_en": "bad",
+    "example": "Malnutrition is caused by bad or insufficient diet.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "man",
+    "meaning_hi": "हाथ",
+    "meaning_en": "hand",
+    "example": "Manufacture originally meant goods made by hand.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "mand",
+    "meaning_hi": "आदेश देना",
+    "meaning_en": "order or command",
+    "example": "A mandate is an official order given by an authority.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "mania",
+    "meaning_hi": "पागलपन",
+    "meaning_en": "madness",
+    "example": "Kleptomania is an uncontrollable madness for stealing.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "manu",
+    "meaning_hi": "हाथ",
+    "meaning_en": "hand",
+    "example": "Manual labour is work performed entirely by hand.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "mar",
+    "meaning_hi": "समुद्र",
+    "meaning_en": "sea",
+    "example": "Marine biology studies organisms living in the sea.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "mar2",
+    "meaning_hi": "समुद्र",
+    "meaning_en": "sea",
+    "example": "Submarine originally meant something beneath the sea.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "mater",
+    "meaning_hi": "माता",
+    "meaning_en": "mother",
+    "example": "Maternal instincts are the caring qualities of a mother.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "matr",
+    "meaning_hi": "माता",
+    "meaning_en": "mother",
+    "example": "Matrimony is the formal institution of marriage.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "medi",
+    "meaning_hi": "मध्य",
+    "meaning_en": "middle",
+    "example": "The median value is the exact middle number in a set.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "mediat",
+    "meaning_hi": "मध्यस्थ",
+    "meaning_en": "middle or mediate",
+    "example": "A mediator is someone who stands in the middle to resolve conflict.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "medic",
+    "meaning_hi": "उपचार",
+    "meaning_en": "heal",
+    "example": "Medicine is the science dedicated to healing diseases.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "mega",
+    "meaning_hi": "विशाल",
+    "meaning_en": "large",
+    "example": "A megacity is an extremely large urban city.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "membr",
+    "meaning_hi": "सदस्य / भाग",
+    "meaning_en": "member or part",
+    "example": "A membrane is a thin layer forming part of the cell wall.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "memo",
+    "meaning_hi": "स्मृति",
+    "meaning_en": "memory",
+    "example": "A memorial is built to preserve the memory of someone.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "meta",
+    "meaning_hi": "परे / बदलाव",
+    "meaning_en": "beyond or change",
+    "example": "Metamorphosis means a complete and dramatic change of form.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "meter",
+    "meaning_hi": "माप",
+    "meaning_en": "measure",
+    "example": "A thermometer is a device that measures temperature.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "metr",
+    "meaning_hi": "माप",
+    "meaning_en": "measure",
+    "example": "Geometry involves the precise measurement of shapes.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "micro",
+    "meaning_hi": "सूक्ष्म",
+    "meaning_en": "small",
+    "example": "A microscope enables scientists to see very small objects.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "migr",
+    "meaning_hi": "प्रवास",
+    "meaning_en": "move or wander",
+    "example": "Migrants are people who move from one region to another.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "milit",
+    "meaning_hi": "सैनिक",
+    "meaning_en": "soldier",
+    "example": "Military forces consist of trained soldiers serving a nation.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "mill",
+    "meaning_hi": "हजार",
+    "meaning_en": "thousand",
+    "example": "A millennium is a period of exactly one thousand years.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "min",
+    "meaning_hi": "छोटा",
+    "meaning_en": "small",
+    "example": "Minimal means the very smallest possible amount.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "mir",
+    "meaning_hi": "आश्चर्य",
+    "meaning_en": "wonder",
+    "example": "A miracle is a wonderful event beyond natural explanation.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "misc",
+    "meaning_hi": "मिश्रण",
+    "meaning_en": "mix",
+    "example": "A miscellany is a mixed collection of various writings.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "miss",
+    "meaning_hi": "भेजना",
+    "meaning_en": "send",
+    "example": "A mission is a task or purpose that someone is sent to fulfil.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "mit",
+    "meaning_hi": "भेजना",
+    "meaning_en": "send",
+    "example": "To transmit means to send a signal across a distance.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "mob",
+    "meaning_hi": "चलना",
+    "meaning_en": "move",
+    "example": "A mobile phone is a device that can move with its user.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "mod",
+    "meaning_hi": "तरीका / माप",
+    "meaning_en": "manner or measure",
+    "example": "Moderate means following a measured and balanced manner.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "mono",
+    "meaning_hi": "एक",
+    "meaning_en": "one",
+    "example": "A monologue is a speech performed by only one person.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "morph",
+    "meaning_hi": "आकार",
+    "meaning_en": "shape",
+    "example": "Morphology is the study of the shapes of living things.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "mort",
+    "meaning_hi": "मृत्यु",
+    "meaning_en": "death",
+    "example": "Immortal means not subject to death or decay.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "mot",
+    "meaning_hi": "चलना / प्रेरित करना",
+    "meaning_en": "move",
+    "example": "Motivation is the inner force that moves a person to act.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "multi",
+    "meaning_hi": "अनेक",
+    "meaning_en": "many",
+    "example": "A multinational company operates in many countries.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "mun",
+    "meaning_hi": "सेवा / उपहार",
+    "meaning_en": "gift or duty",
+    "example": "Immune means free from a particular duty or disease.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "mut",
+    "meaning_hi": "बदलना",
+    "meaning_en": "change",
+    "example": "A mutation is a sudden and permanent genetic change.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "my",
+    "meaning_hi": "मांसपेशी",
+    "meaning_en": "muscle",
+    "example": "Myalgia refers to pain and soreness in the muscles.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "nano",
+    "meaning_hi": "अति सूक्ष्म",
+    "meaning_en": "extremely small",
+    "example": "Nanotechnology operates at an extremely small molecular scale.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "nasc",
+    "meaning_hi": "जन्म लेना",
+    "meaning_en": "to be born",
+    "example": "Nascent means newly born or just beginning to emerge and grow.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "nat",
+    "meaning_hi": "जन्म",
+    "meaning_en": "birth",
+    "example": "Natal care is medical care provided around the time of birth.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "naut",
+    "meaning_hi": "नाविक",
+    "meaning_en": "sailor",
+    "example": "An astronaut is a trained sailor of outer space.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "necr",
+    "meaning_hi": "मृत",
+    "meaning_en": "dead",
+    "example": "A necropolis is a large ancient cemetery or city of the dead.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "nephr",
+    "meaning_hi": "गुर्दा",
+    "meaning_en": "kidney",
+    "example": "Nephrology is the branch of medicine that studies kidney function.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "neur",
+    "meaning_hi": "तंत्रिका",
+    "meaning_en": "nerve",
+    "example": "Neurology is the medical study of the nervous system.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "nex",
+    "meaning_hi": "बाँधना",
+    "meaning_en": "bind or connect",
+    "example": "To connect means to bind two separate things together.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "nihil",
+    "meaning_hi": "कुछ नहीं",
+    "meaning_en": "nothing",
+    "example": "To annihilate means to destroy something to the point of nothing.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "noc",
+    "meaning_hi": "हानिकारक / रात",
+    "meaning_en": "harm or night",
+    "example": "Nocuous means harmful or likely to cause damage.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "noct",
+    "meaning_hi": "रात",
+    "meaning_en": "night",
+    "example": "Nocturnal animals are those that are active only during the night.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "nom",
+    "meaning_hi": "नाम",
+    "meaning_en": "name",
+    "example": "A nominal fee is one that exists in name only.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "nomen",
+    "meaning_hi": "नाम",
+    "meaning_en": "name",
+    "example": "Nomenclature is the official system of naming in a discipline.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "nomin",
+    "meaning_hi": "नाम",
+    "meaning_en": "name",
+    "example": "To nominate means to put forward a name for election.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "non",
+    "meaning_hi": "नौ",
+    "meaning_en": "nine",
+    "example": "A nonagon is a polygon with nine sides and nine angles.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "norm",
+    "meaning_hi": "नियम / मानक",
+    "meaning_en": "rule or standard",
+    "example": "Normal means conforming to an accepted standard or rule.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "nov",
+    "meaning_hi": "नया",
+    "meaning_en": "new",
+    "example": "Innovation means introducing something entirely new.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "numer",
+    "meaning_hi": "संख्या",
+    "meaning_en": "number",
+    "example": "Numerical data consists of information expressed as numbers.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ob",
+    "meaning_hi": "विरुद्ध",
+    "meaning_en": "against or in the way",
+    "example": "To obstruct means to place something against the path of progress.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "oct",
+    "meaning_hi": "आठ",
+    "meaning_en": "eight",
+    "example": "An octopus is a sea creature that has eight flexible arms.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "omni",
+    "meaning_hi": "सभी",
+    "meaning_en": "all",
+    "example": "An omniscient being is one who knows all things.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "onym2",
+    "meaning_hi": "नाम",
+    "meaning_en": "name",
+    "example": "An anonymous writer is one whose name is not known.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "oper",
+    "meaning_hi": "काम",
+    "meaning_en": "work",
+    "example": "An operator is someone who works and manages a machine.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ophthalm",
+    "meaning_hi": "आँख",
+    "meaning_en": "eye",
+    "example": "Ophthalmology is the medical and surgical study of the eye.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "opt",
+    "meaning_hi": "दृष्टि / चुनाव",
+    "meaning_en": "eye or choose",
+    "example": "Optics is the science that studies the behaviour of light and the eye.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ora",
+    "meaning_hi": "बोलना",
+    "meaning_en": "speak",
+    "example": "An orator is a person highly skilled at speaking in public.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "orb",
+    "meaning_hi": "वृत्त",
+    "meaning_en": "circle",
+    "example": "A planet's orbit is its circular path around the sun.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "orn",
+    "meaning_hi": "सजाना",
+    "meaning_en": "decorate",
+    "example": "Ornaments are objects used to decorate a home or person.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "orth",
+    "meaning_hi": "सीधा",
+    "meaning_en": "straight",
+    "example": "Orthodox means following the straight and traditional path.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "osteo",
+    "meaning_hi": "हड्डी",
+    "meaning_en": "bone",
+    "example": "Osteoporosis is a disease that weakens the bones.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pac",
+    "meaning_hi": "शांति",
+    "meaning_en": "peace",
+    "example": "To pacify means to restore calm and peace.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pan",
+    "meaning_hi": "सभी",
+    "meaning_en": "all",
+    "example": "A pandemic is a disease that spreads across all regions.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "par",
+    "meaning_hi": "समान",
+    "meaning_en": "equal or beside",
+    "example": "Parity means the state of being on an equal level.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "para",
+    "meaning_hi": "पास",
+    "meaning_en": "beside",
+    "example": "Parallel lines run forever beside each other.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pass",
+    "meaning_hi": "भावना / पीड़ा",
+    "meaning_en": "suffer or feel",
+    "example": "Compassion means suffering alongside another in feeling.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pater",
+    "meaning_hi": "पिता",
+    "meaning_en": "father",
+    "example": "Paternal refers to qualities or relationships of a father.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pater2",
+    "meaning_hi": "पिता",
+    "meaning_en": "father",
+    "example": "Paternity leave is given to a father after the birth of a child.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "path",
+    "meaning_hi": "भावना",
+    "meaning_en": "feeling",
+    "example": "Sympathy means sharing in another person's feeling.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pathy",
+    "meaning_hi": "भावना",
+    "meaning_en": "feeling",
+    "example": "Empathy means deeply sharing in another person's feeling.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "patr",
+    "meaning_hi": "पिता",
+    "meaning_en": "father",
+    "example": "A patron was originally a protecting father figure in Roman society.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "patri",
+    "meaning_hi": "पिता / पितृभूमि",
+    "meaning_en": "father or fatherland",
+    "example": "Patriotism means love for one's fatherland.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ped",
+    "meaning_hi": "पैर",
+    "meaning_en": "foot",
+    "example": "A pedestrian is a person who travels on foot.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pedag",
+    "meaning_hi": "बच्चा",
+    "meaning_en": "child",
+    "example": "Pedagogy is the art and science of teaching children.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pel",
+    "meaning_hi": "धक्का देना",
+    "meaning_en": "push",
+    "example": "To compel means to push or force someone to act.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pend",
+    "meaning_hi": "लटकना",
+    "meaning_en": "hang",
+    "example": "To suspend means to hang something from a fixed point above.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pens",
+    "meaning_hi": "तौलना / लटकना",
+    "meaning_en": "weigh or hang",
+    "example": "Compensation means balancing a loss by weighing it against a benefit.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "per",
+    "meaning_hi": "पूरी तरह",
+    "meaning_en": "through or thoroughly",
+    "example": "To persevere means to continue thoroughly despite all difficulties.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "peri",
+    "meaning_hi": "चारों ओर",
+    "meaning_en": "around",
+    "example": "The perimeter is the total distance around a shape.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "phil",
+    "meaning_hi": "प्रेम",
+    "meaning_en": "love",
+    "example": "A philosopher is one who has a love of wisdom.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "phob",
+    "meaning_hi": "भय",
+    "meaning_en": "fear",
+    "example": "Claustrophobia is an intense fear of enclosed spaces.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "phon",
+    "meaning_hi": "ध्वनि",
+    "meaning_en": "sound",
+    "example": "A telephone carries the sound of the voice over distances.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "photo",
+    "meaning_hi": "प्रकाश",
+    "meaning_en": "light",
+    "example": "Photography uses light to record images on a surface.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "phys",
+    "meaning_hi": "प्रकृति",
+    "meaning_en": "nature",
+    "example": "Physics studies the natural laws governing the universe.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "plas",
+    "meaning_hi": "आकार देना",
+    "meaning_en": "form or mould",
+    "example": "Plastic is a material that can be moulded into any form.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "plen",
+    "meaning_hi": "भरपूर",
+    "meaning_en": "full",
+    "example": "Plentiful means existing in a full and abundant supply.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "plex",
+    "meaning_hi": "बुनना",
+    "meaning_en": "weave or intertwine",
+    "example": "Complex means woven together from many different elements.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "plic",
+    "meaning_hi": "मोड़ना",
+    "meaning_en": "fold",
+    "example": "Complicate means to fold in many extra difficulties.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pod",
+    "meaning_hi": "पैर",
+    "meaning_en": "foot",
+    "example": "Podiatry is the medical care of the foot and its conditions.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "poli",
+    "meaning_hi": "शहर / राज्य",
+    "meaning_en": "city or state",
+    "example": "Politics originally referred to matters of the city or state.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "poly",
+    "meaning_hi": "अनेक",
+    "meaning_en": "many",
+    "example": "A polygon is a closed figure with many straight sides.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pon",
+    "meaning_hi": "रखना",
+    "meaning_en": "place or put",
+    "example": "To postpone means to place something at a later point in time.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "popul",
+    "meaning_hi": "जनता",
+    "meaning_en": "people",
+    "example": "A popular leader is one genuinely liked by the majority of people.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "port",
+    "meaning_hi": "ले जाना",
+    "meaning_en": "carry",
+    "example": "To transport means to carry goods or people from place to place.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pos",
+    "meaning_hi": "रखना",
+    "meaning_en": "place",
+    "example": "To deposit means to place something safely in a secure location.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "post",
+    "meaning_hi": "बाद",
+    "meaning_en": "after",
+    "example": "Postgraduate study takes place after a first degree.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pre",
+    "meaning_hi": "पहले",
+    "meaning_en": "before",
+    "example": "A preview allows one to see something before its release.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "preci",
+    "meaning_hi": "मूल्यवान",
+    "meaning_en": "valuable or price",
+    "example": "Precious stones are those considered extremely valuable.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "prehend",
+    "meaning_hi": "पकड़ना",
+    "meaning_en": "grasp",
+    "example": "To comprehend means to fully grasp the meaning of something.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "press",
+    "meaning_hi": "दबाना",
+    "meaning_en": "press",
+    "example": "Pressure is the force that results from pressing on a surface.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "prim",
+    "meaning_hi": "प्रथम",
+    "meaning_en": "first",
+    "example": "Primary school is the first stage of formal education.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "prim2",
+    "meaning_hi": "प्रथम",
+    "meaning_en": "first",
+    "example": "A primate is the first or highest order of mammals.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pro",
+    "meaning_hi": "आगे / समर्थन",
+    "meaning_en": "forward or in favour of",
+    "example": "To promote means to move someone forward to a higher position.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "prob",
+    "meaning_hi": "परखना",
+    "meaning_en": "test or prove",
+    "example": "To probe means to test or examine something carefully.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "propri",
+    "meaning_hi": "अपना",
+    "meaning_en": "own or proper",
+    "example": "Appropriate means suited to the proper conditions.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "prot",
+    "meaning_hi": "पहला",
+    "meaning_en": "first",
+    "example": "A protagonist is the first or main character of a story.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "proto",
+    "meaning_hi": "प्रथम",
+    "meaning_en": "first",
+    "example": "A prototype is the very first working model of a product.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "prov",
+    "meaning_hi": "परखना",
+    "meaning_en": "prove or test",
+    "example": "To prove means to test and confirm the truth of something.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "proxim",
+    "meaning_hi": "निकट",
+    "meaning_en": "near",
+    "example": "Proximity means nearness in space or time.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pseudo",
+    "meaning_hi": "झूठा",
+    "meaning_en": "false",
+    "example": "Pseudoscience presents itself as science but is false.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "psych",
+    "meaning_hi": "मन",
+    "meaning_en": "mind",
+    "example": "Psychology is the study of the human mind and behaviour.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pugn",
+    "meaning_hi": "लड़ना",
+    "meaning_en": "fight",
+    "example": "Pugnacious means naturally inclined to fight or quarrel.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pulmon",
+    "meaning_hi": "फेफड़े",
+    "meaning_en": "lung",
+    "example": "Pulmonary diseases are those that affect the lungs and breathing.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "puls",
+    "meaning_hi": "धक्का देना",
+    "meaning_en": "push",
+    "example": "An impulse is a sudden push or urge to act.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pur",
+    "meaning_hi": "शुद्ध",
+    "meaning_en": "pure or clean",
+    "example": "To purify means to make something clean and free of impurities.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "put",
+    "meaning_hi": "सोचना",
+    "meaning_en": "think or calculate",
+    "example": "To compute means to think through a calculation systematically.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "pyr",
+    "meaning_hi": "आग",
+    "meaning_en": "fire",
+    "example": "A pyre is a structure of wood built to burn a dead body.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "quad",
+    "meaning_hi": "चार",
+    "meaning_en": "four",
+    "example": "A quadrilateral is any four-sided polygon.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "quaer",
+    "meaning_hi": "खोजना",
+    "meaning_en": "seek or ask",
+    "example": "To inquire means to seek out information by asking questions.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "quer",
+    "meaning_hi": "खोजना",
+    "meaning_en": "seek",
+    "example": "An inquiry is a formal process of seeking information.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "quint",
+    "meaning_hi": "पाँच",
+    "meaning_en": "five",
+    "example": "A quintuplet is one of five children born in the same birth.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "quir",
+    "meaning_hi": "खोजना",
+    "meaning_en": "seek",
+    "example": "To require means to seek and need something as essential.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "rad",
+    "meaning_hi": "जड़",
+    "meaning_en": "root",
+    "example": "A radical change goes all the way down to the very root of an issue.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "radic",
+    "meaning_hi": "जड़",
+    "meaning_en": "root",
+    "example": "To eradicate means to pull out and destroy something by its roots.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "rang",
+    "meaning_hi": "पंक्ति",
+    "meaning_en": "row or rank",
+    "example": "To arrange means to put things in a proper row or order.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "rap",
+    "meaning_hi": "पकड़ना / ले जाना",
+    "meaning_en": "seize or carry off",
+    "example": "Rapture means being carried off by overwhelming joy.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ratio",
+    "meaning_hi": "कारण",
+    "meaning_en": "reason",
+    "example": "Rational thinking is based on clear reasoning and logic.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "re",
+    "meaning_hi": "फिर से",
+    "meaning_en": "again or back",
+    "example": "To revise means to go over something again carefully.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "rect",
+    "meaning_hi": "सीधा",
+    "meaning_en": "straight",
+    "example": "A rectangle is a shape with four straight sides.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "reg",
+    "meaning_hi": "शासन",
+    "meaning_en": "rule",
+    "example": "Regulations are the official rules that govern behaviour.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "retro",
+    "meaning_hi": "पीछे",
+    "meaning_en": "backward",
+    "example": "Retroactive laws apply backward to events already past.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "rhin",
+    "meaning_hi": "नाक",
+    "meaning_en": "nose",
+    "example": "Rhinoplasty is a surgical procedure to reshape the nose.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "rob",
+    "meaning_hi": "मजबूत",
+    "meaning_en": "strong",
+    "example": "Robust means strong and healthy in constitution.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "rog",
+    "meaning_hi": "पूछना",
+    "meaning_en": "ask",
+    "example": "To interrogate means to ask someone questions formally.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "rog2",
+    "meaning_hi": "पूछना",
+    "meaning_en": "ask",
+    "example": "To arrogate means to claim or ask for more than one deserves.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "rot",
+    "meaning_hi": "घूमना",
+    "meaning_en": "turn or wheel",
+    "example": "Rotation means turning around a fixed central axis.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "rud",
+    "meaning_hi": "कच्चा",
+    "meaning_en": "rough or crude",
+    "example": "Rudimentary means basic and in its roughest early form.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "rupt",
+    "meaning_hi": "तोड़ना",
+    "meaning_en": "break",
+    "example": "To disrupt means to break apart the order of something.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "rupt2",
+    "meaning_hi": "टूटना",
+    "meaning_en": "break",
+    "example": "Erupt means to break out suddenly with force.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "rus",
+    "meaning_hi": "ग्रामीण",
+    "meaning_en": "rural or country",
+    "example": "Rustic describes things relating to the simple country life.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "sacr",
+    "meaning_hi": "पवित्र",
+    "meaning_en": "holy",
+    "example": "Sacred sites are places considered holy by a community.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "sanct",
+    "meaning_hi": "पवित्र",
+    "meaning_en": "holy or sacred",
+    "example": "To sanction means to give holy or official approval.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "sat",
+    "meaning_hi": "तृप्त",
+    "meaning_en": "enough or full",
+    "example": "Satiate means to satisfy a need or appetite completely.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "saur",
+    "meaning_hi": "छिपकली",
+    "meaning_en": "lizard",
+    "example": "A dinosaur was a large prehistoric lizard-like creature.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "scend",
+    "meaning_hi": "चढ़ना",
+    "meaning_en": "climb",
+    "example": "To ascend means to climb steadily upward.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "schol",
+    "meaning_hi": "विद्वान",
+    "meaning_en": "scholar",
+    "example": "Scholastic means relating to the work of a scholar.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "sci",
+    "meaning_hi": "जानना",
+    "meaning_en": "know",
+    "example": "Conscience is an inner sense of knowing right from wrong.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "scop",
+    "meaning_hi": "देखना",
+    "meaning_en": "watch or examine",
+    "example": "A stethoscope is used to examine sounds within the body.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "scope",
+    "meaning_hi": "देखना",
+    "meaning_en": "see",
+    "example": "A telescope allows us to see distant stars and planets.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "scrib",
+    "meaning_hi": "लिखना",
+    "meaning_en": "write",
+    "example": "A manuscript is a document written by hand.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "script",
+    "meaning_hi": "लिखना",
+    "meaning_en": "write",
+    "example": "Scripture refers to sacred texts that are written down.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "sect",
+    "meaning_hi": "काटना",
+    "meaning_en": "cut",
+    "example": "To bisect means to cut a line or shape into two equal parts.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "semi",
+    "meaning_hi": "आधा",
+    "meaning_en": "half",
+    "example": "A semicircle is exactly half of a complete circle.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "semin",
+    "meaning_hi": "बीज",
+    "meaning_en": "seed",
+    "example": "A seminar is a meeting where ideas are planted and developed.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "sen",
+    "meaning_hi": "पुराना",
+    "meaning_en": "old",
+    "example": "Senior citizens are older and more experienced members of society.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "sens",
+    "meaning_hi": "महसूस करना",
+    "meaning_en": "feel",
+    "example": "Sensitive people tend to feel emotions more deeply than others.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "sequ",
+    "meaning_hi": "पीछे आना",
+    "meaning_en": "follow",
+    "example": "A sequence is a series in which each element follows the previous.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "serv",
+    "meaning_hi": "सेवा करना",
+    "meaning_en": "serve",
+    "example": "To serve means to work for the benefit of others.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "sign",
+    "meaning_hi": "चिह्न",
+    "meaning_en": "sign or mark",
+    "example": "A signal is a mark or sign used to convey information.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "simil",
+    "meaning_hi": "समान",
+    "meaning_en": "like or similar",
+    "example": "Simile is a figure of speech that compares two similar things.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "simul2",
+    "meaning_hi": "नकल",
+    "meaning_en": "imitate",
+    "example": "To simulate means to imitate the conditions of a real situation.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "sist",
+    "meaning_hi": "खड़े रहना",
+    "meaning_en": "stand",
+    "example": "To resist means to stand against a force or pressure.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "sit",
+    "meaning_hi": "स्थान",
+    "meaning_en": "place or position",
+    "example": "A site is a specific place chosen for a purpose.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "soci",
+    "meaning_hi": "समाज",
+    "meaning_en": "companion or society",
+    "example": "Social beings are those who naturally live in a society.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "sol",
+    "meaning_hi": "सूर्य",
+    "meaning_en": "sun",
+    "example": "Solar energy is power generated from sunlight.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "solv",
+    "meaning_hi": "ढीला करना",
+    "meaning_en": "loosen",
+    "example": "To solve a problem means to loosen and untangle its difficulty.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "somn",
+    "meaning_hi": "नींद",
+    "meaning_en": "sleep",
+    "example": "Insomnia is a chronic condition involving the inability to sleep.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "son",
+    "meaning_hi": "ध्वनि",
+    "meaning_en": "sound",
+    "example": "Sonar detects objects using reflected sound waves.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "soph",
+    "meaning_hi": "बुद्धिमान",
+    "meaning_en": "wise",
+    "example": "Philosophy literally means love of wisdom.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "sorori",
+    "meaning_hi": "बहन",
+    "meaning_en": "sister",
+    "example": "A sorority is an organisation for women who bond like sisters.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "spec",
+    "meaning_hi": "देखना",
+    "meaning_en": "look",
+    "example": "Spectacles are worn to help a person look more clearly.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "spec2",
+    "meaning_hi": "देखना",
+    "meaning_en": "look",
+    "example": "A spectator is someone who looks on at an event or performance.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "spect",
+    "meaning_hi": "देखना",
+    "meaning_en": "look",
+    "example": "To inspect means to look at something very carefully.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "spir",
+    "meaning_hi": "साँस",
+    "meaning_en": "breathe",
+    "example": "Respiration is the biological process of breathing.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "spond",
+    "meaning_hi": "वचन देना",
+    "meaning_en": "pledge or promise",
+    "example": "To respond means to answer a pledge or call made to you.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "stat",
+    "meaning_hi": "खड़ा",
+    "meaning_en": "stand or fixed",
+    "example": "A statue is a fixed and standing figure made of stone.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "stereo",
+    "meaning_hi": "ठोस / निश्चित",
+    "meaning_en": "solid or fixed",
+    "example": "A stereotype is a fixed and oversimplified image of a group.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "stimul",
+    "meaning_hi": "उत्तेजना",
+    "meaning_en": "goad or urge",
+    "example": "A stimulus is something that urges a response or reaction.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "stingu",
+    "meaning_hi": "बुझाना",
+    "meaning_en": "quench or extinguish",
+    "example": "To distinguish means to extinguish or separate two differences.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "strict",
+    "meaning_hi": "कसना",
+    "meaning_en": "tighten or bind",
+    "example": "To restrict means to tighten the limits on something.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "string",
+    "meaning_hi": "कसना",
+    "meaning_en": "tighten",
+    "example": "Stringent rules are very tight and strictly enforced.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "struct",
+    "meaning_hi": "निर्माण करना",
+    "meaning_en": "build",
+    "example": "Construction is the process of building a structure.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "sub",
+    "meaning_hi": "नीचे",
+    "meaning_en": "under",
+    "example": "A submarine is a vessel that operates under water.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "sum",
+    "meaning_hi": "लेना",
+    "meaning_en": "take",
+    "example": "To consume means to take up and use a resource completely.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "super",
+    "meaning_hi": "ऊपर",
+    "meaning_en": "above",
+    "example": "A superhuman possesses abilities above those of ordinary humans.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "surg",
+    "meaning_hi": "उठना",
+    "meaning_en": "rise",
+    "example": "To surge means to rise suddenly and powerfully.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "syl",
+    "meaning_hi": "साथ",
+    "meaning_en": "together with",
+    "example": "A syllable is the smallest unit of sound spoken together.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "sym",
+    "meaning_hi": "साथ",
+    "meaning_en": "together with",
+    "example": "Symmetry means equal form on both sides together.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "syn",
+    "meaning_hi": "साथ",
+    "meaning_en": "together with",
+    "example": "A synonym is a word that means the same thing together.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "tach",
+    "meaning_hi": "तेज़",
+    "meaning_en": "speed",
+    "example": "A tachometer measures the rotational speed of an engine.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "tact",
+    "meaning_hi": "स्पर्श",
+    "meaning_en": "touch",
+    "example": "Tactile learning involves understanding through the sense of touch.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "tact2",
+    "meaning_hi": "स्पर्श",
+    "meaning_en": "touch",
+    "example": "Contact means the act of physically touching something.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "tain",
+    "meaning_hi": "पकड़ना",
+    "meaning_en": "hold",
+    "example": "To retain means to hold something back for future use.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "tang",
+    "meaning_hi": "छूना",
+    "meaning_en": "touch",
+    "example": "Tangible means something that can be physically touched and felt.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "tech",
+    "meaning_hi": "कला / कौशल",
+    "meaning_en": "skill or art",
+    "example": "Technology applies scientific skills to practical problems.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "tele",
+    "meaning_hi": "दूर",
+    "meaning_en": "far",
+    "example": "A telescope lets us observe objects that are very far away.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "temp",
+    "meaning_hi": "समय",
+    "meaning_en": "time",
+    "example": "Something temporary is designed to last for only a short time.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "tempor",
+    "meaning_hi": "समय",
+    "meaning_en": "time",
+    "example": "Temporary means lasting only for a limited period of time.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ten",
+    "meaning_hi": "पकड़ना",
+    "meaning_en": "hold",
+    "example": "To maintain something means to hold it in a steady condition.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "tend",
+    "meaning_hi": "खिंचना",
+    "meaning_en": "stretch",
+    "example": "To extend means to stretch something out further.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "tens",
+    "meaning_hi": "खिंचना",
+    "meaning_en": "stretch",
+    "example": "Tension is the state of being stretched tight.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "termin",
+    "meaning_hi": "सीमा",
+    "meaning_en": "end or boundary",
+    "example": "To terminate means to bring something to its final end.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "terr",
+    "meaning_hi": "पृथ्वी",
+    "meaning_en": "earth",
+    "example": "Territory refers to a defined area of earth or land.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "test",
+    "meaning_hi": "गवाही देना",
+    "meaning_en": "witness",
+    "example": "To testify means to give a witness account in a court.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "theo",
+    "meaning_hi": "ईश्वर",
+    "meaning_en": "god",
+    "example": "Theology is the academic study of the nature of god.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "therm",
+    "meaning_hi": "ऊष्मा",
+    "meaning_en": "heat",
+    "example": "Thermal insulation prevents the loss of heat.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "thermo",
+    "meaning_hi": "ऊष्मा",
+    "meaning_en": "heat",
+    "example": "A thermostat automatically regulates the heat in a room.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "tox",
+    "meaning_hi": "विष",
+    "meaning_en": "poison",
+    "example": "Toxic means containing poison that is harmful to life.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "tract",
+    "meaning_hi": "खींचना",
+    "meaning_en": "pull",
+    "example": "To attract means to pull something or someone toward you.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "trans",
+    "meaning_hi": "पार",
+    "meaning_en": "across or through",
+    "example": "To transport means to carry goods across a distance.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "tri",
+    "meaning_hi": "तीन",
+    "meaning_en": "three",
+    "example": "A triangle is a geometric shape with exactly three sides.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "trop",
+    "meaning_hi": "मुड़ना",
+    "meaning_en": "turn",
+    "example": "A trophy originally marked the turning point of a battle won.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "trud",
+    "meaning_hi": "धक्का देना",
+    "meaning_en": "push or thrust",
+    "example": "To intrude means to push oneself into where one is unwanted.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "turb",
+    "meaning_hi": "हलचल",
+    "meaning_en": "disturb or agitate",
+    "example": "To disturb means to agitate and break the peace of something.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ultra",
+    "meaning_hi": "अत्यंत",
+    "meaning_en": "beyond or extreme",
+    "example": "Ultraviolet radiation lies beyond the visible light spectrum.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "umbr",
+    "meaning_hi": "छाया",
+    "meaning_en": "shadow",
+    "example": "An umbrella protects its user by casting a shadow overhead.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "umbra",
+    "meaning_hi": "छाया",
+    "meaning_en": "shadow",
+    "example": "The umbra is the darkest central shadow during an eclipse.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "und",
+    "meaning_hi": "लहर",
+    "meaning_en": "wave",
+    "example": "Undulate means to move in a smooth wave-like motion.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "uni",
+    "meaning_hi": "एक",
+    "meaning_en": "one",
+    "example": "A unicycle is a vehicle with only one wheel.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "urb",
+    "meaning_hi": "शहर",
+    "meaning_en": "city",
+    "example": "Urban planning deals with the design and development of cities.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "urge",
+    "meaning_hi": "दबाव",
+    "meaning_en": "press or urge",
+    "example": "An urgent matter is one that presses for immediate attention.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "util",
+    "meaning_hi": "उपयोगी",
+    "meaning_en": "useful",
+    "example": "Utility means the quality of being useful and practical.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "vac",
+    "meaning_hi": "खाली",
+    "meaning_en": "empty",
+    "example": "A vacant seat is one that is completely empty.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "vacu",
+    "meaning_hi": "खाली",
+    "meaning_en": "empty",
+    "example": "A vacuum is a space from which all air has been removed.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "val",
+    "meaning_hi": "शक्ति",
+    "meaning_en": "strength",
+    "example": "A valiant person shows great strength and courage in difficulty.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "var",
+    "meaning_hi": "भिन्न",
+    "meaning_en": "different or varied",
+    "example": "Variety means a range of different and varied things.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ven",
+    "meaning_hi": "आना",
+    "meaning_en": "come",
+    "example": "To convene means to come together for a meeting.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "vent",
+    "meaning_hi": "आना",
+    "meaning_en": "come",
+    "example": "An adventure involves coming toward an unknown challenge.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ver",
+    "meaning_hi": "सत्य",
+    "meaning_en": "truth",
+    "example": "To verify means to confirm that something is the truth.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "verb",
+    "meaning_hi": "शब्द",
+    "meaning_en": "word",
+    "example": "Verbal means relating to words spoken or written.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "verd",
+    "meaning_hi": "सत्य / निर्णय",
+    "meaning_en": "truth or judgment",
+    "example": "A verdict is the final truth declared by a court of law.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "vert",
+    "meaning_hi": "मुड़ना",
+    "meaning_en": "turn",
+    "example": "To convert means to turn something into a completely different form.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "via",
+    "meaning_hi": "रास्ता",
+    "meaning_en": "way or road",
+    "example": "A viaduct is a long bridge that carries a road or railway.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "vid",
+    "meaning_hi": "देखना",
+    "meaning_en": "see",
+    "example": "A video recording allows us to see events again later.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "viol",
+    "meaning_hi": "बल",
+    "meaning_en": "force",
+    "example": "Violence means the use of unlawful force against others.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "vis",
+    "meaning_hi": "देखना",
+    "meaning_en": "see",
+    "example": "Vision is the ability to see the surrounding world.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "vit",
+    "meaning_hi": "जीवन / आवश्यक",
+    "meaning_en": "life or essential",
+    "example": "Vitamins are organic compounds that are vital and essential for life.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "vita",
+    "meaning_hi": "जीवन",
+    "meaning_en": "life",
+    "example": "Vital signs are the key indicators that a person is alive.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "viv",
+    "meaning_hi": "जीवन",
+    "meaning_en": "live",
+    "example": "To revive means to bring something back to live again.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "voc",
+    "meaning_hi": "आवाज़",
+    "meaning_en": "voice",
+    "example": "Vocal performance relies entirely on the power of the voice.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "volv",
+    "meaning_hi": "घुमाना",
+    "meaning_en": "roll or turn",
+    "example": "To revolve means to roll or turn around a fixed central point.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "vor",
+    "meaning_hi": "खाना",
+    "meaning_en": "eat greedily",
+    "example": "A voracious reader consumes books eagerly and in great numbers.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "vulg",
+    "meaning_hi": "साधारण / अश्लील",
+    "meaning_en": "common or crude",
+    "example": "Vulgar language is coarse and socially unacceptable in nature.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "ward",
+    "meaning_hi": "दिशा / देखभाल",
+    "meaning_en": "direction or guard",
+    "example": "A warden is a person who guards and oversees a place.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "writ",
+    "meaning_hi": "लिखना",
+    "meaning_en": "write",
+    "example": "A writ is an official written order issued by a court of law.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "xen",
+    "meaning_hi": "विदेशी",
+    "meaning_en": "stranger or foreign",
+    "example": "Xenophobia is an irrational fear or hatred of foreigners.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "yoke",
+    "meaning_hi": "जोड़ना",
+    "meaning_en": "join or unite",
+    "example": "To yoke two animals means to join them together for work.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "zyg",
+    "meaning_hi": "जोड़",
+    "meaning_en": "join or yoke",
+    "example": "A zygote is formed when two cells join together at fertilisation.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  }
+]

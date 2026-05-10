@@ -1,0 +1,1352 @@
+[
+  {
+    "question": "He do not know the answer.",
+    "correct": "He does not know the answer.",
+    "explanation_hi": "Singular subject 'He' के साथ auxiliary 'does' प्रयोग होता है।",
+    "explanation_en": "With singular subjects (he/she/it), use 'does' not 'do' in present tense.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She have completed her homework.",
+    "correct": "She has completed her homework.",
+    "explanation_hi": "Singular subject 'She' के साथ 'has' प्रयोग होता है।",
+    "explanation_en": "Use 'has' with singular subjects (he/she/it) in perfect tense.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Neither of the boys are present today.",
+    "correct": "Neither of the boys is present today.",
+    "explanation_hi": "'Neither of' के साथ singular verb आता है।",
+    "explanation_en": "'Neither of' always takes a singular verb.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "One of my friends are preparing for SSC.",
+    "correct": "One of my friends is preparing for SSC.",
+    "explanation_hi": "Subject 'One' singular है; verb singular होगी।",
+    "explanation_en": "The subject is 'one' (singular), so use singular verb 'is'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is senior than me in experience.",
+    "correct": "He is senior to me in experience.",
+    "explanation_hi": "Latin-origin comparatives (senior, junior, superior, inferior) के साथ 'to' आता है।",
+    "explanation_en": "Latin-origin comparatives take 'to' not 'than'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She is good in Mathematics.",
+    "correct": "She is good at Mathematics.",
+    "explanation_hi": "किसी skill या subject में निपुणता के लिए 'good at' प्रयोग होता है।",
+    "explanation_en": "Use 'good at' for skills and academic subjects.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The teacher discussed about the chapter.",
+    "correct": "The teacher discussed the chapter.",
+    "explanation_hi": "'Discuss' transitive verb है; इसके बाद 'about' नहीं आता।",
+    "explanation_en": "'Discuss' is transitive; do not use 'about' after it.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He did not went to school yesterday.",
+    "correct": "He did not go to school yesterday.",
+    "explanation_hi": "'Did' के बाद verb की base form (first form) आती है।",
+    "explanation_en": "After auxiliary 'did', always use the base form of the verb.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She has wrote a beautiful poem.",
+    "correct": "She has written a beautiful poem.",
+    "explanation_hi": "Present perfect में past participle (third form) प्रयोग होती है।",
+    "explanation_en": "Use past participle (written) not past tense (wrote) in perfect tense.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is knowing the truth.",
+    "correct": "He knows the truth.",
+    "explanation_hi": "'Know' stative verb है; इसे continuous tense में प्रयोग नहीं करते।",
+    "explanation_en": "Stative verbs (know, believe, want, like) are not used in continuous tense.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She resembles with her mother.",
+    "correct": "She resembles her mother.",
+    "explanation_hi": "'Resemble' transitive verb है; इसके बाद preposition नहीं आता।",
+    "explanation_en": "'Resemble' is transitive; do not use any preposition after it.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He ordered for tea.",
+    "correct": "He ordered tea.",
+    "explanation_hi": "'Order' transitive verb है; 'for' अनावश्यक है।",
+    "explanation_en": "'Order' is transitive; do not use 'for' before the object.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She prefers tea than coffee.",
+    "correct": "She prefers tea to coffee.",
+    "explanation_hi": "'Prefer' के साथ comparison में 'to' आता है, 'than' नहीं।",
+    "explanation_en": "'Prefer' takes 'to' in comparisons, not 'than'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The news are very shocking.",
+    "correct": "The news is very shocking.",
+    "explanation_hi": "'News' uncountable singular noun है।",
+    "explanation_en": "'News' is an uncountable noun and always takes a singular verb.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Mathematics are my favorite subject.",
+    "correct": "Mathematics is my favorite subject.",
+    "explanation_hi": "'-ics' ending subjects (Mathematics, Physics, Economics) singular verb लेते हैं।",
+    "explanation_en": "Subjects ending in '-ics' take singular verbs.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Each of the students have a notebook.",
+    "correct": "Each of the students has a notebook.",
+    "explanation_hi": "'Each of' के साथ singular verb आती है।",
+    "explanation_en": "'Each of' always takes a singular verb.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The sceneries of Kashmir are beautiful.",
+    "correct": "The scenery of Kashmir is beautiful.",
+    "explanation_hi": "'Scenery' uncountable noun है; इसका plural नहीं बनता।",
+    "explanation_en": "'Scenery' is uncountable; it has no plural form.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is suffering with fever.",
+    "correct": "He is suffering from fever.",
+    "explanation_hi": "'Suffer' के साथ preposition 'from' आता है।",
+    "explanation_en": "Use 'from' after 'suffer'; the correct phrase is 'suffer from'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "I am going to home now.",
+    "correct": "I am going home now.",
+    "explanation_hi": "'Home' adverb की तरह प्रयोग होता है; इसके पहले 'to' नहीं आता।",
+    "explanation_en": "'Home' functions as an adverb of place; do not use 'to' before it.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The teacher as well as the students are present.",
+    "correct": "The teacher as well as the students is present.",
+    "explanation_hi": "'As well as' से जुड़े subjects में verb पहले (main) subject के अनुसार आती है।",
+    "explanation_en": "When subjects are joined by 'as well as', the verb agrees with the first subject.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "No sooner did he reached than it started raining.",
+    "correct": "No sooner did he reach than it started raining.",
+    "explanation_hi": "'Did' के बाद verb की base form आती है।",
+    "explanation_en": "After 'did', always use the base form of the verb.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She is one of the best singer in the class.",
+    "correct": "She is one of the best singers in the class.",
+    "explanation_hi": "'One of the' के बाद plural noun आता है।",
+    "explanation_en": "After 'one of the', always use a plural noun.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The police has arrested the thief.",
+    "correct": "The police have arrested the thief.",
+    "explanation_hi": "'Police' collective noun है जो plural verb लेता है।",
+    "explanation_en": "'Police' is always treated as a plural noun in standard British English.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is addicted with smoking.",
+    "correct": "He is addicted to smoking.",
+    "explanation_hi": "'Addicted' के साथ 'to' प्रयोग होता है।",
+    "explanation_en": "The correct phrase is 'addicted to'; do not use 'with'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The train is preferable than the bus.",
+    "correct": "The train is preferable to the bus.",
+    "explanation_hi": "Latin-origin adjective 'preferable' के साथ 'to' आता है।",
+    "explanation_en": "'Preferable' takes 'to', not 'than'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is married with a doctor.",
+    "correct": "He is married to a doctor.",
+    "explanation_hi": "'Married' के साथ 'to' प्रयोग होता है।",
+    "explanation_en": "The correct phrase is 'married to'; do not use 'with'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "I look forward to meet you.",
+    "correct": "I look forward to meeting you.",
+    "explanation_hi": "'Look forward to' में 'to' preposition है; इसके बाद gerund आता है।",
+    "explanation_en": "'To' in 'look forward to' is a preposition, so use gerund (-ing form) after it.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He prevented me to enter the room.",
+    "correct": "He prevented me from entering the room.",
+    "explanation_hi": "'Prevent' के साथ 'from + gerund' structure आता है।",
+    "explanation_en": "Use 'prevent someone from + gerund'; not 'prevent someone to + infinitive'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She is capable to solve this problem.",
+    "correct": "She is capable of solving this problem.",
+    "explanation_hi": "'Capable' के साथ 'of + gerund' structure आता है।",
+    "explanation_en": "Use 'capable of + gerund'; not 'capable to + infinitive'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The child was absent since Monday.",
+    "correct": "The child has been absent since Monday.",
+    "explanation_hi": "'Since' के साथ present perfect (या perfect continuous) tense आता है।",
+    "explanation_en": "Use present perfect or perfect continuous tense with 'since'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "One should keep their promises.",
+    "correct": "One should keep one's promises.",
+    "explanation_hi": "'One' के साथ possessive pronoun 'one's' आता है।",
+    "explanation_en": "Use 'one's' as the possessive pronoun when the subject is 'one'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Neither Ram nor his friends was present.",
+    "correct": "Neither Ram nor his friends were present.",
+    "explanation_hi": "'Neither...nor' में verb nearest subject (friends-plural) के अनुसार आती है।",
+    "explanation_en": "With 'neither...nor', the verb agrees with the subject closest to it.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She asked me where was I going.",
+    "correct": "She asked me where I was going.",
+    "explanation_hi": "Indirect speech में subject + verb order (statement order) आता है।",
+    "explanation_en": "In indirect speech, use statement word order (subject + verb), not question order.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The furniture are very costly.",
+    "correct": "The furniture is very costly.",
+    "explanation_hi": "'Furniture' uncountable noun है; singular verb लेता है।",
+    "explanation_en": "'Furniture' is an uncountable noun and takes a singular verb.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is working here since 2020.",
+    "correct": "He has been working here since 2020.",
+    "explanation_hi": "Ongoing action जो 'since' से शुरू हुई; present perfect continuous चाहिए।",
+    "explanation_en": "Use present perfect continuous ('has been working') with 'since' for ongoing actions.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "I have no any money.",
+    "correct": "I have no money.",
+    "explanation_hi": "'No' और 'any' एक साथ double negative बनाते हैं।",
+    "explanation_en": "Do not use 'no' and 'any' together; it creates a double negative.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He returned back from office late.",
+    "correct": "He returned from office late.",
+    "explanation_hi": "'Return' में वापस आने का अर्थ पहले से होता है; 'back' अनावश्यक है।",
+    "explanation_en": "'Return' already implies coming back; 'back' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The teacher emphasized on discipline.",
+    "correct": "The teacher emphasized discipline.",
+    "explanation_hi": "'Emphasize' transitive verb है; 'on' अनावश्यक है।",
+    "explanation_en": "'Emphasize' is transitive; do not add 'on' after it.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is more taller than his brother.",
+    "correct": "He is taller than his brother.",
+    "explanation_hi": "Double comparative ('more taller') गलत है।",
+    "explanation_en": "Do not use 'more' with a word that is already in comparative form.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "This is the most unique painting.",
+    "correct": "This painting is unique.",
+    "explanation_hi": "'Unique' absolute adjective है; इसका comparative/superlative नहीं बनता।",
+    "explanation_en": "'Unique' is an absolute adjective; it cannot be compared.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The meeting will held tomorrow.",
+    "correct": "The meeting will be held tomorrow.",
+    "explanation_hi": "Passive voice में modal के बाद 'be + past participle' चाहिए।",
+    "explanation_en": "In passive voice, use 'will be + past participle'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She insisted to go there.",
+    "correct": "She insisted on going there.",
+    "explanation_hi": "'Insist' के बाद 'on + gerund' आता है।",
+    "explanation_en": "Use 'insist on + gerund'; not 'insist to + infinitive'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is afraid from dogs.",
+    "correct": "He is afraid of dogs.",
+    "explanation_hi": "'Afraid' के साथ 'of' प्रयोग होता है।",
+    "explanation_en": "The correct phrase is 'afraid of'; do not use 'from'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The principal congratulated me for my success.",
+    "correct": "The principal congratulated me on my success.",
+    "explanation_hi": "'Congratulate' के साथ 'on' प्रयोग होता है।",
+    "explanation_en": "Use 'congratulate someone on something'; not 'for'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The boy was punished of his mistake.",
+    "correct": "The boy was punished for his mistake.",
+    "explanation_hi": "'Punish' के साथ 'for' प्रयोग होता है।",
+    "explanation_en": "The correct phrase is 'punished for'; do not use 'of'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is jealous from his brother.",
+    "correct": "He is jealous of his brother.",
+    "explanation_hi": "'Jealous' के साथ 'of' प्रयोग होता है।",
+    "explanation_en": "The correct phrase is 'jealous of'; do not use 'from'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She is fond for music.",
+    "correct": "She is fond of music.",
+    "explanation_hi": "'Fond' के साथ 'of' प्रयोग होता है।",
+    "explanation_en": "The correct phrase is 'fond of'; do not use 'for'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The teacher distributed books between the students.",
+    "correct": "The teacher distributed books among the students.",
+    "explanation_hi": "दो से अधिक लोगों के बीच 'among' प्रयोग होता है।",
+    "explanation_en": "Use 'among' for more than two people; 'between' is for exactly two.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The river overflows on rainy season.",
+    "correct": "The river overflows in the rainy season.",
+    "explanation_hi": "Seasons के साथ 'in' और definite article 'the' प्रयोग होता है।",
+    "explanation_en": "Use 'in' with seasons; also add 'the' before 'rainy season'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She is an university student.",
+    "correct": "She is a university student.",
+    "explanation_hi": "'University' consonant sound /j/ से शुरू होता है; 'a' प्रयोग होता है।",
+    "explanation_en": "'University' begins with a consonant /j/ sound; use 'a' not 'an'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He gave me an useful advice.",
+    "correct": "He gave me useful advice.",
+    "explanation_hi": "'Useful' consonant sound /j/ से शुरू होता है; साथ ही 'advice' uncountable है।",
+    "explanation_en": "'Useful' begins with consonant sound /j/, so 'a' not 'an'; also 'advice' is uncountable.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is best player in the team.",
+    "correct": "He is the best player in the team.",
+    "explanation_hi": "Superlative adjective से पहले 'the' आता है।",
+    "explanation_en": "Use 'the' before superlative adjectives.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She plays piano very well.",
+    "correct": "She plays the piano very well.",
+    "explanation_hi": "Musical instruments के पहले 'the' आता है।",
+    "explanation_en": "Use 'the' before musical instruments.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Sun rises in east.",
+    "correct": "The sun rises in the east.",
+    "explanation_hi": "Unique objects और directions के पहले 'the' आता है।",
+    "explanation_en": "Use 'the' before unique objects (sun, moon) and compass directions.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is an honest man.",
+    "correct": "He is an honest man.",
+    "explanation_hi": "'Honest' में 'H' silent है; vowel sound /o/ से शुरू होता है, इसलिए 'an' सही है। ✅",
+    "explanation_en": "This sentence is correct. 'Honest' starts with a vowel sound; 'an' is correct.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She is a MA student.",
+    "correct": "She is an MA student.",
+    "explanation_hi": "Abbreviation 'MA' vowel sound /em/ से शुरू होता है; 'an' आता है।",
+    "explanation_en": "Abbreviation 'MA' begins with vowel sound /em/; use 'an'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He returned after the hour.",
+    "correct": "He returned after an hour.",
+    "explanation_hi": "'Hour' silent 'H' से शुरू होता है; vowel sound है; 'an' प्रयोग होता है।",
+    "explanation_en": "'Hour' has a silent 'H' and begins with a vowel sound; use 'an'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She is teacher by profession.",
+    "correct": "She is a teacher by profession.",
+    "explanation_hi": "Profession बताते समय singular countable noun से पहले 'a/an' आता है।",
+    "explanation_en": "Use 'a/an' before a singular countable noun when stating a profession.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Wisdom is an essential quality.",
+    "correct": "Wisdom is an essential quality.",
+    "explanation_hi": "यह sentence सही है।",
+    "explanation_en": "This sentence is correct. 'Essential' begins with a vowel sound; 'an' is correct.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "You should to attend the class.",
+    "correct": "You should attend the class.",
+    "explanation_hi": "Modal verbs के बाद bare infinitive (to के बिना) आता है।",
+    "explanation_en": "Modal verbs are followed by bare infinitive; do not use 'to' after them.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She might to come tomorrow.",
+    "correct": "She might come tomorrow.",
+    "explanation_hi": "Modal 'might' के बाद bare infinitive आता है।",
+    "explanation_en": "Use bare infinitive after modal 'might'; do not add 'to'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He must to complete the assignment.",
+    "correct": "He must complete the assignment.",
+    "explanation_hi": "Modal 'must' के बाद bare infinitive आता है।",
+    "explanation_en": "Use bare infinitive after modal 'must'; do not add 'to'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He should has completed the work.",
+    "correct": "He should have completed the work.",
+    "explanation_hi": "Past obligation के लिए 'should have + past participle' structure आता है।",
+    "explanation_en": "Use 'should have + past participle' for past unfulfilled obligation.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She might have went there.",
+    "correct": "She might have gone there.",
+    "explanation_hi": "Perfect modal में 'have + past participle' आता है।",
+    "explanation_en": "Use past participle 'gone' not past tense 'went' in perfect modal.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "You ought attend the meeting.",
+    "correct": "You ought to attend the meeting.",
+    "explanation_hi": "'Ought' के बाद हमेशा 'to' आता है।",
+    "explanation_en": "'Ought' always takes 'to'; use 'ought to + infinitive'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He need not to worry.",
+    "correct": "He need not worry.",
+    "explanation_hi": "Modal 'need' (negative) के बाद bare infinitive आता है; 'to' नहीं।",
+    "explanation_en": "When 'need' is used as a modal in negative, use 'need not + bare infinitive'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He told that he was tired.",
+    "correct": "He said that he was tired.",
+    "explanation_hi": "'Tell' के बाद object आना जरूरी है; बिना object के 'said that' प्रयोग होता है।",
+    "explanation_en": "'Tell' must have an object (tell someone); without object, use 'said that'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She said me to come early.",
+    "correct": "She told me to come early.",
+    "explanation_hi": "Command indirect speech में 'told someone to + infinitive' आता है।",
+    "explanation_en": "Use 'told me to' for reported commands; 'said me to' is incorrect.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He said that he will come tomorrow.",
+    "correct": "He said that he would come the next day.",
+    "explanation_hi": "Past reporting में 'will' → 'would' और 'tomorrow' → 'the next day' बदलता है।",
+    "explanation_en": "In reported speech with past reporting verb, 'will' becomes 'would' and 'tomorrow' becomes 'the next day'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She asked that where he lived.",
+    "correct": "She asked where he lived.",
+    "explanation_hi": "Indirect question में 'that' नहीं आता।",
+    "explanation_en": "Do not use 'that' before question words in indirect speech.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The teacher advised me that I should rest.",
+    "correct": "The teacher advised me to rest.",
+    "explanation_hi": "Advice indirect speech में 'advised someone to + infinitive' बनती है।",
+    "explanation_en": "For reported advice, use 'advised someone to + infinitive'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He told me that he is ill.",
+    "correct": "He told me that he was ill.",
+    "explanation_hi": "Past reporting verb के साथ tense back-shift होता है।",
+    "explanation_en": "When the reporting verb is past, shift the tense back (is → was).",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The work is being did by him.",
+    "correct": "The work is being done by him.",
+    "explanation_hi": "Passive voice में past participle (done) आता है; 'did' नहीं।",
+    "explanation_en": "Use past participle 'done' in passive voice, not past tense 'did'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The letter has been wrote by her.",
+    "correct": "The letter has been written by her.",
+    "explanation_hi": "Perfect passive में 'been + past participle' आता है।",
+    "explanation_en": "Use past participle 'written' in perfect passive construction.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The thief was catched by police.",
+    "correct": "The thief was caught by the police.",
+    "explanation_hi": "'Catch' का past participle 'caught' है।",
+    "explanation_en": "The past participle of 'catch' is 'caught', not 'catched'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The match is been played.",
+    "correct": "The match is being played.",
+    "explanation_hi": "Present continuous passive में 'is being + past participle' आता है।",
+    "explanation_en": "Present continuous passive: 'is being + past participle'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She is known by everyone.",
+    "correct": "She is known to everyone.",
+    "explanation_hi": "Mental state verbs passive में 'to' लेते हैं।",
+    "explanation_en": "Use 'known to' not 'known by' for mental state verbs in passive.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "If he will study hard, he will pass.",
+    "correct": "If he studies hard, he will pass.",
+    "explanation_hi": "Type 1 conditional में 'if clause' में simple present आता है।",
+    "explanation_en": "In Type 1 conditional, use simple present in the 'if-clause', not 'will'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "If I would know the answer, I would tell you.",
+    "correct": "If I knew the answer, I would tell you.",
+    "explanation_hi": "Type 2 conditional में 'if clause' में simple past आता है।",
+    "explanation_en": "In Type 2 conditional, use simple past in the 'if-clause', not 'would'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "If he had studied, he will have passed.",
+    "correct": "If he had studied, he would have passed.",
+    "explanation_hi": "Type 3 conditional में 'would have + past participle' आता है।",
+    "explanation_en": "In Type 3 conditional, use 'would have + past participle' in the main clause.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Unless you will study, you will fail.",
+    "correct": "Unless you study, you will fail.",
+    "explanation_hi": "'Unless' में negation पहले से होता है; 'will' नहीं जोड़ते।",
+    "explanation_en": "'Unless' already contains negation; use simple present in the unless-clause.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "I wish I was rich.",
+    "correct": "I wish I were rich.",
+    "explanation_hi": "'Wish' के बाद unreal condition में 'were' प्रयोग होता है।",
+    "explanation_en": "Use 'were' (not 'was') after 'wish' for unreal situations.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "If I was you, I would refuse.",
+    "correct": "If I were you, I would refuse.",
+    "explanation_hi": "Hypothetical/unreal condition में 'were' प्रयोग होता है।",
+    "explanation_en": "Use 'were' (not 'was') in unreal or hypothetical conditions.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He talks as if he is the boss.",
+    "correct": "He talks as if he were the boss.",
+    "explanation_hi": "'As if' के साथ unreal condition में 'were' प्रयोग होता है।",
+    "explanation_en": "Use 'were' after 'as if' for imaginary or unreal conditions.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Although he was tired, but he worked.",
+    "correct": "Although he was tired, he worked.",
+    "explanation_hi": "'Although' और 'but' एक साथ नहीं आते।",
+    "explanation_en": "Do not use 'but' with 'although'; they both express contrast and are redundant together.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Since he was ill therefore he stayed home.",
+    "correct": "Since he was ill, he stayed home.",
+    "explanation_hi": "'Since' और 'therefore' एक साथ नहीं आते।",
+    "explanation_en": "Do not use 'therefore' with 'since'; they both convey cause and are redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Though she tried hard, yet she failed.",
+    "correct": "Though she tried hard, she failed.",
+    "explanation_hi": "'Though' के साथ 'yet' अनावश्यक है।",
+    "explanation_en": "Do not use 'yet' with 'though'; they serve the same contrastive purpose.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Not only he plays well but also he is a good captain.",
+    "correct": "Not only does he play well but he is also a good captain.",
+    "explanation_hi": "'Not only' sentence शुरू में आने पर inversion होता है।",
+    "explanation_en": "When 'not only' begins a sentence, use subject-auxiliary inversion.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is too weak that he cannot walk.",
+    "correct": "He is too weak to walk.",
+    "explanation_hi": "'Too...to' structure में 'that' नहीं आता।",
+    "explanation_en": "Use 'too + adjective + to + infinitive'; do not use 'that'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Both he as well as his friend is wrong.",
+    "correct": "Both he and his friend are wrong.",
+    "explanation_hi": "'Both' के साथ 'and' आता है, 'as well as' नहीं।",
+    "explanation_en": "'Both' is paired with 'and'; do not use 'as well as' with 'both'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She sings very beautiful.",
+    "correct": "She sings very beautifully.",
+    "explanation_hi": "Verb को modify करने के लिए adverb चाहिए, adjective नहीं।",
+    "explanation_en": "Use adverb 'beautifully' to modify the verb 'sings'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He drives the car very careless.",
+    "correct": "He drives the car very carelessly.",
+    "explanation_hi": "Verb modify करने के लिए adverb (-ly form) आता है।",
+    "explanation_en": "Use adverb 'carelessly' to modify the verb 'drives'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "I feel badly about the incident.",
+    "correct": "I feel bad about the incident.",
+    "explanation_hi": "Linking verb 'feel' के बाद adjective आता है, adverb नहीं।",
+    "explanation_en": "Use adjective 'bad' after the linking verb 'feel', not adverb 'badly'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She looks beautifully.",
+    "correct": "She looks beautiful.",
+    "explanation_hi": "Linking verb 'looks' के बाद adjective आता है।",
+    "explanation_en": "Use adjective 'beautiful' after linking verbs like 'looks', 'seems', 'appears'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The younger of the three sisters is Meera.",
+    "correct": "The youngest of the three sisters is Meera.",
+    "explanation_hi": "तीन या अधिक के लिए superlative degree प्रयोग होती है।",
+    "explanation_en": "Use superlative (youngest) when comparing three or more; comparative is for two.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "This is the most worst performance.",
+    "correct": "This is the worst performance.",
+    "explanation_hi": "'Worst' पहले से superlative है; 'most' जोड़ना double superlative है।",
+    "explanation_en": "'Worst' is already superlative; do not add 'most'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is the most cleverest boy in class.",
+    "correct": "He is the cleverest boy in class.",
+    "explanation_hi": "'Cleverest' पहले से superlative है; 'most' जोड़ना double superlative है।",
+    "explanation_en": "Do not use 'most' with a word that is already in superlative form.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She is more better than him.",
+    "correct": "She is better than him.",
+    "explanation_hi": "'Better' पहले से comparative है; 'more' जोड़ना गलत है।",
+    "explanation_en": "Do not use 'more' with a word already in comparative form.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "This is the better of the three options.",
+    "correct": "This is the best of the three options.",
+    "explanation_hi": "तीन या अधिक के बीच superlative degree प्रयोग होती है।",
+    "explanation_en": "Use superlative 'best' when comparing three or more options.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is taller than any boy in the class.",
+    "correct": "He is taller than any other boy in the class.",
+    "explanation_hi": "Same group comparison में 'any other' प्रयोग होता है।",
+    "explanation_en": "Use 'any other' when comparing a member within the same group.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She is a doctor, isn't it?",
+    "correct": "She is a doctor, isn't she?",
+    "explanation_hi": "Question tag में subject pronoun main clause से मिलना चाहिए।",
+    "explanation_en": "The pronoun in a question tag must match the subject of the main clause.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Let us go, isn't it?",
+    "correct": "Let us go, shall we?",
+    "explanation_hi": "'Let us' (suggestion) के साथ 'shall we?' tag आता है।",
+    "explanation_en": "Use 'shall we?' as the question tag for suggestions starting with 'let us'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He can swim, can't it?",
+    "correct": "He can swim, can't he?",
+    "explanation_hi": "Tag में pronoun main clause के subject से मिलना चाहिए।",
+    "explanation_en": "The tag must use the correct subject pronoun 'he'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He used to play cricket, used he not?",
+    "correct": "He used to play cricket, didn't he?",
+    "explanation_hi": "'Used to' के साथ question tag 'didn't he?' आता है।",
+    "explanation_en": "Use 'didn't he?' as the question tag for 'used to' structures.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Nobody came, did he?",
+    "correct": "Nobody came, did they?",
+    "explanation_hi": "Negative indefinite (nobody) के साथ plural tag 'they' आता है।",
+    "explanation_en": "With negative indefinites like 'nobody', use plural 'they' in the question tag.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She likes singing, dancing and to read.",
+    "correct": "She likes singing, dancing and reading.",
+    "explanation_hi": "Coordinate elements parallel form में होने चाहिए।",
+    "explanation_en": "Maintain parallel structure; all items should be in the same grammatical form (gerunds).",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is intelligent, hardworking and has honesty.",
+    "correct": "He is intelligent, hardworking and honest.",
+    "explanation_hi": "Coordinate adjectives parallel form में होनी चाहिए।",
+    "explanation_en": "Use parallel adjective forms; 'honest' not 'has honesty'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She not only sings but also is dancing.",
+    "correct": "She not only sings but also dances.",
+    "explanation_hi": "'Not only...but also' structure parallel होना चाहिए।",
+    "explanation_en": "Both parts of 'not only...but also' must be in the same grammatical form.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Walking down the street, the trees looked beautiful.",
+    "correct": "Walking down the street, I noticed the trees looked beautiful.",
+    "explanation_hi": "Participial phrase का subject main clause के subject से मिलना चाहिए।",
+    "explanation_en": "The participial phrase must relate to the subject of the main clause, not 'trees'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Having finished the work, the TV was switched on.",
+    "correct": "Having finished the work, he switched on the TV.",
+    "explanation_hi": "Dangling participle: participial phrase का subject missing है।",
+    "explanation_en": "The doer of 'having finished' must be the subject of the main clause.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He only eats vegetables.",
+    "correct": "He eats only vegetables.",
+    "explanation_hi": "'Only' को उस शब्द के ठीक पहले रखना चाहिए जिसे वह modify करे।",
+    "explanation_en": "Place 'only' immediately before the word it modifies.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "There are less students today.",
+    "correct": "There are fewer students today.",
+    "explanation_hi": "Countable noun के लिए 'fewer' प्रयोग होता है।",
+    "explanation_en": "Use 'fewer' with countable nouns; 'less' is for uncountable nouns.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He has much friends here.",
+    "correct": "He has many friends here.",
+    "explanation_hi": "Countable noun के साथ 'many' प्रयोग होता है।",
+    "explanation_en": "Use 'many' with countable nouns; 'much' is for uncountable nouns.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "There is a little water in the bottle.",
+    "correct": "There is little water in the bottle.",
+    "explanation_hi": "'A little' का अर्थ 'थोड़ा पर पर्याप्त' है; 'little' = 'बहुत कम' (नकारात्मक अर्थ)।",
+    "explanation_en": "'A little' means some (positive); 'little' means hardly any (negative). Context determines choice.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She has a few money.",
+    "correct": "She has little money.",
+    "explanation_hi": "'Few' countable nouns के साथ और 'little' uncountable nouns के साथ आता है।",
+    "explanation_en": "Use 'few' with countable nouns and 'little' with uncountable nouns like 'money'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "I have seen him yesterday.",
+    "correct": "I saw him yesterday.",
+    "explanation_hi": "Definite past time ('yesterday') के साथ simple past आता है।",
+    "explanation_en": "Use simple past with definite past time expressions like 'yesterday'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She has completed the work two days ago.",
+    "correct": "She completed the work two days ago.",
+    "explanation_hi": "'Two days ago' definite past time expression है; simple past चाहिए।",
+    "explanation_en": "Use simple past with 'ago'; do not use present perfect.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "When I will reach home, I will call you.",
+    "correct": "When I reach home, I will call you.",
+    "explanation_hi": "Time clause में simple present आता है; 'will' नहीं।",
+    "explanation_en": "Use simple present (not 'will') in time clauses starting with 'when', 'after', 'before'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "By the time she arrives, I will finish the work.",
+    "correct": "By the time she arrives, I will have finished the work.",
+    "explanation_hi": "'By the time' के साथ future perfect आता है।",
+    "explanation_en": "Use future perfect ('will have finished') with 'by the time'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is working here for five years.",
+    "correct": "He has been working here for five years.",
+    "explanation_hi": "Duration के साथ ongoing action के लिए present perfect continuous आता है।",
+    "explanation_en": "Use present perfect continuous for ongoing actions over a period of time.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He rose the flag at dawn.",
+    "correct": "He raised the flag at dawn.",
+    "explanation_hi": "'Raise' transitive verb है (object लेता है); 'rise' intransitive है।",
+    "explanation_en": "'Raise' is transitive (takes an object); 'rise' is intransitive.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She lied the book on the table.",
+    "correct": "She laid the book on the table.",
+    "explanation_hi": "'Lay' (रखना) का past tense 'laid' है।",
+    "explanation_en": "Past tense of 'lay' (to place) is 'laid'; 'lie' means to recline.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The effect of pollution affects health.",
+    "correct": "The effects of pollution affect health.",
+    "explanation_hi": "'Effect' noun है; 'affect' verb है।",
+    "explanation_en": "'Effect' is a noun; 'affect' is a verb. Do not confuse them.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is more elder than his brother.",
+    "correct": "He is older than his brother.",
+    "explanation_hi": "'Elder' family comparison के लिए है; 'than' के साथ नहीं आता; 'older' प्रयोग करें।",
+    "explanation_en": "'Elder' cannot take 'than'; use 'older' for age comparisons.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She is the eldest of the two sisters.",
+    "correct": "She is the elder of the two sisters.",
+    "explanation_hi": "दो लोगों के लिए comparative (elder) प्रयोग होता है।",
+    "explanation_en": "Use comparative 'elder' for two; superlative 'eldest' for three or more.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He denied to have taken the money.",
+    "correct": "He denied having taken the money.",
+    "explanation_hi": "'Deny' के बाद gerund आता है, infinitive नहीं।",
+    "explanation_en": "Use gerund after 'deny'; not infinitive.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She enjoys to dance.",
+    "correct": "She enjoys dancing.",
+    "explanation_hi": "'Enjoy' के बाद gerund आता है, infinitive नहीं।",
+    "explanation_en": "Use gerund after 'enjoy'; not infinitive.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The accused fled away from the scene.",
+    "correct": "The accused fled from the scene.",
+    "explanation_hi": "'Flee/fled' में already away का अर्थ होता है; 'away' अनावश्यक है।",
+    "explanation_en": "'Flee' already implies moving away; 'away' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He made me to wait for an hour.",
+    "correct": "He made me wait for an hour.",
+    "explanation_hi": "Causative 'make' के बाद bare infinitive आता है।",
+    "explanation_en": "Use bare infinitive (without 'to') after causative 'make'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She had her hair to cut yesterday.",
+    "correct": "She had her hair cut yesterday.",
+    "explanation_hi": "Causative 'have' structure में bare infinitive (past participle) आता है।",
+    "explanation_en": "Use past participle in causative 'have + object + past participle'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He reached to the station on time.",
+    "correct": "He reached the station on time.",
+    "explanation_hi": "'Reach' transitive verb है; object के पहले preposition नहीं आता।",
+    "explanation_en": "'Reach' is transitive; do not use 'to' before its object.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Please revert back to us soon.",
+    "correct": "Please revert to us soon.",
+    "explanation_hi": "'Revert' में already वापस आने का अर्थ है; 'back' अनावश्यक है।",
+    "explanation_en": "'Revert' already means to go back; 'back' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The reason is because he was absent.",
+    "correct": "The reason is that he was absent.",
+    "explanation_hi": "'The reason is because' grammatically incorrect है।",
+    "explanation_en": "Use 'the reason is that'; do not say 'the reason is because'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He can be able to solve this.",
+    "correct": "He can solve this.",
+    "explanation_hi": "'Can' और 'be able to' एक साथ नहीं आते।",
+    "explanation_en": "Do not combine 'can' with 'be able to'; they are both modals meaning the same thing.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He entered into the examination hall.",
+    "correct": "He entered the examination hall.",
+    "explanation_hi": "'Enter' transitive verb है; 'into' अनावश्यक है।",
+    "explanation_en": "'Enter' is transitive; do not use 'into' after it.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Scarcely had he left than it rained.",
+    "correct": "Scarcely had he left when it rained.",
+    "explanation_hi": "'Scarcely' के साथ 'when' आता है, 'than' नहीं।",
+    "explanation_en": "Use 'when' (not 'than') with 'scarcely'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Hardly had I reached the station when the train left.",
+    "correct": "Hardly had I reached the station when the train left.",
+    "explanation_hi": "यह sentence पूरी तरह सही है।",
+    "explanation_en": "This sentence is grammatically correct; 'hardly' + inversion + 'when' is the correct structure.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is taller than all the boys in the class.",
+    "correct": "He is taller than all the other boys in the class.",
+    "explanation_hi": "जब person same group का हिस्सा हो तो 'all the other' प्रयोग होता है।",
+    "explanation_en": "Use 'all the other' when the person being compared is part of the same group.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "No sooner he arrived than it rained.",
+    "correct": "No sooner had he arrived than it rained.",
+    "explanation_hi": "'No sooner' sentence शुरू में आने पर auxiliary inversion होता है।",
+    "explanation_en": "When 'no sooner' begins a sentence, use auxiliary inversion (had he, not he had).",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Barely he finished when the bell rang.",
+    "correct": "Barely had he finished when the bell rang.",
+    "explanation_hi": "'Barely' sentence शुरू में आने पर auxiliary inversion होता है।",
+    "explanation_en": "Use auxiliary inversion when 'barely' starts a sentence.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The principal along with teachers were present.",
+    "correct": "The principal along with teachers was present.",
+    "explanation_hi": "'Along with' से verb पहले subject के अनुसार आती है।",
+    "explanation_en": "Verb agrees with the first subject; 'along with' does not change verb number.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "A pair of shoes are lying there.",
+    "correct": "A pair of shoes is lying there.",
+    "explanation_hi": "'A pair of' singular unit है; singular verb आती है।",
+    "explanation_en": "'A pair of' is singular; use singular verb.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The committee are divided on this issue.",
+    "correct": "The committee is divided on this issue.",
+    "explanation_hi": "एक unit के रूप में collective noun singular verb लेता है।",
+    "explanation_en": "When a collective noun acts as a single unit, use singular verb.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He suggested me to take rest.",
+    "correct": "He suggested that I should take rest.",
+    "explanation_hi": "'Suggest' के बाद 'that-clause' आता है; direct infinitive नहीं।",
+    "explanation_en": "Use 'suggest that + subject + should/verb'; not 'suggest someone to'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She requested him that he should help her.",
+    "correct": "She requested him to help her.",
+    "explanation_hi": "Request indirect speech में 'requested someone to + infinitive' बनती है।",
+    "explanation_en": "Use 'requested someone to + infinitive'; not 'that he should'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She is very much fond of singing.",
+    "correct": "She is very fond of singing.",
+    "explanation_hi": "'Very much' adjective के पहले नहीं आता; 'very' आता है।",
+    "explanation_en": "Use 'very' (not 'very much') before adjectives.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is working in this company since last year.",
+    "correct": "He has been working in this company since last year.",
+    "explanation_hi": "'Since' के साथ present perfect continuous tense आता है।",
+    "explanation_en": "Use present perfect continuous tense with 'since' for ongoing actions.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The boy who's father is a doctor lives here.",
+    "correct": "The boy whose father is a doctor lives here.",
+    "explanation_hi": "'Whose' possessive relative pronoun है; 'who's' = 'who is' — गलत है।",
+    "explanation_en": "'Whose' is the possessive relative pronoun; 'who's' means 'who is' and is incorrect here.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Between you and I, this is wrong.",
+    "correct": "Between you and me, this is wrong.",
+    "explanation_hi": "Preposition के बाद objective case (me) आता है।",
+    "explanation_en": "Use objective case after prepositions; 'between you and me'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She is the best of the two candidates.",
+    "correct": "She is the better of the two candidates.",
+    "explanation_hi": "दो के बीच तुलना में comparative degree आती है।",
+    "explanation_en": "Use comparative degree when comparing exactly two things.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  }
+]

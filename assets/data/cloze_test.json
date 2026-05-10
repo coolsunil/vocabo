@@ -1,0 +1,1575 @@
+[
+  {
+    "sentence": "She _____ the letter yesterday.",
+    "options": [
+      "write",
+      "wrote",
+      "written",
+      "writing"
+    ],
+    "answer": "wrote",
+    "explanation_hi": "'Yesterday' past time दर्शाता है; simple past tense चाहिए।",
+    "explanation_en": "'Yesterday' signals past time; use simple past tense 'wrote'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Neither of the boys _____ present in the class.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "have"
+    ],
+    "answer": "is",
+    "explanation_hi": "'Neither of' के साथ singular verb आती है।",
+    "explanation_en": "'Neither of' always takes a singular verb.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He has been living here _____ 2015.",
+    "options": [
+      "for",
+      "since",
+      "from",
+      "by"
+    ],
+    "answer": "since",
+    "explanation_hi": "Specific point in time (2015) के लिए 'since' प्रयोग होता है।",
+    "explanation_en": "Use 'since' for a specific point in time; 'for' is used for a duration.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The teacher advised me _____ harder.",
+    "options": [
+      "study",
+      "to study",
+      "studying",
+      "studied"
+    ],
+    "answer": "to study",
+    "explanation_hi": "'Advise' के बाद infinitive (to + verb) आता है।",
+    "explanation_en": "'Advise' is followed by infinitive; use 'to study'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The news _____ very shocking.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "have"
+    ],
+    "answer": "is",
+    "explanation_hi": "'News' uncountable singular noun है; singular verb लेता है।",
+    "explanation_en": "'News' is an uncountable noun and always takes a singular verb.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She is good _____ Mathematics.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "for"
+    ],
+    "answer": "at",
+    "explanation_hi": "Skills और subjects के लिए 'good at' प्रयोग होता है।",
+    "explanation_en": "Use 'good at' for skills and academic subjects.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "I look forward to _____ you.",
+    "options": [
+      "meet",
+      "met",
+      "meeting",
+      "meets"
+    ],
+    "answer": "meeting",
+    "explanation_hi": "'Look forward to' में 'to' preposition है; gerund (-ing) आता है।",
+    "explanation_en": "'To' in 'look forward to' is a preposition; use gerund after it.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Hardly had he reached the station _____ the train left.",
+    "options": [
+      "than",
+      "when",
+      "then",
+      "that"
+    ],
+    "answer": "when",
+    "explanation_hi": "'Hardly...when' सही pair है; 'than' नहीं।",
+    "explanation_en": "'Hardly' is paired with 'when', not 'than'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She prefers tea _____ coffee.",
+    "options": [
+      "than",
+      "to",
+      "from",
+      "over"
+    ],
+    "answer": "to",
+    "explanation_hi": "'Prefer' के साथ comparison में 'to' आता है।",
+    "explanation_en": "'Prefer' takes 'to' in comparisons, not 'than'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The child was punished _____ his mistake.",
+    "options": [
+      "of",
+      "with",
+      "for",
+      "by"
+    ],
+    "answer": "for",
+    "explanation_hi": "'Punished for' सही phrase है।",
+    "explanation_en": "The correct phrase is 'punished for'; the preposition is 'for'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Each of the students _____ a notebook.",
+    "options": [
+      "have",
+      "has",
+      "are",
+      "were"
+    ],
+    "answer": "has",
+    "explanation_hi": "'Each of' singular subject है; singular verb आती है।",
+    "explanation_en": "'Each of' always takes a singular verb.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He prevented me from _____ the room.",
+    "options": [
+      "enter",
+      "entered",
+      "entering",
+      "enters"
+    ],
+    "answer": "entering",
+    "explanation_hi": "'Prevent from' के बाद gerund (-ing form) आता है।",
+    "explanation_en": "Use gerund after 'prevent from'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The furniture _____ very expensive.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "have"
+    ],
+    "answer": "is",
+    "explanation_hi": "'Furniture' uncountable noun है; singular verb लेता है।",
+    "explanation_en": "'Furniture' is uncountable and takes a singular verb.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "No sooner did the bell ring _____ the students rushed out.",
+    "options": [
+      "when",
+      "than",
+      "then",
+      "that"
+    ],
+    "answer": "than",
+    "explanation_hi": "'No sooner...than' सही structure है; 'when' नहीं।",
+    "explanation_en": "'No sooner' is paired with 'than', not 'when'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He is addicted _____ smoking.",
+    "options": [
+      "with",
+      "for",
+      "to",
+      "on"
+    ],
+    "answer": "to",
+    "explanation_hi": "'Addicted to' सही phrase है।",
+    "explanation_en": "The correct phrase is 'addicted to'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The police _____ arrested the thief.",
+    "options": [
+      "has",
+      "is",
+      "have",
+      "was"
+    ],
+    "answer": "have",
+    "explanation_hi": "'Police' plural noun माना जाता है; plural verb लेता है।",
+    "explanation_en": "'Police' is treated as plural and takes plural verb.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He insisted _____ going there.",
+    "options": [
+      "to",
+      "on",
+      "for",
+      "at"
+    ],
+    "answer": "on",
+    "explanation_hi": "'Insist on + gerund' सही structure है।",
+    "explanation_en": "Use 'on' after 'insist'; 'insist on + gerund'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The train _____ before we reached the station.",
+    "options": [
+      "leave",
+      "left",
+      "had left",
+      "leaves"
+    ],
+    "answer": "had left",
+    "explanation_hi": "एक past action जो दूसरी से पहले हुई; past perfect चाहिए।",
+    "explanation_en": "Use past perfect for an action that happened before another past action.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She is capable _____ solving difficult problems.",
+    "options": [
+      "to",
+      "for",
+      "of",
+      "with"
+    ],
+    "answer": "of",
+    "explanation_hi": "'Capable of + gerund' सही structure है।",
+    "explanation_en": "Use 'of' after 'capable'; the correct phrase is 'capable of'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "One of my friends _____ preparing for UPSC.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "have"
+    ],
+    "answer": "is",
+    "explanation_hi": "Subject 'one' singular है; singular verb आती है।",
+    "explanation_en": "The subject is 'one' (singular); use singular verb 'is'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The river overflows _____ the rainy season.",
+    "options": [
+      "on",
+      "at",
+      "in",
+      "for"
+    ],
+    "answer": "in",
+    "explanation_hi": "Seasons के साथ 'in' प्रयोग होता है।",
+    "explanation_en": "Use 'in' with seasons.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The teacher congratulated me _____ my success.",
+    "options": [
+      "for",
+      "at",
+      "on",
+      "with"
+    ],
+    "answer": "on",
+    "explanation_hi": "'Congratulate on' सही phrase है।",
+    "explanation_en": "Use 'on' after 'congratulate'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He has no interest _____ politics.",
+    "options": [
+      "on",
+      "for",
+      "in",
+      "with"
+    ],
+    "answer": "in",
+    "explanation_hi": "'Interest in' सही phrase है।",
+    "explanation_en": "Use 'in' after 'interest'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She as well as her friends _____ present.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "have"
+    ],
+    "answer": "is",
+    "explanation_hi": "'As well as' के साथ verb पहले subject (she-singular) के अनुसार आती है।",
+    "explanation_en": "Verb agrees with the first subject 'she' (singular); 'as well as' does not affect agreement.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He accused the man _____ theft.",
+    "options": [
+      "for",
+      "with",
+      "of",
+      "to"
+    ],
+    "answer": "of",
+    "explanation_hi": "'Accuse of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'accuse'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Scarcely had he entered the room _____ everyone stood up.",
+    "options": [
+      "than",
+      "then",
+      "when",
+      "that"
+    ],
+    "answer": "when",
+    "explanation_hi": "'Scarcely...when' सही structure है।",
+    "explanation_en": "'Scarcely' is paired with 'when'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The teacher distributed sweets _____ the students.",
+    "options": [
+      "between",
+      "among",
+      "with",
+      "inside"
+    ],
+    "answer": "among",
+    "explanation_hi": "दो से अधिक व्यक्तियों के लिए 'among' प्रयोग होता है।",
+    "explanation_en": "Use 'among' for more than two people; 'between' is for exactly two.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The child is afraid _____ dogs.",
+    "options": [
+      "from",
+      "of",
+      "with",
+      "at"
+    ],
+    "answer": "of",
+    "explanation_hi": "'Afraid of' सही phrase है।",
+    "explanation_en": "Use 'of' after 'afraid'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He _____ to Delhi last week.",
+    "options": [
+      "go",
+      "goes",
+      "went",
+      "gone"
+    ],
+    "answer": "went",
+    "explanation_hi": "'Last week' definite past time है; simple past चाहिए।",
+    "explanation_en": "'Last week' is a definite past time; use simple past tense.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Neither Ram nor his friends _____ ready.",
+    "options": [
+      "was",
+      "is",
+      "were",
+      "has"
+    ],
+    "answer": "were",
+    "explanation_hi": "'Neither...nor' में verb nearest subject (friends-plural) के अनुसार आती है।",
+    "explanation_en": "With 'neither...nor', the verb agrees with the nearest subject 'friends' (plural).",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She is _____ university student.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "answer": "a",
+    "explanation_hi": "'University' consonant sound /j/ से शुरू होता है; 'a' प्रयोग होता है।",
+    "explanation_en": "'University' begins with consonant sound /j/; use 'a' not 'an'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He returned after _____ hour.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "answer": "an",
+    "explanation_hi": "'Hour' silent 'H' से शुरू होता है; vowel sound है; 'an' प्रयोग होता है।",
+    "explanation_en": "'Hour' has a silent 'H' and begins with a vowel sound; use 'an'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She plays _____ piano very well.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "answer": "the",
+    "explanation_hi": "Musical instruments के पहले 'the' आता है।",
+    "explanation_en": "Use 'the' before musical instruments.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "_____ sun rises in the east.",
+    "options": [
+      "A",
+      "An",
+      "The",
+      "No article"
+    ],
+    "answer": "The",
+    "explanation_hi": "Unique objects के पहले 'the' आता है।",
+    "explanation_en": "Use 'the' before unique objects like the sun, the moon.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He is _____ best player in the team.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "answer": "the",
+    "explanation_hi": "Superlative adjective के पहले 'the' आता है।",
+    "explanation_en": "Use 'the' before superlative adjectives.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She is _____ MA graduate from Delhi University.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "answer": "an",
+    "explanation_hi": "Abbreviation 'MA' vowel sound /em/ से शुरू होता है; 'an' आता है।",
+    "explanation_en": "Abbreviation 'MA' starts with vowel sound /em/; use 'an'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "_____ honesty is the best policy.",
+    "options": [
+      "A",
+      "An",
+      "The",
+      "No article"
+    ],
+    "answer": "No article",
+    "explanation_hi": "Abstract noun general sense में article नहीं लेता।",
+    "explanation_en": "Abstract nouns used in a general sense do not take an article.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He is _____ honest officer.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "answer": "an",
+    "explanation_hi": "'Honest' में 'H' silent है; vowel sound से शुरू होता है; 'an' आता है।",
+    "explanation_en": "'Honest' has a silent 'H' and starts with vowel sound; use 'an'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "You _____ attend the meeting; it is compulsory.",
+    "options": [
+      "can",
+      "should",
+      "might",
+      "would"
+    ],
+    "answer": "should",
+    "explanation_hi": "Compulsory moral obligation के लिए 'should' प्रयोग होता है।",
+    "explanation_en": "'Should' expresses moral obligation or strong recommendation.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She _____ have informed me earlier.",
+    "options": [
+      "should",
+      "must",
+      "can",
+      "will"
+    ],
+    "answer": "should",
+    "explanation_hi": "Past unfulfilled obligation के लिए 'should have + past participle' आता है।",
+    "explanation_en": "'Should have' expresses a past obligation that was not fulfilled.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He _____ speak five languages fluently.",
+    "options": [
+      "should",
+      "must",
+      "can",
+      "have"
+    ],
+    "answer": "can",
+    "explanation_hi": "Ability के लिए 'can' प्रयोग होता है।",
+    "explanation_en": "Use 'can' to express ability.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "You _____ not park here; it is strictly prohibited.",
+    "options": [
+      "should",
+      "must",
+      "can",
+      "might"
+    ],
+    "answer": "must",
+    "explanation_hi": "Strong prohibition के लिए 'must not' प्रयोग होता है।",
+    "explanation_en": "Use 'must not' for strong prohibition.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "It _____ rain today; the sky looks cloudy.",
+    "options": [
+      "must",
+      "should",
+      "might",
+      "will"
+    ],
+    "answer": "might",
+    "explanation_hi": "Possibility के लिए 'might' प्रयोग होता है।",
+    "explanation_en": "Use 'might' to express possibility.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "You _____ to attend the seminar as it is mandatory.",
+    "options": [
+      "ought",
+      "should",
+      "must",
+      "would"
+    ],
+    "answer": "ought",
+    "explanation_hi": "'Ought to' moral duty दर्शाता है।",
+    "explanation_en": "'Ought to' expresses duty or obligation.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She _____ rather stay home than go out in the rain.",
+    "options": [
+      "will",
+      "would",
+      "could",
+      "must"
+    ],
+    "answer": "would",
+    "explanation_hi": "'Would rather' preference दर्शाता है।",
+    "explanation_en": "Use 'would rather' to express preference.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "I _____ him since we were at school together.",
+    "options": [
+      "know",
+      "knew",
+      "have known",
+      "had known"
+    ],
+    "answer": "have known",
+    "explanation_hi": "'Since' के साथ present perfect tense आता है।",
+    "explanation_en": "Use present perfect with 'since' for actions starting in the past and continuing now.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "By the time she arrives, I _____ the report.",
+    "options": [
+      "finish",
+      "finished",
+      "will finish",
+      "will have finished"
+    ],
+    "answer": "will have finished",
+    "explanation_hi": "'By the time' future के साथ future perfect चाहिए।",
+    "explanation_en": "Use future perfect ('will have finished') with 'by the time' for future completion.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She _____ three novels before she turned thirty.",
+    "options": [
+      "writes",
+      "wrote",
+      "has written",
+      "had written"
+    ],
+    "answer": "had written",
+    "explanation_hi": "Past moment से पहले completed action के लिए past perfect चाहिए।",
+    "explanation_en": "Use past perfect for an action completed before a specific past time.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "When I _____ home, I will call you.",
+    "options": [
+      "reach",
+      "will reach",
+      "reached",
+      "have reached"
+    ],
+    "answer": "reach",
+    "explanation_hi": "Time clause में simple present आता है; 'will' नहीं।",
+    "explanation_en": "Use simple present (not 'will') in time clauses with 'when'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He _____ for the exam since morning.",
+    "options": [
+      "prepares",
+      "prepared",
+      "has been preparing",
+      "had prepared"
+    ],
+    "answer": "has been preparing",
+    "explanation_hi": "'Since morning' के साथ present perfect continuous चाहिए।",
+    "explanation_en": "Use present perfect continuous with 'since' for ongoing actions.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "I _____ her two days ago at the market.",
+    "options": [
+      "see",
+      "have seen",
+      "saw",
+      "had seen"
+    ],
+    "answer": "saw",
+    "explanation_hi": "'Two days ago' definite past time है; simple past चाहिए।",
+    "explanation_en": "Use simple past with definite past time expressions like 'ago'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She said that she _____ tired.",
+    "options": [
+      "is",
+      "was",
+      "has been",
+      "were"
+    ],
+    "answer": "was",
+    "explanation_hi": "Past reporting verb के साथ tense back-shift होता है (is → was)।",
+    "explanation_en": "When the reporting verb is past, shift the tense back (is → was).",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He asked me where _____ going.",
+    "options": [
+      "was I",
+      "I was",
+      "am I",
+      "I am"
+    ],
+    "answer": "I was",
+    "explanation_hi": "Indirect question में statement word order (subject + verb) आता है।",
+    "explanation_en": "In indirect speech, use statement word order (I was), not question word order.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She told me that she _____ come the next day.",
+    "options": [
+      "will",
+      "would",
+      "can",
+      "could"
+    ],
+    "answer": "would",
+    "explanation_hi": "Past reporting verb के साथ 'will' → 'would' बदलता है।",
+    "explanation_en": "In reported speech with past reporting verb, 'will' becomes 'would'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He said that he _____ finished his work.",
+    "options": [
+      "has",
+      "had",
+      "have",
+      "is"
+    ],
+    "answer": "had",
+    "explanation_hi": "Past reporting के साथ present perfect → past perfect बदलता है।",
+    "explanation_en": "In reported speech, present perfect ('has finished') becomes past perfect ('had finished').",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The teacher told the students _____ their books.",
+    "options": [
+      "open",
+      "to open",
+      "opening",
+      "opened"
+    ],
+    "answer": "to open",
+    "explanation_hi": "Reported command में 'told someone to + infinitive' structure आता है।",
+    "explanation_en": "Use 'told someone to + infinitive' for reported commands.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The letter _____ by the manager this morning.",
+    "options": [
+      "wrote",
+      "is written",
+      "was written",
+      "had written"
+    ],
+    "answer": "was written",
+    "explanation_hi": "Past passive voice में 'was/were + past participle' आता है।",
+    "explanation_en": "Past passive: 'was/were + past participle'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The bridge _____ currently by the engineers.",
+    "options": [
+      "is repairing",
+      "is being repaired",
+      "repaired",
+      "has repaired"
+    ],
+    "answer": "is being repaired",
+    "explanation_hi": "Present continuous passive में 'is/are being + past participle' आता है।",
+    "explanation_en": "Present continuous passive: 'is/are being + past participle'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "A new hospital _____ in our town next year.",
+    "options": [
+      "will build",
+      "will be built",
+      "is building",
+      "built"
+    ],
+    "answer": "will be built",
+    "explanation_hi": "Future passive में 'will be + past participle' आता है।",
+    "explanation_en": "Future passive: 'will be + past participle'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The thief _____ by the police last night.",
+    "options": [
+      "caught",
+      "was caught",
+      "has caught",
+      "is caught"
+    ],
+    "answer": "was caught",
+    "explanation_hi": "Definite past time (last night) के साथ simple past passive चाहिए।",
+    "explanation_en": "Use simple past passive with definite past time expressions.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The results _____ tomorrow.",
+    "options": [
+      "will announce",
+      "will be announced",
+      "are announcing",
+      "announced"
+    ],
+    "answer": "will be announced",
+    "explanation_hi": "Future passive: 'will be + past participle'।",
+    "explanation_en": "Future passive: 'will be + past participle'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "If it _____, we will cancel the match.",
+    "options": [
+      "rains",
+      "will rain",
+      "rained",
+      "would rain"
+    ],
+    "answer": "rains",
+    "explanation_hi": "Type 1 conditional में 'if clause' में simple present आता है।",
+    "explanation_en": "In Type 1 conditional, use simple present in the 'if-clause'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "If I _____ rich, I would travel the world.",
+    "options": [
+      "am",
+      "will be",
+      "were",
+      "had been"
+    ],
+    "answer": "were",
+    "explanation_hi": "Type 2 conditional में 'if clause' में simple past (were) आता है।",
+    "explanation_en": "In Type 2 conditional, use simple past (were) in the 'if-clause'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "If he had studied harder, he _____ the exam.",
+    "options": [
+      "passes",
+      "would pass",
+      "would have passed",
+      "had passed"
+    ],
+    "answer": "would have passed",
+    "explanation_hi": "Type 3 conditional में main clause में 'would have + past participle' आता है।",
+    "explanation_en": "In Type 3 conditional, use 'would have + past participle' in the main clause.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Unless you _____ harder, you will not succeed.",
+    "options": [
+      "work",
+      "will work",
+      "worked",
+      "working"
+    ],
+    "answer": "work",
+    "explanation_hi": "'Unless' clause में simple present आता है।",
+    "explanation_en": "Use simple present in an 'unless' clause.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "I wish I _____ more time to prepare.",
+    "options": [
+      "have",
+      "had",
+      "will have",
+      "would have"
+    ],
+    "answer": "had",
+    "explanation_hi": "'Wish' के बाद unreal situation में simple past (had) आता है।",
+    "explanation_en": "Use simple past after 'wish' for unreal present situations.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He talks as if he _____ everything.",
+    "options": [
+      "knows",
+      "knew",
+      "had known",
+      "would know"
+    ],
+    "answer": "knew",
+    "explanation_hi": "'As if' के साथ unreal condition में simple past आता है।",
+    "explanation_en": "Use simple past after 'as if' for imaginary situations.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "_____ he was tired, he continued working.",
+    "options": [
+      "Although",
+      "But",
+      "However",
+      "Despite"
+    ],
+    "answer": "Although",
+    "explanation_hi": "Contrast clause में 'although' (subordinating conjunction) आता है।",
+    "explanation_en": "Use 'although' to introduce a contrast clause (not 'but' with 'although').",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He is rich, _____ he is not happy.",
+    "options": [
+      "although",
+      "yet",
+      "but",
+      "and"
+    ],
+    "answer": "yet",
+    "explanation_hi": "Contrast दिखाने के लिए 'yet' (conjunction) प्रयोग होता है।",
+    "explanation_en": "'Yet' as a conjunction expresses contrast; it is similar to 'but'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "_____ she tried her best, she could not pass.",
+    "options": [
+      "Although",
+      "Because",
+      "Since",
+      "So"
+    ],
+    "answer": "Although",
+    "explanation_hi": "Contrast clause में 'although' आता है।",
+    "explanation_en": "Use 'although' to contrast two clauses.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He worked hard; _____, he failed the exam.",
+    "options": [
+      "therefore",
+      "however",
+      "moreover",
+      "furthermore"
+    ],
+    "answer": "however",
+    "explanation_hi": "Contrast दिखाने के लिए 'however' (conjunctive adverb) आता है।",
+    "explanation_en": "Use 'however' to show contrast between two independent clauses.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She is not only intelligent _____ also very hardworking.",
+    "options": [
+      "but",
+      "and",
+      "or",
+      "yet"
+    ],
+    "answer": "but",
+    "explanation_hi": "'Not only...but also' सही pair है।",
+    "explanation_en": "'Not only' is always paired with 'but also'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "_____ he left, the party ended.",
+    "options": [
+      "When",
+      "Although",
+      "Unless",
+      "Despite"
+    ],
+    "answer": "When",
+    "explanation_hi": "Time clause में 'when' subordinating conjunction आता है।",
+    "explanation_en": "Use 'when' to introduce a time clause.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She is _____ of the two sisters.",
+    "options": [
+      "the tallest",
+      "tallest",
+      "the taller",
+      "taller"
+    ],
+    "answer": "the taller",
+    "explanation_hi": "दो के बीच तुलना में 'the + comparative' आता है।",
+    "explanation_en": "Use 'the + comparative' when comparing exactly two things.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He is the _____ student in the class.",
+    "options": [
+      "intelligent",
+      "more intelligent",
+      "most intelligent",
+      "much intelligent"
+    ],
+    "answer": "most intelligent",
+    "explanation_hi": "Group में सर्वश्रेष्ठ के लिए superlative degree आती है।",
+    "explanation_en": "Use superlative degree for the highest degree within a group.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Iron is _____ than any other metal in daily use.",
+    "options": [
+      "useful",
+      "more useful",
+      "most useful",
+      "much useful"
+    ],
+    "answer": "more useful",
+    "explanation_hi": "Two items (iron और other metals) के बीच comparative degree आती है।",
+    "explanation_en": "Use comparative degree ('more useful') when comparing two entities.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "This is the _____ day of my life.",
+    "options": [
+      "happy",
+      "happier",
+      "happiest",
+      "most happy"
+    ],
+    "answer": "happiest",
+    "explanation_hi": "Superlative degree के लिए '-est' form या 'most' आता है।",
+    "explanation_en": "Use superlative 'happiest' for the highest degree.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The _____ you work, the better the results.",
+    "options": [
+      "harder",
+      "hardest",
+      "hard",
+      "more hard"
+    ],
+    "answer": "harder",
+    "explanation_hi": "'The + comparative, the + comparative' structure में comparative form आती है।",
+    "explanation_en": "Use comparative form in 'the...the' parallel structure.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She sings very _____.",
+    "options": [
+      "beautiful",
+      "beautify",
+      "beautifully",
+      "beauty"
+    ],
+    "answer": "beautifully",
+    "explanation_hi": "Verb (sings) को modify करने के लिए adverb (-ly form) चाहिए।",
+    "explanation_en": "Use adverb 'beautifully' to modify the verb 'sings'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "I feel _____ about missing the event.",
+    "options": [
+      "badly",
+      "bad",
+      "worse",
+      "worst"
+    ],
+    "answer": "bad",
+    "explanation_hi": "Linking verb 'feel' के बाद adjective आता है, adverb नहीं।",
+    "explanation_en": "Use adjective 'bad' after linking verb 'feel', not adverb 'badly'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He drives very _____.",
+    "options": [
+      "careful",
+      "care",
+      "carefully",
+      "caring"
+    ],
+    "answer": "carefully",
+    "explanation_hi": "Verb (drives) को modify करने के लिए adverb (-ly form) चाहिए।",
+    "explanation_en": "Use adverb 'carefully' to modify the verb 'drives'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The results were _____.",
+    "options": [
+      "surprised",
+      "surprise",
+      "surprisingly",
+      "surprising"
+    ],
+    "answer": "surprising",
+    "explanation_hi": "Noun (results) को modify करने के लिए adjective चाहिए।",
+    "explanation_en": "Use adjective 'surprising' to describe the noun 'results'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She looked _____ at the broken window.",
+    "options": [
+      "sad",
+      "sadly",
+      "sadness",
+      "more sad"
+    ],
+    "answer": "sadly",
+    "explanation_hi": "'Looked' यहाँ action verb है; adverb आएगा।",
+    "explanation_en": "Here 'looked' is an action verb (not a linking verb); use adverb 'sadly'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "There are _____ students absent today.",
+    "options": [
+      "less",
+      "few",
+      "little",
+      "much"
+    ],
+    "answer": "few",
+    "explanation_hi": "Countable noun (students) के साथ 'few' प्रयोग होता है।",
+    "explanation_en": "Use 'few' with countable nouns; 'little' is for uncountable nouns.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He has _____ patience for careless mistakes.",
+    "options": [
+      "few",
+      "many",
+      "little",
+      "less"
+    ],
+    "answer": "little",
+    "explanation_hi": "Uncountable noun (patience) के साथ 'little' प्रयोग होता है।",
+    "explanation_en": "Use 'little' with uncountable nouns; 'few' is for countable nouns.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "There is _____ water left in the tank.",
+    "options": [
+      "few",
+      "many",
+      "little",
+      "fewer"
+    ],
+    "answer": "little",
+    "explanation_hi": "Uncountable noun (water) के साथ 'little' प्रयोग होता है।",
+    "explanation_en": "Use 'little' with uncountable nouns like 'water'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "_____ students passed the examination this year.",
+    "options": [
+      "Much",
+      "A little",
+      "Fewer",
+      "Less"
+    ],
+    "answer": "Fewer",
+    "explanation_hi": "Countable noun (students) के साथ 'fewer' प्रयोग होता है।",
+    "explanation_en": "Use 'fewer' with countable nouns; 'less' is for uncountable nouns.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He has _____ time to complete the project.",
+    "options": [
+      "few",
+      "many",
+      "little",
+      "fewer"
+    ],
+    "answer": "little",
+    "explanation_hi": "Uncountable noun (time) के साथ 'little' प्रयोग होता है।",
+    "explanation_en": "Use 'little' with uncountable 'time'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She has _____ friends in the new city.",
+    "options": [
+      "little",
+      "much",
+      "few",
+      "less"
+    ],
+    "answer": "few",
+    "explanation_hi": "Countable noun (friends) के साथ 'few' प्रयोग होता है।",
+    "explanation_en": "Use 'few' with countable 'friends'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She is a doctor, _____?",
+    "options": [
+      "is she",
+      "isn't she",
+      "isn't it",
+      "does she"
+    ],
+    "answer": "isn't she",
+    "explanation_hi": "Positive statement के बाद negative tag आता है; subject 'she' match होना चाहिए।",
+    "explanation_en": "Positive statement takes negative tag; pronoun must match the subject.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He cannot swim, _____?",
+    "options": [
+      "can he",
+      "cannot he",
+      "can't he",
+      "does he"
+    ],
+    "answer": "can he",
+    "explanation_hi": "Negative statement के बाद positive tag आता है।",
+    "explanation_en": "Negative statement takes a positive tag.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Let us go for a walk, _____?",
+    "options": [
+      "will we",
+      "shall we",
+      "do we",
+      "won't we"
+    ],
+    "answer": "shall we",
+    "explanation_hi": "'Let us' (suggestion) के साथ 'shall we?' tag आता है।",
+    "explanation_en": "Use 'shall we?' as the tag for suggestions starting with 'let us'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Nobody called while I was away, _____?",
+    "options": [
+      "did he",
+      "didn't they",
+      "did they",
+      "does he"
+    ],
+    "answer": "did they",
+    "explanation_hi": "Negative indefinite pronoun (nobody) के साथ plural tag 'they' आता है।",
+    "explanation_en": "Use plural 'they' in the tag when the subject is 'nobody'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He used to live here, _____?",
+    "options": [
+      "used he not",
+      "did he",
+      "didn't he",
+      "doesn't he"
+    ],
+    "answer": "didn't he",
+    "explanation_hi": "'Used to' के साथ question tag 'didn't he?' आता है।",
+    "explanation_en": "Use 'didn't he?' as the question tag for 'used to' structures.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She likes singing, dancing and _____.",
+    "options": [
+      "to read",
+      "reads",
+      "read",
+      "reading"
+    ],
+    "answer": "reading",
+    "explanation_hi": "Parallel structure में सभी elements same form में होने चाहिए (gerunds)।",
+    "explanation_en": "Maintain parallel structure; use gerund 'reading' to match 'singing' and 'dancing'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He made me _____ for two hours.",
+    "options": [
+      "to wait",
+      "waited",
+      "waiting",
+      "wait"
+    ],
+    "answer": "wait",
+    "explanation_hi": "Causative verb 'make' के बाद bare infinitive (to के बिना) आता है।",
+    "explanation_en": "Use bare infinitive (without 'to') after causative 'make'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The teacher let the students _____ early.",
+    "options": [
+      "leave",
+      "to leave",
+      "leaving",
+      "left"
+    ],
+    "answer": "leave",
+    "explanation_hi": "Causative verb 'let' के बाद bare infinitive आता है।",
+    "explanation_en": "Use bare infinitive after causative 'let'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She had her hair _____ at the salon.",
+    "options": [
+      "cut",
+      "to cut",
+      "cutting",
+      "cuts"
+    ],
+    "answer": "cut",
+    "explanation_hi": "Causative 'have' structure में 'have + object + past participle' आता है।",
+    "explanation_en": "Use past participle in causative 'have + object + past participle'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The scientist made a remarkable _____ that changed medicine.",
+    "options": [
+      "invention",
+      "discovery",
+      "creation",
+      "experiment"
+    ],
+    "answer": "discovery",
+    "explanation_hi": "'Discovery' = खोज (पहले से मौजूद चीज़ ढूँढना); 'invention' = आविष्कार (नई चीज़ बनाना)।",
+    "explanation_en": "'Discovery' means finding something that already existed; 'invention' means creating something new.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He was _____ from the competition for breaking the rules.",
+    "options": [
+      "eliminated",
+      "excluded",
+      "disqualified",
+      "expelled"
+    ],
+    "answer": "disqualified",
+    "explanation_hi": "Competition से हटाने के लिए 'disqualified' सही शब्द है।",
+    "explanation_en": "'Disqualified' means officially removed from a competition for rule violation.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The minister's speech was full of _____ remarks about his opponents.",
+    "options": [
+      "derogatory",
+      "complimentary",
+      "appreciative",
+      "honorary"
+    ],
+    "answer": "derogatory",
+    "explanation_hi": "'Derogatory' = अपमानजनक; negative remarks के लिए सही है।",
+    "explanation_en": "'Derogatory' means showing a disrespectful attitude; it is the correct word for negative remarks.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The new policy will _____ economic growth in the country.",
+    "options": [
+      "hinder",
+      "accelerate",
+      "diminish",
+      "reduce"
+    ],
+    "answer": "accelerate",
+    "explanation_hi": "'Accelerate' = गति देना; growth बढ़ाने के लिए सही है।",
+    "explanation_en": "'Accelerate' means to speed up or promote; correct for boosting economic growth.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Her _____ attitude towards critics impressed everyone.",
+    "options": [
+      "indifferent",
+      "hostile",
+      "magnanimous",
+      "aggressive"
+    ],
+    "answer": "magnanimous",
+    "explanation_hi": "'Magnanimous' = उदार; critics के प्रति उदार रवैया।",
+    "explanation_en": "'Magnanimous' means generous and forgiving, especially towards rivals.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He is suffering _____ a severe cold.",
+    "options": [
+      "with",
+      "from",
+      "by",
+      "at"
+    ],
+    "answer": "from",
+    "explanation_hi": "'Suffer from' सही phrase है।",
+    "explanation_en": "The correct phrase is 'suffer from' for illness.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The manager is responsible _____ all operations.",
+    "options": [
+      "of",
+      "for",
+      "with",
+      "to"
+    ],
+    "answer": "for",
+    "explanation_hi": "'Responsible for' सही phrase है।",
+    "explanation_en": "Use 'for' after 'responsible'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She is devoted _____ her work.",
+    "options": [
+      "for",
+      "with",
+      "to",
+      "at"
+    ],
+    "answer": "to",
+    "explanation_hi": "'Devoted to' सही phrase है।",
+    "explanation_en": "Use 'to' after 'devoted'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He is superior _____ all his colleagues in writing.",
+    "options": [
+      "than",
+      "to",
+      "from",
+      "over"
+    ],
+    "answer": "to",
+    "explanation_hi": "Latin-origin 'superior' के साथ 'to' आता है।",
+    "explanation_en": "Latin-origin comparatives take 'to', not 'than'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The officer complied _____ all the regulations.",
+    "options": [
+      "to",
+      "with",
+      "for",
+      "on"
+    ],
+    "answer": "with",
+    "explanation_hi": "'Comply with' सही phrase है।",
+    "explanation_en": "Use 'with' after 'comply'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She congratulated him _____ winning the prize.",
+    "options": [
+      "for",
+      "on",
+      "at",
+      "with"
+    ],
+    "answer": "on",
+    "explanation_hi": "'Congratulate on' सही phrase है।",
+    "explanation_en": "Use 'on' after 'congratulate'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He has been absent _____ last Monday.",
+    "options": [
+      "for",
+      "from",
+      "since",
+      "by"
+    ],
+    "answer": "since",
+    "explanation_hi": "Specific point in time के लिए 'since' प्रयोग होता है।",
+    "explanation_en": "Use 'since' for a specific point in time.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She apologized _____ me for the delay.",
+    "options": [
+      "for",
+      "to",
+      "with",
+      "at"
+    ],
+    "answer": "to",
+    "explanation_hi": "'Apologize to someone' सही structure है।",
+    "explanation_en": "Use 'to' after 'apologize'; 'apologize to someone for something'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "A number of students _____ absent today.",
+    "options": [
+      "is",
+      "was",
+      "are",
+      "has"
+    ],
+    "answer": "are",
+    "explanation_hi": "'A number of' plural माना जाता है; plural verb आती है।",
+    "explanation_en": "'A number of' is treated as plural and takes a plural verb.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The number of accidents _____ decreased this year.",
+    "options": [
+      "have",
+      "are",
+      "has",
+      "were"
+    ],
+    "answer": "has",
+    "explanation_hi": "'The number of' singular माना जाता है; singular verb आती है।",
+    "explanation_en": "'The number of' is treated as singular and takes a singular verb.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Mathematics as well as Physics _____ difficult subjects.",
+    "options": [
+      "are",
+      "is",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation_hi": "'As well as' के साथ verb पहले subject (Mathematics-singular) के अनुसार आती है।",
+    "explanation_en": "Verb agrees with the first subject; 'Mathematics' is singular.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The committee _____ divided on the issue.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "have"
+    ],
+    "answer": "is",
+    "explanation_hi": "एक unit के रूप में collective noun singular verb लेता है।",
+    "explanation_en": "When a collective noun acts as a unit, use a singular verb.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Five thousand rupees _____ a large amount for the family.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "have"
+    ],
+    "answer": "is",
+    "explanation_hi": "Sum of money singular माना जाता है।",
+    "explanation_en": "A sum of money is treated as singular.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Either of the two candidates _____ eligible.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "have"
+    ],
+    "answer": "is",
+    "explanation_hi": "'Either of' singular subject है; singular verb आती है।",
+    "explanation_en": "'Either of' always takes a singular verb.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Please _____ the letter carefully.",
+    "options": [
+      "revert back",
+      "revert",
+      "return back",
+      "go back"
+    ],
+    "answer": "revert",
+    "explanation_hi": "'Revert' में already वापस आने का अर्थ है; 'back' अनावश्यक है।",
+    "explanation_en": "'Revert' already means to go back; 'back' is redundant.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "I _____ know anything about it.",
+    "options": [
+      "don't",
+      "doesn't",
+      "didn't",
+      "do not"
+    ],
+    "answer": "do not",
+    "explanation_hi": "Double negative से बचना चाहिए।",
+    "explanation_en": "Avoid double negatives; 'do not know anything' is correct.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He is absolutely _____.",
+    "options": [
+      "unique",
+      "most unique",
+      "very unique",
+      "more unique"
+    ],
+    "answer": "unique",
+    "explanation_hi": "'Unique' absolute adjective है; इसे modify नहीं किया जा सकता।",
+    "explanation_en": "'Unique' is an absolute adjective and cannot be graded or modified.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She repeated _____ the same mistake.",
+    "options": [
+      "again",
+      "back",
+      "once more",
+      "the"
+    ],
+    "answer": "the",
+    "explanation_hi": "'Repeat' में already once more का अर्थ है; 'again' अनावश्यक है।",
+    "explanation_en": "'Repeat' already implies doing something again; 'again' is redundant.",
+    "category": "cloze_test"
+  }
+]
