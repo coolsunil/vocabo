@@ -5,6 +5,7 @@ class FixedPrepositionCard extends StatelessWidget {
   final Word word;
   final bool isBookmarked;
   final VoidCallback onBookmarkToggle;
+  final VoidCallback onShare;
   final int index;
   final int total;
 
@@ -13,6 +14,7 @@ class FixedPrepositionCard extends StatelessWidget {
     required this.word,
     required this.isBookmarked,
     required this.onBookmarkToggle,
+    required this.onShare,
     required this.index,
     required this.total,
   });
@@ -53,15 +55,21 @@ class FixedPrepositionCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Align(
-            alignment: Alignment.topRight,
-            child: IconButton(
-              icon: Icon(
-                isBookmarked ? Icons.bookmark : Icons.bookmark_border,
-                color: _accent,
+          Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              IconButton(
+                icon: Icon(Icons.share_rounded, color: _accent),
+                onPressed: onShare,
               ),
-              onPressed: onBookmarkToggle,
-            ),
+              IconButton(
+                icon: Icon(
+                  isBookmarked ? Icons.bookmark : Icons.bookmark_border,
+                  color: _accent,
+                ),
+                onPressed: onBookmarkToggle,
+              ),
+            ],
           ),
           const SizedBox(height: 8),
 

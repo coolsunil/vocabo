@@ -6,6 +6,7 @@ class ConfusingCard extends StatelessWidget {
   final Word? pairWord;
   final bool isBookmarked;
   final VoidCallback onBookmarkToggle;
+  final VoidCallback onShare;
   final int index;
   final int total;
 
@@ -15,6 +16,7 @@ class ConfusingCard extends StatelessWidget {
     required this.pairWord,
     required this.isBookmarked,
     required this.onBookmarkToggle,
+    required this.onShare,
     required this.index,
     required this.total,
   });
@@ -28,15 +30,21 @@ class ConfusingCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Align(
-            alignment: Alignment.topRight,
-            child: IconButton(
-              icon: Icon(
-                isBookmarked ? Icons.bookmark : Icons.bookmark_border,
-                color: const Color(0xFF1F3C6D),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              IconButton(
+                icon: const Icon(Icons.share_rounded, color: Color(0xFF1F3C6D)),
+                onPressed: onShare,
               ),
-              onPressed: onBookmarkToggle,
-            ),
+              IconButton(
+                icon: Icon(
+                  isBookmarked ? Icons.bookmark : Icons.bookmark_border,
+                  color: const Color(0xFF1F3C6D),
+                ),
+                onPressed: onBookmarkToggle,
+              ),
+            ],
           ),
           Text(
             pairWord == null ? word.word : '${word.word}  vs  ${pairWord!.word}',

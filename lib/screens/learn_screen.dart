@@ -1,6 +1,10 @@
 import 'dart:convert';
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:screenshot/screenshot.dart';
+import 'package:share_plus/share_plus.dart';
 
 import '../data/bookmark_store.dart';
 import '../data/category_sources.dart';
@@ -46,6 +50,8 @@ class _LearnScreenState extends State<LearnScreen> {
     'sentence_improvement': 'Sentence Improvement',
     'cloze_test': 'Cloze Test',
   };
+
+  final ScreenshotController _screenshotController = ScreenshotController();
 
   int currentIndex = 0;
   bool isLoading = true;
@@ -170,6 +176,34 @@ class _LearnScreenState extends State<LearnScreen> {
         ],
       ),
     );
+  }
+
+  Future<void> _shareCurrentCard() async {
+    if (words.isEmpty) return;
+    final word = words[currentIndex];
+    final category = _learnTitles[widget.category] ?? widget.category;
+
+    try {
+      final imageBytes = await _screenshotController.captureFromWidget(
+        _ShareCard(word: word, category: category),
+        pixelRatio: 3.0,
+        context: context,
+      );
+
+      final dir = await getTemporaryDirectory();
+      final file = File('${dir.path}/vocabo_word.png');
+      await file.writeAsBytes(imageBytes);
+
+      await Share.shareXFiles(
+        [XFile(file.path)],
+        text: 'Check out this word I learned on Vocabo! 📚',
+      );
+    } catch (_) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Could not share. Please try again.')),
+      );
+    }
   }
 
   void _updateProgress() {
@@ -385,20 +419,23 @@ class _LearnScreenState extends State<LearnScreen> {
   }
 
   Widget _buildCard(Word word) {
+    final isBookmarked = bookmarkedIndices.contains(currentIndex);
     switch (widget.category) {
       case 'synonyms':
         return SynonymCard(
           word: word,
-          isBookmarked: bookmarkedIndices.contains(currentIndex),
+          isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
+          onShare: _shareCurrentCard,
           index: currentIndex + 1,
           total: words.length,
         );
       case 'idioms':
         return IdiomCard(
           word: word,
-          isBookmarked: bookmarkedIndices.contains(currentIndex),
+          isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
+          onShare: _shareCurrentCard,
           index: currentIndex + 1,
           total: words.length,
         );
@@ -407,64 +444,72 @@ class _LearnScreenState extends State<LearnScreen> {
         return ConfusingCard(
           word: word,
           pairWord: pairWord,
-          isBookmarked: bookmarkedIndices.contains(currentIndex),
+          isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
+          onShare: _shareCurrentCard,
           index: currentIndex + 1,
           total: words.length,
         );
       case 'oneword':
         return OneWordCard(
           word: word,
-          isBookmarked: bookmarkedIndices.contains(currentIndex),
+          isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
+          onShare: _shareCurrentCard,
           index: currentIndex + 1,
           total: words.length,
         );
       case 'fixed_prepositions':
         return FixedPrepositionCard(
           word: word,
-          isBookmarked: bookmarkedIndices.contains(currentIndex),
+          isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
+          onShare: _shareCurrentCard,
           index: currentIndex + 1,
           total: words.length,
         );
       case 'common_errors':
         return CommonErrorCard(
           word: word,
-          isBookmarked: bookmarkedIndices.contains(currentIndex),
+          isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
+          onShare: _shareCurrentCard,
           index: currentIndex + 1,
           total: words.length,
         );
       case 'spellings':
         return SpellingCard(
           word: word,
-          isBookmarked: bookmarkedIndices.contains(currentIndex),
+          isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
+          onShare: _shareCurrentCard,
           index: currentIndex + 1,
           total: words.length,
         );
       case 'sentence_improvement':
         return SentenceImprovementCard(
           word: word,
-          isBookmarked: bookmarkedIndices.contains(currentIndex),
+          isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
+          onShare: _shareCurrentCard,
           index: currentIndex + 1,
           total: words.length,
         );
       case 'cloze_test':
         return ClozeTestCard(
           word: word,
-          isBookmarked: bookmarkedIndices.contains(currentIndex),
+          isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
+          onShare: _shareCurrentCard,
           index: currentIndex + 1,
           total: words.length,
         );
       default:
         return CoreCard(
           word: word,
-          isBookmarked: bookmarkedIndices.contains(currentIndex),
+          isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
+          onShare: _shareCurrentCard,
           index: currentIndex + 1,
           total: words.length,
         );
@@ -480,5 +525,115 @@ class _LearnScreenState extends State<LearnScreen> {
       }
     }
     return null;
+  }
+}
+
+class _ShareCard extends StatelessWidget {
+  final Word word;
+  final String category;
+
+  const _ShareCard({required this.word, required this.category});
+
+  @override
+  Widget build(BuildContext context) {
+    final meaning = word.meaningEn.isNotEmpty ? word.meaningEn : word.meaningHi;
+
+    return Material(
+      color: Colors.transparent,
+      child: Container(
+        width: 400,
+        padding: const EdgeInsets.all(28),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(24),
+        ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+              decoration: BoxDecoration(
+                color: const Color(0xFF1F3C6D),
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: Text(
+                category,
+                style: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 12,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ),
+            const SizedBox(height: 20),
+            Text(
+              word.word,
+              style: const TextStyle(
+                fontSize: 32,
+                fontWeight: FontWeight.w800,
+                color: Color(0xFF0F172A),
+                height: 1.1,
+              ),
+            ),
+            const SizedBox(height: 14),
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.all(16),
+              decoration: BoxDecoration(
+                color: const Color(0xFFF1F5F9),
+                borderRadius: BorderRadius.circular(14),
+              ),
+              child: Text(
+                meaning,
+                style: const TextStyle(
+                  fontSize: 15,
+                  color: Color(0xFF334155),
+                  height: 1.5,
+                ),
+              ),
+            ),
+            if (word.example.isNotEmpty) ...[
+              const SizedBox(height: 12),
+              Text(
+                '"${word.example}"',
+                style: const TextStyle(
+                  fontSize: 13,
+                  color: Color(0xFF64748B),
+                  fontStyle: FontStyle.italic,
+                  height: 1.5,
+                ),
+              ),
+            ],
+            const SizedBox(height: 20),
+            const Divider(color: Color(0xFFE2E8F0)),
+            const SizedBox(height: 12),
+            Row(
+              children: [
+                const Icon(Icons.menu_book_rounded,
+                    color: Color(0xFF1F3C6D), size: 18),
+                const SizedBox(width: 6),
+                const Text(
+                  'Vocabo',
+                  style: TextStyle(
+                    color: Color(0xFF1F3C6D),
+                    fontWeight: FontWeight.w800,
+                    fontSize: 15,
+                  ),
+                ),
+                const Spacer(),
+                const Text(
+                  'Build your vocabulary every day',
+                  style: TextStyle(
+                    color: Color(0xFF94A3B8),
+                    fontSize: 11,
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
