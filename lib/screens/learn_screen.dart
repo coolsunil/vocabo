@@ -1,8 +1,10 @@
 import 'dart:convert';
 import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:screenshot/screenshot.dart';
 import 'package:share_plus/share_plus.dart';
 
@@ -24,14 +26,16 @@ import '../widgets/cards/synonym_card.dart';
 
 class LearnScreen extends StatefulWidget {
   final String category;
+  final int? initialIndex;
 
-  const LearnScreen({super.key, required this.category});
+  const LearnScreen({super.key, required this.category, this.initialIndex});
 
   @override
   State<LearnScreen> createState() => _LearnScreenState();
 }
 
-class _LearnScreenState extends State<LearnScreen> {
+class _LearnScreenState extends State<LearnScreen>
+    with SingleTickerProviderStateMixin {
   static const Map<String, String> _learnTitles = {
     'core': 'Core Words',
     'synonyms': 'Synonyms & Antonyms',
@@ -58,10 +62,169 @@ class _LearnScreenState extends State<LearnScreen> {
   List<Word> words = [];
   Set<int> bookmarkedIndices = {};
 
+  double _dragOffset = 0.0;
+  bool _isThrowing = false;
+  bool _isSnapBack = false;
+  bool _throwForward = true;
+  int? _throwingToIndex;
+  bool _completionShown = false;
+
+  late final AnimationController _throwController;
+  late Animation<double> _throwAnim;
+
   @override
   void initState() {
     super.initState();
+    _throwController = AnimationController(vsync: this);
+    _throwAnim = Tween<double>(begin: 0, end: 0).animate(_throwController);
     loadWords();
+  }
+
+  @override
+  void dispose() {
+    _throwController.dispose();
+    super.dispose();
+  }
+
+  void _snapBack() {
+    final start = _dragOffset;
+    _throwAnim = Tween<double>(begin: start, end: 0.0).animate(
+      CurvedAnimation(parent: _throwController, curve: Curves.elasticOut),
+    );
+    _throwController.duration = const Duration(milliseconds: 500);
+    setState(() => _isSnapBack = true);
+    _throwController.forward(from: 0).then((_) {
+      if (!mounted) return;
+      setState(() {
+        _dragOffset = 0.0;
+        _isSnapBack = false;
+      });
+      _throwController.reset();
+    });
+  }
+
+  void _showCompletionSheet() {
+    if (_completionShown) return;
+    _completionShown = true;
+    HapticFeedback.mediumImpact();
+    final title = _learnTitles[widget.category] ?? 'this category';
+    showModalBottomSheet(
+      context: context,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+      ),
+      builder: (_) => Padding(
+        padding: const EdgeInsets.fromLTRB(24, 20, 24, 36),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Container(
+              width: 40,
+              height: 4,
+              decoration: BoxDecoration(
+                color: const Color(0xFFE2E8F0),
+                borderRadius: BorderRadius.circular(2),
+              ),
+            ),
+            const SizedBox(height: 24),
+            Container(
+              width: 72,
+              height: 72,
+              decoration: const BoxDecoration(
+                color: Color(0xFFECFDF5),
+                shape: BoxShape.circle,
+              ),
+              child: const Icon(Icons.check_rounded,
+                  color: Color(0xFF059669), size: 40),
+            ),
+            const SizedBox(height: 16),
+            const Text(
+              'Category complete!',
+              style: TextStyle(
+                fontSize: 22,
+                fontWeight: FontWeight.w800,
+                color: Color(0xFF0F172A),
+              ),
+            ),
+            const SizedBox(height: 8),
+            Text(
+              'You\'ve gone through all ${words.length} words in $title.',
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                fontSize: 15,
+                color: Color(0xFF64748B),
+                height: 1.5,
+              ),
+            ),
+            const SizedBox(height: 24),
+            SizedBox(
+              width: double.infinity,
+              child: FilledButton(
+                onPressed: () => Navigator.pop(context),
+                style: FilledButton.styleFrom(
+                  backgroundColor: const Color(0xFF059669),
+                  padding: const EdgeInsets.symmetric(vertical: 16),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(14),
+                  ),
+                ),
+                child: const Text(
+                  'Awesome!',
+                  style: TextStyle(
+                      fontSize: 16, fontWeight: FontWeight.w700),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  void _throw({required bool forward}) {
+    HapticFeedback.lightImpact();
+    final screenWidth = MediaQuery.of(context).size.width;
+    final toIndex = forward ? currentIndex + 1 : currentIndex - 1;
+    final target = forward ? -screenWidth * 1.5 : screenWidth * 1.5;
+    _throwAnim = Tween<double>(begin: _dragOffset, end: target).animate(
+      CurvedAnimation(parent: _throwController, curve: Curves.easeOut),
+    );
+    _throwController.duration = const Duration(milliseconds: 260);
+    setState(() {
+      _isThrowing = true;
+      _throwForward = forward;
+      _throwingToIndex = toIndex;
+    });
+    _throwController.forward(from: 0).then((_) {
+      if (!mounted) return;
+      setState(() {
+        currentIndex = toIndex;
+        _dragOffset = 0.0;
+        _isThrowing = false;
+        _throwingToIndex = null;
+      });
+      if (forward) _updateProgress();
+      _throwController.reset();
+    });
+  }
+
+  Widget _cardContent(Word w, int idx) {
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        return SingleChildScrollView(
+          child: ConstrainedBox(
+            constraints: BoxConstraints(
+              minHeight: constraints.maxHeight,
+              minWidth: constraints.maxWidth,
+            ),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [_buildCard(w, indexOverride: idx)],
+            ),
+          ),
+        );
+      },
+    );
   }
 
   Future<void> loadWords() async {
@@ -79,7 +242,7 @@ class _LearnScreenState extends State<LearnScreen> {
     final savedProgress = progressStore[widget.category] ?? 0;
     final resumeIndex = loadedWords.isEmpty
         ? 0
-        : savedProgress.clamp(0, loadedWords.length - 1);
+        : (widget.initialIndex ?? savedProgress).clamp(0, loadedWords.length - 1);
     final loadedBookmarks = await loadBookmarks(widget.category);
 
     setState(() {
@@ -91,6 +254,40 @@ class _LearnScreenState extends State<LearnScreen> {
 
     if (loadedWords.isNotEmpty) {
       updateProgressIfHigher(widget.category, 1, total: loadedWords.length);
+    }
+
+    if (loadedWords.length > 1 && mounted) {
+      final prefs = await SharedPreferences.getInstance();
+      final shown = prefs.getBool('swipe_hint_done') ?? false;
+      if (!shown && mounted) {
+        await prefs.setBool('swipe_hint_done', true);
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          if (!mounted) return;
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: const Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(Icons.swipe_rounded, color: Colors.white70, size: 16),
+                  SizedBox(width: 8),
+                  Text(
+                    'Swipe cards to navigate',
+                    style: TextStyle(fontSize: 13, color: Colors.white),
+                  ),
+                ],
+              ),
+              duration: const Duration(seconds: 3),
+              behavior: SnackBarBehavior.floating,
+              backgroundColor: const Color(0xFF1E293B),
+              elevation: 4,
+              margin: const EdgeInsets.fromLTRB(60, 0, 60, 24),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(24),
+              ),
+            ),
+          );
+        });
+      }
     }
   }
 
@@ -134,45 +331,83 @@ class _LearnScreenState extends State<LearnScreen> {
           ),
         ],
       ),
-      body: Column(
+      body: Stack(
         children: [
-          const SizedBox(height: 10),
-          Expanded(
-            child: GestureDetector(
-              onHorizontalDragEnd: (details) {
-                if (details.primaryVelocity! < 0 &&
+          Column(
+            children: [
+              const SizedBox(height: 10),
+              Expanded(
+                child: GestureDetector(
+              onHorizontalDragUpdate: (d) {
+                if (_isThrowing || _isSnapBack) return;
+                setState(() => _dragOffset += d.delta.dx);
+              },
+              onHorizontalDragEnd: (d) {
+                if (_isThrowing || _isSnapBack) return;
+                final v = d.primaryVelocity ?? 0;
+                final sw = MediaQuery.of(context).size.width;
+                if ((v < -300 || _dragOffset < -sw * 0.28) &&
                     currentIndex < words.length - 1) {
-                  setState(() {
-                    currentIndex++;
-                    _updateProgress();
-                  });
-                } else if (details.primaryVelocity! > 0 && currentIndex > 0) {
-                  setState(() {
-                    currentIndex--;
-                  });
+                  _throw(forward: true);
+                } else if ((v < -300 || _dragOffset < -sw * 0.28) &&
+                    currentIndex == words.length - 1) {
+                  _snapBack();
+                  if (!_completionShown) {
+                    Future.delayed(
+                      const Duration(milliseconds: 520),
+                      _showCompletionSheet,
+                    );
+                  }
+                } else if ((v > 300 || _dragOffset > sw * 0.28) &&
+                    currentIndex > 0) {
+                  _throw(forward: false);
+                } else {
+                  _snapBack();
                 }
               },
-              child: Padding(
-                padding: const EdgeInsets.fromLTRB(20, 8, 20, 20),
-                child: LayoutBuilder(
-                  builder: (context, constraints) {
-                    return SingleChildScrollView(
-                      child: ConstrainedBox(
-                        constraints: BoxConstraints(
-                          minHeight: constraints.maxHeight,
-                          minWidth: constraints.maxWidth,
+              child: AnimatedBuilder(
+                animation: _throwController,
+                builder: (context, _) {
+                  final sw = MediaQuery.of(context).size.width;
+                  final offset =
+                      (_isThrowing || _isSnapBack) ? _throwAnim.value : _dragOffset;
+                  final rotation = (offset / sw).clamp(-1.0, 1.0) * 0.10;
+                  return Stack(
+                    children: [
+                      if (_isThrowing && _throwingToIndex != null)
+                        Positioned.fill(
+                          child: Padding(
+                            padding: const EdgeInsets.fromLTRB(20, 8, 20, 20),
+                            child: Transform.translate(
+                              offset: Offset(
+                                _throwForward
+                                    ? sw * (1 - _throwController.value)
+                                    : -sw * (1 - _throwController.value),
+                                0,
+                              ),
+                              child: _cardContent(
+                                  words[_throwingToIndex!], _throwingToIndex!),
+                            ),
+                          ),
                         ),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.stretch,
-                          children: [_buildCard(word)],
+                      Padding(
+                        padding: const EdgeInsets.fromLTRB(20, 8, 20, 20),
+                        child: Transform.translate(
+                          offset: Offset(offset, 0),
+                          child: Transform.rotate(
+                            angle: rotation,
+                            child: _cardContent(word, currentIndex),
+                          ),
                         ),
                       ),
-                    );
-                  },
-                ),
+                    ],
+                  );
+                },
               ),
             ),
           ),
+        ],
+      ),
         ],
       ),
     );
@@ -181,11 +416,9 @@ class _LearnScreenState extends State<LearnScreen> {
   Future<void> _shareCurrentCard() async {
     if (words.isEmpty) return;
     final word = words[currentIndex];
-    final category = _learnTitles[widget.category] ?? widget.category;
-
     try {
       final imageBytes = await _screenshotController.captureFromWidget(
-        _ShareCard(word: word, category: category),
+        _buildShareCard(word),
         pixelRatio: 3.0,
         context: context,
       );
@@ -203,6 +436,71 @@ class _LearnScreenState extends State<LearnScreen> {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('Could not share. Please try again.')),
       );
+    }
+  }
+
+  Widget _buildShareCard(Word word) {
+    switch (widget.category) {
+      case 'synonyms':
+        return SynonymCard(
+          word: word, isBookmarked: false,
+          onBookmarkToggle: () {}, onShare: () {},
+          index: currentIndex + 1, total: words.length, shareMode: true,
+        );
+      case 'idioms':
+        return IdiomCard(
+          word: word, isBookmarked: false,
+          onBookmarkToggle: () {}, onShare: () {},
+          index: currentIndex + 1, total: words.length, shareMode: true,
+        );
+      case 'confusing':
+        return ConfusingCard(
+          word: word, pairWord: _findConfusingPair(word),
+          isBookmarked: false, onBookmarkToggle: () {}, onShare: () {},
+          index: currentIndex + 1, total: words.length, shareMode: true,
+        );
+      case 'oneword':
+        return OneWordCard(
+          word: word, isBookmarked: false,
+          onBookmarkToggle: () {}, onShare: () {},
+          index: currentIndex + 1, total: words.length, shareMode: true,
+        );
+      case 'fixed_prepositions':
+        return FixedPrepositionCard(
+          word: word, isBookmarked: false,
+          onBookmarkToggle: () {}, onShare: () {},
+          index: currentIndex + 1, total: words.length, shareMode: true,
+        );
+      case 'common_errors':
+        return CommonErrorCard(
+          word: word, isBookmarked: false,
+          onBookmarkToggle: () {}, onShare: () {},
+          index: currentIndex + 1, total: words.length, shareMode: true,
+        );
+      case 'spellings':
+        return SpellingCard(
+          word: word, isBookmarked: false,
+          onBookmarkToggle: () {}, onShare: () {},
+          index: currentIndex + 1, total: words.length, shareMode: true,
+        );
+      case 'sentence_improvement':
+        return SentenceImprovementCard(
+          word: word, isBookmarked: false,
+          onBookmarkToggle: () {}, onShare: () {},
+          index: currentIndex + 1, total: words.length, shareMode: true,
+        );
+      case 'cloze_test':
+        return ClozeTestCard(
+          word: word, isBookmarked: false,
+          onBookmarkToggle: () {}, onShare: () {},
+          index: currentIndex + 1, total: words.length, shareMode: true,
+        );
+      default:
+        return CoreCard(
+          word: word, isBookmarked: false,
+          onBookmarkToggle: () {}, onShare: () {},
+          index: currentIndex + 1, total: words.length, shareMode: true,
+        );
     }
   }
 
@@ -411,6 +709,7 @@ class _LearnScreenState extends State<LearnScreen> {
       }
     }
 
+    HapticFeedback.lightImpact();
     final updated = await toggleBookmark(widget.category, currentIndex);
     if (!mounted) return;
     setState(() {
@@ -418,8 +717,9 @@ class _LearnScreenState extends State<LearnScreen> {
     });
   }
 
-  Widget _buildCard(Word word) {
-    final isBookmarked = bookmarkedIndices.contains(currentIndex);
+  Widget _buildCard(Word word, {int? indexOverride}) {
+    final idx = indexOverride ?? currentIndex;
+    final isBookmarked = bookmarkedIndices.contains(idx);
     switch (widget.category) {
       case 'synonyms':
         return SynonymCard(
@@ -528,112 +828,3 @@ class _LearnScreenState extends State<LearnScreen> {
   }
 }
 
-class _ShareCard extends StatelessWidget {
-  final Word word;
-  final String category;
-
-  const _ShareCard({required this.word, required this.category});
-
-  @override
-  Widget build(BuildContext context) {
-    final meaning = word.meaningEn.isNotEmpty ? word.meaningEn : word.meaningHi;
-
-    return Material(
-      color: Colors.transparent,
-      child: Container(
-        width: 400,
-        padding: const EdgeInsets.all(28),
-        decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(24),
-        ),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-              decoration: BoxDecoration(
-                color: const Color(0xFF1F3C6D),
-                borderRadius: BorderRadius.circular(20),
-              ),
-              child: Text(
-                category,
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 12,
-                  fontWeight: FontWeight.w600,
-                ),
-              ),
-            ),
-            const SizedBox(height: 20),
-            Text(
-              word.word,
-              style: const TextStyle(
-                fontSize: 32,
-                fontWeight: FontWeight.w800,
-                color: Color(0xFF0F172A),
-                height: 1.1,
-              ),
-            ),
-            const SizedBox(height: 14),
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(16),
-              decoration: BoxDecoration(
-                color: const Color(0xFFF1F5F9),
-                borderRadius: BorderRadius.circular(14),
-              ),
-              child: Text(
-                meaning,
-                style: const TextStyle(
-                  fontSize: 15,
-                  color: Color(0xFF334155),
-                  height: 1.5,
-                ),
-              ),
-            ),
-            if (word.example.isNotEmpty) ...[
-              const SizedBox(height: 12),
-              Text(
-                '"${word.example}"',
-                style: const TextStyle(
-                  fontSize: 13,
-                  color: Color(0xFF64748B),
-                  fontStyle: FontStyle.italic,
-                  height: 1.5,
-                ),
-              ),
-            ],
-            const SizedBox(height: 20),
-            const Divider(color: Color(0xFFE2E8F0)),
-            const SizedBox(height: 12),
-            Row(
-              children: [
-                const Icon(Icons.menu_book_rounded,
-                    color: Color(0xFF1F3C6D), size: 18),
-                const SizedBox(width: 6),
-                const Text(
-                  'Vocabo',
-                  style: TextStyle(
-                    color: Color(0xFF1F3C6D),
-                    fontWeight: FontWeight.w800,
-                    fontSize: 15,
-                  ),
-                ),
-                const Spacer(),
-                const Text(
-                  'Build your vocabulary every day',
-                  style: TextStyle(
-                    color: Color(0xFF94A3B8),
-                    fontSize: 11,
-                  ),
-                ),
-              ],
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}

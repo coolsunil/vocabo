@@ -1,10 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../data/premium_store.dart';
 import '../data/progress_store.dart';
 import '../data/streak_store.dart';
 import '../data/word_of_day_store.dart';
+import '../services/notification_service.dart';
 import '../widgets/interactive_pressable.dart';
 import 'category_detail_screen.dart';
+import 'onboarding_screen.dart';
+import 'search_screen.dart';
 import 'practice_screen.dart';
 import 'settings_screen.dart';
 
@@ -23,6 +28,23 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     super.initState();
     _loadPremiumMeta();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _checkOnboarding();
+      Future.delayed(const Duration(seconds: 2), initNotifications);
+    });
+  }
+
+  Future<void> _checkOnboarding() async {
+    final prefs = await SharedPreferences.getInstance();
+    final done = prefs.getBool('onboarding_done') ?? false;
+    if (!done && mounted) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (_) => OnboardingScreen(onDone: () => Navigator.pop(context)),
+        ),
+      );
+    }
   }
 
   Future<void> _loadPremiumMeta() async {
@@ -34,6 +56,89 @@ class _HomeScreenState extends State<HomeScreen> {
       _premiumLoaded = true;
       _remainingMixedQuizSessions = remaining;
     });
+  }
+
+  void _showStreakSheet() {
+    HapticFeedback.selectionClick();
+    final best = bestStreak;
+    final current = currentStreak;
+    final message = current >= 30
+        ? 'Legendary dedication!'
+        : current >= 14
+            ? 'You\'re on fire — keep it up!'
+            : current >= 7
+                ? 'One week strong!'
+                : current >= 3
+                    ? 'Great momentum!'
+                    : 'Keep opening the app daily!';
+
+    showModalBottomSheet(
+      context: context,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+      ),
+      builder: (_) => Padding(
+        padding: const EdgeInsets.fromLTRB(24, 20, 24, 36),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Container(
+              width: 40,
+              height: 4,
+              decoration: BoxDecoration(
+                color: const Color(0xFFE2E8F0),
+                borderRadius: BorderRadius.circular(2),
+              ),
+            ),
+            const SizedBox(height: 20),
+            const Icon(Icons.local_fire_department_rounded,
+                color: Color(0xFFEA580C), size: 48),
+            const SizedBox(height: 12),
+            Text(
+              '$current-day streak',
+              style: const TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.w800,
+                color: Color(0xFF0F172A),
+              ),
+            ),
+            const SizedBox(height: 6),
+            Text(
+              message,
+              style: const TextStyle(
+                fontSize: 15,
+                color: Color(0xFF64748B),
+              ),
+            ),
+            const SizedBox(height: 24),
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
+              decoration: BoxDecoration(
+                color: const Color(0xFFFFF7ED),
+                borderRadius: BorderRadius.circular(16),
+                border: Border.all(color: const Color(0xFFFDBA74)),
+              ),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Icon(Icons.emoji_events_rounded,
+                      color: Color(0xFFD97706), size: 20),
+                  const SizedBox(width: 8),
+                  Text(
+                    'Best streak: $best day${best == 1 ? '' : 's'}',
+                    style: const TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.w700,
+                      color: Color(0xFFD97706),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 
   @override
@@ -64,33 +169,49 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   const Spacer(),
                   if (currentStreak > 0) ...[
-                    Container(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 10, vertical: 6),
-                      decoration: BoxDecoration(
-                        color: const Color(0xFFFFF7ED),
-                        borderRadius: BorderRadius.circular(20),
-                        border: Border.all(color: const Color(0xFFFDBA74)),
-                      ),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          const Icon(Icons.local_fire_department_rounded,
-                              color: Color(0xFFEA580C), size: 16),
-                          const SizedBox(width: 4),
-                          Text(
-                            '$currentStreak',
-                            style: const TextStyle(
-                              color: Color(0xFFEA580C),
-                              fontWeight: FontWeight.w700,
-                              fontSize: 14,
+                    GestureDetector(
+                      onTap: () => _showStreakSheet(),
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 10, vertical: 6),
+                        decoration: BoxDecoration(
+                          color: const Color(0xFFFFF7ED),
+                          borderRadius: BorderRadius.circular(20),
+                          border: Border.all(color: const Color(0xFFFDBA74)),
+                        ),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            const Icon(Icons.local_fire_department_rounded,
+                                color: Color(0xFFEA580C), size: 16),
+                            const SizedBox(width: 4),
+                            Text(
+                              '$currentStreak',
+                              style: const TextStyle(
+                                color: Color(0xFFEA580C),
+                                fontWeight: FontWeight.w700,
+                                fontSize: 14,
+                              ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
                     const SizedBox(width: 8),
                   ],
+                  IconButton(
+                    tooltip: 'Search',
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (_) => const SearchScreen()),
+                      );
+                    },
+                    icon: const Icon(
+                      Icons.search_rounded,
+                      color: Color(0xFF475569),
+                    ),
+                  ),
                   IconButton(
                     tooltip: 'Settings',
                     onPressed: () {
@@ -283,9 +404,9 @@ class _HomeScreenState extends State<HomeScreen> {
                           title: 'Common Errors',
                           subtitle: '${progressStore["common_errors"] ?? 0} / 464',
                           icon: Icons.rule_folder_rounded,
-                          iconColor: const Color(0xFFDC2626),
-                          backgroundColor: const Color(0xFFFEF2F2),
-                          borderColor: const Color(0xFFFCA5A5),
+                          iconColor: const Color(0xFFCA8A04),
+                          backgroundColor: const Color(0xFFFEFCE8),
+                          borderColor: const Color(0xFFFEF08A),
                           learned: progressStore["common_errors"] ?? 0,
                           total: 464,
                           onTap: () => _openCategory(

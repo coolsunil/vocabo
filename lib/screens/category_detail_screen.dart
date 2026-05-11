@@ -55,7 +55,7 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
     'fixed_prepositions': Color(0xFF0F766E),
     'phrasal_verbs': Color(0xFFBE185D),
     'root_words': Color(0xFF7C2D12),
-    'common_errors': Color(0xFFDC2626),
+    'common_errors': Color(0xFFD97706),
     'homophones': Color(0xFF4F46E5),
     'spellings': Color(0xFF0891B2),
     'foreign_words': Color(0xFF9333EA),

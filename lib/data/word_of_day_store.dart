@@ -6,7 +6,7 @@ Word? wordOfDay;
 
 Future<void> loadWordOfDay() async {
   try {
-    final jsonString = await rootBundle.loadString('assets/data/core.json');
+    final jsonString = await rootBundle.loadString('assets/data/core_words.json');
     final list = json.decode(jsonString) as List<dynamic>;
     if (list.isEmpty) return;
 

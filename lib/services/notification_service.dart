@@ -8,20 +8,56 @@ import '../data/word_of_day_store.dart';
 final _plugin = FlutterLocalNotificationsPlugin();
 
 Future<void> initNotifications() async {
-  tz.initializeTimeZones();
-  final tzInfo = await FlutterTimezone.getLocalTimezone();
-  tz.setLocalLocation(tz.getLocation(tzInfo.identifier));
+  try {
+    tz.initializeTimeZones();
+    final tzInfo = await FlutterTimezone.getLocalTimezone();
+    tz.setLocalLocation(tz.getLocation(tzInfo.identifier));
 
-  const androidSettings = AndroidInitializationSettings('@mipmap/ic_launcher');
-  const settings = InitializationSettings(android: androidSettings);
-  await _plugin.initialize(settings);
+    const androidSettings = AndroidInitializationSettings('@mipmap/ic_launcher');
+    const settings = InitializationSettings(android: androidSettings);
+    await _plugin.initialize(settings);
 
-  await _plugin
-      .resolvePlatformSpecificImplementation<
-          AndroidFlutterLocalNotificationsPlugin>()
-      ?.requestNotificationsPermission();
+    final androidPlugin = _plugin.resolvePlatformSpecificImplementation<
+        AndroidFlutterLocalNotificationsPlugin>();
+    await androidPlugin?.requestNotificationsPermission();
 
-  await scheduleWordOfDayNotification();
+    await scheduleWordOfDayNotification();
+  } catch (_) {}
+}
+
+/// Schedules a test notification 30 seconds from now.
+/// Background the app after tapping to see it as a banner.
+Future<void> sendTestNotification() async {
+  try {
+    final word = wordOfDay;
+    final title = word != null ? 'Word of the Day: ${word.word}' : 'Vocabo';
+    final body = word != null
+        ? () {
+            final m = word.meaningEn.isNotEmpty ? word.meaningEn : word.meaningHi;
+            return m.length > 80 ? '${m.substring(0, 80)}…' : m;
+          }()
+        : 'Your daily vocabulary word is ready!';
+
+    final now = tz.TZDateTime.now(tz.local);
+    await _plugin.zonedSchedule(
+      1,
+      title,
+      body,
+      now.add(const Duration(seconds: 30)),
+      const NotificationDetails(
+        android: AndroidNotificationDetails(
+          'word_of_day',
+          'Word of the Day',
+          channelDescription: 'Daily vocabulary word to keep your streak alive',
+          importance: Importance.high,
+          priority: Priority.high,
+        ),
+      ),
+      androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
+      uiLocalNotificationDateInterpretation:
+          UILocalNotificationDateInterpretation.absoluteTime,
+    );
+  } catch (_) {}
 }
 
 Future<void> scheduleWordOfDayNotification() async {
