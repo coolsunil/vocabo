@@ -8,6 +8,7 @@ import '../data/word_of_day_store.dart';
 import '../services/notification_service.dart';
 import '../widgets/interactive_pressable.dart';
 import 'category_detail_screen.dart';
+import 'learn_screen.dart';
 import 'onboarding_screen.dart';
 import 'search_screen.dart';
 import 'practice_screen.dart';
@@ -247,11 +248,19 @@ class _HomeScreenState extends State<HomeScreen> {
                   children: [
                     if (wordOfDay != null) ...[
                       _WordOfDayCard(
-                        onTap: () => _openCategory(
-                          title: 'Core Words',
-                          categoryKey: 'core',
-                          total: 1266,
-                        ),
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (_) => LearnScreen(
+                                category: 'core',
+                                initialIndex: wordOfDayIndex,
+                              ),
+                            ),
+                          ).then((_) {
+                            if (mounted) setState(() {});
+                          });
+                        },
                       ),
                       const SizedBox(height: 16),
                     ],

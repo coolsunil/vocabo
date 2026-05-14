@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import '../models/word_model.dart';
 
 Word? wordOfDay;
+int wordOfDayIndex = 0;
 
 Future<void> loadWordOfDay() async {
   try {
@@ -12,6 +13,7 @@ Future<void> loadWordOfDay() async {
 
     final now = DateTime.now();
     final dayOfYear = now.difference(DateTime(now.year, 1, 1)).inDays;
-    wordOfDay = Word.fromJson(list[dayOfYear % list.length]);
+    wordOfDayIndex = dayOfYear % list.length;
+    wordOfDay = Word.fromJson(list[wordOfDayIndex]);
   } catch (_) {}
 }
