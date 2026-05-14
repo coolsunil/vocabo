@@ -25,10 +25,15 @@ class PracticeScreen extends StatefulWidget {
   State<PracticeScreen> createState() => _PracticeScreenState();
 }
 
-class _PracticeScreenState extends State<PracticeScreen> {
+class _PracticeScreenState extends State<PracticeScreen>
+    with TickerProviderStateMixin {
   static const int _questionLimit = 10;
 
   final Random _random = Random();
+  late final AnimationController _bounceController;
+  late final AnimationController _shakeController;
+  late final Animation<double> _bounceAnim;
+  late final Animation<double> _shakeAnim;
   bool isLoading = true;
   bool isLocked = false;
   bool isProcessingNewSet = false;
@@ -46,7 +51,32 @@ class _PracticeScreenState extends State<PracticeScreen> {
   @override
   void initState() {
     super.initState();
+    _bounceController = AnimationController(
+      duration: const Duration(milliseconds: 300),
+      vsync: this,
+    );
+    _shakeController = AnimationController(
+      duration: const Duration(milliseconds: 400),
+      vsync: this,
+    );
+    _bounceAnim = TweenSequence([
+      TweenSequenceItem(tween: Tween(begin: 1.0, end: 1.06), weight: 40),
+      TweenSequenceItem(tween: Tween(begin: 1.06, end: 1.0), weight: 60),
+    ]).animate(CurvedAnimation(parent: _bounceController, curve: Curves.easeOut));
+    _shakeAnim = TweenSequence([
+      TweenSequenceItem(tween: Tween(begin: 0.0, end: 8.0), weight: 20),
+      TweenSequenceItem(tween: Tween(begin: 8.0, end: -8.0), weight: 30),
+      TweenSequenceItem(tween: Tween(begin: -8.0, end: 5.0), weight: 25),
+      TweenSequenceItem(tween: Tween(begin: 5.0, end: 0.0), weight: 25),
+    ]).animate(CurvedAnimation(parent: _shakeController, curve: Curves.easeOut));
     _initializePractice();
+  }
+
+  @override
+  void dispose() {
+    _bounceController.dispose();
+    _shakeController.dispose();
+    super.dispose();
   }
 
   Future<void> _initializePractice() async {
@@ -383,6 +413,14 @@ class _PracticeScreenState extends State<PracticeScreen> {
     final question = questions[currentIndex];
     final selected = question.options[index];
     final isCorrectSelection = selected == question.correctAnswer;
+
+    if (isCorrectSelection) {
+      HapticFeedback.lightImpact();
+      _bounceController.forward(from: 0);
+    } else {
+      HapticFeedback.mediumImpact();
+      _shakeController.forward(from: 0);
+    }
 
     setState(() {
       selectedIndex = index;
@@ -994,7 +1032,7 @@ class _PracticeScreenState extends State<PracticeScreen> {
                     }
                   }
 
-                  return GestureDetector(
+                  Widget tile = GestureDetector(
                     onTap: () => _selectOption(index),
                     child: Container(
                       margin: const EdgeInsets.only(bottom: 10),
@@ -1013,6 +1051,28 @@ class _PracticeScreenState extends State<PracticeScreen> {
                       ),
                     ),
                   );
+
+                  if (selectedIndex != null && isCorrect) {
+                    tile = AnimatedBuilder(
+                      animation: _bounceAnim,
+                      builder: (_, child) => Transform.scale(
+                        scale: _bounceAnim.value,
+                        child: child,
+                      ),
+                      child: tile,
+                    );
+                  } else if (isSelected && !isCorrect) {
+                    tile = AnimatedBuilder(
+                      animation: _shakeAnim,
+                      builder: (_, child) => Transform.translate(
+                        offset: Offset(_shakeAnim.value, 0),
+                        child: child,
+                      ),
+                      child: tile,
+                    );
+                  }
+
+                  return tile;
                 },
               ),
             ),

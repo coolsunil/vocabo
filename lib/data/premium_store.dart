@@ -41,17 +41,46 @@ const Map<PremiumFeature, String> premiumFeatureDescriptions = {
       'Save as many words as you want for later revision.',
 };
 
-bool premiumUnlocked = false;
+const String _monthlyProductId = 'vocabo_premium_monthly';
+const String _yearlyProductId = 'vocabo_premium_yearly';
+const String _premiumExpiryKey = 'premium_expiry_date';
+const String _practicePrefix = 'practice_attempts_';
+
+// Legacy key — used only for migration
+const String _legacyPremiumKey = 'premium_unlocked';
+
+DateTime? _premiumExpiry;
+
+bool get premiumUnlocked {
+  if (_premiumExpiry == null) return false;
+  return _premiumExpiry!.isAfter(DateTime.now());
+}
+
+DateTime? get premiumExpiryDate => _premiumExpiry;
 
 Future<void> loadPremiumStore() async {
   final prefs = await SharedPreferences.getInstance();
-  premiumUnlocked = prefs.getBool(_premiumKey) ?? false;
+
+  // Migrate existing lifetime purchasers to expiry-based model
+  final legacyUnlocked = prefs.getBool(_legacyPremiumKey) ?? false;
+  if (legacyUnlocked) {
+    final lifetime = DateTime.now().add(const Duration(days: 36500));
+    await prefs.setString(_premiumExpiryKey, lifetime.toIso8601String());
+    await prefs.remove(_legacyPremiumKey);
+  }
+
+  final expiryStr = prefs.getString(_premiumExpiryKey);
+  _premiumExpiry = expiryStr != null ? DateTime.tryParse(expiryStr) : null;
 }
 
-Future<void> setPremiumUnlocked(bool value) async {
-  premiumUnlocked = value;
+Future<void> _setSubscriptionExpiry(String productId) async {
+  final now = DateTime.now();
+  final expiry = productId == _yearlyProductId
+      ? now.add(const Duration(days: 370))
+      : now.add(const Duration(days: 35));
+  _premiumExpiry = expiry;
   final prefs = await SharedPreferences.getInstance();
-  await prefs.setBool(_premiumKey, value);
+  await prefs.setString(_premiumExpiryKey, expiry.toIso8601String());
 }
 
 bool hasPremiumAccess(PremiumFeature feature) {
@@ -151,9 +180,6 @@ String _todayStamp() {
   return '${now.year}-$month-$day';
 }
 
-const String _premiumKey = 'premium_unlocked';
-const String _practicePrefix = 'practice_attempts_';
-
 class PremiumScreen extends StatefulWidget {
   const PremiumScreen({super.key});
 
@@ -162,20 +188,26 @@ class PremiumScreen extends StatefulWidget {
 }
 
 class _PremiumScreenState extends State<PremiumScreen> {
-  static const String _productId = 'vocabo_premium_lifetime';
-  static const String _premiumPlanName = 'Vocabo Premium Lifetime';
-  static const String _fallbackPriceLabel = 'Rs 199';
+  static const String _fallbackMonthlyPrice = 'Rs 29/mo';
+  static const String _fallbackYearlyPrice = 'Rs 99/yr';
 
   final InAppPurchase _inAppPurchase = InAppPurchase.instance;
   StreamSubscription<List<PurchaseDetails>>? _purchaseSubscription;
 
-  ProductDetails? _premiumProduct;
+  ProductDetails? _monthlyProduct;
+  ProductDetails? _yearlyProduct;
   bool _storeAvailable = false;
   bool _isLoadingStore = true;
   bool _isProcessingPurchase = false;
   String? _storeMessage;
+  String _selectedPlan = _yearlyProductId;
 
-  String get _priceLabel => _premiumProduct?.price ?? _fallbackPriceLabel;
+  String get _monthlyPriceLabel =>
+      _monthlyProduct?.price ?? _fallbackMonthlyPrice;
+  String get _yearlyPriceLabel => _yearlyProduct?.price ?? _fallbackYearlyPrice;
+
+  String get _selectedPriceLabel =>
+      _selectedPlan == _yearlyProductId ? _yearlyPriceLabel : _monthlyPriceLabel;
 
   @override
   void initState() {
@@ -215,27 +247,35 @@ class _PremiumScreenState extends State<PremiumScreen> {
       setState(() {
         _storeAvailable = false;
         _isLoadingStore = false;
-        _premiumProduct = null;
+        _monthlyProduct = null;
+        _yearlyProduct = null;
         _storeMessage =
             'Google Play Billing is unavailable on this device. Use a Play Store-installed build to test purchases.';
       });
       return;
     }
 
-    final response = await _inAppPurchase.queryProductDetails({_productId});
+    final response = await _inAppPurchase
+        .queryProductDetails({_monthlyProductId, _yearlyProductId});
     if (!mounted) return;
+
+    ProductDetails? monthly;
+    ProductDetails? yearly;
+    for (final p in response.productDetails) {
+      if (p.id == _monthlyProductId) monthly = p;
+      if (p.id == _yearlyProductId) yearly = p;
+    }
 
     setState(() {
       _storeAvailable = true;
       _isLoadingStore = false;
-      _premiumProduct = response.productDetails.isNotEmpty
-          ? response.productDetails.first
-          : null;
+      _monthlyProduct = monthly;
+      _yearlyProduct = yearly;
       if (response.error != null) {
         _storeMessage = response.error!.message;
       } else if (response.notFoundIDs.isNotEmpty) {
         _storeMessage =
-            'Play Console product not found. Create a non-consumable product with ID $_productId.';
+            'Some products not found in Play Console: ${response.notFoundIDs.join(", ")}';
       } else {
         _storeMessage = null;
       }
@@ -245,14 +285,18 @@ class _PremiumScreenState extends State<PremiumScreen> {
   Future<void> _startPurchase() async {
     await loadPremiumStore();
     if (premiumUnlocked) {
-      _showSnackBar('Premium is already active on this device.');
+      _showSnackBar('Subscription is already active on this device.');
       return;
     }
 
-    if (_premiumProduct == null) {
+    final product = _selectedPlan == _yearlyProductId
+        ? _yearlyProduct
+        : _monthlyProduct;
+
+    if (product == null) {
       _showSnackBar(
         _storeMessage ??
-            'Premium product is not available yet. Check Play Console setup.',
+            'Product not available yet. Check Play Console setup.',
       );
       return;
     }
@@ -262,7 +306,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
       _storeMessage = null;
     });
 
-    final param = PurchaseParam(productDetails: _premiumProduct!);
+    final param = PurchaseParam(productDetails: product);
     final purchaseStarted = await _inAppPurchase.buyNonConsumable(
       purchaseParam: param,
     );
@@ -295,7 +339,10 @@ class _PremiumScreenState extends State<PremiumScreen> {
     var unlockedInThisBatch = false;
 
     for (final purchase in purchaseDetailsList) {
-      if (purchase.productID != _productId) {
+      final isOurProduct = purchase.productID == _monthlyProductId ||
+          purchase.productID == _yearlyProductId;
+
+      if (!isOurProduct) {
         if (purchase.pendingCompletePurchase) {
           await _inAppPurchase.completePurchase(purchase);
         }
@@ -307,13 +354,13 @@ class _PremiumScreenState extends State<PremiumScreen> {
           if (mounted) {
             setState(() {
               _isProcessingPurchase = true;
-              _storeMessage = 'Waiting for Google Play to confirm the purchase...';
+              _storeMessage = 'Waiting for Google Play to confirm...';
             });
           }
           break;
         case PurchaseStatus.purchased:
         case PurchaseStatus.restored:
-          await setPremiumUnlocked(true);
+          await _setSubscriptionExpiry(purchase.productID);
           unlockedInThisBatch = true;
           break;
         case PurchaseStatus.error:
@@ -360,9 +407,9 @@ class _PremiumScreenState extends State<PremiumScreen> {
       context: context,
       barrierDismissible: false,
       builder: (context) => const AlertDialog(
-        title: Text('Premium Unlocked'),
+        title: Text('Subscription Active'),
         content: Text(
-          'Google Play confirmed your purchase. Premium is now active on this device.',
+          'Google Play confirmed your subscription. Premium is now active on this device.',
         ),
       ),
     );
@@ -390,6 +437,8 @@ class _PremiumScreenState extends State<PremiumScreen> {
   @override
   Widget build(BuildContext context) {
     final features = PremiumFeature.values;
+    final isActive = premiumUnlocked;
+    final expiry = premiumExpiryDate;
 
     return Scaffold(
       backgroundColor: const Color(0xFFF5F7FA),
@@ -403,6 +452,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
+          // Header card
           Container(
             padding: const EdgeInsets.all(20),
             decoration: BoxDecoration(
@@ -438,7 +488,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 ),
                 const SizedBox(height: 16),
                 const Text(
-                  _premiumPlanName,
+                  'Vocabo Premium',
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.w800,
@@ -447,33 +497,47 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  premiumUnlocked
-                      ? 'Premium is unlocked on this device.'
-                      : 'One-time payment. Unlock unlimited practice and smart revision.',
+                  isActive && expiry != null
+                      ? 'Active until ${_formatDate(expiry)}'
+                      : 'Unlock unlimited practice and smart revision.',
                   style: const TextStyle(
                     color: Color(0xFFE2E8F0),
                     height: 1.45,
                   ),
                 ),
-                const SizedBox(height: 14),
-                Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-                  decoration: BoxDecoration(
-                    color: Colors.white.withValues(alpha: 0.14),
-                    borderRadius: BorderRadius.circular(999),
-                  ),
-                  child: Text(
-                    'Lifetime access • $_priceLabel',
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.w700,
-                    ),
-                  ),
-                ),
               ],
             ),
           ),
+
           const SizedBox(height: 18),
+
+          // Plan selector (hidden when already active)
+          if (!isActive) ...[
+            const Text(
+              'Choose a Plan',
+              style: TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.w700,
+                color: Color(0xFF0F172A),
+              ),
+            ),
+            const SizedBox(height: 12),
+            _buildPlanCard(
+              id: _yearlyProductId,
+              label: 'Yearly',
+              price: _yearlyPriceLabel,
+              badge: 'BEST VALUE',
+            ),
+            const SizedBox(height: 10),
+            _buildPlanCard(
+              id: _monthlyProductId,
+              label: 'Monthly',
+              price: _monthlyPriceLabel,
+            ),
+            const SizedBox(height: 18),
+          ],
+
+          // Features
           const Text(
             'Included Features',
             style: TextStyle(
@@ -485,6 +549,8 @@ class _PremiumScreenState extends State<PremiumScreen> {
           const SizedBox(height: 12),
           ...features.map(_buildFeatureTile),
           const SizedBox(height: 18),
+
+          // Free limits
           Container(
             padding: const EdgeInsets.all(18),
             decoration: BoxDecoration(
@@ -526,6 +592,8 @@ class _PremiumScreenState extends State<PremiumScreen> {
               ],
             ),
           ),
+
+          // Store message
           if (_storeMessage != null) ...[
             const SizedBox(height: 16),
             Container(
@@ -556,24 +624,27 @@ class _PremiumScreenState extends State<PremiumScreen> {
               ),
             ),
           ],
+
           const SizedBox(height: 20),
+
+          // Subscribe button
           SizedBox(
             height: 52,
             child: ElevatedButton(
-              onPressed: premiumUnlocked ||
+              onPressed: isActive ||
                       _isLoadingStore ||
                       _isProcessingPurchase ||
                       !_storeAvailable
                   ? null
                   : _startPurchase,
               child: Text(
-                premiumUnlocked
-                    ? 'Premium Active'
+                isActive
+                    ? 'Subscription Active'
                     : _isLoadingStore
                         ? 'Loading Google Play...'
                         : _isProcessingPurchase
                             ? 'Opening Google Play...'
-                            : 'Unlock Lifetime Premium for $_priceLabel',
+                            : 'Subscribe for $_selectedPriceLabel',
               ),
             ),
           ),
@@ -584,9 +655,19 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 : _restorePurchases,
             child: const Text('Restore Purchase'),
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: 14),
           const Text(
-            'Google Play Billing works only when this product is created in Play Console and the app is tested through a Play-supported build.',
+            'Subscriptions auto-renew unless cancelled at least 24 hours before the renewal date. Manage or cancel anytime in Google Play.',
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              color: Color(0xFF94A3B8),
+              fontSize: 11,
+              height: 1.5,
+            ),
+          ),
+          const SizedBox(height: 6),
+          const Text(
+            'Google Play Billing works only when products are created in Play Console and the app is installed through Play Store.',
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Color(0xFF64748B),
@@ -595,6 +676,98 @@ class _PremiumScreenState extends State<PremiumScreen> {
             ),
           ),
         ],
+      ),
+    );
+  }
+
+  Widget _buildPlanCard({
+    required String id,
+    required String label,
+    required String price,
+    String? badge,
+  }) {
+    final isSelected = _selectedPlan == id;
+    return GestureDetector(
+      onTap: () => setState(() => _selectedPlan = id),
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 180),
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(16),
+          border: Border.all(
+            color: isSelected
+                ? const Color(0xFF0F766E)
+                : const Color(0xFFE2E8F0),
+            width: isSelected ? 2 : 1,
+          ),
+        ),
+        child: Row(
+          children: [
+            AnimatedContainer(
+              duration: const Duration(milliseconds: 180),
+              width: 22,
+              height: 22,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                color: isSelected
+                    ? const Color(0xFF0F766E)
+                    : Colors.transparent,
+                border: Border.all(
+                  color: isSelected
+                      ? const Color(0xFF0F766E)
+                      : const Color(0xFFCBD5E1),
+                  width: 2,
+                ),
+              ),
+              child: isSelected
+                  ? const Icon(Icons.check, color: Colors.white, size: 14)
+                  : null,
+            ),
+            const SizedBox(width: 14),
+            Expanded(
+              child: Text(
+                label,
+                style: TextStyle(
+                  fontWeight: FontWeight.w700,
+                  fontSize: 15,
+                  color: isSelected
+                      ? const Color(0xFF0F172A)
+                      : const Color(0xFF475569),
+                ),
+              ),
+            ),
+            if (badge != null) ...[
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                decoration: BoxDecoration(
+                  color: const Color(0xFF0F766E),
+                  borderRadius: BorderRadius.circular(999),
+                ),
+                child: Text(
+                  badge,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 10,
+                    fontWeight: FontWeight.w700,
+                    letterSpacing: 0.5,
+                  ),
+                ),
+              ),
+              const SizedBox(width: 10),
+            ],
+            Text(
+              price,
+              style: TextStyle(
+                fontWeight: FontWeight.w700,
+                fontSize: 15,
+                color: isSelected
+                    ? const Color(0xFF0F766E)
+                    : const Color(0xFF475569),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
@@ -650,5 +823,12 @@ class _PremiumScreenState extends State<PremiumScreen> {
       ),
     );
   }
-}
 
+  String _formatDate(DateTime date) {
+    final months = [
+      'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+      'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec',
+    ];
+    return '${date.day} ${months[date.month - 1]} ${date.year}';
+  }
+}

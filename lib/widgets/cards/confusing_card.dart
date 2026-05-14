@@ -6,8 +6,10 @@ class ConfusingCard extends StatelessWidget {
   final Word? pairWord;
   final bool isBookmarked;
   final VoidCallback onBookmarkToggle;
+  final VoidCallback onShare;
   final int index;
   final int total;
+  final bool shareMode;
 
   const ConfusingCard({
     super.key,
@@ -15,8 +17,10 @@ class ConfusingCard extends StatelessWidget {
     required this.pairWord,
     required this.isBookmarked,
     required this.onBookmarkToggle,
+    required this.onShare,
     required this.index,
     required this.total,
+    this.shareMode = false,
   });
 
   @override
@@ -28,16 +32,23 @@ class ConfusingCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Align(
-            alignment: Alignment.topRight,
-            child: IconButton(
-              icon: Icon(
-                isBookmarked ? Icons.bookmark : Icons.bookmark_border,
-                color: const Color(0xFF1F3C6D),
-              ),
-              onPressed: onBookmarkToggle,
+          if (!shareMode)
+            Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                IconButton(
+                  icon: const Icon(Icons.share_rounded, color: Color(0xFF1F3C6D)),
+                  onPressed: onShare,
+                ),
+                IconButton(
+                  icon: Icon(
+                    isBookmarked ? Icons.bookmark : Icons.bookmark_border,
+                    color: const Color(0xFF1F3C6D),
+                  ),
+                  onPressed: onBookmarkToggle,
+                ),
+              ],
             ),
-          ),
           Text(
             pairWord == null ? word.word : '${word.word}  vs  ${pairWord!.word}',
             style: const TextStyle(fontSize: 34, fontWeight: FontWeight.bold),
@@ -66,26 +77,54 @@ class ConfusingCard extends StatelessWidget {
               ),
             ],
           ],
-          const SizedBox(height: 24),
-          const Divider(),
-          const SizedBox(height: 12),
-          LinearProgressIndicator(
-            value: total == 0 ? 0.0 : index / total,
-            minHeight: 8,
-            borderRadius: BorderRadius.circular(999),
-            backgroundColor: const Color(0xFFE2E8F0),
-            color: const Color(0xFF22C55E),
-          ),
-          const SizedBox(height: 10),
-          Center(
-            child: Text(
-              '$index/$total',
-              style: const TextStyle(
-                color: Color(0xFF334155),
-                fontWeight: FontWeight.w600,
+          if (!shareMode) ...[
+            const SizedBox(height: 24),
+            const Divider(),
+            const SizedBox(height: 12),
+            LinearProgressIndicator(
+              value: total == 0 ? 0.0 : index / total,
+              minHeight: 8,
+              borderRadius: BorderRadius.circular(999),
+              backgroundColor: const Color(0xFFE2E8F0),
+              color: const Color(0xFF22C55E),
+            ),
+            const SizedBox(height: 10),
+            Center(
+              child: Text(
+                '$index/$total',
+                style: const TextStyle(
+                  color: Color(0xFF334155),
+                  fontWeight: FontWeight.w600,
+                ),
               ),
             ),
-          ),
+          ] else ...[
+            const SizedBox(height: 20),
+            const Divider(color: Color(0xFFE2E8F0)),
+            const SizedBox(height: 12),
+            Row(
+              children: [
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(4),
+                  child: Image.asset('assets/images/app_icon.png', width: 20, height: 20, fit: BoxFit.cover),
+                ),
+                const SizedBox(width: 6),
+                const Text(
+                  'Vocabo',
+                  style: TextStyle(
+                    color: Color(0xFF1F3C6D),
+                    fontWeight: FontWeight.w800,
+                    fontSize: 15,
+                  ),
+                ),
+                const Spacer(),
+                const Text(
+                  'Build your vocabulary every day',
+                  style: TextStyle(color: Color(0xFF94A3B8), fontSize: 11),
+                ),
+              ],
+            ),
+          ],
         ],
       ),
     );
