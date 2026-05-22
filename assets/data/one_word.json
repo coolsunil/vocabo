@@ -1,5 +1,12 @@
 [
   {
+    "phrase": "One who helps another commit a crime",
+    "word": "Accomplice",
+    "meaning_hi": "सह-अपराधी",
+    "meaning_en": "Person who assists another in committing a crime",
+    "category": "oneword"
+  },
+  {
     "phrase": "One skilled in keeping financial accounts",
     "word": "Accountant",
     "meaning_hi": "लेखाकार",
@@ -7,10 +14,31 @@
     "category": "oneword"
   },
   {
+    "phrase": "One who has a fear of heights",
+    "word": "Acrophobe",
+    "meaning_hi": "ऊँचाई से डरने वाला",
+    "meaning_en": "Person with an extreme fear of heights",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who predicts events using statistical data",
+    "word": "Actuary",
+    "meaning_hi": "बीमांकक",
+    "meaning_en": "Person who compiles and analyses statistics for insurance",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who speaks in favour of another",
     "word": "Advocate",
     "meaning_hi": "अधिवक्ता",
-    "meaning_en": "Supporter or pleader",
+    "meaning_en": "Supporter or pleader in court",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who stirs up public feeling for a cause",
+    "word": "Agitator",
+    "meaning_hi": "आंदोलनकारी",
+    "meaning_en": "Person who stirs up public feeling, often for political change",
     "category": "oneword"
   },
   {
@@ -21,528 +49,1333 @@
     "category": "oneword"
   },
   {
-    "phrase": "One who is selflessly devoted to others' welfare",
-    "word": "Altruist",
-    "meaning_hi": "परोपकारी",
-    "meaning_en": "Selfless person",
+    "phrase": "One who has an excessive fear of open spaces",
+    "word": "Agoraphobe",
+    "meaning_hi": "खुली जगह से डरने वाला",
+    "meaning_en": "Person with an irrational fear of open or public spaces",
     "category": "oneword"
   },
   {
-    "phrase": "One who is against established government",
+    "phrase": "One who is selflessly devoted to others' welfare",
+    "word": "Altruist",
+    "meaning_hi": "परोपकारी",
+    "meaning_en": "Selfless person who helps others without personal gain",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who represents a country abroad",
+    "word": "Ambassador",
+    "meaning_hi": "राजदूत",
+    "meaning_en": "Senior diplomat who represents their country in another nation",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who uses both hands with equal skill",
+    "word": "Ambidextrous",
+    "meaning_hi": "दोनों हाथों से काम करने वाला",
+    "meaning_en": "Person equally skilled with both hands",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is against all established government",
     "word": "Anarchist",
     "meaning_hi": "अराजकतावादी",
-    "meaning_en": "Opponent of all government",
+    "meaning_en": "Opponent of all organised government",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies the structure of the human body",
+    "word": "Anatomist",
+    "meaning_hi": "शरीर-रचना विज्ञानी",
+    "meaning_en": "Scientist who studies the structure of the body",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies the physical and cultural development of humans",
+    "word": "Anthropologist",
+    "meaning_hi": "नृविज्ञानी",
+    "meaning_en": "Scientist who studies human beings and their societies",
     "category": "oneword"
   },
   {
     "phrase": "One who collects and studies antiques",
     "word": "Antiquarian",
     "meaning_hi": "पुरावस्तु संग्राहक",
-    "meaning_en": "Collector of antiques",
+    "meaning_en": "Collector and scholar of antiques",
     "category": "oneword"
   },
   {
     "phrase": "One who abandons religious faith",
     "word": "Apostate",
     "meaning_hi": "धर्म त्यागने वाला",
-    "meaning_en": "Person who renounces religion",
+    "meaning_en": "Person who renounces their religion or beliefs",
     "category": "oneword"
   },
   {
-    "phrase": "One who is skilled in the art of healing",
+    "phrase": "One who prepares and sells medicines (old usage)",
     "word": "Apothecary",
     "meaning_hi": "औषधि विक्रेता",
-    "meaning_en": "Old-fashioned pharmacist",
+    "meaning_en": "Historical term for a pharmacist",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who has an excessive fear of spiders",
+    "word": "Arachnophobe",
+    "meaning_hi": "मकड़ी से डरने वाला",
+    "meaning_en": "Person with an extreme fear of spiders",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies ancient human civilisations and artefacts",
+    "word": "Archaeologist",
+    "meaning_hi": "पुरातत्त्ववेत्ता",
+    "meaning_en": "Scientist who excavates and studies ancient remains",
     "category": "oneword"
   },
   {
     "phrase": "One who designs buildings",
     "word": "Architect",
     "meaning_hi": "वास्तुकार",
-    "meaning_en": "Building designer",
+    "meaning_en": "Professional building designer",
     "category": "oneword"
   },
   {
     "phrase": "One who keeps and manages public records",
     "word": "Archivist",
     "meaning_hi": "अभिलेखागार रक्षक",
-    "meaning_en": "Custodian of historical records",
+    "meaning_en": "Custodian of historical documents and records",
     "category": "oneword"
   },
   {
     "phrase": "One who deliberately sets fire to property",
     "word": "Arsonist",
     "meaning_hi": "आगजनी करने वाला",
-    "meaning_en": "One who commits arson",
+    "meaning_en": "One who commits the crime of arson",
     "category": "oneword"
   },
   {
     "phrase": "One who is skilled in handicrafts",
     "word": "Artisan",
     "meaning_hi": "दस्तकार",
-    "meaning_en": "Skilled craftsperson",
+    "meaning_en": "Skilled craftsperson who makes things by hand",
     "category": "oneword"
   },
   {
-    "phrase": "One who practises severe self-discipline",
+    "phrase": "One who practises severe self-discipline and avoids luxury",
     "word": "Ascetic",
     "meaning_hi": "संन्यासी",
-    "meaning_en": "Person living life of self-denial",
+    "meaning_en": "Person living a life of self-denial",
     "category": "oneword"
   },
   {
-    "phrase": "One who studies the stars",
+    "phrase": "One who studies celestial bodies to make predictions",
     "word": "Astrologer",
     "meaning_hi": "ज्योतिषी",
-    "meaning_en": "One who studies celestial bodies for predictions",
+    "meaning_en": "One who predicts events from positions of stars",
     "category": "oneword"
   },
   {
-    "phrase": "One who studies the stars and planets",
+    "phrase": "One who scientifically studies stars and planets",
     "word": "Astronomer",
     "meaning_hi": "खगोलशास्त्री",
     "meaning_en": "Scientist who studies celestial bodies",
     "category": "oneword"
   },
   {
+    "phrase": "One who studies the stars using scientific instruments",
+    "word": "Astrophysicist",
+    "meaning_hi": "खगोल भौतिकीविद",
+    "meaning_en": "Scientist who studies the physical properties of stars",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who does not believe in God",
     "word": "Atheist",
     "meaning_hi": "नास्तिक",
-    "meaning_en": "Non-believer in God",
+    "meaning_en": "Person who denies the existence of God",
     "category": "oneword"
   },
   {
-    "phrase": "One who writes the life story of oneself",
+    "phrase": "One who checks and verifies accounts officially",
+    "word": "Auditor",
+    "meaning_hi": "लेखा परीक्षक",
+    "meaning_en": "Person who officially examines financial accounts",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who writes the story of their own life",
     "word": "Autobiographer",
     "meaning_hi": "आत्मकथाकार",
-    "meaning_en": "Self-life story writer",
+    "meaning_en": "Person who writes their own life story",
     "category": "oneword"
   },
   {
-    "phrase": "One who cannot pay debts",
+    "phrase": "One who is self-taught without formal education",
+    "word": "Autodidact",
+    "meaning_hi": "स्वयंशिक्षित",
+    "meaning_en": "Person who is self-taught",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who collects autographs",
+    "word": "Autograph collector",
+    "meaning_hi": "हस्ताक्षर संग्राहक",
+    "meaning_en": "Person who collects famous people's signatures",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is skilled in navigating and flying aircraft",
+    "word": "Aviator",
+    "meaning_hi": "हवाबाज़",
+    "meaning_en": "Person who flies aircraft",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies bacteria",
+    "word": "Bacteriologist",
+    "meaning_hi": "जीवाणु वैज्ञानिक",
+    "meaning_en": "Scientist who studies bacteria",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who makes and sells bread and cakes",
+    "word": "Baker",
+    "meaning_hi": "बेकर",
+    "meaning_en": "Person who bakes and sells bread",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is unable to pay debts",
     "word": "Bankrupt",
     "meaning_hi": "दिवालिया",
-    "meaning_en": "Unable to pay debts",
+    "meaning_en": "Person who is legally declared unable to pay debts",
     "category": "oneword"
   },
   {
-    "phrase": "One who cuts hair",
+    "phrase": "One who cuts and styles hair",
     "word": "Barber",
     "meaning_hi": "नाई",
-    "meaning_en": "Hair cutter",
+    "meaning_en": "Person who cuts hair professionally",
     "category": "oneword"
   },
   {
-    "phrase": "One who is fond of going to war",
+    "phrase": "One who is eager to fight or go to war",
     "word": "Belligerent",
     "meaning_hi": "युद्धप्रिय",
-    "meaning_en": "War-loving person",
+    "meaning_en": "Aggressive, war-loving person",
     "category": "oneword"
   },
   {
-    "phrase": "One who loves books",
+    "phrase": "One who collects and studies old books and manuscripts",
+    "word": "Bibliographer",
+    "meaning_hi": "ग्रंथ-विशेषज्ञ",
+    "meaning_en": "Person who studies or collects rare books",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who loves and collects books",
     "word": "Bibliophile",
     "meaning_hi": "पुस्तक प्रेमी",
-    "meaning_en": "Book lover",
+    "meaning_en": "Book lover and collector",
     "category": "oneword"
   },
   {
-    "phrase": "One who is intolerant of others' beliefs",
+    "phrase": "One who is intolerant of others' beliefs or opinions",
     "word": "Bigot",
     "meaning_hi": "कट्टरपंथी",
-    "meaning_en": "Intolerant and narrow-minded person",
+    "meaning_en": "Narrow-minded, intolerant person",
     "category": "oneword"
   },
   {
-    "phrase": "One who is skilled in two languages",
+    "phrase": "One who is fluent in two languages",
     "word": "Bilingual",
     "meaning_hi": "द्विभाषी",
-    "meaning_en": "Proficient in two languages",
+    "meaning_en": "Person proficient in two languages",
     "category": "oneword"
   },
   {
-    "phrase": "One who writes the life of another",
+    "phrase": "One who writes the life story of another person",
     "word": "Biographer",
     "meaning_hi": "जीवनी लेखक",
-    "meaning_en": "Life story writer",
+    "meaning_en": "Writer of another person's life story",
     "category": "oneword"
   },
   {
     "phrase": "One who studies living organisms",
     "word": "Biologist",
     "meaning_hi": "जीवविज्ञानी",
-    "meaning_en": "Life scientist",
+    "meaning_en": "Scientist who studies life and living organisms",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who causes harm by deliberately spreading disease",
+    "word": "Bioterrorist",
+    "meaning_hi": "जैव आतंकवादी",
+    "meaning_en": "Person who uses biological agents to cause harm",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who works with metal using a forge",
+    "word": "Blacksmith",
+    "meaning_hi": "लोहार",
+    "meaning_en": "Person who forges and shapes metal",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who cannot see",
+    "word": "Blind",
+    "meaning_hi": "अंधा",
+    "meaning_en": "Person lacking the sense of sight",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who keeps a record of financial transactions",
+    "word": "Bookkeeper",
+    "meaning_hi": "बहीखाता रखने वाला",
+    "meaning_en": "Person who records financial transactions systematically",
     "category": "oneword"
   },
   {
     "phrase": "One who studies plants",
     "word": "Botanist",
     "meaning_hi": "वनस्पति वैज्ञानिक",
-    "meaning_en": "Plant scientist",
+    "meaning_en": "Scientist specialising in plant study",
     "category": "oneword"
   },
   {
-    "phrase": "One who draws maps",
+    "phrase": "One who works in a government office or administration",
+    "word": "Bureaucrat",
+    "meaning_hi": "नौकरशाह",
+    "meaning_en": "Official in a government department",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who practises the art of beautiful handwriting",
+    "word": "Calligrapher",
+    "meaning_hi": "सुलेखक",
+    "meaning_en": "Person skilled in the art of beautiful handwriting",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who specialises in the heart and its diseases",
+    "word": "Cardiologist",
+    "meaning_hi": "हृदय रोग विशेषज्ञ",
+    "meaning_en": "Doctor who specialises in heart diseases",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who draws or creates humorous or political pictures",
+    "word": "Caricaturist",
+    "meaning_hi": "व्यंग्यचित्रकार",
+    "meaning_en": "Person who draws exaggerated or humorous caricatures",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who eats only flesh or meat",
+    "word": "Carnivore",
+    "meaning_hi": "मांसाहारी",
+    "meaning_en": "Creature that feeds only on flesh",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who works with wood to make furniture",
+    "word": "Carpenter",
+    "meaning_hi": "बढ़ई",
+    "meaning_en": "Person who makes things from wood",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who draws or makes maps",
     "word": "Cartographer",
     "meaning_hi": "मानचित्रकार",
-    "meaning_en": "Map maker",
+    "meaning_en": "Person who makes maps",
     "category": "oneword"
   },
   {
-    "phrase": "One who pretends to be what he is not",
+    "phrase": "One who collects maps as a hobby",
+    "word": "Cartophilist",
+    "meaning_hi": "मानचित्र संग्राहक",
+    "meaning_en": "Person who collects old maps",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who seeks public attention and fame excessively",
+    "word": "Celebrity-seeker",
+    "meaning_hi": "प्रसिद्धि-लोभी",
+    "meaning_en": "Person obsessed with achieving fame",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who pretends to have skills or knowledge they lack",
     "word": "Charlatan",
     "meaning_hi": "ढोंगी",
-    "meaning_en": "A fraud or imposter",
+    "meaning_en": "Fraud or imposter who deceives others",
     "category": "oneword"
   },
   {
-    "phrase": "One who has narrow and prejudiced views",
+    "phrase": "One who has extreme or prejudiced patriotic views",
     "word": "Chauvinist",
     "meaning_hi": "अंधराष्ट्रवादी",
-    "meaning_en": "Extreme patriot or male supremacist",
+    "meaning_en": "Person with extreme and biased patriotism",
     "category": "oneword"
   },
   {
-    "phrase": "One who compiles a dictionary",
+    "phrase": "One who studies the composition and properties of substances",
+    "word": "Chemist",
+    "meaning_hi": "रसायनशास्त्री",
+    "meaning_en": "Scientist who studies chemistry",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who performs and choreographs dances",
+    "word": "Choreographer",
+    "meaning_hi": "नृत्य-निर्देशक",
+    "meaning_en": "Person who composes and arranges dance sequences",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who has an excessive and irrational fear of enclosed spaces",
+    "word": "Claustrophobe",
+    "meaning_hi": "बंद जगह से डरने वाला",
+    "meaning_en": "Person with an irrational fear of enclosed spaces",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies the earth's climate over long periods",
+    "word": "Climatologist",
+    "meaning_hi": "जलवायु वैज्ञानिक",
+    "meaning_en": "Scientist who studies long-term climate patterns",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who makes and repairs shoes",
+    "word": "Cobbler",
+    "meaning_hi": "मोची",
+    "meaning_en": "Person who makes or mends shoes",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who writes a column or regular piece for a newspaper",
+    "word": "Columnist",
+    "meaning_hi": "स्तंभ लेखक",
+    "meaning_en": "Journalist who writes a regular column",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who collects and arranges material into a publication",
     "word": "Compiler",
     "meaning_hi": "संकलक",
-    "meaning_en": "One who collects and arranges material",
+    "meaning_en": "One who gathers and arranges material",
     "category": "oneword"
   },
   {
-    "phrase": "One who is an expert in a particular subject",
+    "phrase": "One who collects and studies shells",
+    "word": "Conchologist",
+    "meaning_hi": "शंख-विशेषज्ञ",
+    "meaning_en": "Person who collects and studies shells",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is an expert judge of art, food or taste",
     "word": "Connoisseur",
     "meaning_hi": "विशेषज्ञ",
-    "meaning_en": "Expert judge of taste or art",
+    "meaning_en": "Expert judge of taste, art or quality",
     "category": "oneword"
   },
   {
-    "phrase": "One who is skilled in a craft",
+    "phrase": "One who opposes change and favours traditional values",
+    "word": "Conservative",
+    "meaning_hi": "रूढ़िवादी",
+    "meaning_en": "Person who dislikes change and favours traditional values",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is skilled in a particular craft",
     "word": "Craftsman",
     "meaning_hi": "कारीगर",
-    "meaning_en": "Skilled maker",
+    "meaning_en": "Person skilled in making things by hand",
     "category": "oneword"
   },
   {
-    "phrase": "One who is cowardly",
+    "phrase": "One who is excessively timid and cowardly",
     "word": "Craven",
     "meaning_hi": "कायर",
-    "meaning_en": "Cowardly person",
+    "meaning_en": "Contemptibly cowardly person",
     "category": "oneword"
   },
   {
-    "phrase": "One who easily believes others",
+    "phrase": "One who is too ready to believe without evidence",
     "word": "Credulous",
     "meaning_hi": "भोला विश्वास करने वाला",
-    "meaning_en": "Gullible person",
+    "meaning_en": "Gullible person who believes too easily",
     "category": "oneword"
   },
   {
-    "phrase": "One who criticizes literary or artistic works",
+    "phrase": "One who evaluates and judges literary or artistic works",
     "word": "Critic",
     "meaning_hi": "आलोचक",
-    "meaning_en": "One who judges and reviews",
+    "meaning_en": "Person who judges and reviews creative works",
     "category": "oneword"
   },
   {
-    "phrase": "One who is in charge of a museum",
+    "phrase": "One who is an expert in decoding secret messages",
+    "word": "Cryptanalyst",
+    "meaning_hi": "संकेत-विश्लेषक",
+    "meaning_en": "Expert in breaking coded or encrypted messages",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who writes secret messages in code",
+    "word": "Cryptographer",
+    "meaning_hi": "संकेत-लेखक",
+    "meaning_en": "Person who writes or deciphers coded messages",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is in charge of a museum or gallery",
     "word": "Curator",
     "meaning_hi": "संग्रहालयाध्यक्ष",
-    "meaning_en": "Museum administrator",
+    "meaning_en": "Museum or gallery administrator",
     "category": "oneword"
   },
   {
-    "phrase": "One who is devoted to sensual pleasure",
+    "phrase": "One who distrusts human motives and is always critical",
+    "word": "Cynic",
+    "meaning_hi": "निंदक",
+    "meaning_en": "Person who believes people act only from selfish motives",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who cannot hear",
+    "word": "Deaf",
+    "meaning_hi": "बहरा",
+    "meaning_en": "Person lacking the sense of hearing",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is devoted to sensual pleasure and excess",
     "word": "Debauchee",
     "meaning_hi": "भोगी व्यक्ति",
-    "meaning_en": "Sensual or immoral person",
+    "meaning_en": "Person who indulges excessively in sensual pleasure",
     "category": "oneword"
   },
   {
-    "phrase": "One who deserts his principles or party",
+    "phrase": "One who borrows money and fails to repay",
+    "word": "Defaulter",
+    "meaning_hi": "चूककर्ता",
+    "meaning_en": "Person who fails to fulfil a financial obligation",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who deserts their own principles or political party",
     "word": "Defector",
     "meaning_hi": "दलबदलू",
-    "meaning_en": "One who abandons a cause",
+    "meaning_en": "One who abandons a cause or allegiance",
     "category": "oneword"
   },
   {
-    "phrase": "One who rules without sharing power",
+    "phrase": "One who defends an accused person in court",
+    "word": "Defence counsel",
+    "meaning_hi": "बचाव पक्ष का वकील",
+    "meaning_en": "Lawyer who defends the accused in a legal case",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who believes God exists but does not intervene in the world",
+    "word": "Deist",
+    "meaning_hi": "देववादी",
+    "meaning_en": "Person who believes in a creator God who does not interfere",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who exploits popular prejudices to gain power",
+    "word": "Demagogue",
+    "meaning_hi": "जनमत भड़काने वाला नेता",
+    "meaning_en": "Political leader who exploits public prejudices",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who advocates the rights and interests of the people",
+    "word": "Democrat",
+    "meaning_hi": "लोकतंत्रवादी",
+    "meaning_en": "Person who supports democratic principles and governance",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies the population and its statistics",
+    "word": "Demographer",
+    "meaning_hi": "जनसंख्या विशेषज्ञ",
+    "meaning_en": "Scientist who studies population statistics",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who specialises in the study and treatment of teeth",
+    "word": "Dentist",
+    "meaning_hi": "दंत चिकित्सक",
+    "meaning_en": "Medical professional who treats teeth and gums",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who specialises in diseases of the skin",
+    "word": "Dermatologist",
+    "meaning_hi": "त्वचा रोग विशेषज्ञ",
+    "meaning_en": "Doctor who treats skin conditions",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who designs and sews clothes professionally",
+    "word": "Designer",
+    "meaning_hi": "परिधान डिज़ाइनर",
+    "meaning_en": "Person who creates clothing or fashion designs",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who rules with total power and cruelty",
     "word": "Despot",
     "meaning_hi": "तानाशाह",
-    "meaning_en": "Tyrant",
+    "meaning_en": "Tyrant who rules without sharing power",
     "category": "oneword"
   },
   {
-    "phrase": "One who does a thing for pleasure not as a profession",
+    "phrase": "One who believes all events are caused and determined",
+    "word": "Determinist",
+    "meaning_hi": "नियतिवादी",
+    "meaning_en": "Person who believes all events are determined by prior causes",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies the development of language",
+    "word": "Dialectologist",
+    "meaning_hi": "भाषा-भेद विशेषज्ञ",
+    "meaning_en": "Scholar who studies dialects and regional language variations",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who rules a country alone with absolute power",
+    "word": "Dictator",
+    "meaning_hi": "तानाशाह",
+    "meaning_en": "Ruler with absolute and often oppressive power",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who does something for pleasure and not professionally",
     "word": "Dilettante",
     "meaning_hi": "शौकिया व्यक्ति",
-    "meaning_en": "Amateur",
+    "meaning_en": "Amateur who engages in an activity superficially",
     "category": "oneword"
   },
   {
-    "phrase": "One who speaks fluently and expressively",
-    "word": "Eloquent",
-    "meaning_hi": "प्रभावी वक्ता",
-    "meaning_en": "Persuasive and expressive speaker",
+    "phrase": "One who represents their country in diplomatic negotiations",
+    "word": "Diplomat",
+    "meaning_hi": "राजनयिक",
+    "meaning_en": "Person skilled in managing international relations",
     "category": "oneword"
   },
   {
-    "phrase": "One who leaves one's country to settle in another",
+    "phrase": "One who has an uncontrollable craving for alcohol",
+    "word": "Dipsomaniac",
+    "meaning_hi": "शराब की लत वाला",
+    "meaning_en": "Person with an uncontrollable craving for alcohol",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who writes plays and dramas",
+    "word": "Dramatist",
+    "meaning_hi": "नाटककार",
+    "meaning_en": "Person who writes plays or stage performances",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies the environment and ecosystems",
+    "word": "Ecologist",
+    "meaning_hi": "पारिस्थितिकीविद",
+    "meaning_en": "Scientist who studies organisms and their environment",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies and reports on economic matters",
+    "word": "Economist",
+    "meaning_hi": "अर्थशास्त्री",
+    "meaning_en": "Expert who studies the production and distribution of wealth",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who collects and processes news for media",
+    "word": "Editor",
+    "meaning_hi": "संपादक",
+    "meaning_en": "Person who prepares content for publication",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who believes in equal rights for all races",
+    "word": "Egalitarian",
+    "meaning_hi": "समतावादी",
+    "meaning_en": "Person who believes in equality for all people",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is excessively concerned with their own importance",
+    "word": "Egoist",
+    "meaning_hi": "अहंकारी",
+    "meaning_en": "Person who is self-centred and self-important",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who uses public funds dishonestly for personal gain",
+    "word": "Embezzler",
+    "meaning_hi": "गबनकर्ता",
+    "meaning_en": "Person who steals money entrusted to their care",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who leaves their own country to settle in another",
     "word": "Emigrant",
     "meaning_hi": "प्रवासी",
-    "meaning_en": "One who leaves their country",
+    "meaning_en": "One who leaves their homeland to live elsewhere",
     "category": "oneword"
   },
   {
-    "phrase": "One who is highly educated and knowledgeable",
+    "phrase": "One who believes knowledge comes only from sensory experience",
+    "word": "Empiricist",
+    "meaning_hi": "अनुभववादी",
+    "meaning_en": "Person who believes knowledge is based on experience",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who designs and oversees construction of large structures",
+    "word": "Engineer",
+    "meaning_hi": "अभियंता",
+    "meaning_en": "Person who designs and builds engineering projects",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who collects and studies insects",
+    "word": "Entomologist",
+    "meaning_hi": "कीट विज्ञानी",
+    "meaning_en": "Scientist who studies insects",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is sent by a government to represent it in another country",
+    "word": "Envoy",
+    "meaning_hi": "दूत",
+    "meaning_en": "Official messenger or representative of a government",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who seeks sensual and intellectual pleasure",
+    "word": "Epicurean",
+    "meaning_hi": "सुखवादी",
+    "meaning_en": "Person devoted to refined sensual enjoyment",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is highly learned and scholarly",
     "word": "Erudite",
     "meaning_hi": "विद्वान",
-    "meaning_en": "Highly learned person",
+    "meaning_en": "Person with great depth of knowledge",
     "category": "oneword"
   },
   {
-    "phrase": "One who is banished from one's own country",
+    "phrase": "One who writes essays on various topics",
+    "word": "Essayist",
+    "meaning_hi": "निबंधकार",
+    "meaning_en": "Writer who specialises in writing essays",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who kills their own race or people",
+    "word": "Ethnic cleanser",
+    "meaning_hi": "जातिसंहारी",
+    "meaning_en": "Person who commits ethnic cleansing against their own group",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies the origin and history of words",
+    "word": "Etymologist",
+    "meaning_hi": "व्युत्पत्तिशास्त्री",
+    "meaning_en": "Scholar who studies the origin and history of words",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is banished from their own country",
     "word": "Exile",
     "meaning_hi": "देशनिर्वासित",
-    "meaning_en": "Person expelled from homeland",
+    "meaning_en": "Person expelled from their homeland",
     "category": "oneword"
   },
   {
-    "phrase": "One who kills for religious reasons",
+    "phrase": "One who speaks without preparation",
+    "word": "Extempore speaker",
+    "meaning_hi": "तत्काल वक्ता",
+    "meaning_en": "Person who speaks without prior preparation",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who steals from others using threats or force",
+    "word": "Extortionist",
+    "meaning_hi": "जबरन वसूली करने वाला",
+    "meaning_en": "Person who uses threats to obtain money or favours",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who holds an extreme right-wing or left-wing political view",
+    "word": "Extremist",
+    "meaning_hi": "चरमपंथी",
+    "meaning_en": "Person who holds extreme political or religious views",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is cheerful, sociable and enjoys the company of others",
+    "word": "Extrovert",
+    "meaning_hi": "बहिर्मुखी",
+    "meaning_en": "Person who is outgoing and energised by being with others",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is fanatically devoted to a cause and acts violently",
     "word": "Fanatic",
-    "meaning_hi": "धर्मांध हत्यारा",
-    "meaning_en": "Religious extremist",
+    "meaning_hi": "कट्टरपंथी",
+    "meaning_en": "Extremist with obsessive devotion to a cause",
     "category": "oneword"
   },
   {
-    "phrase": "One who is difficult to please",
+    "phrase": "One who fasts frequently for religious or health reasons",
+    "word": "Faster",
+    "meaning_hi": "उपवासी",
+    "meaning_en": "Person who regularly abstains from food",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is excessively hard to please",
     "word": "Fastidious",
-    "meaning_hi": "नखरीला",
-    "meaning_en": "Hard to satisfy",
+    "meaning_hi": "नखरेबाज",
+    "meaning_en": "Person who is very particular and hard to satisfy",
     "category": "oneword"
   },
   {
-    "phrase": "One who believes in fate",
+    "phrase": "One who believes that all events are predetermined by fate",
     "word": "Fatalist",
     "meaning_hi": "भाग्यवादी",
-    "meaning_en": "Believer in destiny",
+    "meaning_en": "Person who believes everything is destined",
     "category": "oneword"
   },
   {
-    "phrase": "One who kills one's own brother",
+    "phrase": "One who commits a crime against the state",
+    "word": "Felon",
+    "meaning_hi": "अपराधी",
+    "meaning_en": "Person convicted of a serious crime",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who believes in equality between men and women",
+    "word": "Feminist",
+    "meaning_hi": "नारीवादी",
+    "meaning_en": "Person who advocates equality of the sexes",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who kills a member of their own family",
+    "word": "Filicide",
+    "meaning_hi": "स्वजन हत्यारा",
+    "meaning_en": "Person who kills their own child or family member",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who commits a crime for the first time",
+    "word": "First offender",
+    "meaning_hi": "पहली बार अपराध करने वाला",
+    "meaning_en": "Person who commits a crime for the first time",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who makes or uses counterfeit money or documents",
+    "word": "Forger",
+    "meaning_hi": "जाली दस्तावेज़ बनाने वाला",
+    "meaning_en": "Person who fakes documents, currency or signatures",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who collects and studies fossils",
+    "word": "Fossil collector",
+    "meaning_hi": "जीवाश्म संग्राहक",
+    "meaning_en": "Person who collects and studies fossilised remains",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who kills their own brother",
     "word": "Fratricide",
     "meaning_hi": "भ्रातृहत्या करने वाला",
-    "meaning_en": "Killer of a brother",
+    "meaning_en": "Killer of one's own brother",
     "category": "oneword"
   },
   {
-    "phrase": "One who runs away from justice",
+    "phrase": "One who eats and drinks at another's expense",
+    "word": "Freeloader",
+    "meaning_hi": "मुफ्तखोर",
+    "meaning_en": "Person who takes advantage of others' generosity",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who escapes from custody or flees from the law",
     "word": "Fugitive",
     "meaning_hi": "भगोड़ा",
-    "meaning_en": "Person fleeing law",
+    "meaning_en": "Person fleeing from justice or the law",
     "category": "oneword"
   },
   {
-    "phrase": "One who studies rocks and minerals",
+    "phrase": "One who talks excessively and at great length",
+    "word": "Garrulous",
+    "meaning_hi": "बातूनी",
+    "meaning_en": "Person who talks too much about trivial things",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies heredity and genes",
+    "word": "Geneticist",
+    "meaning_hi": "आनुवंशिकीविद",
+    "meaning_en": "Scientist who studies genes and heredity",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who kills a large number of people of a particular group",
+    "word": "Genocide",
+    "meaning_hi": "नरसंहार करने वाला",
+    "meaning_en": "Killing of a large group of people, especially an ethnic group",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies rocks, minerals and the earth",
     "word": "Geologist",
     "meaning_hi": "भूविज्ञानी",
-    "meaning_en": "Earth scientist",
+    "meaning_en": "Scientist who studies the earth's structure",
     "category": "oneword"
   },
   {
-    "phrase": "One who eats too much",
+    "phrase": "One who specialises in care of the elderly",
+    "word": "Geriatrician",
+    "meaning_hi": "वृद्धावस्था रोग विशेषज्ञ",
+    "meaning_en": "Doctor who specialises in elderly care",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who eats too much and excessively",
     "word": "Glutton",
     "meaning_hi": "पेटू",
-    "meaning_en": "Excessive eater",
+    "meaning_en": "Person who overindulges in food",
     "category": "oneword"
   },
   {
-    "phrase": "One who looks after the interests of another",
+    "phrase": "One who is fond of and skilled at cooking",
+    "word": "Gourmet",
+    "meaning_hi": "पाक-प्रेमी",
+    "meaning_en": "Person with a refined taste for food and cooking",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies handwriting to analyse character",
+    "word": "Graphologist",
+    "meaning_hi": "हस्तलेख विशेषज्ञ",
+    "meaning_en": "Expert who analyses character through handwriting",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who looks after the interests and welfare of another",
     "word": "Guardian",
     "meaning_hi": "संरक्षक",
     "meaning_en": "Protector or caretaker",
     "category": "oneword"
   },
   {
-    "phrase": "One who is devoted to pleasure",
+    "phrase": "One who hacks into computer systems without permission",
+    "word": "Hacker",
+    "meaning_hi": "हैकर",
+    "meaning_en": "Person who illegally accesses computer systems",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is devoted to seeking pleasure above all",
     "word": "Hedonist",
     "meaning_hi": "भोगवादी",
-    "meaning_en": "Pleasure seeker",
+    "meaning_en": "Person who lives for pleasure",
     "category": "oneword"
   },
   {
-    "phrase": "One who lives apart from society",
+    "phrase": "One who eats only plant-based food",
+    "word": "Herbivore",
+    "meaning_hi": "शाकाहारी",
+    "meaning_en": "Creature that feeds only on plants",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who lives alone, away from society",
     "word": "Hermit",
     "meaning_hi": "एकांतवासी",
-    "meaning_en": "Person living in seclusion",
+    "meaning_en": "Person living in seclusion away from others",
     "category": "oneword"
   },
   {
-    "phrase": "One who studies the history of mankind",
+    "phrase": "One who studies snakes",
+    "word": "Herpetologist",
+    "meaning_hi": "सरीसृप वैज्ञानिक",
+    "meaning_en": "Scientist who studies reptiles and amphibians",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies and records past events",
     "word": "Historian",
     "meaning_hi": "इतिहासकार",
-    "meaning_en": "Scholar of history",
+    "meaning_en": "Scholar who studies and writes about history",
     "category": "oneword"
   },
   {
-    "phrase": "One who loves and promotes human welfare",
+    "phrase": "One who kills for money without personal motive",
+    "word": "Hitman",
+    "meaning_hi": "किराए का हत्यारा",
+    "meaning_en": "Person hired to kill another person",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who secretly stores goods beyond what is needed",
+    "word": "Hoarder",
+    "meaning_hi": "जमाखोर",
+    "meaning_en": "Person who hoards goods, often during scarcity",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who commits the act of killing a human being",
+    "word": "Homicide",
+    "meaning_hi": "मानवहत्या करने वाला",
+    "meaning_en": "Person who kills another human being",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who promotes the welfare of all human beings",
     "word": "Humanitarian",
     "meaning_hi": "मानवतावादी",
-    "meaning_en": "Lover of humanity",
+    "meaning_en": "Person devoted to improving human welfare",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who has a fear of water",
+    "word": "Hydrophobe",
+    "meaning_hi": "पानी से डरने वाला",
+    "meaning_en": "Person with an irrational fear of water",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who suffers from anxiety about their health",
+    "word": "Hypochondriac",
+    "meaning_hi": "रोग-भ्रमी",
+    "meaning_en": "Person who is excessively worried about their health",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who pretends to be religious but is not sincere",
+    "word": "Hypocrite",
+    "meaning_hi": "पाखंडी",
+    "meaning_en": "Person who pretends to have virtues they do not possess",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies fish",
+    "word": "Ichthyologist",
+    "meaning_hi": "मत्स्य विज्ञानी",
+    "meaning_en": "Scientist who studies fish",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who has an impractical and idealistic approach to life",
+    "word": "Idealist",
+    "meaning_hi": "आदर्शवादी",
+    "meaning_en": "Person with idealistic views, often impractical",
     "category": "oneword"
   },
   {
     "phrase": "One who worships idols",
     "word": "Idolater",
     "meaning_hi": "मूर्तिपूजक",
-    "meaning_en": "Idol worshipper",
+    "meaning_en": "Person who worships idols or images",
     "category": "oneword"
   },
   {
-    "phrase": "One who does not care for art or literature",
+    "phrase": "One who is completely ignorant and uneducated",
     "word": "Ignoramus",
     "meaning_hi": "अज्ञानी",
-    "meaning_en": "Ignorant person",
+    "meaning_en": "Thoroughly ignorant person",
     "category": "oneword"
   },
   {
     "phrase": "One who cannot read or write",
     "word": "Illiterate",
     "meaning_hi": "अनपढ़",
-    "meaning_en": "Unable to read or write",
+    "meaning_en": "Person without literacy skills",
     "category": "oneword"
   },
   {
-    "phrase": "One who comes into a foreign country to settle",
+    "phrase": "One who comes into a foreign country to settle permanently",
     "word": "Immigrant",
     "meaning_hi": "अप्रवासी",
-    "meaning_en": "One who enters a new country",
+    "meaning_en": "Person who enters a new country to live there",
     "category": "oneword"
   },
   {
-    "phrase": "One who is without money",
+    "phrase": "One who has little or no money",
     "word": "Impecunious",
     "meaning_hi": "निर्धन",
-    "meaning_en": "Very poor person",
+    "meaning_en": "Very poor or penniless person",
     "category": "oneword"
   },
   {
-    "phrase": "One who cannot be corrected",
+    "phrase": "One who cannot be appeased or pacified",
+    "word": "Implacable",
+    "meaning_hi": "अडिग/अटल",
+    "meaning_en": "Person who cannot be calmed or made agreeable",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who manages and directs theatrical or musical productions",
+    "word": "Impresario",
+    "meaning_hi": "कार्यक्रम प्रबंधक",
+    "meaning_en": "Person who organises and promotes shows and performances",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who cannot be corrected or reformed",
     "word": "Incorrigible",
     "meaning_hi": "असुधार्य",
-    "meaning_en": "Impossible to reform",
+    "meaning_en": "Person impossible to reform or improve",
     "category": "oneword"
   },
   {
-    "phrase": "One who is never wrong",
+    "phrase": "One who is incapable of making mistakes",
     "word": "Infallible",
     "meaning_hi": "अचूक",
-    "meaning_en": "Incapable of error",
+    "meaning_en": "Person or thing that is never wrong",
     "category": "oneword"
   },
   {
-    "phrase": "One who kills one's own child",
+    "phrase": "One who kills an infant or their own child",
     "word": "Infanticide",
-    "meaning_hi": "बालहत्या करने वाला",
-    "meaning_en": "Killer of an infant",
+    "meaning_hi": "शिशुहत्या करने वाला",
+    "meaning_en": "Killer of an infant or young child",
     "category": "oneword"
   },
   {
-    "phrase": "One who entertains people by joking and tricks",
+    "phrase": "One who secretly enters an organisation to gather information",
+    "word": "Infiltrator",
+    "meaning_hi": "घुसपैठिया",
+    "meaning_en": "Person who secretly enters a group to spy or undermine it",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who incites others to commit crimes or rebel",
+    "word": "Instigator",
+    "meaning_hi": "उकसावेबाज़",
+    "meaning_en": "Person who provokes others to commit crimes or acts",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who opposes their own government or ruler",
+    "word": "Insurgent",
+    "meaning_hi": "विद्रोही",
+    "meaning_en": "Person who rises in armed resistance against a government",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who specialises in internal medicine",
+    "word": "Internist",
+    "meaning_hi": "आंतरिक रोग विशेषज्ञ",
+    "meaning_en": "Doctor who specialises in internal medicine",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who interprets and translates spoken language",
+    "word": "Interpreter",
+    "meaning_hi": "दुभाषिया",
+    "meaning_en": "Person who translates spoken language in real time",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is reserved and finds energy in solitude",
+    "word": "Introvert",
+    "meaning_hi": "अंतर्मुखी",
+    "meaning_en": "Person who is reserved and prefers solitude",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who entertains people with jokes and tricks",
     "word": "Jester",
     "meaning_hi": "विदूषक",
-    "meaning_en": "Court entertainer or clown",
+    "meaning_en": "Court entertainer or comedian",
     "category": "oneword"
   },
   {
-    "phrase": "One who keeps a journal or diary",
+    "phrase": "One who is excessively and sentimentally patriotic",
+    "word": "Jingoist",
+    "meaning_hi": "अंधराष्ट्रवादी",
+    "meaning_en": "Person with extreme and aggressive patriotism",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who writes news reports for a publication",
     "word": "Journalist",
     "meaning_hi": "पत्रकार",
     "meaning_en": "News reporter or writer",
     "category": "oneword"
   },
   {
-    "phrase": "One who administers justice",
+    "phrase": "One who administers the law and delivers verdicts",
     "word": "Judge",
     "meaning_hi": "न्यायाधीश",
-    "meaning_en": "One who gives legal verdicts",
+    "meaning_en": "Person who gives legal verdicts in court",
     "category": "oneword"
   },
   {
-    "phrase": "One who is knowledgeable about law",
+    "phrase": "One who analyses and interprets laws",
+    "word": "Jurisprudent",
+    "meaning_hi": "न्यायशास्त्री",
+    "meaning_en": "Expert who analyses and interprets legal principles",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is an expert in the law",
     "word": "Jurist",
     "meaning_hi": "कानूनी विशेषज्ञ",
-    "meaning_en": "Legal expert",
+    "meaning_en": "Legal expert and scholar",
     "category": "oneword"
   },
   {
-    "phrase": "One who kills his own kin",
-    "word": "Kin-slayer",
-    "meaning_hi": "स्वजन हत्यारा",
-    "meaning_en": "Killer of own family member",
+    "phrase": "One who has an obsession with stealing",
+    "word": "Kleptomaniac",
+    "meaning_hi": "चोरी की पागल इच्छा वाला",
+    "meaning_en": "Person with an uncontrollable urge to steal",
     "category": "oneword"
   },
   {
-    "phrase": "One who makes a dictionary",
+    "phrase": "One who cuts and polishes precious stones",
+    "word": "Lapidary",
+    "meaning_hi": "रत्नकार",
+    "meaning_en": "Person who cuts and engraves precious stones",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is licensed to practise law in courts",
+    "word": "Lawyer",
+    "meaning_hi": "वकील",
+    "meaning_en": "Person qualified and licensed to practise law",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who collects and studies butterflies and moths",
+    "word": "Lepidopterist",
+    "meaning_hi": "तितली विशेषज्ञ",
+    "meaning_en": "Person who studies butterflies and moths",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who compiles and writes dictionaries",
     "word": "Lexicographer",
     "meaning_hi": "शब्दकोश निर्माता",
-    "meaning_en": "Dictionary maker",
+    "meaning_en": "Person who writes or edits dictionaries",
     "category": "oneword"
   },
   {
-    "phrase": "One who speaks or writes in more than one language",
+    "phrase": "One who believes in individual freedom in political and social matters",
+    "word": "Liberal",
+    "meaning_hi": "उदारवादी",
+    "meaning_en": "Person who believes in freedom and tolerant values",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who writes the words for a musical or opera",
+    "word": "Librettist",
+    "meaning_hi": "संगीत नाटक लेखक",
+    "meaning_en": "Writer who writes the lyrics or text for an opera",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies language and linguistics",
     "word": "Linguist",
     "meaning_hi": "भाषाशास्त्री",
-    "meaning_en": "Language expert",
+    "meaning_en": "Expert in languages and linguistic science",
     "category": "oneword"
   },
   {
-    "phrase": "One who prefers to be alone",
+    "phrase": "One who prefers to be alone and avoids company",
     "word": "Loner",
     "meaning_hi": "एकांतप्रिय व्यक्ति",
     "meaning_en": "Person who prefers solitude",
     "category": "oneword"
   },
   {
-    "phrase": "One who talks a great deal",
-    "word": "Loquacious",
-    "meaning_hi": "बहुत बोलने वाला",
-    "meaning_en": "Very talkative person",
+    "phrase": "One who writes the words of songs",
+    "word": "Lyricist",
+    "meaning_hi": "गीतकार",
+    "meaning_en": "Person who writes lyrics for songs",
     "category": "oneword"
   },
   {
-    "phrase": "One who is always afraid of losing",
-    "word": "Loser",
-    "meaning_hi": "हारने वाला",
-    "meaning_en": "Chronic failure",
-    "category": "oneword"
-  },
-  {
-    "phrase": "One who is an expert at something",
+    "phrase": "One who is an acknowledged master in a field, especially music",
     "word": "Maestro",
     "meaning_hi": "उस्ताद",
-    "meaning_en": "A master or expert",
+    "meaning_en": "Recognised master or great expert in a field",
     "category": "oneword"
   },
   {
-    "phrase": "One who performs tricks to entertain",
+    "phrase": "One who performs illusions and tricks to entertain",
     "word": "Magician",
     "meaning_hi": "जादूगर",
-    "meaning_en": "Illusionist or conjurer",
+    "meaning_en": "Illusionist or conjurer who performs tricks",
     "category": "oneword"
   },
   {
-    "phrase": "One who kills one's own mother",
+    "phrase": "One who pretends to be ill to avoid work",
+    "word": "Malingerer",
+    "meaning_hi": "नकली बीमार",
+    "meaning_en": "Person who fakes illness to avoid duty",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who kills their own husband",
+    "word": "Mariticide",
+    "meaning_hi": "पति की हत्या करने वाला",
+    "meaning_en": "Person who kills their own husband",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is willing to fight and die for their beliefs",
+    "word": "Martyr",
+    "meaning_hi": "शहीद",
+    "meaning_en": "Person who suffers or dies for a cause or belief",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who derives pleasure from their own suffering",
+    "word": "Masochist",
+    "meaning_hi": "स्वयं को तकलीफ देकर खुश होने वाला",
+    "meaning_en": "Person who derives pleasure from their own pain",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who kills their own mother",
     "word": "Matricide",
     "meaning_hi": "मातृहत्या करने वाला",
-    "meaning_en": "Killer of a mother",
+    "meaning_en": "Person who kills their own mother",
     "category": "oneword"
   },
   {
-    "phrase": "One who is passionate about music",
+    "phrase": "One who has delusions of great power or importance",
+    "word": "Megalomaniac",
+    "meaning_hi": "महत्ता का भ्रम रखने वाला",
+    "meaning_en": "Person who has an obsession with power and importance",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who has a passionate love for music",
     "word": "Melomaniac",
     "meaning_hi": "संगीत-प्रेमी",
-    "meaning_en": "Music lover",
+    "meaning_en": "Person with intense love of music",
     "category": "oneword"
   },
   {
@@ -553,465 +1386,1025 @@
     "category": "oneword"
   },
   {
-    "phrase": "One who hates mankind",
+    "phrase": "One who is hired to fight for any side that pays",
+    "word": "Mercenary",
+    "meaning_hi": "भाड़े का सैनिक",
+    "meaning_en": "Soldier hired to fight for a foreign country for money",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who claims to speak on behalf of God",
+    "word": "Messiah",
+    "meaning_hi": "मसीहा",
+    "meaning_en": "Person believed to be a saviour or liberator",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies the weather and atmosphere",
+    "word": "Meteorologist",
+    "meaning_hi": "मौसम वैज्ञानिक",
+    "meaning_en": "Scientist who studies and predicts weather",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who has a strong dislike of men",
+    "word": "Misandrist",
+    "meaning_hi": "पुरुष-द्वेषी",
+    "meaning_en": "Person who dislikes or has a prejudice against men",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who hates or distrusts all people",
     "word": "Misanthrope",
     "meaning_hi": "मानवद्वेषी",
-    "meaning_en": "Hater of mankind",
+    "meaning_en": "Person who hates or distrusts humanity",
     "category": "oneword"
   },
   {
-    "phrase": "One who is obsessively greedy for money",
+    "phrase": "One who is excessively stingy and hoards money",
     "word": "Miser",
-    "meaning_hi": "कंजूस/लोभी",
-    "meaning_en": "Greedy hoarder of money",
+    "meaning_hi": "कंजूस",
+    "meaning_en": "Greedy person who hoards wealth",
     "category": "oneword"
   },
   {
-    "phrase": "One who hates marriage",
+    "phrase": "One who hates or opposes marriage",
     "word": "Misogamist",
     "meaning_hi": "विवाह-विरोधी",
-    "meaning_en": "One who hates marriage",
+    "meaning_en": "Person who hates or opposes the institution of marriage",
     "category": "oneword"
   },
   {
     "phrase": "One who hates women",
     "word": "Misogynist",
     "meaning_hi": "स्त्री-द्वेषी",
-    "meaning_en": "Hater of women",
+    "meaning_en": "Person who has a strong dislike or prejudice against women",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who cannot speak",
+    "word": "Mute",
+    "meaning_hi": "गूंगा",
+    "meaning_en": "Person who is unable to speak",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies fungi",
+    "word": "Mycologist",
+    "meaning_hi": "फफूंद विज्ञानी",
+    "meaning_en": "Scientist who studies fungi",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is abnormally obsessed with cleanliness",
+    "word": "Mysophobe",
+    "meaning_hi": "सफाई की पागल चाहत वाला",
+    "meaning_en": "Person with an abnormal fear of dirt and germs",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is obsessively in love with themselves",
+    "word": "Narcissist",
+    "meaning_hi": "आत्ममुग्ध व्यक्ति",
+    "meaning_en": "Person with excessive love and admiration for themselves",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who tells a story in a book or film",
+    "word": "Narrator",
+    "meaning_hi": "कथावाचक",
+    "meaning_en": "Person who tells or narrates a story",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who has a great love of and respect for their country",
+    "word": "Nationalist",
+    "meaning_hi": "राष्ट्रवादी",
+    "meaning_en": "Person with strong feelings of pride and love for their nation",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who operates or steers a ship",
+    "word": "Navigator",
+    "meaning_hi": "नाविक",
+    "meaning_en": "Person who directs the course of a ship or aircraft",
     "category": "oneword"
   },
   {
     "phrase": "One who is new to a profession or activity",
     "word": "Neophyte",
     "meaning_hi": "नवसिखिया",
-    "meaning_en": "Beginner or novice",
+    "meaning_en": "Beginner or novice in a field",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who specialises in the brain and nervous system",
+    "word": "Neurologist",
+    "meaning_hi": "तंत्रिका रोग विशेषज्ञ",
+    "meaning_en": "Doctor who treats disorders of the nervous system",
     "category": "oneword"
   },
   {
     "phrase": "One who believes that life has no meaning or purpose",
     "word": "Nihilist",
-    "meaning_hi": "निरर्थकता में विश्वास करने वाला",
-    "meaning_en": "One who believes nothing has meaning",
+    "meaning_hi": "शून्यवादी",
+    "meaning_en": "Person who believes nothing has value or meaning",
     "category": "oneword"
   },
   {
-    "phrase": "One who wanders from place to place",
+    "phrase": "One who wanders from place to place without a fixed home",
     "word": "Nomad",
     "meaning_hi": "घुमक्कड़",
-    "meaning_en": "Wanderer without a fixed home",
+    "meaning_en": "Person with no fixed home who moves constantly",
     "category": "oneword"
   },
   {
-    "phrase": "One who does not follow conventional rules",
+    "phrase": "One who does not follow conventional rules or beliefs",
     "word": "Nonconformist",
     "meaning_hi": "परंपरा-विरोधी",
-    "meaning_en": "Rebel against norms",
+    "meaning_en": "Person who rebels against norms and conventions",
     "category": "oneword"
   },
   {
-    "phrase": "One who is young and inexperienced",
+    "phrase": "One who writes fiction, especially novels",
+    "word": "Novelist",
+    "meaning_hi": "उपन्यासकार",
+    "meaning_en": "Person who writes novels",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is young and new to a job or situation",
     "word": "Novice",
     "meaning_hi": "नौसिखिया",
-    "meaning_en": "Beginner",
+    "meaning_en": "Complete beginner with no experience",
     "category": "oneword"
   },
   {
-    "phrase": "One who collects or studies coins",
+    "phrase": "One who collects and studies coins and currency",
     "word": "Numismatist",
     "meaning_hi": "सिक्का संग्राहक",
-    "meaning_en": "Coin collector",
+    "meaning_en": "Collector and student of coins and currency",
     "category": "oneword"
   },
   {
-    "phrase": "One who tends the sick",
+    "phrase": "One who tends to and cares for the sick",
     "word": "Nurse",
     "meaning_hi": "परिचारिका",
-    "meaning_en": "Healthcare attendant",
+    "meaning_en": "Healthcare professional who tends the sick",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who can see only in the dark",
+    "word": "Nyctalope",
+    "meaning_hi": "रतौंधी वाला (विपरीत)",
+    "meaning_en": "Person who can see only in dim light or darkness",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies ocean and sea life",
+    "word": "Oceanographer",
+    "meaning_hi": "समुद्र विज्ञानी",
+    "meaning_en": "Scientist who studies the ocean and its contents",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies and prepares wines",
+    "word": "Oenologist",
+    "meaning_hi": "मद्य-विज्ञानी",
+    "meaning_en": "Expert in the science of wine and wine-making",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who collects wine as a hobby",
+    "word": "Oenophile",
+    "meaning_hi": "शराब-प्रेमी",
+    "meaning_en": "Person who enjoys and collects wines",
     "category": "oneword"
   },
   {
     "phrase": "One who is all-powerful",
     "word": "Omnipotent",
     "meaning_hi": "सर्वशक्तिमान",
-    "meaning_en": "All-powerful",
+    "meaning_en": "Being with unlimited power",
     "category": "oneword"
   },
   {
-    "phrase": "One who is present everywhere",
+    "phrase": "One who is present everywhere at all times",
     "word": "Omnipresent",
     "meaning_hi": "सर्वव्यापी",
-    "meaning_en": "Present everywhere",
+    "meaning_en": "Being present everywhere simultaneously",
     "category": "oneword"
   },
   {
     "phrase": "One who knows everything",
     "word": "Omniscient",
     "meaning_hi": "सर्वज्ञ",
-    "meaning_en": "All-knowing",
+    "meaning_en": "Being with complete and infinite knowledge",
     "category": "oneword"
   },
   {
-    "phrase": "One who is all-consuming or eats everything",
+    "phrase": "One who eats both plants and animals",
     "word": "Omnivore",
     "meaning_hi": "सर्वाहारी",
-    "meaning_en": "One who eats both plants and animals",
+    "meaning_en": "Creature that eats both plant and animal food",
     "category": "oneword"
   },
   {
-    "phrase": "One who studies the eyes",
+    "phrase": "One who specialises in treating cancer",
+    "word": "Oncologist",
+    "meaning_hi": "कैंसर रोग विशेषज्ञ",
+    "meaning_en": "Doctor who specialises in treating cancer",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is a specialist in eye diseases and disorders",
     "word": "Ophthalmologist",
     "meaning_hi": "नेत्र रोग विशेषज्ञ",
-    "meaning_en": "Eye doctor",
+    "meaning_en": "Medical specialist in eye diseases",
     "category": "oneword"
   },
   {
-    "phrase": "One who tends to look at the best side",
+    "phrase": "One who tends to look on the brighter side of things",
     "word": "Optimist",
     "meaning_hi": "आशावादी",
-    "meaning_en": "Positive outlook person",
+    "meaning_en": "Person who always expects good outcomes",
     "category": "oneword"
   },
   {
-    "phrase": "One who believes war is wrong",
+    "phrase": "One who is a skilled and powerful public speaker",
+    "word": "Orator",
+    "meaning_hi": "वक्ता",
+    "meaning_en": "A persuasive and eloquent public speaker",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies birds",
+    "word": "Ornithologist",
+    "meaning_hi": "पक्षी विज्ञानी",
+    "meaning_en": "Scientist who studies birds",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who corrects irregular teeth using braces",
+    "word": "Orthodontist",
+    "meaning_hi": "दन्त-सीधाकर्ता",
+    "meaning_en": "Dental specialist who straightens teeth",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who specialises in bones and skeletal disorders",
+    "word": "Orthopaedist",
+    "meaning_hi": "हड्डी रोग विशेषज्ञ",
+    "meaning_en": "Doctor who treats bone and skeletal disorders",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who believes that war and violence are wrong",
     "word": "Pacifist",
     "meaning_hi": "शांतिवादी",
-    "meaning_en": "One opposed to war",
+    "meaning_en": "Person who opposes all war and violence",
     "category": "oneword"
   },
   {
-    "phrase": "One who is fond of children",
-    "word": "Paedophile",
-    "meaning_hi": "बाल-यौन शोषक",
-    "meaning_en": "One attracted to children",
+    "phrase": "One who specialises in children's medicine",
+    "word": "Paediatrician",
+    "meaning_hi": "बाल रोग विशेषज्ञ",
+    "meaning_en": "Doctor who specialises in the health of children",
     "category": "oneword"
   },
   {
-    "phrase": "One who lives on another's earnings",
+    "phrase": "One who studies the origin and history of mankind",
+    "word": "Palaeanthropologist",
+    "meaning_hi": "प्राचीन मानव विज्ञानी",
+    "meaning_en": "Scientist who studies ancient human evolution",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies the past through written records",
+    "word": "Palaeographer",
+    "meaning_hi": "प्राचीन लिपि विशेषज्ञ",
+    "meaning_en": "Scholar who deciphers ancient manuscripts and inscriptions",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies fossil organisms",
+    "word": "Palaeontologist",
+    "meaning_hi": "जीवाश्म विज्ञानी",
+    "meaning_en": "Scientist who studies fossils of ancient organisms",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who believes God is present in all of nature",
+    "word": "Pantheist",
+    "meaning_hi": "सर्वेश्वरवादी",
+    "meaning_en": "Person who identifies God with the universe and nature",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who lives off another's work or resources",
     "word": "Parasite",
     "meaning_hi": "परजीवी",
-    "meaning_en": "One who exploits others for gain",
+    "meaning_en": "Person who exploits others without contributing",
     "category": "oneword"
   },
   {
-    "phrase": "One who kills one's own father",
+    "phrase": "One who kills their own father or parent",
     "word": "Parricide",
     "meaning_hi": "पितृहत्या करने वाला",
-    "meaning_en": "Killer of a parent",
+    "meaning_en": "Killer of one's own father or parent",
     "category": "oneword"
   },
   {
-    "phrase": "One who studies the dead and conducts post-mortems",
+    "phrase": "One who belongs to and supports a particular political party",
+    "word": "Partisan",
+    "meaning_hi": "पक्षधर",
+    "meaning_en": "Committed and often biased supporter of a party or cause",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies the nature of diseases",
     "word": "Pathologist",
     "meaning_hi": "रोग-विज्ञानी",
-    "meaning_en": "Disease and death investigator",
+    "meaning_en": "Medical specialist who diagnoses diseases through examination",
     "category": "oneword"
   },
   {
-    "phrase": "One who loves one's own country",
+    "phrase": "One who loves and defends their country",
     "word": "Patriot",
     "meaning_hi": "देशभक्त",
-    "meaning_en": "Country lover",
+    "meaning_en": "Person with strong love and loyalty to their country",
     "category": "oneword"
   },
   {
-    "phrase": "One who tends to look at the worst side",
+    "phrase": "One who travels from place to place selling goods",
+    "word": "Pedlar",
+    "meaning_hi": "फेरीवाला",
+    "meaning_en": "Person who travels selling small goods",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who gives false testimony under oath",
+    "word": "Perjurer",
+    "meaning_hi": "झूठी गवाही देने वाला",
+    "meaning_en": "Person who lies under oath in a legal proceeding",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who always expects the worst outcome",
     "word": "Pessimist",
     "meaning_hi": "निराशावादी",
-    "meaning_en": "Negative outlook person",
+    "meaning_en": "Person who sees the negative side of everything",
     "category": "oneword"
   },
   {
-    "phrase": "One who sells and dispenses medicines",
+    "phrase": "One who prepares and dispenses medicines",
     "word": "Pharmacist",
     "meaning_hi": "फार्मासिस्ट",
-    "meaning_en": "Medicine dispenser",
+    "meaning_en": "Trained professional who prepares and sells medicines",
     "category": "oneword"
   },
   {
-    "phrase": "One who is great giver of money to charity",
+    "phrase": "One who donates generously to charitable causes",
     "word": "Philanthropist",
     "meaning_hi": "परोपकारी",
-    "meaning_en": "Generous benefactor",
+    "meaning_en": "Person who promotes human welfare through generous donations",
     "category": "oneword"
   },
   {
-    "phrase": "One who collects stamps",
+    "phrase": "One who collects postage stamps as a hobby",
     "word": "Philatelist",
     "meaning_hi": "डाक टिकट संग्राहक",
-    "meaning_en": "Stamp collector",
+    "meaning_en": "Person who collects and studies postage stamps",
     "category": "oneword"
   },
   {
-    "phrase": "One who loves wisdom",
+    "phrase": "One who collects matchboxes and matchbox labels",
+    "word": "Phillumenist",
+    "meaning_hi": "माचिस संग्राहक",
+    "meaning_en": "Person who collects matchboxes and matchbox labels",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies the origin and history of words",
+    "word": "Philologist",
+    "meaning_hi": "भाषाशास्त्री",
+    "meaning_en": "Scholar who studies language and its historical development",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who loves and pursues wisdom",
     "word": "Philosopher",
     "meaning_hi": "दार्शनिक",
-    "meaning_en": "Lover of wisdom",
+    "meaning_en": "Seeker of wisdom and fundamental truths",
     "category": "oneword"
   },
   {
-    "phrase": "One who writes for another who gets credit",
+    "phrase": "One who is skilled in using a camera for photography",
+    "word": "Photographer",
+    "meaning_hi": "फोटोग्राफर",
+    "meaning_en": "Person skilled in taking photographs",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies the physical properties of matter",
+    "word": "Physicist",
+    "meaning_hi": "भौतिक वैज्ञानिक",
+    "meaning_en": "Scientist who studies matter, energy and their interactions",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies the human body and its functions",
+    "word": "Physiologist",
+    "meaning_hi": "शारीरिक क्रियाविद",
+    "meaning_en": "Scientist who studies the functions of living organisms",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who takes goods from a place without permission",
+    "word": "Pilferer",
+    "meaning_hi": "मामूली चोर",
+    "meaning_en": "Person who steals small amounts or items",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who steals and uses another's writing as their own",
     "word": "Plagiarist",
     "meaning_hi": "साहित्यिक चोर",
-    "meaning_en": "One who steals others' writing",
+    "meaning_en": "Person who copies and claims another's work as their own",
     "category": "oneword"
   },
   {
-    "phrase": "One who speaks many languages",
+    "phrase": "One who writes poetry",
+    "word": "Poet",
+    "meaning_hi": "कवि",
+    "meaning_en": "Person who writes poems",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is fluent in many languages",
     "word": "Polyglot",
     "meaning_hi": "बहुभाषाविद",
-    "meaning_en": "Person fluent in many languages",
+    "meaning_en": "Person who speaks many languages fluently",
     "category": "oneword"
   },
   {
-    "phrase": "One who has an extraordinary skill or talent",
+    "phrase": "One who has knowledge in a wide range of subjects",
+    "word": "Polymath",
+    "meaning_hi": "बहुज्ञ",
+    "meaning_en": "Person with broad and extensive knowledge in many fields",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who takes a practical rather than idealistic approach",
+    "word": "Pragmatist",
+    "meaning_hi": "व्यावहारिक विचारक",
+    "meaning_en": "Person who deals with things in a practical way",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who shows exceptional talent from an early age",
     "word": "Prodigy",
-    "meaning_hi": "प्रतिभाशाली बालक",
-    "meaning_en": "Person with exceptional talent",
+    "meaning_hi": "अलौकिक प्रतिभा वाला बालक",
+    "meaning_en": "Person with extraordinary talent, especially a gifted child",
     "category": "oneword"
   },
   {
-    "phrase": "One who foretells events",
+    "phrase": "One who sells goods at excessively high prices",
+    "word": "Profiteer",
+    "meaning_hi": "मुनाफाखोर",
+    "meaning_en": "Person who makes excessive profit by exploiting shortages",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who foretells future events",
     "word": "Prophet",
     "meaning_hi": "भविष्यवक्ता",
-    "meaning_en": "One who predicts the future",
+    "meaning_en": "Person who predicts or foretells future events",
     "category": "oneword"
   },
   {
-    "phrase": "One who studies the human mind",
+    "phrase": "One who accuses a person in court on behalf of the state",
+    "word": "Prosecutor",
+    "meaning_hi": "सरकारी वकील",
+    "meaning_en": "Lawyer who conducts the case against an accused person",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who writes under a false name",
+    "word": "Pseudonymist",
+    "meaning_hi": "छद्म नाम लेखक",
+    "meaning_en": "Writer who uses a false name",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who specialises in mental and emotional disorders",
+    "word": "Psychiatrist",
+    "meaning_hi": "मनोचिकित्सक",
+    "meaning_en": "Doctor who treats mental illnesses",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies the human mind and behaviour",
     "word": "Psychologist",
     "meaning_hi": "मनोवैज्ञानिक",
-    "meaning_en": "Mind scientist",
+    "meaning_en": "Scientist who studies the human mind",
     "category": "oneword"
   },
   {
-    "phrase": "One who claims medical skill without proper training",
+    "phrase": "One who is regarded as an expert and authority in a subject",
+    "word": "Pundit",
+    "meaning_hi": "पंडित",
+    "meaning_en": "Authoritative expert who is frequently consulted",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who has a mania for setting fire to things",
+    "word": "Pyromaniac",
+    "meaning_hi": "आग लगाने की पागल इच्छा वाला",
+    "meaning_en": "Person with an obsessive compulsion to set fire to things",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who falsely claims medical skill without proper training",
     "word": "Quack",
     "meaning_hi": "नीम-हकीम",
-    "meaning_en": "Fake doctor",
+    "meaning_en": "Untrained person who pretends to be a doctor",
     "category": "oneword"
   },
   {
-    "phrase": "One who is always questioning and doubting",
-    "word": "Questioner",
-    "meaning_hi": "प्रश्नकर्ता",
-    "meaning_en": "One who constantly questions",
-    "category": "oneword"
-  },
-  {
-    "phrase": "One who argues over trifles",
+    "phrase": "One who argues over petty and unimportant details",
     "word": "Quibbler",
     "meaning_hi": "तुच्छ बातों पर बहस करने वाला",
-    "meaning_en": "Petty arguer",
+    "meaning_en": "Person who raises petty objections",
     "category": "oneword"
   },
   {
-    "phrase": "One who is skilled in telling stories",
+    "phrase": "One who is skilled at telling entertaining stories",
     "word": "Raconteur",
     "meaning_hi": "कुशल कथावाचक",
-    "meaning_en": "Skilled storyteller",
+    "meaning_en": "Person who tells anecdotes in a skilful and amusing way",
     "category": "oneword"
   },
   {
-    "phrase": "One who lives in solitude",
+    "phrase": "One who holds extreme views in politics or religion",
+    "word": "Radical",
+    "meaning_hi": "उग्रवादी",
+    "meaning_en": "Person who advocates thorough and complete change",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who specialises in diagnosing diseases using imaging",
+    "word": "Radiologist",
+    "meaning_hi": "रेडियोलॉजिस्ट",
+    "meaning_en": "Doctor who uses imaging to diagnose diseases",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who believes in the power of reason over experience",
+    "word": "Rationalist",
+    "meaning_hi": "तर्कवादी",
+    "meaning_en": "Person who bases opinions on reason and knowledge",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who raises armed opposition against the government",
+    "word": "Rebel",
+    "meaning_hi": "विद्रोही",
+    "meaning_en": "Person who resists or fights against authority",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who lives alone and avoids all society",
     "word": "Recluse",
     "meaning_hi": "एकांतवासी",
-    "meaning_en": "Solitary person",
+    "meaning_en": "Person who lives a solitary life away from others",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who rules in the name of another who is absent",
+    "word": "Regent",
+    "meaning_hi": "शासक-प्रतिनिधि",
+    "meaning_en": "Person who rules temporarily on behalf of a monarch",
     "category": "oneword"
   },
   {
     "phrase": "One who kills a king",
     "word": "Regicide",
     "meaning_hi": "राजहत्या करने वाला",
-    "meaning_en": "Killer of a king",
+    "meaning_en": "Person who kills a king or sovereign",
     "category": "oneword"
   },
   {
-    "phrase": "One who gives up a belief or principle",
+    "phrase": "One who has knowledge of many subjects",
+    "word": "Renaissance man",
+    "meaning_hi": "बहुमुखी प्रतिभावान",
+    "meaning_en": "Person of wide knowledge and many accomplishments",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who abandons their religion, cause or principles",
     "word": "Renegade",
-    "meaning_hi": "धर्मत्यागी/दलबदलू",
-    "meaning_en": "Deserter of a cause or belief",
+    "meaning_hi": "धर्मत्यागी",
+    "meaning_en": "Person who deserts a cause, religion or allegiance",
     "category": "oneword"
   },
   {
-    "phrase": "One who is new to a job or situation",
+    "phrase": "One who receives money without working for it",
+    "word": "Rentier",
+    "meaning_hi": "किराया जीवी",
+    "meaning_en": "Person who lives off income from investments or rents",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is new to a job or activity",
     "word": "Rookie",
-    "meaning_hi": "नया खिलाड़ी/नवागंतुक",
-    "meaning_en": "Newcomer",
+    "meaning_hi": "नया खिलाड़ी / नवागंतुक",
+    "meaning_en": "Person who is new and inexperienced",
     "category": "oneword"
   },
   {
-    "phrase": "One who doubts everything",
+    "phrase": "One who takes pleasure in others' suffering",
+    "word": "Sadist",
+    "meaning_hi": "दूसरों को तकलीफ देकर खुश होने वाला",
+    "meaning_en": "Person who derives pleasure from cruelty",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who writes satirical works exposing folly or vice",
+    "word": "Satirist",
+    "meaning_hi": "व्यंग्यकार",
+    "meaning_en": "Writer who uses satire to criticise and mock",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who has exceptional knowledge of a specific subject",
+    "word": "Savant",
+    "meaning_hi": "विशेष प्रतिभाशाली",
+    "meaning_en": "Person with extraordinary knowledge in a particular field",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who habitually doubts and questions accepted beliefs",
     "word": "Sceptic",
     "meaning_hi": "संशयवादी",
-    "meaning_en": "Habitual doubter",
+    "meaning_en": "Person who doubts the truth of claims",
     "category": "oneword"
   },
   {
-    "phrase": "One who studies society",
+    "phrase": "One who writes or copies documents by hand",
+    "word": "Scribe",
+    "meaning_hi": "लेखक / मुंशी",
+    "meaning_en": "Person who copies documents or writes by hand",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who carves and creates three-dimensional artworks",
+    "word": "Sculptor",
+    "meaning_hi": "मूर्तिकार",
+    "meaning_en": "Artist who creates sculptures",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies earthquakes",
+    "word": "Seismologist",
+    "meaning_hi": "भूकंप वैज्ञानिक",
+    "meaning_en": "Scientist who studies earthquakes and seismic activity",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who steals petty items, usually from a shop",
+    "word": "Shoplifter",
+    "meaning_hi": "दुकान से चोरी करने वाला",
+    "meaning_en": "Person who steals goods from a shop",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who stealthily moves goods across borders illegally",
+    "word": "Smuggler",
+    "meaning_hi": "तस्कर",
+    "meaning_en": "Person who imports or exports goods illegally",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies human society and social behaviour",
     "word": "Sociologist",
     "meaning_hi": "समाजशास्त्री",
-    "meaning_en": "Student of society",
+    "meaning_en": "Scientist who studies human society",
     "category": "oneword"
   },
   {
-    "phrase": "One who walks in sleep",
+    "phrase": "One who is an expert in identifying and selecting wines",
+    "word": "Sommelier",
+    "meaning_hi": "मद्य-विशेषज्ञ",
+    "meaning_en": "Wine expert who advises on wine selection",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who walks while asleep",
     "word": "Somnambulist",
     "meaning_hi": "नींद में चलने वाला",
-    "meaning_en": "Sleepwalker",
+    "meaning_en": "Person who walks during sleep",
     "category": "oneword"
   },
   {
-    "phrase": "One who speaks on behalf of others",
+    "phrase": "One who kills their own sister",
+    "word": "Sororicide",
+    "meaning_hi": "बहन की हत्या करने वाला",
+    "meaning_en": "Person who kills their own sister",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who writes speeches for others to deliver",
+    "word": "Speechwriter",
+    "meaning_hi": "भाषण-लेखक",
+    "meaning_en": "Person who writes speeches on behalf of others",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who spends money recklessly and wastefully",
+    "word": "Spendthrift",
+    "meaning_hi": "उड़ाऊ",
+    "meaning_en": "Person who spends money irresponsibly",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who speaks officially on behalf of others",
     "word": "Spokesperson",
     "meaning_hi": "प्रवक्ता",
-    "meaning_en": "Representative speaker",
+    "meaning_en": "Person who speaks officially on behalf of a group",
     "category": "oneword"
   },
   {
-    "phrase": "One who kills himself",
+    "phrase": "One who secretly gathers information for a foreign country",
+    "word": "Spy",
+    "meaning_hi": "जासूस",
+    "meaning_en": "Person who secretly collects information for an enemy",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who writes shorthand or types at great speed",
+    "word": "Stenographer",
+    "meaning_hi": "आशुलिपिक",
+    "meaning_en": "Person who takes dictation in shorthand",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who takes charge of and manages an estate",
+    "word": "Steward",
+    "meaning_hi": "प्रबंधक",
+    "meaning_en": "Person who manages property or an estate on behalf of another",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who endures pain and hardship without complaint",
+    "word": "Stoic",
+    "meaning_hi": "दृढ़मना",
+    "meaning_en": "Person who endures suffering calmly and without complaint",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who kills themselves",
     "word": "Suicide",
     "meaning_hi": "आत्मघाती",
-    "meaning_en": "Self-killer",
+    "meaning_en": "Person who takes their own life",
     "category": "oneword"
   },
   {
-    "phrase": "One who flatters for self-gain",
+    "phrase": "One who seeks favour by flattering those in power",
     "word": "Sycophant",
     "meaning_hi": "चापलूस",
-    "meaning_en": "Self-seeking flatterer",
+    "meaning_en": "Person who flatters and fawns to gain advantage",
     "category": "oneword"
   },
   {
-    "phrase": "One who makes wills",
+    "phrase": "One who prepares and mounts animal specimens for display",
+    "word": "Taxidermist",
+    "meaning_hi": "पशु-संरक्षण विशेषज्ञ",
+    "meaning_en": "Person who preserves and mounts animal skins",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who makes and leaves a legal will",
     "word": "Testator",
     "meaning_hi": "वसीयतनामा लिखने वाला",
-    "meaning_en": "Person who makes a will",
+    "meaning_en": "Person who makes a legally valid will",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies texts in their original language",
+    "word": "Textual critic",
+    "meaning_hi": "पाठालोचक",
+    "meaning_en": "Person who analyses and studies original texts",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who believes in God or gods",
+    "word": "Theist",
+    "meaning_hi": "आस्तिक",
+    "meaning_en": "Person who believes in the existence of God or gods",
     "category": "oneword"
   },
   {
     "phrase": "One who lives in a town",
     "word": "Townsman",
     "meaning_hi": "नगरवासी",
-    "meaning_en": "Town resident",
+    "meaning_en": "Resident of a town",
     "category": "oneword"
   },
   {
-    "phrase": "One who translates from one language to another",
+    "phrase": "One who collects model trains as a hobby",
+    "word": "Trainspotter",
+    "meaning_hi": "ट्रेन प्रेमी",
+    "meaning_en": "Person who collects or records train observations",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who betrays their country to an enemy",
+    "word": "Traitor",
+    "meaning_hi": "देशद्रोही",
+    "meaning_en": "Person who betrays their country or a trust",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who converts writing from one language to another",
     "word": "Translator",
     "meaning_hi": "अनुवादक",
-    "meaning_en": "Language converter",
+    "meaning_en": "Person who converts text between languages",
     "category": "oneword"
   },
   {
-    "phrase": "One who is concerned with the wellbeing of all humanity",
-    "word": "Universalist",
-    "meaning_hi": "सार्वभौमिक विचारक",
-    "meaning_en": "Believer in universal welfare",
+    "phrase": "One who teaches or trains someone in a subject",
+    "word": "Tutor",
+    "meaning_hi": "शिक्षक / गुरु",
+    "meaning_en": "Person who teaches a student individually",
     "category": "oneword"
   },
   {
-    "phrase": "One who has no prejudice",
-    "word": "Unprejudiced",
-    "meaning_hi": "निष्पक्ष",
-    "meaning_en": "Fair-minded person",
+    "phrase": "One who collects dead bodies for burial or cremation",
+    "word": "Undertaker",
+    "meaning_hi": "शव वाहक",
+    "meaning_en": "Person who manages funerals and prepares bodies for burial",
     "category": "oneword"
   },
   {
-    "phrase": "One who lives in a city",
-    "word": "Urbanite",
-    "meaning_hi": "शहरी निवासी",
-    "meaning_en": "City dweller",
+    "phrase": "One who lends money at high interest",
+    "word": "Usurer",
+    "meaning_hi": "सूदखोर",
+    "meaning_en": "Person who lends money at excessively high interest",
     "category": "oneword"
   },
   {
-    "phrase": "One who is fond of wife",
+    "phrase": "One who kills their own wife",
+    "word": "Uxoricide",
+    "meaning_hi": "पत्नी की हत्या करने वाला",
+    "meaning_en": "Person who kills their own wife",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is excessively and submissively fond of their wife",
     "word": "Uxorious",
     "meaning_hi": "पत्नी की अत्यधिक आज्ञा मानने वाला",
-    "meaning_en": "Excessively fond of one's wife",
+    "meaning_en": "Man who is excessively devoted to his wife",
     "category": "oneword"
   },
   {
-    "phrase": "One who has no fixed home and wanders",
+    "phrase": "One who wanders aimlessly from place to place",
+    "word": "Vagabond",
+    "meaning_hi": "आवारागर्द",
+    "meaning_en": "Person who wanders without any settled home",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who has no fixed home and wanders aimlessly",
     "word": "Vagrant",
-    "meaning_hi": "आवारा/बेघर",
-    "meaning_en": "Homeless wanderer",
+    "meaning_hi": "आवारा / बेघर",
+    "meaning_en": "Homeless person who wanders without purpose",
     "category": "oneword"
   },
   {
-    "phrase": "One who eats no meat",
+    "phrase": "One who eats no animal products whatsoever",
+    "word": "Vegan",
+    "meaning_hi": "पूर्ण शाकाहारी",
+    "meaning_en": "Person who avoids all animal products",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who eats no meat or fish",
     "word": "Vegetarian",
     "meaning_hi": "शाकाहारी",
-    "meaning_en": "Non-meat eater",
+    "meaning_en": "Person who does not eat meat",
     "category": "oneword"
   },
   {
     "phrase": "One who always speaks the truth",
     "word": "Veracious",
     "meaning_hi": "सत्यवादी",
-    "meaning_en": "Habitually truthful person",
+    "meaning_en": "Habitually truthful and honest person",
     "category": "oneword"
   },
   {
-    "phrase": "One who looks after animals",
+    "phrase": "One who is trained to treat and care for animals",
     "word": "Veterinarian",
     "meaning_hi": "पशु चिकित्सक",
-    "meaning_en": "Animal doctor",
+    "meaning_en": "Trained doctor for animals",
     "category": "oneword"
   },
   {
-    "phrase": "One who offers services without pay",
+    "phrase": "One who rules a province on behalf of a monarch",
+    "word": "Viceroy",
+    "meaning_hi": "वायसराय",
+    "meaning_en": "Governor who rules a colony on behalf of a sovereign",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies viruses",
+    "word": "Virologist",
+    "meaning_hi": "विषाणु वैज्ञानिक",
+    "meaning_en": "Scientist who studies viruses",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is a highly skilled performer, especially in music",
+    "word": "Virtuoso",
+    "meaning_hi": "संगीत-निपुण",
+    "meaning_en": "Person with outstanding technical skill in music or art",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who offers services willingly without payment",
     "word": "Volunteer",
     "meaning_hi": "स्वयंसेवक",
-    "meaning_en": "Unpaid helper",
+    "meaning_en": "Person who works without pay out of goodwill",
     "category": "oneword"
   },
   {
-    "phrase": "One who fights for his country in war",
+    "phrase": "One who has a strong desire to travel and explore the world",
+    "word": "Wanderlust",
+    "meaning_hi": "यात्रा-प्रेमी",
+    "meaning_en": "Person with a strong urge to wander and travel",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who fights bravely for their country",
     "word": "Warrior",
     "meaning_hi": "योद्धा",
-    "meaning_en": "Soldier or fighter",
+    "meaning_en": "Brave fighter or soldier",
     "category": "oneword"
   },
   {
-    "phrase": "One who is a complete stranger",
+    "phrase": "One who keeps watch at night",
+    "word": "Watchman",
+    "meaning_hi": "रखवाला",
+    "meaning_en": "Person who guards a place during the night",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who works with wood and builds furniture",
+    "word": "Woodworker",
+    "meaning_hi": "लकड़ी का काम करने वाला",
+    "meaning_en": "Person who makes or repairs wooden objects",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies the distribution of plants and animals",
+    "word": "Xenobiologist",
+    "meaning_hi": "विदेशी जीव विज्ञानी",
+    "meaning_en": "Scientist who studies life forms in extreme environments",
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who fears and dislikes foreigners or strangers",
     "word": "Xenophobe",
     "meaning_hi": "विदेशी-द्वेषी",
-    "meaning_en": "One who fears strangers or foreigners",
+    "meaning_en": "Person with extreme fear or dislike of foreigners",
     "category": "oneword"
   },
   {
-    "phrase": "One who is young and new to a field",
-    "word": "Youngster",
-    "meaning_hi": "युवा/नवसिखिया",
-    "meaning_en": "Young beginner",
-    "category": "oneword"
-  },
-  {
-    "phrase": "One eager to learn new things",
-    "word": "Youthful",
+    "phrase": "One who is young and eager to learn",
+    "word": "Youth",
     "meaning_hi": "युवा जिज्ञासु",
-    "meaning_en": "Eager and energetic learner",
+    "meaning_en": "Eager young person in the early stages of learning",
     "category": "oneword"
   },
   {
-    "phrase": "One who is excessively enthusiastic about religion",
+    "phrase": "One who is excessively fanatical about religion or a cause",
     "word": "Zealot",
     "meaning_hi": "धर्मांध व्यक्ति",
-    "meaning_en": "Fanatical believer",
+    "meaning_en": "Person who is fanatically devoted to a cause",
     "category": "oneword"
   },
   {
-    "phrase": "One who is wildly enthusiastic",
-    "word": "Zealous",
-    "meaning_hi": "उत्साही",
-    "meaning_en": "Fervently devoted person",
+    "phrase": "One who is excessively jealous of others' success",
+    "word": "Zealous rival",
+    "meaning_hi": "ईर्ष्यालु प्रतिद्वंद्वी",
+    "meaning_en": "Person driven by extreme jealousy of others",
     "category": "oneword"
   },
   {
-    "phrase": "One who studies animals",
+    "phrase": "One who studies animals and animal behaviour",
     "word": "Zoologist",
     "meaning_hi": "प्राणी विज्ञानी",
-    "meaning_en": "Animal scientist",
+    "meaning_en": "Scientist who studies animals",
     "category": "oneword"
   }
 ]

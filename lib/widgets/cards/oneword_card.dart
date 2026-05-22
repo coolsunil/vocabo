@@ -21,88 +21,175 @@ class OneWordCard extends StatelessWidget {
     this.shareMode = false,
   });
 
+  static const _green = Color(0xFF059669);
+
   @override
   Widget build(BuildContext context) {
+    final phrase = word.example.isNotEmpty ? word.example : word.meaningEn;
+    final hasEnglishMeaning = word.meaningEn.isNotEmpty && word.meaningEn != phrase;
+
     return Container(
       width: double.infinity,
-      padding: const EdgeInsets.all(24),
+      padding: const EdgeInsets.fromLTRB(20, 14, 20, 20),
       decoration: _decor(),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           if (!shareMode)
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 IconButton(
-                  icon: const Icon(Icons.share_rounded, color: Color(0xFF1F3C6D)),
+                  icon: const Icon(Icons.share_rounded, color: Color(0xFF1F3C6D), size: 20),
+                  padding: EdgeInsets.zero,
+                  constraints: const BoxConstraints(),
                   onPressed: onShare,
                 ),
+                const SizedBox(width: 16),
                 IconButton(
                   icon: Icon(
-                    isBookmarked ? Icons.bookmark : Icons.bookmark_border,
+                    isBookmarked ? Icons.bookmark_rounded : Icons.bookmark_border_rounded,
                     color: const Color(0xFF1F3C6D),
+                    size: 20,
                   ),
+                  padding: EdgeInsets.zero,
+                  constraints: const BoxConstraints(),
                   onPressed: onBookmarkToggle,
                 ),
               ],
             ),
-          _title("Phrase"),
-          const SizedBox(height: 12),
-
-          Text(
-            word.meaningEn,
-            style: const TextStyle(fontSize: 22),
-          ),
-
-          const SizedBox(height: 30),
-
-          _title("One Word"),
-          const SizedBox(height: 12),
-
-          Text(
-            word.word,
-            style: const TextStyle(fontSize: 34, fontWeight: FontWeight.bold),
-          ),
-          const SizedBox(height: 24),
-          _title("Hindi Meaning"),
+          const SizedBox(height: 8),
+          // Phrase / Definition block
+          _label('Phrase / Definition', const Color(0xFF0F766E)),
           const SizedBox(height: 8),
           Container(
-            padding: const EdgeInsets.all(12),
+            width: double.infinity,
+            padding: const EdgeInsets.all(16),
             decoration: BoxDecoration(
-              color: const Color(0xFF1F3C6D).withValues(alpha: 0.06),
-              borderRadius: BorderRadius.circular(12),
+              color: _green.withValues(alpha: 0.07),
+              borderRadius: BorderRadius.circular(14),
+              border: Border.all(color: _green.withValues(alpha: 0.28), width: 1.5),
             ),
             child: Text(
-              word.meaningHi,
-              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
+              phrase,
+              style: const TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.w600,
+                color: Color(0xFF0F172A),
+                height: 1.45,
+              ),
             ),
           ),
+          // Connector
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 14),
+            child: Row(
+              children: [
+                const Expanded(child: Divider(color: Color(0xFFE2E8F0))),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 12),
+                  child: Column(
+                    children: const [
+                      Icon(Icons.arrow_downward_rounded, size: 18, color: Color(0xFF94A3B8)),
+                      SizedBox(height: 3),
+                      Text(
+                        'ONE WORD',
+                        style: TextStyle(
+                          fontSize: 9,
+                          fontWeight: FontWeight.w800,
+                          color: Color(0xFF94A3B8),
+                          letterSpacing: 1.5,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const Expanded(child: Divider(color: Color(0xFFE2E8F0))),
+              ],
+            ),
+          ),
+          // The word
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(vertical: 18, horizontal: 20),
+            decoration: BoxDecoration(
+              color: _green.withValues(alpha: 0.1),
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(color: _green.withValues(alpha: 0.35), width: 2),
+            ),
+            child: Text(
+              word.word,
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                fontSize: 30,
+                fontWeight: FontWeight.w800,
+                color: _green,
+                letterSpacing: 0.5,
+              ),
+            ),
+          ),
+          const SizedBox(height: 20),
+          // Hindi meaning
+          if (word.meaningHi.isNotEmpty) ...[
+            _label('Hindi Meaning', const Color(0xFF4338CA)),
+            const SizedBox(height: 8),
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+              decoration: BoxDecoration(
+                color: const Color(0xFFEEF2FF),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: Text(
+                word.meaningHi,
+                style: const TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w600,
+                  color: Color(0xFF3730A3),
+                ),
+              ),
+            ),
+            const SizedBox(height: 14),
+          ],
+          // English meaning (only if different from the phrase)
+          if (hasEnglishMeaning) ...[
+            _label('English Meaning', const Color(0xFF0F766E)),
+            const SizedBox(height: 8),
+            Text(
+              word.meaningEn,
+              style: const TextStyle(
+                fontSize: 16,
+                color: Color(0xFF334155),
+                height: 1.5,
+              ),
+            ),
+          ],
           if (!shareMode) ...[
-            const SizedBox(height: 24),
-            const Divider(),
-            const SizedBox(height: 12),
+            const SizedBox(height: 20),
+            const Divider(height: 1, color: Color(0xFFE2E8F0)),
+            const SizedBox(height: 14),
             LinearProgressIndicator(
               value: total == 0 ? 0.0 : index / total,
-              minHeight: 8,
+              minHeight: 7,
               borderRadius: BorderRadius.circular(999),
               backgroundColor: const Color(0xFFE2E8F0),
-              color: const Color(0xFF22C55E),
+              color: _green,
             ),
-            const SizedBox(height: 10),
+            const SizedBox(height: 8),
             Center(
               child: Text(
                 '$index/$total',
                 style: const TextStyle(
-                  color: Color(0xFF334155),
+                  fontSize: 13,
+                  color: Color(0xFF64748B),
                   fontWeight: FontWeight.w600,
                 ),
               ),
             ),
           ] else ...[
-            const SizedBox(height: 20),
+            const SizedBox(height: 16),
             const Divider(color: Color(0xFFE2E8F0)),
-            const SizedBox(height: 12),
+            const SizedBox(height: 10),
             Row(
               children: [
                 ClipRRect(
@@ -131,27 +218,15 @@ class OneWordCard extends StatelessWidget {
     );
   }
 
-  Widget _title(String t) => Text(
-    t,
+  Widget _label(String text, Color color) => Text(
+    text,
     style: TextStyle(
-      fontSize: 16,
-      fontWeight: FontWeight.w600,
-      color: _headingColor(t),
+      fontSize: 13,
+      fontWeight: FontWeight.w700,
+      color: color,
+      letterSpacing: 0.2,
     ),
   );
-
-  Color _headingColor(String title) {
-    switch (title) {
-      case 'Phrase':
-        return const Color(0xFF0F766E);
-      case 'One Word':
-        return const Color(0xFF1D4ED8);
-      case 'Hindi Meaning':
-        return const Color(0xFF4338CA);
-      default:
-        return Colors.grey.shade600;
-    }
-  }
 
   BoxDecoration _decor() => BoxDecoration(
     color: Colors.white,
@@ -165,4 +240,3 @@ class OneWordCard extends StatelessWidget {
     ],
   );
 }
-

@@ -276,22 +276,20 @@ class _HomeScreenState extends State<HomeScreen> {
                       children: [
                         _ModernCategoryTile(
                           title: 'Core Words',
-                          subtitle: '${progressStore["core"]} / 1266 words',
                           icon: Icons.auto_stories_rounded,
                           iconColor: const Color(0xFF1D4ED8),
                           backgroundColor: const Color(0xFFEFF6FF),
                           borderColor: const Color(0xFF93C5FD),
                           learned: progressStore["core"] ?? 0,
-                          total: 1266,
+                          total: 1438,
                           onTap: () => _openCategory(
                             title: 'Core Words',
                             categoryKey: "core",
-                            total: 1266,
+                            total: 1438,
                           ),
                         ),
                         _ModernCategoryTile(
                           title: 'Antonyms & Synonyms',
-                          subtitle: '${progressStore["synonyms"] ?? 0} / 208',
                           icon: Icons.compare_arrows,
                           iconColor: const Color(0xFF0EA5E9),
                           backgroundColor: const Color(0xFFF0F9FF),
@@ -306,37 +304,34 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         _ModernCategoryTile(
                           title: 'One-word',
-                          subtitle: '${progressStore["oneword"] ?? 0} / 145',
                           icon: Icons.short_text,
                           iconColor: const Color(0xFF059669),
                           backgroundColor: const Color(0xFFECFDF5),
                           borderColor: const Color(0xFF6EE7B7),
                           learned: progressStore["oneword"] ?? 0,
-                          total: 145,
+                          total: 344,
                           onTap: () => _openCategory(
                             title: 'One-word Substitutions',
                             categoryKey: "oneword",
-                            total: 145,
+                            total: 344,
                           ),
                         ),
                         _ModernCategoryTile(
                           title: 'Confusing Pairs',
-                          subtitle: '${progressStore["confusing"] ?? 0} / 198',
                           icon: Icons.warning_amber,
                           iconColor: const Color(0xFFEA580C),
                           backgroundColor: const Color(0xFFFFF7ED),
                           borderColor: const Color(0xFFFDBA74),
                           learned: progressStore["confusing"] ?? 0,
-                          total: 198,
+                          total: 331,
                           onTap: () => _openCategory(
                             title: 'Confusing Words',
                             categoryKey: "confusing",
-                            total: 198,
+                            total: 331,
                           ),
                         ),
                         _ModernCategoryTile(
                           title: 'Idioms',
-                          subtitle: '${progressStore["idioms"] ?? 0} / 316',
                           icon: Icons.format_quote,
                           iconColor: const Color(0xFF7C3AED),
                           backgroundColor: const Color(0xFFF5F3FF),
@@ -351,7 +346,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         _ModernCategoryTile(
                           title: 'Advanced',
-                          subtitle: '${progressStore["advanced"] ?? 0} / 298',
                           icon: Icons.trending_up,
                           iconColor: const Color(0xFFB45309),
                           backgroundColor: const Color(0xFFFFFBEB),
@@ -366,7 +360,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         _ModernCategoryTile(
                           title: 'Fixed Prepositions',
-                          subtitle: '${progressStore["fixed_prepositions"] ?? 0} / 150',
                           icon: Icons.link_rounded,
                           iconColor: const Color(0xFF0F766E),
                           backgroundColor: const Color(0xFFF0FDFA),
@@ -381,7 +374,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         _ModernCategoryTile(
                           title: 'Phrasal Verbs',
-                          subtitle: '${progressStore["phrasal_verbs"] ?? 0} / 225',
                           icon: Icons.bolt_rounded,
                           iconColor: const Color(0xFFBE185D),
                           backgroundColor: const Color(0xFFFDF2F8),
@@ -396,7 +388,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         _ModernCategoryTile(
                           title: 'Root Words',
-                          subtitle: '${progressStore["root_words"] ?? 0} / 439',
                           icon: Icons.account_tree_rounded,
                           iconColor: const Color(0xFF7C2D12),
                           backgroundColor: const Color(0xFFFFF7ED),
@@ -411,7 +402,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         _ModernCategoryTile(
                           title: 'Common Errors',
-                          subtitle: '${progressStore["common_errors"] ?? 0} / 464',
                           icon: Icons.rule_folder_rounded,
                           iconColor: const Color(0xFFCA8A04),
                           backgroundColor: const Color(0xFFFEFCE8),
@@ -426,7 +416,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         _ModernCategoryTile(
                           title: 'Homophones',
-                          subtitle: '${progressStore["homophones"] ?? 0} / 264',
                           icon: Icons.hearing_rounded,
                           iconColor: const Color(0xFF4F46E5),
                           backgroundColor: const Color(0xFFEEF2FF),
@@ -441,7 +430,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         _ModernCategoryTile(
                           title: 'Spellings',
-                          subtitle: '${progressStore["spellings"] ?? 0} / 220',
                           icon: Icons.spellcheck_rounded,
                           iconColor: const Color(0xFF0891B2),
                           backgroundColor: const Color(0xFFECFEFF),
@@ -456,7 +444,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         _ModernCategoryTile(
                           title: 'Foreign Words',
-                          subtitle: '${progressStore["foreign_words"] ?? 0} / 247',
                           icon: Icons.translate_rounded,
                           iconColor: const Color(0xFF9333EA),
                           backgroundColor: const Color(0xFFFDF4FF),
@@ -471,7 +458,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         _ModernCategoryTile(
                           title: 'Proverbs',
-                          subtitle: '${progressStore["proverbs"] ?? 0} / 118',
                           icon: Icons.menu_book_rounded,
                           iconColor: const Color(0xFF4D7C0F),
                           backgroundColor: const Color(0xFFF7FEE7),
@@ -486,7 +472,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         _ModernCategoryTile(
                           title: 'Sentence Improvement',
-                          subtitle: '${progressStore["sentence_improvement"] ?? 0} / 150',
                           icon: Icons.edit_note_rounded,
                           iconColor: const Color(0xFF475569),
                           backgroundColor: const Color(0xFFF8FAFC),
@@ -501,7 +486,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         _ModernCategoryTile(
                           title: 'Cloze Test',
-                          subtitle: '${progressStore["cloze_test"] ?? 0} / 121',
                           icon: Icons.article_rounded,
                           iconColor: const Color(0xFFC2410C),
                           backgroundColor: const Color(0xFFFFEDD5),
@@ -568,7 +552,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
 class _OverallProgressCard extends StatelessWidget {
   static const Map<String, int> _totals = {
-    'core': 1266, 'synonyms': 208, 'oneword': 145, 'confusing': 198,
+    'core': 1438, 'synonyms': 208, 'oneword': 344, 'confusing': 331,
     'idioms': 316, 'advanced': 298, 'fixed_prepositions': 150,
     'phrasal_verbs': 225, 'root_words': 439, 'common_errors': 464,
     'homophones': 264, 'spellings': 220, 'foreign_words': 247,
@@ -691,7 +675,6 @@ class _OverallProgressCard extends StatelessWidget {
 
 class _ModernCategoryTile extends StatelessWidget {
   final String title;
-  final String subtitle;
   final IconData icon;
   final Color iconColor;
   final Color backgroundColor;
@@ -702,7 +685,6 @@ class _ModernCategoryTile extends StatelessWidget {
 
   const _ModernCategoryTile({
     required this.title,
-    required this.subtitle,
     required this.icon,
     required this.iconColor,
     required this.backgroundColor,
@@ -725,6 +707,8 @@ class _ModernCategoryTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final badge = _milestone;
+    final pct = total == 0 ? 0.0 : learned / total;
+
     return InteractivePressable(
       borderRadius: BorderRadius.circular(18),
       onTap: onTap,
@@ -746,33 +730,64 @@ class _ModernCategoryTile extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Stack(
-              clipBehavior: Clip.none,
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Container(
-                  width: 52,
-                  height: 52,
-                  decoration: BoxDecoration(
-                    color: iconColor.withValues(alpha: 0.16),
-                    borderRadius: BorderRadius.circular(16),
-                  ),
-                  child: Icon(icon, color: iconColor, size: 28),
-                ),
-                if (badge != null)
-                  Positioned(
-                    top: -6,
-                    right: -6,
-                    child: Container(
-                      width: 22,
-                      height: 22,
+                Stack(
+                  clipBehavior: Clip.none,
+                  children: [
+                    Container(
+                      width: 52,
+                      height: 52,
                       decoration: BoxDecoration(
-                        color: badge.$2,
-                        shape: BoxShape.circle,
-                        border: Border.all(color: Colors.white, width: 2),
+                        color: iconColor.withValues(alpha: 0.16),
+                        borderRadius: BorderRadius.circular(16),
                       ),
-                      child: Icon(badge.$1, size: 11, color: Colors.white),
+                      child: Icon(icon, color: iconColor, size: 28),
                     ),
+                    if (badge != null)
+                      Positioned(
+                        top: -6,
+                        right: -6,
+                        child: Container(
+                          width: 22,
+                          height: 22,
+                          decoration: BoxDecoration(
+                            color: badge.$2,
+                            shape: BoxShape.circle,
+                            border: Border.all(color: Colors.white, width: 2),
+                          ),
+                          child: Icon(badge.$1, size: 11, color: Colors.white),
+                        ),
+                      ),
+                  ],
+                ),
+                const Spacer(),
+                SizedBox(
+                  width: 40,
+                  height: 40,
+                  child: Stack(
+                    alignment: Alignment.center,
+                    children: [
+                      CircularProgressIndicator(
+                        value: pct,
+                        strokeWidth: 3.5,
+                        strokeCap: StrokeCap.round,
+                        backgroundColor: borderColor.withValues(alpha: 0.5),
+                        valueColor: AlwaysStoppedAnimation(iconColor),
+                      ),
+                      if (pct > 0)
+                        Text(
+                          '${(pct * 100).round()}%',
+                          style: TextStyle(
+                            fontSize: 9,
+                            fontWeight: FontWeight.w800,
+                            color: iconColor,
+                          ),
+                        ),
+                    ],
                   ),
+                ),
               ],
             ),
             const Spacer(),
@@ -784,17 +799,6 @@ class _ModernCategoryTile extends StatelessWidget {
                 fontSize: 17,
                 fontWeight: FontWeight.w700,
                 color: Color(0xFF0F172A),
-              ),
-            ),
-            const SizedBox(height: 6),
-            Text(
-              subtitle,
-              maxLines: 2,
-              overflow: TextOverflow.ellipsis,
-              style: const TextStyle(
-                color: Color(0xFF475569),
-                fontSize: 13,
-                height: 1.25,
               ),
             ),
           ],
@@ -943,7 +947,7 @@ class _WordOfDayCard extends StatelessWidget {
                     borderRadius: BorderRadius.circular(20),
                   ),
                   child: const Text(
-                    'Explore →',
+                    'View →',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 12,

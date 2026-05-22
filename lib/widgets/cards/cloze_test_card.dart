@@ -21,7 +21,7 @@ class ClozeTestCard extends StatelessWidget {
     this.shareMode = false,
   });
 
-  static const _accent = Color(0xFFC2410C);
+  static const _accent = Color(0xFF16A34A);
 
   @override
   Widget build(BuildContext context) {

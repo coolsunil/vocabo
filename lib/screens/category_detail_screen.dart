@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../data/bookmark_store.dart';
 import '../data/premium_store.dart';
-import '../data/practice_stats_store.dart';
 import '../data/progress_store.dart';
 import '../widgets/interactive_pressable.dart';
 import 'learn_screen.dart';
@@ -64,8 +63,6 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
     'cloze_test': Color(0xFFC2410C),
   };
 
-  int _bestScore = 0;
-  int _bestAccuracy = 0;
   int _remainingPracticeSessions = 0;
   int _bookmarkCount = 0;
   bool _premiumLoaded = false;
@@ -73,17 +70,7 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
   @override
   void initState() {
     super.initState();
-    _loadPracticeStats();
     _loadPremiumMeta();
-  }
-
-  Future<void> _loadPracticeStats() async {
-    await loadPracticeStatsStore([widget.categoryKey]);
-    if (!mounted) return;
-    setState(() {
-      _bestScore = getStoredBestScore(widget.categoryKey);
-      _bestAccuracy = getStoredBestAccuracy(widget.categoryKey);
-    });
   }
 
   Future<void> _loadPremiumMeta() async {
@@ -194,69 +181,6 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
                 ),
               ),
               const SizedBox(height: 24),
-              if (_bestScore > 0 || _bestAccuracy > 0) ...[
-                Container(
-                  padding: const EdgeInsets.all(16),
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(16),
-                    border: Border.all(color: const Color(0xFFE2E8F0)),
-                  ),
-                  child: Row(
-                    children: [
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            const Text(
-                              'Best Score',
-                              style: TextStyle(
-                                color: Color(0xFF64748B),
-                                fontSize: 13,
-                                fontWeight: FontWeight.w600,
-                              ),
-                            ),
-                            const SizedBox(height: 4),
-                            Text(
-                              '$_bestScore/10',
-                              style: const TextStyle(
-                                fontSize: 18,
-                                fontWeight: FontWeight.w700,
-                                color: Color(0xFF0F172A),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            const Text(
-                              'Best Accuracy',
-                              style: TextStyle(
-                                color: Color(0xFF64748B),
-                                fontSize: 13,
-                                fontWeight: FontWeight.w600,
-                              ),
-                            ),
-                            const SizedBox(height: 4),
-                            Text(
-                              '$_bestAccuracy%',
-                              style: TextStyle(
-                                fontSize: 18,
-                                fontWeight: FontWeight.w700,
-                                color: accent,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                const SizedBox(height: 24),
-              ],
               const Text(
                 'Start Learning',
                 style: TextStyle(
@@ -304,7 +228,6 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
                       ),
                     ),
                   ).then((_) {
-                    _loadPracticeStats();
                     _loadPremiumMeta();
                   });
                 },

@@ -52,13 +52,20 @@ class SpellingCard extends StatelessWidget {
           const SizedBox(height: 8),
 
           Center(
-            child: Text(
-              word.word,
-              textAlign: TextAlign.center,
-              style: const TextStyle(
-                fontSize: 34,
-                fontWeight: FontWeight.bold,
-                color: Color(0xFF0F172A),
+            child: Container(
+              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+              decoration: BoxDecoration(
+                color: const Color(0xFF22C55E).withValues(alpha: 0.12),
+                borderRadius: BorderRadius.circular(14),
+              ),
+              child: Text(
+                word.word,
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                  fontSize: 34,
+                  fontWeight: FontWeight.bold,
+                  color: Color(0xFF0F172A),
+                ),
               ),
             ),
           ),

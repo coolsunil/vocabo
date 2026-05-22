@@ -34,7 +34,7 @@ class Word {
       // common_errors / sentence_improvement → "explanation_en"
       meaningEn: json['meaning_en'] ?? json['explanation_en'] ?? '',
       // common_errors / sentence_improvement → "correct", cloze_test → "answer"
-      example: json['example'] ?? json['correct'] ?? json['answer'] ?? '',
+      example: json['example'] ?? json['correct'] ?? json['answer'] ?? json['phrase'] ?? '',
       synonyms: json['synonyms'] != null
           ? List<String>.from(json['synonyms'])
           : <String>[],

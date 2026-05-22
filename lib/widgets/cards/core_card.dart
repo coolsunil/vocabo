@@ -50,11 +50,18 @@ class CoreCard extends StatelessWidget {
           const SizedBox(height: 8),
 
           Center(
-            child: Text(
-              word.word,
-              style: const TextStyle(
-                fontSize: 36,
-                fontWeight: FontWeight.bold,
+            child: Container(
+              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+              decoration: BoxDecoration(
+                color: const Color(0xFF22C55E).withValues(alpha: 0.12),
+                borderRadius: BorderRadius.circular(14),
+              ),
+              child: Text(
+                word.word,
+                style: const TextStyle(
+                  fontSize: 36,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
           ),
@@ -70,9 +77,7 @@ class CoreCard extends StatelessWidget {
           const SizedBox(height: 6),
           Text(
             word.meaningEn,
-            style: const TextStyle(
-              fontSize: 18,
-            ),
+            style: const TextStyle(fontSize: 18),
           ),
 
           if (word.example.isNotEmpty) ...[
@@ -96,6 +101,7 @@ class CoreCard extends StatelessWidget {
             _title("Antonyms"),
             Text(word.antonyms.join(', '), style: const TextStyle(fontSize: 17)),
           ],
+
           if (!shareMode) ...[
             const SizedBox(height: 24),
             const Divider(),
@@ -160,18 +166,12 @@ class CoreCard extends StatelessWidget {
 
   Color _headingColor(String title) {
     switch (title) {
-      case 'Hindi Meaning':
-        return const Color(0xFF4338CA);
-      case 'English Meaning':
-        return const Color(0xFF0F766E);
-      case 'Example':
-        return const Color(0xFFB45309);
-      case 'Synonyms':
-        return const Color(0xFF1D4ED8);
-      case 'Antonyms':
-        return const Color(0xFFB91C1C);
-      default:
-        return Colors.grey.shade600;
+      case 'Hindi Meaning':   return const Color(0xFF4338CA);
+      case 'English Meaning': return const Color(0xFF0F766E);
+      case 'Example':         return const Color(0xFFB45309);
+      case 'Synonyms':        return const Color(0xFF1D4ED8);
+      case 'Antonyms':        return const Color(0xFFB91C1C);
+      default:                return Colors.grey.shade600;
     }
   }
 
@@ -183,10 +183,7 @@ class CoreCard extends StatelessWidget {
     ),
     child: Text(
       text,
-      style: const TextStyle(
-        fontSize: 24,
-        fontWeight: FontWeight.w600,
-      ),
+      style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w600),
     ),
   );
 

@@ -27,8 +27,9 @@ import '../widgets/cards/synonym_card.dart';
 class LearnScreen extends StatefulWidget {
   final String category;
   final int? initialIndex;
+  final bool trackProgress;
 
-  const LearnScreen({super.key, required this.category, this.initialIndex});
+  const LearnScreen({super.key, required this.category, this.initialIndex, this.trackProgress = true});
 
   @override
   State<LearnScreen> createState() => _LearnScreenState();
@@ -459,6 +460,12 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: false, onBookmarkToggle: () {}, onShare: () {},
           index: currentIndex + 1, total: words.length, shareMode: true,
         );
+      case 'homophones':
+        return ConfusingCard(
+          word: word, pairWord: null,
+          isBookmarked: false, onBookmarkToggle: () {}, onShare: () {},
+          index: currentIndex + 1, total: words.length, shareMode: true,
+        );
       case 'oneword':
         return OneWordCard(
           word: word, isBookmarked: false,
@@ -505,6 +512,10 @@ class _LearnScreenState extends State<LearnScreen>
   }
 
   void _updateProgress() {
+    if (!widget.trackProgress) return;
+    final stored = progressStore[widget.category] ?? 0;
+    // Only count progress if swiping sequentially — block jumps ahead
+    if (currentIndex > stored + 1) return;
     updateProgressIfHigher(
       widget.category,
       currentIndex + 1,
@@ -641,9 +652,6 @@ class _LearnScreenState extends State<LearnScreen>
     setState(() {
       currentIndex = targetIndex;
     });
-    if (targetIndex + 1 > (progressStore[widget.category] ?? 0)) {
-      _updateProgress();
-    }
   }
 
   int? _findWordIndexByQuery(String query) {
@@ -744,6 +752,16 @@ class _LearnScreenState extends State<LearnScreen>
         return ConfusingCard(
           word: word,
           pairWord: pairWord,
+          isBookmarked: isBookmarked,
+          onBookmarkToggle: _toggleCurrentBookmark,
+          onShare: _shareCurrentCard,
+          index: currentIndex + 1,
+          total: words.length,
+        );
+      case 'homophones':
+        return ConfusingCard(
+          word: word,
+          pairWord: null,
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,

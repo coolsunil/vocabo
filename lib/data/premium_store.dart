@@ -49,9 +49,13 @@ const String _practicePrefix = 'practice_attempts_';
 // Legacy key — used only for migration
 const String _legacyPremiumKey = 'premium_unlocked';
 
+// Set to true to bypass premium checks during local testing. NEVER ship as true.
+const bool _debugUnlockPremium = true;
+
 DateTime? _premiumExpiry;
 
 bool get premiumUnlocked {
+  if (_debugUnlockPremium) return true;
   if (_premiumExpiry == null) return false;
   return _premiumExpiry!.isAfter(DateTime.now());
 }
