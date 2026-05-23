@@ -250,6 +250,8 @@ class _PracticeScreenState extends State<PracticeScreen> {
         return _buildSynonymQuestions(words);
       case 'antonyms':
         return _buildAntonymQuestions(words);
+      case 'synonyms_antonyms':
+        return _buildSynonymsAndAntonymsQuestions(words);
       case 'idioms':
       case 'proverbs':
         return _buildIdiomQuestions(words);
@@ -337,6 +339,36 @@ class _PracticeScreenState extends State<PracticeScreen> {
       final options = _buildOptions(correct, antonymPool);
       if (options.length < 4) continue;
       qs.add(_PracticeQuestion(prompt: 'Select the best antonym for:\n${word.word}', options: options, correctAnswer: correct));
+    }
+    return qs;
+  }
+
+  List<_PracticeQuestion> _buildSynonymsAndAntonymsQuestions(List<Word> words) {
+    final synonymPool = words.expand((w) => w.synonyms).map((s) => s.trim()).where((s) => s.isNotEmpty).toSet().toList();
+    final antonymPool = words.expand((w) => w.antonyms).map((a) => a.trim()).where((a) => a.isNotEmpty).toSet().toList();
+    final qs = <_PracticeQuestion>[];
+    for (final word in words) {
+      if (word.word.trim().isEmpty) continue;
+      // Synonym question
+      if (word.synonyms.isNotEmpty) {
+        final correct = word.synonyms.first.trim();
+        if (correct.isNotEmpty) {
+          final options = _buildOptions(correct, synonymPool);
+          if (options.length >= 4) {
+            qs.add(_PracticeQuestion(prompt: 'Select the best synonym for:\n${word.word}', options: options, correctAnswer: correct));
+          }
+        }
+      }
+      // Antonym question
+      if (word.antonyms.isNotEmpty) {
+        final correct = word.antonyms.first.trim();
+        if (correct.isNotEmpty) {
+          final options = _buildOptions(correct, antonymPool);
+          if (options.length >= 4) {
+            qs.add(_PracticeQuestion(prompt: 'Select the best antonym for:\n${word.word}', options: options, correctAnswer: correct));
+          }
+        }
+      }
     }
     return qs;
   }

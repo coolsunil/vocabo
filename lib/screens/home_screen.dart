@@ -298,7 +298,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           total: 208,
                           onTap: () => _openCategory(
                             title: 'Synonyms & Antonyms',
-                            categoryKey: "synonyms",
+                            categoryKey: "synonyms_antonyms",
                             total: 208,
                           ),
                         ),
