@@ -248,6 +248,8 @@ class _PracticeScreenState extends State<PracticeScreen> {
     switch (widget.category) {
       case 'synonyms':
         return _buildSynonymQuestions(words);
+      case 'antonyms':
+        return _buildAntonymQuestions(words);
       case 'idioms':
       case 'proverbs':
         return _buildIdiomQuestions(words);
@@ -282,6 +284,7 @@ class _PracticeScreenState extends State<PracticeScreen> {
     mixed.addAll(_buildMeaningToWordQuestions(byCategory['core'] ?? const []));
     mixed.addAll(_buildMeaningToWordQuestions(byCategory['advanced'] ?? const []));
     mixed.addAll(_buildSynonymQuestions(byCategory['synonyms'] ?? const []));
+    mixed.addAll(_buildAntonymQuestions(byCategory['antonyms'] ?? const []));
     mixed.addAll(_buildIdiomQuestions(byCategory['idioms'] ?? const []));
     mixed.addAll(_buildOneWordQuestions(byCategory['oneword'] ?? const []));
     mixed.addAll(_buildConfusingQuestions(byCategory['confusing'] ?? const []));
@@ -320,6 +323,20 @@ class _PracticeScreenState extends State<PracticeScreen> {
       final options = _buildOptions(correct, synonymPool);
       if (options.length < 4) continue;
       qs.add(_PracticeQuestion(prompt: 'Select the best synonym for:\n${word.word}', options: options, correctAnswer: correct));
+    }
+    return qs;
+  }
+
+  List<_PracticeQuestion> _buildAntonymQuestions(List<Word> words) {
+    final antonymPool = words.expand((w) => w.antonyms).map((a) => a.trim()).where((a) => a.isNotEmpty).toSet().toList();
+    final qs = <_PracticeQuestion>[];
+    for (final word in words) {
+      if (word.word.trim().isEmpty || word.antonyms.isEmpty) continue;
+      final correct = word.antonyms.first.trim();
+      if (correct.isEmpty) continue;
+      final options = _buildOptions(correct, antonymPool);
+      if (options.length < 4) continue;
+      qs.add(_PracticeQuestion(prompt: 'Select the best antonym for:\n${word.word}', options: options, correctAnswer: correct));
     }
     return qs;
   }
