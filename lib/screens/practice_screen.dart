@@ -400,19 +400,40 @@ class _PracticeScreenState extends State<PracticeScreen> {
   }
 
   List<_PracticeQuestion> _buildConfusingQuestions(List<Word> words) {
-    final meaningPool = words.map((w) => w.meaningEn.trim()).where((m) => m.isNotEmpty).toSet().toList();
+    // Strip "Word1 = def1; Word2 = def2" down to "def1 / def2" so word names
+    // don't appear in options and can't be matched trivially to the question.
+    String stripWordNames(String meaningEn) {
+      final defs = <String>[];
+      for (final part in meaningEn.split(';')) {
+        final eqIdx = part.indexOf('=');
+        final def = eqIdx == -1 ? part.trim() : part.substring(eqIdx + 1).trim();
+        if (def.isNotEmpty) defs.add(def);
+      }
+      return defs.join(' / ');
+    }
+
+    final meaningPool = words
+        .map((w) => stripWordNames(w.meaningEn.trim()))
+        .where((m) => m.isNotEmpty)
+        .toSet()
+        .toList();
+
     final qs = <_PracticeQuestion>[];
     for (final word in words) {
       if (word.word.trim().isEmpty || word.meaningEn.trim().isEmpty) continue;
-      final options = _buildOptions(word.meaningEn.trim(), meaningPool);
+      final correct = stripWordNames(word.meaningEn.trim());
+      final options = _buildOptions(correct, meaningPool);
       if (options.length < 4) continue;
-      qs.add(_PracticeQuestion(prompt: 'Choose the correct meaning for:\n${word.word}', options: options, correctAnswer: word.meaningEn.trim()));
+      qs.add(_PracticeQuestion(
+        prompt: 'Choose the correct meaning for:\n${word.word}',
+        options: options,
+        correctAnswer: correct,
+      ));
     }
     return qs;
   }
 
   List<_PracticeQuestion> _buildSentenceCorrectionQuestions(List<Word> words) {
-    // Diff every pair to extract the exact changed phrase.
     final diffs = <({String wrong, String correct, String wrongPhrase, String correctPhrase})>[];
     for (final word in words) {
       final orig = word.word.trim();
@@ -422,51 +443,107 @@ class _PracticeScreenState extends State<PracticeScreen> {
       if (d != null) diffs.add(d);
     }
 
-    // Group wrong phrases by their correctPhrase — these are the most natural
-    // variants of the same grammatical slot (e.g. correctPhrase "loves" collects
-    // wrong forms "love", "loved", "loving" from other entries in the data).
-    final wrongByCorrect = <String, List<String>>{};
-    for (final d in diffs) {
-      wrongByCorrect.putIfAbsent(d.correctPhrase, () => []).add(d.wrongPhrase);
+    // Grammatical word families — when the correct phrase belongs to a family,
+    // other members become distractors so all options are contextually relevant.
+    const wordFamilies = <Set<String>>[
+      {'do', 'does', 'did', 'done', 'doing'},
+      {'have', 'has', 'had', 'having'},
+      {'am', 'is', 'are', 'was', 'were', 'been', 'being'},
+      {'will', 'would', 'shall', 'should'},
+      {'can', 'could', 'may', 'might', 'must'},
+      {'a', 'an', 'the'},
+      {'in', 'on', 'at', 'by', 'for', 'into', 'onto'},
+      {'less', 'fewer', 'little', 'few'},
+      {'much', 'many', 'more', 'most'},
+      {'this', 'that', 'these', 'those'},
+      {'who', 'whom', 'whose', 'which'},
+      {'each', 'every', 'all', 'both'},
+      {'either', 'neither', 'none'},
+      {'since', 'for', 'ago', 'from'},
+      {'between', 'among', 'amongst'},
+      {'beside', 'besides', 'except', 'without'},
+      {'has been', 'have been', 'had been'},
+      {'is being', 'are being', 'was being', 'were being'},
+      {'will be', 'would be', 'shall be', 'should be'},
+      {'has had', 'have had', 'had had'},
+      {'has done', 'have done', 'had done'},
+    ];
+
+    Set<String>? familyOf(String phrase) {
+      final p = phrase.toLowerCase().trim();
+      for (final family in wordFamilies) {
+        if (family.contains(p)) return family;
+      }
+      return null;
     }
-    // Flat fallback pool of every wrong phrase in the dataset.
-    final allWrong = diffs.map((d) => d.wrongPhrase).toSet().toList();
+
+    // Fallback pool: wrong forms grouped by correct answer.
+    final wrongByCorrect = <String, Set<String>>{};
+    for (final d in diffs) {
+      wrongByCorrect.putIfAbsent(d.correctPhrase, () => <String>{}).add(d.wrongPhrase);
+    }
 
     final qs = <_PracticeQuestion>[];
     for (final d in diffs) {
-      // Seed with the correct sentence and the original wrong sentence.
-      final optionSet = <String>{d.correct, d.wrong};
+      final markedSentence = _substitute(d.wrong, d.wrongPhrase, '[${d.wrongPhrase}]');
+      if (markedSentence == null) continue;
 
-      // Primary distractors: substitute same-slot wrong phrases into THIS correct
-      // sentence. These are conjugations / forms of the exact same word that
-      // appear elsewhere in the dataset, so they sound natural in context.
-      final sameSlot = (wrongByCorrect[d.correctPhrase] ?? [])
-          .where((p) => p != d.wrongPhrase)
-          .toSet()
-          .toList()..shuffle(_random);
-      for (final p in sameSlot) {
-        if (optionSet.length >= 4) break;
-        final s = _substitute(d.correct, d.correctPhrase, p);
-        if (s != null && !optionSet.contains(s)) optionSet.add(s);
-      }
+      final options = <String>{d.correctPhrase};
 
-      // Fallback: any wrong phrase from any entry, substituted at the same spot.
-      if (optionSet.length < 4) {
-        final rest = allWrong
-            .where((p) => p != d.wrongPhrase && p != d.correctPhrase)
-            .toList()..shuffle(_random);
-        for (final p in rest) {
-          if (optionSet.length >= 4) break;
-          final s = _substitute(d.correct, d.correctPhrase, p);
-          if (s != null && !optionSet.contains(s)) optionSet.add(s);
+      // 1st pass: for single-word / family matches use grammatical siblings.
+      final family = familyOf(d.correctPhrase);
+      if (family != null) {
+        final members = family.where((p) => !options.contains(p)).toList()..shuffle(_random);
+        for (final p in members) {
+          if (options.length >= 4) break;
+          options.add(p);
         }
       }
 
-      if (optionSet.length < 4) continue;
+      // 2nd pass: for multi-word phrases generate mixed variants (e.g. fix only
+      // some of the changed positions) — these look nearly identical and are
+      // the hardest distractors possible for phrase-level errors.
+      if (options.length < 4) {
+        final variants = _phraseVariants(d.wrongPhrase, d.correctPhrase)
+            .where((p) => !options.contains(p))
+            .toList()..shuffle(_random);
+        for (final p in variants) {
+          if (options.length >= 4) break;
+          options.add(p);
+        }
+        // Also include the original wrong phrase as one option — for multi-word
+        // errors the user sees [phrase] in brackets but still needs to identify
+        // exactly which combination of fixes is correct.
+        if (options.length < 4 && !options.contains(d.wrongPhrase)) {
+          options.add(d.wrongPhrase);
+        }
+      }
+
+      // 3rd pass: wrong forms targeting the same correct answer.
+      if (options.length < 4) {
+        final sameSlot = (wrongByCorrect[d.correctPhrase] ?? <String>{})
+            .where((p) => !options.contains(p))
+            .toList()..shuffle(_random);
+        for (final p in sameSlot) {
+          if (options.length >= 4) break;
+          options.add(p);
+        }
+      }
+
+      // 4th pass: any wrong phrase as last resort.
+      if (options.length < 4) {
+        final rest = diffs.map((d) => d.wrongPhrase).where((p) => !options.contains(p)).toList()..shuffle(_random);
+        for (final p in rest) {
+          if (options.length >= 4) break;
+          options.add(p);
+        }
+      }
+
+      if (options.length < 4) continue;
       qs.add(_PracticeQuestion(
-        prompt: 'Choose the correct sentence:\n${d.wrong}',
-        options: optionSet.toList()..shuffle(_random),
-        correctAnswer: d.correct,
+        prompt: 'Select the correct alternative for the word/phrase in brackets:\n$markedSentence',
+        options: options.toList()..shuffle(_random),
+        correctAnswer: d.correctPhrase,
       ));
     }
     return qs;
@@ -493,6 +570,27 @@ class _PracticeScreenState extends State<PracticeScreen> {
     if (correctPhrase.split(' ').length > 5) return null;
 
     return (wrong: wrong, correct: correct, wrongPhrase: wrongPhrase, correctPhrase: correctPhrase);
+  }
+
+  // For multi-word phrase pairs of equal length, generates all combinations of
+  // using wrong vs correct word at each differing position. These look nearly
+  // identical to the correct answer and make excellent distractors.
+  List<String> _phraseVariants(String wrongPhrase, String correctPhrase) {
+    final ww = wrongPhrase.split(' ');
+    final cw = correctPhrase.split(' ');
+    if (ww.length != cw.length) return [];
+    final diffPos = [for (int i = 0; i < ww.length; i++) if (ww[i].toLowerCase() != cw[i].toLowerCase()) i];
+    if (diffPos.isEmpty || diffPos.length > 4) return [];
+    final variants = <String>[];
+    final combCount = 1 << diffPos.length;
+    for (int mask = 1; mask < combCount - 1; mask++) {
+      final v = List<String>.from(ww);
+      for (int i = 0; i < diffPos.length; i++) {
+        if ((mask >> i) & 1 == 1) v[diffPos[i]] = cw[diffPos[i]];
+      }
+      variants.add(v.join(' '));
+    }
+    return variants;
   }
 
   // Replaces [target] phrase inside [sentence] (word-level match) with [replacement].
