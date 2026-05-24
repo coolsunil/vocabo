@@ -40,6 +40,8 @@ class _LearnScreenState extends State<LearnScreen>
   static const Map<String, String> _learnTitles = {
     'core': 'Core Words',
     'synonyms': 'Synonyms & Antonyms',
+    'antonyms': 'Synonyms & Antonyms',
+    'synonyms_antonyms': 'Synonyms & Antonyms',
     'idioms': 'Idioms & Phrases',
     'confusing': 'Confusing Pairs',
     'oneword': 'One-word Substitutions',
@@ -443,6 +445,8 @@ class _LearnScreenState extends State<LearnScreen>
   Widget _buildShareCard(Word word) {
     switch (widget.category) {
       case 'synonyms':
+      case 'antonyms':
+      case 'synonyms_antonyms':
         return SynonymCard(
           word: word, isBookmarked: false,
           onBookmarkToggle: () {}, onShare: () {},
@@ -730,12 +734,14 @@ class _LearnScreenState extends State<LearnScreen>
     final isBookmarked = bookmarkedIndices.contains(idx);
     switch (widget.category) {
       case 'synonyms':
+      case 'antonyms':
+      case 'synonyms_antonyms':
         return SynonymCard(
           word: word,
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
         );
       case 'idioms':
@@ -744,7 +750,7 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
         );
       case 'confusing':
@@ -755,7 +761,7 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
         );
       case 'homophones':
@@ -765,7 +771,7 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
         );
       case 'oneword':
@@ -774,7 +780,7 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
         );
       case 'fixed_prepositions':
@@ -783,7 +789,7 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
         );
       case 'common_errors':
@@ -792,7 +798,7 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
         );
       case 'spellings':
@@ -801,7 +807,7 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
         );
       case 'sentence_improvement':
@@ -810,7 +816,7 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
         );
       case 'cloze_test':
@@ -819,7 +825,7 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
         );
       default:
@@ -828,7 +834,7 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
         );
     }

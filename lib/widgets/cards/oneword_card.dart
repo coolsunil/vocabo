@@ -21,7 +21,8 @@ class OneWordCard extends StatelessWidget {
     this.shareMode = false,
   });
 
-  static const _green = Color(0xFF059669);
+  static const _green  = Color(0xFF059669);
+  static const _orange = Color(0xFFEA580C);
 
   @override
   Widget build(BuildContext context) {
@@ -60,23 +61,25 @@ class OneWordCard extends StatelessWidget {
             ),
           const SizedBox(height: 8),
           // Phrase / Definition block
-          _label('Phrase / Definition', const Color(0xFF0F766E)),
+          _label('Phrase / Definition', _orange),
           const SizedBox(height: 8),
-          Container(
-            width: double.infinity,
-            padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              color: _green.withValues(alpha: 0.07),
-              borderRadius: BorderRadius.circular(14),
-              border: Border.all(color: _green.withValues(alpha: 0.28), width: 1.5),
-            ),
-            child: Text(
-              phrase,
-              style: const TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.w600,
-                color: Color(0xFF0F172A),
-                height: 1.45,
+          Center(
+            child: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+              decoration: BoxDecoration(
+                color: _orange.withValues(alpha: 0.08),
+                borderRadius: BorderRadius.circular(14),
+                border: Border.all(color: _orange.withValues(alpha: 0.25), width: 1.5),
+              ),
+              child: Text(
+                phrase,
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w600,
+                  color: Color(0xFF0F172A),
+                  height: 1.45,
+                ),
               ),
             ),
           ),
@@ -109,22 +112,22 @@ class OneWordCard extends StatelessWidget {
             ),
           ),
           // The word
-          Container(
-            width: double.infinity,
-            padding: const EdgeInsets.symmetric(vertical: 18, horizontal: 20),
-            decoration: BoxDecoration(
-              color: _green.withValues(alpha: 0.1),
-              borderRadius: BorderRadius.circular(16),
-              border: Border.all(color: _green.withValues(alpha: 0.35), width: 2),
-            ),
-            child: Text(
-              word.word,
-              textAlign: TextAlign.center,
-              style: const TextStyle(
-                fontSize: 30,
-                fontWeight: FontWeight.w800,
-                color: _green,
-                letterSpacing: 0.5,
+          Center(
+            child: Container(
+              padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 24),
+              decoration: BoxDecoration(
+                color: _green.withValues(alpha: 0.1),
+                borderRadius: BorderRadius.circular(16),
+                border: Border.all(color: _green.withValues(alpha: 0.35), width: 2),
+              ),
+              child: Text(
+                word.word,
+                style: const TextStyle(
+                  fontSize: 30,
+                  fontWeight: FontWeight.w800,
+                  color: Color(0xFF0F172A),
+                  letterSpacing: 0.5,
+                ),
               ),
             ),
           ),

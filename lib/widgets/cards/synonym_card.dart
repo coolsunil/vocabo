@@ -62,22 +62,6 @@ class SynonymCard extends StatelessWidget {
 
           const SizedBox(height: 24),
 
-          _title("Hindi Meaning"),
-          const SizedBox(height: 8),
-          Container(
-            padding: const EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              color: const Color(0xFF1F3C6D).withValues(alpha: 0.06),
-              borderRadius: BorderRadius.circular(12),
-            ),
-            child: Text(
-              word.meaningHi,
-              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
-            ),
-          ),
-
-          const SizedBox(height: 20),
-
           if (word.synonyms.isNotEmpty) ...[
             _title("Synonyms"),
             const SizedBox(height: 10),

@@ -1,3129 +1,3067 @@
 [
   {
-    "word": "abandon",
+    "word": "Abandon",
     "meaning_en": "leave completely",
     "meaning_hi": "त्यागना",
     "synonyms": [
-      "desert",
-      "forsake",
-      "relinquish",
-      "abdicate",
-      "vacate"
+      "Desert",
+      "Forsake",
+      "Relinquish",
+      "Abdicate",
+      "Vacate",
+      "Renounce"
     ],
     "antonyms": [
-      "retain",
-      "preserve",
-      "keep"
+      "Retain",
+      "Preserve",
+      "Keep",
+      "Uphold"
     ],
+    "example": "He had to abandon his plans due to lack of funds.",
     "category": "synonyms"
   },
   {
-    "word": "ability",
+    "word": "Ability",
     "meaning_en": "capacity to do",
     "meaning_hi": "क्षमता",
     "synonyms": [
-      "skill",
-      "aptitude",
-      "capability",
-      "competence"
+      "Skill",
+      "Aptitude",
+      "Capability",
+      "Competence",
+      "Proficiency",
+      "Expertise"
     ],
     "antonyms": [
-      "inability",
-      "incapacity"
+      "Inability",
+      "Incapacity",
+      "Incompetence"
     ],
+    "example": "Her ability to solve problems quickly impressed everyone.",
     "category": "synonyms"
   },
   {
-    "word": "abundant",
+    "word": "Abundant",
     "meaning_en": "present in large quantity",
     "meaning_hi": "प्रचुर",
     "synonyms": [
-      "plentiful",
-      "ample",
-      "copious",
-      "profuse"
+      "Plentiful",
+      "Ample",
+      "Copious",
+      "Profuse",
+      "Bountiful",
+      "Lavish"
     ],
     "antonyms": [
-      "scarce",
-      "meager"
+      "Scarce",
+      "Meager",
+      "Deficient",
+      "Sparse"
     ],
+    "example": "Abundant rainfall this year led to a good harvest.",
     "category": "synonyms"
   },
   {
-    "word": "accurate",
+    "word": "Accurate",
     "meaning_en": "correct and precise",
     "meaning_hi": "सटीक",
     "synonyms": [
-      "precise",
-      "exact",
-      "correct"
+      "Precise",
+      "Exact",
+      "Correct",
+      "Faithful",
+      "Flawless",
+      "Meticulous"
     ],
     "antonyms": [
-      "inaccurate",
-      "wrong"
+      "Inaccurate",
+      "Wrong",
+      "Erroneous",
+      "Imprecise"
     ],
+    "example": "The scientist gave an accurate measurement of the sample.",
     "category": "synonyms"
   },
   {
-    "word": "anger",
+    "word": "Acrimony",
+    "meaning_en": "bitterness or ill feeling",
+    "meaning_hi": "कटुता",
+    "synonyms": [
+      "Bitterness",
+      "Hostility",
+      "Rancor",
+      "Animosity",
+      "Resentment",
+      "Asperity"
+    ],
+    "antonyms": [
+      "Goodwill",
+      "Harmony",
+      "Amity",
+      "Cordiality"
+    ],
+    "example": "The divorce was settled with much acrimony between the two parties.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Adamant",
+    "meaning_en": "refusing to change",
+    "meaning_hi": "अटल",
+    "synonyms": [
+      "Firm",
+      "Stubborn",
+      "Resolute",
+      "Unyielding",
+      "Inflexible",
+      "Obstinate"
+    ],
+    "antonyms": [
+      "Flexible",
+      "Yielding",
+      "Compliant",
+      "Amenable"
+    ],
+    "example": "She was adamant that no changes would be made to the plan.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Adept",
+    "meaning_en": "highly skilled",
+    "meaning_hi": "निपुण",
+    "synonyms": [
+      "Expert",
+      "Proficient",
+      "Skilled",
+      "Dexterous",
+      "Accomplished",
+      "Masterly"
+    ],
+    "antonyms": [
+      "Inept",
+      "Unskilled",
+      "Clumsy",
+      "Novice"
+    ],
+    "example": "He is adept at solving complex mathematical problems.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Admonish",
+    "meaning_en": "warn or reprimand",
+    "meaning_hi": "चेतावनी देना",
+    "synonyms": [
+      "Reprimand",
+      "Rebuke",
+      "Warn",
+      "Caution",
+      "Reprove",
+      "Chide"
+    ],
+    "antonyms": [
+      "Praise",
+      "Commend",
+      "Applaud",
+      "Encourage"
+    ],
+    "example": "The teacher admonished the student for being late repeatedly.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Adversity",
+    "meaning_en": "difficult situation",
+    "meaning_hi": "विपत्ति",
+    "synonyms": [
+      "Hardship",
+      "Misfortune",
+      "Calamity",
+      "Tribulation",
+      "Affliction",
+      "Distress"
+    ],
+    "antonyms": [
+      "Prosperity",
+      "Fortune",
+      "Ease",
+      "Comfort"
+    ],
+    "example": "He showed great courage in the face of adversity.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Affable",
+    "meaning_en": "friendly and approachable",
+    "meaning_hi": "मिलनसार",
+    "synonyms": [
+      "Friendly",
+      "Amiable",
+      "Genial",
+      "Cordial",
+      "Pleasant",
+      "Gracious"
+    ],
+    "antonyms": [
+      "Unfriendly",
+      "Aloof",
+      "Rude",
+      "Hostile"
+    ],
+    "example": "The affable host made every guest feel welcome.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Aggravate",
+    "meaning_en": "make worse",
+    "meaning_hi": "बिगाड़ना",
+    "synonyms": [
+      "Worsen",
+      "Exacerbate",
+      "Intensify",
+      "Inflame",
+      "Provoke",
+      "Irritate"
+    ],
+    "antonyms": [
+      "Improve",
+      "Alleviate",
+      "Soothe",
+      "Mitigate"
+    ],
+    "example": "His rude comments only aggravated the situation.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Agile",
+    "meaning_en": "able to move quickly",
+    "meaning_hi": "फुर्तीला",
+    "synonyms": [
+      "Nimble",
+      "Spry",
+      "Lithe",
+      "Dexterous",
+      "Brisk",
+      "Active"
+    ],
+    "antonyms": [
+      "Clumsy",
+      "Sluggish",
+      "Stiff",
+      "Lethargic"
+    ],
+    "example": "The agile athlete cleared every hurdle with ease.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Alleviate",
+    "meaning_en": "make suffering less severe",
+    "meaning_hi": "कम करना",
+    "synonyms": [
+      "Ease",
+      "Relieve",
+      "Mitigate",
+      "Lessen",
+      "Soothe",
+      "Reduce"
+    ],
+    "antonyms": [
+      "Aggravate",
+      "Intensify",
+      "Worsen",
+      "Increase"
+    ],
+    "example": "The medicine helped alleviate the patient's pain.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Ambiguous",
+    "meaning_en": "open to more than one interpretation",
+    "meaning_hi": "अस्पष्ट",
+    "synonyms": [
+      "Unclear",
+      "Vague",
+      "Equivocal",
+      "Obscure",
+      "Dubious",
+      "Cryptic"
+    ],
+    "antonyms": [
+      "Clear",
+      "Definite",
+      "Explicit",
+      "Unambiguous"
+    ],
+    "example": "His ambiguous reply left everyone confused.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Amicable",
+    "meaning_en": "done in a friendly way",
+    "meaning_hi": "सौहार्दपूर्ण",
+    "synonyms": [
+      "Friendly",
+      "Cordial",
+      "Harmonious",
+      "Peaceful",
+      "Amiable",
+      "Civil"
+    ],
+    "antonyms": [
+      "Hostile",
+      "Unfriendly",
+      "Antagonistic",
+      "Bitter"
+    ],
+    "example": "The two countries reached an amicable settlement.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Anger",
     "meaning_en": "strong displeasure",
     "meaning_hi": "क्रोध",
     "synonyms": [
-      "rage",
-      "fury",
-      "wrath",
-      "ire"
+      "Rage",
+      "Fury",
+      "Wrath",
+      "Ire",
+      "Indignation",
+      "Resentment"
     ],
     "antonyms": [
-      "calm",
-      "peace"
+      "Calm",
+      "Peace",
+      "Serenity",
+      "Patience"
     ],
+    "example": "His anger was visible when he heard the unfair decision.",
     "category": "synonyms"
   },
   {
-    "word": "approve",
-    "meaning_en": "officially agree",
-    "meaning_hi": "अनुमोदन करना",
+    "word": "Antagonize",
+    "meaning_en": "cause hostility",
+    "meaning_hi": "विरोध पैदा करना",
     "synonyms": [
-      "endorse",
-      "sanction",
-      "ratify"
+      "Provoke",
+      "Irritate",
+      "Alienate",
+      "Offend",
+      "Aggravate",
+      "Incite"
     ],
     "antonyms": [
-      "reject",
-      "oppose"
+      "Pacify",
+      "Appease",
+      "Conciliate",
+      "Soothe"
     ],
+    "example": "His harsh words antagonized the entire team.",
     "category": "synonyms"
   },
   {
-    "word": "argue",
-    "meaning_en": "give reasons against",
-    "meaning_hi": "तर्क करना",
+    "word": "Appease",
+    "meaning_en": "pacify by giving concessions",
+    "meaning_hi": "शांत करना",
     "synonyms": [
-      "dispute",
-      "contend",
-      "debate"
+      "Pacify",
+      "Placate",
+      "Mollify",
+      "Soothe",
+      "Conciliate",
+      "Calm"
     ],
     "antonyms": [
-      "agree",
-      "accept"
+      "Provoke",
+      "Antagonize",
+      "Agitate",
+      "Incite"
     ],
+    "example": "The government tried to appease protesters with new policies.",
     "category": "synonyms"
   },
   {
-    "word": "arrange",
-    "meaning_en": "put in order",
-    "meaning_hi": "व्यवस्थित करना",
+    "word": "Arduous",
+    "meaning_en": "involving great effort",
+    "meaning_hi": "कठिन परिश्रम वाला",
     "synonyms": [
-      "organize",
-      "order",
-      "systematize"
+      "Strenuous",
+      "Laborious",
+      "Grueling",
+      "Tough",
+      "Rigorous",
+      "Exhausting"
     ],
     "antonyms": [
-      "disorganize",
-      "scatter"
+      "Easy",
+      "Effortless",
+      "Simple",
+      "Light"
     ],
+    "example": "The trek to the summit was arduous but rewarding.",
     "category": "synonyms"
   },
   {
-    "word": "ask",
-    "meaning_en": "request information",
-    "meaning_hi": "पूछना",
+    "word": "Arrogant",
+    "meaning_en": "having exaggerated self-importance",
+    "meaning_hi": "अहंकारी",
     "synonyms": [
-      "inquire",
-      "request",
-      "seek"
+      "Haughty",
+      "Proud",
+      "Conceited",
+      "Pompous",
+      "Insolent",
+      "Imperious"
     ],
     "antonyms": [
-      "answer",
-      "reply"
+      "Humble",
+      "Modest",
+      "Meek",
+      "Unassuming"
     ],
+    "example": "The arrogant officer refused to listen to his team.",
     "category": "synonyms"
   },
   {
-    "word": "assure",
-    "meaning_en": "make certain",
-    "meaning_hi": "आश्वस्त करना",
+    "word": "Articulate",
+    "meaning_en": "expressing ideas clearly",
+    "meaning_hi": "स्पष्ट रूप से बोलना",
     "synonyms": [
-      "guarantee",
-      "ensure",
-      "secure"
+      "Eloquent",
+      "Fluent",
+      "Clear",
+      "Expressive",
+      "Coherent",
+      "Lucid"
     ],
     "antonyms": [
-      "doubt",
-      "uncertain"
+      "Inarticulate",
+      "Unclear",
+      "Incoherent",
+      "Mumbling"
     ],
+    "example": "The articulate speaker held the audience's attention throughout.",
     "category": "synonyms"
   },
   {
-    "word": "bad",
-    "meaning_en": "morally wrong",
-    "meaning_hi": "बुरा",
+    "word": "Ascertain",
+    "meaning_en": "find out for certain",
+    "meaning_hi": "पता लगाना",
     "synonyms": [
-      "evil",
-      "wicked",
-      "vile"
+      "Determine",
+      "Verify",
+      "Confirm",
+      "Establish",
+      "Discover",
+      "Find out"
     ],
     "antonyms": [
-      "good",
-      "virtuous"
+      "Guess",
+      "Assume",
+      "Overlook",
+      "Ignore"
     ],
+    "example": "The investigators tried to ascertain the cause of the accident.",
     "category": "synonyms"
   },
   {
-    "word": "begin",
-    "meaning_en": "start",
-    "meaning_hi": "आरंभ करना",
+    "word": "Assiduous",
+    "meaning_en": "showing great care and effort",
+    "meaning_hi": "परिश्रमी",
     "synonyms": [
-      "start",
-      "commence",
-      "initiate"
+      "Diligent",
+      "Hardworking",
+      "Industrious",
+      "Persistent",
+      "Tireless",
+      "Devoted"
     ],
     "antonyms": [
-      "end",
-      "finish"
+      "Lazy",
+      "Negligent",
+      "Careless",
+      "Idle"
     ],
+    "example": "Her assiduous preparation helped her clear the exam.",
     "category": "synonyms"
   },
   {
-    "word": "belief",
-    "meaning_en": "accepted truth",
-    "meaning_hi": "विश्वास",
+    "word": "Audacious",
+    "meaning_en": "showing bold daring",
+    "meaning_hi": "साहसी",
     "synonyms": [
-      "faith",
-      "conviction",
-      "creed"
+      "Bold",
+      "Daring",
+      "Fearless",
+      "Intrepid",
+      "Brave",
+      "Reckless"
     ],
     "antonyms": [
-      "doubt",
-      "disbelief"
+      "Timid",
+      "Cowardly",
+      "Cautious",
+      "Fearful"
     ],
+    "example": "It was an audacious plan that surprised everyone.",
     "category": "synonyms"
   },
   {
-    "word": "big",
-    "meaning_en": "large in size",
-    "meaning_hi": "बड़ा",
+    "word": "Austere",
+    "meaning_en": "severe or strict",
+    "meaning_hi": "कठोर/सादा",
     "synonyms": [
-      "large",
-      "huge",
-      "immense",
-      "vast"
+      "Stern",
+      "Strict",
+      "Harsh",
+      "Severe",
+      "Frugal",
+      "Ascetic"
     ],
     "antonyms": [
-      "small",
-      "tiny"
+      "Lenient",
+      "Indulgent",
+      "Lavish",
+      "Extravagant"
     ],
+    "example": "The monk led an austere life in the mountains.",
     "category": "synonyms"
   },
   {
-    "word": "brave",
+    "word": "Avaricious",
+    "meaning_en": "extremely greedy",
+    "meaning_hi": "लालची",
+    "synonyms": [
+      "Greedy",
+      "Covetous",
+      "Grasping",
+      "Rapacious",
+      "Miserly",
+      "Acquisitive"
+    ],
+    "antonyms": [
+      "Generous",
+      "Charitable",
+      "Benevolent",
+      "Liberal"
+    ],
+    "example": "The avaricious businessman cheated his partners.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Baffle",
+    "meaning_en": "confuse completely",
+    "meaning_hi": "चकरा देना",
+    "synonyms": [
+      "Confuse",
+      "Perplex",
+      "Bewilder",
+      "Puzzle",
+      "Mystify",
+      "Stump"
+    ],
+    "antonyms": [
+      "Clarify",
+      "Enlighten",
+      "Explain",
+      "Illuminate"
+    ],
+    "example": "The complex puzzle baffled even the experts.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Belligerent",
+    "meaning_en": "hostile and aggressive",
+    "meaning_hi": "लड़ाकू",
+    "synonyms": [
+      "Aggressive",
+      "Hostile",
+      "Combative",
+      "Pugnacious",
+      "Warlike",
+      "Contentious"
+    ],
+    "antonyms": [
+      "Peaceful",
+      "Friendly",
+      "Cooperative",
+      "Amicable"
+    ],
+    "example": "The belligerent nation refused all peace talks.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Benevolent",
+    "meaning_en": "well meaning and kind",
+    "meaning_hi": "परोपकारी",
+    "synonyms": [
+      "Kind",
+      "Generous",
+      "Charitable",
+      "Philanthropic",
+      "Compassionate",
+      "Humane"
+    ],
+    "antonyms": [
+      "Cruel",
+      "Selfish",
+      "Malevolent",
+      "Stingy"
+    ],
+    "example": "The benevolent donor funded a school in the village.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Boisterous",
+    "meaning_en": "noisy and energetic",
+    "meaning_hi": "शोरगुल भरा",
+    "synonyms": [
+      "Noisy",
+      "Rowdy",
+      "Loud",
+      "Unruly",
+      "Tumultuous",
+      "Exuberant"
+    ],
+    "antonyms": [
+      "Quiet",
+      "Calm",
+      "Subdued",
+      "Reserved"
+    ],
+    "example": "The boisterous crowd cheered after the winning goal.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Brave",
     "meaning_en": "showing courage",
     "meaning_hi": "बहादुर",
     "synonyms": [
-      "bold",
-      "courageous",
-      "valiant"
+      "Bold",
+      "Courageous",
+      "Valiant",
+      "Intrepid",
+      "Gallant",
+      "Fearless"
     ],
     "antonyms": [
-      "cowardly",
-      "timid"
+      "Cowardly",
+      "Timid",
+      "Fearful",
+      "Spineless"
     ],
+    "example": "The brave soldier rescued his comrades under fire.",
     "category": "synonyms"
   },
   {
-    "word": "bright",
-    "meaning_en": "giving light or intelligence",
-    "meaning_hi": "उज्ज्वल/बुद्धिमान",
+    "word": "Brevity",
+    "meaning_en": "using few words",
+    "meaning_hi": "संक्षिप्तता",
     "synonyms": [
-      "luminous",
-      "radiant",
-      "brilliant"
+      "Conciseness",
+      "Terseness",
+      "Succinctness",
+      "Shortness",
+      "Compactness",
+      "Laconism"
     ],
     "antonyms": [
-      "dim",
-      "dull"
+      "Verbosity",
+      "Wordiness",
+      "Prolixity",
+      "Rambling"
     ],
+    "example": "Brevity is the soul of wit, as Shakespeare wrote.",
     "category": "synonyms"
   },
   {
-    "word": "build",
-    "meaning_en": "construct",
-    "meaning_hi": "निर्माण करना",
+    "word": "Cacophony",
+    "meaning_en": "harsh discordant sound",
+    "meaning_hi": "कर्कश ध्वनि",
     "synonyms": [
-      "construct",
-      "erect",
-      "fabricate"
+      "Discord",
+      "Noise",
+      "Clamor",
+      "Dissonance",
+      "Din",
+      "Racket"
     ],
     "antonyms": [
-      "destroy",
-      "demolish"
+      "Harmony",
+      "Melody",
+      "Euphony",
+      "Silence"
     ],
+    "example": "The cacophony of traffic made conversation impossible.",
     "category": "synonyms"
   },
   {
-    "word": "busy",
-    "meaning_en": "occupied with activity",
-    "meaning_hi": "व्यस्त",
+    "word": "Callous",
+    "meaning_en": "showing no concern for others",
+    "meaning_hi": "निर्दयी",
     "synonyms": [
-      "occupied",
-      "engaged",
-      "active"
+      "Heartless",
+      "Insensitive",
+      "Ruthless",
+      "Cold",
+      "Unfeeling",
+      "Indifferent"
     ],
     "antonyms": [
-      "idle",
-      "free"
+      "Compassionate",
+      "Sensitive",
+      "Kind",
+      "Caring"
     ],
+    "example": "His callous attitude toward the poor shocked everyone.",
     "category": "synonyms"
   },
   {
-    "word": "calm",
-    "meaning_en": "peaceful",
+    "word": "Calm",
+    "meaning_en": "peaceful and undisturbed",
     "meaning_hi": "शांत",
     "synonyms": [
-      "tranquil",
-      "serene",
-      "placid"
+      "Tranquil",
+      "Serene",
+      "Placid",
+      "Composed",
+      "Unruffled",
+      "Peaceful"
     ],
     "antonyms": [
-      "agitated",
-      "turbulent"
+      "Agitated",
+      "Turbulent",
+      "Restless",
+      "Anxious"
     ],
+    "example": "She remained calm despite the chaos around her.",
     "category": "synonyms"
   },
   {
-    "word": "careful",
-    "meaning_en": "avoiding danger",
+    "word": "Candid",
+    "meaning_en": "truthful and straightforward",
+    "meaning_hi": "खरा/निष्कपट",
+    "synonyms": [
+      "Frank",
+      "Honest",
+      "Forthright",
+      "Sincere",
+      "Blunt",
+      "Open"
+    ],
+    "antonyms": [
+      "Deceitful",
+      "Evasive",
+      "Dishonest",
+      "Cunning"
+    ],
+    "example": "He gave a candid assessment of the project's weaknesses.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Capricious",
+    "meaning_en": "changing moods unpredictably",
+    "meaning_hi": "मनमौजी",
+    "synonyms": [
+      "Unpredictable",
+      "Fickle",
+      "Erratic",
+      "Whimsical",
+      "Volatile",
+      "Impulsive"
+    ],
+    "antonyms": [
+      "Consistent",
+      "Stable",
+      "Reliable",
+      "Predictable"
+    ],
+    "example": "Her capricious behavior made her difficult to work with.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Cautious",
+    "meaning_en": "avoiding danger carefully",
     "meaning_hi": "सावधान",
     "synonyms": [
-      "cautious",
-      "prudent",
-      "vigilant"
+      "Careful",
+      "Prudent",
+      "Vigilant",
+      "Wary",
+      "Circumspect",
+      "Guarded"
     ],
     "antonyms": [
-      "careless",
-      "rash"
+      "Careless",
+      "Reckless",
+      "Rash",
+      "Hasty"
     ],
+    "example": "A cautious driver always checks mirrors before turning.",
     "category": "synonyms"
   },
   {
-    "word": "change",
-    "meaning_en": "make different",
-    "meaning_hi": "बदलना",
+    "word": "Censure",
+    "meaning_en": "express strong disapproval",
+    "meaning_hi": "निंदा करना",
     "synonyms": [
-      "alter",
-      "modify",
-      "transform"
+      "Condemn",
+      "Criticize",
+      "Rebuke",
+      "Reprimand",
+      "Denounce",
+      "Blame"
     ],
     "antonyms": [
-      "maintain",
-      "preserve"
+      "Praise",
+      "Commend",
+      "Approve",
+      "Applaud"
     ],
+    "example": "The parliament censured the minister for his conduct.",
     "category": "synonyms"
   },
   {
-    "word": "choose",
-    "meaning_en": "select",
-    "meaning_hi": "चुनना",
+    "word": "Charismatic",
+    "meaning_en": "having powerful personal charm",
+    "meaning_hi": "करिश्माई",
     "synonyms": [
-      "select",
-      "opt",
-      "pick"
+      "Charming",
+      "Magnetic",
+      "Captivating",
+      "Compelling",
+      "Influential",
+      "Engaging"
     ],
     "antonyms": [
-      "reject",
-      "refuse"
+      "Dull",
+      "Uninspiring",
+      "Repellent",
+      "Colorless"
     ],
+    "example": "The charismatic leader inspired thousands to join the movement.",
     "category": "synonyms"
   },
   {
-    "word": "clear",
-    "meaning_en": "easy to understand",
+    "word": "Clandestine",
+    "meaning_en": "kept secret or hidden",
+    "meaning_hi": "गुप्त",
+    "synonyms": [
+      "Secret",
+      "Covert",
+      "Hidden",
+      "Stealthy",
+      "Furtive",
+      "Undercover"
+    ],
+    "antonyms": [
+      "Open",
+      "Public",
+      "Overt",
+      "Transparent"
+    ],
+    "example": "The spies held a clandestine meeting in the park.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Coerce",
+    "meaning_en": "force by threat",
+    "meaning_hi": "जबरदस्ती करना",
+    "synonyms": [
+      "Force",
+      "Compel",
+      "Intimidate",
+      "Pressurize",
+      "Bully",
+      "Constrain"
+    ],
+    "antonyms": [
+      "Persuade",
+      "Request",
+      "Encourage",
+      "Allow"
+    ],
+    "example": "He was coerced into signing the document.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Complacent",
+    "meaning_en": "self-satisfied and unaware of danger",
+    "meaning_hi": "आत्मसंतुष्ट",
+    "synonyms": [
+      "Self-satisfied",
+      "Smug",
+      "Unconcerned",
+      "Careless",
+      "Indifferent",
+      "Negligent"
+    ],
+    "antonyms": [
+      "Vigilant",
+      "Alert",
+      "Concerned",
+      "Ambitious"
+    ],
+    "example": "The team became complacent after early wins and lost focus.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Concede",
+    "meaning_en": "admit reluctantly",
+    "meaning_hi": "स्वीकार करना",
+    "synonyms": [
+      "Admit",
+      "Acknowledge",
+      "Yield",
+      "Grant",
+      "Surrender",
+      "Accept"
+    ],
+    "antonyms": [
+      "Deny",
+      "Refuse",
+      "Resist",
+      "Dispute"
+    ],
+    "example": "The candidate conceded defeat after the final count.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Condone",
+    "meaning_en": "accept or overlook wrongdoing",
+    "meaning_hi": "माफ करना",
+    "synonyms": [
+      "Excuse",
+      "Overlook",
+      "Pardon",
+      "Forgive",
+      "Tolerate",
+      "Ignore"
+    ],
+    "antonyms": [
+      "Condemn",
+      "Punish",
+      "Censure",
+      "Oppose"
+    ],
+    "example": "The school does not condone bullying of any kind.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Conspicuous",
+    "meaning_en": "clearly visible",
+    "meaning_hi": "स्पष्ट रूप से दिखाई देना",
+    "synonyms": [
+      "Obvious",
+      "Prominent",
+      "Noticeable",
+      "Striking",
+      "Evident",
+      "Glaring"
+    ],
+    "antonyms": [
+      "Inconspicuous",
+      "Hidden",
+      "Subtle",
+      "Obscure"
+    ],
+    "example": "Her red dress made her conspicuous in the crowd.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Contempt",
+    "meaning_en": "feeling that something is worthless",
+    "meaning_hi": "तिरस्कार",
+    "synonyms": [
+      "Scorn",
+      "Disdain",
+      "Derision",
+      "Disrespect",
+      "Mockery",
+      "Loathing"
+    ],
+    "antonyms": [
+      "Respect",
+      "Admiration",
+      "Esteem",
+      "Reverence"
+    ],
+    "example": "He showed open contempt for the court's ruling.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Credulous",
+    "meaning_en": "too ready to believe things",
+    "meaning_hi": "भोला-भाला",
+    "synonyms": [
+      "Gullible",
+      "Naive",
+      "Trusting",
+      "Unsuspecting",
+      "Innocent",
+      "Easily deceived"
+    ],
+    "antonyms": [
+      "Skeptical",
+      "Cynical",
+      "Suspicious",
+      "Wary"
+    ],
+    "example": "Credulous people are often victims of fraud.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Cynical",
+    "meaning_en": "believing people are motivated by self-interest",
+    "meaning_hi": "निंदनीय/संदेहवादी",
+    "synonyms": [
+      "Skeptical",
+      "Distrustful",
+      "Pessimistic",
+      "Sarcastic",
+      "Scornful",
+      "Doubting"
+    ],
+    "antonyms": [
+      "Optimistic",
+      "Trusting",
+      "Idealistic",
+      "Hopeful"
+    ],
+    "example": "Years of corruption made the voters cynical about politicians.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Dauntless",
+    "meaning_en": "fearless and determined",
+    "meaning_hi": "निडर",
+    "synonyms": [
+      "Fearless",
+      "Brave",
+      "Bold",
+      "Intrepid",
+      "Undaunted",
+      "Valiant"
+    ],
+    "antonyms": [
+      "Cowardly",
+      "Fearful",
+      "Timid",
+      "Apprehensive"
+    ],
+    "example": "The dauntless explorer ventured into uncharted territory.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Dearth",
+    "meaning_en": "scarcity or lack",
+    "meaning_hi": "कमी/अभाव",
+    "synonyms": [
+      "Scarcity",
+      "Lack",
+      "Shortage",
+      "Deficiency",
+      "Paucity",
+      "Insufficiency"
+    ],
+    "antonyms": [
+      "Abundance",
+      "Plenty",
+      "Surplus",
+      "Excess"
+    ],
+    "example": "There is a dearth of skilled doctors in rural areas.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Deceitful",
+    "meaning_en": "misleading or dishonest",
+    "meaning_hi": "धोखेबाज",
+    "synonyms": [
+      "Dishonest",
+      "Fraudulent",
+      "Deceptive",
+      "Cunning",
+      "Treacherous",
+      "Duplicitous"
+    ],
+    "antonyms": [
+      "Honest",
+      "Truthful",
+      "Sincere",
+      "Trustworthy"
+    ],
+    "example": "The deceitful salesman sold fake products to customers.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Decisive",
+    "meaning_en": "able to make decisions quickly",
+    "meaning_hi": "दृढ़ निश्चयी",
+    "synonyms": [
+      "Resolute",
+      "Determined",
+      "Firm",
+      "Definite",
+      "Unambiguous",
+      "Conclusive"
+    ],
+    "antonyms": [
+      "Indecisive",
+      "Hesitant",
+      "Wavering",
+      "Uncertain"
+    ],
+    "example": "A decisive leader acts swiftly in a crisis.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Deceptive",
+    "meaning_en": "giving a false impression",
+    "meaning_hi": "भ्रामक",
+    "synonyms": [
+      "Misleading",
+      "Fraudulent",
+      "Illusory",
+      "Cunning",
+      "Treacherous",
+      "Dishonest"
+    ],
+    "antonyms": [
+      "Honest",
+      "Transparent",
+      "Genuine",
+      "Straightforward"
+    ],
+    "example": "The advertisement was deceptive about the product's benefits.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Denounce",
+    "meaning_en": "publicly declare as wrong",
+    "meaning_hi": "निंदा करना",
+    "synonyms": [
+      "Condemn",
+      "Censure",
+      "Criticize",
+      "Accuse",
+      "Decry",
+      "Expose"
+    ],
+    "antonyms": [
+      "Praise",
+      "Defend",
+      "Support",
+      "Commend"
+    ],
+    "example": "World leaders denounced the terrorist attack.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Deplete",
+    "meaning_en": "reduce severely",
+    "meaning_hi": "समाप्त करना",
+    "synonyms": [
+      "Exhaust",
+      "Drain",
+      "Reduce",
+      "Consume",
+      "Use up",
+      "Diminish"
+    ],
+    "antonyms": [
+      "Replenish",
+      "Restore",
+      "Increase",
+      "Accumulate"
+    ],
+    "example": "Overuse has depleted the country's natural resources.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Desolate",
+    "meaning_en": "empty and miserable",
+    "meaning_hi": "उजाड़/दुखी",
+    "synonyms": [
+      "Barren",
+      "Bleak",
+      "Deserted",
+      "Forsaken",
+      "Lonely",
+      "Gloomy"
+    ],
+    "antonyms": [
+      "Populated",
+      "Cheerful",
+      "Lively",
+      "Thriving"
+    ],
+    "example": "The abandoned village looked desolate in winter.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Diligent",
+    "meaning_en": "steady effort and care",
+    "meaning_hi": "मेहनती",
+    "synonyms": [
+      "Hardworking",
+      "Industrious",
+      "Assiduous",
+      "Persistent",
+      "Careful",
+      "Thorough"
+    ],
+    "antonyms": [
+      "Lazy",
+      "Negligent",
+      "Idle",
+      "Careless"
+    ],
+    "example": "Diligent students always revise their lessons regularly.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Discerning",
+    "meaning_en": "having good judgment",
+    "meaning_hi": "विवेकशील",
+    "synonyms": [
+      "Perceptive",
+      "Insightful",
+      "Astute",
+      "Sharp",
+      "Wise",
+      "Discriminating"
+    ],
+    "antonyms": [
+      "Undiscerning",
+      "Naive",
+      "Dull",
+      "Oblivious"
+    ],
+    "example": "A discerning reader can identify flaws in an argument.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Docile",
+    "meaning_en": "easily managed",
+    "meaning_hi": "आज्ञाकारी",
+    "synonyms": [
+      "Obedient",
+      "Submissive",
+      "Compliant",
+      "Tame",
+      "Gentle",
+      "Meek"
+    ],
+    "antonyms": [
+      "Stubborn",
+      "Defiant",
+      "Rebellious",
+      "Unruly"
+    ],
+    "example": "The docile child followed every instruction willingly.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Dubious",
+    "meaning_en": "feeling doubt",
+    "meaning_hi": "संदिग्ध",
+    "synonyms": [
+      "Doubtful",
+      "Uncertain",
+      "Suspicious",
+      "Questionable",
+      "Skeptical",
+      "Hesitant"
+    ],
+    "antonyms": [
+      "Certain",
+      "Confident",
+      "Clear",
+      "Trustworthy"
+    ],
+    "example": "The manager was dubious about the new employee's claims.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Eloquent",
+    "meaning_en": "fluent and persuasive in speech",
+    "meaning_hi": "वाक्पटु",
+    "synonyms": [
+      "Articulate",
+      "Expressive",
+      "Fluent",
+      "Persuasive",
+      "Silver-tongued",
+      "Lucid"
+    ],
+    "antonyms": [
+      "Inarticulate",
+      "Tongue-tied",
+      "Incoherent",
+      "Mumbling"
+    ],
+    "example": "The lawyer's eloquent arguments won the case.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Eminent",
+    "meaning_en": "famous and respected",
+    "meaning_hi": "प्रतिष्ठित",
+    "synonyms": [
+      "Famous",
+      "Renowned",
+      "Distinguished",
+      "Illustrious",
+      "Notable",
+      "Prominent"
+    ],
+    "antonyms": [
+      "Unknown",
+      "Obscure",
+      "Insignificant",
+      "Ordinary"
+    ],
+    "example": "An eminent scientist was invited to deliver the lecture.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Empathy",
+    "meaning_en": "ability to understand others' feelings",
+    "meaning_hi": "सहानुभूति",
+    "synonyms": [
+      "Compassion",
+      "Understanding",
+      "Sympathy",
+      "Sensitivity",
+      "Concern",
+      "Care"
+    ],
+    "antonyms": [
+      "Indifference",
+      "Apathy",
+      "Callousness",
+      "Coldness"
+    ],
+    "example": "A good leader shows empathy toward the team's struggles.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Ephemeral",
+    "meaning_en": "lasting very short time",
+    "meaning_hi": "क्षणिक",
+    "synonyms": [
+      "Fleeting",
+      "Transient",
+      "Temporary",
+      "Short-lived",
+      "Momentary",
+      "Passing"
+    ],
+    "antonyms": [
+      "Permanent",
+      "Lasting",
+      "Eternal",
+      "Enduring"
+    ],
+    "example": "Fame can be ephemeral if not backed by real talent.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Equivocate",
+    "meaning_en": "speak ambiguously to mislead",
+    "meaning_hi": "गोलमोल बोलना",
+    "synonyms": [
+      "Evade",
+      "Hedge",
+      "Prevaricate",
+      "Dodge",
+      "Stall",
+      "Vacillate"
+    ],
+    "antonyms": [
+      "Clarify",
+      "Assert",
+      "Declare",
+      "Commit"
+    ],
+    "example": "The politician equivocated when asked about his plans.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Eradicate",
+    "meaning_en": "destroy completely",
+    "meaning_hi": "जड़ से मिटाना",
+    "synonyms": [
+      "Eliminate",
+      "Abolish",
+      "Exterminate",
+      "Wipe out",
+      "Annihilate",
+      "Uproot"
+    ],
+    "antonyms": [
+      "Create",
+      "Establish",
+      "Preserve",
+      "Cultivate"
+    ],
+    "example": "The government aims to eradicate poverty by 2030.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Exacerbate",
+    "meaning_en": "make worse",
+    "meaning_hi": "बिगाड़ना",
+    "synonyms": [
+      "Worsen",
+      "Aggravate",
+      "Intensify",
+      "Inflame",
+      "Amplify",
+      "Heighten"
+    ],
+    "antonyms": [
+      "Improve",
+      "Alleviate",
+      "Soothe",
+      "Reduce"
+    ],
+    "example": "Smoking can exacerbate respiratory diseases.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Exemplary",
+    "meaning_en": "serving as a model",
+    "meaning_hi": "आदर्श",
+    "synonyms": [
+      "Model",
+      "Commendable",
+      "Outstanding",
+      "Admirable",
+      "Ideal",
+      "Praiseworthy"
+    ],
+    "antonyms": [
+      "Terrible",
+      "Unacceptable",
+      "Poor",
+      "Disgraceful"
+    ],
+    "example": "Her exemplary conduct earned her the best employee award.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Exonerate",
+    "meaning_en": "officially free from blame",
+    "meaning_hi": "दोषमुक्त करना",
+    "synonyms": [
+      "Acquit",
+      "Absolve",
+      "Clear",
+      "Vindicate",
+      "Excuse",
+      "Pardon"
+    ],
+    "antonyms": [
+      "Blame",
+      "Convict",
+      "Accuse",
+      "Condemn"
+    ],
+    "example": "New evidence exonerated the wrongly accused man.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Expedient",
+    "meaning_en": "convenient and practical",
+    "meaning_hi": "सुविधाजनक",
+    "synonyms": [
+      "Convenient",
+      "Practical",
+      "Advantageous",
+      "Useful",
+      "Pragmatic",
+      "Opportune"
+    ],
+    "antonyms": [
+      "Inconvenient",
+      "Impractical",
+      "Disadvantageous",
+      "Inexpedient"
+    ],
+    "example": "A temporary fix was expedient but not a permanent solution.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Explicit",
+    "meaning_en": "clearly stated",
     "meaning_hi": "स्पष्ट",
     "synonyms": [
-      "evident",
-      "obvious",
-      "explicit"
+      "Clear",
+      "Direct",
+      "Definite",
+      "Specific",
+      "Unambiguous",
+      "Frank"
     ],
     "antonyms": [
-      "unclear",
-      "vague"
+      "Implicit",
+      "Vague",
+      "Ambiguous",
+      "Indirect"
     ],
+    "example": "The instructions were explicit so there was no confusion.",
     "category": "synonyms"
   },
   {
-    "word": "clever",
-    "meaning_en": "intelligent",
-    "meaning_hi": "चतुर",
+    "word": "Extravagant",
+    "meaning_en": "spending much more than necessary",
+    "meaning_hi": "फिजूलखर्ची करने वाला",
     "synonyms": [
-      "smart",
-      "shrewd",
-      "astute"
+      "Lavish",
+      "Wasteful",
+      "Excessive",
+      "Prodigal",
+      "Profligate",
+      "Spendthrift"
     ],
     "antonyms": [
-      "foolish",
-      "naive"
+      "Frugal",
+      "Thrifty",
+      "Economical",
+      "Modest"
     ],
+    "example": "His extravagant lifestyle left him in debt.",
     "category": "synonyms"
   },
   {
-    "word": "common",
-    "meaning_en": "occurring often",
-    "meaning_hi": "सामान्य",
+    "word": "Fickle",
+    "meaning_en": "changing loyalties frequently",
+    "meaning_hi": "चंचल/अस्थिर",
     "synonyms": [
-      "ordinary",
-      "usual",
-      "prevalent"
+      "Capricious",
+      "Inconstant",
+      "Unpredictable",
+      "Erratic",
+      "Volatile",
+      "Unstable"
     ],
     "antonyms": [
-      "rare",
-      "uncommon"
+      "Consistent",
+      "Loyal",
+      "Reliable",
+      "Steadfast"
     ],
+    "example": "Fickle voters shifted support before the election.",
     "category": "synonyms"
   },
   {
-    "word": "complete",
-    "meaning_en": "whole",
-    "meaning_hi": "पूर्ण",
+    "word": "Flagrant",
+    "meaning_en": "obviously wrong and shocking",
+    "meaning_hi": "घोर/स्पष्ट",
     "synonyms": [
-      "entire",
-      "whole",
-      "total"
+      "Blatant",
+      "Obvious",
+      "Glaring",
+      "Brazen",
+      "Outrageous",
+      "Shameless"
     ],
     "antonyms": [
-      "partial",
-      "incomplete"
+      "Subtle",
+      "Hidden",
+      "Minor",
+      "Inconspicuous"
     ],
+    "example": "It was a flagrant violation of human rights.",
     "category": "synonyms"
   },
   {
-    "word": "confuse",
-    "meaning_en": "make unclear",
-    "meaning_hi": "भ्रमित करना",
+    "word": "Frugal",
+    "meaning_en": "careful with money",
+    "meaning_hi": "मितव्ययी",
     "synonyms": [
-      "perplex",
-      "baffle",
-      "bewilder"
+      "Thrifty",
+      "Economical",
+      "Sparing",
+      "Prudent",
+      "Careful",
+      "Austere"
     ],
     "antonyms": [
-      "clarify",
-      "explain"
+      "Wasteful",
+      "Extravagant",
+      "Lavish",
+      "Spendthrift"
     ],
+    "example": "His frugal habits helped him save enough for retirement.",
     "category": "synonyms"
   },
   {
-    "word": "connect",
-    "meaning_en": "join together",
-    "meaning_hi": "जोड़ना",
+    "word": "Gallant",
+    "meaning_en": "brave and heroic",
+    "meaning_hi": "वीर/शिष्ट",
     "synonyms": [
-      "link",
-      "join",
-      "unite"
+      "Brave",
+      "Heroic",
+      "Chivalrous",
+      "Noble",
+      "Courteous",
+      "Valiant"
     ],
     "antonyms": [
-      "separate",
-      "disconnect"
+      "Cowardly",
+      "Rude",
+      "Ignoble",
+      "Discourteous"
     ],
+    "example": "The gallant soldier was awarded a medal for bravery.",
     "category": "synonyms"
   },
   {
-    "word": "danger",
-    "meaning_en": "risk",
-    "meaning_hi": "खतरा",
+    "word": "Gregarious",
+    "meaning_en": "fond of company",
+    "meaning_hi": "मिलनसार",
     "synonyms": [
-      "peril",
-      "hazard",
-      "risk"
+      "Sociable",
+      "Outgoing",
+      "Friendly",
+      "Convivial",
+      "Affable",
+      "Extroverted"
     ],
     "antonyms": [
-      "safety",
-      "security"
+      "Introverted",
+      "Unsociable",
+      "Reserved",
+      "Solitary"
     ],
+    "example": "Her gregarious nature made her popular at social events.",
     "category": "synonyms"
   },
   {
-    "word": "dark",
-    "meaning_en": "lacking light",
-    "meaning_hi": "अंधकारमय",
+    "word": "Hamper",
+    "meaning_en": "hinder or obstruct",
+    "meaning_hi": "बाधा डालना",
     "synonyms": [
-      "dim",
-      "obscure",
-      "murky"
+      "Hinder",
+      "Obstruct",
+      "Impede",
+      "Restrict",
+      "Block",
+      "Curb"
     ],
     "antonyms": [
-      "bright",
-      "clear"
+      "Help",
+      "Assist",
+      "Facilitate",
+      "Enable"
     ],
+    "example": "Poor roads hamper economic development in rural areas.",
     "category": "synonyms"
   },
   {
-    "word": "decide",
-    "meaning_en": "make a choice",
-    "meaning_hi": "निर्णय करना",
+    "word": "Haughty",
+    "meaning_en": "arrogantly superior",
+    "meaning_hi": "घमंडी",
     "synonyms": [
-      "determine",
-      "resolve",
-      "settle"
+      "Arrogant",
+      "Proud",
+      "Conceited",
+      "Disdainful",
+      "Pompous",
+      "Condescending"
     ],
     "antonyms": [
-      "hesitate",
-      "delay"
+      "Humble",
+      "Modest",
+      "Meek",
+      "Down-to-earth"
     ],
+    "example": "Her haughty attitude made her unpopular among colleagues.",
     "category": "synonyms"
   },
   {
-    "word": "decrease",
-    "meaning_en": "become smaller",
-    "meaning_hi": "कम होना",
+    "word": "Hostility",
+    "meaning_en": "unfriendly opposition",
+    "meaning_hi": "शत्रुता",
     "synonyms": [
-      "reduce",
-      "diminish",
-      "lessen"
+      "Enmity",
+      "Antagonism",
+      "Opposition",
+      "Aggression",
+      "Hatred",
+      "Animosity"
     ],
     "antonyms": [
-      "increase",
-      "grow"
+      "Friendliness",
+      "Goodwill",
+      "Harmony",
+      "Amity"
     ],
+    "example": "The hostility between the two groups led to violence.",
     "category": "synonyms"
   },
   {
-    "word": "deep",
-    "meaning_en": "extending far down",
-    "meaning_hi": "गहरा",
+    "word": "Hypocritical",
+    "meaning_en": "pretending to be what one is not",
+    "meaning_hi": "पाखंडी",
     "synonyms": [
-      "profound",
-      "intense",
-      "thorough"
+      "Two-faced",
+      "Insincere",
+      "Deceitful",
+      "Dishonest",
+      "Sanctimonious",
+      "Pretentious"
     ],
     "antonyms": [
-      "shallow",
-      "superficial"
+      "Sincere",
+      "Genuine",
+      "Honest",
+      "Authentic"
     ],
+    "example": "It is hypocritical to preach honesty while lying yourself.",
     "category": "synonyms"
   },
   {
-    "word": "defeat",
-    "meaning_en": "win over",
-    "meaning_hi": "पराजित करना",
+    "word": "Impede",
+    "meaning_en": "delay or block progress",
+    "meaning_hi": "बाधित करना",
     "synonyms": [
-      "conquer",
-      "vanquish",
-      "overcome"
+      "Hinder",
+      "Obstruct",
+      "Block",
+      "Hamper",
+      "Restrain",
+      "Curb"
     ],
     "antonyms": [
-      "lose",
-      "surrender"
+      "Aid",
+      "Assist",
+      "Facilitate",
+      "Accelerate"
     ],
+    "example": "Bureaucratic delays impede the progress of development projects.",
     "category": "synonyms"
   },
   {
-    "word": "delay",
-    "meaning_en": "postpone",
-    "meaning_hi": "विलंब करना",
+    "word": "Impartial",
+    "meaning_en": "treating all equally",
+    "meaning_hi": "निष्पक्ष",
     "synonyms": [
-      "postpone",
-      "defer",
-      "stall"
+      "Fair",
+      "Unbiased",
+      "Neutral",
+      "Objective",
+      "Just",
+      "Equitable"
     ],
     "antonyms": [
-      "hasten",
-      "advance"
+      "Biased",
+      "Partial",
+      "Prejudiced",
+      "Discriminatory"
     ],
+    "example": "A judge must always be impartial in passing a verdict.",
     "category": "synonyms"
   },
   {
-    "word": "deny",
-    "meaning_en": "refuse to accept",
-    "meaning_hi": "इंकार करना",
+    "word": "Impetuous",
+    "meaning_en": "acting without thinking",
+    "meaning_hi": "उतावला",
     "synonyms": [
-      "refuse",
-      "reject",
-      "repudiate"
+      "Rash",
+      "Hasty",
+      "Impulsive",
+      "Reckless",
+      "Hot-headed",
+      "Brash"
     ],
     "antonyms": [
-      "accept",
-      "admit"
+      "Cautious",
+      "Careful",
+      "Deliberate",
+      "Composed"
     ],
+    "example": "His impetuous decision cost the company a major contract.",
     "category": "synonyms"
   },
   {
-    "word": "destroy",
-    "meaning_en": "ruin completely",
-    "meaning_hi": "नष्ट करना",
+    "word": "Indifferent",
+    "meaning_en": "having no interest",
+    "meaning_hi": "उदासीन",
     "synonyms": [
-      "ruin",
-      "devastate",
-      "wreck"
+      "Apathetic",
+      "Unconcerned",
+      "Detached",
+      "Aloof",
+      "Uncaring",
+      "Neutral"
     ],
     "antonyms": [
-      "create",
-      "build"
+      "Concerned",
+      "Interested",
+      "Passionate",
+      "Caring"
     ],
+    "example": "She was indifferent to public opinion about her choices.",
     "category": "synonyms"
   },
   {
-    "word": "difficult",
-    "meaning_en": "hard to do",
-    "meaning_hi": "कठिन",
+    "word": "Indolent",
+    "meaning_en": "disliking work or effort",
+    "meaning_hi": "आलसी",
     "synonyms": [
-      "hard",
-      "arduous",
-      "tough"
+      "Lazy",
+      "Idle",
+      "Sluggish",
+      "Slothful",
+      "Inactive",
+      "Lethargic"
     ],
     "antonyms": [
-      "easy",
-      "simple"
+      "Hardworking",
+      "Diligent",
+      "Industrious",
+      "Active"
     ],
+    "example": "Indolent students rarely achieve their potential.",
     "category": "synonyms"
   },
   {
-    "word": "early",
-    "meaning_en": "before expected time",
-    "meaning_hi": "शीघ्र/प्रारंभिक",
+    "word": "Insolent",
+    "meaning_en": "rude and disrespectful",
+    "meaning_hi": "ढीठ/अपमानजनक",
     "synonyms": [
-      "premature",
-      "initial",
-      "prior"
+      "Rude",
+      "Disrespectful",
+      "Impertinent",
+      "Arrogant",
+      "Impudent",
+      "Brazen"
     ],
     "antonyms": [
-      "late",
-      "delayed"
+      "Respectful",
+      "Polite",
+      "Courteous",
+      "Deferential"
     ],
+    "example": "The insolent reply from the student angered the teacher.",
     "category": "synonyms"
   },
   {
-    "word": "easy",
-    "meaning_en": "requiring little effort",
-    "meaning_hi": "सरल",
+    "word": "Integrity",
+    "meaning_en": "quality of being honest",
+    "meaning_hi": "ईमानदारी",
     "synonyms": [
-      "simple",
-      "effortless",
-      "straightforward"
+      "Honesty",
+      "Uprightness",
+      "Virtue",
+      "Morality",
+      "Sincerity",
+      "Probity"
     ],
     "antonyms": [
-      "difficult",
-      "hard"
+      "Dishonesty",
+      "Corruption",
+      "Deceit",
+      "Immorality"
     ],
+    "example": "A person of integrity keeps promises even under pressure.",
     "category": "synonyms"
   },
   {
-    "word": "empty",
-    "meaning_en": "containing nothing",
-    "meaning_hi": "खाली",
+    "word": "Intricate",
+    "meaning_en": "very complicated",
+    "meaning_hi": "जटिल",
     "synonyms": [
-      "vacant",
-      "void",
-      "blank"
+      "Complex",
+      "Complicated",
+      "Elaborate",
+      "Detailed",
+      "Involved",
+      "Convoluted"
     ],
     "antonyms": [
-      "full",
-      "occupied"
+      "Simple",
+      "Straightforward",
+      "Basic",
+      "Easy"
     ],
+    "example": "The intricate design of the temple took years to complete.",
     "category": "synonyms"
   },
   {
-    "word": "end",
-    "meaning_en": "come to a finish",
-    "meaning_hi": "समाप्त करना",
+    "word": "Irrevocable",
+    "meaning_en": "not able to be changed",
+    "meaning_hi": "अपरिवर्तनीय",
     "synonyms": [
-      "finish",
-      "terminate",
-      "cease"
+      "Permanent",
+      "Final",
+      "Unalterable",
+      "Irreversible",
+      "Absolute",
+      "Definitive"
     ],
     "antonyms": [
-      "begin",
-      "start"
+      "Reversible",
+      "Changeable",
+      "Temporary",
+      "Flexible"
     ],
+    "example": "The court passed an irrevocable judgment in the case.",
     "category": "synonyms"
   },
   {
-    "word": "enemy",
-    "meaning_en": "one who opposes",
-    "meaning_hi": "शत्रु",
+    "word": "Judicious",
+    "meaning_en": "having good judgment",
+    "meaning_hi": "विवेकपूर्ण",
     "synonyms": [
-      "foe",
-      "adversary",
-      "opponent"
+      "Wise",
+      "Sensible",
+      "Prudent",
+      "Careful",
+      "Discerning",
+      "Sound"
     ],
     "antonyms": [
-      "ally",
-      "friend"
+      "Foolish",
+      "Reckless",
+      "Unwise",
+      "Impulsive"
     ],
+    "example": "A judicious use of resources ensures long-term success.",
     "category": "synonyms"
   },
   {
-    "word": "enough",
-    "meaning_en": "as much as needed",
-    "meaning_hi": "पर्याप्त",
-    "synonyms": [
-      "sufficient",
-      "adequate",
-      "ample"
-    ],
-    "antonyms": [
-      "insufficient",
-      "lacking"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "equal",
-    "meaning_en": "same in amount or value",
-    "meaning_hi": "समान",
-    "synonyms": [
-      "identical",
-      "equivalent",
-      "uniform"
-    ],
-    "antonyms": [
-      "unequal",
-      "different"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "error",
-    "meaning_en": "mistake",
-    "meaning_hi": "त्रुटि",
-    "synonyms": [
-      "mistake",
-      "fault",
-      "blunder"
-    ],
-    "antonyms": [
-      "accuracy",
-      "correctness"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "escape",
-    "meaning_en": "get away",
-    "meaning_hi": "भाग निकलना",
-    "synonyms": [
-      "flee",
-      "evade",
-      "elude"
-    ],
-    "antonyms": [
-      "capture",
-      "surrender"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "essential",
-    "meaning_en": "absolutely necessary",
-    "meaning_hi": "आवश्यक",
-    "synonyms": [
-      "vital",
-      "crucial",
-      "indispensable"
-    ],
-    "antonyms": [
-      "optional",
-      "unnecessary"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "false",
-    "meaning_en": "not true",
-    "meaning_hi": "झूठा",
-    "synonyms": [
-      "fake",
-      "spurious",
-      "erroneous"
-    ],
-    "antonyms": [
-      "true",
-      "genuine"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "famous",
-    "meaning_en": "widely known",
-    "meaning_hi": "प्रसिद्ध",
-    "synonyms": [
-      "renowned",
-      "eminent",
-      "celebrated"
-    ],
-    "antonyms": [
-      "unknown",
-      "obscure"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "fear",
-    "meaning_en": "feeling of danger",
-    "meaning_hi": "भय",
-    "synonyms": [
-      "dread",
-      "terror",
-      "fright"
-    ],
-    "antonyms": [
-      "courage",
-      "confidence"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "fight",
-    "meaning_en": "engage in battle",
-    "meaning_hi": "लड़ना",
-    "synonyms": [
-      "battle",
-      "combat",
-      "clash"
-    ],
-    "antonyms": [
-      "peace",
-      "surrender"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "find",
-    "meaning_en": "discover",
-    "meaning_hi": "खोजना",
-    "synonyms": [
-      "discover",
-      "detect",
-      "locate"
-    ],
-    "antonyms": [
-      "lose",
-      "miss"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "finish",
-    "meaning_en": "complete",
-    "meaning_hi": "समाप्त करना",
-    "synonyms": [
-      "complete",
-      "conclude",
-      "end"
-    ],
-    "antonyms": [
-      "begin",
-      "start"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "fix",
-    "meaning_en": "repair",
-    "meaning_hi": "मरम्मत करना",
-    "synonyms": [
-      "repair",
-      "mend",
-      "restore"
-    ],
-    "antonyms": [
-      "break",
-      "damage"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "force",
-    "meaning_en": "make happen by power",
-    "meaning_hi": "बलपूर्वक कराना",
-    "synonyms": [
-      "compel",
-      "coerce",
-      "pressure"
-    ],
-    "antonyms": [
-      "persuade",
-      "allow"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "free",
-    "meaning_en": "not under control",
-    "meaning_hi": "स्वतंत्र",
-    "synonyms": [
-      "liberate",
-      "release",
-      "emancipate"
-    ],
-    "antonyms": [
-      "confine",
-      "restrain"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "friend",
-    "meaning_en": "supporter or companion",
-    "meaning_hi": "मित्र",
-    "synonyms": [
-      "ally",
-      "companion",
-      "associate"
-    ],
-    "antonyms": [
-      "enemy",
-      "foe"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "gather",
-    "meaning_en": "bring together",
-    "meaning_hi": "एकत्र करना",
-    "synonyms": [
-      "collect",
-      "assemble",
-      "accumulate"
-    ],
-    "antonyms": [
-      "scatter",
-      "disperse"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "genuine",
-    "meaning_en": "truly what it claims to be",
-    "meaning_hi": "असली",
-    "synonyms": [
-      "authentic",
-      "real",
-      "sincere"
-    ],
-    "antonyms": [
-      "fake",
-      "artificial"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "give",
-    "meaning_en": "provide",
-    "meaning_hi": "देना",
-    "synonyms": [
-      "grant",
-      "provide",
-      "bestow"
-    ],
-    "antonyms": [
-      "take",
-      "withhold"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "glad",
-    "meaning_en": "happy",
-    "meaning_hi": "प्रसन्न",
-    "synonyms": [
-      "happy",
-      "joyful",
-      "pleased"
-    ],
-    "antonyms": [
-      "sad",
-      "unhappy"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "good",
-    "meaning_en": "morally right",
-    "meaning_hi": "अच्छा",
-    "synonyms": [
-      "virtuous",
-      "moral",
-      "upright"
-    ],
-    "antonyms": [
-      "evil",
-      "bad"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "gracious",
-    "meaning_en": "courteous and kind",
-    "meaning_hi": "कृपालु",
-    "synonyms": [
-      "courteous",
-      "kind",
-      "polite"
-    ],
-    "antonyms": [
-      "rude",
-      "unkind"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "grant",
-    "meaning_en": "give formally",
-    "meaning_hi": "प्रदान करना",
-    "synonyms": [
-      "give",
-      "bestow",
-      "award"
-    ],
-    "antonyms": [
-      "deny",
-      "withhold"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "grave",
-    "meaning_en": "serious and solemn",
-    "meaning_hi": "गंभीर",
-    "synonyms": [
-      "serious",
-      "solemn",
-      "severe"
-    ],
-    "antonyms": [
-      "trivial",
-      "lighthearted"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "grow",
-    "meaning_en": "increase",
-    "meaning_hi": "बढ़ना",
-    "synonyms": [
-      "expand",
-      "increase",
-      "develop"
-    ],
-    "antonyms": [
-      "shrink",
-      "decline"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "guess",
-    "meaning_en": "form opinion without proof",
-    "meaning_hi": "अनुमान लगाना",
-    "synonyms": [
-      "suppose",
-      "infer",
-      "estimate"
-    ],
-    "antonyms": [
-      "know",
-      "confirm"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "happy",
-    "meaning_en": "feeling pleasure",
-    "meaning_hi": "खुश",
-    "synonyms": [
-      "glad",
-      "joyful",
-      "elated"
-    ],
-    "antonyms": [
-      "sad",
-      "unhappy"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "harm",
-    "meaning_en": "cause damage",
-    "meaning_hi": "हानि पहुंचाना",
-    "synonyms": [
-      "damage",
-      "injure",
-      "hurt"
-    ],
-    "antonyms": [
-      "protect",
-      "benefit"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "hate",
-    "meaning_en": "strong dislike",
-    "meaning_hi": "घृणा करना",
-    "synonyms": [
-      "detest",
-      "loathe",
-      "abhor"
-    ],
-    "antonyms": [
-      "love",
-      "admire"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "help",
-    "meaning_en": "assist",
-    "meaning_hi": "सहायता करना",
-    "synonyms": [
-      "assist",
-      "aid",
-      "support"
-    ],
-    "antonyms": [
-      "hinder",
-      "obstruct"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "hide",
-    "meaning_en": "keep out of sight",
-    "meaning_hi": "छिपाना",
-    "synonyms": [
-      "conceal",
-      "obscure",
-      "mask"
-    ],
-    "antonyms": [
-      "reveal",
-      "expose"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "honest",
-    "meaning_en": "truthful",
-    "meaning_hi": "ईमानदार",
-    "synonyms": [
-      "sincere",
-      "upright",
-      "truthful"
-    ],
-    "antonyms": [
-      "dishonest",
-      "deceitful"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "huge",
-    "meaning_en": "very large",
-    "meaning_hi": "विशाल",
-    "synonyms": [
-      "enormous",
-      "gigantic",
-      "immense"
-    ],
-    "antonyms": [
-      "tiny",
-      "small"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "idea",
-    "meaning_en": "thought or concept",
-    "meaning_hi": "विचार",
-    "synonyms": [
-      "notion",
-      "concept",
-      "perception"
-    ],
-    "antonyms": [
-      "reality",
-      "fact"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "idle",
-    "meaning_en": "not active",
-    "meaning_hi": "निष्क्रिय",
-    "synonyms": [
-      "lazy",
-      "inactive",
-      "sluggish"
-    ],
-    "antonyms": [
-      "active",
-      "industrious"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "ignore",
-    "meaning_en": "pay no attention",
-    "meaning_hi": "अनदेखा करना",
-    "synonyms": [
-      "neglect",
-      "overlook",
-      "disregard"
-    ],
-    "antonyms": [
-      "notice",
-      "attend"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "ill",
-    "meaning_en": "not healthy",
-    "meaning_hi": "बीमार",
-    "synonyms": [
-      "sick",
-      "unwell",
-      "ailing"
-    ],
-    "antonyms": [
-      "healthy",
-      "well"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "important",
-    "meaning_en": "of great value",
-    "meaning_hi": "महत्वपूर्ण",
-    "synonyms": [
-      "vital",
-      "significant",
-      "crucial"
-    ],
-    "antonyms": [
-      "trivial",
-      "unimportant"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "increase",
-    "meaning_en": "become greater",
-    "meaning_hi": "बढ़ाना",
-    "synonyms": [
-      "augment",
-      "enhance",
-      "expand"
-    ],
-    "antonyms": [
-      "decrease",
-      "reduce"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "influence",
-    "meaning_en": "affect actions",
-    "meaning_hi": "प्रभावित करना",
-    "synonyms": [
-      "sway",
-      "affect",
-      "impact"
-    ],
-    "antonyms": [
-      "deter",
-      "discourage"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "intelligent",
-    "meaning_en": "having high ability",
-    "meaning_hi": "बुद्धिमान",
-    "synonyms": [
-      "smart",
-      "clever",
-      "bright"
-    ],
-    "antonyms": [
-      "stupid",
-      "dull"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "interesting",
-    "meaning_en": "holding attention",
-    "meaning_hi": "रोचक",
-    "synonyms": [
-      "engaging",
-      "fascinating",
-      "intriguing"
-    ],
-    "antonyms": [
-      "boring",
-      "dull"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "job",
-    "meaning_en": "paid work",
-    "meaning_hi": "नौकरी",
-    "synonyms": [
-      "work",
-      "occupation",
-      "profession"
-    ],
-    "antonyms": [
-      "unemployment",
-      "idleness"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "join",
-    "meaning_en": "connect together",
-    "meaning_hi": "जोड़ना",
-    "synonyms": [
-      "unite",
-      "link",
-      "attach"
-    ],
-    "antonyms": [
-      "separate",
-      "detach"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "judge",
-    "meaning_en": "form opinion",
-    "meaning_hi": "निर्णय करना",
-    "synonyms": [
-      "assess",
-      "evaluate",
-      "determine"
-    ],
-    "antonyms": [
-      "misjudge",
-      "guess"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "jump",
-    "meaning_en": "leap upward",
-    "meaning_hi": "कूदना",
-    "synonyms": [
-      "leap",
-      "spring",
-      "bound"
-    ],
-    "antonyms": [
-      "fall",
-      "drop"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "keen",
+    "word": "Keen",
     "meaning_en": "eager and enthusiastic",
     "meaning_hi": "उत्सुक",
     "synonyms": [
-      "eager",
-      "enthusiastic",
-      "ardent"
+      "Eager",
+      "Enthusiastic",
+      "Ardent",
+      "Fervent",
+      "Sharp",
+      "Zealous"
     ],
     "antonyms": [
-      "indifferent",
-      "apathetic"
+      "Indifferent",
+      "Apathetic",
+      "Disinterested",
+      "Reluctant"
     ],
+    "example": "He had a keen interest in astronomy from childhood.",
     "category": "synonyms"
   },
   {
-    "word": "keep",
-    "meaning_en": "retain in possession",
-    "meaning_hi": "रखना",
+    "word": "Lament",
+    "meaning_en": "mourn a loss",
+    "meaning_hi": "विलाप करना",
     "synonyms": [
-      "retain",
-      "preserve",
-      "maintain"
+      "Mourn",
+      "Grieve",
+      "Bemoan",
+      "Deplore",
+      "Weep",
+      "Wail"
     ],
     "antonyms": [
-      "discard",
-      "abandon"
+      "Celebrate",
+      "Rejoice",
+      "Cheer",
+      "Applaud"
     ],
+    "example": "The nation lamented the death of the great leader.",
     "category": "synonyms"
   },
   {
-    "word": "kill",
-    "meaning_en": "cause death",
-    "meaning_hi": "मारना",
+    "word": "Lethargic",
+    "meaning_en": "sluggish and lacking energy",
+    "meaning_hi": "सुस्त",
     "synonyms": [
-      "slay",
-      "murder",
-      "execute"
+      "Sluggish",
+      "Drowsy",
+      "Listless",
+      "Inactive",
+      "Apathetic",
+      "Torpid"
     ],
     "antonyms": [
-      "save",
-      "preserve"
+      "Energetic",
+      "Active",
+      "Lively",
+      "Vigorous"
     ],
+    "example": "He felt lethargic after eating a heavy meal.",
     "category": "synonyms"
   },
   {
-    "word": "kind",
-    "meaning_en": "showing care",
-    "meaning_hi": "दयालु",
-    "synonyms": [
-      "benevolent",
-      "compassionate",
-      "gentle"
-    ],
-    "antonyms": [
-      "cruel",
-      "harsh"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "kindle",
-    "meaning_en": "arouse or inspire feeling",
-    "meaning_hi": "जगाना",
-    "synonyms": [
-      "ignite",
-      "arouse",
-      "inspire"
-    ],
-    "antonyms": [
-      "extinguish",
-      "suppress"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "knowledgeable",
-    "meaning_en": "having much knowledge",
-    "meaning_hi": "जानकार",
-    "synonyms": [
-      "informed",
-      "learned",
-      "educated"
-    ],
-    "antonyms": [
-      "ignorant",
-      "uninformed"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "know",
-    "meaning_en": "be aware of",
-    "meaning_hi": "जानना",
-    "synonyms": [
-      "understand",
-      "realize",
-      "comprehend"
-    ],
-    "antonyms": [
-      "ignore",
-      "misunderstand"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "large",
-    "meaning_en": "big in size",
-    "meaning_hi": "बड़ा",
-    "synonyms": [
-      "big",
-      "huge",
-      "vast"
-    ],
-    "antonyms": [
-      "small",
-      "tiny"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "laugh",
-    "meaning_en": "express amusement",
-    "meaning_hi": "हंसना",
-    "synonyms": [
-      "giggle",
-      "chuckle",
-      "snicker"
-    ],
-    "antonyms": [
-      "cry",
-      "weep"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "leave",
-    "meaning_en": "go away",
-    "meaning_hi": "छोड़ना",
-    "synonyms": [
-      "abandon",
-      "depart",
-      "quit"
-    ],
-    "antonyms": [
-      "stay",
-      "remain"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "less",
-    "meaning_en": "smaller amount",
-    "meaning_hi": "कम",
-    "synonyms": [
-      "reduce",
-      "diminish",
-      "decrease"
-    ],
-    "antonyms": [
-      "more",
-      "increase"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "limit",
-    "meaning_en": "set boundary",
-    "meaning_hi": "सीमित करना",
-    "synonyms": [
-      "restrict",
-      "confine",
-      "bound"
-    ],
-    "antonyms": [
-      "expand",
-      "extend"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "live",
-    "meaning_en": "reside",
-    "meaning_hi": "रहना",
-    "synonyms": [
-      "reside",
-      "dwell",
-      "inhabit"
-    ],
-    "antonyms": [
-      "leave",
-      "vacate"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "look",
-    "meaning_en": "see with eyes",
-    "meaning_hi": "देखना",
-    "synonyms": [
-      "see",
-      "observe",
-      "view"
-    ],
-    "antonyms": [
-      "ignore",
-      "overlook"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "make",
-    "meaning_en": "create or produce",
-    "meaning_hi": "बनाना",
-    "synonyms": [
-      "create",
-      "produce",
-      "form"
-    ],
-    "antonyms": [
-      "destroy",
-      "break"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "manage",
-    "meaning_en": "handle successfully",
-    "meaning_hi": "प्रबंध करना",
-    "synonyms": [
-      "handle",
-      "control",
-      "administer"
-    ],
-    "antonyms": [
-      "mismanage",
-      "neglect"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "mean",
-    "meaning_en": "signify",
-    "meaning_hi": "अर्थ होना",
-    "synonyms": [
-      "signify",
-      "denote",
-      "indicate"
-    ],
-    "antonyms": [
-      "misrepresent",
-      "contradict"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "meet",
-    "meaning_en": "come across",
-    "meaning_hi": "मिलना",
-    "synonyms": [
-      "encounter",
-      "confront",
-      "greet"
-    ],
-    "antonyms": [
-      "avoid",
-      "miss"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "mighty",
-    "meaning_en": "very strong",
-    "meaning_hi": "शक्तिशाली",
-    "synonyms": [
-      "powerful",
-      "strong",
-      "forceful"
-    ],
-    "antonyms": [
-      "weak",
-      "feeble"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "mistake",
-    "meaning_en": "error",
-    "meaning_hi": "गलती",
-    "synonyms": [
-      "error",
-      "fault",
-      "blunder"
-    ],
-    "antonyms": [
-      "accuracy",
-      "correctness"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "modest",
-    "meaning_en": "not boastful",
-    "meaning_hi": "विनम्र",
-    "synonyms": [
-      "humble",
-      "meek",
-      "reserved"
-    ],
-    "antonyms": [
-      "arrogant",
-      "boastful"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "move",
-    "meaning_en": "change position",
-    "meaning_hi": "चलना/हिलना",
-    "synonyms": [
-      "shift",
-      "relocate",
-      "transfer"
-    ],
-    "antonyms": [
-      "stay",
-      "remain"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "much",
-    "meaning_en": "great quantity",
-    "meaning_hi": "अधिक",
-    "synonyms": [
-      "abundant",
-      "plenty",
-      "ample"
-    ],
-    "antonyms": [
-      "little",
-      "scarce"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "mysterious",
-    "meaning_en": "difficult to understand",
-    "meaning_hi": "रहस्यमय",
-    "synonyms": [
-      "enigmatic",
-      "puzzling",
-      "obscure"
-    ],
-    "antonyms": [
-      "clear",
-      "obvious"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "name",
-    "meaning_en": "title or designation",
-    "meaning_hi": "नाम",
-    "synonyms": [
-      "title",
-      "designation",
-      "label"
-    ],
-    "antonyms": [
-      "anonymity",
-      "nameless"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "need",
-    "meaning_en": "require",
-    "meaning_hi": "आवश्यकता होना",
-    "synonyms": [
-      "require",
-      "demand",
-      "necessitate"
-    ],
-    "antonyms": [
-      "lack",
-      "dispense"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "neglect",
-    "meaning_en": "fail to care for",
-    "meaning_hi": "उपेक्षा करना",
-    "synonyms": [
-      "ignore",
-      "disregard",
-      "overlook"
-    ],
-    "antonyms": [
-      "care",
-      "attend"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "new",
-    "meaning_en": "recently made",
-    "meaning_hi": "नया",
-    "synonyms": [
-      "novel",
-      "recent",
-      "fresh"
-    ],
-    "antonyms": [
-      "old",
-      "ancient"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "noble",
-    "meaning_en": "having fine qualities",
-    "meaning_hi": "कुलीन/श्रेष्ठ",
-    "synonyms": [
-      "honorable",
-      "virtuous",
-      "dignified"
-    ],
-    "antonyms": [
-      "ignoble",
-      "base"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "normal",
-    "meaning_en": "usual state",
-    "meaning_hi": "सामान्य",
-    "synonyms": [
-      "usual",
-      "standard",
-      "typical"
-    ],
-    "antonyms": [
-      "abnormal",
-      "unusual"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "notice",
-    "meaning_en": "observe",
-    "meaning_hi": "ध्यान देना",
-    "synonyms": [
-      "observe",
-      "perceive",
-      "detect"
-    ],
-    "antonyms": [
-      "ignore",
-      "overlook"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "numerous",
-    "meaning_en": "great in number",
-    "meaning_hi": "अनेक",
-    "synonyms": [
-      "many",
-      "several",
-      "abundant"
-    ],
-    "antonyms": [
-      "few",
-      "scarce"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "obey",
-    "meaning_en": "follow commands",
-    "meaning_hi": "आज्ञा मानना",
-    "synonyms": [
-      "comply",
-      "submit",
-      "heed"
-    ],
-    "antonyms": [
-      "disobey",
-      "defy"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "obtain",
-    "meaning_en": "get or acquire",
-    "meaning_hi": "प्राप्त करना",
-    "synonyms": [
-      "acquire",
-      "gain",
-      "secure"
-    ],
-    "antonyms": [
-      "lose",
-      "surrender"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "obvious",
-    "meaning_en": "easily seen",
+    "word": "Lucid",
+    "meaning_en": "clear and easy to understand",
     "meaning_hi": "स्पष्ट",
     "synonyms": [
-      "clear",
-      "evident",
-      "apparent"
+      "Clear",
+      "Coherent",
+      "Intelligible",
+      "Comprehensible",
+      "Transparent",
+      "Explicit"
     ],
     "antonyms": [
-      "unclear",
-      "obscure"
+      "Confusing",
+      "Unclear",
+      "Vague",
+      "Incoherent"
     ],
+    "example": "The professor gave a lucid explanation of the theory.",
     "category": "synonyms"
   },
   {
-    "word": "offer",
-    "meaning_en": "present for acceptance",
-    "meaning_hi": "प्रस्ताव देना",
+    "word": "Magnanimous",
+    "meaning_en": "generous and forgiving",
+    "meaning_hi": "उदार",
     "synonyms": [
-      "propose",
-      "present",
-      "extend"
+      "Generous",
+      "Noble",
+      "Forgiving",
+      "Charitable",
+      "Benevolent",
+      "Gracious"
     ],
     "antonyms": [
-      "withdraw",
-      "refuse"
+      "Petty",
+      "Mean",
+      "Selfish",
+      "Vindictive"
     ],
+    "example": "The magnanimous victor offered to help the defeated opponent.",
     "category": "synonyms"
   },
   {
-    "word": "omit",
-    "meaning_en": "leave out",
-    "meaning_hi": "छोड़ देना",
+    "word": "Meticulous",
+    "meaning_en": "showing great attention to detail",
+    "meaning_hi": "सूक्ष्म/सावधान",
     "synonyms": [
-      "exclude",
-      "skip",
-      "disregard"
+      "Careful",
+      "Precise",
+      "Thorough",
+      "Painstaking",
+      "Scrupulous",
+      "Diligent"
     ],
     "antonyms": [
-      "include",
-      "add"
+      "Careless",
+      "Sloppy",
+      "Negligent",
+      "Hasty"
     ],
+    "example": "The meticulous auditor found every hidden discrepancy.",
     "category": "synonyms"
   },
   {
-    "word": "oppose",
-    "meaning_en": "resist",
-    "meaning_hi": "विरोध करना",
+    "word": "Nefarious",
+    "meaning_en": "wicked and criminal",
+    "meaning_hi": "दुष्ट/कुख्यात",
     "synonyms": [
-      "resist",
-      "contradict",
-      "defy"
+      "Wicked",
+      "Villainous",
+      "Evil",
+      "Criminal",
+      "Sinister",
+      "Vile"
     ],
     "antonyms": [
-      "support",
-      "approve"
+      "Virtuous",
+      "Noble",
+      "Righteous",
+      "Honest"
     ],
+    "example": "The nefarious gang was finally arrested by police.",
     "category": "synonyms"
   },
   {
-    "word": "order",
-    "meaning_en": "command",
-    "meaning_hi": "आदेश",
+    "word": "Neutral",
+    "meaning_en": "not supporting either side",
+    "meaning_hi": "तटस्थ",
     "synonyms": [
-      "command",
-      "directive",
-      "instruction"
+      "Impartial",
+      "Unbiased",
+      "Detached",
+      "Objective",
+      "Disinterested",
+      "Indifferent"
     ],
     "antonyms": [
-      "disorder",
-      "chaos"
+      "Partial",
+      "Biased",
+      "Prejudiced",
+      "Committed"
     ],
+    "example": "Switzerland remained neutral during the world wars.",
     "category": "synonyms"
   },
   {
-    "word": "overcome",
-    "meaning_en": "succeed against difficulty",
-    "meaning_hi": "पार पाना",
+    "word": "Notorious",
+    "meaning_en": "famous for something bad",
+    "meaning_hi": "कुख्यात",
     "synonyms": [
-      "conquer",
-      "defeat",
-      "surmount"
+      "Infamous",
+      "Disreputable",
+      "Scandalous",
+      "Ill-famed",
+      "Known",
+      "Flagrant"
     ],
     "antonyms": [
-      "succumb",
-      "surrender"
+      "Reputable",
+      "Respected",
+      "Admired",
+      "Honored"
     ],
+    "example": "The area was notorious for its high crime rate.",
     "category": "synonyms"
   },
   {
-    "word": "pain",
-    "meaning_en": "physical suffering",
-    "meaning_hi": "दर्द",
+    "word": "Oblivious",
+    "meaning_en": "not aware of surroundings",
+    "meaning_hi": "अनजान/बेखबर",
     "synonyms": [
-      "agony",
-      "suffering",
-      "ache"
+      "Unaware",
+      "Ignorant",
+      "Inattentive",
+      "Unconscious",
+      "Heedless",
+      "Unmindful"
     ],
     "antonyms": [
-      "pleasure",
-      "comfort"
+      "Aware",
+      "Conscious",
+      "Attentive",
+      "Alert"
     ],
+    "example": "She was oblivious to the danger around her.",
     "category": "synonyms"
   },
   {
-    "word": "part",
-    "meaning_en": "portion",
-    "meaning_hi": "भाग",
+    "word": "Obsolete",
+    "meaning_en": "no longer used",
+    "meaning_hi": "अप्रचलित",
     "synonyms": [
-      "portion",
-      "segment",
-      "section"
+      "Outdated",
+      "Old-fashioned",
+      "Outmoded",
+      "Antiquated",
+      "Archaic",
+      "Defunct"
     ],
     "antonyms": [
-      "whole",
-      "entire"
+      "Modern",
+      "Current",
+      "Updated",
+      "Contemporary"
     ],
+    "example": "With smartphones, landlines have become almost obsolete.",
     "category": "synonyms"
   },
   {
-    "word": "peace",
-    "meaning_en": "state of calm",
-    "meaning_hi": "शांति",
+    "word": "Obstinate",
+    "meaning_en": "stubbornly refusing to change",
+    "meaning_hi": "हठी",
     "synonyms": [
-      "calm",
-      "tranquility",
-      "harmony"
+      "Stubborn",
+      "Adamant",
+      "Inflexible",
+      "Unyielding",
+      "Headstrong",
+      "Tenacious"
     ],
     "antonyms": [
-      "war",
-      "conflict"
+      "Flexible",
+      "Yielding",
+      "Compliant",
+      "Amenable"
     ],
+    "example": "The obstinate child refused to eat vegetables.",
     "category": "synonyms"
   },
   {
-    "word": "people",
-    "meaning_en": "persons collectively",
-    "meaning_hi": "लोग",
+    "word": "Ominous",
+    "meaning_en": "suggesting evil to come",
+    "meaning_hi": "अशुभ",
     "synonyms": [
-      "persons",
-      "individuals",
-      "population"
+      "Threatening",
+      "Foreboding",
+      "Sinister",
+      "Menacing",
+      "Alarming",
+      "Dark"
     ],
     "antonyms": [
-      "nobody",
-      "none"
+      "Promising",
+      "Auspicious",
+      "Favorable",
+      "Bright"
     ],
+    "example": "The dark clouds looked ominous before the storm.",
     "category": "synonyms"
   },
   {
-    "word": "place",
-    "meaning_en": "location",
-    "meaning_hi": "स्थान",
+    "word": "Opulent",
+    "meaning_en": "very wealthy and luxurious",
+    "meaning_hi": "वैभवशाली",
     "synonyms": [
-      "location",
-      "site",
-      "spot"
+      "Wealthy",
+      "Rich",
+      "Lavish",
+      "Luxurious",
+      "Affluent",
+      "Sumptuous"
     ],
     "antonyms": [
-      "nowhere",
-      "void"
+      "Poor",
+      "Destitute",
+      "Modest",
+      "Simple"
     ],
+    "example": "The minister lived in an opulent mansion.",
     "category": "synonyms"
   },
   {
-    "word": "plan",
-    "meaning_en": "scheme for action",
-    "meaning_hi": "योजना",
+    "word": "Ostracize",
+    "meaning_en": "exclude from society",
+    "meaning_hi": "बहिष्कार करना",
     "synonyms": [
-      "scheme",
-      "strategy",
-      "design"
+      "Exclude",
+      "Isolate",
+      "Shun",
+      "Banish",
+      "Reject",
+      "Boycott"
     ],
     "antonyms": [
-      "improvise",
-      "chance"
+      "Include",
+      "Welcome",
+      "Accept",
+      "Embrace"
     ],
+    "example": "The traitor was ostracized by the entire community.",
     "category": "synonyms"
   },
   {
-    "word": "poor",
-    "meaning_en": "lacking wealth",
-    "meaning_hi": "गरीब",
+    "word": "Parsimonious",
+    "meaning_en": "excessively careful with money",
+    "meaning_hi": "कंजूस",
     "synonyms": [
-      "needy",
-      "destitute",
-      "impoverished"
+      "Miserly",
+      "Stingy",
+      "Frugal",
+      "Mean",
+      "Niggardly",
+      "Penny-pinching"
     ],
     "antonyms": [
-      "rich",
-      "wealthy"
+      "Generous",
+      "Liberal",
+      "Lavish",
+      "Charitable"
     ],
+    "example": "The parsimonious owner refused to repair the leaking roof.",
     "category": "synonyms"
   },
   {
-    "word": "praise",
-    "meaning_en": "express approval",
-    "meaning_hi": "प्रशंसा करना",
+    "word": "Pedantic",
+    "meaning_en": "excessively focused on rules",
+    "meaning_hi": "ज्ञान का दिखावा करने वाला",
     "synonyms": [
-      "laud",
-      "extol",
-      "commend"
+      "Preachy",
+      "Bookish",
+      "Academic",
+      "Nitpicking",
+      "Precise",
+      "Dogmatic"
     ],
     "antonyms": [
-      "criticize",
-      "condemn"
+      "Flexible",
+      "Informal",
+      "Practical",
+      "Broad-minded"
     ],
+    "example": "His pedantic corrections annoyed everyone in the meeting.",
     "category": "synonyms"
   },
   {
-    "word": "prevent",
-    "meaning_en": "stop from happening",
-    "meaning_hi": "रोकना",
+    "word": "Perfidious",
+    "meaning_en": "deceitful and untrustworthy",
+    "meaning_hi": "विश्वासघाती",
     "synonyms": [
-      "hinder",
-      "obstruct",
-      "block"
+      "Treacherous",
+      "Disloyal",
+      "Betraying",
+      "Dishonest",
+      "Faithless",
+      "Traitorous"
     ],
     "antonyms": [
-      "allow",
-      "permit"
+      "Loyal",
+      "Faithful",
+      "Trustworthy",
+      "Dependable"
     ],
+    "example": "His perfidious act of betrayal shocked his closest friends.",
     "category": "synonyms"
   },
   {
-    "word": "problem",
-    "meaning_en": "difficulty",
-    "meaning_hi": "समस्या",
+    "word": "Persevere",
+    "meaning_en": "continue despite difficulty",
+    "meaning_hi": "डटे रहना",
     "synonyms": [
-      "issue",
-      "difficulty",
-      "trouble"
+      "Persist",
+      "Continue",
+      "Endure",
+      "Carry on",
+      "Remain",
+      "Strive"
     ],
     "antonyms": [
-      "solution",
-      "ease"
+      "Quit",
+      "Give up",
+      "Abandon",
+      "Surrender"
     ],
+    "example": "She persevered through hardship to achieve her dreams.",
     "category": "synonyms"
   },
   {
-    "word": "qualified",
-    "meaning_en": "having necessary skills",
-    "meaning_hi": "योग्य",
+    "word": "Pessimistic",
+    "meaning_en": "expecting the worst",
+    "meaning_hi": "निराशावादी",
     "synonyms": [
-      "competent",
-      "capable",
-      "eligible"
+      "Negative",
+      "Hopeless",
+      "Despairing",
+      "Cynical",
+      "Gloomy",
+      "Defeatist"
     ],
     "antonyms": [
-      "unqualified",
-      "incompetent"
+      "Optimistic",
+      "Hopeful",
+      "Positive",
+      "Confident"
     ],
+    "example": "A pessimistic outlook can prevent you from taking risks.",
     "category": "synonyms"
   },
   {
-    "word": "quarrel",
-    "meaning_en": "angry dispute",
-    "meaning_hi": "झगड़ा",
-    "synonyms": [
-      "dispute",
-      "argument",
-      "conflict"
-    ],
-    "antonyms": [
-      "agreement",
-      "harmony"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "quench",
-    "meaning_en": "satisfy a need fully",
-    "meaning_hi": "बुझाना",
-    "synonyms": [
-      "satisfy",
-      "extinguish",
-      "suppress"
-    ],
-    "antonyms": [
-      "ignite",
-      "intensify"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "query",
-    "meaning_en": "ask or question",
-    "meaning_hi": "प्रश्न करना",
-    "synonyms": [
-      "question",
-      "inquire",
-      "ask"
-    ],
-    "antonyms": [
-      "answer",
-      "respond"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "quick",
-    "meaning_en": "moving fast",
-    "meaning_hi": "तेज़",
-    "synonyms": [
-      "rapid",
-      "swift",
-      "speedy"
-    ],
-    "antonyms": [
-      "slow",
-      "sluggish"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "quiet",
-    "meaning_en": "making little noise",
+    "word": "Placid",
+    "meaning_en": "calm and peaceful",
     "meaning_hi": "शांत",
     "synonyms": [
-      "silent",
-      "calm",
-      "still"
+      "Calm",
+      "Serene",
+      "Tranquil",
+      "Composed",
+      "Still",
+      "Unruffled"
     ],
     "antonyms": [
-      "loud",
-      "noisy"
+      "Agitated",
+      "Turbulent",
+      "Excited",
+      "Restless"
     ],
+    "example": "The placid lake reflected the surrounding mountains.",
     "category": "synonyms"
   },
   {
-    "word": "quit",
-    "meaning_en": "leave or stop",
-    "meaning_hi": "छोड़ना",
+    "word": "Plausible",
+    "meaning_en": "seeming reasonable",
+    "meaning_hi": "विश्वसनीय",
     "synonyms": [
-      "leave",
-      "abandon",
-      "resign"
+      "Credible",
+      "Believable",
+      "Reasonable",
+      "Convincing",
+      "Probable",
+      "Likely"
     ],
     "antonyms": [
-      "stay",
-      "continue"
+      "Implausible",
+      "Unbelievable",
+      "Unlikely",
+      "Doubtful"
     ],
+    "example": "The suspect gave a plausible alibi to the police.",
     "category": "synonyms"
   },
   {
-    "word": "raise",
-    "meaning_en": "lift upward",
-    "meaning_hi": "उठाना",
+    "word": "Pragmatic",
+    "meaning_en": "dealing with things practically",
+    "meaning_hi": "व्यावहारिक",
     "synonyms": [
-      "lift",
-      "elevate",
-      "hoist"
+      "Practical",
+      "Realistic",
+      "Sensible",
+      "Rational",
+      "Down-to-earth",
+      "Logical"
     ],
     "antonyms": [
-      "lower",
-      "drop"
+      "Idealistic",
+      "Impractical",
+      "Unrealistic",
+      "Naive"
     ],
+    "example": "A pragmatic leader focuses on results rather than ideals.",
     "category": "synonyms"
   },
   {
-    "word": "rare",
-    "meaning_en": "not common",
-    "meaning_hi": "दुर्लभ",
+    "word": "Pretentious",
+    "meaning_en": "attempting to impress by affecting greater importance",
+    "meaning_hi": "दिखावटी",
     "synonyms": [
-      "scarce",
-      "uncommon",
-      "infrequent"
+      "Pompous",
+      "Showy",
+      "Ostentatious",
+      "Arrogant",
+      "Affected",
+      "Boastful"
     ],
     "antonyms": [
-      "common",
-      "abundant"
+      "Modest",
+      "Humble",
+      "Simple",
+      "Unpretentious"
     ],
+    "example": "His pretentious behavior at the party annoyed everyone.",
     "category": "synonyms"
   },
   {
-    "word": "real",
-    "meaning_en": "true or genuine",
-    "meaning_hi": "वास्तविक",
+    "word": "Profound",
+    "meaning_en": "very great or intense",
+    "meaning_hi": "गहन",
     "synonyms": [
-      "genuine",
-      "authentic",
-      "actual"
+      "Deep",
+      "Intense",
+      "Serious",
+      "Thoughtful",
+      "Thorough",
+      "Philosophical"
     ],
     "antonyms": [
-      "fake",
-      "false"
+      "Shallow",
+      "Superficial",
+      "Trivial",
+      "Insignificant"
     ],
+    "example": "The speech had a profound impact on the audience.",
     "category": "synonyms"
   },
   {
-    "word": "reduce",
-    "meaning_en": "make smaller",
-    "meaning_hi": "कम करना",
+    "word": "Prudent",
+    "meaning_en": "acting with care and thought",
+    "meaning_hi": "विवेकशील",
     "synonyms": [
-      "lessen",
-      "diminish",
-      "decrease"
+      "Wise",
+      "Sensible",
+      "Cautious",
+      "Careful",
+      "Judicious",
+      "Discreet"
     ],
     "antonyms": [
-      "increase",
-      "expand"
+      "Reckless",
+      "Foolish",
+      "Impulsive",
+      "Careless"
     ],
+    "example": "A prudent investor always diversifies the portfolio.",
     "category": "synonyms"
   },
   {
-    "word": "reject",
-    "meaning_en": "refuse to accept",
-    "meaning_hi": "अस्वीकार करना",
+    "word": "Reprimand",
+    "meaning_en": "rebuke officially",
+    "meaning_hi": "फटकारना",
     "synonyms": [
-      "refuse",
-      "repudiate",
-      "decline"
+      "Rebuke",
+      "Scold",
+      "Censure",
+      "Admonish",
+      "Criticize",
+      "Chide"
     ],
     "antonyms": [
-      "accept",
-      "approve"
+      "Praise",
+      "Commend",
+      "Reward",
+      "Applaud"
     ],
+    "example": "The officer was reprimanded for neglecting his duty.",
     "category": "synonyms"
   },
   {
-    "word": "rich",
-    "meaning_en": "having wealth",
-    "meaning_hi": "धनी",
+    "word": "Resilient",
+    "meaning_en": "able to recover quickly",
+    "meaning_hi": "लचीला/दृढ़",
     "synonyms": [
-      "wealthy",
-      "affluent",
-      "prosperous"
+      "Strong",
+      "Tough",
+      "Adaptable",
+      "Flexible",
+      "Hardy",
+      "Buoyant"
     ],
     "antonyms": [
-      "poor",
-      "needy"
+      "Fragile",
+      "Weak",
+      "Delicate",
+      "Vulnerable"
     ],
+    "example": "Resilient individuals bounce back from setbacks quickly.",
     "category": "synonyms"
   },
   {
-    "word": "right",
-    "meaning_en": "correct",
-    "meaning_hi": "सही",
+    "word": "Reticent",
+    "meaning_en": "not revealing thoughts",
+    "meaning_hi": "संकोची/मितभाषी",
     "synonyms": [
-      "correct",
-      "accurate",
-      "proper"
+      "Reserved",
+      "Quiet",
+      "Tight-lipped",
+      "Shy",
+      "Taciturn",
+      "Secretive"
     ],
     "antonyms": [
-      "wrong",
-      "incorrect"
+      "Talkative",
+      "Outspoken",
+      "Frank",
+      "Communicative"
     ],
+    "example": "He was reticent about his personal life in interviews.",
     "category": "synonyms"
   },
   {
-    "word": "rise",
-    "meaning_en": "move upward",
-    "meaning_hi": "ऊपर उठना",
-    "synonyms": [
-      "ascend",
-      "soar",
-      "climb"
-    ],
-    "antonyms": [
-      "fall",
-      "descend"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "rule",
-    "meaning_en": "govern",
-    "meaning_hi": "शासन करना",
-    "synonyms": [
-      "govern",
-      "regulate",
-      "direct"
-    ],
-    "antonyms": [
-      "obey",
-      "submit"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "sad",
-    "meaning_en": "feeling sorrow",
-    "meaning_hi": "दुखी",
-    "synonyms": [
-      "unhappy",
-      "sorrowful",
-      "gloomy"
-    ],
-    "antonyms": [
-      "happy",
-      "joyful"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "safe",
-    "meaning_en": "free from danger",
-    "meaning_hi": "सुरक्षित",
-    "synonyms": [
-      "secure",
-      "protected",
-      "guarded"
-    ],
-    "antonyms": [
-      "unsafe",
-      "dangerous"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "say",
-    "meaning_en": "express in words",
-    "meaning_hi": "कहना",
-    "synonyms": [
-      "state",
-      "declare",
-      "utter"
-    ],
-    "antonyms": [
-      "deny",
-      "conceal"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "see",
-    "meaning_en": "perceive with eyes",
-    "meaning_hi": "देखना",
-    "synonyms": [
-      "observe",
-      "perceive",
-      "view"
-    ],
-    "antonyms": [
-      "ignore",
-      "miss"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "show",
-    "meaning_en": "display",
-    "meaning_hi": "दिखाना",
-    "synonyms": [
-      "display",
-      "exhibit",
-      "reveal"
-    ],
-    "antonyms": [
-      "hide",
-      "conceal"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "small",
-    "meaning_en": "little in size",
-    "meaning_hi": "छोटा",
-    "synonyms": [
-      "tiny",
-      "minute",
-      "little"
-    ],
-    "antonyms": [
-      "big",
-      "large"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "start",
-    "meaning_en": "begin",
-    "meaning_hi": "आरंभ करना",
-    "synonyms": [
-      "begin",
-      "commence",
-      "initiate"
-    ],
-    "antonyms": [
-      "end",
-      "finish"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "stop",
-    "meaning_en": "cease action",
-    "meaning_hi": "रोकना",
-    "synonyms": [
-      "cease",
-      "halt",
-      "terminate"
-    ],
-    "antonyms": [
-      "continue",
-      "proceed"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "strong",
-    "meaning_en": "having power",
-    "meaning_hi": "मजबूत",
-    "synonyms": [
-      "robust",
-      "sturdy",
-      "powerful"
-    ],
-    "antonyms": [
-      "weak",
-      "fragile"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "support",
-    "meaning_en": "give assistance",
-    "meaning_hi": "समर्थन करना",
-    "synonyms": [
-      "aid",
-      "assist",
-      "back"
-    ],
-    "antonyms": [
-      "oppose",
-      "hinder"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "sure",
-    "meaning_en": "certain",
-    "meaning_hi": "निश्चित",
-    "synonyms": [
-      "certain",
-      "definite",
-      "assured"
-    ],
-    "antonyms": [
-      "uncertain",
-      "doubtful"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "take",
-    "meaning_en": "seize",
-    "meaning_hi": "लेना",
-    "synonyms": [
-      "seize",
-      "grasp",
-      "capture"
-    ],
-    "antonyms": [
-      "give",
-      "release"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "talk",
-    "meaning_en": "speak",
-    "meaning_hi": "बात करना",
-    "synonyms": [
-      "speak",
-      "converse",
-      "chat"
-    ],
-    "antonyms": [
-      "listen",
-      "silence"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "teach",
-    "meaning_en": "give knowledge to",
-    "meaning_hi": "सिखाना",
-    "synonyms": [
-      "instruct",
-      "educate",
-      "train"
-    ],
-    "antonyms": [
-      "learn",
-      "study"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "tell",
-    "meaning_en": "inform",
-    "meaning_hi": "बताना",
-    "synonyms": [
-      "inform",
-      "notify",
-      "relate"
-    ],
-    "antonyms": [
-      "conceal",
-      "hide"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "think",
-    "meaning_en": "use mind",
-    "meaning_hi": "सोचना",
-    "synonyms": [
-      "ponder",
-      "reflect",
-      "consider"
-    ],
-    "antonyms": [
-      "ignore",
-      "neglect"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "tolerate",
-    "meaning_en": "accept patiently",
-    "meaning_hi": "सहन करना",
-    "synonyms": [
-      "endure",
-      "bear",
-      "accept"
-    ],
-    "antonyms": [
-      "reject",
-      "resist"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "true",
-    "meaning_en": "correct",
-    "meaning_hi": "सत्य",
-    "synonyms": [
-      "correct",
-      "accurate",
-      "valid"
-    ],
-    "antonyms": [
-      "false",
-      "wrong"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "trust",
-    "meaning_en": "firm belief in reliability",
-    "meaning_hi": "विश्वास",
-    "synonyms": [
-      "confidence",
-      "faith",
-      "reliance"
-    ],
-    "antonyms": [
-      "distrust",
-      "doubt"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "try",
-    "meaning_en": "attempt",
-    "meaning_hi": "प्रयास करना",
-    "synonyms": [
-      "attempt",
-      "endeavor",
-      "strive"
-    ],
-    "antonyms": [
-      "quit",
-      "abandon"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "understand",
-    "meaning_en": "comprehend",
-    "meaning_hi": "समझना",
-    "synonyms": [
-      "comprehend",
-      "grasp",
-      "perceive"
-    ],
-    "antonyms": [
-      "misunderstand",
-      "ignore"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "unique",
-    "meaning_en": "one of a kind",
-    "meaning_hi": "अद्वितीय",
-    "synonyms": [
-      "distinctive",
-      "rare",
-      "singular"
-    ],
-    "antonyms": [
-      "common",
-      "ordinary"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "unite",
-    "meaning_en": "come together",
-    "meaning_hi": "एकजुट होना",
-    "synonyms": [
-      "join",
-      "merge",
-      "combine"
-    ],
-    "antonyms": [
-      "divide",
-      "separate"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "uplift",
-    "meaning_en": "raise to higher level",
-    "meaning_hi": "उत्थान करना",
-    "synonyms": [
-      "raise",
-      "elevate",
-      "improve"
-    ],
-    "antonyms": [
-      "degrade",
-      "lower"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "uphold",
-    "meaning_en": "support or maintain",
-    "meaning_hi": "समर्थन करना",
-    "synonyms": [
-      "support",
-      "maintain",
-      "sustain"
-    ],
-    "antonyms": [
-      "abandon",
-      "oppose"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "urgent",
-    "meaning_en": "requiring immediate action",
-    "meaning_hi": "अत्यावश्यक",
-    "synonyms": [
-      "pressing",
-      "critical",
-      "immediate"
-    ],
-    "antonyms": [
-      "unimportant",
-      "trivial"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "use",
-    "meaning_en": "employ",
-    "meaning_hi": "उपयोग करना",
-    "synonyms": [
-      "utilize",
-      "employ",
-      "apply"
-    ],
-    "antonyms": [
-      "neglect",
-      "waste"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "usual",
-    "meaning_en": "common",
-    "meaning_hi": "सामान्य",
-    "synonyms": [
-      "common",
-      "normal",
-      "typical"
-    ],
-    "antonyms": [
-      "unusual",
-      "rare"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "vague",
-    "meaning_en": "not clear",
-    "meaning_hi": "अस्पष्ट",
-    "synonyms": [
-      "unclear",
-      "ambiguous",
-      "obscure"
-    ],
-    "antonyms": [
-      "clear",
-      "precise"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "valid",
-    "meaning_en": "legally or logically sound",
-    "meaning_hi": "वैध",
-    "synonyms": [
-      "sound",
-      "legitimate",
-      "justified"
-    ],
-    "antonyms": [
-      "invalid",
-      "unsound"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "value",
-    "meaning_en": "worth",
-    "meaning_hi": "मूल्य",
-    "synonyms": [
-      "worth",
-      "importance",
-      "merit"
-    ],
-    "antonyms": [
-      "worthless",
-      "trivial"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "vast",
-    "meaning_en": "very great in size",
-    "meaning_hi": "विशाल",
-    "synonyms": [
-      "huge",
-      "immense",
-      "enormous"
-    ],
-    "antonyms": [
-      "tiny",
-      "small"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "very",
-    "meaning_en": "to high degree",
-    "meaning_hi": "बहुत",
-    "synonyms": [
-      "extremely",
-      "highly",
-      "greatly"
-    ],
-    "antonyms": [
-      "slightly",
-      "barely"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "view",
-    "meaning_en": "opinion",
-    "meaning_hi": "मत",
-    "synonyms": [
-      "opinion",
-      "perspective",
-      "outlook"
-    ],
-    "antonyms": [
-      "fact",
-      "reality"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "vital",
-    "meaning_en": "absolutely necessary",
-    "meaning_hi": "महत्वपूर्ण",
-    "synonyms": [
-      "essential",
-      "crucial",
-      "critical"
-    ],
-    "antonyms": [
-      "trivial",
-      "unimportant"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "vivid",
-    "meaning_en": "very clear and bright",
-    "meaning_hi": "स्पष्ट और जीवंत",
-    "synonyms": [
-      "bright",
-      "striking",
-      "lively"
-    ],
-    "antonyms": [
-      "dull",
-      "faint"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "want",
-    "meaning_en": "desire",
-    "meaning_hi": "चाहना",
-    "synonyms": [
-      "desire",
-      "wish",
-      "crave"
-    ],
-    "antonyms": [
-      "reject",
-      "avoid"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "warn",
-    "meaning_en": "give caution",
-    "meaning_hi": "चेतावनी देना",
-    "synonyms": [
-      "caution",
-      "alert",
-      "advise"
-    ],
-    "antonyms": [
-      "mislead",
-      "deceive"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "waste",
-    "meaning_en": "use carelessly",
-    "meaning_hi": "बर्बाद करना",
-    "synonyms": [
-      "squander",
-      "misuse",
-      "deplete"
-    ],
-    "antonyms": [
-      "conserve",
-      "save"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "weak",
-    "meaning_en": "lacking strength",
-    "meaning_hi": "कमजोर",
-    "synonyms": [
-      "frail",
-      "feeble",
-      "fragile"
-    ],
-    "antonyms": [
-      "strong",
-      "powerful"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "willing",
-    "meaning_en": "ready to do something",
-    "meaning_hi": "तैयार",
-    "synonyms": [
-      "ready",
-      "prepared",
-      "eager"
-    ],
-    "antonyms": [
-      "reluctant",
-      "unwilling"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "wise",
+    "word": "Sagacious",
     "meaning_en": "having good judgment",
     "meaning_hi": "बुद्धिमान",
     "synonyms": [
-      "prudent",
-      "sensible",
-      "sagacious"
+      "Wise",
+      "Shrewd",
+      "Prudent",
+      "Astute",
+      "Perceptive",
+      "Discerning"
     ],
     "antonyms": [
-      "foolish",
-      "unwise"
+      "Foolish",
+      "Naive",
+      "Unwise",
+      "Ignorant"
     ],
+    "example": "The sagacious minister advised the king wisely.",
     "category": "synonyms"
   },
   {
-    "word": "work",
-    "meaning_en": "labor",
-    "meaning_hi": "काम",
+    "word": "Scrutinize",
+    "meaning_en": "examine closely",
+    "meaning_hi": "बारीकी से जांचना",
     "synonyms": [
-      "labor",
-      "toil",
-      "effort"
+      "Examine",
+      "Inspect",
+      "Analyze",
+      "Study",
+      "Probe",
+      "Investigate"
     ],
     "antonyms": [
-      "rest",
-      "idle"
+      "Overlook",
+      "Ignore",
+      "Miss",
+      "Disregard"
     ],
+    "example": "The accounts were scrutinized for any financial irregularities.",
     "category": "synonyms"
   },
   {
-    "word": "wrong",
-    "meaning_en": "not correct",
-    "meaning_hi": "गलत",
+    "word": "Serene",
+    "meaning_en": "calm and peaceful",
+    "meaning_hi": "शांत",
     "synonyms": [
-      "incorrect",
-      "false",
-      "erroneous"
+      "Calm",
+      "Tranquil",
+      "Placid",
+      "Composed",
+      "Unruffled",
+      "Peaceful"
     ],
     "antonyms": [
-      "right",
-      "correct"
+      "Agitated",
+      "Restless",
+      "Anxious",
+      "Troubled"
     ],
+    "example": "A serene environment helps students study better.",
     "category": "synonyms"
   },
   {
-    "word": "xenial",
+    "word": "Skeptical",
+    "meaning_en": "not easily convinced",
+    "meaning_hi": "संशयवादी",
+    "synonyms": [
+      "Doubtful",
+      "Dubious",
+      "Cynical",
+      "Distrustful",
+      "Questioning",
+      "Uncertain"
+    ],
+    "antonyms": [
+      "Credulous",
+      "Trusting",
+      "Believing",
+      "Gullible"
+    ],
+    "example": "Scientists are trained to be skeptical of unproven claims.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Stoic",
+    "meaning_en": "enduring pain without complaint",
+    "meaning_hi": "दृढ़/अडिग",
+    "synonyms": [
+      "Impassive",
+      "Calm",
+      "Unemotional",
+      "Resigned",
+      "Enduring",
+      "Patient"
+    ],
+    "antonyms": [
+      "Emotional",
+      "Sensitive",
+      "Complaining",
+      "Reactive"
+    ],
+    "example": "She faced her illness with a stoic attitude.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Submissive",
+    "meaning_en": "willing to obey",
+    "meaning_hi": "आज्ञाकारी",
+    "synonyms": [
+      "Obedient",
+      "Compliant",
+      "Docile",
+      "Meek",
+      "Passive",
+      "Yielding"
+    ],
+    "antonyms": [
+      "Defiant",
+      "Rebellious",
+      "Assertive",
+      "Dominant"
+    ],
+    "example": "The submissive employee never questioned his manager's orders.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Superfluous",
+    "meaning_en": "more than what is needed",
+    "meaning_hi": "अनावश्यक",
+    "synonyms": [
+      "Unnecessary",
+      "Redundant",
+      "Excessive",
+      "Surplus",
+      "Extra",
+      "Needless"
+    ],
+    "antonyms": [
+      "Necessary",
+      "Essential",
+      "Required",
+      "Needed"
+    ],
+    "example": "The lengthy introduction was superfluous to the report.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Tenacious",
+    "meaning_en": "holding firmly to something",
+    "meaning_hi": "दृढ़निश्चयी",
+    "synonyms": [
+      "Persistent",
+      "Determined",
+      "Stubborn",
+      "Resolute",
+      "Dogged",
+      "Steadfast"
+    ],
+    "antonyms": [
+      "Irresolute",
+      "Weak",
+      "Yielding",
+      "Flexible"
+    ],
+    "example": "Her tenacious spirit helped her overcome every obstacle.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Timid",
+    "meaning_en": "lacking confidence",
+    "meaning_hi": "डरपोक",
+    "synonyms": [
+      "Shy",
+      "Fearful",
+      "Cowardly",
+      "Meek",
+      "Hesitant",
+      "Nervous"
+    ],
+    "antonyms": [
+      "Bold",
+      "Brave",
+      "Confident",
+      "Fearless"
+    ],
+    "example": "The timid child hesitated to raise his hand in class.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Transparent",
+    "meaning_en": "open and honest",
+    "meaning_hi": "पारदर्शी",
+    "synonyms": [
+      "Clear",
+      "Open",
+      "Honest",
+      "Frank",
+      "Explicit",
+      "Candid"
+    ],
+    "antonyms": [
+      "Opaque",
+      "Hidden",
+      "Secretive",
+      "Deceitful"
+    ],
+    "example": "A transparent government earns the trust of its citizens.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Treacherous",
+    "meaning_en": "guilty of betrayal",
+    "meaning_hi": "विश्वासघाती",
+    "synonyms": [
+      "Disloyal",
+      "Traitorous",
+      "Perfidious",
+      "Deceitful",
+      "Unreliable",
+      "Faithless"
+    ],
+    "antonyms": [
+      "Loyal",
+      "Trustworthy",
+      "Faithful",
+      "Dependable"
+    ],
+    "example": "The treacherous minister leaked state secrets to enemies.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Ubiquitous",
+    "meaning_en": "present everywhere",
+    "meaning_hi": "सर्वव्यापी",
+    "synonyms": [
+      "Omnipresent",
+      "Universal",
+      "Widespread",
+      "Pervasive",
+      "Common",
+      "Prevalent"
+    ],
+    "antonyms": [
+      "Rare",
+      "Scarce",
+      "Absent",
+      "Limited"
+    ],
+    "example": "Smartphones have become ubiquitous in modern life.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Uncanny",
+    "meaning_en": "strange and mysterious",
+    "meaning_hi": "अजीब/रहस्यमय",
+    "synonyms": [
+      "Mysterious",
+      "Strange",
+      "Weird",
+      "Eerie",
+      "Supernatural",
+      "Bizarre"
+    ],
+    "antonyms": [
+      "Normal",
+      "Ordinary",
+      "Familiar",
+      "Natural"
+    ],
+    "example": "She had an uncanny ability to predict future events.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Undermine",
+    "meaning_en": "weaken gradually",
+    "meaning_hi": "कमजोर करना",
+    "synonyms": [
+      "Weaken",
+      "Sabotage",
+      "Erode",
+      "Subvert",
+      "Destabilize",
+      "Damage"
+    ],
+    "antonyms": [
+      "Strengthen",
+      "Support",
+      "Reinforce",
+      "Uphold"
+    ],
+    "example": "Corruption undermines public trust in institutions.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Verbose",
+    "meaning_en": "using more words than needed",
+    "meaning_hi": "शब्दबहुल",
+    "synonyms": [
+      "Wordy",
+      "Long-winded",
+      "Garrulous",
+      "Prolix",
+      "Rambling",
+      "Loquacious"
+    ],
+    "antonyms": [
+      "Concise",
+      "Brief",
+      "Succinct",
+      "Laconic"
+    ],
+    "example": "His verbose report could have been summarized in two pages.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Vigilant",
+    "meaning_en": "keeping careful watch",
+    "meaning_hi": "सतर्क",
+    "synonyms": [
+      "Alert",
+      "Watchful",
+      "Attentive",
+      "Careful",
+      "Cautious",
+      "Observant"
+    ],
+    "antonyms": [
+      "Careless",
+      "Negligent",
+      "Inattentive",
+      "Oblivious"
+    ],
+    "example": "Citizens must remain vigilant against cyber fraud.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Vindictive",
+    "meaning_en": "seeking revenge",
+    "meaning_hi": "प्रतिशोधी",
+    "synonyms": [
+      "Revengeful",
+      "Spiteful",
+      "Resentful",
+      "Malicious",
+      "Vengeful",
+      "Bitter"
+    ],
+    "antonyms": [
+      "Forgiving",
+      "Merciful",
+      "Magnanimous",
+      "Kind"
+    ],
+    "example": "A vindictive person holds grudges for years.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Vivid",
+    "meaning_en": "very clear and bright",
+    "meaning_hi": "स्पष्ट और जीवंत",
+    "synonyms": [
+      "Bright",
+      "Striking",
+      "Lively",
+      "Colorful",
+      "Sharp",
+      "Realistic"
+    ],
+    "antonyms": [
+      "Dull",
+      "Faint",
+      "Pale",
+      "Vague"
+    ],
+    "example": "She had a vivid memory of her first day at school.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Volatile",
+    "meaning_en": "likely to change suddenly",
+    "meaning_hi": "अस्थिर",
+    "synonyms": [
+      "Unstable",
+      "Unpredictable",
+      "Erratic",
+      "Explosive",
+      "Changeable",
+      "Impulsive"
+    ],
+    "antonyms": [
+      "Stable",
+      "Calm",
+      "Consistent",
+      "Steady"
+    ],
+    "example": "The stock market can be volatile during uncertain times.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Wary",
+    "meaning_en": "cautious about danger",
+    "meaning_hi": "सतर्क",
+    "synonyms": [
+      "Cautious",
+      "Alert",
+      "Careful",
+      "Guarded",
+      "Watchful",
+      "Circumspect"
+    ],
+    "antonyms": [
+      "Careless",
+      "Naive",
+      "Reckless",
+      "Trustful"
+    ],
+    "example": "Travelers should be wary of pickpockets in crowded places.",
+    "category": "synonyms"
+  },
+  {
+    "word": "Xenial",
     "meaning_en": "hospitable to strangers",
     "meaning_hi": "अतिथि-सत्कारी",
     "synonyms": [
-      "hospitable",
-      "welcoming",
-      "generous"
+      "Hospitable",
+      "Welcoming",
+      "Generous",
+      "Friendly",
+      "Cordial",
+      "Gracious"
     ],
     "antonyms": [
-      "hostile",
-      "unwelcoming"
+      "Hostile",
+      "Unwelcoming",
+      "Rude",
+      "Inhospitable"
     ],
+    "example": "Indians are known for their xenial nature toward visitors.",
     "category": "synonyms"
   },
   {
-    "word": "xerography",
-    "meaning_en": "dry copying process",
-    "meaning_hi": "शुष्क छपाई",
-    "synonyms": [
-      "copying",
-      "duplication",
-      "printing"
-    ],
-    "antonyms": [
-      "original",
-      "handwriting"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "yearn",
-    "meaning_en": "long strongly",
+    "word": "Yearn",
+    "meaning_en": "have a strong desire",
     "meaning_hi": "लालायित होना",
     "synonyms": [
-      "long",
-      "crave",
-      "desire"
+      "Long",
+      "Crave",
+      "Desire",
+      "Hunger",
+      "Pine",
+      "Covet"
     ],
     "antonyms": [
-      "reject",
-      "dislike"
+      "Reject",
+      "Dislike",
+      "Despise",
+      "Ignore"
     ],
+    "example": "She yearned to return to her hometown after years abroad.",
     "category": "synonyms"
   },
   {
-    "word": "yell",
-    "meaning_en": "shout loudly",
-    "meaning_hi": "चिल्लाना",
-    "synonyms": [
-      "shout",
-      "scream",
-      "holler"
-    ],
-    "antonyms": [
-      "whisper",
-      "murmur"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "yield",
-    "meaning_en": "surrender or produce results",
-    "meaning_hi": "समर्पण करना/उत्पन्न करना",
-    "synonyms": [
-      "surrender",
-      "submit",
-      "concede"
-    ],
-    "antonyms": [
-      "resist",
-      "oppose"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "youthful",
-    "meaning_en": "having qualities of youth",
-    "meaning_hi": "युवा जैसा",
-    "synonyms": [
-      "young",
-      "juvenile",
-      "fresh"
-    ],
-    "antonyms": [
-      "old",
-      "aged"
-    ],
-    "category": "synonyms"
-  },
-  {
-    "word": "zeal",
-    "meaning_en": "great enthusiasm",
+    "word": "Zeal",
+    "meaning_en": "great enthusiasm for a cause",
     "meaning_hi": "उत्साह",
     "synonyms": [
-      "enthusiasm",
-      "fervor",
-      "passion"
+      "Enthusiasm",
+      "Fervor",
+      "Passion",
+      "Dedication",
+      "Ardor",
+      "Devotion"
     ],
     "antonyms": [
-      "apathy",
-      "indifference"
+      "Apathy",
+      "Indifference",
+      "Laziness",
+      "Reluctance"
     ],
+    "example": "His zeal for social work inspired many young volunteers.",
     "category": "synonyms"
   },
   {
-    "word": "zealous",
+    "word": "Zealous",
     "meaning_en": "enthusiastic and devoted",
     "meaning_hi": "उत्साही",
     "synonyms": [
-      "fervent",
-      "passionate",
-      "dedicated"
+      "Fervent",
+      "Passionate",
+      "Dedicated",
+      "Enthusiastic",
+      "Ardent",
+      "Earnest"
     ],
     "antonyms": [
-      "apathetic",
-      "indifferent"
+      "Apathetic",
+      "Indifferent",
+      "Lazy",
+      "Halfhearted"
     ],
+    "example": "The zealous officer worked tirelessly to complete the mission.",
     "category": "synonyms"
   },
   {
-    "word": "zenith",
-    "meaning_en": "highest point",
-    "meaning_hi": "चरम",
+    "word": "Zenith",
+    "meaning_en": "highest point of achievement",
+    "meaning_hi": "चरम/शिखर",
     "synonyms": [
-      "peak",
-      "apex",
-      "summit"
+      "Peak",
+      "Apex",
+      "Summit",
+      "Pinnacle",
+      "Height",
+      "Climax"
     ],
     "antonyms": [
-      "nadir",
-      "bottom"
+      "Nadir",
+      "Bottom",
+      "Lowest point",
+      "Depths"
     ],
-    "category": "synonyms"
-  },
-  {
-    "word": "zone",
-    "meaning_en": "defined area",
-    "meaning_hi": "क्षेत्र",
-    "synonyms": [
-      "area",
-      "region",
-      "district"
-    ],
-    "antonyms": [
-      "whole",
-      "entirety"
-    ],
+    "example": "She reached the zenith of her career at age forty.",
     "category": "synonyms"
   }
 ]

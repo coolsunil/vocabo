@@ -295,11 +295,11 @@ class _HomeScreenState extends State<HomeScreen> {
                           backgroundColor: const Color(0xFFF0F9FF),
                           borderColor: const Color(0xFF7DD3FC),
                           learned: progressStore["synonyms"] ?? 0,
-                          total: 208,
+                          total: 146,
                           onTap: () => _openCategory(
                             title: 'Synonyms & Antonyms',
-                            categoryKey: "synonyms_antonyms",
-                            total: 208,
+                            categoryKey: "synonyms",
+                            total: 146,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -552,7 +552,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
 class _OverallProgressCard extends StatelessWidget {
   static const Map<String, int> _totals = {
-    'core': 1438, 'synonyms': 208, 'oneword': 344, 'confusing': 331,
+    'core': 1438, 'synonyms': 146, 'oneword': 344, 'confusing': 331,
     'idioms': 316, 'advanced': 298, 'fixed_prepositions': 150,
     'phrasal_verbs': 225, 'root_words': 439, 'common_errors': 464,
     'homophones': 264, 'spellings': 220, 'foreign_words': 247,
