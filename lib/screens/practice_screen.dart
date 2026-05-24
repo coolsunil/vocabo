@@ -261,14 +261,16 @@ class _PracticeScreenState extends State<PracticeScreen> {
       case 'homophones':
         return _buildConfusingQuestions(words);
       case 'common_errors':
+        return _buildSpottingErrorsQuestions(words);
       case 'sentence_improvement':
         return _buildSentenceCorrectionQuestions(words);
       case 'cloze_test':
         return _buildClozeTestQuestions(words);
+      case 'spellings':
+        return _buildSpellingQuestions(words);
       case 'fixed_prepositions':
       case 'phrasal_verbs':
       case 'root_words':
-      case 'spellings':
       case 'foreign_words':
       case 'advanced':
       case 'core':
@@ -403,11 +405,18 @@ class _PracticeScreenState extends State<PracticeScreen> {
     // Strip "Word1 = def1; Word2 = def2" down to "def1 / def2" so word names
     // don't appear in options and can't be matched trivially to the question.
     String stripWordNames(String meaningEn) {
+      // Confusing words use ";" as separator, homophones use ",".
+      // Split by ";" first; if only one part, fall back to ",".
+      // Only extract from parts that contain "=" (i.e. "Word = def" segments).
+      var parts = meaningEn.split(';');
+      if (parts.length == 1) parts = meaningEn.split(',');
       final defs = <String>[];
-      for (final part in meaningEn.split(';')) {
+      for (final part in parts) {
         final eqIdx = part.indexOf('=');
-        final def = eqIdx == -1 ? part.trim() : part.substring(eqIdx + 1).trim();
-        if (def.isNotEmpty) defs.add(def);
+        if (eqIdx != -1) {
+          final def = part.substring(eqIdx + 1).trim();
+          if (def.isNotEmpty) defs.add(def);
+        }
       }
       return defs.join(' / ');
     }
@@ -422,7 +431,13 @@ class _PracticeScreenState extends State<PracticeScreen> {
     for (final word in words) {
       if (word.word.trim().isEmpty || word.meaningEn.trim().isEmpty) continue;
       final correct = stripWordNames(word.meaningEn.trim());
-      final options = _buildOptions(correct, meaningPool);
+      // Only use distractors with the same number of meanings so a 3-word
+      // question always has 3-meaning options, never mismatched 2-meaning ones.
+      final meaningCount = correct.split(' / ').length;
+      final matchingPool = meaningPool
+          .where((m) => m.split(' / ').length == meaningCount)
+          .toList();
+      final options = _buildOptions(correct, matchingPool);
       if (options.length < 4) continue;
       qs.add(_PracticeQuestion(
         prompt: 'Choose the correct meaning for:\n${word.word}',
@@ -443,109 +458,317 @@ class _PracticeScreenState extends State<PracticeScreen> {
       if (d != null) diffs.add(d);
     }
 
-    // Grammatical word families — when the correct phrase belongs to a family,
-    // other members become distractors so all options are contextually relevant.
+    // Grammar families used to generate distractors by substituting one word or
+    // bigram inside the correct phrase. Multi-word entries must come before their
+    // component words so bigram matching takes priority.
     const wordFamilies = <Set<String>>[
+      // ── multi-word auxiliaries (checked before single words) ──
+      {'has been', 'have been', 'had been'},
+      {'is being', 'are being', 'was being', 'were being'},
+      {'will be', 'would be', 'shall be', 'should be'},
+      {'has had', 'have had', 'had had'},
+      {'has done', 'have done', 'had done'},
+      {'has been working', 'have been working', 'had been working'},
+      {'has been going', 'have been going', 'had been going'},
+      // ── single-word families ──
       {'do', 'does', 'did', 'done', 'doing'},
       {'have', 'has', 'had', 'having'},
       {'am', 'is', 'are', 'was', 'were', 'been', 'being'},
       {'will', 'would', 'shall', 'should'},
       {'can', 'could', 'may', 'might', 'must'},
       {'a', 'an', 'the'},
-      {'in', 'on', 'at', 'by', 'for', 'into', 'onto'},
+      // prepositions + directional particles together so "on/off/up/down" are siblings
+      {'in', 'on', 'off', 'at', 'by', 'for', 'up', 'down', 'out', 'over', 'into', 'onto', 'from'},
       {'less', 'fewer', 'little', 'few'},
       {'much', 'many', 'more', 'most'},
       {'this', 'that', 'these', 'those'},
       {'who', 'whom', 'whose', 'which'},
       {'each', 'every', 'all', 'both'},
       {'either', 'neither', 'none'},
-      {'since', 'for', 'ago', 'from'},
+      {'since', 'for', 'ago', 'until'},
       {'between', 'among', 'amongst'},
       {'beside', 'besides', 'except', 'without'},
-      {'has been', 'have been', 'had been'},
-      {'is being', 'are being', 'was being', 'were being'},
-      {'will be', 'would be', 'shall be', 'should be'},
-      {'has had', 'have had', 'had had'},
-      {'has done', 'have done', 'had done'},
+      {'before', 'after', 'during', 'while'},
+      {'though', 'although', 'however', 'but'},
+      {'so', 'therefore', 'thus', 'hence'},
+      {'because', 'since', 'as', 'for'},
     ];
 
     Set<String>? familyOf(String phrase) {
       final p = phrase.toLowerCase().trim();
-      for (final family in wordFamilies) {
-        if (family.contains(p)) return family;
+      for (final fam in wordFamilies) {
+        if (fam.contains(p)) return fam;
       }
       return null;
     }
 
-    // Fallback pool: wrong forms grouped by correct answer.
-    final wrongByCorrect = <String, Set<String>>{};
-    for (final d in diffs) {
-      wrongByCorrect.putIfAbsent(d.correctPhrase, () => <String>{}).add(d.wrongPhrase);
+    // Generates distractors exclusively by swapping one word/bigram inside
+    // [correctPhrase] with a grammatical sibling. Never pulls from other sentences.
+    List<String> tweakPhrase(String correctPhrase) {
+      final cWords = correctPhrase.trim().split(RegExp(r'\s+'));
+      final results = <String>{};
+
+      // If the whole phrase belongs to a family, other members are the distractors.
+      final wholeFamily = familyOf(correctPhrase.toLowerCase().trim());
+      if (wholeFamily != null) {
+        for (final alt in wholeFamily) {
+          if (alt != correctPhrase.toLowerCase().trim()) results.add(alt);
+        }
+        return results.toList();
+      }
+
+      // Mark positions that are part of a matched bigram so we don't also
+      // substitute those words individually (avoids nonsense like "has am working").
+      final inBigram = <int>{};
+      for (int i = 0; i < cWords.length - 1; i++) {
+        final bigram = '${cWords[i]} ${cWords[i + 1]}'.toLowerCase();
+        final fam = familyOf(bigram);
+        if (fam != null) {
+          inBigram.add(i);
+          inBigram.add(i + 1);
+          for (final alt in fam.where((m) => m != bigram)) {
+            final newWords = [...cWords];
+            newWords.replaceRange(i, i + 2, alt.split(' '));
+            results.add(newWords.join(' '));
+          }
+        }
+      }
+
+      // Single-word substitution for positions not covered by a bigram match.
+      for (int i = 0; i < cWords.length; i++) {
+        if (inBigram.contains(i)) continue;
+        final raw = cWords[i];
+        final word = raw.replaceAll(RegExp(r'[^\w]'), '').toLowerCase();
+        final trail = raw.replaceAll(RegExp(r'[\w]'), ''); // e.g. trailing "."
+        final fam = familyOf(word);
+        if (fam == null) continue;
+        for (final alt in fam.where((m) => m != word && !m.contains(' '))) {
+          final newWords = [...cWords];
+          newWords[i] = alt + trail;
+          results.add(newWords.join(' '));
+        }
+      }
+
+      results.remove(correctPhrase);
+      results.remove(correctPhrase.toLowerCase());
+      return results.toList();
+    }
+
+    const noImprovement = 'No improvement';
+    final qs = <_PracticeQuestion>[];
+
+    for (int idx = 0; idx < diffs.length; idx++) {
+      final d = diffs[idx];
+      final tweaks = tweakPhrase(d.correctPhrase);
+
+      // ── Type 1: sentence has an error — pick the correct replacement ──
+      // Options: correctPhrase + 2 tweaks of correctPhrase + "No improvement"
+      final quotedWrong = _substitute(d.wrong, d.wrongPhrase, '"${d.wrongPhrase}"');
+      if (quotedWrong != null && tweaks.length >= 2) {
+        final distractors = (List<String>.from(tweaks)..shuffle(_random)).take(2).toList();
+        qs.add(_PracticeQuestion(
+          prompt: 'Choose the best alternative for the part in quotes:\n$quotedWrong',
+          options: [d.correctPhrase, ...distractors, noImprovement]..shuffle(_random),
+          correctAnswer: d.correctPhrase,
+        ));
+      }
+
+      // ── Type 2 (every 3rd entry): correct sentence — answer is "No improvement" ──
+      // Options: 3 tweaks of correctPhrase + "No improvement"
+      if (idx % 3 == 2) {
+        final quotedCorrect = _substitute(d.correct, d.correctPhrase, '"${d.correctPhrase}"');
+        if (quotedCorrect != null && tweaks.length >= 3) {
+          final wrongOpts = (List<String>.from(tweaks)..shuffle(_random)).take(3).toList();
+          qs.add(_PracticeQuestion(
+            prompt: 'Choose the best alternative for the part in quotes:\n$quotedCorrect',
+            options: [...wrongOpts, noImprovement]..shuffle(_random),
+            correctAnswer: noImprovement,
+          ));
+        }
+      }
+    }
+
+    return qs;
+  }
+
+  // SSC-style Spotting Errors: sentence is split into labelled parts, user picks
+  // which part contains the grammatical error (or "No Error").
+  List<_PracticeQuestion> _buildSpottingErrorsQuestions(List<Word> words) {
+    final diffs = <({String wrong, String correct, String wrongPhrase, String correctPhrase})>[];
+    for (final word in words) {
+      final orig = word.word.trim();
+      final corr = word.example.trim();
+      if (orig.isEmpty || corr.isEmpty || orig == corr) continue;
+      final d = _diffEntry(orig, corr);
+      if (d != null) diffs.add(d);
     }
 
     final qs = <_PracticeQuestion>[];
     for (final d in diffs) {
-      final markedSentence = _substitute(d.wrong, d.wrongPhrase, '[${d.wrongPhrase}]');
-      if (markedSentence == null) continue;
+      final chunks = _splitForSpotting(d.wrong, d.wrongPhrase);
+      if (chunks == null || chunks.length < 2) continue;
 
-      final options = <String>{d.correctPhrase};
+      // Find which chunk contains the error phrase.
+      String norm(String w) => w.replaceAll(RegExp(r'[^\w\s]'), '').toLowerCase().trim();
+      final errorChunk = chunks.firstWhere(
+        (c) => norm(c).contains(norm(d.wrongPhrase)),
+        orElse: () => '',
+      );
+      if (errorChunk.isEmpty) continue;
 
-      // 1st pass: for single-word / family matches use grammatical siblings.
-      final family = familyOf(d.correctPhrase);
-      if (family != null) {
-        final members = family.where((p) => !options.contains(p)).toList()..shuffle(_random);
-        for (final p in members) {
-          if (options.length >= 4) break;
-          options.add(p);
-        }
-      }
-
-      // 2nd pass: for multi-word phrases generate mixed variants (e.g. fix only
-      // some of the changed positions) — these look nearly identical and are
-      // the hardest distractors possible for phrase-level errors.
-      if (options.length < 4) {
-        final variants = _phraseVariants(d.wrongPhrase, d.correctPhrase)
-            .where((p) => !options.contains(p))
-            .toList()..shuffle(_random);
-        for (final p in variants) {
-          if (options.length >= 4) break;
-          options.add(p);
-        }
-        // Also include the original wrong phrase as one option — for multi-word
-        // errors the user sees [phrase] in brackets but still needs to identify
-        // exactly which combination of fixes is correct.
-        if (options.length < 4 && !options.contains(d.wrongPhrase)) {
-          options.add(d.wrongPhrase);
-        }
-      }
-
-      // 3rd pass: wrong forms targeting the same correct answer.
-      if (options.length < 4) {
-        final sameSlot = (wrongByCorrect[d.correctPhrase] ?? <String>{})
-            .where((p) => !options.contains(p))
-            .toList()..shuffle(_random);
-        for (final p in sameSlot) {
-          if (options.length >= 4) break;
-          options.add(p);
-        }
-      }
-
-      // 4th pass: any wrong phrase as last resort.
-      if (options.length < 4) {
-        final rest = diffs.map((d) => d.wrongPhrase).where((p) => !options.contains(p)).toList()..shuffle(_random);
-        for (final p in rest) {
-          if (options.length >= 4) break;
-          options.add(p);
-        }
-      }
-
-      if (options.length < 4) continue;
+      // Options: all chunks + "No Error" (shuffled), user picks the error chunk.
+      final options = [...chunks, 'No Error']..shuffle(_random);
       qs.add(_PracticeQuestion(
-        prompt: 'Select the correct alternative for the word/phrase in brackets:\n$markedSentence',
-        options: options.toList()..shuffle(_random),
-        correctAnswer: d.correctPhrase,
+        prompt: 'Find the part with the grammatical error:\n${chunks.join(' / ')}',
+        options: options,
+        correctAnswer: errorChunk,
       ));
     }
+    return qs;
+  }
+
+  // Splits [sentence] into 3 parts ensuring [wrongPhrase] falls entirely within one part.
+  List<String>? _splitForSpotting(String sentence, String wrongPhrase) {
+    try {
+      final words = sentence.split(RegExp(r'\s+'));
+      final pw = wrongPhrase.split(RegExp(r'\s+'));
+      if (words.length < 4 || pw.isEmpty) return null;
+      String norm(String w) => w.replaceAll(RegExp(r'[^\w]'), '').toLowerCase();
+
+      int errorStart = -1;
+      for (int i = 0; i <= words.length - pw.length; i++) {
+        bool match = true;
+        for (int j = 0; j < pw.length; j++) {
+          if (norm(words[i + j]) != norm(pw[j])) { match = false; break; }
+        }
+        if (match) { errorStart = i; break; }
+      }
+      if (errorStart == -1) return null;
+      final errorEnd = errorStart + pw.length;
+
+      final n = words.length;
+      // Need n >= 4 to guarantee valid clamp bounds (s1 in [1, n-2], s2 in [s1+1, n-1]).
+      int s1 = (n / 3).round().clamp(1, n - 2);
+      int s2 = (2 * n / 3).round().clamp(s1 + 1, n - 1);
+
+      // Push boundaries so they don't cut through the error phrase.
+      if (s1 > errorStart && s1 < errorEnd) s1 = errorStart;
+      if (s2 > errorStart && s2 < errorEnd) s2 = errorEnd;
+      if (s2 <= s1) s2 = s1 + 1;
+      if (s2 >= n) return null;
+
+      final c1 = words.sublist(0, s1).join(' ');
+      final c2 = words.sublist(s1, s2).join(' ');
+      final c3 = words.sublist(s2).join(' ');
+      if (c1.isEmpty || c2.isEmpty || c3.isEmpty) return null;
+      return [c1, c2, c3];
+    } catch (_) {
+      return null;
+    }
+  }
+
+  // ── Spelling questions ───────────────────────────────────────────────────
+
+  // Generates realistic misspellings of [correct] using common error patterns.
+  List<String> _generateMisspellings(String correct) {
+    final word = correct.toLowerCase();
+    final variants = <String>{};
+
+    // 1. Remove one letter from a doubled consonant (most common SSC error)
+    //    accommodate → accomodate, accidentally → accidentaly
+    final dbl = RegExp(r'([bcdfghjklmnpqrstvwxyz])\1');
+    for (final m in dbl.allMatches(word)) {
+      variants.add(word.replaceFirst(m.group(0)!, m.group(1)!));
+    }
+
+    // 2. Add a wrong double — double a consonant that shouldn't be
+    //    occasion → occassion, absence → absense (via suffix below)
+    for (int i = 1; i < word.length - 1; i++) {
+      final c = word[i];
+      if ('bcdfghjklmnpqrstvwxyz'.contains(c) && word[i - 1] != c && word[i + 1] != c) {
+        variants.add(word.substring(0, i + 1) + c + word.substring(i + 1));
+      }
+    }
+
+    // 3. Suffix swaps — the classic SSC traps
+    const suffixPairs = [
+      ('ance', 'ence'), ('ance', 'anse'),
+      ('ence', 'ance'), ('ence', 'ense'),
+      ('ible', 'able'), ('able', 'ible'),
+      ('ar',   'er'),   ('er',   'ar'),
+      ('or',   'er'),   ('or',   'ar'),
+      ('ary',  'ery'),  ('ery',  'ary'),
+      ('ant',  'ent'),  ('ent',  'ant'),
+      ('tion', 'sion'), ('sion', 'tion'),
+      ('ment', 'mant'), ('ment', 'mente'),
+      ('ful',  'full'), ('lly',  'ly'),
+      ('ite',  'ight'), ('ight', 'ite'),
+      ('ate',  'ait'),  ('ate',  'ete'),
+    ];
+    for (final (from, to) in suffixPairs) {
+      if (word.endsWith(from)) {
+        variants.add(word.substring(0, word.length - from.length) + to);
+      }
+    }
+
+    // 4. ie / ei confusion — receive → recieve, believe → beleive
+    if (word.contains('ie')) variants.add(word.replaceFirst('ie', 'ei'));
+    if (word.contains('ei')) variants.add(word.replaceFirst('ei', 'ie'));
+
+    // 5. Vowel substitutions at non-initial positions
+    //    separate → seperate (a→e), definite → defenite (i→e)
+    const vowelSubs = [
+      ('a', 'e'), ('e', 'a'), ('i', 'e'), ('e', 'i'),
+      ('ou', 'o'), ('ea', 'ee'), ('ee', 'ea'),
+    ];
+    for (final (from, to) in vowelSubs) {
+      final idx = word.indexOf(from, 1); // skip first char
+      if (idx > 0 && idx < word.length - from.length) {
+        variants.add(word.substring(0, idx) + to + word.substring(idx + from.length));
+      }
+    }
+
+    variants.remove(word);
+    variants.removeWhere((v) => v.isEmpty || v.length < 3);
+
+    // Sort by closeness to original length — subtle variants first
+    final sorted = variants.toList()
+      ..sort((a, b) => (a.length - word.length).abs().compareTo((b.length - word.length).abs()));
+    return sorted;
+  }
+
+  List<_PracticeQuestion> _buildSpellingQuestions(List<Word> words) {
+    final validWords = words.where((w) => w.word.trim().isNotEmpty).toList();
+    if (validWords.isEmpty) return [];
+
+    final allCorrect = validWords.map((w) => w.word.trim().toLowerCase()).toSet().toList();
+    final qs = <_PracticeQuestion>[];
+
+    for (final word in validWords) {
+      final correct = word.word.trim().toLowerCase();
+      final misspellings = _generateMisspellings(correct)..shuffle(_random);
+      if (misspellings.length < 3) continue;
+
+      // Type A — "Select the correctly spelt word" (1 correct + 3 misspellings)
+      final optionsA = [correct, ...misspellings.take(3)]..shuffle(_random);
+      qs.add(_PracticeQuestion(
+        prompt: 'Select the correctly spelt word:',
+        options: optionsA,
+        correctAnswer: correct,
+      ));
+
+      // Type B — "Find the incorrectly spelt word" (1 misspelling + 3 correct others)
+      final others = allCorrect.where((w) => w != correct).toList()..shuffle(_random);
+      if (others.length >= 3) {
+        final optionsB = [misspellings.first, ...others.take(3)]..shuffle(_random);
+        qs.add(_PracticeQuestion(
+          prompt: 'Find the incorrectly spelt word:',
+          options: optionsB,
+          correctAnswer: misspellings.first,
+        ));
+      }
+    }
+
     return qs;
   }
 
@@ -575,24 +798,6 @@ class _PracticeScreenState extends State<PracticeScreen> {
   // For multi-word phrase pairs of equal length, generates all combinations of
   // using wrong vs correct word at each differing position. These look nearly
   // identical to the correct answer and make excellent distractors.
-  List<String> _phraseVariants(String wrongPhrase, String correctPhrase) {
-    final ww = wrongPhrase.split(' ');
-    final cw = correctPhrase.split(' ');
-    if (ww.length != cw.length) return [];
-    final diffPos = [for (int i = 0; i < ww.length; i++) if (ww[i].toLowerCase() != cw[i].toLowerCase()) i];
-    if (diffPos.isEmpty || diffPos.length > 4) return [];
-    final variants = <String>[];
-    final combCount = 1 << diffPos.length;
-    for (int mask = 1; mask < combCount - 1; mask++) {
-      final v = List<String>.from(ww);
-      for (int i = 0; i < diffPos.length; i++) {
-        if ((mask >> i) & 1 == 1) v[diffPos[i]] = cw[diffPos[i]];
-      }
-      variants.add(v.join(' '));
-    }
-    return variants;
-  }
-
   // Replaces [target] phrase inside [sentence] (word-level match) with [replacement].
   // Returns null if target is not found as a contiguous word sequence.
   String? _substitute(String sentence, String target, String replacement) {
