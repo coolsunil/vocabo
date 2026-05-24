@@ -64,7 +64,7 @@ Future<void> scheduleWordOfDayNotification() async {
   await _plugin.cancel(0);
 
   final now = tz.TZDateTime.now(tz.local);
-  var scheduled = tz.TZDateTime(tz.local, now.year, now.month, now.day, 8);
+  var scheduled = tz.TZDateTime(tz.local, now.year, now.month, now.day, 10);
   if (scheduled.isBefore(now)) {
     scheduled = scheduled.add(const Duration(days: 1));
   }
