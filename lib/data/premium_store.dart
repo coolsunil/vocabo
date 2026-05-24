@@ -50,7 +50,7 @@ const String _practicePrefix = 'practice_attempts_';
 const String _legacyPremiumKey = 'premium_unlocked';
 
 // Set to true to bypass premium checks during local testing. NEVER ship as true.
-const bool _debugUnlockPremium = true;
+const bool _debugUnlockPremium = false;
 
 DateTime? _premiumExpiry;
 
