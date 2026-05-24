@@ -61,9 +61,6 @@ Future<void> sendTestNotification() async {
 }
 
 Future<void> scheduleWordOfDayNotification() async {
-  final word = wordOfDay;
-  if (word == null) return;
-
   await _plugin.cancel(0);
 
   final now = tz.TZDateTime.now(tz.local);
@@ -72,23 +69,21 @@ Future<void> scheduleWordOfDayNotification() async {
     scheduled = scheduled.add(const Duration(days: 1));
   }
 
-  final meaning = word.meaningEn.isNotEmpty ? word.meaningEn : word.meaningHi;
-
   await _plugin.zonedSchedule(
     0,
-    'Word of the Day: ${word.word}',
-    meaning.length > 80 ? '${meaning.substring(0, 80)}…' : meaning,
+    'Word of the Day',
+    'Your new vocabulary word is ready — open Vocabo!',
     scheduled,
     const NotificationDetails(
       android: AndroidNotificationDetails(
         'word_of_day',
         'Word of the Day',
         channelDescription: 'Daily vocabulary word to keep your streak alive',
-        importance: Importance.defaultImportance,
-        priority: Priority.defaultPriority,
+        importance: Importance.high,
+        priority: Priority.high,
       ),
     ),
-    androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
+    androidScheduleMode: AndroidScheduleMode.alarmClock,
     matchDateTimeComponents: DateTimeComponents.time,
     uiLocalNotificationDateInterpretation:
         UILocalNotificationDateInterpretation.absoluteTime,
