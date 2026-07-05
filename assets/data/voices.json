@@ -1,0 +1,572 @@
+[
+  {
+    "word": "She writes a letter.",
+    "meaning_en": "Simple Present → Passive | Formula: Object + is/am/are + V3 + by + Agent. Subject becomes agent with 'by'; use object pronoun (I→me, he→him, she→her, they→them).",
+    "meaning_hi": "Simple Present → Passive | सूत्र: Object + is/am/are + V3 + by + Agent। Subject 'by' के साथ Agent बनता है।",
+    "example": "A letter is written by her.",
+    "options": ["A letter is written by her.", "A letter was written by her.", "A letter is being written by her.", "A letter has been written by her."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They repair cars at this garage.",
+    "meaning_en": "Simple Present → Passive (Plural) | With plural object + plural agent: Object + are + V3 + by + them.",
+    "meaning_hi": "Simple Present → Passive (Plural) | Plural object के साथ are + V3 का प्रयोग होता है।",
+    "example": "Cars are repaired at this garage by them.",
+    "options": ["Cars are repaired at this garage by them.", "Cars were repaired at this garage by them.", "Cars are being repaired at this garage by them.", "Cars have been repaired at this garage by them."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The workers are building a bridge.",
+    "meaning_en": "Present Continuous → Passive | Formula: Object + is/am/are + being + V3 + by + Agent. 'Being' is the key marker for continuous passive.",
+    "meaning_hi": "Present Continuous → Passive | सूत्र: Object + is/am/are + being + V3 + by + Agent। 'Being' continuous passive की पहचान है।",
+    "example": "A bridge is being built by the workers.",
+    "options": ["A bridge is being built by the workers.", "A bridge was being built by the workers.", "A bridge is built by the workers.", "A bridge has been built by the workers."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The chef is preparing a special dish.",
+    "meaning_en": "Present Continuous → Passive | 'is preparing' becomes 'is being prepared'. The auxiliary 'being' signals ongoing action in passive.",
+    "meaning_hi": "Present Continuous → Passive | 'is preparing' → 'is being prepared'। 'being' चल रही क्रिया का संकेत है।",
+    "example": "A special dish is being prepared by the chef.",
+    "options": ["A special dish is being prepared by the chef.", "A special dish was prepared by the chef.", "A special dish is prepared by the chef.", "A special dish was being prepared by the chef."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "He has written a novel.",
+    "meaning_en": "Present Perfect → Passive | Formula: Object + has/have + been + V3 + by + Agent. 'Been' is the passive marker for perfect tenses.",
+    "meaning_hi": "Present Perfect → Passive | सूत्र: Object + has/have + been + V3 + by + Agent। Perfect tense की passive में 'been' आता है।",
+    "example": "A novel has been written by him.",
+    "options": ["A novel has been written by him.", "A novel was written by him.", "A novel had been written by him.", "A novel is written by him."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They have completed the project on time.",
+    "meaning_en": "Present Perfect → Passive (Plural) | 'have completed' → 'has/have + been + V3'. With plural subject object: 'has been completed'.",
+    "meaning_hi": "Present Perfect → Passive | 'have completed' → 'has been completed'। Project singular है, इसलिए 'has been'।",
+    "example": "The project has been completed on time by them.",
+    "options": ["The project has been completed on time by them.", "The project was completed on time by them.", "The project have been completed on time by them.", "The project had been completed on time by them."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "She wrote the letter yesterday.",
+    "meaning_en": "Simple Past → Passive | Formula: Object + was/were + V3 + by + Agent. Singular object → 'was'; plural object → 'were'.",
+    "meaning_hi": "Simple Past → Passive | सूत्र: Object + was/were + V3 + by + Agent। Singular → 'was', Plural → 'were'।",
+    "example": "The letter was written by her yesterday.",
+    "options": ["The letter was written by her yesterday.", "The letter is written by her yesterday.", "The letter has been written by her yesterday.", "The letter were written by her yesterday."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The police caught the thief.",
+    "meaning_en": "Simple Past → Passive | 'caught' (V2) becomes 'was caught' (was + V3). The irregular verb 'catch → caught → caught'.",
+    "meaning_hi": "Simple Past → Passive | 'caught' → 'was caught'। Irregular verb: catch → caught → caught।",
+    "example": "The thief was caught by the police.",
+    "options": ["The thief was caught by the police.", "The thief is caught by the police.", "The thief were caught by the police.", "The thief had been caught by the police."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "She was cooking dinner when I arrived.",
+    "meaning_en": "Past Continuous → Passive | Formula: Object + was/were + being + V3 + by + Agent. Both 'was/were' and 'being' are required.",
+    "meaning_hi": "Past Continuous → Passive | सूत्र: Object + was/were + being + V3 + by + Agent। 'was/were' और 'being' दोनों जरूरी हैं।",
+    "example": "Dinner was being cooked by her when I arrived.",
+    "options": ["Dinner was being cooked by her when I arrived.", "Dinner was cooked by her when I arrived.", "Dinner is being cooked by her when I arrived.", "Dinner had been cooked by her when I arrived."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They were repairing the road near my house.",
+    "meaning_en": "Past Continuous → Passive (Plural agent) | 'were repairing' → 'was being repaired' (road is singular).",
+    "meaning_hi": "Past Continuous → Passive | 'were repairing' → 'was being repaired'। Road singular है, इसलिए 'was being'।",
+    "example": "The road near my house was being repaired by them.",
+    "options": ["The road near my house was being repaired by them.", "The road near my house were being repaired by them.", "The road near my house was repaired by them.", "The road near my house had been repaired by them."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "She had written the letter before he arrived.",
+    "meaning_en": "Past Perfect → Passive | Formula: Object + had + been + V3 + by + Agent. 'Had been' is fixed for all subjects in past perfect passive.",
+    "meaning_hi": "Past Perfect → Passive | सूत्र: Object + had + been + V3 + by + Agent। Past perfect passive में सभी subjects के लिए 'had been' आता है।",
+    "example": "The letter had been written by her before he arrived.",
+    "options": ["The letter had been written by her before he arrived.", "The letter was written by her before he arrived.", "The letter has been written by her before he arrived.", "The letter was being written by her before he arrived."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They will build a new hospital here.",
+    "meaning_en": "Simple Future → Passive | Formula: Object + will + be + V3 + by + Agent. 'Will be' is the future passive auxiliary.",
+    "meaning_hi": "Simple Future → Passive | सूत्र: Object + will + be + V3 + by + Agent। Future passive में 'will be' आता है।",
+    "example": "A new hospital will be built here by them.",
+    "options": ["A new hospital will be built here by them.", "A new hospital will have been built here by them.", "A new hospital would be built here by them.", "A new hospital is going to be built here by them."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They will have completed the project by Monday.",
+    "meaning_en": "Future Perfect → Passive | Formula: Object + will + have + been + V3 + by + Agent. Three auxiliaries: will + have + been.",
+    "meaning_hi": "Future Perfect → Passive | सूत्र: Object + will + have + been + V3 + by + Agent। तीन auxiliaries: will + have + been।",
+    "example": "The project will have been completed by Monday by them.",
+    "options": ["The project will have been completed by Monday by them.", "The project will be completed by Monday by them.", "The project would have been completed by Monday by them.", "The project has been completed by Monday by them."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "She can speak three languages fluently.",
+    "meaning_en": "Modal 'can' → Passive | Formula: Object + can + be + V3 + by + Agent. All modals follow: Modal + be + V3.",
+    "meaning_hi": "Modal 'can' → Passive | सूत्र: Object + can + be + V3 + by + Agent। सभी modals के लिए: Modal + be + V3।",
+    "example": "Three languages can be spoken fluently by her.",
+    "options": ["Three languages can be spoken fluently by her.", "Three languages can have been spoken fluently by her.", "Three languages could be spoken fluently by her.", "Three languages are spoken fluently by her."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Students must follow the rules of the institution.",
+    "meaning_en": "Modal 'must' → Passive | 'must + V1' → 'must + be + V3'. The sense of obligation is preserved in passive.",
+    "meaning_hi": "Modal 'must' → Passive | 'must + V1' → 'must + be + V3'। Obligation का भाव passive में भी रहता है।",
+    "example": "The rules of the institution must be followed by students.",
+    "options": ["The rules of the institution must be followed by students.", "The rules of the institution should be followed by students.", "The rules of the institution must have been followed by students.", "The rules of the institution had to be followed by students."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "We should respect our elders.",
+    "meaning_en": "Modal 'should' → Passive | 'should + V1' → 'should + be + V3'. The moral obligation remains in passive form.",
+    "meaning_hi": "Modal 'should' → Passive | 'should + V1' → 'should + be + V3'। Moral obligation passive में भी बना रहता है।",
+    "example": "Our elders should be respected by us.",
+    "options": ["Our elders should be respected by us.", "Our elders must be respected by us.", "Our elders should have been respected by us.", "Our elders would be respected by us."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "He may approve the proposal tomorrow.",
+    "meaning_en": "Modal 'may' → Passive | 'may + V1' → 'may + be + V3'. The possibility remains expressed through 'may be'.",
+    "meaning_hi": "Modal 'may' → Passive | 'may + V1' → 'may + be + V3'। Possibility passive में 'may be' से व्यक्त होती है।",
+    "example": "The proposal may be approved by him tomorrow.",
+    "options": ["The proposal may be approved by him tomorrow.", "The proposal might be approved by him tomorrow.", "The proposal may have been approved by him tomorrow.", "The proposal can be approved by him tomorrow."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The mechanic could repair the car in two hours.",
+    "meaning_en": "Modal 'could' → Passive | 'could + V1' → 'could + be + V3'. The past ability/possibility is retained.",
+    "meaning_hi": "Modal 'could' → Passive | 'could + V1' → 'could + be + V3'। Past ability/possibility passive में भी रहती है।",
+    "example": "The car could be repaired in two hours by the mechanic.",
+    "options": ["The car could be repaired in two hours by the mechanic.", "The car can be repaired in two hours by the mechanic.", "The car could have been repaired in two hours by the mechanic.", "The car would be repaired in two hours by the mechanic."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "She would finish the project by Friday.",
+    "meaning_en": "Modal 'would' → Passive | 'would + V1' → 'would + be + V3'. Conditional/future-in-past stays as 'would be'.",
+    "meaning_hi": "Modal 'would' → Passive | 'would + V1' → 'would + be + V3'। Conditional passive में 'would be' आता है।",
+    "example": "The project would be finished by Friday by her.",
+    "options": ["The project would be finished by Friday by her.", "The project will be finished by Friday by her.", "The project could be finished by Friday by her.", "The project would have been finished by Friday by her."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They might cancel the event due to rain.",
+    "meaning_en": "Modal 'might' → Passive | 'might + V1' → 'might + be + V3'. Remote possibility stays as 'might be'.",
+    "meaning_hi": "Modal 'might' → Passive | 'might + V1' → 'might + be + V3'। कम संभावना 'might be' से passive में व्यक्त होती है।",
+    "example": "The event might be cancelled due to rain by them.",
+    "options": ["The event might be cancelled due to rain by them.", "The event may be cancelled due to rain by them.", "The event would be cancelled due to rain by them.", "The event might have been cancelled due to rain by them."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Open the window. (Imperative → Passive)",
+    "meaning_en": "Imperative (Affirmative) → Passive | Formula: Let + Object + be + V3. The subject 'you' is implied; it is not mentioned in passive.",
+    "meaning_hi": "Imperative (Affirmative) → Passive | सूत्र: Let + Object + be + V3। Subject 'you' implied है; passive में नहीं आता।",
+    "example": "Let the window be opened.",
+    "options": ["Let the window be opened.", "The window should be opened.", "The window must be opened.", "Let the window be open."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Please help the needy. (Imperative Request → Passive)",
+    "meaning_en": "Imperative (Request with 'please') → Passive | Formula: You are requested to + V1 + Object. 'Please' signals a request, so use 'requested'.",
+    "meaning_hi": "Imperative (Request) → Passive | सूत्र: You are requested to + V1 + Object। 'Please' request का संकेत है।",
+    "example": "You are requested to help the needy.",
+    "options": ["You are requested to help the needy.", "Let the needy be helped.", "You are ordered to help the needy.", "The needy should be helped by you."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Submit your assignment immediately. (Order → Passive)",
+    "meaning_en": "Imperative (Order/Command) → Passive | Formula: You are ordered to + V1. Strong authority commands use 'ordered' or 'commanded'.",
+    "meaning_hi": "Imperative (Order/Command) → Passive | सूत्र: You are ordered to + V1। Authority command के लिए 'ordered/commanded' प्रयोग होता है।",
+    "example": "You are ordered to submit your assignment immediately.",
+    "options": ["You are ordered to submit your assignment immediately.", "Let your assignment be submitted immediately.", "You are requested to submit your assignment immediately.", "You are advised to submit your assignment immediately."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Don't make noise in the library. (Negative Imperative → Passive)",
+    "meaning_en": "Negative Imperative → Passive | Formula: Let + Object + not + be + V3. 'Don't' is replaced by 'not' after 'let ... be'.",
+    "meaning_hi": "Negative Imperative → Passive | सूत्र: Let + Object + not + be + V3। 'Don't' को 'not' से replace करते हैं।",
+    "example": "Let noise not be made in the library.",
+    "options": ["Let noise not be made in the library.", "Noise should not be made in the library.", "Don't let noise be made in the library.", "Let not noise be made in the library."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Take rest for a week, doctor advises. (Advice → Passive)",
+    "meaning_en": "Imperative (Advice) → Passive | Formula: You are advised to + V1. Advice uses 'advised' or 'suggested'.",
+    "meaning_hi": "Imperative (Advice) → Passive | सूत्र: You are advised to + V1। Advice के लिए 'advised/suggested' प्रयोग होता है।",
+    "example": "You are advised to take rest for a week.",
+    "options": ["You are advised to take rest for a week.", "You are ordered to take rest for a week.", "You are requested to take rest for a week.", "Let rest be taken for a week."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Did she write the letter? (Yes/No Question → Passive)",
+    "meaning_en": "Yes/No Interrogative → Passive | Formula: Was/Were + Object + V3 + by + Agent? The question form is retained using 'was/were' at the start.",
+    "meaning_hi": "Yes/No Interrogative → Passive | सूत्र: Was/Were + Object + V3 + by + Agent? प्रश्न रूप बना रहता है।",
+    "example": "Was the letter written by her?",
+    "options": ["Was the letter written by her?", "Is the letter written by her?", "Had the letter been written by her?", "Has the letter been written by her?"],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Is the teacher teaching the students? (Present Continuous Question → Passive)",
+    "meaning_en": "Present Continuous Interrogative → Passive | Formula: Is/Are + Object + being + V3 + by + Agent?",
+    "meaning_hi": "Present Continuous Interrogative → Passive | सूत्र: Is/Are + Object + being + V3 + by + Agent?",
+    "example": "Are the students being taught by the teacher?",
+    "options": ["Are the students being taught by the teacher?", "Are the students taught by the teacher?", "Were the students being taught by the teacher?", "Have the students been taught by the teacher?"],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Who wrote this poem? (WH Question with 'Who' → Passive)",
+    "meaning_en": "WH Interrogative ('Who') → Passive | 'Who' → 'By whom'. Formula: By whom + was/were + Object + V3? 'Who' (subject) becomes 'By whom' (agent) in passive.",
+    "meaning_hi": "WH Interrogative ('Who') → Passive | 'Who' → 'By whom'। सूत्र: By whom + was/were + Object + V3?",
+    "example": "By whom was this poem written?",
+    "options": ["By whom was this poem written?", "Who was this poem written by?", "By who was this poem written?", "By whom is this poem written?"],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Who is teaching you grammar? (WH Present Continuous → Passive)",
+    "meaning_en": "WH Question (Who + Present Continuous) → Passive | 'Who is teaching you' → 'By whom are you being taught'. Both 'being' and 'by whom' are required.",
+    "meaning_hi": "WH Question (Who + Present Continuous) → Passive | 'Who is teaching you' → 'By whom are you being taught'।",
+    "example": "By whom are you being taught grammar?",
+    "options": ["By whom are you being taught grammar?", "By whom were you being taught grammar?", "By whom are you taught grammar?", "By whom have you been taught grammar?"],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "What did she say at the meeting?",
+    "meaning_en": "WH Question (What/Where/When) → Passive | The WH word stays at the beginning. Formula: What + was + V3 + by + Agent?",
+    "meaning_hi": "WH Question (What/Where/When) → Passive | WH word शुरू में रहता है। सूत्र: What + was + V3 + by + Agent?",
+    "example": "What was said by her at the meeting?",
+    "options": ["What was said by her at the meeting?", "What has been said by her at the meeting?", "What is said by her at the meeting?", "What had been said by her at the meeting?"],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "He gave me a book. (Double Object → Passive)",
+    "meaning_en": "Double Object → Passive | When there are two objects (IO = me, DO = a book), the Indirect Object becomes the subject of the preferred passive: 'I was given a book by him.' (IO as subject is preferred in English).",
+    "meaning_hi": "Double Object → Passive | दो objects होने पर (IO = me, DO = a book), Indirect Object subject बनता है: 'I was given a book by him.'",
+    "example": "I was given a book by him.",
+    "options": ["I was given a book by him.", "A book was given me by him.", "Me was given a book by him.", "I am given a book by him."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "She told him a secret. (Double Object → Passive, DO as subject)",
+    "meaning_en": "Double Object → Passive | Both passive forms are correct: IO as subject ('He was told a secret') or DO as subject ('A secret was told to him'). The second form adds 'to' before IO.",
+    "meaning_hi": "Double Object → Passive | दोनों passive सही हैं: IO as subject ('He was told a secret') या DO as subject ('A secret was told to him'। दूसरे में 'to' जुड़ता है।",
+    "example": "A secret was told to him by her.",
+    "options": ["A secret was told to him by her.", "A secret was told him by her.", "He was told to a secret by her.", "A secret has been told to him by her."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They offered her a promotion. (Double Object → Passive)",
+    "meaning_en": "Double Object → Passive | IO (her) as subject: 'She was offered a promotion by them.' This is the preferred passive form when IO is a person.",
+    "meaning_hi": "Double Object → Passive | IO (her) subject बनता है: 'She was offered a promotion by them.' जब IO एक व्यक्ति हो, यह preferred form है।",
+    "example": "She was offered a promotion by them.",
+    "options": ["She was offered a promotion by them.", "A promotion was offered her by them.", "She has been offered a promotion by them.", "Her was offered a promotion by them."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "She resembles her mother. (Stative Verb → Passive?)",
+    "meaning_en": "Stative Verbs CANNOT be Passive | Verbs like resemble, lack, suit, fit, contain, have (possession), consist of, belong to describe states, not actions. They have NO passive voice.",
+    "meaning_hi": "Stative Verbs को Passive नहीं बना सकते | resemble, lack, suit, fit, contain, have (possession) जैसे verbs state बताते हैं, action नहीं। इनकी कोई Passive Voice नहीं होती।",
+    "example": "❌ Cannot be converted. 'Resemble' is a stative verb with no passive form.",
+    "options": ["❌ Cannot be converted. 'Resemble' is a stative verb with no passive form.", "Her mother is resembled by her.", "Her mother is being resembled by her.", "Her mother has been resembled by her."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "This shirt suits him perfectly. (Stative Verb → Passive?)",
+    "meaning_en": "Stative Verbs CANNOT be Passive | 'Suit' describes a state/quality. Other stative verbs: resemble, possess, lack, contain, own, know (in simple present), fit, matter.",
+    "meaning_hi": "Stative Verbs — No Passive | 'Suit' state बताता है। अन्य stative verbs: resemble, possess, lack, contain, own, fit इनकी passive नहीं बनती।",
+    "example": "❌ Cannot be converted. 'Suit' is a stative verb with no passive form.",
+    "options": ["❌ Cannot be converted. 'Suit' is a stative verb with no passive form.", "He is suited perfectly by this shirt.", "He has been suited perfectly by this shirt.", "He is being suited perfectly by this shirt."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "She slept peacefully all night. (Intransitive Verb → Passive?)",
+    "meaning_en": "Intransitive Verbs CANNOT be Passive | Intransitive verbs (sleep, go, come, arrive, laugh, cry, die, fall) have NO direct object, so they cannot form passive voice.",
+    "meaning_hi": "Intransitive Verbs — No Passive | Intransitive verbs (sleep, go, come, arrive, laugh) का कोई direct object नहीं होता, इसलिए इनकी passive नहीं बनती।",
+    "example": "❌ Cannot be converted. 'Sleep' is intransitive — it has no object to become the subject.",
+    "options": ["❌ Cannot be converted. 'Sleep' is intransitive — it has no object to become the subject.", "Peacefully all night was slept by her.", "She was slept all night.", "All night has been slept by her."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Someone stole my wallet last night.",
+    "meaning_en": "'By' Phrase Omission — Unknown Agent | When the agent is 'someone', 'a person', or unknown, the 'by + agent' phrase is omitted from the passive.",
+    "meaning_hi": "'By' Phrase Omission — Unknown Agent | जब agent 'someone' या अज्ञात हो, passive में 'by + agent' नहीं लिखते।",
+    "example": "My wallet was stolen last night.",
+    "options": ["My wallet was stolen last night.", "My wallet was stolen by someone last night.", "My wallet has been stolen last night.", "My wallet was being stolen last night."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "People speak English all over the world.",
+    "meaning_en": "'By' Phrase Omission — General Agent | When agent is general (people, they, one, we, everyone), it is omitted in the passive. The focus shifts to the action.",
+    "meaning_hi": "'By' Phrase Omission — General Agent | जब agent general हो (people, they, one), passive में 'by' phrase छोड़ देते हैं। Focus action पर आ जाता है।",
+    "example": "English is spoken all over the world.",
+    "options": ["English is spoken all over the world.", "English is spoken all over the world by people.", "English has been spoken all over the world.", "English was spoken all over the world."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "She looked after the old man carefully.",
+    "meaning_en": "Phrasal Verbs in Passive | Treat the phrasal verb ('look after') as one unit — never split it. 'Was looked after' — NOT 'was looked'.",
+    "meaning_hi": "Phrasal Verbs in Passive | Phrasal verb ('look after') को एक unit मानें — कभी मत तोड़ें। 'Was looked after' — 'was looked' नहीं।",
+    "example": "The old man was looked after carefully by her.",
+    "options": ["The old man was looked after carefully by her.", "The old man was looked carefully after by her.", "The old man was after looked carefully by her.", "The old man has been looked after carefully by her."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They called off the match due to rain.",
+    "meaning_en": "Phrasal Verbs in Passive | 'Called off' (phrasal verb = cancelled) stays together in passive. Other phrasal verbs: put off, take care of, carry out, bring up, give up.",
+    "meaning_hi": "Phrasal Verbs in Passive | 'Called off' passive में भी साथ रहता है। अन्य: put off, take care of, carry out, bring up।",
+    "example": "The match was called off due to rain by them.",
+    "options": ["The match was called off due to rain by them.", "The match was called due to rain off by them.", "The match is called off due to rain by them.", "The match had been called off due to rain by them."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "She got her hair cut at the salon. (Causative)",
+    "meaning_en": "Causative Passive | Get/Have + Object + V3 is already passive in nature — someone else does the action for you. 'Got her hair cut' = she caused someone to cut her hair.",
+    "meaning_hi": "Causative Passive | Get/Have + Object + V3 — यहाँ कोई और काम करता है आपके लिए। 'Got her hair cut' = उसने किसी से बाल कटवाए।",
+    "example": "Her hair was got cut at the salon. (Or: She had her hair cut.)",
+    "options": ["Her hair was got cut at the salon. (Or: She had her hair cut.)", "Her hair is cut at the salon.", "She cut her hair at the salon.", "Her hair has been cutting at the salon."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "He had his car repaired at the garage. (Causative)",
+    "meaning_en": "Causative with 'have' | Have + Object + V3 = cause someone to do something. 'Had his car repaired' = he caused a mechanic to repair it. This is a causative, not standard passive.",
+    "meaning_hi": "Causative with 'have' | Have + Object + V3 = किसी और से काम करवाना। 'Had his car repaired' = उसने mechanic से car repair करवाई।",
+    "example": "His car was had repaired at the garage. (Structure: His car was repaired at the garage for him.)",
+    "options": ["His car was had repaired at the garage. (Structure: His car was repaired at the garage for him.)", "His car was repaired at the garage by him.", "He got his car repaired.", "His car has been repaired at the garage."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "People believe that he is innocent. ('It is believed…' construction)",
+    "meaning_en": "'It is believed/said/known/reported that…' Construction | When active subject is general (people/they/everyone), use 'It is + V3 + that…' OR '[Subject] is said to + V'.",
+    "meaning_hi": "'It is believed/said/known that…' Construction | General subject (people/they) → 'It is V3 that…' या '[Subject] is said to + V'।",
+    "example": "It is believed that he is innocent. / He is believed to be innocent.",
+    "options": ["It is believed that he is innocent. / He is believed to be innocent.", "He is believed that he is innocent.", "It is being believed that he is innocent.", "People are believed that he is innocent."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Everyone says that she is honest. ('It is said…' construction)",
+    "meaning_en": "'It is said that…' | Active: 'Everyone/People say that…' → Passive: 'It is said that…' / 'She is said to be honest.' Both passive forms are acceptable.",
+    "meaning_hi": "'It is said that…' | Active: 'People say that…' → Passive: 'It is said that…' / 'She is said to be honest.'",
+    "example": "It is said that she is honest.",
+    "options": ["It is said that she is honest.", "She is said that she is honest.", "It was said that she is honest.", "It has been said that she is honest."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "She has been writing the essay for two hours. (Perfect Continuous → Passive?)",
+    "meaning_en": "Perfect Continuous CANNOT be Passive | Present Perfect Continuous and Past Perfect Continuous are NOT converted to passive voice. This is a standard grammatical rule in English.",
+    "meaning_hi": "Perfect Continuous — No Passive | Present Perfect Continuous और Past Perfect Continuous की Passive Voice नहीं बनती।",
+    "example": "❌ Cannot be converted. Perfect Continuous tenses do not have a passive form.",
+    "options": ["❌ Cannot be converted. Perfect Continuous tenses do not have a passive form.", "The essay has been being written by her for two hours.", "The essay had been written by her for two hours.", "The essay is being written by her for two hours."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "He had been repairing the car for three hours. (Past Perfect Continuous → Passive?)",
+    "meaning_en": "Past Perfect Continuous CANNOT be Passive | Like Present Perfect Continuous, Past Perfect Continuous is also NOT converted to passive. These forms are avoided in passive voice.",
+    "meaning_hi": "Past Perfect Continuous — No Passive | Past Perfect Continuous की भी Passive Voice नहीं बनती।",
+    "example": "❌ Cannot be converted. Past Perfect Continuous does not have a passive voice form.",
+    "options": ["❌ Cannot be converted. Past Perfect Continuous does not have a passive voice form.", "The car had been being repaired by him for three hours.", "The car was being repaired by him for three hours.", "The car had been repaired by him for three hours."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The letter was written by her. (Passive → Active)",
+    "meaning_en": "Passive → Active | Step 1: 'By + Agent' becomes the Subject (object pronoun → subject pronoun: her → she). Step 2: Remove 'was'. Step 3: V3 → V2 (written → wrote).",
+    "meaning_hi": "Passive → Active | Step 1: 'by + Agent' → Subject (her → she)। Step 2: 'was' हटाओ। Step 3: V3 → V2 (written → wrote)।",
+    "example": "She wrote the letter.",
+    "options": ["She wrote the letter.", "She has written the letter.", "She is writing the letter.", "Her wrote the letter."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The new bridge is being built by the government. (Passive → Active)",
+    "meaning_en": "Passive → Active | Present Continuous Passive ('is being built') → Active ('is building'). The government builds → The government is building.",
+    "meaning_hi": "Passive → Active | Present Continuous Passive ('is being built') → Active ('is building')।",
+    "example": "The government is building the new bridge.",
+    "options": ["The government is building the new bridge.", "The government builds the new bridge.", "The government was building the new bridge.", "The government has built the new bridge."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The match has been won by our team. (Passive → Active)",
+    "meaning_en": "Passive → Active | Present Perfect Passive ('has been won') → Active Present Perfect ('has won'). Agent 'our team' becomes subject.",
+    "meaning_hi": "Passive → Active | Present Perfect Passive ('has been won') → Active Present Perfect ('has won')।",
+    "example": "Our team has won the match.",
+    "options": ["Our team has won the match.", "Our team won the match.", "Our team is winning the match.", "Our team had won the match."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The window was broken. (Passive without 'by' phrase → Active)",
+    "meaning_en": "Passive without 'by' phrase → Active | When 'by' phrase is absent, the agent is unknown. Use 'someone' or 'somebody' as the subject in active.",
+    "meaning_hi": "Passive without 'by' phrase → Active | जब 'by' phrase नहीं है, agent अज्ञात है। Active में 'someone/somebody' subject बनता है।",
+    "example": "Someone broke the window.",
+    "options": ["Someone broke the window.", "Someone has broken the window.", "The window broke itself.", "Someone is breaking the window."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "A book is being read by the child. (Passive → Active)",
+    "meaning_en": "Passive → Active | Present Continuous Passive: 'is being read' → Active: 'is reading'. Agent 'the child' becomes subject.",
+    "meaning_hi": "Passive → Active | Present Continuous Passive: 'is being read' → Active 'is reading'। Agent 'the child' subject बनता है।",
+    "example": "The child is reading a book.",
+    "options": ["The child is reading a book.", "The child reads a book.", "The child was reading a book.", "The child has read a book."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "I teach the students every day. (Pronoun change in Passive)",
+    "meaning_en": "Pronoun Change in Passive | Subject pronoun → Object pronoun when it becomes the agent: I → me, he → him, she → her, we → us, they → them.",
+    "meaning_hi": "Pronoun Change in Passive | Subject pronoun → Object pronoun जब agent बनता है: I → me, he → him, she → her, we → us, they → them।",
+    "example": "The students are taught by me every day.",
+    "options": ["The students are taught by me every day.", "The students are taught by I every day.", "The students were taught by me every day.", "The students have been taught by me every day."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They defeated us in the final match. (Pronoun swap: us → we)",
+    "meaning_en": "Pronoun Change in Passive | Object pronoun 'us' becomes Subject pronoun 'we'. Agent 'they' becomes 'them'. We were defeated by them.",
+    "meaning_hi": "Pronoun Change in Passive | Object pronoun 'us' → Subject pronoun 'we'। Agent 'they' → 'them'।",
+    "example": "We were defeated by them in the final match.",
+    "options": ["We were defeated by them in the final match.", "Us were defeated by them in the final match.", "We was defeated by them in the final match.", "We have been defeated by them in the final match."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "He solved all the problems quickly. (Pronoun: he → him)",
+    "meaning_en": "Pronoun Change in Passive | 'He' (subject) → 'him' (agent in passive). Subject pronoun changes to object pronoun when placed after 'by'.",
+    "meaning_hi": "Pronoun Change in Passive | 'He' (subject) → 'him' (passive में agent)। Subject pronoun 'by' के बाद object pronoun बन जाता है।",
+    "example": "All the problems were solved quickly by him.",
+    "options": ["All the problems were solved quickly by him.", "All the problems were solved quickly by he.", "All the problems are solved quickly by him.", "All the problems had been solved quickly by him."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The government will launch a new scheme next month.",
+    "meaning_en": "Simple Future Active → Passive | 'will launch' → 'will be launched'. The future agent (the government) comes after 'by'.",
+    "meaning_hi": "Simple Future → Passive | 'will launch' → 'will be launched'। Future agent 'by' के बाद आता है।",
+    "example": "A new scheme will be launched next month by the government.",
+    "options": ["A new scheme will be launched next month by the government.", "A new scheme would be launched next month by the government.", "A new scheme will have been launched next month by the government.", "A new scheme is going to be launched next month by the government."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The students are writing the exam in Hall A. (Active → Identify Voice)",
+    "meaning_en": "Identifying Active Voice | An active sentence has: Subject + Verb + Object. The subject performs the action directly. Key: the subject IS doing something.",
+    "meaning_hi": "Active Voice की पहचान | Active sentence: Subject + Verb + Object। Subject खुद action करता है।",
+    "example": "Active Voice — Subject (students) performs the action (writing).",
+    "options": ["Active Voice — Subject (students) performs the action (writing).", "Passive Voice — the exam is being written.", "Neither active nor passive.", "Causative Voice — students cause writing."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The exam is being written by the students in Hall A. (Identify Voice)",
+    "meaning_en": "Identifying Passive Voice | A passive sentence has: Object (as subject) + be + V3 + by + Agent. Key markers: is/am/are/was/were + V3, 'by' phrase.",
+    "meaning_hi": "Passive Voice की पहचान | Passive sentence: Object (as subject) + be + V3 + by + Agent। Key markers: is/am/are/was/were + V3, 'by' phrase।",
+    "example": "Passive Voice — Object (exam) receives the action; agent follows 'by'.",
+    "options": ["Passive Voice — Object (exam) receives the action; agent follows 'by'.", "Active Voice — the students write.", "Causative Voice.", "Imperative Voice."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  }
+]

@@ -1,0 +1,1362 @@
+[
+  {
+    "question": "Rearrange the following sentences (A-E) to form a meaningful paragraph about human sleep stages.\n(A) In all, this cycle repeats several times during a typical night's sleep.\n(B) Human sleep is divided into REM and non-REM stages.\n(C) Whereas comparatively non-REM sleep includes stages of deep, restorative rest.\n(D) During REM sleep, dreams are most vivid and brain activity is high.\n(E) Each stage plays a vital role in physical and mental recovery.",
+    "options": [
+      "B – A – D – C – A",
+      "B – D – C – E – A",
+      "B – D – C – A – E",
+      "D – C– B – E – A",
+      "No rearrangement required"
+    ],
+    "correct_answer": "B – D – C – E – A",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Para Jumbles",
+    "difficulty": "Moderate",
+    "explanation": "Logical flow: B introduces the two stages, D elaborates on REM, C contrasts with non-REM, E states each stage's role, A concludes that the cycle repeats nightly."
+  },
+  {
+    "question": "Rearrange the following sentences (A-E) to form a meaningful paragraph about internet privacy.\n(A) Many users share personal data without realizing the consequences.\n(B) This can lead to identity theft and targeted surveillance.\n(C) Internet privacy is a growing concern in the digital age.\n(D) Companies often collect and store user information for various purposes.\n(E) Therefore, users must take steps to protect their online identity.",
+    "options": [
+      "C – D – A – B – E",
+      "A – D – B – C – E",
+      "B – D – A – C – E",
+      "D – A – C – B – E",
+      "No rearrangement required"
+    ],
+    "correct_answer": "C – D – A – B – E",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Para Jumbles",
+    "difficulty": "Moderate",
+    "explanation": "C introduces the topic, D explains companies collecting data, A shows users sharing data unknowingly, B shows the consequence, E gives the concluding recommendation."
+  },
+  {
+    "question": "Rearrange the following sentences (A-E) to form a meaningful paragraph about oceans and climate.\n(A) Oceans absorb a significant amount of the Earth's heat.\n(B) This heat absorption regulates global climate and weather patterns.\n(C) These changes highlight the link between oceans and climate change.\n(D) Warmer oceans disrupt marine ecosystems and intensify storms.\n(E) However, excess heat is causing ocean temperatures to rise.",
+    "options": [
+      "B – D – A – C – E",
+      "A – C – B – D – E",
+      "B – A – D – C – E",
+      "A – B – E – D – C",
+      "No rearrangement required"
+    ],
+    "correct_answer": "A – B – E – D – C",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Para Jumbles",
+    "difficulty": "Moderate",
+    "explanation": "A introduces ocean heat absorption, B explains its regulatory role, E introduces the problem (rising temperatures), D shows the effect, C concludes with the climate-change link."
+  },
+  {
+    "question": "Rearrange the following sentences (A-E) to form a meaningful paragraph about reading habits.\n(A) On one hand, reading enhances vocabulary.\n(B) It improves concentration and strengthens language skills.\n(C) Developing a regular reading habit has multiple cognitive benefits.\n(D) On the other hand, in a world of distractions, reading offers a focused mental exercise.\n(E) These advantages make reading an essential lifelong habit.",
+    "options": [
+      "C – A – B – D – E",
+      "A – C – B – D – E",
+      "C – B – A – D – E",
+      "C – A – D – B – E",
+      "No rearrangement required"
+    ],
+    "correct_answer": "C – A – D – B – E",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Para Jumbles",
+    "difficulty": "Moderate",
+    "explanation": "C introduces the topic, A presents one benefit (vocabulary) with 'on one hand', D presents the contrasting point with 'on the other hand', B further elaborates, E concludes."
+  },
+  {
+    "question": "Directions: Read the passage about digital payment gateways in China (Alipay, WeChat Pay) and their overcharging practices, then answer the questions.\nWhat is the central irony described in the passage regarding digital payment gateways in China?",
+    "options": [
+      "Consumers believe digital platforms are free, though they are highly profitable.",
+      "Platforms intended to help small merchants are instead contributing to their collapse.",
+      "China developed digital payment systems for rural areas but they are only used in cities.",
+      "Regulatory authorities fail to notice the dominance of platforms like Alipay and WeChat Pay.",
+      "Consumers benefit more than merchants due to government subsidies on transactions."
+    ],
+    "correct_answer": "Platforms intended to help small merchants are instead contributing to their collapse.",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Moderate",
+    "explanation": "The passage states many local businesses have folded despite relying on these platforms to stay competitive."
+  },
+  {
+    "question": "Directions: Read the passage about digital payment gateways in China (Alipay, WeChat Pay) and their overcharging practices, then answer the questions.\nHow does the overall state of the economy affect the problems caused by digital payment platforms, according to the passage?",
+    "options": [
+      "It helps small merchants adapt faster to digital systems.",
+      "It makes overcharging practices more acceptable to the public.",
+      "It increases the burden of overcharging due to financial pressures like inflation.",
+      "It incentivizes payment firms to reduce fees.",
+      "It drives consumers away from digital platforms."
+    ],
+    "correct_answer": "It increases the burden of overcharging due to financial pressures like inflation.",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Moderate",
+    "explanation": "The passage notes rising inflation and unpredictable growth make these charges 'even harder to digest'."
+  },
+  {
+    "question": "Directions: Read the passage about digital payment gateways in China (Alipay, WeChat Pay) and their overcharging practices, then answer the questions.\nWhich of the following statements can be inferred to be TRUE based on the passage?\n(I) Digital payment systems were initially perceived as tools to improve financial accessibility.\n(II) Delays in settlement and penalties are part of the challenges faced by merchants using Chinese digital payment platforms.\n(III) Consumers have protested en masse against overcharging practices by payment firms.",
+    "options": [
+      "Only (I)",
+      "Both (I) and (II)",
+      "Only (III)",
+      "Both (I) and (III)",
+      "All (I), (II) and (III)"
+    ],
+    "correct_answer": "Both (I) and (II)",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Difficult",
+    "explanation": "The passage implies platforms were meant to encourage 'financial freedom' (I) and explicitly mentions settlement delays and penalties (II). Mass consumer protest (III) is never mentioned."
+  },
+  {
+    "question": "Directions: Read the passage about digital payment gateways in China (Alipay, WeChat Pay) and their overcharging practices, then answer the questions.\nWhich of the following statements is/are FALSE according to the passage?\n(I) The majority of consumers are well-informed about the extra transaction charges added by payment firms.\n(II) The convenience of digital payments has completely eliminated financial dependency on dominant platforms.\n(III) All Chinese digital gateways charge uniformly between 1% and 3% per transaction.",
+    "options": [
+      "Only (I)",
+      "Only (II)",
+      "Both (I) and (II)",
+      "Both (I) and (III)",
+      "All (I), (II), and (III)"
+    ],
+    "correct_answer": "All (I), (II), and (III)",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Moderate",
+    "explanation": "Passage says consumers are largely UNAWARE (I false); dependency is INCREASED not eliminated (II false); it is international credit cards that charge 1-3%, while Chinese gateways impose additional hidden charges (III false)."
+  },
+  {
+    "question": "Directions: Read the passage about digital payment gateways in China (Alipay, WeChat Pay) and their overcharging practices, then answer the questions.\nChoose the most suitable word for the given blank: 'This ___________ how dependence on a few gateways can distort fair competition.'",
+    "options": [
+      "informs",
+      "produces",
+      "change",
+      "highlights",
+      "payment"
+    ],
+    "correct_answer": "highlights",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Cloze Test",
+    "difficulty": "Easy",
+    "explanation": "'Highlights' fits contextually — the folding of businesses illustrates/highlights the distortion of competition."
+  },
+  {
+    "question": "Directions: Read the passage about digital payment gateways in China (Alipay, WeChat Pay) and their overcharging practices, then answer the questions.\nChoose the word that can best replace the word 'weather' as used in the passage ('the weather of the broader economy—rising inflation, slowing exports, and unpredictable growth').",
+    "options": [
+      "Atmosphere",
+      "Condition",
+      "Climate",
+      "Situation",
+      "Storm"
+    ],
+    "correct_answer": "Climate",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Vocabulary (Contextual Usage)",
+    "difficulty": "Moderate",
+    "explanation": "'Climate' is the standard metaphorical term for the general state/condition of an economy, matching 'weather' used figuratively here."
+  },
+  {
+    "question": "Directions: Read the passage about digital payment gateways in China (Alipay, WeChat Pay) and their overcharging practices, then answer the questions.\nWhich of the following is the most appropriate synonym of 'firms' in the context of the passage ('firms have little choice but to comply')?",
+    "options": [
+      "Companies",
+      "Holds",
+      "Contracts",
+      "Stubborn",
+      "Customers"
+    ],
+    "correct_answer": "Companies",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Vocabulary (Contextual Usage)",
+    "difficulty": "Easy",
+    "explanation": "Here 'firms' is used as a noun meaning businesses/companies."
+  },
+  {
+    "question": "Directions: Read the passage about digital payment gateways in China (Alipay, WeChat Pay) and their overcharging practices, then answer the questions.\nWhat is the most suitable synonym for 'folded' as used in the passage ('local businesses...have folded within months')?",
+    "options": [
+      "Expanded",
+      "Closed",
+      "Shrunk",
+      "Evolved",
+      "Joined"
+    ],
+    "correct_answer": "Closed",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Vocabulary (Contextual Usage)",
+    "difficulty": "Easy",
+    "explanation": "'Folded' idiomatically means a business shut down/closed."
+  },
+  {
+    "question": "Find the error-free sentence. If all sentences have errors, choose 'None are correct/All are incorrect'.",
+    "options": [
+      "The Indian Ocean is strategically important for global trade and shipping.",
+      "Front running involves illegal trading based on non-public information above transactions.",
+      "The Marrakech Agreement focuses on global climate action since sustainable development.",
+      "Blackbucks are graceful antelopes find primarily in the Indian subcontinent.",
+      "None are correct"
+    ],
+    "correct_answer": "The Indian Ocean is strategically important for global trade and shipping.",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Error Detection",
+    "difficulty": "Moderate",
+    "explanation": "(b) should use 'about' not 'above'; (c) should use 'and' not 'since'; (d) should use 'found' not 'find'. (a) is grammatically correct."
+  },
+  {
+    "question": "Find the error-free sentence. If all sentences have errors, choose 'None are correct/All are incorrect'.",
+    "options": [
+      "Patachitra painting is an ancient Indian art form known for storytelling.",
+      "Critical minerals is essential for technology, energy, and industrial applications worldwide.",
+      "Drip pricing adds extra charges to advertising prices, deceiving consumers.",
+      "Migration affects economies, creating opportunities and challenges to both regions.",
+      "None are correct"
+    ],
+    "correct_answer": "Patachitra painting is an ancient Indian art form known for storytelling.",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Error Detection",
+    "difficulty": "Moderate",
+    "explanation": "(b) has subject-verb disagreement ('minerals is' should be 'are'); (c) should read 'advertised prices'; (d) should read 'challenges for both regions'. (a) is error-free."
+  },
+  {
+    "question": "Find the error-free sentence. If all sentences have errors, choose 'None are correct/All are incorrect'.",
+    "options": [
+      "Sailfin catfish is freshwater fish with distinctive fins and vibrant coloration.",
+      "Meitei Sagol is a traditional breeds of horse in Manipur.",
+      "Foot rot disease affects livestock, causing pain, lameness, and productive loss.",
+      "Areca nut is widely consumed across Asia for its stimulant properties.",
+      "None are correct"
+    ],
+    "correct_answer": "Areca nut is widely consumed across Asia for its stimulant properties.",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Error Detection",
+    "difficulty": "Moderate",
+    "explanation": "(a) is missing the article 'a' before 'freshwater fish'; (b) has 'a...breeds' mismatch; (c) should read 'productivity loss'. (d) is error-free."
+  },
+  {
+    "question": "Find the error-free sentence. If all sentences have errors, choose 'None are correct/All are incorrect'.",
+    "options": [
+      "Bhishm Cube is an intricate puzzle challenge logical thinking and strategy.",
+      "India VIX measured market volatility and investor sentiment in Indian markets.",
+      "The paradox of thrift suggests saving most would harm economic growth.",
+      "The Panama Canal connects the Atlantic and Pacific Oceans, enabling global trade.",
+      "None are correct"
+    ],
+    "correct_answer": "The Panama Canal connects the Atlantic and Pacific Oceans, enabling global trade.",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Error Detection",
+    "difficulty": "Moderate",
+    "explanation": "(a) should read 'challenging' not 'challenge'; (b) should use present tense 'measures' for a general fact; (c) is awkwardly phrased ('saving most' should be 'saving too much'). (d) is error-free."
+  },
+  {
+    "question": "Directions: Fill in blanks A-F in the passage about senior employees mentoring juniors in a healthy office environment.\nBlank (A): 'senior employees ___________(A) guidance and support to their juniors.'",
+    "options": [
+      "demand",
+      "growth",
+      "offer",
+      "review",
+      "wait"
+    ],
+    "correct_answer": "offer",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Cloze Test",
+    "difficulty": "Easy",
+    "explanation": "'Offer guidance and support' is the natural collocation."
+  },
+  {
+    "question": "Directions: Fill in blanks A-F in the passage about senior employees mentoring juniors in a healthy office environment.\nBlank (B): 'Newcomers often feel ___________(B) when trying to understand their roles and responsibilities.'",
+    "options": [
+      "nervous",
+      "lazy",
+      "empty",
+      "anxiety",
+      "complete"
+    ],
+    "correct_answer": "nervous",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Cloze Test",
+    "difficulty": "Easy",
+    "explanation": "'Feel nervous' is grammatically correct (adjective after 'feel'); 'anxiety' is a noun and doesn't fit."
+  },
+  {
+    "question": "Directions: Fill in blanks A-F in the passage about senior employees mentoring juniors in a healthy office environment.\nBlank (C): 'A helpful senior can ___________(C) the learning process by sharing experiences and providing useful tips.'",
+    "options": [
+      "delay",
+      "confuse",
+      "recruit",
+      "guess",
+      "speed"
+    ],
+    "correct_answer": "speed",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Cloze Test",
+    "difficulty": "Moderate",
+    "explanation": "'Speed up/speed' the learning process fits contextually with a positive, helpful senior."
+  },
+  {
+    "question": "Directions: Fill in blanks A-F in the passage about senior employees mentoring juniors in a healthy office environment.\nBlank (D): 'This not only builds confidence but also ___________(D) stronger team relationships.'",
+    "options": [
+      "blocks",
+      "pursues",
+      "fulfilled",
+      "fosters",
+      "integrate"
+    ],
+    "correct_answer": "fosters",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Cloze Test",
+    "difficulty": "Easy",
+    "explanation": "'Fosters stronger relationships' is the standard positive collocation."
+  },
+  {
+    "question": "Directions: Fill in blanks A-F in the passage about senior employees mentoring juniors in a healthy office environment.\nBlank (E): 'When juniors feel respected and ___________(E), they are more likely to contribute effectively.'",
+    "options": [
+      "adhered",
+      "welcomed",
+      "tired",
+      "regulated",
+      "restricted"
+    ],
+    "correct_answer": "welcomed",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Cloze Test",
+    "difficulty": "Easy",
+    "explanation": "'Respected and welcomed' pairs naturally as positive feelings."
+  },
+  {
+    "question": "Directions: Fill in blanks A-F in the passage about senior employees mentoring juniors in a healthy office environment.\nBlank (F): 'Hence, mutual cooperation and mentorship are ___________(F) for maintaining a productive workplace.'",
+    "options": [
+      "critical",
+      "nominal",
+      "analytical",
+      "accrual",
+      "minimal"
+    ],
+    "correct_answer": "critical",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Cloze Test",
+    "difficulty": "Easy",
+    "explanation": "'Critical for maintaining' fits the tone emphasizing importance."
+  },
+  {
+    "question": "Four bolded words in the sentence may be misplaced. Choose the correct combination that should be swapped to make the sentence grammatically/contextually correct.\n\"Recent space relentless (A) highlight humanity's breakthroughs (B) pursuit of cosmic knowledge, propelling (C) us toward a future of exploration (D) and discovery.\"",
+    "options": [
+      "B-C & A-D",
+      "A-B",
+      "C-D",
+      "A-C & B-D",
+      "No interchange required"
+    ],
+    "correct_answer": "A-B",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Sentence Correction (Word Swap)",
+    "difficulty": "Moderate",
+    "explanation": "Correct: 'Recent space breakthroughs highlight humanity's relentless pursuit of cosmic knowledge...' — words A (relentless) and B (breakthroughs) must swap."
+  },
+  {
+    "question": "Four bolded words in the sentence may be misplaced. Choose the correct combination that should be swapped to make the sentence grammatically/contextually correct.\n\"Global including (A) for sustainability, initiatives (B) reforestation, signal a safeguard (C) commitment to collective (D) our planet's future.\"",
+    "options": [
+      "A-D",
+      "B-C",
+      "A-B & C-D",
+      "D-B & C-A",
+      "No interchange required"
+    ],
+    "correct_answer": "A-B & C-D",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Sentence Correction (Word Swap)",
+    "difficulty": "Moderate",
+    "explanation": "Correct: 'Global initiatives for sustainability, including reforestation, signal a collective commitment to safeguard our planet's future.' — A↔B and C↔D."
+  },
+  {
+    "question": "Four bolded words in the sentence may be misplaced. Choose the correct combination that should be swapped to make the sentence grammatically/contextually correct.\n\"Innovative (A) educational tech, from (B) virtual classrooms to interactive apps, is reshaping (C) learning, offering dynamic and personalized (D) experiences.\"",
+    "options": [
+      "D-B & C-A",
+      "A-D",
+      "B-C",
+      "A-B & C-D",
+      "No interchange required"
+    ],
+    "correct_answer": "No interchange required",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Sentence Correction (Word Swap)",
+    "difficulty": "Moderate",
+    "explanation": "The sentence is already grammatically and contextually correct as given."
+  },
+  {
+    "question": "Four bolded words in the sentence may be misplaced. Choose the correct combination that should be swapped to make the sentence grammatically/contextually correct.\n\"Artificial Intelligence transforms (A) healthcare with precise diagnostics (B) and personalized treatments, era (C) in a new ushering (D) of medical advancements.\"",
+    "options": [
+      "A-B & C-D",
+      "A-C & B-D",
+      "C-D",
+      "A-D",
+      "No interchange required"
+    ],
+    "correct_answer": "C-D",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Sentence Correction (Word Swap)",
+    "difficulty": "Moderate",
+    "explanation": "Correct: '...ushering in a new era of medical advancements.' — words C (era) and D (ushering) must swap."
+  },
+  {
+    "question": "Choose the best combination of phrases from Column I and Column II to form a meaningful sentence.\nCOLUMN I: (A) As the orchestra played, the harmonious; (B) Setting off on an impromptu journey, they unearthed; (C) The classroom buzzed with intellectual curiosity\nCOLUMN II: (D) that a well-prepared meal brings to the table; (E) at home can open up the magical world; (F) hidden treasures, crafting indelible memories",
+    "options": [
+      "C-E & A-D",
+      "B-F",
+      "B-D & C-F",
+      "A-E",
+      "None of the above"
+    ],
+    "correct_answer": "B-F",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Sentence Completion (Column Matching)",
+    "difficulty": "Moderate",
+    "explanation": "'Setting off on an impromptu journey, they unearthed hidden treasures, crafting indelible memories' is the only combination that forms a complete, meaningful sentence."
+  },
+  {
+    "question": "Choose the best combination of phrases from Column I and Column II to form a meaningful sentence.\nCOLUMN I: (A) Amidst challenges, a glimmer of hope emerged,; (B) Beneath the starlit sky, the rhythmic sounds of; (C) Before sleep, dreams painted vibrant landscapes\nCOLUMN II: (D) echoing the timeless beauty of nature's embrace.; (E) of unexplored possibilities and aspirations; (F) while mysteries that once seemed vulnerable",
+    "options": [
+      "C-E",
+      "B-D & A-E",
+      "C-D & B-F",
+      "A-F",
+      "None of the above"
+    ],
+    "correct_answer": "C-E",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Sentence Completion (Column Matching)",
+    "difficulty": "Moderate",
+    "explanation": "'Before sleep, dreams painted vibrant landscapes of unexplored possibilities and aspirations' forms a complete, grammatically sound sentence."
+  },
+  {
+    "question": "Identify the sentence(s) in which the given phrasal verb has been used correctly.\nPhrasal verb: 'Bring up'\n(I) She decided to bring up the issue of salary during the meeting.\n(II) They had to bring up the old furniture from the basement.\n(III) Her grandparents brought her up after her parents passed away.",
+    "options": [
+      "Only (I)",
+      "Only (II)",
+      "Both (I) and (II)",
+      "Both (I) and (III)",
+      "All (I), (II), and (III)"
+    ],
+    "correct_answer": "All (I), (II), and (III)",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Phrasal Verbs",
+    "difficulty": "Moderate",
+    "explanation": "All three usages are valid: (I) raise a topic, (II) carry something upward, (III) raise/rear a child."
+  },
+  {
+    "question": "Identify the sentence(s) in which the given phrasal verb has been used correctly.\nPhrasal verb: 'Look after'\n(I) She stayed home to look after her younger brother.\n(II) The manager promised to look after the complaints personally.\n(III) He wanted to look after the documents before signing the contract.",
+    "options": [
+      "Only (I)",
+      "Only (II)",
+      "Both (I) and (II)",
+      "Both (I) and (III)",
+      "All (I), (II), and (III)"
+    ],
+    "correct_answer": "Only (I)",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Phrasal Verbs",
+    "difficulty": "Moderate",
+    "explanation": "Only (I) is correct ('look after' = take care of). (II) should use 'look into' (investigate); (III) should use 'look over/through' (examine)."
+  },
+  {
+    "question": "Rearrange sentences (A-F) to form a meaningful paragraph about the Aragon chat app.\n(A) Despite the rumours, Aragon is still widely used in crypto and DeFi circles.\n(B) Many suspected FBI control because the app's design matched known surveillance tools.\n(C) Moreover, a leaked report tied Aragon's code to a government project in America.\n(D) Aragon was promoted as a secure, independent platform for encrypted chats.\n(E) Developers denied all claims of FBI involvement or links to any U.S. project.\n(F) The chatting app Aragon became a hit in cryptocurrency communities for its privacy features.\nWhich is the FIRST sentence after rearrangement?",
+    "options": [
+      "A",
+      "F",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_answer": "F",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Para Jumbles",
+    "difficulty": "Moderate",
+    "explanation": "Correct order: F-D-B-C-E-A. F introduces Aragon as a hit app in crypto communities."
+  },
+  {
+    "question": "Rearrange sentences (A-F) to form a meaningful paragraph about the Aragon chat app.\n(A) Despite the rumours, Aragon is still widely used in crypto and DeFi circles.\n(B) Many suspected FBI control because the app's design matched known surveillance tools.\n(C) Moreover, a leaked report tied Aragon's code to a government project in America.\n(D) Aragon was promoted as a secure, independent platform for encrypted chats.\n(E) Developers denied all claims of FBI involvement or links to any U.S. project.\n(F) The chatting app Aragon became a hit in cryptocurrency communities for its privacy features.\nWhich is the SECOND sentence after rearrangement?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_answer": "D",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Para Jumbles",
+    "difficulty": "Moderate",
+    "explanation": "Correct order: F-D-B-C-E-A. D explains how Aragon was promoted (secure platform)."
+  },
+  {
+    "question": "Rearrange sentences (A-F) to form a meaningful paragraph about the Aragon chat app.\n(A) Despite the rumours, Aragon is still widely used in crypto and DeFi circles.\n(B) Many suspected FBI control because the app's design matched known surveillance tools.\n(C) Moreover, a leaked report tied Aragon's code to a government project in America.\n(D) Aragon was promoted as a secure, independent platform for encrypted chats.\n(E) Developers denied all claims of FBI involvement or links to any U.S. project.\n(F) The chatting app Aragon became a hit in cryptocurrency communities for its privacy features.\nWhich is the THIRD sentence after rearrangement?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_answer": "B",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Para Jumbles",
+    "difficulty": "Moderate",
+    "explanation": "Correct order: F-D-B-C-E-A. B introduces the FBI-control suspicion."
+  },
+  {
+    "question": "Rearrange sentences (A-F) to form a meaningful paragraph about the Aragon chat app.\n(A) Despite the rumours, Aragon is still widely used in crypto and DeFi circles.\n(B) Many suspected FBI control because the app's design matched known surveillance tools.\n(C) Moreover, a leaked report tied Aragon's code to a government project in America.\n(D) Aragon was promoted as a secure, independent platform for encrypted chats.\n(E) Developers denied all claims of FBI involvement or links to any U.S. project.\n(F) The chatting app Aragon became a hit in cryptocurrency communities for its privacy features.\nWhich is the FOURTH sentence after rearrangement?",
+    "options": [
+      "F",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_answer": "C",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Para Jumbles",
+    "difficulty": "Moderate",
+    "explanation": "Correct order: F-D-B-C-E-A. C adds the leaked report tying Aragon's code to a US government project."
+  },
+  {
+    "question": "Rearrange sentences (A-F) to form a meaningful paragraph about the Aragon chat app.\n(A) Despite the rumours, Aragon is still widely used in crypto and DeFi circles.\n(B) Many suspected FBI control because the app's design matched known surveillance tools.\n(C) Moreover, a leaked report tied Aragon's code to a government project in America.\n(D) Aragon was promoted as a secure, independent platform for encrypted chats.\n(E) Developers denied all claims of FBI involvement or links to any U.S. project.\n(F) The chatting app Aragon became a hit in cryptocurrency communities for its privacy features.\nWhich is the FIFTH sentence after rearrangement?",
+    "options": [
+      "A",
+      "B",
+      "F",
+      "D",
+      "E"
+    ],
+    "correct_answer": "E",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Para Jumbles",
+    "difficulty": "Moderate",
+    "explanation": "Correct order: F-D-B-C-E-A. E shows developers denying the claims, followed by the concluding sentence A."
+  },
+  {
+    "question": "Identify the sentence that is grammatically incorrect.",
+    "options": [
+      "She has already finished the assignment ahead of schedule.",
+      "Neither the manager nor the employees were at the meeting.",
+      "I have lived in this neighborhood since five years.",
+      "We are planning a surprise party for her birthday tonight.",
+      "All are correct"
+    ],
+    "correct_answer": "I have lived in this neighborhood since five years.",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Error Detection",
+    "difficulty": "Easy",
+    "explanation": "'Since' is used with a point in time, not a duration; it should be 'for five years'."
+  },
+  {
+    "question": "Identify the sentence that is grammatically incorrect.",
+    "options": [
+      "Each of the players have signed the registration form.",
+      "He enjoys listening to classical music in the evenings.",
+      "We have been waiting for the bus for over an hour.",
+      "My sister and I are going hiking this weekend.",
+      "All are incorrect"
+    ],
+    "correct_answer": "Each of the players have signed the registration form.",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Error Detection",
+    "difficulty": "Easy",
+    "explanation": "'Each' takes a singular verb; it should be 'has signed' not 'have signed'."
+  },
+  {
+    "question": "The witness gave a/an __________ account of the events during the trial which led to the verdict.",
+    "options": [
+      "cleared",
+      "fictional",
+      "vivid",
+      "deceptive",
+      "honestly"
+    ],
+    "correct_answer": "vivid",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Easy",
+    "explanation": "'Vivid account' is the natural collocation describing a detailed, clear account."
+  },
+  {
+    "question": "The teacher was impressed by the student's __________ to improve.",
+    "options": [
+      "resistance",
+      "determination",
+      "refusal",
+      "wise",
+      "responsive"
+    ],
+    "correct_answer": "determination",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Easy",
+    "explanation": "'Determination to improve' fits contextually with 'impressed'; the other options are either negative or grammatically wrong (adjective 'wise')."
+  },
+  {
+    "question": "Four bolded words in the sentence may be misplaced. Choose the correct combination that should be swapped to make the sentence grammatically/contextually correct.\n\"The committee postpone (A) to decided (B) the annual meeting because several key members (C) were unable (D) to attend on time.\"",
+    "options": [
+      "B-C & A-D",
+      "A-B",
+      "C-D",
+      "A-C & B-D",
+      "No interchange required"
+    ],
+    "correct_answer": "A-B",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Sentence Correction (Word Swap)",
+    "difficulty": "Moderate",
+    "explanation": "Correct: 'The committee decided to postpone the annual meeting...' — A (postpone) and B (decided) must swap."
+  },
+  {
+    "question": "Four bolded words in the sentence may be misplaced. Choose the correct combination that should be swapped to make the sentence grammatically/contextually correct.\n\"Despite facing multiple obstacles (A), the young entrepreneur expanding (B) her determination (C) and eventually succeeded in maintained (D) her small business.\"",
+    "options": [
+      "B-C & A-D",
+      "A-C",
+      "B-D",
+      "A-C & B-D",
+      "No interchange required"
+    ],
+    "correct_answer": "B-D",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Sentence Correction (Word Swap)",
+    "difficulty": "Moderate",
+    "explanation": "Correct: '...the young entrepreneur maintained her determination and eventually succeeded in expanding her small business.' — B (expanding) and D (maintained) must swap."
+  },
+  {
+    "question": "Match Column I and Column II to form meaningful, grammatically correct sentences.\nCOLUMN I: A. Social media platforms must implement stricter policies to curb; B. The education system needs reforms; C. The government announced new subsidies to support\nCOLUMN II: D. farmers adopting sustainable agricultural practices; E. to reduce dependence on fossil fuels and cut emissions; F. problem-solving in industries like healthcare and finance",
+    "options": [
+      "None of these",
+      "B-F",
+      "C-D",
+      "A-E, B-F",
+      "A-F, C-D, B-E"
+    ],
+    "correct_answer": "C-D",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Sentence Completion (Column Matching)",
+    "difficulty": "Moderate",
+    "explanation": "'The government announced new subsidies to support farmers adopting sustainable agricultural practices' is the only fully coherent pairing among the options."
+  },
+  {
+    "question": "Match Column I and Column II to form meaningful, grammatically correct sentences.\nCOLUMN I: A. Advances in artificial intelligence are enabling machines; B. Several countries are investing heavily in renewable energy; C. The government launched a new digital literacy campaign\nCOLUMN II: D. controlling inflation and stabilize the economy.; E. forced farmers to migrate to nearby cities in search of work; F. to learn and adapt without explicit programming",
+    "options": [
+      "None of these",
+      "A-F",
+      "B-D",
+      "A-E, B-F",
+      "A-F, B-D, C-E"
+    ],
+    "correct_answer": "A-F",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Sentence Completion (Column Matching)",
+    "difficulty": "Moderate",
+    "explanation": "'Advances in artificial intelligence are enabling machines to learn and adapt without explicit programming' is a complete, meaningful sentence."
+  },
+  {
+    "question": "Identify the sentence that is grammatically correct.",
+    "options": [
+      "She don't like walking in the rain every morning.",
+      "They has been working on the project since last week.",
+      "He go to the gym before work on weekdays.",
+      "I was late because the bus arrived very slowly.",
+      "All are incorrect"
+    ],
+    "correct_answer": "I was late because the bus arrived very slowly.",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Error Detection",
+    "difficulty": "Easy",
+    "explanation": "(a) should be 'doesn't', (b) should be 'have', (c) should be 'goes'; (d) is grammatically correct."
+  },
+  {
+    "question": "Identify the sentence that is grammatically correct.",
+    "options": [
+      "I seen him at the store just yesterday afternoon.",
+      "He don't have enough experience for this senior role.",
+      "The cat sleeps peacefully in the sun every afternoon.",
+      "Everyone in the team are excited for the trip.",
+      "All are incorrect"
+    ],
+    "correct_answer": "The cat sleeps peacefully in the sun every afternoon.",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Error Detection",
+    "difficulty": "Easy",
+    "explanation": "(a) should be 'saw', (b) should be 'doesn't', (d) should be 'is' ('everyone' is singular); (c) is correct."
+  },
+  {
+    "question": "A sentence is given with a highlighted word that may be incorrect. Choose the best replacement, or 'No replacement required'.\n\"After months of practice and dedication, the athlete finally achieved his dream of winning the national championship.\"",
+    "options": [
+      "gain",
+      "procured",
+      "shifted",
+      "moved",
+      "No replacement required"
+    ],
+    "correct_answer": "No replacement required",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Vocabulary (Contextual Usage)",
+    "difficulty": "Easy",
+    "explanation": "'Achieved' is correctly used here; no replacement is needed."
+  },
+  {
+    "question": "The manager's __________ response to the complaint irritated the already angry customer.",
+    "options": [
+      "indifferent",
+      "strong",
+      "prompt",
+      "detailed",
+      "emotional"
+    ],
+    "correct_answer": "indifferent",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Moderate",
+    "explanation": "An 'indifferent' (careless/dismissive) response logically would further irritate an already angry customer, unlike a prompt or detailed one."
+  },
+  {
+    "question": "Four bolded words in the sentence may be misplaced. Choose the correct combination that should be swapped to make the sentence grammatically/contextually correct.\n\"The teacher participate (A) the students to encouraged (B) actively in the discussion (C), ensuring everyone had an equal opportunity (D) to speak.\"",
+    "options": [
+      "B-C & A-D",
+      "A-B",
+      "C-D",
+      "A-C & B-D",
+      "No interchange required"
+    ],
+    "correct_answer": "A-B",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Sentence Correction (Word Swap)",
+    "difficulty": "Moderate",
+    "explanation": "Correct: 'The teacher encouraged the students to participate actively in the discussion...' — A (participate) and B (encouraged) must swap."
+  },
+  {
+    "question": "Four bolded words in the sentence may be misplaced. Choose the correct combination that should be swapped to make the sentence grammatically/contextually correct.\n\"The project required (A) a detailed (B) analysis of financial data, followed by a clear presentation (C) of strategies to improve profitability (D).\"",
+    "options": [
+      "B-C & A-D",
+      "B-C",
+      "C-D",
+      "A-B",
+      "No interchange required"
+    ],
+    "correct_answer": "No interchange required",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Sentence Correction (Word Swap)",
+    "difficulty": "Moderate",
+    "explanation": "The sentence is already grammatically and contextually correct."
+  },
+  {
+    "question": "A sentence is given with a highlighted word that may be incorrect. Choose the best replacement, or 'No replacement required'.\n\"The fragile storm forced travelers to take shelter in nearby lodges until the weather conditions improved significantly.\"",
+    "options": [
+      "mild",
+      "forecast",
+      "conditioned",
+      "unexpected",
+      "No replacement required"
+    ],
+    "correct_answer": "unexpected",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Vocabulary (Contextual Usage)",
+    "difficulty": "Moderate",
+    "explanation": "'Fragile' does not logically describe a storm; 'unexpected storm' fits the context of travelers being forced to take sudden shelter."
+  },
+  {
+    "question": "A sentence is given with a highlighted word that may be incorrect. Choose the best replacement, or 'No replacement required'.\n\"The farmer worked tirelessly from dawn to dusk, ensuring the crops received adequate care from the growing season.\"",
+    "options": [
+      "throughout",
+      "under",
+      "through",
+      "of",
+      "No replacement required"
+    ],
+    "correct_answer": "throughout",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Vocabulary (Contextual Usage)",
+    "difficulty": "Moderate",
+    "explanation": "'Throughout the growing season' is the correct preposition to indicate care given during the entire period."
+  },
+  {
+    "question": "Match Column I and Column II to form meaningful, grammatically correct sentences.\nCOLUMN I: A. The company invested in; B. The discovery of new exoplanets has encouraged astronomers; C. The finance ministry introduced stricter\nCOLUMN II: D. regulate the functioning of digital payment systems; E. to explore the possibility of life beyond Earth; F. to monitor deforestation and climate changes",
+    "options": [
+      "None of these",
+      "A-F",
+      "C-D",
+      "B-E",
+      "A-F, B-D, C-E"
+    ],
+    "correct_answer": "B-E",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Sentence Completion (Column Matching)",
+    "difficulty": "Moderate",
+    "explanation": "'The discovery of new exoplanets has encouraged astronomers to explore the possibility of life beyond Earth' is the only grammatically complete, meaningful sentence."
+  },
+  {
+    "question": "Directions: Read the passage about bilingualism versus monolingualism (cognitive benefits, professional adaptability, and children of diplomats) and answer the questions.\nAccording to the passage, what is the main advantage of being bilingual in low-resource professional settings?",
+    "options": [
+      "Bilinguals demand lower salaries, making them easier to hire in poor regions.",
+      "Bilinguals can work longer hours without facing language-related fatigue.",
+      "Bilinguals improve communication and adapt better in cross-cultural work environments.",
+      "Bilinguals receive more government support in multilingual workplaces.",
+      "Bilinguals avoid jobs that require technical or specialized training."
+    ],
+    "correct_answer": "Bilinguals improve communication and adapt better in cross-cultural work environments.",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Moderate",
+    "explanation": "The passage states bilingual workers show greater adaptability and bridge language barriers in cross-cultural settings."
+  },
+  {
+    "question": "Directions: Read the passage about bilingualism versus monolingualism (cognitive benefits, professional adaptability, and children of diplomats) and answer the questions.\nWhich of the following statement(s) is/are incorrect as per the passage?\n(I) Bilingualism restricts mental flexibility and slows task-switching.\n(II) Bilingual professionals struggle more in cross-cultural work environments.\n(III) Diplomatic children show poor fluency in new languages due to relocation stress.",
+    "options": [
+      "Only I",
+      "Both I and III",
+      "Only II",
+      "II and III",
+      "All I, II, and III"
+    ],
+    "correct_answer": "All I, II, and III",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Moderate",
+    "explanation": "The passage states the opposite of all three: bilingualism enhances flexibility, bilinguals thrive (not struggle), and diplomats' children master languages with ease."
+  },
+  {
+    "question": "Directions: Read the passage about bilingualism versus monolingualism (cognitive benefits, professional adaptability, and children of diplomats) and answer the questions.\nWhich of the following statement(s) is/are correct according to the passage?\n(I) Bilingual individuals switch tasks more efficiently due to enhanced mental control.\n(II) Diplomatic children easily acquire multiple languages through early exposure.\n(III) Bilingualism leads to increased emotional sensitivity and empathetic behavior.",
+    "options": [
+      "Only I",
+      "Both I and II",
+      "Only III",
+      "II and III",
+      "All I, II, and III"
+    ],
+    "correct_answer": "Both I and II",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Moderate",
+    "explanation": "The passage supports (I) and (II) directly; emotional sensitivity/empathy (III) is not discussed in the passage."
+  },
+  {
+    "question": "Directions: Read the passage about bilingualism versus monolingualism (cognitive benefits, professional adaptability, and children of diplomats) and answer the questions.\nWhat does the 2019 study mentioned in the passage show?",
+    "options": [
+      "Bilinguals read faster but calculate more slowly.",
+      "Monolinguals perform better in creative tasks.",
+      "Bilinguals have better calculation speed and intelligence.",
+      "Bilingualism has no measurable cognitive effect.",
+      "Bilingualism reduces attention span in adults."
+    ],
+    "correct_answer": "Bilinguals have better calculation speed and intelligence.",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Easy",
+    "explanation": "The passage explicitly states the 2019 study found bilinguals had better calculation speed and higher intelligence levels."
+  },
+  {
+    "question": "Directions: Read the passage about bilingualism versus monolingualism (cognitive benefits, professional adaptability, and children of diplomats) and answer the questions.\nChoose the best word/phrase to fill the given blank: 'The ability to switch between languages seems ______________ with the additional skill of switching between tasks more efficiently.'",
+    "options": [
+      "to function",
+      "to come",
+      "to results",
+      "happens",
+      "including"
+    ],
+    "correct_answer": "to come",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Cloze Test",
+    "difficulty": "Moderate",
+    "explanation": "'Seems to come with' is the idiomatic phrase meaning the two abilities are bundled/associated together."
+  },
+  {
+    "question": "Directions: Read the passage about bilingualism versus monolingualism (cognitive benefits, professional adaptability, and children of diplomats) and answer the questions.\nChoose the word that is most opposite in meaning to 'later' as used in the passage.",
+    "options": [
+      "When",
+      "Eventually",
+      "Prior",
+      "Upcoming",
+      "Gradually"
+    ],
+    "correct_answer": "Prior",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Vocabulary (Antonyms)",
+    "difficulty": "Easy",
+    "explanation": "'Prior' (before) is the opposite of 'later' (after)."
+  },
+  {
+    "question": "Directions: Read the passage about bilingualism versus monolingualism (cognitive benefits, professional adaptability, and children of diplomats) and answer the questions.\nChoose the word that is closest in meaning to 'decline' as used in the passage ('monolinguals often face a decline in effectiveness').",
+    "options": [
+      "Deteriorate",
+      "Rejection",
+      "Downsizing",
+      "Support",
+      "Progress"
+    ],
+    "correct_answer": "Deteriorate",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Vocabulary (Synonyms)",
+    "difficulty": "Easy",
+    "explanation": "'Decline in effectiveness' means a deterioration/worsening of effectiveness."
+  },
+  {
+    "question": "Directions: Read the passage about bilingualism versus monolingualism (cognitive benefits, professional adaptability, and children of diplomats) and answer the questions.\nChoose the word that is closest in meaning to 'benefits' as used in the passage.",
+    "options": [
+      "Advantages",
+      "Drawbacks",
+      "Gains",
+      "More",
+      "Conflicts"
+    ],
+    "correct_answer": "Advantages",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Vocabulary (Synonyms)",
+    "difficulty": "Easy",
+    "explanation": "'Benefits' most directly means 'advantages' in this context."
+  },
+  {
+    "question": "Directions: Read the passage about cloud kitchens (virtual/ghost kitchens) — their cost efficiency, global growth, economic contribution, and regulatory concerns — and answer the questions.\nWhat is the underlying reason cloud kitchens have enabled more entrepreneurs to enter the food business?",
+    "options": [
+      "The emergence of global food trends requiring innovative business models.",
+      "The increase in food delivery app usage that encourages mass entry.",
+      "The substantial decrease in start-up and operational costs associated with running a food business.",
+      "The ability to access a wider consumer base without geographical limitations.",
+      "The availability of shared kitchen infrastructure and government subsidies in urban areas."
+    ],
+    "correct_answer": "The substantial decrease in start-up and operational costs associated with running a food business.",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Moderate",
+    "explanation": "The passage highlights cost efficiency — eliminating prime-location rent, décor, and staff costs — as the key economic advantage enabling entrepreneurs."
+  },
+  {
+    "question": "Directions: Read the passage about cloud kitchens (virtual/ghost kitchens) — their cost efficiency, global growth, economic contribution, and regulatory concerns — and answer the questions.\nWhich of the following statements is/are CORRECT according to the passage?\n(I) Technological tools and mobile apps have played a significant role in the adoption of cloud kitchens.\n(II) Britain experienced a stagnant cloud kitchen market until 2023.\n(III) Many cloud kitchens fail to comply with food safety rules due to operational urgency.",
+    "options": [
+      "Only (I)",
+      "Both (I) and (III)",
+      "Only (II)",
+      "Both (II) and (III)",
+      "All (I), (II), and (III)"
+    ],
+    "correct_answer": "Both (I) and (III)",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Moderate",
+    "explanation": "(I) is supported by mention of delivery apps and technological integration. (III) is supported by 'the rush to meet demand often lead to corners being cut'. (II) is false — Britain's market expanded nearly threefold in 2023, it wasn't stagnant."
+  },
+  {
+    "question": "Directions: Read the passage about cloud kitchens (virtual/ghost kitchens) — their cost efficiency, global growth, economic contribution, and regulatory concerns — and answer the questions.\nWhich of the following situations best explains the concern highlighted in the passage?",
+    "options": [
+      "A cloud kitchen receives a five-star rating for speedy delivery despite complaints about poor food quality.",
+      "A traditional restaurant installs a robot chef to improve efficiency and reduce labor costs.",
+      "A local food vendor switches to cloud kitchen services and increases profits.",
+      "A delivery app offers discounts to promote lesser-known cloud kitchens.",
+      "A food safety authority mandates regular inspections for dine-in restaurants only."
+    ],
+    "correct_answer": "A cloud kitchen receives a five-star rating for speedy delivery despite complaints about poor food quality.",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Moderate",
+    "explanation": "The passage's concern is about compromised hygiene/safety/quality standards due to rushed growth and lack of regulation — this option directly reflects that trade-off."
+  },
+  {
+    "question": "Directions: Read the passage about cloud kitchens (virtual/ghost kitchens) — their cost efficiency, global growth, economic contribution, and regulatory concerns — and answer the questions.\nWhat does the passage say about cloud kitchens in Britain?",
+    "options": [
+      "They were banned in 2023 due to safety issues.",
+      "They grew three times larger in 2023 compared to earlier years.",
+      "They replaced all traditional restaurants by 2023.",
+      "They focused only on packaging and delivery.",
+      "They were introduced for the first time in 2023."
+    ],
+    "correct_answer": "They grew three times larger in 2023 compared to earlier years.",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Easy",
+    "explanation": "The passage states the industry in Britain 'expanded nearly threefold compared to previous years' in 2023."
+  },
+  {
+    "question": "Directions: Read the passage about cloud kitchens (virtual/ghost kitchens) — their cost efficiency, global growth, economic contribution, and regulatory concerns — and answer the questions.\nWhich of the following statements is/are factually INCORRECT based on the passage?\n(I) The global rise of cloud kitchens has had little to no impact on auxiliary sectors such as food supply chains and packaging.\n(II) In the United States, cloud kitchens are projected to contribute nearly $27 billion to the economy by the year 2027 alone.\n(III) One of the key reasons behind the proliferation of cloud kitchens is the substantial reduction in fixed operational costs.",
+    "options": [
+      "Only (I)",
+      "Both (I) and (II)",
+      "Only (III)",
+      "Both (I) and (III)",
+      "All (I), (II), and (III)"
+    ],
+    "correct_answer": "Both (I) and (II)",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Moderate",
+    "explanation": "(I) is incorrect — the passage says cloud kitchens boost allied sectors like packaging and supply chains. (II) is incorrect — the $27 billion target is projected between 2027 and 2032, not by 2027 alone. (III) is factually correct as per the passage."
+  },
+  {
+    "question": "Directions: Read the passage about cloud kitchens (virtual/ghost kitchens) — their cost efficiency, global growth, economic contribution, and regulatory concerns — and answer the questions.\nChoose the most suitable phrase for the given blank: 'Much of this work is quietly done __________________, yet it strengthens multiple layers of the economy.'",
+    "options": [
+      "in broad daylight",
+      "without permission",
+      "on live television",
+      "behind the scenes",
+      "under pressure"
+    ],
+    "correct_answer": "behind the scenes",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Cloze Test",
+    "difficulty": "Easy",
+    "explanation": "'Behind the scenes' pairs naturally with 'quietly done', indicating work that happens unnoticed."
+  },
+  {
+    "question": "Directions: Read the passage about cloud kitchens (virtual/ghost kitchens) — their cost efficiency, global growth, economic contribution, and regulatory concerns — and answer the questions.\nChoose the word that is grammatically and contextually most suitable to replace 'elusive' as used in the passage ('launching a restaurant earlier seemed like an elusive dream').",
+    "options": [
+      "Obvious",
+      "Achievable",
+      "Unattainable",
+      "Defining",
+      "Difficult"
+    ],
+    "correct_answer": "Unattainable",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Vocabulary (Contextual Usage)",
+    "difficulty": "Moderate",
+    "explanation": "'Elusive' here means hard to attain/achieve; 'unattainable' best captures this sense in context."
+  },
+  {
+    "question": "Directions: Read the passage about cloud kitchens (virtual/ghost kitchens) — their cost efficiency, global growth, economic contribution, and regulatory concerns — and answer the questions.\nWhat is the closest meaning of the word 'done' as used in the passage ('Much of this work is quietly done...')?",
+    "options": [
+      "Completed",
+      "Final",
+      "Avoided",
+      "Attained",
+      "Repeated"
+    ],
+    "correct_answer": "Completed",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Vocabulary (Synonyms)",
+    "difficulty": "Easy",
+    "explanation": "'Done' here simply means completed/performed."
+  },
+  {
+    "question": "Directions: Read the passage about cloud kitchens (virtual/ghost kitchens) — their cost efficiency, global growth, economic contribution, and regulatory concerns — and answer the questions.\nWhat is the most appropriate meaning of the word 'tap' as used in this context ('customers need to tap once on their screens to get a meal delivered')?",
+    "options": [
+      "Strike",
+      "Click",
+      "Extract",
+      "Control",
+      "Attach"
+    ],
+    "correct_answer": "Click",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Vocabulary (Contextual Usage)",
+    "difficulty": "Easy",
+    "explanation": "In the context of a touchscreen/app, 'tap' means to click/touch the screen."
+  },
+  {
+    "question": "Choose the most appropriate word to fill the blank.\nThe dentist had to _____________ the decayed tooth to prevent further infection.",
+    "options": [
+      "modify",
+      "excuse",
+      "recruit",
+      "amplify",
+      "remove"
+    ],
+    "correct_answer": "remove",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Easy",
+    "explanation": "'Remove' is the logical action for a decayed tooth to prevent infection."
+  },
+  {
+    "question": "Choose the most appropriate word to fill the blank.\nThe new technology promises to ________________ the way we perform everyday tasks.",
+    "options": [
+      "impede",
+      "acclaim",
+      "stagnate",
+      "deteriorate",
+      "augment"
+    ],
+    "correct_answer": "augment",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Moderate",
+    "explanation": "'Augment' (enhance/improve) fits the positive tone of 'promises', unlike the negative alternatives."
+  },
+  {
+    "question": "Choose the most appropriate word to fill the blank.\nThe athlete's rigorous training and unwavering determination _________________ to their remarkable success.",
+    "options": [
+      "contributed",
+      "detracted",
+      "underestimated",
+      "isolated",
+      "impeded"
+    ],
+    "correct_answer": "contributed",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Easy",
+    "explanation": "'Contributed to' success is the logical positive collocation."
+  },
+  {
+    "question": "Choose the most appropriate word to fill the blank.\nThe new regulations aim to _________________ fair competition among all market participants.",
+    "options": [
+      "infringe",
+      "enforce",
+      "relinquish",
+      "constrain",
+      "fragment"
+    ],
+    "correct_answer": "enforce",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Moderate",
+    "explanation": "'Enforce fair competition' is the standard regulatory collocation."
+  },
+  {
+    "question": "Choose the most appropriate word to fill the blank.\nThe exam rules must be ___________ followed to ensure fairness for all students.",
+    "options": [
+      "scarcely",
+      "preciously",
+      "strictly",
+      "hardly",
+      "mostly"
+    ],
+    "correct_answer": "strictly",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Easy",
+    "explanation": "'Strictly followed' is the natural collocation emphasizing rule enforcement."
+  },
+  {
+    "question": "Rearrange sentences (A-E) to form a meaningful paragraph about travel and well-being.\n(A) Many people now prefer taking extended vacations to unwind and reconnect with themselves.\n(B) Travel has increasingly become a way not just to see new places but to momentarily escape the pressures of daily routines.\n(C) In today's fast-paced world, hectic schedules and constant digital connectivity often leave individuals drained.\n(D) Meeting new people, exploring unfamiliar cultures, and disconnecting from work helps rejuvenate the mind.\n(E) This shift in travel behavior reflects a growing awareness about mental well-being and the need for intentional breaks.\nWhich is the FIRST sentence after rearrangement?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_answer": "C",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Para Jumbles",
+    "difficulty": "Moderate",
+    "explanation": "Correct order: C-B-A-D-E. C introduces the fast-paced, draining modern lifestyle."
+  },
+  {
+    "question": "Rearrange sentences (A-E) to form a meaningful paragraph about travel and well-being.\n(A) Many people now prefer taking extended vacations to unwind and reconnect with themselves.\n(B) Travel has increasingly become a way not just to see new places but to momentarily escape the pressures of daily routines.\n(C) In today's fast-paced world, hectic schedules and constant digital connectivity often leave individuals drained.\n(D) Meeting new people, exploring unfamiliar cultures, and disconnecting from work helps rejuvenate the mind.\n(E) This shift in travel behavior reflects a growing awareness about mental well-being and the need for intentional breaks.\nWhich is the SECOND sentence after rearrangement?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_answer": "B",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Para Jumbles",
+    "difficulty": "Moderate",
+    "explanation": "Correct order: C-B-A-D-E. B explains travel as an escape from daily pressures."
+  },
+  {
+    "question": "Rearrange sentences (A-E) to form a meaningful paragraph about travel and well-being.\n(A) Many people now prefer taking extended vacations to unwind and reconnect with themselves.\n(B) Travel has increasingly become a way not just to see new places but to momentarily escape the pressures of daily routines.\n(C) In today's fast-paced world, hectic schedules and constant digital connectivity often leave individuals drained.\n(D) Meeting new people, exploring unfamiliar cultures, and disconnecting from work helps rejuvenate the mind.\n(E) This shift in travel behavior reflects a growing awareness about mental well-being and the need for intentional breaks.\nWhich is the THIRD sentence after rearrangement?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_answer": "A",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Para Jumbles",
+    "difficulty": "Moderate",
+    "explanation": "Correct order: C-B-A-D-E. A gives the specific example of extended vacations."
+  },
+  {
+    "question": "Rearrange sentences (A-E) to form a meaningful paragraph about travel and well-being.\n(A) Many people now prefer taking extended vacations to unwind and reconnect with themselves.\n(B) Travel has increasingly become a way not just to see new places but to momentarily escape the pressures of daily routines.\n(C) In today's fast-paced world, hectic schedules and constant digital connectivity often leave individuals drained.\n(D) Meeting new people, exploring unfamiliar cultures, and disconnecting from work helps rejuvenate the mind.\n(E) This shift in travel behavior reflects a growing awareness about mental well-being and the need for intentional breaks.\nWhich is the FOURTH sentence after rearrangement?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_answer": "D",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Para Jumbles",
+    "difficulty": "Moderate",
+    "explanation": "Correct order: C-B-A-D-E. D elaborates on how travel rejuvenates the mind."
+  },
+  {
+    "question": "Rearrange sentences (A-E) to form a meaningful paragraph about travel and well-being.\n(A) Many people now prefer taking extended vacations to unwind and reconnect with themselves.\n(B) Travel has increasingly become a way not just to see new places but to momentarily escape the pressures of daily routines.\n(C) In today's fast-paced world, hectic schedules and constant digital connectivity often leave individuals drained.\n(D) Meeting new people, exploring unfamiliar cultures, and disconnecting from work helps rejuvenate the mind.\n(E) This shift in travel behavior reflects a growing awareness about mental well-being and the need for intentional breaks.\nWhich is the FIFTH sentence after rearrangement?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct_answer": "E",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Para Jumbles",
+    "difficulty": "Moderate",
+    "explanation": "Correct order: C-B-A-D-E. E concludes with the broader reflection on mental well-being."
+  },
+  {
+    "question": "Four bolded words in the sentence may be misplaced. Choose the correct combination that should be swapped to make the sentence grammatically/contextually correct.\n\"Be careful (A) not to microwave (B) the hot plate (C) when you take the food out of the catch (D).\"",
+    "options": [
+      "A-B",
+      "B-C & A-D",
+      "A-B & C-D",
+      "B-D",
+      "No interchange required"
+    ],
+    "correct_answer": "B-D",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Sentence Correction (Word Swap)",
+    "difficulty": "Difficult",
+    "explanation": "Judgment call (ambiguous phrasing in source): Correct reading — 'Be careful not to catch [touch] the hot plate when you take the food out of the microwave.' Words B (microwave) and D (catch) must swap."
+  },
+  {
+    "question": "Four bolded words in the sentence may be misplaced. Choose the correct combination that should be swapped to make the sentence grammatically/contextually correct.\n\"India is system (A) digitising its healthcare rapidly (B), and artificial intelligence (AI) offers a huge transformation (C) to super-charge this opportunity (D).\"",
+    "options": [
+      "A-B and C-D",
+      "B-C",
+      "A-C and B-D",
+      "B-D",
+      "No interchange required"
+    ],
+    "correct_answer": "A-B and C-D",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Sentence Correction (Word Swap)",
+    "difficulty": "Moderate",
+    "explanation": "Correct: 'India is rapidly digitising its healthcare system, and AI offers a huge opportunity to super-charge this transformation.' — A↔B and C↔D."
+  },
+  {
+    "question": "Four bolded words in the sentence may be misplaced. Choose the correct combination that should be swapped to make the sentence grammatically/contextually correct.\n\"Astronomical (A) temperatures (B) are usually estimated from spectroscopic (C) measurements (D).\"",
+    "options": [
+      "A-B",
+      "B-C",
+      "A-C",
+      "B-D",
+      "No interchange required"
+    ],
+    "correct_answer": "No interchange required",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Sentence Correction (Word Swap)",
+    "difficulty": "Easy",
+    "explanation": "The sentence is already grammatically and contextually correct as given."
+  },
+  {
+    "question": "Four bolded words in the sentence may be misplaced. Choose the correct combination that should be swapped to make the sentence grammatically/contextually correct.\n\"Growing (A) children in involving (B) and nurturing a few plants at home can open (C) up the magical (D) world of nature and science to them.\"",
+    "options": [
+      "A-B",
+      "B-C",
+      "A-C and B-D",
+      "B-D",
+      "No interchange required"
+    ],
+    "correct_answer": "A-B",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Sentence Correction (Word Swap)",
+    "difficulty": "Moderate",
+    "explanation": "Correct: 'Involving children in growing and nurturing a few plants at home can open up the magical world...' — A (Growing) and B (involving) must swap."
+  },
+  {
+    "question": "Match Column I and Column II to form meaningful, grammatically correct sentences.\nCOLUMN I: A. The new cybersecurity policy mandates organizations; B. Electric vehicle manufacturers are expanding their charging networks; C. Rising sea levels and erratic weather patterns\nCOLUMN II: D. to support the growing number of EV users nationwide; E. to perform complex surgeries with minimal invasion; F. that are currently beyond the scope of classical computers",
+    "options": [
+      "None of these",
+      "A-F",
+      "B-D",
+      "A-E, B-F",
+      "A-F, B-D, C-E"
+    ],
+    "correct_answer": "B-D",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Sentence Completion (Column Matching)",
+    "difficulty": "Moderate",
+    "explanation": "'Electric vehicle manufacturers are expanding their charging networks to support the growing number of EV users nationwide' is the only fully coherent pairing."
+  },
+  {
+    "question": "A phrase ('DARK HORSE') is used in the sentences below. Identify the statements where it has been used in a contextually and grammatically correct (idiomatic) manner.\n(I) Nobody expected her to win the competition, but she turned out to be the dark horse of the event.\n(II) The painter was a dark horse, known by few but admired once his work was revealed.\n(III) The farmer bought a dark horse and a white cow from the village market.",
+    "options": [
+      "Only (I)",
+      "Only (II)",
+      "Both (I) and (II)",
+      "All of these",
+      "Both (II) and (III)"
+    ],
+    "correct_answer": "Both (I) and (II)",
+    "exam": "IBPS PO",
+    "year": "2025",
+    "topic": "Idioms and Phrases",
+    "difficulty": "Moderate",
+    "explanation": "(I) and (II) use 'dark horse' idiomatically (an unexpected achiever/talent). (III) uses it literally to mean an actual horse, which is not the idiomatic sense being tested."
+  }
+]

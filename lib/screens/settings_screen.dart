@@ -1,5 +1,6 @@
 ﻿import 'package:flutter/material.dart';
 import 'package:package_info_plus/package_info_plus.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../data/bookmark_store.dart';
 import '../data/premium_store.dart';
@@ -106,30 +107,32 @@ class _SettingsScreenState extends State<SettingsScreen> {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
-          _SettingsSection(
-            title: 'Premium',
-            children: [
-              _SettingsTile(
-                icon: Icons.workspace_premium_rounded,
-                iconColor: const Color(0xFFF59E0B),
-                title: premiumUnlocked ? 'Premium Active' : 'Unlock Premium',
-                subtitle: premiumUnlocked
-                    ? 'Unlimited practice and revision unlocked'
-                    : 'See premium features and purchase with Google Play',
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (_) => const PremiumScreen(),
-                    ),
-                  ).then((_) {
-                    if (mounted) setState(() {});
-                  });
-                },
-              ),
-            ],
-          ),
-          const SizedBox(height: 18),
+          if (!isFreePeriod) ...[
+            _SettingsSection(
+              title: 'Premium',
+              children: [
+                _SettingsTile(
+                  icon: Icons.workspace_premium_rounded,
+                  iconColor: const Color(0xFFF59E0B),
+                  title: premiumUnlocked ? 'Premium Active' : 'Unlock Premium',
+                  subtitle: premiumUnlocked
+                      ? 'Unlimited practice and revision unlocked'
+                      : 'See premium features and purchase with Google Play',
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => const PremiumScreen(),
+                      ),
+                    ).then((_) {
+                      if (mounted) setState(() {});
+                    });
+                  },
+                ),
+              ],
+            ),
+            const SizedBox(height: 18),
+          ],
           _SettingsSection(
             title: 'Data',
             children: [
@@ -146,6 +149,27 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 title: 'Clear bookmarks',
                 subtitle: 'Remove all saved words from Revise',
                 onTap: _confirmClearBookmarks,
+              ),
+            ],
+          ),
+          const SizedBox(height: 18),
+          _SettingsSection(
+            title: 'Community',
+            children: [
+              _SettingsTile(
+                icon: Icons.send_rounded,
+                iconColor: const Color(0xFF0088CC),
+                title: 'Join Vocabo on Telegram',
+                subtitle: 'Discuss words, tips & daily vocab challenges',
+                onTap: () async {
+                  final tgUri = Uri.parse('tg://resolve?domain=vocabo_community');
+                  final webUri = Uri.parse('https://t.me/vocabo_community');
+                  if (await canLaunchUrl(tgUri)) {
+                    await launchUrl(tgUri);
+                  } else {
+                    await launchUrl(webUri, mode: LaunchMode.externalApplication);
+                  }
+                },
               ),
             ],
           ),

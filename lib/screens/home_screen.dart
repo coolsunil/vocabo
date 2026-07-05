@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../data/premium_store.dart';
 import '../data/progress_store.dart';
 import '../data/streak_store.dart';
@@ -8,6 +9,7 @@ import '../data/word_of_day_store.dart';
 import '../services/notification_service.dart';
 import '../widgets/interactive_pressable.dart';
 import 'category_detail_screen.dart';
+import 'pyq_screen.dart';
 import 'learn_screen.dart';
 import 'onboarding_screen.dart';
 import 'search_screen.dart';
@@ -280,6 +282,11 @@ class _HomeScreenState extends State<HomeScreen> {
                           iconColor: const Color(0xFF1D4ED8),
                           backgroundColor: const Color(0xFFEFF6FF),
                           borderColor: const Color(0xFF93C5FD),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF1F3C6D), Color(0xFF2563EB)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
                           learned: progressStore["core"] ?? 0,
                           total: 1438,
                           onTap: () => _openCategory(
@@ -291,9 +298,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         _ModernCategoryTile(
                           title: 'Antonyms & Synonyms',
                           icon: Icons.compare_arrows,
-                          iconColor: const Color(0xFF0EA5E9),
-                          backgroundColor: const Color(0xFFF0F9FF),
-                          borderColor: const Color(0xFF7DD3FC),
+                          iconColor: const Color(0xFF059669),
+                          backgroundColor: const Color(0xFFECFDF5),
+                          borderColor: const Color(0xFF6EE7B7),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF064E3B), Color(0xFF059669)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
                           learned: progressStore["synonyms"] ?? 0,
                           total: 146,
                           onTap: () => _openCategory(
@@ -305,9 +317,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         _ModernCategoryTile(
                           title: 'One-word',
                           icon: Icons.short_text,
-                          iconColor: const Color(0xFF059669),
-                          backgroundColor: const Color(0xFFECFDF5),
-                          borderColor: const Color(0xFF6EE7B7),
+                          iconColor: const Color(0xFFEA580C),
+                          backgroundColor: const Color(0xFFFFF7ED),
+                          borderColor: const Color(0xFFFDBA74),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF9A3412), Color(0xFFEA580C)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
                           learned: progressStore["oneword"] ?? 0,
                           total: 344,
                           onTap: () => _openCategory(
@@ -319,9 +336,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         _ModernCategoryTile(
                           title: 'Confusing Pairs',
                           icon: Icons.warning_amber,
-                          iconColor: const Color(0xFFEA580C),
-                          backgroundColor: const Color(0xFFFFF7ED),
-                          borderColor: const Color(0xFFFDBA74),
+                          iconColor: const Color(0xFF7C3AED),
+                          backgroundColor: const Color(0xFFF5F3FF),
+                          borderColor: const Color(0xFFC4B5FD),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF4C1D95), Color(0xFF7C3AED)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
                           learned: progressStore["confusing"] ?? 0,
                           total: 331,
                           onTap: () => _openCategory(
@@ -333,9 +355,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         _ModernCategoryTile(
                           title: 'Idioms',
                           icon: Icons.format_quote,
-                          iconColor: const Color(0xFF7C3AED),
-                          backgroundColor: const Color(0xFFF5F3FF),
-                          borderColor: const Color(0xFFC4B5FD),
+                          iconColor: const Color(0xFFDC2626),
+                          backgroundColor: const Color(0xFFFEF2F2),
+                          borderColor: const Color(0xFFFCA5A5),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF7F1D1D), Color(0xFFDC2626)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
                           learned: progressStore["idioms"] ?? 0,
                           total: 316,
                           onTap: () => _openCategory(
@@ -347,9 +374,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         _ModernCategoryTile(
                           title: 'Advanced',
                           icon: Icons.trending_up,
-                          iconColor: const Color(0xFFB45309),
-                          backgroundColor: const Color(0xFFFFFBEB),
-                          borderColor: const Color(0xFFFCD34D),
+                          iconColor: const Color(0xFF0D9488),
+                          backgroundColor: const Color(0xFFF0FDFA),
+                          borderColor: const Color(0xFF99F6E4),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF134E4A), Color(0xFF0D9488)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
                           learned: progressStore["advanced"] ?? 0,
                           total: 298,
                           onTap: () => _openCategory(
@@ -361,9 +393,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         _ModernCategoryTile(
                           title: 'Fixed Prepositions',
                           icon: Icons.link_rounded,
-                          iconColor: const Color(0xFF0F766E),
-                          backgroundColor: const Color(0xFFF0FDFA),
-                          borderColor: const Color(0xFF99F6E4),
+                          iconColor: const Color(0xFFD97706),
+                          backgroundColor: const Color(0xFFFFFBEB),
+                          borderColor: const Color(0xFFFCD34D),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF92400E), Color(0xFFD97706)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
                           learned: progressStore["fixed_prepositions"] ?? 0,
                           total: 150,
                           onTap: () => _openCategory(
@@ -375,9 +412,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         _ModernCategoryTile(
                           title: 'Phrasal Verbs',
                           icon: Icons.bolt_rounded,
-                          iconColor: const Color(0xFFBE185D),
+                          iconColor: const Color(0xFFEC4899),
                           backgroundColor: const Color(0xFFFDF2F8),
                           borderColor: const Color(0xFFF9A8D4),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF9D174D), Color(0xFFEC4899)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
                           learned: progressStore["phrasal_verbs"] ?? 0,
                           total: 225,
                           onTap: () => _openCategory(
@@ -389,9 +431,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         _ModernCategoryTile(
                           title: 'Root Words',
                           icon: Icons.account_tree_rounded,
-                          iconColor: const Color(0xFF7C2D12),
-                          backgroundColor: const Color(0xFFFFF7ED),
-                          borderColor: const Color(0xFFFDBA74),
+                          iconColor: const Color(0xFF65A30D),
+                          backgroundColor: const Color(0xFFF7FEE7),
+                          borderColor: const Color(0xFFBEF264),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF365314), Color(0xFF65A30D)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
                           learned: progressStore["root_words"] ?? 0,
                           total: 439,
                           onTap: () => _openCategory(
@@ -403,9 +450,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         _ModernCategoryTile(
                           title: 'Common Errors',
                           icon: Icons.rule_folder_rounded,
-                          iconColor: const Color(0xFFCA8A04),
-                          backgroundColor: const Color(0xFFFEFCE8),
-                          borderColor: const Color(0xFFFEF08A),
+                          iconColor: const Color(0xFF6366F1),
+                          backgroundColor: const Color(0xFFEEF2FF),
+                          borderColor: const Color(0xFFA5B4FC),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF1E1B4B), Color(0xFF6366F1)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
                           learned: progressStore["common_errors"] ?? 0,
                           total: 464,
                           onTap: () => _openCategory(
@@ -417,9 +469,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         _ModernCategoryTile(
                           title: 'Homophones',
                           icon: Icons.hearing_rounded,
-                          iconColor: const Color(0xFF4F46E5),
-                          backgroundColor: const Color(0xFFEEF2FF),
-                          borderColor: const Color(0xFFA5B4FC),
+                          iconColor: const Color(0xFFC026D3),
+                          backgroundColor: const Color(0xFFFDF4FF),
+                          borderColor: const Color(0xFFE879F9),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF701A75), Color(0xFFC026D3)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
                           learned: progressStore["homophones"] ?? 0,
                           total: 264,
                           onTap: () => _openCategory(
@@ -431,9 +488,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         _ModernCategoryTile(
                           title: 'Spellings',
                           icon: Icons.spellcheck_rounded,
-                          iconColor: const Color(0xFF0891B2),
-                          backgroundColor: const Color(0xFFECFEFF),
-                          borderColor: const Color(0xFF67E8F9),
+                          iconColor: const Color(0xFFF97316),
+                          backgroundColor: const Color(0xFFFFF7ED),
+                          borderColor: const Color(0xFFFED7AA),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF7C2D12), Color(0xFFF97316)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
                           learned: progressStore["spellings"] ?? 0,
                           total: 220,
                           onTap: () => _openCategory(
@@ -445,9 +507,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         _ModernCategoryTile(
                           title: 'Foreign Words',
                           icon: Icons.translate_rounded,
-                          iconColor: const Color(0xFF9333EA),
-                          backgroundColor: const Color(0xFFFDF4FF),
-                          borderColor: const Color(0xFFE879F9),
+                          iconColor: const Color(0xFF0284C7),
+                          backgroundColor: const Color(0xFFEFF6FF),
+                          borderColor: const Color(0xFF93C5FD),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF0C4A6E), Color(0xFF0284C7)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
                           learned: progressStore["foreign_words"] ?? 0,
                           total: 247,
                           onTap: () => _openCategory(
@@ -459,9 +526,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         _ModernCategoryTile(
                           title: 'Proverbs',
                           icon: Icons.menu_book_rounded,
-                          iconColor: const Color(0xFF4D7C0F),
-                          backgroundColor: const Color(0xFFF7FEE7),
-                          borderColor: const Color(0xFFBEF264),
+                          iconColor: const Color(0xFFDB2777),
+                          backgroundColor: const Color(0xFFFDF2F8),
+                          borderColor: const Color(0xFFF9A8D4),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF831843), Color(0xFFDB2777)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
                           learned: progressStore["proverbs"] ?? 0,
                           total: 118,
                           onTap: () => _openCategory(
@@ -473,9 +545,14 @@ class _HomeScreenState extends State<HomeScreen> {
                         _ModernCategoryTile(
                           title: 'Sentence Improvement',
                           icon: Icons.edit_note_rounded,
-                          iconColor: const Color(0xFF475569),
-                          backgroundColor: const Color(0xFFF8FAFC),
-                          borderColor: const Color(0xFFCBD5E1),
+                          iconColor: const Color(0xFF8B5CF6),
+                          backgroundColor: const Color(0xFFF5F3FF),
+                          borderColor: const Color(0xFFC4B5FD),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF2E1065), Color(0xFF8B5CF6)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
                           learned: progressStore["sentence_improvement"] ?? 0,
                           total: 150,
                           onTap: () => _openCategory(
@@ -487,15 +564,58 @@ class _HomeScreenState extends State<HomeScreen> {
                         _ModernCategoryTile(
                           title: 'Cloze Test',
                           icon: Icons.article_rounded,
-                          iconColor: const Color(0xFFC2410C),
-                          backgroundColor: const Color(0xFFFFEDD5),
-                          borderColor: const Color(0xFFFED7AA),
+                          iconColor: const Color(0xFFCA8A04),
+                          backgroundColor: const Color(0xFFFFFBEB),
+                          borderColor: const Color(0xFFFCD34D),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF713F12), Color(0xFFCA8A04)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
                           learned: progressStore["cloze_test"] ?? 0,
                           total: 121,
                           onTap: () => _openCategory(
                             title: 'Cloze Test',
                             categoryKey: "cloze_test",
                             total: 121,
+                          ),
+                        ),
+                        _ModernCategoryTile(
+                          title: 'Active / Passive Voice',
+                          icon: Icons.swap_horiz_rounded,
+                          iconColor: const Color(0xFF0891B2),
+                          backgroundColor: const Color(0xFFECFEFF),
+                          borderColor: const Color(0xFF67E8F9),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF164E63), Color(0xFF0891B2)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
+                          learned: progressStore["voices"] ?? 0,
+                          total: 57,
+                          onTap: () => _openCategory(
+                            title: 'Active / Passive Voice',
+                            categoryKey: "voices",
+                            total: 57,
+                          ),
+                        ),
+                        _ModernCategoryTile(
+                          title: 'Direct & Indirect Speech',
+                          icon: Icons.record_voice_over_rounded,
+                          iconColor: const Color(0xFFD97706),
+                          backgroundColor: const Color(0xFFFFF7ED),
+                          borderColor: const Color(0xFFFBBF24),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF78350F), Color(0xFFD97706)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
+                          learned: progressStore["narration"] ?? 0,
+                          total: 60,
+                          onTap: () => _openCategory(
+                            title: 'Direct & Indirect Speech',
+                            categoryKey: "narration",
+                            total: 60,
                           ),
                         ),
                       ],
@@ -518,6 +638,37 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                           ),
                         ).then((_) => _loadPremiumMeta());
+                      },
+                    ),
+                    const SizedBox(height: 14),
+                    _QuizCategoryTile(
+                      title: 'Previous Year Questions',
+                      subtitle: 'SSC · IBPS · UPSC · AFCAT · CLAT',
+                      gradient: const [Color(0xFF14532D), Color(0xFF16A34A)],
+                      icon: Icons.history_edu_rounded,
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => const PYQScreen(),
+                          ),
+                        );
+                      },
+                    ),
+                    const SizedBox(height: 14),
+                    _QuizCategoryTile(
+                      title: 'Join Our Community',
+                      subtitle: 'Discuss, quiz & learn with others on Telegram',
+                      gradient: const [Color(0xFF0063A5), Color(0xFF0088CC)],
+                      icon: Icons.send_rounded,
+                      onTap: () async {
+                        final tgUri = Uri.parse('tg://resolve?domain=vocabo_community');
+                        final webUri = Uri.parse('https://t.me/vocabo_community');
+                        if (await canLaunchUrl(tgUri)) {
+                          await launchUrl(tgUri);
+                        } else {
+                          await launchUrl(webUri, mode: LaunchMode.externalApplication);
+                        }
                       },
                     ),
                   ],
@@ -557,6 +708,7 @@ class _OverallProgressCard extends StatelessWidget {
     'phrasal_verbs': 225, 'root_words': 439, 'common_errors': 464,
     'homophones': 264, 'spellings': 220, 'foreign_words': 247,
     'proverbs': 118, 'sentence_improvement': 150, 'cloze_test': 121,
+    'voices': 57, 'narration': 60,
   };
 
   const _OverallProgressCard();
@@ -573,22 +725,34 @@ class _OverallProgressCard extends StatelessWidget {
 
     return Container(
       padding: const EdgeInsets.all(20),
+      clipBehavior: Clip.hardEdge,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
         gradient: const LinearGradient(
-          colors: [Color(0xFF1F3C6D), Color(0xFF2563EB)],
+          colors: [Color(0xFF701A75), Color(0xFFC026D3)],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
         boxShadow: [
           BoxShadow(
-            color: const Color(0xFF1F3C6D).withValues(alpha: 0.3),
+            color: const Color(0xFF701A75).withValues(alpha: 0.35),
             blurRadius: 16,
             offset: const Offset(0, 8),
           ),
         ],
       ),
-      child: Column(
+      child: Stack(
+        children: [
+          Positioned(
+            right: -20,
+            bottom: -20,
+            child: Icon(
+              Icons.auto_graph_rounded,
+              size: 110,
+              color: Colors.white.withValues(alpha: 0.08),
+            ),
+          ),
+          Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
@@ -668,6 +832,8 @@ class _OverallProgressCard extends StatelessWidget {
             ),
           ),
         ],
+        ),
+        ],
       ),
     );
   }
@@ -682,6 +848,7 @@ class _ModernCategoryTile extends StatelessWidget {
   final VoidCallback onTap;
   final int learned;
   final int total;
+  final LinearGradient? gradient;
 
   const _ModernCategoryTile({
     required this.title,
@@ -692,6 +859,7 @@ class _ModernCategoryTile extends StatelessWidget {
     required this.onTap,
     required this.learned,
     required this.total,
+    this.gradient,
   });
 
   (IconData, Color)? get _milestone {
@@ -708,26 +876,56 @@ class _ModernCategoryTile extends StatelessWidget {
   Widget build(BuildContext context) {
     final badge = _milestone;
     final pct = total == 0 ? 0.0 : learned / total;
+    final hasGradient = gradient != null;
+    final titleColor = hasGradient ? Colors.white : const Color(0xFF0F172A);
+    final ringFg = hasGradient ? Colors.white : iconColor;
+    final ringBg = hasGradient
+        ? Colors.white.withValues(alpha: 0.25)
+        : borderColor.withValues(alpha: 0.5);
+    final pctColor = hasGradient ? Colors.white : iconColor;
+    final iconBg = hasGradient
+        ? Colors.white.withValues(alpha: 0.18)
+        : iconColor.withValues(alpha: 0.16);
+    final iconFg = hasGradient ? Colors.white : iconColor;
 
     return InteractivePressable(
       borderRadius: BorderRadius.circular(18),
       onTap: onTap,
-      overlayColor: iconColor,
+      overlayColor: hasGradient ? Colors.white : iconColor,
       child: Container(
         padding: const EdgeInsets.all(16),
+        clipBehavior: Clip.hardEdge,
         decoration: BoxDecoration(
-          color: backgroundColor,
+          color: hasGradient ? null : backgroundColor,
+          gradient: gradient,
           borderRadius: BorderRadius.circular(18),
-          border: Border.all(color: borderColor, width: 1.2),
+          border: Border.all(
+            color: hasGradient ? Colors.transparent : borderColor,
+            width: 1.2,
+          ),
           boxShadow: [
             BoxShadow(
-              color: iconColor.withValues(alpha: 0.12),
+              color: hasGradient
+                  ? iconColor.withValues(alpha: 0.35)
+                  : iconColor.withValues(alpha: 0.12),
               blurRadius: 16,
               offset: const Offset(0, 8),
             ),
           ],
         ),
-        child: Column(
+        child: Stack(
+          children: [
+            Positioned(
+              right: -16,
+              bottom: -16,
+              child: Icon(
+                icon,
+                size: 86,
+                color: (hasGradient ? Colors.white : iconColor)
+                    .withValues(alpha: 0.10),
+              ),
+            ),
+            Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Row(
@@ -740,10 +938,10 @@ class _ModernCategoryTile extends StatelessWidget {
                       width: 52,
                       height: 52,
                       decoration: BoxDecoration(
-                        color: iconColor.withValues(alpha: 0.16),
+                        color: iconBg,
                         borderRadius: BorderRadius.circular(16),
                       ),
-                      child: Icon(icon, color: iconColor, size: 28),
+                      child: Icon(icon, color: iconFg, size: 28),
                     ),
                     if (badge != null)
                       Positioned(
@@ -773,8 +971,8 @@ class _ModernCategoryTile extends StatelessWidget {
                         value: pct,
                         strokeWidth: 3.5,
                         strokeCap: StrokeCap.round,
-                        backgroundColor: borderColor.withValues(alpha: 0.5),
-                        valueColor: AlwaysStoppedAnimation(iconColor),
+                        backgroundColor: ringBg,
+                        valueColor: AlwaysStoppedAnimation(ringFg),
                       ),
                       if (pct > 0)
                         Text(
@@ -782,7 +980,7 @@ class _ModernCategoryTile extends StatelessWidget {
                           style: TextStyle(
                             fontSize: 9,
                             fontWeight: FontWeight.w800,
-                            color: iconColor,
+                            color: pctColor,
                           ),
                         ),
                     ],
@@ -795,12 +993,14 @@ class _ModernCategoryTile extends StatelessWidget {
               title,
               maxLines: 2,
               overflow: TextOverflow.ellipsis,
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 17,
                 fontWeight: FontWeight.w700,
-                color: Color(0xFF0F172A),
+                color: titleColor,
               ),
             ),
+          ],
+        ),
           ],
         ),
       ),
@@ -812,11 +1012,15 @@ class _QuizCategoryTile extends StatelessWidget {
   final String title;
   final String subtitle;
   final VoidCallback onTap;
+  final List<Color> gradient;
+  final IconData icon;
 
   const _QuizCategoryTile({
     required this.title,
     required this.subtitle,
     required this.onTap,
+    this.gradient = const [Color(0xFF312E81), Color(0xFF06B6D4)],
+    this.icon = Icons.quiz_rounded,
   });
 
   @override
@@ -824,32 +1028,47 @@ class _QuizCategoryTile extends StatelessWidget {
     return InteractivePressable(
       borderRadius: BorderRadius.circular(20),
       onTap: onTap,
-      overlayColor: const Color(0xFF0F766E),
+      overlayColor: Colors.white,
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 18),
+        clipBehavior: Clip.hardEdge,
         decoration: BoxDecoration(
-          color: const Color(0xFFF0FDFA),
           borderRadius: BorderRadius.circular(20),
-          border: Border.all(color: const Color(0xFF99F6E4), width: 1.2),
+          gradient: LinearGradient(
+            colors: gradient,
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
           boxShadow: [
             BoxShadow(
-              color: const Color(0xFF0F766E).withValues(alpha: 0.12),
-              blurRadius: 12,
-              offset: const Offset(0, 6),
+              color: gradient.first.withValues(alpha: 0.35),
+              blurRadius: 14,
+              offset: const Offset(0, 7),
             ),
           ],
         ),
-        child: Row(
+        child: Stack(
+          children: [
+            Positioned(
+              right: -18,
+              bottom: -18,
+              child: Icon(
+                icon,
+                size: 90,
+                color: Colors.white.withValues(alpha: 0.10),
+              ),
+            ),
+            Row(
           children: [
             Container(
               width: 52,
               height: 52,
               decoration: BoxDecoration(
-                color: const Color(0xFF0F766E),
+                color: Colors.white.withValues(alpha: 0.18),
                 borderRadius: BorderRadius.circular(16),
               ),
-              child: const Icon(
-                Icons.quiz_rounded,
+              child: Icon(
+                icon,
                 color: Colors.white,
                 size: 28,
               ),
@@ -864,25 +1083,27 @@ class _QuizCategoryTile extends StatelessWidget {
                     style: const TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w700,
-                      color: Color(0xFF0F172A),
+                      color: Colors.white,
                     ),
                   ),
                   const SizedBox(height: 4),
                   Text(
                     subtitle,
-                    style: const TextStyle(
-                      color: Color(0xFF475569),
+                    style: TextStyle(
+                      color: Colors.white.withValues(alpha: 0.82),
                       fontSize: 13,
                     ),
                   ),
                 ],
               ),
             ),
-            const Icon(
+            Icon(
               Icons.arrow_forward_ios_rounded,
               size: 16,
-              color: Color(0xFF0F766E),
+              color: Colors.white.withValues(alpha: 0.8),
             ),
+          ],
+        ),
           ],
         ),
       ),
@@ -906,6 +1127,7 @@ class _WordOfDayCard extends StatelessWidget {
       overlayColor: const Color(0xFFD97706),
       child: Container(
         padding: const EdgeInsets.all(20),
+        clipBehavior: Clip.hardEdge,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
           gradient: const LinearGradient(
@@ -921,7 +1143,18 @@ class _WordOfDayCard extends StatelessWidget {
             ),
           ],
         ),
-        child: Column(
+        child: Stack(
+          children: [
+            Positioned(
+              right: -20,
+              bottom: -20,
+              child: Icon(
+                Icons.auto_stories_rounded,
+                size: 110,
+                color: Colors.white.withValues(alpha: 0.10),
+              ),
+            ),
+            Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Row(
@@ -992,6 +1225,8 @@ class _WordOfDayCard extends StatelessWidget {
                 ),
               ),
             ],
+          ],
+        ),
           ],
         ),
       ),

@@ -42,25 +42,54 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
     'proverbs':             ('Learn Proverbs',        'Swipe through proverbs'),
     'sentence_improvement': ('Study Sentences',       'Learn to improve sentences'),
     'cloze_test':           ('Study Fill-in-Blanks',  'Swipe through cloze questions'),
+    'voices':               ('Study Voice Rules',     'Active & Passive with rules'),
+    'narration':            ('Study Narration Rules', 'Direct & Indirect with rules'),
   };
 
   static const Map<String, Color> _categoryAccents = {
-    'core': Color(0xFF1F3C6D),
-    'synonyms': Color(0xFF3B82F6),
-    'oneword': Color(0xFF10B981),
-    'confusing': Color(0xFFF59E0B),
-    'idioms': Color(0xFF8B5CF6),
-    'advanced': Color(0xFFC26A2D),
-    'fixed_prepositions': Color(0xFF0F766E),
-    'phrasal_verbs': Color(0xFFBE185D),
-    'root_words': Color(0xFF7C2D12),
-    'common_errors': Color(0xFFD97706),
-    'homophones': Color(0xFF4F46E5),
-    'spellings': Color(0xFF0891B2),
-    'foreign_words': Color(0xFF9333EA),
-    'proverbs': Color(0xFF4D7C0F),
-    'sentence_improvement': Color(0xFF475569),
-    'cloze_test': Color(0xFFC2410C),
+    'core':                 Color(0xFF2563EB),
+    'synonyms':             Color(0xFF059669),
+    'antonyms':             Color(0xFF059669),
+    'synonyms_antonyms':    Color(0xFF059669),
+    'oneword':              Color(0xFFEA580C),
+    'confusing':            Color(0xFF7C3AED),
+    'idioms':               Color(0xFFDC2626),
+    'advanced':             Color(0xFF0D9488),
+    'fixed_prepositions':   Color(0xFFD97706),
+    'phrasal_verbs':        Color(0xFFEC4899),
+    'root_words':           Color(0xFF65A30D),
+    'common_errors':        Color(0xFF6366F1),
+    'homophones':           Color(0xFFC026D3),
+    'spellings':            Color(0xFFF97316),
+    'foreign_words':        Color(0xFF0284C7),
+    'proverbs':             Color(0xFFDB2777),
+    'sentence_improvement': Color(0xFF8B5CF6),
+    'cloze_test':           Color(0xFFCA8A04),
+    'voices':               Color(0xFF0891B2),
+    'narration':            Color(0xFFD97706),
+  };
+
+  static const Map<String, List<Color>> _categoryGradientColors = {
+    'core':                 [Color(0xFF1F3C6D), Color(0xFF2563EB)],
+    'synonyms':             [Color(0xFF064E3B), Color(0xFF059669)],
+    'antonyms':             [Color(0xFF064E3B), Color(0xFF059669)],
+    'synonyms_antonyms':    [Color(0xFF064E3B), Color(0xFF059669)],
+    'oneword':              [Color(0xFF9A3412), Color(0xFFEA580C)],
+    'confusing':            [Color(0xFF4C1D95), Color(0xFF7C3AED)],
+    'idioms':               [Color(0xFF7F1D1D), Color(0xFFDC2626)],
+    'advanced':             [Color(0xFF134E4A), Color(0xFF0D9488)],
+    'fixed_prepositions':   [Color(0xFF92400E), Color(0xFFD97706)],
+    'phrasal_verbs':        [Color(0xFF9D174D), Color(0xFFEC4899)],
+    'root_words':           [Color(0xFF365314), Color(0xFF65A30D)],
+    'common_errors':        [Color(0xFF1E1B4B), Color(0xFF6366F1)],
+    'homophones':           [Color(0xFF701A75), Color(0xFFC026D3)],
+    'spellings':            [Color(0xFF7C2D12), Color(0xFFF97316)],
+    'foreign_words':        [Color(0xFF0C4A6E), Color(0xFF0284C7)],
+    'proverbs':             [Color(0xFF831843), Color(0xFFDB2777)],
+    'sentence_improvement': [Color(0xFF2E1065), Color(0xFF8B5CF6)],
+    'cloze_test':           [Color(0xFF713F12), Color(0xFFCA8A04)],
+    'voices':               [Color(0xFF164E63), Color(0xFF0891B2)],
+    'narration':            [Color(0xFF78350F), Color(0xFFD97706)],
   };
 
   int _remainingPracticeSessions = 0;
@@ -90,8 +119,9 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
   Widget build(BuildContext context) {
     final learned = progressStore[widget.categoryKey] ?? 0;
     final progressValue = widget.total == 0 ? 0.0 : learned / widget.total;
-    final accent =
-        _categoryAccents[widget.categoryKey] ?? const Color(0xFF1F3C6D);
+    final accent = _categoryAccents[widget.categoryKey] ?? const Color(0xFF2563EB);
+    final gradientColors = _categoryGradientColors[widget.categoryKey] ??
+        [const Color(0xFF1F3C6D), const Color(0xFF2563EB)];
 
     return Scaffold(
       body: Container(
@@ -128,7 +158,7 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(18),
                   gradient: LinearGradient(
-                    colors: [accent, accent.withValues(alpha: 0.85)],
+                    colors: gradientColors,
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                   ),

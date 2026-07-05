@@ -1,0 +1,602 @@
+[
+  {
+    "word": "He said, 'I am very tired.'",
+    "meaning_en": "Simple Present → Past | In Indirect Speech, Simple Present ('am') changes to Simple Past ('was'). First person pronoun 'I' → 'he' (based on speaker). Remove inverted commas, add 'that'.",
+    "meaning_hi": "Simple Present → Past | Indirect Speech में Simple Present ('am') → Simple Past ('was')। 'I' → 'he' (speaker के अनुसार)। Inverted commas हटाएं, 'that' जोड़ें।",
+    "example": "He said that he was very tired.",
+    "options": ["He said that he was very tired.", "He said that he is very tired.", "He told that he was very tired.", "He said that I was very tired."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said to me, 'I want to become a doctor.'",
+    "meaning_en": "Simple Present → Past + Pronoun Change | 'want' → 'wanted'. 'I' → 'she'. 'Said to me' → 'told me' (said to + person = told + person).",
+    "meaning_hi": "Simple Present → Past + Pronoun | 'want' → 'wanted'। 'I' → 'she'। 'Said to me' → 'told me'।",
+    "example": "She told me that she wanted to become a doctor.",
+    "options": ["She told me that she wanted to become a doctor.", "She said to me that she wanted to become a doctor.", "She told me that she wants to become a doctor.", "She told that she wanted to become a doctor."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'I am studying for the competitive exam.'",
+    "meaning_en": "Present Continuous → Past Continuous | 'am studying' → 'was studying'. The '-ing' form is retained but 'am' changes to 'was'. Remove quotes, add 'that'.",
+    "meaning_hi": "Present Continuous → Past Continuous | 'am studying' → 'was studying'। '-ing' form बना रहता है लेकिन 'am' → 'was'।",
+    "example": "He said that he was studying for the competitive exam.",
+    "options": ["He said that he was studying for the competitive exam.", "He said that he is studying for the competitive exam.", "He said that he had been studying for the competitive exam.", "He said that he studied for the competitive exam."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'My brother is playing cricket.'",
+    "meaning_en": "Present Continuous → Past Continuous | 'is playing' → 'was playing'. Third person 'brother' (he/she/it/they) does NOT change.",
+    "meaning_hi": "Present Continuous → Past Continuous | 'is playing' → 'was playing'। 3rd person pronoun (brother) नहीं बदलता।",
+    "example": "She said that her brother was playing cricket.",
+    "options": ["She said that her brother was playing cricket.", "She said that her brother is playing cricket.", "She said that her brother had been playing cricket.", "She said that his brother was playing cricket."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'I have completed my assignment.'",
+    "meaning_en": "Present Perfect → Past Perfect | 'have completed' → 'had completed'. Present Perfect in Direct Speech ALWAYS becomes Past Perfect in Indirect Speech.",
+    "meaning_hi": "Present Perfect → Past Perfect | 'have completed' → 'had completed'। Direct Speech में Present Perfect → Indirect में Past Perfect।",
+    "example": "He said that he had completed his assignment.",
+    "options": ["He said that he had completed his assignment.", "He said that he has completed his assignment.", "He said that he completed his assignment.", "He said that he would complete his assignment."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'I have been waiting here for an hour.'",
+    "meaning_en": "Present Perfect Continuous → Past Perfect Continuous | 'have been waiting' → 'had been waiting'. 'Here' → 'there'.",
+    "meaning_hi": "Present Perfect Continuous → Past Perfect Continuous | 'have been waiting' → 'had been waiting'। 'here' → 'there'।",
+    "example": "She said that she had been waiting there for an hour.",
+    "options": ["She said that she had been waiting there for an hour.", "She said that she has been waiting here for an hour.", "She said that she was waiting there for an hour.", "She said that she had waited there for an hour."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'I visited the Taj Mahal last year.'",
+    "meaning_en": "Simple Past → Past Perfect | 'visited' (Simple Past) → 'had visited' (Past Perfect). Simple Past in Direct Speech becomes Past Perfect in Indirect. 'Last year' → 'the previous year'.",
+    "meaning_hi": "Simple Past → Past Perfect | 'visited' → 'had visited'। Direct में Simple Past → Indirect में Past Perfect। 'Last year' → 'the previous year'।",
+    "example": "He said that he had visited the Taj Mahal the previous year.",
+    "options": ["He said that he had visited the Taj Mahal the previous year.", "He said that he visited the Taj Mahal the previous year.", "He said that he has visited the Taj Mahal last year.", "He said that he was visiting the Taj Mahal the previous year."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'I was reading when the power went off.'",
+    "meaning_en": "Past Continuous → Past Perfect Continuous | 'was reading' → 'had been reading'. 'went off' (Simple Past) → 'had gone off' (Past Perfect).",
+    "meaning_hi": "Past Continuous → Past Perfect Continuous | 'was reading' → 'had been reading'। 'went off' → 'had gone off'।",
+    "example": "She said that she had been reading when the power had gone off.",
+    "options": ["She said that she had been reading when the power had gone off.", "She said that she was reading when the power went off.", "She said that she had read when the power had gone off.", "She said that she had been reading when the power went off."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'I had already submitted the form before the deadline.'",
+    "meaning_en": "Past Perfect → Past Perfect (No Change) | Past Perfect ('had submitted') does NOT change in Indirect Speech — it remains Past Perfect. This is an important exception.",
+    "meaning_hi": "Past Perfect → Past Perfect (कोई बदलाव नहीं) | Past Perfect ('had submitted') Indirect Speech में नहीं बदलता — Past Perfect ही रहता है।",
+    "example": "He said that he had already submitted the form before the deadline.",
+    "options": ["He said that he had already submitted the form before the deadline.", "He said that he had had already submitted the form.", "He said that he submitted the form before the deadline.", "He said that he has already submitted the form before the deadline."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'I will help you in your studies.'",
+    "meaning_en": "'Will' → 'Would' | 'will help' → 'would help'. 'Will' ALWAYS changes to 'would' in Indirect Speech (when reporting verb is past). 'You' → 'him/her' based on the person spoken to.",
+    "meaning_hi": "'Will' → 'Would' | 'will help' → 'would help'। Reporting verb past होने पर 'will' हमेशा 'would' बनता है।",
+    "example": "She said that she would help him in his studies.",
+    "options": ["She said that she would help him in his studies.", "She said that she will help him in his studies.", "She said that she should help him in his studies.", "She said that she could help him in his studies."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'I shall go to Mumbai next week.'",
+    "meaning_en": "'Shall' → 'Would' | 'shall' (for first person I/we) → 'would' in Indirect Speech. 'Next week' → 'the following week'.",
+    "meaning_hi": "'Shall' → 'Would' | First person (I/we) के साथ 'shall' → Indirect में 'would' बनता है। 'Next week' → 'the following week'।",
+    "example": "He said that he would go to Mumbai the following week.",
+    "options": ["He said that he would go to Mumbai the following week.", "He said that he shall go to Mumbai the following week.", "He said that he should go to Mumbai the following week.", "He said that he will go to Mumbai the following week."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'I can solve this problem easily.'",
+    "meaning_en": "'Can' → 'Could' | 'can solve' → 'could solve'. 'Can' changes to 'could' in Indirect Speech. (Exception: in present reporting verb — no change.)",
+    "meaning_hi": "'Can' → 'Could' | 'can solve' → 'could solve'। Indirect Speech में 'can' → 'could' बनता है।",
+    "example": "She said that she could solve that problem easily.",
+    "options": ["She said that she could solve that problem easily.", "She said that she can solve this problem easily.", "She said that she might solve that problem easily.", "She said that she would solve that problem easily."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'I may not attend the function.'",
+    "meaning_en": "'May' → 'Might' | 'may not attend' → 'might not attend'. 'May' changes to 'might' in Indirect Speech.",
+    "meaning_hi": "'May' → 'Might' | 'may not attend' → 'might not attend'। Indirect Speech में 'may' → 'might' बनता है।",
+    "example": "He said that he might not attend the function.",
+    "options": ["He said that he might not attend the function.", "He said that he may not attend the function.", "He said that he could not attend the function.", "He said that he would not attend the function."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "The teacher said to me, 'You must submit your project today.'",
+    "meaning_en": "'Must' (Obligation) → 'Had to' | When 'must' shows obligation/compulsion, it changes to 'had to' in Indirect Speech. 'Today' → 'that day'. 'You' → 'I' (me is the object of reporting verb).",
+    "meaning_hi": "'Must' (Obligation) → 'Had to' | Obligation/compulsion का 'must' → Indirect में 'had to' बनता है। 'Today' → 'that day'।",
+    "example": "The teacher told me that I had to submit my project that day.",
+    "options": ["The teacher told me that I had to submit my project that day.", "The teacher told me that I must submit my project that day.", "The teacher told me that I should submit my project that day.", "The teacher told me that I would submit my project that day."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'She must be at home right now.'",
+    "meaning_en": "'Must' (Logical Deduction) → No Change | When 'must' shows logical deduction/certainty (NOT obligation), it does NOT change in Indirect Speech. Key: if 'must' = 'certainly is', it stays.",
+    "meaning_hi": "'Must' (Logical Deduction) → बदलाव नहीं | जब 'must' logical certainty दिखाए (obligation नहीं), Indirect में नहीं बदलता। If 'must' = 'certainly is', it stays 'must'।",
+    "example": "He said that she must be at home right then.",
+    "options": ["He said that she must be at home right then.", "He said that she had to be at home right then.", "He said that she should be at home right then.", "He said that she might be at home right then."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'You should exercise daily.'",
+    "meaning_en": "'Should' → No Change | 'Should' does NOT change in Indirect Speech. It remains 'should' regardless of reporting verb tense. This is a key rule to remember.",
+    "meaning_hi": "'Should' → कोई बदलाव नहीं | 'Should' Indirect Speech में नहीं बदलता। Reporting verb का tense चाहे जो हो।",
+    "example": "She said that I should exercise daily.",
+    "options": ["She said that I should exercise daily.", "She said that I would exercise daily.", "She said that I must exercise daily.", "She said that I had to exercise daily."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'I would try my best to help you.'",
+    "meaning_en": "'Would' → No Change | 'Would' does NOT change in Indirect Speech. Similarly, 'could', 'might', 'should', 'ought to' all remain unchanged.",
+    "meaning_hi": "'Would' → कोई बदलाव नहीं | 'Would' Indirect Speech में नहीं बदलता। 'Could', 'might', 'should', 'ought to' भी नहीं बदलते।",
+    "example": "He said that he would try his best to help me.",
+    "options": ["He said that he would try his best to help me.", "He said that he will try his best to help me.", "He said that he should try his best to help me.", "He said that he had tried his best to help me."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "The teacher said, 'The earth revolves around the sun.'",
+    "meaning_en": "Universal Truth — No Tense Change | Scientific facts, universal truths, and laws of nature remain in Present tense even in Indirect Speech. This is a major exception to the backshift rule.",
+    "meaning_hi": "Universal Truth — Tense नहीं बदलता | Scientific facts, universal truths → Indirect Speech में भी Present tense रहता है। यह backshift rule का exception है।",
+    "example": "The teacher said that the earth revolves around the sun.",
+    "options": ["The teacher said that the earth revolves around the sun.", "The teacher said that the earth revolved around the sun.", "The teacher said that the earth had revolved around the sun.", "The teacher said that the earth would revolve around the sun."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "The history teacher said, 'India got independence in 1947.'",
+    "meaning_en": "Historical Fact — No Tense Change | Historical facts (specific events with fixed dates) do NOT change tense in Indirect Speech. The Simple Past of historical facts remains Simple Past.",
+    "meaning_hi": "Historical Fact — Tense नहीं बदलता | Historical facts (specific events, fixed dates) Indirect Speech में tense नहीं बदलते।",
+    "example": "The history teacher said that India got independence in 1947.",
+    "options": ["The history teacher said that India got independence in 1947.", "The history teacher said that India had got independence in 1947.", "The history teacher said that India gets independence in 1947.", "The history teacher said that India would get independence in 1947."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She says, 'I am preparing for the exam.'",
+    "meaning_en": "Reporting Verb in Present Tense — No Change | When the reporting verb ('says', 'tells', 'writes') is in PRESENT or FUTURE tense, the tense of the reported speech does NOT change.",
+    "meaning_hi": "Reporting Verb Present Tense — कोई बदलाव नहीं | Reporting verb ('says', 'tells') Present या Future tense में हो, तो reported speech का tense नहीं बदलता।",
+    "example": "She says that she is preparing for the exam.",
+    "options": ["She says that she is preparing for the exam.", "She says that she was preparing for the exam.", "She says that she had been preparing for the exam.", "She says that she will prepare for the exam."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "Ram said, 'I am happy today.'",
+    "meaning_en": "1st Person Pronoun Change | 'I' → based on the SUBJECT of the reporting verb. If reporting subject is Ram (he), then 'I' → 'he'. Possessive 'my' → 'his'. 'Today' → 'that day'.",
+    "meaning_hi": "1st Person Pronoun Change | 'I' → Reporting verb के subject के अनुसार बदलता है। Ram → he, तो 'I' → 'he'। 'my' → 'his'। 'Today' → 'that day'।",
+    "example": "Ram said that he was happy that day.",
+    "options": ["Ram said that he was happy that day.", "Ram said that I was happy today.", "Ram said that Ram was happy that day.", "Ram said that he was happy today."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "The students said, 'We have finished our homework.'",
+    "meaning_en": "1st Person Plural (We → They) | 'we' → based on reporting subject. Since reporting subject is 'the students' (they), 'we' → 'they'. 'our' → 'their'. 'have finished' → 'had finished'.",
+    "meaning_hi": "1st Person Plural (We → They) | 'we' → Reporting subject के अनुसार। Reporting subject 'the students' (they) है, तो 'we' → 'they'। 'our' → 'their'।",
+    "example": "The students said that they had finished their homework.",
+    "options": ["The students said that they had finished their homework.", "The students said that we had finished our homework.", "The students said that they have finished their homework.", "The students said that they finished their homework."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said to me, 'You are working very hard.'",
+    "meaning_en": "2nd Person Pronoun Change | 'you' → based on the OBJECT of the reporting verb. 'said to me' → object is 'me' (I), so 'you' → 'I'. 'Said to + person' → 'told + person'.",
+    "meaning_hi": "2nd Person Pronoun Change | 'you' → Reporting verb के object के अनुसार। 'said to me' → object 'me' (I), तो 'you' → 'I'। 'Said to + person' → 'told + person'।",
+    "example": "He told me that I was working very hard.",
+    "options": ["He told me that I was working very hard.", "He told me that you were working very hard.", "He said to me that I was working very hard.", "He told me that I am working very hard."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "The teacher said to the students, 'You must work sincerely.'",
+    "meaning_en": "2nd Person → They | 'you' → based on object of reporting verb. Object here is 'the students' (they), so 'you' → 'they'. 'Must' (obligation) → 'had to'. 'Said to + students' → 'told the students'.",
+    "meaning_hi": "2nd Person → They | 'you' → Reporting object 'students' (they), तो 'you' → 'they'। 'Must' (obligation) → 'had to'।",
+    "example": "The teacher told the students that they had to work sincerely.",
+    "options": ["The teacher told the students that they had to work sincerely.", "The teacher told the students that you must work sincerely.", "The teacher told the students that they must work sincerely.", "The teacher told the students that they should work sincerely."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'He is a very good doctor.'",
+    "meaning_en": "3rd Person Pronoun — No Change | 3rd person pronouns (he, she, it, they, him, her, his, their, them) do NOT change in Indirect Speech. Only tense changes.",
+    "meaning_hi": "3rd Person Pronoun — कोई बदलाव नहीं | 3rd person pronouns (he, she, it, they, him, her, his, their, them) Indirect Speech में नहीं बदलते।",
+    "example": "She said that he was a very good doctor.",
+    "options": ["She said that he was a very good doctor.", "She said that she was a very good doctor.", "She said that he is a very good doctor.", "She said that I was a very good doctor."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said to me, 'Your answer is absolutely correct.'",
+    "meaning_en": "Possessive Pronoun Change | 'your' → based on reporting object. Object is 'me' (I), so 'your' → 'my'. Possessives: your → my/our/his/her/their, my → his/her/their.",
+    "meaning_hi": "Possessive Pronoun Change | 'your' → Reporting object के अनुसार। Object 'me' (I) है, तो 'your' → 'my'।",
+    "example": "He told me that my answer was absolutely correct.",
+    "options": ["He told me that my answer was absolutely correct.", "He told me that your answer was absolutely correct.", "He told me that his answer was absolutely correct.", "He told me that my answer is absolutely correct."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'I am busy now.'",
+    "meaning_en": "Time Change: 'now' → 'then' | 'now' changes to 'then' in Indirect Speech. The perspective shifts from the speaker's present to a reported past moment.",
+    "meaning_hi": "Time Change: 'now' → 'then' | 'now' → Indirect Speech में 'then' बनता है।",
+    "example": "She said that she was busy then.",
+    "options": ["She said that she was busy then.", "She said that she is busy now.", "She said that she was busy now.", "She said that she had been busy then."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'I am leaving today.'",
+    "meaning_en": "Time Change: 'today' → 'that day' | 'today' changes to 'that day' in Indirect Speech. Also: tonight → that night, this morning → that morning.",
+    "meaning_hi": "Time Change: 'today' → 'that day' | 'today' → Indirect Speech में 'that day'। Also: tonight → that night।",
+    "example": "He said that he was leaving that day.",
+    "options": ["He said that he was leaving that day.", "He said that he was leaving today.", "He said that he was leaving the next day.", "He said that he had been leaving that day."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'I met him yesterday.'",
+    "meaning_en": "Time Change: 'yesterday' → 'the previous day' / 'the day before' | 'met' (Simple Past) → 'had met' (Past Perfect). Both expressions are acceptable.",
+    "meaning_hi": "Time Change: 'yesterday' → 'the previous day' / 'the day before' | 'met' → 'had met'।",
+    "example": "She said that she had met him the previous day.",
+    "options": ["She said that she had met him the previous day.", "She said that she met him yesterday.", "She said that she had met him yesterday.", "She said that she has met him the previous day."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'I will come tomorrow.'",
+    "meaning_en": "Time Change: 'tomorrow' → 'the next day' / 'the following day' | 'will come' → 'would come'. Both 'the next day' and 'the following day' are correct.",
+    "meaning_hi": "Time Change: 'tomorrow' → 'the next day' / 'the following day' | 'will come' → 'would come'।",
+    "example": "He said that he would come the next day.",
+    "options": ["He said that he would come the next day.", "He said that he would come tomorrow.", "He said that he will come the next day.", "He said that he came the next day."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'I like this place very much.'",
+    "meaning_en": "Demonstrative Change: 'this' → 'that' | 'this' → 'that', 'these' → 'those'. Also 'here' → 'there'.",
+    "meaning_hi": "Demonstrative Change: 'this' → 'that' | 'this' → 'that', 'these' → 'those'। 'here' → 'there'।",
+    "example": "She said that she liked that place very much.",
+    "options": ["She said that she liked that place very much.", "She said that she liked this place very much.", "She said that she likes that place very much.", "She said that she had liked that place very much."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'I live here and work nearby.'",
+    "meaning_en": "Place Change: 'here' → 'there' | 'here' changes to 'there' in Indirect Speech. The speaker's 'here' becomes 'there' from the reporter's perspective.",
+    "meaning_hi": "Place Change: 'here' → 'there' | 'here' → Indirect Speech में 'there'।",
+    "example": "He said that he lived there and worked nearby.",
+    "options": ["He said that he lived there and worked nearby.", "He said that he lives here and works nearby.", "He said that he lived here and worked nearby.", "He said that he had lived there and worked nearby."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'I visited Europe two years ago.'",
+    "meaning_en": "Time Change: 'ago' → 'before' / 'previously' | 'ago' changes to 'before' or 'previously'. 'visited' (Simple Past) → 'had visited' (Past Perfect).",
+    "meaning_hi": "Time Change: 'ago' → 'before' / 'previously' | 'ago' → Indirect Speech में 'before' या 'previously'। 'visited' → 'had visited'।",
+    "example": "She said that she had visited Europe two years before.",
+    "options": ["She said that she had visited Europe two years before.", "She said that she visited Europe two years ago.", "She said that she had visited Europe two years ago.", "She said that she has visited Europe two years before."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'I will return next month.'",
+    "meaning_en": "Time Change: 'next month/week/year' → 'the following month/week/year' | Also: 'last month' → 'the previous month'. 'will return' → 'would return'.",
+    "meaning_hi": "Time Change: 'next month' → 'the following month' | 'last month' → 'the previous month'। 'will return' → 'would return'।",
+    "example": "He said that he would return the following month.",
+    "options": ["He said that he would return the following month.", "He said that he would return next month.", "He said that he will return the following month.", "He said that he returned the following month."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He asked me, 'Are you coming to the party tonight?'",
+    "meaning_en": "Yes/No Question → Indirect | Use 'if' or 'whether' (NOT 'that'). Change to statement word order (no inversion). Remove '?'. 'Tonight' → 'that night'. 'Are you' → 'I was'.",
+    "meaning_hi": "Yes/No Question → Indirect | 'if' या 'whether' use करें ('that' नहीं)। Statement word order में बदलें। '?' हटाएं। 'Tonight' → 'that night'।",
+    "example": "He asked me if/whether I was coming to the party that night.",
+    "options": ["He asked me if/whether I was coming to the party that night.", "He asked me that I was coming to the party that night.", "He asked me whether was I coming to the party that night.", "He asked me if I am coming to the party tonight."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She asked him, 'Do you know the answer?'",
+    "meaning_en": "Yes/No Question (Do/Does) → Indirect | Remove 'do/does', use 'if/whether'. 'Do you know' → 'if he knew'. No auxiliary needed in indirect question.",
+    "meaning_hi": "Yes/No Question (Do/Does) → Indirect | 'do/does' हटाएं, 'if/whether' use करें। 'Do you know' → 'if he knew'।",
+    "example": "She asked him if/whether he knew the answer.",
+    "options": ["She asked him if/whether he knew the answer.", "She asked him that did he know the answer.", "She asked him if he knows the answer.", "She asked him whether did he know the answer."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She asked him, 'Did you complete the assignment?'",
+    "meaning_en": "Yes/No Question (Did) → Indirect | 'did you complete' → 'if he had completed'. Remove 'did', make verb Past Perfect. Use 'if/whether', statement order.",
+    "meaning_hi": "Yes/No Question (Did) → Indirect | 'did you complete' → 'if he had completed'। 'Did' हटाएं, verb Past Perfect बनाएं।",
+    "example": "She asked him if/whether he had completed the assignment.",
+    "options": ["She asked him if/whether he had completed the assignment.", "She asked him if he completed the assignment.", "She asked him that he had completed the assignment.", "She asked him whether did he complete the assignment."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He asked her, 'Will you join our team?'",
+    "meaning_en": "Yes/No Question (Will) → Indirect | 'will you join' → 'if she would join'. 'Will' → 'would'. Use 'if/whether', not 'that'. Statement word order.",
+    "meaning_hi": "Yes/No Question (Will) → Indirect | 'will you join' → 'if she would join'। 'Will' → 'would'। 'If/whether' use करें।",
+    "example": "He asked her if/whether she would join their team.",
+    "options": ["He asked her if/whether she would join their team.", "He asked her that she would join his team.", "He asked her will she join their team.", "He asked her if she will join their team."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He asked, 'What is your name?'",
+    "meaning_en": "WH Question → Indirect | Use the WH word directly (NOT if/whether). Change to statement word order. 'What is your name' → 'what his/her/my name was'. Remove '?'.",
+    "meaning_hi": "WH Question → Indirect | WH word सीधे use करें (if/whether नहीं)। Statement word order। 'What is your name' → 'what his name was'।",
+    "example": "He asked what my name was.",
+    "options": ["He asked what my name was.", "He asked that what my name was.", "He asked what was my name.", "He asked if what my name was."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She asked me, 'Where do you live?'",
+    "meaning_en": "WH Question (Where) → Indirect | 'where do you live' → 'where I lived'. Remove 'do', use statement order (subject before verb). 'you' → 'I'.",
+    "meaning_hi": "WH Question (Where) → Indirect | 'where do you live' → 'where I lived'। 'Do' हटाएं, subject पहले आता है।",
+    "example": "She asked me where I lived.",
+    "options": ["She asked me where I lived.", "She asked me where did I live.", "She asked me that where I lived.", "She asked me where I live."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "The teacher asked, 'Why are you late today?'",
+    "meaning_en": "WH Question (Why) → Indirect | 'why are you late today' → 'why he/she was late that day'. 'Today' → 'that day'. Remove '?', use statement order.",
+    "meaning_hi": "WH Question (Why) → Indirect | 'why are you late today' → 'why he was late that day'। 'Today' → 'that day'।",
+    "example": "The teacher asked why he was late that day.",
+    "options": ["The teacher asked why he was late that day.", "The teacher asked why was he late that day.", "The teacher asked that why he was late that day.", "The teacher asked why he is late today."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She asked him, 'How did you solve this problem?'",
+    "meaning_en": "WH Question (How) → Indirect | 'how did you solve' → 'how he had solved'. Remove 'did', make verb Past Perfect. 'this' → 'that'.",
+    "meaning_hi": "WH Question (How) → Indirect | 'how did you solve' → 'how he had solved'। 'Did' हटाएं, verb Past Perfect बनाएं। 'this' → 'that'।",
+    "example": "She asked him how he had solved that problem.",
+    "options": ["She asked him how he had solved that problem.", "She asked him how did he solve that problem.", "She asked him how he solved that problem.", "She asked him that how he had solved that problem."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He asked, 'Who is your best friend?'",
+    "meaning_en": "WH Question (Who) → Indirect | 'who is your best friend' → 'who my best friend was'. Statement order: subject before verb. 'your' → 'my' (object of reporting verb is implied as listener).",
+    "meaning_hi": "WH Question (Who) → Indirect | 'who is your best friend' → 'who my best friend was'। Subject verb से पहले।",
+    "example": "He asked who my best friend was.",
+    "options": ["He asked who my best friend was.", "He asked who was my best friend.", "He asked that who my best friend was.", "He asked who my best friend is."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "The officer said to the soldier, 'Stand at attention immediately.'",
+    "meaning_en": "Imperative (Order/Command) → Indirect | 'said to' → 'ordered/commanded'. Formula: ordered/commanded + object + to + V1 (infinitive). Remove inverted commas and any exclamation mark.",
+    "meaning_hi": "Imperative (Order) → Indirect | 'said to' → 'ordered/commanded'। सूत्र: ordered + object + to + V1। Inverted commas और '!' हटाएं।",
+    "example": "The officer ordered/commanded the soldier to stand at attention immediately.",
+    "options": ["The officer ordered/commanded the soldier to stand at attention immediately.", "The officer told the soldier that he should stand at attention immediately.", "The officer asked the soldier to stand at attention immediately.", "The officer ordered the soldier that stand at attention immediately."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said to me, 'Please lend me your pen.'",
+    "meaning_en": "Imperative (Request with 'Please') → Indirect | 'said to' → 'requested'. Formula: requested + object + to + V1. 'Please' is dropped. 'me' and 'your' change according to pronouns.",
+    "meaning_hi": "Imperative (Request) → Indirect | 'said to' → 'requested'। सूत्र: requested + object + to + V1। 'Please' हटा दें।",
+    "example": "She requested me to lend her my pen.",
+    "options": ["She requested me to lend her my pen.", "She asked me that lend her my pen.", "She told me to please lend her my pen.", "She requested me that I should lend her my pen."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "The doctor said to him, 'Take rest for two weeks and avoid stress.'",
+    "meaning_en": "Imperative (Advice) → Indirect | 'said to' → 'advised/suggested/urged'. Formula: advised + object + to + V1. Multiple verbs: 'to take rest and avoid stress'.",
+    "meaning_hi": "Imperative (Advice) → Indirect | 'said to' → 'advised/suggested'। सूत्र: advised + object + to + V1।",
+    "example": "The doctor advised him to take rest for two weeks and avoid stress.",
+    "options": ["The doctor advised him to take rest for two weeks and avoid stress.", "The doctor ordered him to take rest for two weeks and avoid stress.", "The doctor told him that he should take rest for two weeks.", "The doctor requested him to take rest for two weeks and avoid stress."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said to me, 'Don't waste your precious time.'",
+    "meaning_en": "Negative Imperative → Indirect | 'Don't + V1' → 'told/advised/warned + not to + V1'. 'your' → 'my' (object is me → I).",
+    "meaning_hi": "Negative Imperative → Indirect | 'Don't + V1' → 'told/advised/warned + not to + V1'।",
+    "example": "He advised/warned me not to waste my precious time.",
+    "options": ["He advised/warned me not to waste my precious time.", "He told me that I should not waste my precious time.", "He told me do not waste my precious time.", "He advised me that not to waste my precious time."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "The teacher said to the students, 'Don't make noise in the classroom.'",
+    "meaning_en": "Negative Imperative (Prohibition) → Indirect | 'Don't...' → 'warned/forbade + not to + V1'. 'said to the students' → 'warned/forbade the students'.",
+    "meaning_hi": "Negative Imperative (Prohibition) → Indirect | 'Don't...' → 'warned/forbade + not to + V1'।",
+    "example": "The teacher warned/forbade the students not to make noise in the classroom.",
+    "options": ["The teacher warned/forbade the students not to make noise in the classroom.", "The teacher told the students not to making noise in the classroom.", "The teacher ordered the students should not make noise.", "The teacher requested the students not to make noise in the classroom."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'What a beautiful painting this is!'",
+    "meaning_en": "Exclamatory ('What a...!') → Indirect | 'said' → 'exclaimed'. Formula: exclaimed that + it was + very/such + adjective + noun. 'What a beautiful' → 'that it was a very beautiful'.",
+    "meaning_hi": "Exclamatory ('What a...!') → Indirect | 'said' → 'exclaimed'। सूत्र: exclaimed that + it was + very + adjective + noun।",
+    "example": "She exclaimed that it was a very beautiful painting.",
+    "options": ["She exclaimed that it was a very beautiful painting.", "She exclaimed that what a beautiful painting that was.", "She said that it was a beautiful painting.", "She exclaimed that it had been a very beautiful painting."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'How clever she is!'",
+    "meaning_en": "Exclamatory ('How...!') → Indirect | 'How clever' → 'exclaimed that she was very clever'. 'How + adjective' → 'very + adjective'.",
+    "meaning_hi": "Exclamatory ('How...!') → Indirect | 'How clever' → 'exclaimed that she was very clever'। 'How + adjective' → 'very + adjective'।",
+    "example": "He exclaimed that she was very clever.",
+    "options": ["He exclaimed that she was very clever.", "He exclaimed how clever she was.", "He said that how clever she was.", "He exclaimed that she is very clever."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'Alas! I have lost all my money.'",
+    "meaning_en": "Exclamatory (Sorrow/Grief) → Indirect | 'Alas!' → 'exclaimed sorrowfully/with sorrow'. 'have lost' → 'had lost'. Interjection 'Alas/Oh/Ah' → adverb of emotion.",
+    "meaning_hi": "Exclamatory (Sorrow) → Indirect | 'Alas!' → 'exclaimed sorrowfully'। 'have lost' → 'had lost'। Interjection → emotion का adverb।",
+    "example": "She exclaimed sorrowfully that she had lost all her money.",
+    "options": ["She exclaimed sorrowfully that she had lost all her money.", "She said that alas she had lost all her money.", "She exclaimed that she had lost all her money.", "She exclaimed with joy that she had lost all her money."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'May you live long and prosper!'",
+    "meaning_en": "Optative Sentence (Wish/Blessing) → Indirect | 'said' → 'wished/prayed'. Formula: wished/prayed that + subject + might + V1. 'may' → 'might'.",
+    "meaning_hi": "Optative (Wish/Blessing) → Indirect | 'said' → 'wished/prayed'। सूत्र: wished that + subject + might + V1। 'may' → 'might'।",
+    "example": "He wished/prayed that I might live long and prosper.",
+    "options": ["He wished/prayed that I might live long and prosper.", "He wished that I may live long and prosper.", "He said that I might live long and prosper.", "He wished me to live long and prosper."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'May God bless you!'",
+    "meaning_en": "Optative Sentence (Blessing) → Indirect | 'said' → 'prayed/wished'. 'may bless' → 'might bless'. 'you' → 'him/her/me' based on whom she spoke to.",
+    "meaning_hi": "Optative (Blessing) → Indirect | 'said' → 'prayed/wished'। 'may bless' → 'might bless'।",
+    "example": "She prayed/wished that God might bless him.",
+    "options": ["She prayed/wished that God might bless him.", "She prayed that may God bless him.", "She said that God may bless him.", "She wished that God would bless him."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said to her, 'I met you here last week.'",
+    "meaning_en": "Multiple Changes in One Sentence | 'met' → 'had met', 'you' → 'her', 'here' → 'there', 'last week' → 'the previous week'. All changes apply simultaneously.",
+    "meaning_hi": "एक साथ कई बदलाव | 'met' → 'had met', 'you' → 'her', 'here' → 'there', 'last week' → 'the previous week'। सभी बदलाव एक साथ होते हैं।",
+    "example": "He told her that he had met her there the previous week.",
+    "options": ["He told her that he had met her there the previous week.", "He told her that he met you here last week.", "He told her that he had met you there the previous week.", "He told her that he has met her there the previous week."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'If I had wings, I could fly.'",
+    "meaning_en": "Conditional Sentence → Indirect | Hypothetical conditionals (Past/would/could) do NOT change tense. 'If I had... I could fly' remains unchanged in Indirect Speech.",
+    "meaning_hi": "Conditional Sentence → Indirect | Hypothetical conditionals (Past/would/could) Indirect Speech में tense नहीं बदलते।",
+    "example": "She said that if she had wings, she could fly.",
+    "options": ["She said that if she had wings, she could fly.", "She said that if she had had wings, she could have flown.", "She said that if she had wings, she would fly.", "She said that if she had wings, she can fly."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'If I had worked harder, I would have passed.'",
+    "meaning_en": "Third Conditional → Indirect | 'If I had worked... would have passed' — this is already Past Perfect + would have, so NO tense change in Indirect Speech.",
+    "meaning_hi": "Third Conditional → Indirect | 'If I had worked... would have passed' — यह पहले से ही Past Perfect + would have है, इसलिए Indirect में tense नहीं बदलता।",
+    "example": "He said that if he had worked harder, he would have passed.",
+    "options": ["He said that if he had worked harder, he would have passed.", "He said that if he had had worked harder, he would have had passed.", "He said that if he worked harder, he would pass.", "He said that if he had worked harder, he would pass."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said to me, 'I don't know whether he is telling the truth.'",
+    "meaning_en": "'Whether' vs 'If' in Indirect Speech | When 'whether' is already in Direct Speech, it remains 'whether'. After 'wonder', 'doubt', 'ask', both 'whether' and 'if' are acceptable.",
+    "meaning_hi": "'Whether' vs 'If' | Direct Speech में पहले से 'whether' हो, तो Indirect में भी 'whether' रहता है। 'Wonder', 'doubt' के बाद 'whether' preferred है।",
+    "example": "She told me that she didn't know whether he was telling the truth.",
+    "options": ["She told me that she didn't know whether he was telling the truth.", "She told me that she didn't know if he was telling the truth.", "She told me that she doesn't know whether he is telling the truth.", "She told me she didn't know whether he told the truth."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'I said to her, \"I need your help.\"'",
+    "meaning_en": "'Said to' → 'Told' Rule | 'Said to + person' in reporting verb becomes 'told + person' (without 'to'). This is one of the most tested rules in Indirect Speech.",
+    "meaning_hi": "'Said to' → 'Told' Rule | 'Said to + person' → 'told + person' ('to' हटा दें)। Reporting verb बदलने का यह सबसे important rule है।",
+    "example": "He told her that he needed her help.",
+    "options": ["He told her that he needed her help.", "He said to her that he needed her help.", "He told to her that he needed her help.", "He said her that he needed her help."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "The student said, 'Madam, I did not understand this topic.'",
+    "meaning_en": "Addressing Term Removal | Terms of address ('Madam', 'Sir', 'Uncle', 'Dear') are dropped in Indirect Speech. 'did not understand' → 'had not understood'. 'this' → 'that'.",
+    "meaning_hi": "Addressing Term Removal | 'Madam', 'Sir', 'Uncle' जैसे addressing terms Indirect Speech में हटा दिए जाते हैं।",
+    "example": "The student told the teacher that he/she had not understood that topic.",
+    "options": ["The student told the teacher that he/she had not understood that topic.", "The student told Madam that he had not understood this topic.", "The student said that he had not understood that topic.", "The student told the teacher that he did not understand that topic."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said to me, 'Good morning! How are you today?'",
+    "meaning_en": "Greeting in Direct Speech → Indirect | Greetings ('Good morning', 'Hello') → 'greeted/wished'. The greeting is followed by a question which follows normal WH/Yes-No rules.",
+    "meaning_hi": "Greeting in Direct Speech → Indirect | Greetings ('Good morning') → 'greeted/wished'। Greeting के बाद question normal rules से बदलता है।",
+    "example": "He greeted me and asked how I was that day.",
+    "options": ["He greeted me and asked how I was that day.", "He said good morning to me and asked how I was today.", "He wished me good morning and said how are you today.", "He told me good morning and asked how I was that day."],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  }
+]

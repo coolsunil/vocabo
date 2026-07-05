@@ -19,10 +19,12 @@ import '../widgets/cards/confusing_card.dart';
 import '../widgets/cards/core_card.dart';
 import '../widgets/cards/fixed_preposition_card.dart';
 import '../widgets/cards/idiom_card.dart';
+import '../widgets/cards/narration_card.dart';
 import '../widgets/cards/oneword_card.dart';
 import '../widgets/cards/sentence_improvement_card.dart';
 import '../widgets/cards/spelling_card.dart';
 import '../widgets/cards/synonym_card.dart';
+import '../widgets/cards/voices_card.dart';
 
 class LearnScreen extends StatefulWidget {
   final String category;
@@ -56,6 +58,8 @@ class _LearnScreenState extends State<LearnScreen>
     'proverbs': 'Proverbs',
     'sentence_improvement': 'Sentence Improvement',
     'cloze_test': 'Cloze Test',
+    'voices': 'Active / Passive Voice',
+    'narration': 'Direct & Indirect Speech',
   };
 
   final ScreenshotController _screenshotController = ScreenshotController();
@@ -506,6 +510,18 @@ class _LearnScreenState extends State<LearnScreen>
           onBookmarkToggle: () {}, onShare: () {},
           index: currentIndex + 1, total: words.length, shareMode: true,
         );
+      case 'voices':
+        return VoicesCard(
+          word: word, isBookmarked: false,
+          onBookmarkToggle: () {}, onShare: () {},
+          index: currentIndex + 1, total: words.length, shareMode: true,
+        );
+      case 'narration':
+        return NarrationCard(
+          word: word, isBookmarked: false,
+          onBookmarkToggle: () {}, onShare: () {},
+          index: currentIndex + 1, total: words.length, shareMode: true,
+        );
       default:
         return CoreCard(
           word: word, isBookmarked: false,
@@ -821,6 +837,24 @@ class _LearnScreenState extends State<LearnScreen>
         );
       case 'cloze_test':
         return ClozeTestCard(
+          word: word,
+          isBookmarked: isBookmarked,
+          onBookmarkToggle: _toggleCurrentBookmark,
+          onShare: _shareCurrentCard,
+          index: idx + 1,
+          total: words.length,
+        );
+      case 'voices':
+        return VoicesCard(
+          word: word,
+          isBookmarked: isBookmarked,
+          onBookmarkToggle: _toggleCurrentBookmark,
+          onShare: _shareCurrentCard,
+          index: idx + 1,
+          total: words.length,
+        );
+      case 'narration':
+        return NarrationCard(
           word: word,
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,

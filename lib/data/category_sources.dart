@@ -1,3 +1,5 @@
+const int freePYQLimit = 20;
+
 const Map<String, String> categoryFiles = {
   "core": "assets/data/core_words.json",
   "synonyms": "assets/data/synonyms.json",
@@ -17,4 +19,6 @@ const Map<String, String> categoryFiles = {
   "proverbs": "assets/data/proverbs.json",
   "sentence_improvement": "assets/data/sentence_improvement.json",
   "cloze_test": "assets/data/cloze_test.json",
+  "voices": "assets/data/voices.json",
+  "narration": "assets/data/narration.json",
 };

@@ -18,6 +18,7 @@ enum PremiumFeature {
   weakAreas,
   fullRevise,
   unlimitedBookmarks,
+  pyqAccess,
 }
 
 const Map<PremiumFeature, String> premiumFeatureTitles = {
@@ -26,6 +27,7 @@ const Map<PremiumFeature, String> premiumFeatureTitles = {
   PremiumFeature.weakAreas: 'Weak Areas Review',
   PremiumFeature.fullRevise: 'Full Revise Access',
   PremiumFeature.unlimitedBookmarks: 'Unlimited Bookmarks',
+  PremiumFeature.pyqAccess: 'Previous Year Questions',
 };
 
 const Map<PremiumFeature, String> premiumFeatureDescriptions = {
@@ -39,6 +41,8 @@ const Map<PremiumFeature, String> premiumFeatureDescriptions = {
       'Access saved revision content without free-tier caps.',
   PremiumFeature.unlimitedBookmarks:
       'Save as many words as you want for later revision.',
+  PremiumFeature.pyqAccess:
+      'Access all PYQs from SSC, IBPS, UPSC, CDS, NDA, CLAT, and more.',
 };
 
 const String _monthlyProductId = 'vocabo_premium_monthly';
@@ -52,10 +56,19 @@ const String _legacyPremiumKey = 'premium_unlocked';
 // Set to true to bypass premium checks during local testing. NEVER ship as true.
 const bool _debugUnlockPremium = false;
 
+// Set to true to give all users free access during the free period.
+// Flip to false when you are ready to enable monetisation.
+const bool _freePeriod = true;
+
+/// True while the app is in its free-for-all period.
+/// Use this to hide premium UI (upgrade prompts, lock screens, settings tile).
+bool get isFreePeriod => _freePeriod;
+
 DateTime? _premiumExpiry;
 
 bool get premiumUnlocked {
   if (_debugUnlockPremium) return true;
+  if (_freePeriod) return true;
   if (_premiumExpiry == null) return false;
   return _premiumExpiry!.isAfter(DateTime.now());
 }
@@ -94,6 +107,7 @@ bool hasPremiumAccess(PremiumFeature feature) {
     case PremiumFeature.weakAreas:
     case PremiumFeature.fullRevise:
     case PremiumFeature.unlimitedBookmarks:
+    case PremiumFeature.pyqAccess:
       return premiumUnlocked;
   }
 }
