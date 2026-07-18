@@ -35,6 +35,9 @@ TOPIC_MAP = {
     "Grammar - Spotting Errors":                "Error Spotting",
     "Grammar - Sentence Correction":            "Error Spotting",
     "Spotting Errors":                          "Error Spotting",
+    "Spotting Errors - Grammar":                "Error Spotting",
+    "Spotting Errors - Usage":                  "Error Spotting",
+    "Spotting Errors - Spelling/Usage":         "Error Spotting",
     "Sentence Correction":                      "Error Spotting",
     "Sentence Correction (Word Swap)":          "Error Spotting",
     "Grammatically Incorrect Sentence":         "Error Spotting",
@@ -63,6 +66,7 @@ TOPIC_MAP = {
     "Vocabulary - Synonym":      "Synonym",
     "Vocabulary - Synonyms":     "Synonym",
     "Vocabulary (Synonyms)":     "Synonym",
+    "Vocabulary-Synonym":        "Synonym",
 
     # ── Antonym ────────────────────────────────────────────────────────────────
     "Antonyms":                  "Antonym",
@@ -94,11 +98,12 @@ TOPIC_MAP = {
     "Preposition Fill in the Blank":              "Fill in the Blanks",
 
     # ── Para Jumbles ───────────────────────────────────────────────────────────
-    "Para Jumble":                       "Para Jumbles",
-    "Para Jumbles (Sentence Completion)":"Para Jumbles",
-    "Parajumbles":                       "Para Jumbles",
-    "Grammar - Para Jumbles":            "Para Jumbles",
-    "Ordering of Sentences (Para Jumble)":"Para Jumbles",
+    "Para Jumble":                           "Para Jumbles",
+    "Para Jumbles (Sentence Completion)":    "Para Jumbles",
+    "Para Jumble / Sentence Rearrangement":  "Para Jumbles",
+    "Parajumbles":                           "Para Jumbles",
+    "Grammar - Para Jumbles":                "Para Jumbles",
+    "Ordering of Sentences (Para Jumble)":   "Para Jumbles",
 
     # ── Sentence Rearrangement ─────────────────────────────────────────────────
     "Ordering of Words in a Sentence":     "Sentence Rearrangement",
@@ -109,24 +114,27 @@ TOPIC_MAP = {
     "Word Rearrangement":                  "Sentence Rearrangement",
 
     # ── Sentence Improvement ───────────────────────────────────────────────────
-    "Sentence Improvement (Prepositions)":  "Sentence Improvement",
-    "Vocabulary - Sentence Improvement":    "Sentence Improvement",
-    "Vocabulary/Sentence Improvement":      "Sentence Improvement",
-    "Phrase Replacement":                   "Sentence Improvement",
+    "Sentence Improvement (Prepositions)":   "Sentence Improvement",
+    "Sentence Improvement - Word Confusion": "Sentence Improvement",
+    "Vocabulary - Sentence Improvement":     "Sentence Improvement",
+    "Vocabulary/Sentence Improvement":       "Sentence Improvement",
+    "Phrase Replacement":                    "Sentence Improvement",
 
     # ── Sentence Completion ────────────────────────────────────────────────────
-    "sentence completion":                 "Sentence Completion",
-    "Sentence completion (Connectors)":    "Sentence Completion",
-    "Sentence completion (Inversion)":     "Sentence Completion",
-    "Sentence completion (Vocabulary)":    "Sentence Completion",
-    "Sentence Completion (Column Matching)":"Sentence Completion",
+    "sentence completion":                    "Sentence Completion",
+    "Sentence completion (Connectors)":       "Sentence Completion",
+    "Sentence completion (Inversion)":        "Sentence Completion",
+    "Sentence completion (Vocabulary)":       "Sentence Completion",
+    "Sentence Completion (Column Matching)":  "Sentence Completion",
+    "Column Matching / Sentence Completion":  "Sentence Completion",
 
     # ── Spelling ───────────────────────────────────────────────────────────────
-    "Spelling Error":          "Spelling",
-    "Spelling/Sentence Improvement": "Spelling",
-    "Spelling/Usage Error":    "Spelling",
-    "Misspelt Word":           "Spelling",
-    "Vocabulary - Spelling":   "Spelling",
+    "Spelling Error":              "Spelling",
+    "Spelling/Sentence Improvement":"Spelling",
+    "Spelling/Usage Error":        "Spelling",
+    "Misspelt Word":               "Spelling",
+    "Vocabulary - Spelling":       "Spelling",
+    "Spotting Errors - Spelling":  "Spelling",
 
     # ── Phrasal Verbs ──────────────────────────────────────────────────────────
     "Phrasal Verb":                        "Phrasal Verbs",
@@ -188,6 +196,7 @@ TOPIC_MAP = {
     "Reading Comprehension - Main Idea":            "Reading Comprehension",
     "Reading Comprehension - Vocabulary":           "Reading Comprehension",
     "Reading Comprehension - Vocabulary/Inference": "Reading Comprehension",
+    "Reading Comprehension - Fill in the blank":    "Reading Comprehension",
 
     # ── Grammar (general) ──────────────────────────────────────────────────────
     "Grammar (Adverbs)":                    "Grammar",

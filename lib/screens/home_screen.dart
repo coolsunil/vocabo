@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:share_plus/share_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../data/daily_goal_store.dart';
@@ -653,43 +654,66 @@ class _HomeScreenState extends State<HomeScreen> {
                       },
                     ),
                     const SizedBox(height: 14),
-                    _QuizCategoryTile(
-                      title: 'Take a Quiz',
-                      gradient: const [Color(0xFF701A75), Color(0xFFC026D3)],
-                      subtitle: !_premiumLoaded
-                          ? 'Practice across all categories'
-                          : premiumUnlocked
-                          ? 'Unlimited mixed quizzes available'
-                          : '$_remainingMixedQuizSessions free mixed quiz session${_remainingMixedQuizSessions == 1 ? '' : 's'} left today',
-                      onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (_) => const PracticeScreen(
-                              category: 'mixed',
-                              title: 'Take a Quiz',
-                            ),
+                    Row(
+                      children: [
+                        Expanded(
+                          child: _SmallActionTile(
+                            title: 'Take a Quiz',
+                            subtitle: !_premiumLoaded
+                                ? 'All categories'
+                                : premiumUnlocked
+                                ? 'Unlimited access'
+                                : '$_remainingMixedQuizSessions session${_remainingMixedQuizSessions == 1 ? '' : 's'} left',
+                            gradient: const [Color(0xFF701A75), Color(0xFFC026D3)],
+                            icon: Icons.quiz_rounded,
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (_) => const PracticeScreen(
+                                    category: 'mixed',
+                                    title: 'Take a Quiz',
+                                  ),
+                                ),
+                              ).then((_) => _loadPremiumMeta());
+                            },
                           ),
-                        ).then((_) => _loadPremiumMeta());
-                      },
-                      minHeight: 88,
+                        ),
+                        const SizedBox(width: 14),
+                        Expanded(
+                          child: _SmallActionTile(
+                            title: 'Community',
+                            subtitle: 'Join on Telegram',
+                            gradient: const [Color(0xFF0063A5), Color(0xFF0088CC)],
+                            icon: Icons.send_rounded,
+                            onTap: () async {
+                              final tgUri = Uri.parse('tg://resolve?domain=vocabo_community');
+                              final webUri = Uri.parse('https://t.me/vocabo_community');
+                              if (await canLaunchUrl(tgUri)) {
+                                await launchUrl(tgUri);
+                              } else {
+                                await launchUrl(webUri, mode: LaunchMode.externalApplication);
+                              }
+                            },
+                          ),
+                        ),
+                      ],
                     ),
                     const SizedBox(height: 14),
-                    _QuizCategoryTile(
-                      title: 'Join Our Community',
-                      subtitle: 'Discuss, quiz & learn with others on Telegram',
-                      gradient: const [Color(0xFF0063A5), Color(0xFF0088CC)],
-                      icon: Icons.send_rounded,
-                      onTap: () async {
-                        final tgUri = Uri.parse('tg://resolve?domain=vocabo_community');
-                        final webUri = Uri.parse('https://t.me/vocabo_community');
-                        if (await canLaunchUrl(tgUri)) {
-                          await launchUrl(tgUri);
-                        } else {
-                          await launchUrl(webUri, mode: LaunchMode.externalApplication);
-                        }
-                      },
+                    const _FeedbackCard(),
+                    const SizedBox(height: 14),
+                    const _ReferralCard(),
+                    const SizedBox(height: 20),
+                    Text(
+                      'Made with ❤️ for Aspirants',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 12,
+                        color: context.textSecondary,
+                        fontStyle: FontStyle.italic,
+                      ),
                     ),
+                    const SizedBox(height: 24),
                   ],
                 ),
               ),
@@ -726,7 +750,7 @@ class _DailyGoalCard extends StatelessWidget {
   const _DailyGoalCard({required this.onChanged});
 
   void _showGoalPicker(BuildContext context) {
-    const presets = [5, 10, 15, 20, 25, 30];
+    const presets = [25, 50, 75, 100];
     showModalBottomSheet(
       context: context,
       backgroundColor: Colors.transparent,
@@ -767,10 +791,10 @@ class _DailyGoalCard extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             GridView.count(
-              crossAxisCount: 3,
+              crossAxisCount: 4,
               mainAxisSpacing: 10,
               crossAxisSpacing: 10,
-              childAspectRatio: 2.2,
+              childAspectRatio: 1.8,
               shrinkWrap: true,
               physics: const NeverScrollableScrollPhysics(),
               children: presets.map((n) {
@@ -1289,7 +1313,6 @@ class _QuizCategoryTile extends StatelessWidget {
   final VoidCallback onTap;
   final List<Color> gradient;
   final IconData icon;
-  final double? minHeight;
 
   const _QuizCategoryTile({
     required this.title,
@@ -1297,7 +1320,6 @@ class _QuizCategoryTile extends StatelessWidget {
     required this.onTap,
     this.gradient = const [Color(0xFF312E81), Color(0xFF06B6D4)],
     this.icon = Icons.quiz_rounded,
-    this.minHeight,
   });
 
   @override
@@ -1309,7 +1331,6 @@ class _QuizCategoryTile extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 18),
         clipBehavior: Clip.hardEdge,
-        constraints: minHeight != null ? BoxConstraints(minHeight: minHeight!) : null,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
           gradient: LinearGradient(
@@ -1507,6 +1528,331 @@ class _WordOfDayCard extends StatelessWidget {
         ),
           ],
         ),
+      ),
+    );
+  }
+}
+
+// ── Small Action Tile (compact square, used in rows) ─────────────────────────
+
+class _SmallActionTile extends StatelessWidget {
+  final String title;
+  final String subtitle;
+  final List<Color> gradient;
+  final IconData icon;
+  final VoidCallback onTap;
+
+  const _SmallActionTile({
+    required this.title,
+    required this.subtitle,
+    required this.gradient,
+    required this.icon,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return InteractivePressable(
+      borderRadius: BorderRadius.circular(20),
+      onTap: onTap,
+      overlayColor: Colors.white,
+      child: Container(
+        padding: const EdgeInsets.all(16),
+        clipBehavior: Clip.hardEdge,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          gradient: LinearGradient(
+            colors: gradient,
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+          boxShadow: [
+            BoxShadow(
+              color: gradient.last.withValues(alpha: 0.35),
+              blurRadius: 14,
+              offset: const Offset(0, 7),
+            ),
+          ],
+        ),
+        child: Stack(
+          children: [
+            Positioned(
+              right: -16,
+              bottom: -16,
+              child: Icon(icon, size: 72, color: Colors.white.withValues(alpha: 0.10)),
+            ),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Container(
+                  padding: const EdgeInsets.all(9),
+                  decoration: BoxDecoration(
+                    color: Colors.white.withValues(alpha: 0.18),
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Icon(icon, color: Colors.white, size: 22),
+                ),
+                const SizedBox(height: 12),
+                Text(
+                  title,
+                  style: const TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.w800,
+                    color: Colors.white,
+                  ),
+                ),
+                const SizedBox(height: 3),
+                Text(
+                  subtitle,
+                  style: TextStyle(
+                    fontSize: 11,
+                    color: Colors.white.withValues(alpha: 0.80),
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+// ── Feedback & Rating Card ────────────────────────────────────────────────────
+
+class _FeedbackCard extends StatelessWidget {
+  const _FeedbackCard();
+
+  static const _storeUrl =
+      'https://play.google.com/store/apps/details?id=com.jarhauliyalabs.vocabo';
+
+  Future<void> _openStore() async {
+    final uri = Uri.parse(_storeUrl);
+    if (await canLaunchUrl(uri)) {
+      await launchUrl(uri, mode: LaunchMode.externalApplication);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return InteractivePressable(
+      borderRadius: BorderRadius.circular(16),
+      onTap: _openStore,
+      overlayColor: Colors.white,
+      child: Container(
+      padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 14),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(16),
+        gradient: const LinearGradient(
+          colors: [Color(0xFF92400E), Color(0xFFD97706)],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: const Color(0xFFD97706).withValues(alpha: 0.35),
+            blurRadius: 14,
+            offset: const Offset(0, 7),
+          ),
+        ],
+      ),
+      child: Row(
+        children: [
+          Container(
+            padding: const EdgeInsets.all(10),
+            decoration: BoxDecoration(
+              color: Colors.white.withValues(alpha: 0.18),
+              borderRadius: BorderRadius.circular(12),
+            ),
+            child: const Icon(Icons.star_rounded, color: Colors.white, size: 22),
+          ),
+          const SizedBox(width: 14),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const Text(
+                  'Rate & Feedback',
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.w700,
+                    color: Colors.white,
+                  ),
+                ),
+                const SizedBox(height: 2),
+                Text(
+                  'Enjoying Vocabo? Leave a review on Play Store',
+                  style: TextStyle(fontSize: 12, color: Colors.white.withValues(alpha: 0.80)),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(width: 8),
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.white.withValues(alpha: 0.20),
+              borderRadius: BorderRadius.circular(10),
+              border: Border.all(color: Colors.white.withValues(alpha: 0.40)),
+            ),
+            child: const Text(
+              'Rate',
+              style: TextStyle(
+                fontSize: 13,
+                fontWeight: FontWeight.w700,
+                color: Colors.white,
+              ),
+            ),
+          ),
+        ],
+      ),
+      ),
+    );
+  }
+}
+
+// ── Referral Card ─────────────────────────────────────────────────────────────
+
+class _ReferralCard extends StatelessWidget {
+  const _ReferralCard();
+
+  static const _appLink =
+      'https://play.google.com/store/apps/details?id=com.jarhauliyalabs.vocabo';
+
+  void _share() {
+    Share.share(
+      '📚 Preparing for SSC, IBPS, UPSC or any competitive exam?\n\n'
+      'I\'ve been using *Vocabo* to build my English vocabulary — it covers '
+      'PYQs, idioms, synonyms, one-word substitutions, voice change, narration '
+      'and a lot more. Really helpful for exam prep!\n\n'
+      '👉 Download free: $_appLink',
+      subject: 'Check out Vocabo — Vocabulary for Competitive Exams',
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final isDark = context.isDark;
+    return Container(
+      width: double.infinity,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(20),
+        gradient: LinearGradient(
+          colors: isDark
+              ? [const Color(0xFF1E1B4B), const Color(0xFF312E81)]
+              : [const Color(0xFF4338CA), const Color(0xFF6366F1)],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: const Color(0xFF6366F1).withValues(alpha: 0.35),
+            blurRadius: 18,
+            offset: const Offset(0, 8),
+          ),
+        ],
+      ),
+      child: Stack(
+        children: [
+          Positioned(
+            right: -20,
+            top: -20,
+            child: Icon(
+              Icons.card_giftcard_rounded,
+              size: 130,
+              color: Colors.white.withValues(alpha: 0.07),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(20),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    Container(
+                      padding: const EdgeInsets.all(10),
+                      decoration: BoxDecoration(
+                        color: Colors.white.withValues(alpha: 0.15),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: const Icon(
+                        Icons.people_alt_rounded,
+                        color: Colors.white,
+                        size: 22,
+                      ),
+                    ),
+                    const SizedBox(width: 12),
+                    const Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Invite Friends',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 17,
+                              fontWeight: FontWeight.w800,
+                            ),
+                          ),
+                          SizedBox(height: 2),
+                          Text(
+                            'Help fellow aspirants discover Vocabo',
+                            style: TextStyle(
+                              color: Colors.white70,
+                              fontSize: 12,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 16),
+                const Text(
+                  'Know someone preparing for SSC, IBPS, UPSC or any competitive exam? Share Vocabo and help them build a stronger vocabulary.',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 13,
+                    height: 1.5,
+                  ),
+                ),
+                const SizedBox(height: 16),
+                SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton.icon(
+                    onPressed: _share,
+                    icon: const Icon(Icons.share_rounded, size: 18),
+                    label: const Text(
+                      'Share Vocabo',
+                      style: TextStyle(fontWeight: FontWeight.w700, fontSize: 15),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.white,
+                      foregroundColor: const Color(0xFF4338CA),
+                      padding: const EdgeInsets.symmetric(vertical: 13),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      elevation: 0,
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 16),
+                const Text(
+                  '✨ One word a day. One step closer to your dream.',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    color: Colors.white70,
+                    fontSize: 12,
+                    fontStyle: FontStyle.italic,
+                    height: 1.4,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
       ),
     );
   }

@@ -138,6 +138,10 @@ class _PYQScreenState extends State<PYQScreen> {
   String? _selectedYear;
   List<String> _availableSubExams = [];
   String? _selectedSubExam;
+  List<String> _availableDifficulties = [];
+  String? _selectedDifficulty;
+  List<String> _availableTopics = [];
+  String? _selectedTopic;
   List<int?> _allSelections = []; // parallel to _allQuestions
   List<int?> _selections = [];   // parallel to _questions (current view)
   int _currentIndex = 0;
@@ -171,6 +175,18 @@ class _PYQScreenState extends State<PYQScreen> {
       final years = questions.map((q) => q.year).toSet().toList()
         ..sort((a, b) => b.compareTo(a));
       final subExams = questions.map((q) => q.exam).toSet().toList()..sort();
+      final difficulties = questions
+          .map((q) => q.difficulty)
+          .where((d) => d.isNotEmpty)
+          .toSet()
+          .toList()
+        ..sort();
+      final topics = questions
+          .map((q) => q.topic)
+          .where((t) => t.isNotEmpty)
+          .toSet()
+          .toList()
+        ..sort();
       final resumeIndex = fresh
           ? 0
           : getPYQResumeIndex(exam.name).clamp(0, questions.length - 1);
@@ -185,8 +201,12 @@ class _PYQScreenState extends State<PYQScreen> {
         _allSelections = allSel;
         _availableYears = years;
         _availableSubExams = subExams;
+        _availableDifficulties = difficulties;
+        _availableTopics = topics;
         _selectedYear = null;
         _selectedSubExam = null;
+        _selectedDifficulty = null;
+        _selectedTopic = null;
         _questions = questions;
         _selections = List.from(allSel);
         _currentIndex = resumeIndex;
@@ -214,15 +234,21 @@ class _PYQScreenState extends State<PYQScreen> {
       _selectedYear = null;
       _availableSubExams = [];
       _selectedSubExam = null;
+      _availableDifficulties = [];
+      _selectedDifficulty = null;
+      _availableTopics = [];
+      _selectedTopic = null;
       _selections = [];
       _currentIndex = 0;
     });
   }
 
-  List<PYQQuestion> _filtered(String? subExam, String? year) {
+  List<PYQQuestion> _filtered(String? subExam, String? year, String? difficulty, String? topic) {
     return _allQuestions.where((q) {
       return (subExam == null || q.exam == subExam) &&
-          (year == null || q.year == year);
+          (year == null || q.year == year) &&
+          (difficulty == null || q.difficulty == difficulty) &&
+          (topic == null || q.topic == topic);
     }).toList();
   }
 
@@ -234,7 +260,7 @@ class _PYQScreenState extends State<PYQScreen> {
   }
 
   void _applySubExamFilter(String? subExam) {
-    final f = _filtered(subExam, _selectedYear);
+    final f = _filtered(subExam, _selectedYear, _selectedDifficulty, _selectedTopic);
     setState(() {
       _selectedSubExam = subExam;
       _questions = f;
@@ -244,7 +270,7 @@ class _PYQScreenState extends State<PYQScreen> {
   }
 
   void _applyYearFilter(String? year) {
-    final f = _filtered(_selectedSubExam, year);
+    final f = _filtered(_selectedSubExam, year, _selectedDifficulty, _selectedTopic);
     setState(() {
       _selectedYear = year;
       _questions = f;
@@ -253,7 +279,44 @@ class _PYQScreenState extends State<PYQScreen> {
     });
   }
 
-  bool get _hasActiveFilter => _selectedSubExam != null || _selectedYear != null;
+  void _applyDifficultyFilter(String? difficulty) {
+    final f = _filtered(_selectedSubExam, _selectedYear, difficulty, _selectedTopic);
+    setState(() {
+      _selectedDifficulty = difficulty;
+      _questions = f;
+      _selections = _selectionsFor(f);
+      _currentIndex = 0;
+    });
+  }
+
+  void _applyTopicFilter(String? topic) {
+    final f = _filtered(_selectedSubExam, _selectedYear, _selectedDifficulty, topic);
+    setState(() {
+      _selectedTopic = topic;
+      _questions = f;
+      _selections = _selectionsFor(f);
+      _currentIndex = 0;
+    });
+  }
+
+  void _clearAllFilters() {
+    final f = _allQuestions;
+    setState(() {
+      _selectedSubExam = null;
+      _selectedYear = null;
+      _selectedDifficulty = null;
+      _selectedTopic = null;
+      _questions = f;
+      _selections = _selectionsFor(f);
+      _currentIndex = 0;
+    });
+  }
+
+  bool get _hasActiveFilter =>
+      _selectedSubExam != null ||
+      _selectedYear != null ||
+      _selectedDifficulty != null ||
+      _selectedTopic != null;
 
   void _showFilterSheet() {
     showModalBottomSheet<void>(
@@ -263,21 +326,21 @@ class _PYQScreenState extends State<PYQScreen> {
           borderRadius: BorderRadius.vertical(top: Radius.circular(20))),
       builder: (_) => StatefulBuilder(
         builder: (ctx, setSheetState) {
-          // Count preview — recompute as user taps chips
-          final previewCount = _filtered(_selectedSubExam, _selectedYear).length;
+          final previewCount = _filtered(
+              _selectedSubExam, _selectedYear, _selectedDifficulty, _selectedTopic).length;
 
-          void tapSubExam(String? val) {
-            _applySubExamFilter(val);
-            setSheetState(() {});
-          }
+          void tapSubExam(String? val) { _applySubExamFilter(val); setSheetState(() {}); }
+          void tapYear(String? val) { _applyYearFilter(val); setSheetState(() {}); }
+          void tapDifficulty(String? val) { _applyDifficultyFilter(val); setSheetState(() {}); }
+          void tapTopic(String? val) { _applyTopicFilter(val); setSheetState(() {}); }
 
-          void tapYear(String? val) {
-            _applyYearFilter(val);
-            setSheetState(() {});
-          }
+          Widget sectionLabel(String text) => Text(
+            text,
+            style: TextStyle(fontSize: 13, fontWeight: FontWeight.w700, color: ctx.textSecondary),
+          );
 
-          return Padding(
-            padding: const EdgeInsets.fromLTRB(20, 20, 20, 32),
+          return SingleChildScrollView(
+            padding: EdgeInsets.fromLTRB(20, 20, 20, MediaQuery.of(ctx).viewInsets.bottom + 32),
             child: Column(
               mainAxisSize: MainAxisSize.min,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -285,33 +348,23 @@ class _PYQScreenState extends State<PYQScreen> {
                 Row(
                   children: [
                     const Text('Filter Questions',
-                        style: TextStyle(
-                            fontSize: 18, fontWeight: FontWeight.w800)),
+                        style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800)),
                     const Spacer(),
                     if (_hasActiveFilter)
                       TextButton(
-                        onPressed: () {
-                          _applySubExamFilter(null);
-                          _applyYearFilter(null);
-                          setSheetState(() {});
-                        },
+                        onPressed: () { _clearAllFilters(); setSheetState(() {}); },
                         child: const Text('Clear all',
                             style: TextStyle(color: Color(0xFFDC2626))),
                       ),
                     GestureDetector(
                       onTap: () => Navigator.pop(ctx),
-                      child: Icon(Icons.close_rounded,
-                          color: ctx.textSecondary),
+                      child: Icon(Icons.close_rounded, color: ctx.textSecondary),
                     ),
                   ],
                 ),
                 const SizedBox(height: 20),
                 if (_availableSubExams.length > 1) ...[
-                  Text('Sub-exam',
-                      style: TextStyle(
-                          fontSize: 13,
-                          fontWeight: FontWeight.w700,
-                          color: ctx.textSecondary)),
+                  sectionLabel('Sub-exam'),
                   const SizedBox(height: 10),
                   SingleChildScrollView(
                     scrollDirection: Axis.horizontal,
@@ -320,23 +373,45 @@ class _PYQScreenState extends State<PYQScreen> {
                         _filterChip(null, 'All', _selectedSubExam, tapSubExam),
                         ..._availableSubExams.map((e) {
                           final prefix = '${_selectedExam!.name} ';
-                          final label = e.startsWith(prefix)
-                              ? e.substring(prefix.length)
-                              : e;
-                          return _filterChip(
-                              e, label, _selectedSubExam, tapSubExam);
+                          final label = e.startsWith(prefix) ? e.substring(prefix.length) : e;
+                          return _filterChip(e, label, _selectedSubExam, tapSubExam);
                         }),
                       ],
                     ),
                   ),
                   const SizedBox(height: 20),
                 ],
+                if (_availableDifficulties.length > 1) ...[
+                  sectionLabel('Difficulty'),
+                  const SizedBox(height: 10),
+                  SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
+                    child: Row(
+                      children: [
+                        _filterChip(null, 'All', _selectedDifficulty, tapDifficulty),
+                        ..._availableDifficulties.map(
+                            (d) => _filterChip(d, d, _selectedDifficulty, tapDifficulty)),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(height: 20),
+                ],
+                if (_availableTopics.length > 1) ...[
+                  sectionLabel('Topic'),
+                  const SizedBox(height: 10),
+                  Wrap(
+                    spacing: 8,
+                    runSpacing: 8,
+                    children: [
+                      _filterChip(null, 'All', _selectedTopic, tapTopic),
+                      ..._availableTopics.map(
+                          (t) => _filterChip(t, t, _selectedTopic, tapTopic)),
+                    ],
+                  ),
+                  const SizedBox(height: 20),
+                ],
                 if (_availableYears.length > 1) ...[
-                  Text('Year',
-                      style: TextStyle(
-                          fontSize: 13,
-                          fontWeight: FontWeight.w700,
-                          color: ctx.textSecondary)),
+                  sectionLabel('Year'),
                   const SizedBox(height: 10),
                   SingleChildScrollView(
                     scrollDirection: Axis.horizontal,
@@ -358,15 +433,11 @@ class _PYQScreenState extends State<PYQScreen> {
                   ),
                   child: Row(
                     children: [
-                      Icon(Icons.help_outline_rounded,
-                          size: 16, color: _accent),
+                      Icon(Icons.help_outline_rounded, size: 16, color: _accent),
                       const SizedBox(width: 8),
                       Text(
                         '$previewCount question${previewCount == 1 ? '' : 's'} match your filters',
-                        style: TextStyle(
-                            fontSize: 13,
-                            fontWeight: FontWeight.w600,
-                            color: _accent),
+                        style: TextStyle(fontSize: 13, fontWeight: FontWeight.w600, color: _accent),
                       ),
                     ],
                   ),
@@ -791,59 +862,53 @@ $optionsText
           const SizedBox(height: 10),
           // Active filter indicator
           if (_hasActiveFilter) ...[
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-              decoration: BoxDecoration(
-                color: _accent.withValues(alpha: 0.1),
-                borderRadius: BorderRadius.circular(8),
-                border: Border.all(color: _accent.withValues(alpha: 0.3)),
-              ),
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Icon(Icons.filter_alt_rounded, size: 14, color: _accent),
-                  const SizedBox(width: 6),
-                  Text(
-                    [
-                      if (_selectedSubExam != null)
-                        () {
-                          final prefix = '${_selectedExam!.name} ';
-                          return _selectedSubExam!.startsWith(prefix)
-                              ? _selectedSubExam!.substring(prefix.length)
-                              : _selectedSubExam!;
-                        }(),
-                      ?_selectedYear,
-                    ].join(' · '),
-                    style: TextStyle(
-                      fontSize: 12,
-                      fontWeight: FontWeight.w700,
-                      color: _accent,
-                    ),
+            Wrap(
+              spacing: 8,
+              runSpacing: 6,
+              children: [
+                if (_selectedSubExam != null)
+                  _activeFilterChip(
+                    () {
+                      final prefix = '${_selectedExam!.name} ';
+                      return _selectedSubExam!.startsWith(prefix)
+                          ? _selectedSubExam!.substring(prefix.length)
+                          : _selectedSubExam!;
+                    }(),
+                    () => _applySubExamFilter(null),
                   ),
-                  const SizedBox(width: 6),
-                  GestureDetector(
-                    onTap: () {
-                      _applySubExamFilter(null);
-                      _applyYearFilter(null);
-                    },
-                    child: Icon(Icons.close_rounded, size: 14, color: _accent),
-                  ),
-                ],
-              ),
+                if (_selectedDifficulty != null)
+                  _activeFilterChip(_selectedDifficulty!, () => _applyDifficultyFilter(null)),
+                if (_selectedTopic != null)
+                  _activeFilterChip(_selectedTopic!, () => _applyTopicFilter(null)),
+                if (_selectedYear != null)
+                  _activeFilterChip(_selectedYear!, () => _applyYearFilter(null)),
+              ],
             ),
             const SizedBox(height: 10),
           ],
-          // Tags
+          // Tags — topic & difficulty are tappable filters; exam·year is display-only
           Wrap(
             spacing: 8,
             runSpacing: 6,
             children: [
               if (q.topic.isNotEmpty)
-                _buildTag(q.topic, const Color(0xFF16A34A),
-                    Icons.label_outline_rounded),
+                _buildTag(
+                  q.topic,
+                  const Color(0xFF16A34A),
+                  Icons.label_outline_rounded,
+                  isActive: _selectedTopic == q.topic,
+                  onTap: () => _applyTopicFilter(
+                      _selectedTopic == q.topic ? null : q.topic),
+                ),
               if (q.difficulty.isNotEmpty)
-                _buildTag(q.difficulty, const Color(0xFFD97706),
-                    Icons.signal_cellular_alt_rounded),
+                _buildTag(
+                  q.difficulty,
+                  const Color(0xFFD97706),
+                  Icons.signal_cellular_alt_rounded,
+                  isActive: _selectedDifficulty == q.difficulty,
+                  onTap: () => _applyDifficultyFilter(
+                      _selectedDifficulty == q.difficulty ? null : q.difficulty),
+                ),
               _buildTag('${q.exam} · ${q.year}',
                   _selectedExam!.gradient.last, _selectedExam!.icon),
             ],
@@ -1054,6 +1119,37 @@ $optionsText
     );
   }
 
+  Widget _activeFilterChip(String label, VoidCallback onRemove) {
+    return GestureDetector(
+      onTap: onRemove,
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+        decoration: BoxDecoration(
+          color: _accent.withValues(alpha: 0.12),
+          borderRadius: BorderRadius.circular(999),
+          border: Border.all(color: _accent.withValues(alpha: 0.4)),
+        ),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(Icons.filter_alt_rounded, size: 12, color: _accent),
+            const SizedBox(width: 4),
+            Text(
+              label,
+              style: TextStyle(
+                fontSize: 12,
+                fontWeight: FontWeight.w700,
+                color: _accent,
+              ),
+            ),
+            const SizedBox(width: 4),
+            Icon(Icons.close_rounded, size: 12, color: _accent),
+          ],
+        ),
+      ),
+    );
+  }
+
   Widget _filterChip(String? value, String label, String? selectedValue,
       void Function(String?) onTap) {
     final isSelected = selectedValue == value;
@@ -1085,9 +1181,11 @@ $optionsText
     );
   }
 
-  Widget _buildTag(String label, Color color, IconData icon) {
+  Widget _buildTag(String label, Color color, IconData icon,
+      {VoidCallback? onTap, bool isActive = false}) {
     final dark = Color.lerp(color, Colors.black, 0.25)!;
-    return Container(
+    final tag = AnimatedContainer(
+      duration: const Duration(milliseconds: 150),
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 7),
       decoration: BoxDecoration(
         gradient: LinearGradient(
@@ -1098,11 +1196,14 @@ $optionsText
         borderRadius: BorderRadius.circular(30),
         boxShadow: [
           BoxShadow(
-            color: color.withValues(alpha: 0.35),
-            blurRadius: 8,
+            color: color.withValues(alpha: isActive ? 0.6 : 0.35),
+            blurRadius: isActive ? 12 : 8,
             offset: const Offset(0, 3),
           ),
         ],
+        border: isActive
+            ? Border.all(color: Colors.white.withValues(alpha: 0.6), width: 1.5)
+            : null,
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
@@ -1121,9 +1222,15 @@ $optionsText
               ),
             ),
           ),
+          if (isActive) ...[
+            const SizedBox(width: 5),
+            const Icon(Icons.close_rounded, size: 12, color: Colors.white),
+          ],
         ],
       ),
     );
+    if (onTap == null) return tag;
+    return GestureDetector(onTap: onTap, child: tag);
   }
 
   Widget _buildExplanationCard(PYQQuestion q, int total) {
