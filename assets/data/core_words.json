@@ -570,6 +570,26 @@
     "category": "core"
   },
   {
+    "word": "Acknowledge",
+    "meaning_en": "accept or admit the existence of",
+    "meaning_hi": "स्वीकार करना",
+    "synonyms": [
+      "Admit",
+      "Recognize",
+      "Accept",
+      "Concede",
+      "Confirm"
+    ],
+    "antonyms": [
+      "Deny",
+      "Ignore",
+      "Reject",
+      "Refute"
+    ],
+    "example": "She acknowledged her mistake gracefully.",
+    "category": "core"
+  },
+  {
     "word": "Acquiesce",
     "meaning_hi": "मान लेना",
     "meaning_en": "To accept reluctantly",
@@ -717,6 +737,26 @@
       "Favorable",
       "Beneficial"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Adversity",
+    "meaning_en": "difficult or unpleasant situation",
+    "meaning_hi": "विपरीत परिस्थिति",
+    "synonyms": [
+      "Hardship",
+      "Misfortune",
+      "Difficulty",
+      "Trouble",
+      "Trial"
+    ],
+    "antonyms": [
+      "Prosperity",
+      "Fortune",
+      "Ease",
+      "Success"
+    ],
+    "example": "She remained calm in the face of adversity.",
     "category": "core"
   },
   {
@@ -1347,6 +1387,26 @@
       "Ally",
       "Supporter"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Antagonize",
+    "meaning_en": "cause hostility in someone",
+    "meaning_hi": "विरोध करना",
+    "synonyms": [
+      "Provoke",
+      "Irritate",
+      "Alienate",
+      "Offend",
+      "Anger"
+    ],
+    "antonyms": [
+      "Pacify",
+      "Appease",
+      "Conciliate",
+      "Please"
+    ],
+    "example": "His remark antagonized the entire committee.",
     "category": "core"
   },
   {
@@ -3105,6 +3165,26 @@
     "category": "core"
   },
   {
+    "word": "Clamour",
+    "meaning_en": "a loud and confused noise",
+    "meaning_hi": "शोर",
+    "synonyms": [
+      "Uproar",
+      "Din",
+      "Noise",
+      "Outcry",
+      "Racket"
+    ],
+    "antonyms": [
+      "Silence",
+      "Quiet",
+      "Calm",
+      "Peace"
+    ],
+    "example": "There was a clamour for justice.",
+    "category": "core"
+  },
+  {
     "word": "Clandestine",
     "meaning_hi": "गुप्त",
     "meaning_en": "Secretive",
@@ -3165,6 +3245,25 @@
     "category": "core"
   },
   {
+    "word": "Clout",
+    "meaning_en": "influence or power",
+    "meaning_hi": "प्रभाव",
+    "synonyms": [
+      "Influence",
+      "Power",
+      "Authority",
+      "Pull",
+      "Weight"
+    ],
+    "antonyms": [
+      "Weakness",
+      "Insignificance",
+      "Powerlessness"
+    ],
+    "example": "She has a lot of clout in the industry.",
+    "category": "core"
+  },
+  {
     "word": "Coalesce",
     "meaning_hi": "एकत्र होना / मिलना",
     "meaning_en": "To come together to form one mass or whole",
@@ -3177,6 +3276,26 @@
       "Separate",
       "Divide"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Coax",
+    "meaning_en": "gently persuade someone to do something",
+    "meaning_hi": "मनाना",
+    "synonyms": [
+      "Persuade",
+      "Cajole",
+      "Entice",
+      "Induce",
+      "Wheedle"
+    ],
+    "antonyms": [
+      "Force",
+      "Demand",
+      "Compel",
+      "Threaten"
+    ],
+    "example": "She coaxed the child into eating vegetables.",
     "category": "core"
   },
   {
@@ -3372,6 +3491,46 @@
       "Expansion",
       "Volume"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Compensate",
+    "meaning_en": "make amends for a loss",
+    "meaning_hi": "क्षतिपूर्ति करना",
+    "synonyms": [
+      "Reimburse",
+      "Recompense",
+      "Make up for",
+      "Repay",
+      "Reward"
+    ],
+    "antonyms": [
+      "Penalize",
+      "Deprive",
+      "Take",
+      "Withhold"
+    ],
+    "example": "The company compensated the affected workers.",
+    "category": "core"
+  },
+  {
+    "word": "Competent",
+    "meaning_en": "having required skill or ability",
+    "meaning_hi": "सक्षम",
+    "synonyms": [
+      "Capable",
+      "Skilled",
+      "Qualified",
+      "Proficient",
+      "Able"
+    ],
+    "antonyms": [
+      "Incompetent",
+      "Incapable",
+      "Unskilled",
+      "Inept"
+    ],
+    "example": "She is a highly competent professional.",
     "category": "core"
   },
   {
@@ -3585,6 +3744,26 @@
     "category": "core"
   },
   {
+    "word": "Confirm",
+    "meaning_en": "establish the truth or correctness of",
+    "meaning_hi": "पुष्टि करना",
+    "synonyms": [
+      "Verify",
+      "Validate",
+      "Affirm",
+      "Establish",
+      "Substantiate"
+    ],
+    "antonyms": [
+      "Deny",
+      "Contradict",
+      "Disprove",
+      "Refute"
+    ],
+    "example": "Please confirm your booking by tomorrow.",
+    "category": "core"
+  },
+  {
     "word": "Confiscate",
     "meaning_hi": "जप्त करना",
     "meaning_en": "Seize officially",
@@ -3645,6 +3824,26 @@
     "category": "core"
   },
   {
+    "word": "Consolidate",
+    "meaning_en": "make stronger or more solid",
+    "meaning_hi": "मजबूत करना",
+    "synonyms": [
+      "Strengthen",
+      "Secure",
+      "Combine",
+      "Merge",
+      "Solidify"
+    ],
+    "antonyms": [
+      "Weaken",
+      "Divide",
+      "Break up",
+      "Separate"
+    ],
+    "example": "The company consolidated its position in the market.",
+    "category": "core"
+  },
+  {
     "word": "Conspicuous",
     "meaning_hi": "स्पष्ट",
     "meaning_en": "Easily noticed",
@@ -3657,6 +3856,26 @@
       "Hidden",
       "Obscure"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Conspire",
+    "meaning_en": "make secret plans jointly",
+    "meaning_hi": "षड्यंत्र करना",
+    "synonyms": [
+      "Plot",
+      "Scheme",
+      "Collude",
+      "Connive",
+      "Collaborate"
+    ],
+    "antonyms": [
+      "Oppose",
+      "Prevent",
+      "Block",
+      "Hinder"
+    ],
+    "example": "They conspired to overthrow the government.",
     "category": "core"
   },
   {
@@ -3717,6 +3936,26 @@
       "Destroy",
       "Demolish"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Contemplate",
+    "meaning_en": "think about something at length",
+    "meaning_hi": "विचार करना",
+    "synonyms": [
+      "Consider",
+      "Ponder",
+      "Reflect",
+      "Muse",
+      "Deliberate"
+    ],
+    "antonyms": [
+      "Ignore",
+      "Overlook",
+      "Act impulsively",
+      "Disregard"
+    ],
+    "example": "She contemplated her next move carefully.",
     "category": "core"
   },
   {
@@ -4200,6 +4439,26 @@
     "category": "core"
   },
   {
+    "word": "Curb",
+    "meaning_en": "restrain or keep in check",
+    "meaning_hi": "नियंत्रण",
+    "synonyms": [
+      "Restrain",
+      "Control",
+      "Limit",
+      "Check",
+      "Suppress"
+    ],
+    "antonyms": [
+      "Encourage",
+      "Release",
+      "Free",
+      "Promote"
+    ],
+    "example": "The government curbed imports to protect local industry.",
+    "category": "core"
+  },
+  {
     "word": "Curtail",
     "meaning_hi": "कम करना",
     "meaning_en": "Reduce",
@@ -4545,6 +4804,26 @@
     "category": "core"
   },
   {
+    "word": "Defer",
+    "meaning_en": "put off to a later time",
+    "meaning_hi": "स्थगित करना",
+    "synonyms": [
+      "Postpone",
+      "Delay",
+      "Adjourn",
+      "Suspend",
+      "Shelve"
+    ],
+    "antonyms": [
+      "Advance",
+      "Expedite",
+      "Hasten",
+      "Proceed"
+    ],
+    "example": "The meeting was deferred to next week.",
+    "category": "core"
+  },
+  {
     "word": "Defiance",
     "meaning_hi": "अवज्ञा",
     "meaning_en": "Open resistance",
@@ -4662,6 +4941,26 @@
       "Active",
       "Alive"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Defy",
+    "meaning_en": "openly resist or refuse to obey",
+    "meaning_hi": "चुनौती देना",
+    "synonyms": [
+      "Resist",
+      "Disobey",
+      "Challenge",
+      "Oppose",
+      "Confront"
+    ],
+    "antonyms": [
+      "Obey",
+      "Submit",
+      "Comply",
+      "Yield"
+    ],
+    "example": "She defy all odds to succeed.",
     "category": "core"
   },
   {
@@ -5025,6 +5324,26 @@
     "category": "core"
   },
   {
+    "word": "Designate",
+    "meaning_en": "appoint to a specific role",
+    "meaning_hi": "नियुक्त करना",
+    "synonyms": [
+      "Appoint",
+      "Assign",
+      "Name",
+      "Select",
+      "Nominate"
+    ],
+    "antonyms": [
+      "Dismiss",
+      "Remove",
+      "Discharge",
+      "Depose"
+    ],
+    "example": "She was designated as team leader.",
+    "category": "core"
+  },
+  {
     "word": "Desolate",
     "meaning_hi": "उजाड़",
     "meaning_en": "Empty and bleak",
@@ -5280,6 +5599,26 @@
     "category": "core"
   },
   {
+    "word": "Digress",
+    "meaning_en": "leave the main subject temporarily",
+    "meaning_hi": "विषयांतर करना",
+    "synonyms": [
+      "Deviate",
+      "Stray",
+      "Wander",
+      "Depart",
+      "Diverge"
+    ],
+    "antonyms": [
+      "Stay on topic",
+      "Focus",
+      "Continue",
+      "Persist"
+    ],
+    "example": "The speaker digressed for several minutes.",
+    "category": "core"
+  },
+  {
     "word": "Diligent",
     "meaning_hi": "परिश्रमी",
     "meaning_en": "Hardworking",
@@ -5445,6 +5784,26 @@
     "category": "core"
   },
   {
+    "word": "Dispel",
+    "meaning_en": "make doubt or a belief disappear",
+    "meaning_hi": "दूर करना",
+    "synonyms": [
+      "Dismiss",
+      "Scatter",
+      "Drive away",
+      "Eliminate",
+      "Remove"
+    ],
+    "antonyms": [
+      "Create",
+      "Foster",
+      "Strengthen",
+      "Encourage"
+    ],
+    "example": "His words dispelled all her fears.",
+    "category": "core"
+  },
+  {
     "word": "Disperse",
     "meaning_hi": "छितराना",
     "meaning_en": "Scatter",
@@ -5550,6 +5909,26 @@
     "category": "core"
   },
   {
+    "word": "Diverse",
+    "meaning_en": "showing a great deal of variety",
+    "meaning_hi": "विविध",
+    "synonyms": [
+      "Varied",
+      "Different",
+      "Assorted",
+      "Mixed",
+      "Heterogeneous"
+    ],
+    "antonyms": [
+      "Uniform",
+      "Similar",
+      "Homogeneous",
+      "Identical"
+    ],
+    "example": "India is a land of diverse cultures.",
+    "category": "core"
+  },
+  {
     "word": "Divine",
     "meaning_hi": "दैवीय",
     "meaning_en": "Godly",
@@ -5622,6 +6001,26 @@
       "Active",
       "Awake"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Dread",
+    "meaning_en": "great fear or apprehension",
+    "meaning_hi": "भय",
+    "synonyms": [
+      "Fear",
+      "Terror",
+      "Horror",
+      "Apprehension",
+      "Fright"
+    ],
+    "antonyms": [
+      "Courage",
+      "Bravery",
+      "Confidence",
+      "Calm"
+    ],
+    "example": "She felt dread at the thought of failure.",
     "category": "core"
   },
   {
@@ -5892,6 +6291,26 @@
       "Sad",
       "Dejected"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Elevate",
+    "meaning_en": "raise to a higher level",
+    "meaning_hi": "ऊपर उठाना",
+    "synonyms": [
+      "Raise",
+      "Lift",
+      "Promote",
+      "Upgrade",
+      "Boost"
+    ],
+    "antonyms": [
+      "Lower",
+      "Demote",
+      "Reduce",
+      "Diminish"
+    ],
+    "example": "Hard work elevated him to the top post.",
     "category": "core"
   },
   {
@@ -6690,6 +7109,26 @@
     "category": "core"
   },
   {
+    "word": "Evade",
+    "meaning_en": "escape by cleverness",
+    "meaning_hi": "बचना",
+    "synonyms": [
+      "Avoid",
+      "Dodge",
+      "Escape",
+      "Sidestep",
+      "Elude"
+    ],
+    "antonyms": [
+      "Confront",
+      "Face",
+      "Meet",
+      "Encounter"
+    ],
+    "example": "He evaded the question with a joke.",
+    "category": "core"
+  },
+  {
     "word": "Evoke",
     "meaning_hi": "उत्पन्न करना",
     "meaning_en": "Bring forth",
@@ -6732,6 +7171,26 @@
       "Approximate",
       "Rough"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Exaggerate",
+    "meaning_en": "make something seem larger than it is",
+    "meaning_hi": "अतिशयोक्ति करना",
+    "synonyms": [
+      "Overstate",
+      "Amplify",
+      "Inflate",
+      "Magnify",
+      "Embellish"
+    ],
+    "antonyms": [
+      "Understate",
+      "Minimize",
+      "Downplay",
+      "Reduce"
+    ],
+    "example": "She tends to exaggerate her achievements.",
     "category": "core"
   },
   {
@@ -6837,6 +7296,26 @@
       "Poor",
       "Unworthy"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Exempt",
+    "meaning_en": "free from an obligation",
+    "meaning_hi": "छूट देना",
+    "synonyms": [
+      "Excuse",
+      "Release",
+      "Spare",
+      "Free",
+      "Absolve"
+    ],
+    "antonyms": [
+      "Include",
+      "Oblige",
+      "Require",
+      "Compel"
+    ],
+    "example": "Small businesses are exempt from this tax.",
     "category": "core"
   },
   {
@@ -7470,6 +7949,26 @@
     "category": "core"
   },
   {
+    "word": "Ferment",
+    "meaning_en": "stir up or cause unrest",
+    "meaning_hi": "उत्तेजना",
+    "synonyms": [
+      "Agitation",
+      "Unrest",
+      "Turmoil",
+      "Commotion",
+      "Uproar"
+    ],
+    "antonyms": [
+      "Calm",
+      "Peace",
+      "Order",
+      "Stability"
+    ],
+    "example": "The speech caused ferment in the crowd.",
+    "category": "core"
+  },
+  {
     "word": "Fervent",
     "meaning_hi": "उत्साही",
     "meaning_en": "Passionate",
@@ -7707,6 +8206,26 @@
       "Permanent",
       "Enduring"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Flimsy",
+    "meaning_en": "weak and insubstantial",
+    "meaning_hi": "कमज़ोर",
+    "synonyms": [
+      "Weak",
+      "Fragile",
+      "Thin",
+      "Frail",
+      "Insubstantial"
+    ],
+    "antonyms": [
+      "Strong",
+      "Sturdy",
+      "Solid",
+      "Robust"
+    ],
+    "example": "The flimsy excuse did not convince anyone.",
     "category": "core"
   },
   {
@@ -8895,6 +9414,26 @@
     "category": "core"
   },
   {
+    "word": "Harbour",
+    "meaning_en": "keep a thought or feeling secretly",
+    "meaning_hi": "पनाह देना",
+    "synonyms": [
+      "Shelter",
+      "Hide",
+      "Conceal",
+      "Foster",
+      "Cherish"
+    ],
+    "antonyms": [
+      "Expose",
+      "Reveal",
+      "Reject",
+      "Banish"
+    ],
+    "example": "She harboured a secret grudge against him.",
+    "category": "core"
+  },
+  {
     "word": "Hardship",
     "meaning_hi": "कठिनाई",
     "meaning_en": "Severe suffering or difficulty",
@@ -9690,6 +10229,26 @@
     "category": "core"
   },
   {
+    "word": "Illuminate",
+    "meaning_en": "light up; make clear",
+    "meaning_hi": "प्रकाशित करना",
+    "synonyms": [
+      "Light up",
+      "Brighten",
+      "Clarify",
+      "Enlighten",
+      "Explain"
+    ],
+    "antonyms": [
+      "Darken",
+      "Obscure",
+      "Confuse",
+      "Dim"
+    ],
+    "example": "The speaker illuminated the complex issue well.",
+    "category": "core"
+  },
+  {
     "word": "Illusion",
     "meaning_hi": "भ्रम",
     "meaning_en": "False perception",
@@ -10152,6 +10711,26 @@
       "Deliberate",
       "Intentional"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Incentive",
+    "meaning_en": "something that encourages action",
+    "meaning_hi": "प्रोत्साहन",
+    "synonyms": [
+      "Motivation",
+      "Inducement",
+      "Stimulus",
+      "Reward",
+      "Encouragement"
+    ],
+    "antonyms": [
+      "Deterrent",
+      "Discouragement",
+      "Disincentive",
+      "Penalty"
+    ],
+    "example": "Tax cuts provide an incentive to invest.",
     "category": "core"
   },
   {
@@ -10917,6 +11496,26 @@
       "Simple",
       "Plain"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Intrigue",
+    "meaning_en": "arouse curiosity or interest",
+    "meaning_hi": "उत्सुकता जगाना",
+    "synonyms": [
+      "Fascinate",
+      "Interest",
+      "Captivate",
+      "Attract",
+      "Pique"
+    ],
+    "antonyms": [
+      "Bore",
+      "Repel",
+      "Disinterest",
+      "Deter"
+    ],
+    "example": "The mystery intrigued all the detectives.",
     "category": "core"
   },
   {
@@ -13017,6 +13616,26 @@
       "Create",
       "Originate"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Mindfulness",
+    "meaning_en": "conscious awareness of the present moment",
+    "meaning_hi": "सचेतनता",
+    "synonyms": [
+      "Awareness",
+      "Attention",
+      "Consciousness",
+      "Presence",
+      "Focus"
+    ],
+    "antonyms": [
+      "Inattention",
+      "Negligence",
+      "Absentmindedness",
+      "Distraction"
+    ],
+    "example": "Mindfulness helps reduce stress.",
     "category": "core"
   },
   {
@@ -15405,6 +16024,26 @@
     "category": "core"
   },
   {
+    "word": "Persevere",
+    "meaning_en": "continue despite difficulty",
+    "meaning_hi": "डटे रहना",
+    "synonyms": [
+      "Persist",
+      "Continue",
+      "Endure",
+      "Carry on",
+      "Press on"
+    ],
+    "antonyms": [
+      "Give up",
+      "Quit",
+      "Abandon",
+      "Surrender"
+    ],
+    "example": "You must persevere to achieve your goals.",
+    "category": "core"
+  },
+  {
     "word": "Persist",
     "meaning_hi": "डटे रहना",
     "meaning_en": "Continue firmly",
@@ -15417,6 +16056,26 @@
       "Quit",
       "Abandon"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Persistent",
+    "meaning_en": "continuing firmly despite difficulty",
+    "meaning_hi": "लगातार",
+    "synonyms": [
+      "Determined",
+      "Tenacious",
+      "Relentless",
+      "Steadfast",
+      "Enduring"
+    ],
+    "antonyms": [
+      "Intermittent",
+      "Yielding",
+      "Weak",
+      "Occasional"
+    ],
+    "example": "His persistent effort paid off.",
     "category": "core"
   },
   {
@@ -15447,6 +16106,26 @@
       "Rare",
       "Limited"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Petition",
+    "meaning_en": "formal written request",
+    "meaning_hi": "याचिका",
+    "synonyms": [
+      "Appeal",
+      "Request",
+      "Application",
+      "Plea",
+      "Entreaty"
+    ],
+    "antonyms": [
+      "Denial",
+      "Refusal",
+      "Rejection",
+      "Command"
+    ],
+    "example": "Citizens filed a petition against the new law.",
     "category": "core"
   },
   {
@@ -15522,6 +16201,26 @@
       "Excitable",
       "Emotional"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Pilfer",
+    "meaning_en": "steal in small quantities",
+    "meaning_hi": "चुराना",
+    "synonyms": [
+      "Steal",
+      "Filch",
+      "Pinch",
+      "Purloin",
+      "Lift"
+    ],
+    "antonyms": [
+      "Return",
+      "Give",
+      "Restore",
+      "Donate"
+    ],
+    "example": "The clerk pilfered money from the till.",
     "category": "core"
   },
   {
@@ -16065,6 +16764,26 @@
     "category": "core"
   },
   {
+    "word": "Prohibit",
+    "meaning_en": "formally forbid by authority",
+    "meaning_hi": "मना करना",
+    "synonyms": [
+      "Ban",
+      "Forbid",
+      "Bar",
+      "Disallow",
+      "Prevent"
+    ],
+    "antonyms": [
+      "Allow",
+      "Permit",
+      "Sanction",
+      "Authorize"
+    ],
+    "example": "Smoking is prohibited in public spaces.",
+    "category": "core"
+  },
+  {
     "word": "Proliferate",
     "meaning_hi": "तेज़ी से बढ़ना / फैलना",
     "meaning_en": "To grow rapidly in numbers",
@@ -16092,6 +16811,26 @@
       "Unproductive",
       "Barren"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Prolong",
+    "meaning_en": "extend the duration of",
+    "meaning_hi": "लंबा करना",
+    "synonyms": [
+      "Extend",
+      "Lengthen",
+      "Stretch",
+      "Draw out",
+      "Continue"
+    ],
+    "antonyms": [
+      "Shorten",
+      "Curtail",
+      "Cut short",
+      "End"
+    ],
+    "example": "The negotiations were prolonged unnecessarily.",
     "category": "core"
   },
   {
@@ -16242,6 +16981,26 @@
       "Lenient",
       "Forgiving"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Purge",
+    "meaning_en": "remove people or things considered undesirable",
+    "meaning_hi": "शुद्ध करना",
+    "synonyms": [
+      "Cleanse",
+      "Remove",
+      "Expel",
+      "Eliminate",
+      "Purify"
+    ],
+    "antonyms": [
+      "Include",
+      "Introduce",
+      "Fill",
+      "Keep"
+    ],
+    "example": "The party purged corrupt members.",
     "category": "core"
   },
   {
@@ -16785,6 +17544,26 @@
     "category": "core"
   },
   {
+    "word": "Rebellious",
+    "meaning_en": "showing a desire to resist authority",
+    "meaning_hi": "विद्रोही",
+    "synonyms": [
+      "Defiant",
+      "Disobedient",
+      "Mutinous",
+      "Insurgent",
+      "Resistant"
+    ],
+    "antonyms": [
+      "Obedient",
+      "Compliant",
+      "Submissive",
+      "Conformist"
+    ],
+    "example": "The rebellious youth challenged every rule.",
+    "category": "core"
+  },
+  {
     "word": "Rebuke",
     "meaning_hi": "फटकारना",
     "meaning_en": "Scold sharply",
@@ -17145,6 +17924,26 @@
     "category": "core"
   },
   {
+    "word": "Remedy",
+    "meaning_en": "solution to a problem",
+    "meaning_hi": "उपाय",
+    "synonyms": [
+      "Solution",
+      "Cure",
+      "Fix",
+      "Antidote",
+      "Treatment"
+    ],
+    "antonyms": [
+      "Problem",
+      "Cause",
+      "Disease",
+      "Harm"
+    ],
+    "example": "Rest is the best remedy for fatigue.",
+    "category": "core"
+  },
+  {
     "word": "Remonstrate",
     "meaning_hi": "विरोध करना / आपत्ति करना",
     "meaning_en": "To make a protest or objection",
@@ -17205,6 +18004,26 @@
     "category": "core"
   },
   {
+    "word": "Repel",
+    "meaning_en": "drive away by force or disgust",
+    "meaning_hi": "दूर भगाना",
+    "synonyms": [
+      "Repulse",
+      "Drive away",
+      "Deter",
+      "Disgust",
+      "Revolt"
+    ],
+    "antonyms": [
+      "Attract",
+      "Draw",
+      "Appeal",
+      "Invite"
+    ],
+    "example": "The strong smell repelled the insects.",
+    "category": "core"
+  },
+  {
     "word": "Replete",
     "meaning_hi": "परिपूर्ण",
     "meaning_en": "Filled abundantly",
@@ -17247,6 +18066,26 @@
       "Encourage",
       "Express"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Reprimand",
+    "meaning_en": "formally rebuke",
+    "meaning_hi": "फटकारना",
+    "synonyms": [
+      "Rebuke",
+      "Scold",
+      "Censure",
+      "Admonish",
+      "Reproach"
+    ],
+    "antonyms": [
+      "Praise",
+      "Commend",
+      "Approve",
+      "Compliment"
+    ],
+    "example": "The manager reprimanded the employee for being late.",
     "category": "core"
   },
   {
@@ -17532,6 +18371,26 @@
       "Leniency",
       "Ease"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Rigorous",
+    "meaning_en": "extremely thorough and careful",
+    "meaning_hi": "कठोर",
+    "synonyms": [
+      "Thorough",
+      "Strict",
+      "Harsh",
+      "Demanding",
+      "Exacting"
+    ],
+    "antonyms": [
+      "Lax",
+      "Easy",
+      "Lenient",
+      "Sloppy"
+    ],
+    "example": "The training was rigorous but rewarding.",
     "category": "core"
   },
   {
@@ -17895,6 +18754,26 @@
     "category": "core"
   },
   {
+    "word": "Scurrilous",
+    "meaning_en": "making false or abusive claims to damage someone",
+    "meaning_hi": "अपमानजनक",
+    "synonyms": [
+      "Defamatory",
+      "Slanderous",
+      "Abusive",
+      "Scandalous",
+      "Insulting"
+    ],
+    "antonyms": [
+      "Complimentary",
+      "Respectful",
+      "Praiseworthy",
+      "Polite"
+    ],
+    "example": "The scurrilous article damaged his reputation.",
+    "category": "core"
+  },
+  {
     "word": "Seclude",
     "meaning_hi": "एकांत करना",
     "meaning_en": "Isolate",
@@ -17967,6 +18846,26 @@
       "Calm",
       "Peaceful"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Segregate",
+    "meaning_en": "set apart from the main body",
+    "meaning_hi": "अलग करना",
+    "synonyms": [
+      "Separate",
+      "Isolate",
+      "Divide",
+      "Exclude",
+      "Partition"
+    ],
+    "antonyms": [
+      "Integrate",
+      "Unite",
+      "Mix",
+      "Combine"
+    ],
+    "example": "The students were segregated by age.",
     "category": "core"
   },
   {
@@ -18120,6 +19019,26 @@
     "category": "core"
   },
   {
+    "word": "Shun",
+    "meaning_en": "persistently avoid",
+    "meaning_hi": "दूर रहना",
+    "synonyms": [
+      "Avoid",
+      "Evade",
+      "Eschew",
+      "Spurn",
+      "Reject"
+    ],
+    "antonyms": [
+      "Seek",
+      "Welcome",
+      "Embrace",
+      "Accept"
+    ],
+    "example": "She shunned all publicity after the scandal.",
+    "category": "core"
+  },
+  {
     "word": "Significant",
     "meaning_hi": "महत्वपूर्ण",
     "meaning_en": "Important",
@@ -18162,6 +19081,26 @@
       "Benign",
       "Harmless"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Skeptic",
+    "meaning_en": "person who questions accepted opinions",
+    "meaning_hi": "संशयवादी",
+    "synonyms": [
+      "Doubter",
+      "Cynic",
+      "Questioner",
+      "Sceptic",
+      "Disbeliever"
+    ],
+    "antonyms": [
+      "Believer",
+      "Follower",
+      "Acceptor",
+      "Devotee"
+    ],
+    "example": "He was a skeptic who questioned every claim.",
     "category": "core"
   },
   {
@@ -18315,6 +19254,26 @@
     "category": "core"
   },
   {
+    "word": "Soothe",
+    "meaning_en": "gently calm or relieve",
+    "meaning_hi": "शांत करना",
+    "synonyms": [
+      "Calm",
+      "Comfort",
+      "Pacify",
+      "Relieve",
+      "Ease"
+    ],
+    "antonyms": [
+      "Agitate",
+      "Irritate",
+      "Provoke",
+      "Upset"
+    ],
+    "example": "A warm bath soothes tired muscles.",
+    "category": "core"
+  },
+  {
     "word": "Sophisticated",
     "meaning_hi": "परिष्कृत",
     "meaning_en": "Refined",
@@ -18360,6 +19319,26 @@
     "category": "core"
   },
   {
+    "word": "Speculate",
+    "meaning_en": "form theories without firm evidence",
+    "meaning_hi": "अनुमान लगाना",
+    "synonyms": [
+      "Theorize",
+      "Guess",
+      "Hypothesize",
+      "Wonder",
+      "Conjecture"
+    ],
+    "antonyms": [
+      "Know",
+      "Confirm",
+      "Verify",
+      "Prove"
+    ],
+    "example": "Experts speculated about the election result.",
+    "category": "core"
+  },
+  {
     "word": "Spontaneous",
     "meaning_hi": "स्वतःस्फूर्त",
     "meaning_en": "Unplanned",
@@ -18390,6 +19369,26 @@
     "category": "core"
   },
   {
+    "word": "Squander",
+    "meaning_en": "waste money recklessly",
+    "meaning_hi": "बर्बाद करना",
+    "synonyms": [
+      "Waste",
+      "Misuse",
+      "Fritter away",
+      "Dissipate",
+      "Blow"
+    ],
+    "antonyms": [
+      "Save",
+      "Conserve",
+      "Invest",
+      "Preserve"
+    ],
+    "example": "He squandered his inheritance in a year.",
+    "category": "core"
+  },
+  {
     "word": "Stable",
     "meaning_hi": "स्थिर",
     "meaning_en": "Steady",
@@ -18417,6 +19416,26 @@
       "Flowing",
       "Active"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Stagnate",
+    "meaning_en": "cease to develop or progress",
+    "meaning_hi": "ठहर जाना",
+    "synonyms": [
+      "Stall",
+      "Halt",
+      "Stand still",
+      "Decay",
+      "Vegetate"
+    ],
+    "antonyms": [
+      "Progress",
+      "Advance",
+      "Grow",
+      "Develop"
+    ],
+    "example": "The economy began to stagnate.",
     "category": "core"
   },
   {
@@ -18615,6 +19634,26 @@
     "category": "core"
   },
   {
+    "word": "Substantial",
+    "meaning_en": "of considerable importance or size",
+    "meaning_hi": "महत्वपूर्ण",
+    "synonyms": [
+      "Significant",
+      "Considerable",
+      "Large",
+      "Important",
+      "Ample"
+    ],
+    "antonyms": [
+      "Insignificant",
+      "Small",
+      "Minor",
+      "Trivial"
+    ],
+    "example": "She made a substantial contribution to the project.",
+    "category": "core"
+  },
+  {
     "word": "Subtle",
     "meaning_hi": "सूक्ष्म",
     "meaning_en": "Delicate",
@@ -18792,6 +19831,26 @@
       "Know",
       "Prove"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Surrender",
+    "meaning_en": "give up or yield to a power",
+    "meaning_hi": "आत्मसमर्पण",
+    "synonyms": [
+      "Yield",
+      "Submit",
+      "Capitulate",
+      "Concede",
+      "Resign"
+    ],
+    "antonyms": [
+      "Resist",
+      "Fight",
+      "Withstand",
+      "Overcome"
+    ],
+    "example": "The soldiers had to surrender at dawn.",
     "category": "core"
   },
   {
@@ -19065,6 +20124,26 @@
     "category": "core"
   },
   {
+    "word": "Tenacity",
+    "meaning_en": "persistence in achieving something",
+    "meaning_hi": "दृढ़ता",
+    "synonyms": [
+      "Persistence",
+      "Determination",
+      "Resolve",
+      "Firmness",
+      "Stubbornness"
+    ],
+    "antonyms": [
+      "Weakness",
+      "Irresolution",
+      "Giving up",
+      "Surrender"
+    ],
+    "example": "Her tenacity earned her the promotion.",
+    "category": "core"
+  },
+  {
     "word": "Tendency",
     "meaning_hi": "प्रवृत्ति",
     "meaning_en": "Inclination",
@@ -19230,6 +20309,26 @@
     "category": "core"
   },
   {
+    "word": "Thwart",
+    "meaning_en": "prevent someone from doing something",
+    "meaning_hi": "विफल करना",
+    "synonyms": [
+      "Frustrate",
+      "Block",
+      "Foil",
+      "Prevent",
+      "Hinder"
+    ],
+    "antonyms": [
+      "Help",
+      "Assist",
+      "Enable",
+      "Facilitate"
+    ],
+    "example": "Police thwarted the robbery attempt.",
+    "category": "core"
+  },
+  {
     "word": "Timid",
     "meaning_hi": "डरपोक",
     "meaning_en": "Shy",
@@ -19257,6 +20356,46 @@
       "Absence",
       "Lack"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Toil",
+    "meaning_en": "work extremely hard",
+    "meaning_hi": "कठोर परिश्रम",
+    "synonyms": [
+      "Labour",
+      "Work hard",
+      "Strive",
+      "Slog",
+      "Sweat"
+    ],
+    "antonyms": [
+      "Rest",
+      "Idle",
+      "Laze",
+      "Relax"
+    ],
+    "example": "Farmers toil in the fields all day.",
+    "category": "core"
+  },
+  {
+    "word": "Tolerant",
+    "meaning_en": "showing willingness to accept others",
+    "meaning_hi": "सहिष्णु",
+    "synonyms": [
+      "Open-minded",
+      "Broad-minded",
+      "Forbearing",
+      "Patient",
+      "Accepting"
+    ],
+    "antonyms": [
+      "Intolerant",
+      "Bigoted",
+      "Narrow-minded",
+      "Prejudiced"
+    ],
+    "example": "A tolerant society accepts diversity.",
     "category": "core"
   },
   {
@@ -20205,6 +21344,26 @@
     "category": "core"
   },
   {
+    "word": "Validate",
+    "meaning_en": "check or prove the validity of",
+    "meaning_hi": "मान्य करना",
+    "synonyms": [
+      "Confirm",
+      "Verify",
+      "Authenticate",
+      "Justify",
+      "Support"
+    ],
+    "antonyms": [
+      "Invalidate",
+      "Disprove",
+      "Refute",
+      "Deny"
+    ],
+    "example": "The experiment validated the hypothesis.",
+    "category": "core"
+  },
+  {
     "word": "Valor",
     "meaning_hi": "वीरता",
     "meaning_en": "Bravery",
@@ -20247,6 +21406,26 @@
       "Humility",
       "Modesty"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Vanquish",
+    "meaning_en": "defeat thoroughly",
+    "meaning_hi": "हराना",
+    "synonyms": [
+      "Defeat",
+      "Conquer",
+      "Overcome",
+      "Crush",
+      "Beat"
+    ],
+    "antonyms": [
+      "Surrender",
+      "Lose",
+      "Yield",
+      "Submit"
+    ],
+    "example": "The army vanquished the invaders.",
     "category": "core"
   },
   {
@@ -20337,6 +21516,26 @@
       "Despise",
       "Disrespect"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Vengeance",
+    "meaning_en": "punishment inflicted in retaliation",
+    "meaning_hi": "बदला",
+    "synonyms": [
+      "Revenge",
+      "Retribution",
+      "Retaliation",
+      "Reprisal",
+      "Payback"
+    ],
+    "antonyms": [
+      "Forgiveness",
+      "Mercy",
+      "Pardon",
+      "Clemency"
+    ],
+    "example": "He swore vengeance against those who wronged him.",
     "category": "core"
   },
   {
@@ -20820,6 +22019,26 @@
     "category": "core"
   },
   {
+    "word": "Warrant",
+    "meaning_en": "justify or make necessary",
+    "meaning_hi": "आदेश-पत्र",
+    "synonyms": [
+      "Justify",
+      "Authorize",
+      "Sanction",
+      "Merit",
+      "Deserve"
+    ],
+    "antonyms": [
+      "Forbid",
+      "Prohibit",
+      "Prevent",
+      "Deny"
+    ],
+    "example": "The situation warrants immediate action.",
+    "category": "core"
+  },
+  {
     "word": "Wary",
     "meaning_hi": "सतर्क",
     "meaning_en": "Cautious",
@@ -20925,6 +22144,26 @@
     "category": "core"
   },
   {
+    "word": "Whim",
+    "meaning_en": "a sudden desire or change of mind",
+    "meaning_hi": "मनमर्जी",
+    "synonyms": [
+      "Fancy",
+      "Impulse",
+      "Caprice",
+      "Notion",
+      "Urge"
+    ],
+    "antonyms": [
+      "Plan",
+      "Decision",
+      "Purpose",
+      "Resolution"
+    ],
+    "example": "She bought the dress on a whim.",
+    "category": "core"
+  },
+  {
     "word": "Whimsical",
     "meaning_hi": "सनकी",
     "meaning_en": "Playfully unpredictable",
@@ -21012,6 +22251,26 @@
       "Endure",
       "Bear"
     ],
+    "category": "core"
+  },
+  {
+    "word": "Wisdom",
+    "meaning_en": "knowledge and good judgement",
+    "meaning_hi": "बुद्धिमत्ता",
+    "synonyms": [
+      "Sagacity",
+      "Prudence",
+      "Insight",
+      "Discernment",
+      "Intelligence"
+    ],
+    "antonyms": [
+      "Foolishness",
+      "Ignorance",
+      "Stupidity",
+      "Rashness"
+    ],
+    "example": "With age comes wisdom.",
     "category": "core"
   },
   {

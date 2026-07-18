@@ -27,7 +27,7 @@
     "correct_answer": "How",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Fill in the Blanks (Question Word)",
+    "topic": "Fill in the Blanks",
     "difficulty": "Easy",
     "explanation": "'How' correctly asks about the manner/method by which policy makers can act."
   },
@@ -43,7 +43,7 @@
     "correct_answer": "A",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Easy",
     "explanation": "'They needs' is a subject-verb disagreement; plural subject 'They' requires 'need', not 'needs'."
   },
@@ -59,7 +59,7 @@
     "correct_answer": "C",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "'is use to' is incorrect; the correct idiom is 'is used to' (having her opinions valued)."
   },
@@ -75,7 +75,7 @@
     "correct_answer": "A",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Easy",
     "explanation": "'has being working' is incorrect present perfect continuous construction; it should be 'has been working'."
   },
@@ -91,7 +91,7 @@
     "correct_answer": "B",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "In reported/indirect speech following past tense 'said', the modal should shift to 'would review', not 'will review'."
   },
@@ -107,7 +107,7 @@
     "correct_answer": "C",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "With 'neither...nor', the verb agrees with the subject nearer to it ('students', plural), so it should be 'were aware', not 'was aware'."
   },
@@ -235,7 +235,7 @@
     "correct_answer": "appear",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Vocabulary (Contextual Usage)",
+    "topic": "Vocabulary",
     "difficulty": "Easy",
     "explanation": "Here 'look' means 'appear/seem', not the physical act of watching or observing."
   },
@@ -251,7 +251,7 @@
     "correct_answer": "cease",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Vocabulary (Antonyms)",
+    "topic": "Antonym",
     "difficulty": "Easy",
     "explanation": "'Cease' (to stop) is the direct antonym of 'begin' (to start); 'start' and 'initiate' are synonyms, not antonyms."
   },
@@ -267,7 +267,7 @@
     "correct_answer": "purchased",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Vocabulary (Contextual Usage)",
+    "topic": "Vocabulary",
     "difficulty": "Difficult",
     "explanation": "Judgment call: none of the options is a perfect synonym for 'took' in the sense of 'claimed/acquired'; 'purchased' is selected as the closest match denoting acquiring ownership, though it isn't an exact fit for this figurative usage."
   },
@@ -283,7 +283,7 @@
     "correct_answer": "C-E, A-F, B-D",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Sentence Completion (Column Matching)",
+    "topic": "Sentence Completion",
     "difficulty": "Moderate",
     "explanation": "All three pairs form complete, sensible sentences: 'The old clock in the hallway chimed softly at midnight' (A-F), 'The child's laughter echoed through the empty playground' (B-D), 'She took the antiseptic from the bottle and put it on the cotton ball' (C-E)."
   },
@@ -395,7 +395,7 @@
     "correct_answer": "CBA",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Sentence Rearrangement (Word Order)",
+    "topic": "Sentence Rearrangement",
     "difficulty": "Moderate",
     "explanation": "Correct sentence: 'The alarm noise of the morning irritated her.' — order should be C (alarm noise), B (of the morning), A (irritated)."
   },
@@ -411,7 +411,7 @@
     "correct_answer": "BAC",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Sentence Rearrangement (Word Order)",
+    "topic": "Sentence Rearrangement",
     "difficulty": "Difficult",
     "explanation": "Judgment call (source phrasing is imperfect — 'struck' appears intended as 'stuck'): Correct sense — 'She was stuck trying to climb and couldn't figure out the way.' — order B (stuck), A (climb), C (figure)."
   },
@@ -427,7 +427,7 @@
     "correct_answer": "CAB",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Sentence Rearrangement (Word Order)",
+    "topic": "Sentence Rearrangement",
     "difficulty": "Moderate",
     "explanation": "Correct sentence: 'The sudden rain cooled the scorching afternoon.' — order should be C (sudden), A (cooled), B (scorching)."
   },
@@ -443,7 +443,7 @@
     "correct_answer": "Both B and C",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Vocabulary (Word Usage)",
+    "topic": "Vocabulary",
     "difficulty": "Moderate",
     "explanation": "'Ascend' means to rise or climb upward, correctly used for profits rising (B) and hikers climbing (C). Sentence (A) misuses it — de-escalating a conversation is not 'ascending' it."
   },
@@ -603,7 +603,7 @@
     "correct_answer": "Profound",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Vocabulary (Contextual Usage)",
+    "topic": "Vocabulary",
     "difficulty": "Easy",
     "explanation": "Here 'deep' figuratively means profound/significant, not physically deep as in 'bottomless'."
   },
@@ -635,7 +635,7 @@
     "correct_answer": "Method",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Vocabulary (Contextual Usage)",
+    "topic": "Vocabulary",
     "difficulty": "Easy",
     "explanation": "'Approach' here refers to a method/strategy (eliminating single-use plastics), not physical arrival or entrance."
   },
@@ -651,7 +651,7 @@
     "correct_answer": "Both (I) and (III)",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Vocabulary (Word Usage)",
+    "topic": "Vocabulary",
     "difficulty": "Moderate",
     "explanation": "'Sow' correctly means to plant seeds, as in (I) and (III). Sentence (II) confuses 'sow' with 'sew' (to stitch a button), which is incorrect."
   },
@@ -747,7 +747,7 @@
     "correct_answer": "D",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Easy",
     "explanation": "'guests was supposed' is a subject-verb disagreement; plural 'guests' requires 'were supposed'."
   },
@@ -763,7 +763,7 @@
     "correct_answer": "D",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "'too far to being caught' is incorrect; the correct form is 'too far to be caught'."
   },
@@ -779,7 +779,7 @@
     "correct_answer": "C",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Easy",
     "explanation": "'must submitting' is incorrect; after the modal 'must', the base form is required: 'must submit'."
   },
@@ -795,7 +795,7 @@
     "correct_answer": "B",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "With 'neither...nor', the verb agrees with the nearer subject 'assistants' (plural), so it should be 'were informed'."
   },
@@ -811,7 +811,7 @@
     "correct_answer": "C",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "'so quick' should be the adverb 'so quickly', since it modifies the verb 'arrived'."
   },
@@ -907,7 +907,7 @@
     "correct_answer": "B-D",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Sentence Correction (Word Swap)",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "Correct: 'After finishing her chores, the maid put the dishes neatly in the kitchen.' — words B (dishes) and D (chores) must swap."
   },
@@ -923,7 +923,7 @@
     "correct_answer": "B-D & C-E",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Sentence Correction (Word Swap)",
+    "topic": "Error Spotting",
     "difficulty": "Difficult",
     "explanation": "Judgment call (source sentence appears garbled/OCR-affected): best-fit reconstruction — 'Before starting his lecture, the writer revised his research notes carefully' — implying B (writer) and D swap, and C (notes) and E (research) swap."
   },
@@ -939,7 +939,7 @@
     "correct_answer": "No interchange required",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Sentence Correction (Word Swap)",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "The sentence 'He realized he lost his book at school when the teacher asked him to read' is already grammatically and logically coherent as given."
   },
@@ -955,7 +955,7 @@
     "correct_answer": "A-E & B-C",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Sentence Correction (Word Swap)",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "Correct: 'He arrived late at the airport because of heavy morning traffic and missed his important flight.' — words A (morning) and E (late) swap, and words B (heavy) and C (airport) swap."
   },
@@ -1163,7 +1163,7 @@
     "correct_answer": "Resulting",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Vocabulary (Contextual Usage)",
+    "topic": "Vocabulary",
     "difficulty": "Easy",
     "explanation": "'Leading to' here means 'resulting in', describing a cause-and-effect outcome."
   },
@@ -1179,7 +1179,7 @@
     "correct_answer": "Action",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Vocabulary (Contextual Usage)",
+    "topic": "Vocabulary",
     "difficulty": "Easy",
     "explanation": "'Move' here means a decisive action/step taken, not physical relocation or migration."
   },
@@ -1275,7 +1275,7 @@
     "correct_answer": "A",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Easy",
     "explanation": "'The tourists was informed' has a subject-verb disagreement; plural 'tourists' requires 'were informed'."
   },
@@ -1291,7 +1291,7 @@
     "correct_answer": "C",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "The construction breaks parallel structure ('as both effective and was easy...'); it should read 'and easy to implement' to match 'effective'."
   },
@@ -1307,7 +1307,7 @@
     "correct_answer": "No error",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "The sentence is grammatically correct; the relative pronoun ('that/which') can be correctly omitted in this object position."
   },
@@ -1323,7 +1323,7 @@
     "correct_answer": "B",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "'A number of' takes a plural verb, so it should be 'have been spotted', not 'has been spotted'."
   },
@@ -1339,7 +1339,7 @@
     "correct_answer": "B",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "Sequence of tenses requires 'could' (matching past tense 'practiced'), not 'can'."
   },
@@ -1355,7 +1355,7 @@
     "correct_answer": "CBA",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Sentence Rearrangement (Word Order)",
+    "topic": "Sentence Rearrangement",
     "difficulty": "Moderate",
     "explanation": "Correct sentence: 'Himachal Pradesh banned mobile use in government schools to improve focus and well-being.' — words A (improve) and C (banned) must swap, giving the order C-B-A."
   },
@@ -1371,7 +1371,7 @@
     "correct_answer": "ACB",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Sentence Rearrangement (Word Order)",
+    "topic": "Sentence Rearrangement",
     "difficulty": "Moderate",
     "explanation": "Correct sentence: 'Karnataka launched the Deepika Scholarship, giving ₹30,000 yearly to 37,000 schoolgirls in higher education.' — order should be A (launched), C (giving), B (higher)."
   },
@@ -1387,7 +1387,7 @@
     "correct_answer": "BAC",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Sentence Rearrangement (Word Order)",
+    "topic": "Sentence Rearrangement",
     "difficulty": "Moderate",
     "explanation": "Correct sentence: 'Gurgaon's Ward 22 is becoming a zero-waste model with composting, segregation, and community efforts.' — order should be B (becoming), A (composting), C (community)."
   },
@@ -1403,7 +1403,7 @@
     "correct_answer": "Both A and B",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Vocabulary (Word Usage)",
+    "topic": "Vocabulary",
     "difficulty": "Moderate",
     "explanation": "(A) correctly uses 'curse' to mean misfortune/affliction, and (B) correctly uses it to mean a swear word. (C) misuses 'curse' where 'word/token of appreciation' would be contextually appropriate — a curse is negative, not a gesture of thanks."
   },
@@ -1419,7 +1419,7 @@
     "correct_answer": "to take care of all",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Error Detection (Sentence Improvement)",
+    "topic": "Error Spotting",
     "difficulty": "Easy",
     "explanation": "After 'instructed the staff to', the base infinitive form is required: 'to take care of', not 'to took care of'."
   },
@@ -1435,7 +1435,7 @@
     "correct_answer": "to attend the workshop",
     "exam": "SBI Clerk",
     "year": "2025",
-    "topic": "Error Detection (Sentence Improvement)",
+    "topic": "Error Spotting",
     "difficulty": "Easy",
     "explanation": "'Excited to attend' is the correct idiomatic construction; 'excited for attend' is grammatically incorrect."
   }

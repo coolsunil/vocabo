@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../data/category_sources.dart';
+import '../utils/app_colors.dart';
 import '../data/practice_stats_store.dart';
 import '../data/premium_store.dart';
 import '../data/weak_areas_store.dart';
@@ -1042,7 +1043,7 @@ class _PracticeScreenState extends State<PracticeScreen> {
     final wrongCount = _lastTotal - _lastCorrectCount - skippedCount;
 
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F7FA),
+      backgroundColor: context.scaffoldBg,
       appBar: AppBar(
         backgroundColor: const Color(0xFF1F3C6D),
         foregroundColor: Colors.white,
@@ -1086,34 +1087,34 @@ class _PracticeScreenState extends State<PracticeScreen> {
             Container(
               padding: const EdgeInsets.all(20),
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: context.cardBg,
                 borderRadius: BorderRadius.circular(20),
-                border: Border.all(color: const Color(0xFFE2E8F0)),
+                border: Border.all(color: context.borderSubtle),
               ),
               child: Column(
                 children: [
                   const Icon(Icons.check_circle_rounded, color: Color(0xFF22C55E), size: 52),
                   const SizedBox(height: 10),
-                  const Text('Submitted!', style: TextStyle(fontSize: 22, fontWeight: FontWeight.w800, color: Color(0xFF0F172A))),
+                  Text('Submitted!', style: TextStyle(fontSize: 22, fontWeight: FontWeight.w800, color: context.textPrimary)),
                   const SizedBox(height: 20),
                   Row(
                     children: [
-                      Expanded(child: _ResultStatCard(label: 'Score', value: '$_lastCorrectCount/$_lastTotal', valueColor: const Color(0xFF0F172A), backgroundColor: const Color(0xFFF8FAFC))),
+                      Expanded(child: _ResultStatCard(label: 'Score', value: '$_lastCorrectCount/$_lastTotal', valueColor: context.textPrimary, backgroundColor: context.surfaceMuted)),
                       const SizedBox(width: 10),
-                      Expanded(child: _ResultStatCard(label: 'Accuracy', value: '$_lastPercent%', valueColor: const Color(0xFF0F766E), backgroundColor: const Color(0xFFF0FDFA))),
+                      Expanded(child: _ResultStatCard(label: 'Accuracy', value: '$_lastPercent%', valueColor: const Color(0xFF0F766E), backgroundColor: context.isDark ? const Color(0xFF0D9488).withValues(alpha: 0.15) : const Color(0xFFF0FDFA))),
                     ],
                   ),
                   const SizedBox(height: 10),
                   Row(
                     children: [
-                      Expanded(child: _ResultStatCard(label: 'Correct', value: '$_lastCorrectCount', valueColor: const Color(0xFF15803D), backgroundColor: const Color(0xFFF0FDF4))),
+                      Expanded(child: _ResultStatCard(label: 'Correct', value: '$_lastCorrectCount', valueColor: const Color(0xFF15803D), backgroundColor: context.isDark ? const Color(0xFF15803D).withValues(alpha: 0.15) : const Color(0xFFF0FDF4))),
                       const SizedBox(width: 10),
-                      Expanded(child: _ResultStatCard(label: 'Wrong', value: '$wrongCount', valueColor: const Color(0xFFDC2626), backgroundColor: const Color(0xFFFEF2F2))),
+                      Expanded(child: _ResultStatCard(label: 'Wrong', value: '$wrongCount', valueColor: const Color(0xFFDC2626), backgroundColor: context.isDark ? const Color(0xFFDC2626).withValues(alpha: 0.15) : const Color(0xFFFEF2F2))),
                     ],
                   ),
                   if (skippedCount > 0) ...[
                     const SizedBox(height: 10),
-                    _ResultStatCard(label: 'Skipped', value: '$skippedCount', valueColor: const Color(0xFFB45309), backgroundColor: const Color(0xFFFFFBEB)),
+                    _ResultStatCard(label: 'Skipped', value: '$skippedCount', valueColor: const Color(0xFFB45309), backgroundColor: context.isDark ? const Color(0xFFB45309).withValues(alpha: 0.15) : const Color(0xFFFFFBEB)),
                   ],
                   if (!_isWeakAreasMode && _prevBestScore > 0) ...[
                     const SizedBox(height: 12),
@@ -1151,13 +1152,17 @@ class _PracticeScreenState extends State<PracticeScreen> {
             else
               Container(
                 padding: const EdgeInsets.all(14),
-                decoration: BoxDecoration(color: const Color(0xFFEFF6FF), borderRadius: BorderRadius.circular(14), border: Border.all(color: const Color(0xFFBFDBFE))),
+                decoration: BoxDecoration(
+                  color: context.isDark ? const Color(0xFF1E3A5F) : const Color(0xFFEFF6FF),
+                  borderRadius: BorderRadius.circular(14),
+                  border: Border.all(color: context.isDark ? const Color(0xFF1D4ED8).withValues(alpha: 0.4) : const Color(0xFFBFDBFE)),
+                ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text('Best Performance', style: TextStyle(fontSize: 13, fontWeight: FontWeight.w700, color: Color(0xFF475569))),
+                    Text('Best Performance', style: TextStyle(fontSize: 13, fontWeight: FontWeight.w700, color: context.textSecondary)),
                     const SizedBox(height: 8),
-                    Text('Best Score: $bestScore/$_lastTotal', style: const TextStyle(fontWeight: FontWeight.w700, color: Color(0xFF0F172A))),
+                    Text('Best Score: $bestScore/$_lastTotal', style: TextStyle(fontWeight: FontWeight.w700, color: context.textPrimary)),
                     const SizedBox(height: 4),
                     Text('Best Accuracy: $bestAccuracy%', style: const TextStyle(fontWeight: FontWeight.w700, color: Color(0xFF1D4ED8))),
                   ],
@@ -1189,8 +1194,8 @@ class _PracticeScreenState extends State<PracticeScreen> {
                   child: OutlinedButton(
                     onPressed: () => Navigator.pop(context),
                     style: OutlinedButton.styleFrom(
-                      side: const BorderSide(color: Color(0xFFCBD5E1)),
-                      foregroundColor: const Color(0xFF475569),
+                      side: BorderSide(color: context.borderMedium),
+                      foregroundColor: context.textSecondary,
                       padding: const EdgeInsets.symmetric(vertical: 14),
                     ),
                     child: const Text('Close'),
@@ -1201,8 +1206,8 @@ class _PracticeScreenState extends State<PracticeScreen> {
                   child: OutlinedButton(
                     onPressed: _restartCurrentSet,
                     style: OutlinedButton.styleFrom(
-                      side: const BorderSide(color: Color(0xFF1F3C6D)),
-                      foregroundColor: const Color(0xFF1F3C6D),
+                      side: BorderSide(color: context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D)),
+                      foregroundColor: context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D),
                       padding: const EdgeInsets.symmetric(vertical: 14),
                     ),
                     child: const Text('Repeat'),
@@ -1242,14 +1247,14 @@ class _PracticeScreenState extends State<PracticeScreen> {
 
     if (isLocked) {
       return Scaffold(
-        backgroundColor: const Color(0xFFF5F7FA),
+        backgroundColor: context.scaffoldBg,
         appBar: AppBar(backgroundColor: const Color(0xFF1F3C6D), foregroundColor: Colors.white, title: Text('${widget.title} Practice')),
         body: Center(
           child: Padding(
             padding: const EdgeInsets.all(24),
             child: Container(
               padding: const EdgeInsets.all(24),
-              decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(20), border: Border.all(color: const Color(0xFFE2E8F0))),
+              decoration: BoxDecoration(color: context.cardBg, borderRadius: BorderRadius.circular(20), border: Border.all(color: context.borderSubtle)),
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
@@ -1262,7 +1267,7 @@ class _PracticeScreenState extends State<PracticeScreen> {
                   Text(
                     _isMixedQuiz ? 'Daily mixed quiz limit reached' : 'Daily practice limit reached',
                     textAlign: TextAlign.center,
-                    style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w700, color: Color(0xFF0F172A)),
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700, color: context.textPrimary),
                   ),
                   const SizedBox(height: 8),
                   Text(
@@ -1270,10 +1275,10 @@ class _PracticeScreenState extends State<PracticeScreen> {
                         ? 'Free plan includes $freeMixedQuizAttemptsPerDay Take a Quiz session per day. Unlock premium for unlimited mixed quizzes.'
                         : 'Free plan includes $freePracticeAttemptsPerDay practice sessions per category each day. Unlock premium for unlimited practice.',
                     textAlign: TextAlign.center,
-                    style: const TextStyle(color: Color(0xFF64748B), height: 1.45),
+                    style: TextStyle(color: context.textSecondary, height: 1.45),
                   ),
                   const SizedBox(height: 14),
-                  Text('Remaining today: $remainingSessions', style: const TextStyle(color: Color(0xFF475569), fontWeight: FontWeight.w600)),
+                  Text('Remaining today: $remainingSessions', style: TextStyle(color: context.textSecondary, fontWeight: FontWeight.w600)),
                   const SizedBox(height: 18),
                   ElevatedButton(
                     onPressed: () {
@@ -1294,7 +1299,7 @@ class _PracticeScreenState extends State<PracticeScreen> {
     if (questions.isEmpty) {
       return Scaffold(
         appBar: AppBar(title: const Text('Practice'), backgroundColor: const Color(0xFF1F3C6D), foregroundColor: Colors.white),
-        body: const Center(child: Text('Not enough data to generate practice questions.', style: TextStyle(color: Color(0xFF475569)), textAlign: TextAlign.center)),
+        body: Center(child: Text('Not enough data to generate practice questions.', style: TextStyle(color: context.textSecondary), textAlign: TextAlign.center)),
       );
     }
 
@@ -1304,7 +1309,7 @@ class _PracticeScreenState extends State<PracticeScreen> {
     final showFreeTierInfo = !premiumUnlocked;
 
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F7FA),
+      backgroundColor: context.scaffoldBg,
       appBar: AppBar(
         backgroundColor: const Color(0xFF1F3C6D),
         foregroundColor: Colors.white,
@@ -1330,9 +1335,9 @@ class _PracticeScreenState extends State<PracticeScreen> {
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
                 decoration: BoxDecoration(
-                  color: const Color(0xFFEFF6FF),
+                  color: context.isDark ? const Color(0xFF1E3A5F) : const Color(0xFFEFF6FF),
                   borderRadius: BorderRadius.circular(14),
-                  border: Border.all(color: const Color(0xFFBFDBFE)),
+                  border: Border.all(color: context.isDark ? const Color(0xFF1D4ED8).withValues(alpha: 0.4) : const Color(0xFFBFDBFE)),
                 ),
                 child: Row(
                   children: [
@@ -1344,23 +1349,23 @@ class _PracticeScreenState extends State<PracticeScreen> {
                         style: const TextStyle(fontWeight: FontWeight.w700, color: Color(0xFF1D4ED8), fontSize: 15),
                       ),
                     ),
-                    const Text('Answer correctly to remove', style: TextStyle(color: Color(0xFF64748B), fontSize: 11)),
+                    Text('Answer correctly to remove', style: TextStyle(color: context.textSecondary, fontSize: 11)),
                   ],
                 ),
               )
             else
               Container(
                 padding: const EdgeInsets.all(14),
-                decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(14), border: Border.all(color: const Color(0xFFE2E8F0))),
+                decoration: BoxDecoration(color: context.cardBg, borderRadius: BorderRadius.circular(14), border: Border.all(color: context.borderSubtle)),
                 child: Row(
                   children: [
                     Expanded(child: _StatBox(label: 'Best Score', value: '$bestScore/${questions.length}')),
-                    Container(width: 1, height: 40, color: const Color(0xFFE2E8F0)),
+                    Container(width: 1, height: 40, color: context.borderSubtle),
                     Expanded(child: Padding(
                       padding: const EdgeInsets.only(left: 14),
                       child: _StatBox(label: 'Avg Score', value: attempts > 0 ? '$averageScore/${questions.length}' : '—'),
                     )),
-                    Container(width: 1, height: 40, color: const Color(0xFFE2E8F0)),
+                    Container(width: 1, height: 40, color: context.borderSubtle),
                     Expanded(child: Padding(
                       padding: const EdgeInsets.only(left: 14),
                       child: _StatBox(label: 'Attempts', value: attempts > 0 ? '$attempts' : '—'),
@@ -1391,11 +1396,15 @@ class _PracticeScreenState extends State<PracticeScreen> {
             // Progress row
             Row(
               children: [
-                Text('Question ${currentIndex + 1} of ${questions.length}', style: const TextStyle(color: Color(0xFF334155), fontWeight: FontWeight.w600)),
+                Text('Question ${currentIndex + 1} of ${questions.length}', style: TextStyle(color: context.textSecondary, fontWeight: FontWeight.w600)),
                 const Spacer(),
                 Container(
                   padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-                  decoration: BoxDecoration(color: const Color(0xFFEFF6FF), borderRadius: BorderRadius.circular(8), border: Border.all(color: const Color(0xFFBFDBFE))),
+                  decoration: BoxDecoration(
+                    color: context.isDark ? const Color(0xFF1E3A5F) : const Color(0xFFEFF6FF),
+                    borderRadius: BorderRadius.circular(8),
+                    border: Border.all(color: context.isDark ? const Color(0xFF1D4ED8).withValues(alpha: 0.4) : const Color(0xFFBFDBFE)),
+                  ),
                   child: Text(
                     'Answered: $_answeredCount/${questions.length}',
                     style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w700, color: Color(0xFF1D4ED8)),
@@ -1408,14 +1417,14 @@ class _PracticeScreenState extends State<PracticeScreen> {
               value: _answeredCount / questions.length,
               minHeight: 8,
               borderRadius: BorderRadius.circular(999),
-              backgroundColor: const Color(0xFFE2E8F0),
+              backgroundColor: context.borderSubtle,
               color: const Color(0xFF22C55E),
             ),
             const SizedBox(height: 16),
             // Question card
             Container(
               padding: const EdgeInsets.all(14),
-              decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(14), border: Border.all(color: const Color(0xFFE2E8F0))),
+              decoration: BoxDecoration(color: context.cardBg, borderRadius: BorderRadius.circular(14), border: Border.all(color: context.borderSubtle)),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -1435,14 +1444,14 @@ class _PracticeScreenState extends State<PracticeScreen> {
                         onTap: _toggleBookmark,
                         child: Icon(
                           isBookmarked ? Icons.bookmark_rounded : Icons.bookmark_border_rounded,
-                          color: isBookmarked ? const Color(0xFF1F3C6D) : const Color(0xFF94A3B8),
+                          color: isBookmarked ? (context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D)) : context.textSecondary,
                           size: 22,
                         ),
                       ),
                     ],
                   ),
                   const SizedBox(height: 10),
-                  Text(question.prompt, style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w600, color: Color(0xFF0F172A), height: 1.4)),
+                  Text(question.prompt, style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600, color: context.textPrimary, height: 1.4)),
                 ],
               ),
             ),
@@ -1462,10 +1471,10 @@ class _PracticeScreenState extends State<PracticeScreen> {
                       margin: const EdgeInsets.only(bottom: 10),
                       padding: const EdgeInsets.all(14),
                       decoration: BoxDecoration(
-                        color: isSelected ? const Color(0xFFEFF6FF) : Colors.white,
+                        color: isSelected ? (context.isDark ? const Color(0xFF1E3A5F) : const Color(0xFFEFF6FF)) : context.cardBg,
                         borderRadius: BorderRadius.circular(12),
                         border: Border.all(
-                          color: isSelected ? const Color(0xFF1F3C6D) : const Color(0xFFE2E8F0),
+                          color: isSelected ? const Color(0xFF1F3C6D) : context.borderSubtle,
                           width: isSelected ? 2 : 1,
                         ),
                       ),
@@ -1476,7 +1485,7 @@ class _PracticeScreenState extends State<PracticeScreen> {
                             height: 28,
                             decoration: BoxDecoration(
                               shape: BoxShape.circle,
-                              color: isSelected ? const Color(0xFF1F3C6D) : const Color(0xFFF1F5F9),
+                              color: isSelected ? const Color(0xFF1F3C6D) : context.surfaceMuted,
                             ),
                             child: Center(
                               child: Text(
@@ -1484,7 +1493,7 @@ class _PracticeScreenState extends State<PracticeScreen> {
                                 style: TextStyle(
                                   fontWeight: FontWeight.w700,
                                   fontSize: 13,
-                                  color: isSelected ? Colors.white : const Color(0xFF64748B),
+                                  color: isSelected ? Colors.white : context.textSecondary,
                                 ),
                               ),
                             ),
@@ -1495,7 +1504,7 @@ class _PracticeScreenState extends State<PracticeScreen> {
                               option,
                               style: TextStyle(
                                 fontSize: 15,
-                                color: isSelected ? const Color(0xFF1F3C6D) : const Color(0xFF1E293B),
+                                color: isSelected ? const Color(0xFF1F3C6D) : context.textPrimary,
                                 fontWeight: isSelected ? FontWeight.w600 : FontWeight.normal,
                               ),
                             ),
@@ -1517,8 +1526,8 @@ class _PracticeScreenState extends State<PracticeScreen> {
                     icon: const Icon(Icons.arrow_back_rounded, size: 18),
                     label: const Text('Prev'),
                     style: OutlinedButton.styleFrom(
-                      side: const BorderSide(color: Color(0xFFCBD5E1)),
-                      foregroundColor: const Color(0xFF475569),
+                      side: BorderSide(color: context.borderMedium),
+                      foregroundColor: context.textSecondary,
                       padding: const EdgeInsets.symmetric(vertical: 12),
                     ),
                   ),
@@ -1527,8 +1536,8 @@ class _PracticeScreenState extends State<PracticeScreen> {
                 OutlinedButton(
                   onPressed: _showQuestionGrid,
                   style: OutlinedButton.styleFrom(
-                    side: const BorderSide(color: Color(0xFFCBD5E1)),
-                    foregroundColor: const Color(0xFF475569),
+                    side: BorderSide(color: context.borderMedium),
+                    foregroundColor: context.textSecondary,
                     padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
                   ),
                   child: const Icon(Icons.grid_view_rounded, size: 20),
@@ -1541,8 +1550,8 @@ class _PracticeScreenState extends State<PracticeScreen> {
                     label: const Text('Next'),
                     iconAlignment: IconAlignment.end,
                     style: OutlinedButton.styleFrom(
-                      side: const BorderSide(color: Color(0xFFCBD5E1)),
-                      foregroundColor: const Color(0xFF475569),
+                      side: BorderSide(color: context.borderMedium),
+                      foregroundColor: context.textSecondary,
                       padding: const EdgeInsets.symmetric(vertical: 12),
                     ),
                   ),
@@ -1647,22 +1656,22 @@ class _QuestionGridSheet extends StatelessWidget {
           children: [
             Row(
               children: [
-                const Text('Jump to Question', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700, color: Color(0xFF0F172A))),
+                Text('Jump to Question', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700, color: context.textPrimary)),
                 const Spacer(),
                 GestureDetector(
                   onTap: () => Navigator.pop(context),
-                  child: const Icon(Icons.close_rounded, color: Color(0xFF64748B)),
+                  child: Icon(Icons.close_rounded, color: context.textSecondary),
                 ),
               ],
             ),
             const SizedBox(height: 12),
             Row(
               children: [
-                _legendDot(Colors.white, const Color(0xFFE2E8F0), 'Unanswered'),
+                _legendDot(context.cardBg, context.borderSubtle, 'Unanswered', textColor: context.textSecondary),
                 const SizedBox(width: 16),
                 _legendDot(const Color(0xFF1F3C6D), const Color(0xFF1F3C6D), 'Answered', textColor: Colors.white),
                 const SizedBox(width: 16),
-                _legendDot(const Color(0xFF22C55E).withValues(alpha: 0.15), const Color(0xFF22C55E), 'Current'),
+                _legendDot(const Color(0xFF22C55E).withValues(alpha: 0.15), const Color(0xFF22C55E), 'Current', textColor: context.textSecondary),
               ],
             ),
             const SizedBox(height: 16),
@@ -1689,10 +1698,10 @@ class _QuestionGridSheet extends StatelessWidget {
                           ? const Color(0xFF22C55E).withValues(alpha: 0.12)
                           : isAnswered
                               ? const Color(0xFF1F3C6D)
-                              : Colors.white,
+                              : context.cardBg,
                       borderRadius: BorderRadius.circular(10),
                       border: Border.all(
-                        color: isCurrent ? const Color(0xFF22C55E) : isAnswered ? const Color(0xFF1F3C6D) : const Color(0xFFE2E8F0),
+                        color: isCurrent ? const Color(0xFF22C55E) : isAnswered ? const Color(0xFF1F3C6D) : context.borderSubtle,
                         width: isCurrent ? 2 : 1.5,
                       ),
                     ),
@@ -1704,7 +1713,7 @@ class _QuestionGridSheet extends StatelessWidget {
                             style: TextStyle(
                               fontWeight: FontWeight.w700,
                               fontSize: 14,
-                              color: isAnswered && !isCurrent ? Colors.white : const Color(0xFF334155),
+                              color: isAnswered && !isCurrent ? Colors.white : context.textSecondary,
                             ),
                           ),
                         ),
@@ -1715,7 +1724,7 @@ class _QuestionGridSheet extends StatelessWidget {
                             child: Icon(
                               Icons.bookmark_rounded,
                               size: 10,
-                              color: isAnswered ? Colors.white70 : const Color(0xFF1F3C6D),
+                              color: isAnswered ? Colors.white70 : (context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D)),
                             ),
                           ),
                       ],
@@ -1730,7 +1739,7 @@ class _QuestionGridSheet extends StatelessWidget {
     );
   }
 
-  Widget _legendDot(Color bg, Color border, String label, {Color textColor = const Color(0xFF334155)}) {
+  Widget _legendDot(Color bg, Color border, String label, {Color? textColor}) {
     return Row(
       children: [
         Container(
@@ -1738,7 +1747,7 @@ class _QuestionGridSheet extends StatelessWidget {
           decoration: BoxDecoration(color: bg, border: Border.all(color: border), borderRadius: BorderRadius.circular(4)),
         ),
         const SizedBox(width: 5),
-        Text(label, style: const TextStyle(fontSize: 11, color: Color(0xFF64748B))),
+        Text(label, style: TextStyle(fontSize: 11, color: textColor ?? const Color(0xFF64748B))),
       ],
     );
   }
@@ -1759,7 +1768,7 @@ class _ReviewPage extends StatelessWidget {
     return DefaultTabController(
       length: hasBookmarks ? 2 : 1,
       child: Scaffold(
-        backgroundColor: const Color(0xFFF5F7FA),
+        backgroundColor: context.scaffoldBg,
         appBar: AppBar(
           backgroundColor: const Color(0xFF1F3C6D),
           foregroundColor: Colors.white,
@@ -1796,7 +1805,7 @@ class _QuestionList extends StatelessWidget {
   Widget build(BuildContext context) {
     final indices = List.generate(questions.length, (i) => i).where((i) => !filterBookmarked || bookmarkedIndices.contains(i)).toList();
     if (indices.isEmpty) {
-      return const Center(child: Text('No bookmarked questions.', style: TextStyle(color: Color(0xFF64748B))));
+      return Center(child: Text('No bookmarked questions.', style: TextStyle(color: context.textSecondary)));
     }
     return ListView.builder(
       padding: const EdgeInsets.all(16),
@@ -1829,7 +1838,7 @@ class _QuestionList extends StatelessWidget {
         return Container(
           margin: const EdgeInsets.only(bottom: 12),
           decoration: BoxDecoration(
-            color: Colors.white,
+            color: context.cardBg,
             borderRadius: BorderRadius.circular(14),
             border: Border.all(color: statusColor.withValues(alpha: 0.25), width: 1.5),
           ),
@@ -1854,23 +1863,23 @@ class _QuestionList extends StatelessWidget {
                   ],
                 ),
               ),
-              const Divider(height: 1, color: Color(0xFFF1F5F9)),
+              Divider(height: 1, color: context.borderSubtle),
               Padding(
                 padding: const EdgeInsets.all(14),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(q.prompt, style: const TextStyle(fontSize: 15, color: Color(0xFF0F172A), height: 1.45)),
+                    Text(q.prompt, style: TextStyle(fontSize: 15, color: context.textPrimary, height: 1.45)),
                     const SizedBox(height: 12),
                     if (!isCorrect && !isSkipped && sel >= 0 && sel < q.options.length) ...[
-                      _answerRow(label: 'Your Answer', text: q.options[sel], color: const Color(0xFFDC2626), bg: const Color(0xFFFEF2F2)),
+                      _answerRow(label: 'Your Answer', text: q.options[sel], color: const Color(0xFFDC2626), bg: context.isDark ? const Color(0xFFDC2626).withValues(alpha: 0.15) : const Color(0xFFFEF2F2)),
                       const SizedBox(height: 6),
                     ],
                     if (isSkipped) ...[
-                      _answerRow(label: 'Skipped', text: 'No answer selected', color: const Color(0xFFB45309), bg: const Color(0xFFFFFBEB)),
+                      _answerRow(label: 'Skipped', text: 'No answer selected', color: const Color(0xFFB45309), bg: context.isDark ? const Color(0xFFB45309).withValues(alpha: 0.15) : const Color(0xFFFFFBEB)),
                       const SizedBox(height: 6),
                     ],
-                    _answerRow(label: 'Correct Answer', text: q.correctAnswer, color: const Color(0xFF16A34A), bg: const Color(0xFFECFDF3)),
+                    _answerRow(label: 'Correct Answer', text: q.correctAnswer, color: const Color(0xFF16A34A), bg: context.isDark ? const Color(0xFF16A34A).withValues(alpha: 0.15) : const Color(0xFFECFDF3)),
                   ],
                 ),
               ),
@@ -1911,9 +1920,9 @@ class _StatBox extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(label, style: const TextStyle(color: Color(0xFF64748B), fontSize: 12, fontWeight: FontWeight.w600)),
+        Text(label, style: TextStyle(color: context.textSecondary, fontSize: 12, fontWeight: FontWeight.w600)),
         const SizedBox(height: 4),
-        Text(value, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w700, color: Color(0xFF0F172A))),
+        Text(value, style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700, color: context.textPrimary)),
       ],
     );
   }
@@ -1932,7 +1941,7 @@ class _DeltaChip extends StatelessWidget {
     final isPositive = delta > 0;
     final isEqual = delta == 0;
     final Color color = isEqual
-        ? const Color(0xFF64748B)
+        ? context.textSecondary
         : isPositive
             ? const Color(0xFF16A34A)
             : const Color(0xFFDC2626);
@@ -1991,7 +2000,7 @@ class _ResultStatCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(label, style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w700, color: Color(0xFF64748B))),
+          Text(label, style: TextStyle(fontSize: 12, fontWeight: FontWeight.w700, color: context.textSecondary)),
           const SizedBox(height: 6),
           Text(value, style: TextStyle(fontSize: 22, fontWeight: FontWeight.w800, color: valueColor)),
         ],

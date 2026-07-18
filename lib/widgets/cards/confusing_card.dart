@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../models/word_model.dart';
+import '../../utils/app_colors.dart';
 
 class ConfusingCard extends StatelessWidget {
   final Word word;
@@ -31,7 +32,7 @@ class ConfusingCard extends StatelessWidget {
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(20, 14, 20, 20),
-      decoration: _decor(),
+      decoration: _decor(context),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
@@ -40,7 +41,7 @@ class ConfusingCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 IconButton(
-                  icon: const Icon(Icons.share_rounded, color: Color(0xFF1F3C6D), size: 20),
+                  icon: Icon(Icons.share_rounded, color: context.textSecondary, size: 20),
                   padding: EdgeInsets.zero,
                   constraints: const BoxConstraints(),
                   onPressed: onShare,
@@ -49,7 +50,9 @@ class ConfusingCard extends StatelessWidget {
                 IconButton(
                   icon: Icon(
                     isBookmarked ? Icons.bookmark : Icons.bookmark_border,
-                    color: const Color(0xFF1F3C6D),
+                    color: isBookmarked
+                        ? (context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D))
+                        : context.textSecondary,
                     size: 20,
                   ),
                   padding: EdgeInsets.zero,
@@ -60,11 +63,11 @@ class ConfusingCard extends StatelessWidget {
             ),
           const SizedBox(height: 10),
           if (pairWord != null) ...[
-            _wordBlock(word, _blue),
-            _vsChip(),
-            _wordBlock(pairWord!, _amber),
+            _wordBlock(context, word, _blue),
+            _vsChip(context),
+            _wordBlock(context, pairWord!, _amber),
           ] else ...[
-            _singleLayout(),
+            _singleLayout(context),
           ],
           if (!shareMode) ...[
             const Divider(height: 32),
@@ -72,23 +75,23 @@ class ConfusingCard extends StatelessWidget {
               value: total == 0 ? 0.0 : index / total,
               minHeight: 7,
               borderRadius: BorderRadius.circular(999),
-              backgroundColor: const Color(0xFFE2E8F0),
+              backgroundColor: context.borderSubtle,
               color: const Color(0xFF22C55E),
             ),
             const SizedBox(height: 8),
             Center(
               child: Text(
                 '$index/$total',
-                style: const TextStyle(
+                style: TextStyle(
                   fontSize: 13,
-                  color: Color(0xFF64748B),
+                  color: context.textSecondary,
                   fontWeight: FontWeight.w600,
                 ),
               ),
             ),
           ] else ...[
             const SizedBox(height: 16),
-            const Divider(color: Color(0xFFE2E8F0)),
+            Divider(color: context.borderSubtle),
             const SizedBox(height: 10),
             Row(
               children: [
@@ -118,7 +121,7 @@ class ConfusingCard extends StatelessWidget {
     );
   }
 
-  Widget _singleLayout() {
+  Widget _singleLayout(BuildContext context) {
     final parts = word.word.contains(' / ')
         ? word.word.split(' / ').map((e) => e.trim()).toList()
         : null;
@@ -131,42 +134,42 @@ class ConfusingCard extends StatelessWidget {
         else
           Text(
             word.word,
-            style: const TextStyle(
+            style: TextStyle(
               fontSize: 28,
               fontWeight: FontWeight.w800,
-              color: Color(0xFF0F172A),
+              color: context.textPrimary,
             ),
           ),
         const SizedBox(height: 22),
         if (word.meaningHi.isNotEmpty) ...[
-          _label('Hindi Meaning', const Color(0xFF1D4ED8)),
+          _label('Hindi Meaning', context.isDark ? const Color(0xFF818CF8) : const Color(0xFF1D4ED8)),
           const SizedBox(height: 8),
           _splitLines(
             word.meaningHi,
-            const TextStyle(
+            TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.w600,
-              color: Color(0xFF1F3C6D),
+              color: context.textPrimary,
               height: 1.5,
             ),
           ),
           const SizedBox(height: 20),
         ],
-        _label('English Meaning', const Color(0xFF0F766E)),
+        _label('English Meaning', context.isDark ? const Color(0xFF2DD4BF) : const Color(0xFF0F766E)),
         const SizedBox(height: 8),
         _splitLines(
           word.meaningEn,
-          const TextStyle(
+          TextStyle(
             fontSize: 17,
-            color: Color(0xFF334155),
+            color: context.textSecondary,
             height: 1.55,
           ),
         ),
         if (word.example.isNotEmpty) ...[
           const SizedBox(height: 22),
-          _label('Example', const Color(0xFFB45309)),
+          _label('Example', context.isDark ? const Color(0xFFFBBF24) : const Color(0xFFB45309)),
           const SizedBox(height: 8),
-          _exampleBlock(word.example),
+          _exampleBlock(context, word.example),
         ],
         const SizedBox(height: 4),
       ],
@@ -202,11 +205,7 @@ class ConfusingCard extends StatelessWidget {
             child: Text(
               w1,
               textAlign: TextAlign.center,
-              style: const TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.w800,
-                color: _blue,
-              ),
+              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w800, color: _blue),
             ),
           ),
         ),
@@ -233,11 +232,7 @@ class ConfusingCard extends StatelessWidget {
             child: Text(
               w2,
               textAlign: TextAlign.center,
-              style: const TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.w800,
-                color: _amber,
-              ),
+              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w800, color: _amber),
             ),
           ),
         ),
@@ -245,7 +240,7 @@ class ConfusingCard extends StatelessWidget {
     );
   }
 
-  Widget _wordBlock(Word item, Color accent) {
+  Widget _wordBlock(BuildContext context, Word item, Color accent) {
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.all(16),
@@ -259,58 +254,50 @@ class ConfusingCard extends StatelessWidget {
         children: [
           Text(
             item.word,
-            style: TextStyle(
-              fontSize: 24,
-              fontWeight: FontWeight.w800,
-              color: accent,
-            ),
+            style: TextStyle(fontSize: 24, fontWeight: FontWeight.w800, color: accent),
           ),
           if (item.meaningHi.isNotEmpty) ...[
             const SizedBox(height: 6),
             Text(
               item.meaningHi,
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 17,
                 fontWeight: FontWeight.w600,
-                color: Color(0xFF1F3C6D),
+                color: context.textPrimary,
               ),
             ),
           ],
           const SizedBox(height: 8),
           Text(
             item.meaningEn,
-            style: const TextStyle(
-              fontSize: 16,
-              color: Color(0xFF334155),
-              height: 1.5,
-            ),
+            style: TextStyle(fontSize: 16, color: context.textSecondary, height: 1.5),
           ),
           if (item.example.isNotEmpty) ...[
             const SizedBox(height: 12),
-            _exampleBlock(item.example),
+            _exampleBlock(context, item.example),
           ],
         ],
       ),
     );
   }
 
-  Widget _vsChip() {
+  Widget _vsChip(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 10),
       child: Center(
         child: Container(
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
           decoration: BoxDecoration(
-            color: const Color(0xFFF1F5F9),
+            color: context.surfaceMuted,
             borderRadius: BorderRadius.circular(999),
-            border: Border.all(color: const Color(0xFFCBD5E1)),
+            border: Border.all(color: context.borderMedium),
           ),
-          child: const Text(
+          child: Text(
             'VS',
             style: TextStyle(
               fontSize: 12,
               fontWeight: FontWeight.w800,
-              color: Color(0xFF64748B),
+              color: context.textSecondary,
               letterSpacing: 2,
             ),
           ),
@@ -331,29 +318,29 @@ class ConfusingCard extends StatelessWidget {
     );
   }
 
-  Widget _exampleBlock(String example) {
+  Widget _exampleBlock(BuildContext context, String example) {
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
       decoration: BoxDecoration(
-        color: const Color(0xFFF8FAFC),
+        color: context.surfaceMuted,
         borderRadius: BorderRadius.circular(10),
-        border: Border.all(color: const Color(0xFFE2E8F0)),
+        border: Border.all(color: context.borderSubtle),
       ),
       child: Text(
         '"$example"',
-        style: const TextStyle(
+        style: TextStyle(
           fontSize: 16,
           fontStyle: FontStyle.italic,
-          color: Color(0xFF475569),
+          color: context.textSecondary,
           height: 1.5,
         ),
       ),
     );
   }
 
-  BoxDecoration _decor() => BoxDecoration(
-    color: Colors.white,
+  BoxDecoration _decor(BuildContext context) => BoxDecoration(
+    color: context.cardBg,
     borderRadius: BorderRadius.circular(20),
     boxShadow: [
       BoxShadow(

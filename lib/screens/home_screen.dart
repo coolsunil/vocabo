@@ -2,11 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
+import '../data/daily_goal_store.dart';
 import '../data/premium_store.dart';
 import '../data/progress_store.dart';
 import '../data/streak_store.dart';
 import '../data/word_of_day_store.dart';
 import '../services/notification_service.dart';
+import '../data/theme_store.dart';
+import '../utils/app_colors.dart';
 import '../widgets/interactive_pressable.dart';
 import 'category_detail_screen.dart';
 import 'pyq_screen.dart';
@@ -80,7 +83,7 @@ class _HomeScreenState extends State<HomeScreen> {
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
       ),
-      builder: (_) => Padding(
+      builder: (ctx) => Padding(
         padding: const EdgeInsets.fromLTRB(24, 20, 24, 36),
         child: Column(
           mainAxisSize: MainAxisSize.min,
@@ -89,7 +92,7 @@ class _HomeScreenState extends State<HomeScreen> {
               width: 40,
               height: 4,
               decoration: BoxDecoration(
-                color: const Color(0xFFE2E8F0),
+                color: ctx.borderSubtle,
                 borderRadius: BorderRadius.circular(2),
               ),
             ),
@@ -99,18 +102,18 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(height: 12),
             Text(
               '$current-day streak',
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.w800,
-                color: Color(0xFF0F172A),
+                color: ctx.textPrimary,
               ),
             ),
             const SizedBox(height: 6),
             Text(
               message,
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 15,
-                color: Color(0xFF64748B),
+                color: ctx.textSecondary,
               ),
             ),
             const SizedBox(height: 24),
@@ -147,7 +150,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F7FA),
+      backgroundColor: context.scaffoldBg,
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(16),
@@ -162,12 +165,12 @@ class _HomeScreenState extends State<HomeScreen> {
                     color: Color(0xFFF59E0B),
                   ),
                   const SizedBox(width: 8),
-                  const Text(
+                  Text(
                     'Hello, Learner',
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.w400,
-                      color: Color(0xFF0F172A),
+                      color: context.textPrimary,
                     ),
                   ),
                   const Spacer(),
@@ -202,6 +205,19 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     const SizedBox(width: 8),
                   ],
+                  ValueListenableBuilder<ThemeMode>(
+                    valueListenable: themeNotifier,
+                    builder: (_, mode, child) => IconButton(
+                      tooltip: mode == ThemeMode.dark ? 'Light mode' : 'Dark mode',
+                      onPressed: toggleTheme,
+                      icon: Icon(
+                        mode == ThemeMode.dark
+                            ? Icons.light_mode_rounded
+                            : Icons.dark_mode_rounded,
+                        color: context.textSecondary,
+                      ),
+                    ),
+                  ),
                   IconButton(
                     tooltip: 'Search',
                     onPressed: () {
@@ -210,9 +226,9 @@ class _HomeScreenState extends State<HomeScreen> {
                         MaterialPageRoute(builder: (_) => const SearchScreen()),
                       );
                     },
-                    icon: const Icon(
+                    icon: Icon(
                       Icons.search_rounded,
-                      color: Color(0xFF475569),
+                      color: context.textSecondary,
                     ),
                   ),
                   IconButton(
@@ -230,20 +246,16 @@ class _HomeScreenState extends State<HomeScreen> {
                         }
                       });
                     },
-                    icon: const Icon(
+                    icon: Icon(
                       Icons.settings_rounded,
-                      color: Color(0xFF475569),
+                      color: context.textSecondary,
                     ),
                   ),
                 ],
               ),
-              const SizedBox(height: 24),
-
-              const Text(
-                'Explore',
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-              ),
-              const SizedBox(height: 12),
+              const SizedBox(height: 16),
+              _DailyGoalCard(onChanged: () => setState(() {})),
+              const SizedBox(height: 20),
 
               Expanded(
                 child: ListView(
@@ -267,7 +279,12 @@ class _HomeScreenState extends State<HomeScreen> {
                       const SizedBox(height: 16),
                     ],
                     _OverallProgressCard(),
-                    const SizedBox(height: 16),
+                    const SizedBox(height: 20),
+                    Text(
+                      'Explore',
+                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: context.textPrimary),
+                    ),
+                    const SizedBox(height: 12),
                     GridView.count(
                       crossAxisCount: 2,
                       crossAxisSpacing: 12,
@@ -277,7 +294,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       physics: const NeverScrollableScrollPhysics(),
                       children: [
                         _ModernCategoryTile(
-                          title: 'Core Words',
+                          title: 'Core Vocabulary',
                           icon: Icons.auto_stories_rounded,
                           iconColor: const Color(0xFF1D4ED8),
                           backgroundColor: const Color(0xFFEFF6FF),
@@ -288,11 +305,30 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["core"] ?? 0,
-                          total: 1438,
+                          total: 1501,
                           onTap: () => _openCategory(
-                            title: 'Core Words',
+                            title: 'Core Vocabulary',
                             categoryKey: "core",
-                            total: 1438,
+                            total: 1501,
+                          ),
+                        ),
+                        _ModernCategoryTile(
+                          title: 'Advanced Vocabulary',
+                          icon: Icons.trending_up,
+                          iconColor: const Color(0xFF0D9488),
+                          backgroundColor: const Color(0xFFF0FDFA),
+                          borderColor: const Color(0xFF99F6E4),
+                          gradient: const LinearGradient(
+                            colors: [Color(0xFF134E4A), Color(0xFF0D9488)],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                          ),
+                          learned: progressStore["advanced"] ?? 0,
+                          total: 500,
+                          onTap: () => _openCategory(
+                            title: 'Advanced Vocabulary',
+                            categoryKey: "advanced",
+                            total: 500,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -307,11 +343,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["synonyms"] ?? 0,
-                          total: 146,
+                          total: 325,
                           onTap: () => _openCategory(
                             title: 'Synonyms & Antonyms',
                             categoryKey: "synonyms",
-                            total: 146,
+                            total: 325,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -326,11 +362,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["oneword"] ?? 0,
-                          total: 344,
+                          total: 401,
                           onTap: () => _openCategory(
                             title: 'One-word Substitutions',
                             categoryKey: "oneword",
-                            total: 344,
+                            total: 401,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -364,30 +400,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["idioms"] ?? 0,
-                          total: 316,
+                          total: 495,
                           onTap: () => _openCategory(
                             title: 'Idioms & Phrases',
                             categoryKey: "idioms",
-                            total: 316,
-                          ),
-                        ),
-                        _ModernCategoryTile(
-                          title: 'Advanced',
-                          icon: Icons.trending_up,
-                          iconColor: const Color(0xFF0D9488),
-                          backgroundColor: const Color(0xFFF0FDFA),
-                          borderColor: const Color(0xFF99F6E4),
-                          gradient: const LinearGradient(
-                            colors: [Color(0xFF134E4A), Color(0xFF0D9488)],
-                            begin: Alignment.topLeft,
-                            end: Alignment.bottomRight,
-                          ),
-                          learned: progressStore["advanced"] ?? 0,
-                          total: 298,
-                          onTap: () => _openCategory(
-                            title: 'Advanced Vocabulary',
-                            categoryKey: "advanced",
-                            total: 298,
+                            total: 495,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -592,11 +609,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["voices"] ?? 0,
-                          total: 57,
+                          total: 213,
                           onTap: () => _openCategory(
                             title: 'Active / Passive Voice',
                             categoryKey: "voices",
-                            total: 57,
+                            total: 213,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -611,18 +628,34 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["narration"] ?? 0,
-                          total: 60,
+                          total: 195,
                           onTap: () => _openCategory(
                             title: 'Direct & Indirect Speech',
                             categoryKey: "narration",
-                            total: 60,
+                            total: 195,
                           ),
                         ),
                       ],
                     ),
                     const SizedBox(height: 14),
                     _QuizCategoryTile(
+                      title: 'Previous Year Questions (PYQs)',
+                      subtitle: 'SSC · IBPS · SBI · UPSC · CLAT · AFCAT · CSIR · Supreme Court · RBI & more',
+                      gradient: const [Color(0xFF14532D), Color(0xFF16A34A)],
+                      icon: Icons.fact_check_rounded,
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => const PYQScreen(),
+                          ),
+                        );
+                      },
+                    ),
+                    const SizedBox(height: 14),
+                    _QuizCategoryTile(
                       title: 'Take a Quiz',
+                      gradient: const [Color(0xFF701A75), Color(0xFFC026D3)],
                       subtitle: !_premiumLoaded
                           ? 'Practice across all categories'
                           : premiumUnlocked
@@ -639,21 +672,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         ).then((_) => _loadPremiumMeta());
                       },
-                    ),
-                    const SizedBox(height: 14),
-                    _QuizCategoryTile(
-                      title: 'Previous Year Questions',
-                      subtitle: 'SSC · IBPS · UPSC · AFCAT · CLAT',
-                      gradient: const [Color(0xFF14532D), Color(0xFF16A34A)],
-                      icon: Icons.history_edu_rounded,
-                      onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (_) => const PYQScreen(),
-                          ),
-                        );
-                      },
+                      minHeight: 88,
                     ),
                     const SizedBox(height: 14),
                     _QuizCategoryTile(
@@ -701,14 +720,259 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
+class _DailyGoalCard extends StatelessWidget {
+  final VoidCallback onChanged;
+
+  const _DailyGoalCard({required this.onChanged});
+
+  void _showGoalPicker(BuildContext context) {
+    const presets = [5, 10, 15, 20, 25, 30];
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: Colors.transparent,
+      isScrollControlled: true,
+      builder: (ctx) => Container(
+        padding: const EdgeInsets.fromLTRB(24, 20, 24, 36),
+        decoration: BoxDecoration(
+          color: ctx.cardBg,
+          borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
+        ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Center(
+              child: Container(
+                width: 36,
+                height: 4,
+                decoration: BoxDecoration(
+                  color: ctx.borderMedium,
+                  borderRadius: BorderRadius.circular(99),
+                ),
+              ),
+            ),
+            const SizedBox(height: 20),
+            Text(
+              'Set Daily Goal',
+              style: TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.w800,
+                color: ctx.textPrimary,
+              ),
+            ),
+            const SizedBox(height: 4),
+            Text(
+              'How many cards do you want to learn each day?',
+              style: TextStyle(fontSize: 13, color: ctx.textSecondary),
+            ),
+            const SizedBox(height: 20),
+            GridView.count(
+              crossAxisCount: 3,
+              mainAxisSpacing: 10,
+              crossAxisSpacing: 10,
+              childAspectRatio: 2.2,
+              shrinkWrap: true,
+              physics: const NeverScrollableScrollPhysics(),
+              children: presets.map((n) {
+                final selected = n == dailyGoal;
+                return GestureDetector(
+                  onTap: () async {
+                    await setDailyGoal(n);
+                    if (ctx.mounted) Navigator.pop(ctx);
+                    onChanged();
+                  },
+                  child: AnimatedContainer(
+                    duration: const Duration(milliseconds: 180),
+                    decoration: BoxDecoration(
+                      gradient: selected
+                          ? const LinearGradient(
+                              colors: [Color(0xFF4F46E5), Color(0xFF06B6D4)],
+                              begin: Alignment.topLeft,
+                              end: Alignment.bottomRight,
+                            )
+                          : null,
+                      color: selected ? null : ctx.surfaceMuted,
+                      borderRadius: BorderRadius.circular(12),
+                      border: selected
+                          ? null
+                          : Border.all(color: ctx.borderSubtle),
+                    ),
+                    alignment: Alignment.center,
+                    child: Text(
+                      '$n cards',
+                      style: TextStyle(
+                        fontSize: 13,
+                        fontWeight: FontWeight.w700,
+                        color: selected ? Colors.white : ctx.textSecondary,
+                      ),
+                    ),
+                  ),
+                );
+              }).toList(),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final count = todayWordCount.clamp(0, dailyGoal);
+    final pct = count / dailyGoal;
+    final done = count >= dailyGoal;
+
+    const gradientStart = Color(0xFF4F46E5);
+    const gradientEnd = Color(0xFF06B6D4);
+
+    return InteractivePressable(
+      borderRadius: BorderRadius.circular(20),
+      onTap: () {},
+      overlayColor: gradientStart,
+      child: Container(
+        padding: const EdgeInsets.all(20),
+        clipBehavior: Clip.hardEdge,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          gradient: const LinearGradient(
+            colors: [gradientStart, gradientEnd],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+          boxShadow: [
+            BoxShadow(
+              color: gradientStart.withValues(alpha: 0.35),
+              blurRadius: 16,
+              offset: const Offset(0, 8),
+            ),
+          ],
+        ),
+        child: Stack(
+          children: [
+            Positioned(
+              right: -20,
+              bottom: -20,
+              child: Icon(
+                done ? Icons.check_circle_rounded : Icons.rocket_launch_rounded,
+                size: 110,
+                color: Colors.white.withValues(alpha: 0.10),
+              ),
+            ),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    const Icon(Icons.local_fire_department_rounded,
+                        color: Colors.white, size: 15),
+                    const SizedBox(width: 6),
+                    const Text(
+                      'Daily Goal',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 13,
+                        fontWeight: FontWeight.w700,
+                        letterSpacing: 0.5,
+                      ),
+                    ),
+                    const Spacer(),
+                    if (done)
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 10, vertical: 4),
+                        decoration: BoxDecoration(
+                          color: Colors.white.withValues(alpha: 0.25),
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: const Text(
+                          'Complete ✓',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 11,
+                            fontWeight: FontWeight.w700,
+                          ),
+                        ),
+                      ),
+                    if (!done) ...[
+                      const SizedBox(width: 8),
+                      GestureDetector(
+                        onTap: () => _showGoalPicker(context),
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 10, vertical: 4),
+                          decoration: BoxDecoration(
+                            color: Colors.white.withValues(alpha: 0.20),
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: const [
+                              Icon(Icons.tune_rounded,
+                                  color: Colors.white, size: 12),
+                              SizedBox(width: 4),
+                              Text(
+                                'Set goal',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 11,
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ],
+                ),
+                const SizedBox(height: 12),
+                Text(
+                  done ? 'Great work today!' : '$count / $dailyGoal cards',
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 28,
+                    fontWeight: FontWeight.w800,
+                    height: 1.1,
+                  ),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  done
+                      ? 'You\'ve hit your daily target'
+                      : '${dailyGoal - count} more to hit your goal',
+                  style: TextStyle(
+                    color: Colors.white.withValues(alpha: 0.75),
+                    fontSize: 12,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+                const SizedBox(height: 14),
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(99),
+                  child: LinearProgressIndicator(
+                    value: pct,
+                    minHeight: 5,
+                    backgroundColor: Colors.white.withValues(alpha: 0.20),
+                    valueColor: const AlwaysStoppedAnimation(Colors.white),
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
 class _OverallProgressCard extends StatelessWidget {
   static const Map<String, int> _totals = {
-    'core': 1438, 'synonyms': 146, 'oneword': 344, 'confusing': 331,
-    'idioms': 316, 'advanced': 298, 'fixed_prepositions': 150,
+    'core': 1501, 'synonyms': 325, 'oneword': 401, 'confusing': 331,
+    'idioms': 495, 'advanced': 500, 'fixed_prepositions': 150,
     'phrasal_verbs': 225, 'root_words': 439, 'common_errors': 464,
     'homophones': 264, 'spellings': 220, 'foreign_words': 247,
     'proverbs': 118, 'sentence_improvement': 150, 'cloze_test': 121,
-    'voices': 57, 'narration': 60,
+    'voices': 213, 'narration': 195,
   };
 
   const _OverallProgressCard();
@@ -802,7 +1066,7 @@ class _OverallProgressCard extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(bottom: 4),
                 child: Text(
-                  '/ $totalWords words',
+                  '/ $totalWords cards',
                   style: TextStyle(
                     color: Colors.white.withValues(alpha: 0.7),
                     fontSize: 14,
@@ -999,6 +1263,17 @@ class _ModernCategoryTile extends StatelessWidget {
                 color: titleColor,
               ),
             ),
+            if (learned > 0 && learned < total) ...[
+              const SizedBox(height: 3),
+              Text(
+                'Resume · card $learned',
+                style: TextStyle(
+                  fontSize: 10,
+                  fontWeight: FontWeight.w600,
+                  color: titleColor.withValues(alpha: 0.6),
+                ),
+              ),
+            ],
           ],
         ),
           ],
@@ -1014,6 +1289,7 @@ class _QuizCategoryTile extends StatelessWidget {
   final VoidCallback onTap;
   final List<Color> gradient;
   final IconData icon;
+  final double? minHeight;
 
   const _QuizCategoryTile({
     required this.title,
@@ -1021,6 +1297,7 @@ class _QuizCategoryTile extends StatelessWidget {
     required this.onTap,
     this.gradient = const [Color(0xFF312E81), Color(0xFF06B6D4)],
     this.icon = Icons.quiz_rounded,
+    this.minHeight,
   });
 
   @override
@@ -1032,6 +1309,7 @@ class _QuizCategoryTile extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 18),
         clipBehavior: Clip.hardEdge,
+        constraints: minHeight != null ? BoxConstraints(minHeight: minHeight!) : null,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
           gradient: LinearGradient(

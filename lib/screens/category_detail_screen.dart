@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../data/bookmark_store.dart';
 import '../data/premium_store.dart';
 import '../data/progress_store.dart';
+import '../utils/app_colors.dart';
 import '../widgets/interactive_pressable.dart';
 import 'learn_screen.dart';
 import 'practice_screen.dart';
@@ -124,15 +125,8 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
         [const Color(0xFF1F3C6D), const Color(0xFF2563EB)];
 
     return Scaffold(
-      body: Container(
-        decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            colors: [Color(0xFFF4F7FC), Color(0xFFEAF0F9)],
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-          ),
-        ),
-        child: SafeArea(
+      backgroundColor: context.scaffoldBg,
+      body: SafeArea(
           child: ListView(
             padding: const EdgeInsets.all(16),
             children: [
@@ -146,10 +140,10 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
               const SizedBox(height: 8),
               Text(
                 widget.title,
-                style: const TextStyle(
+                style: TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.w800,
-                  color: Color(0xFF0F172A),
+                  color: context.textPrimary,
                 ),
               ),
               const SizedBox(height: 16),
@@ -211,12 +205,12 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
                 ),
               ),
               const SizedBox(height: 24),
-              const Text(
+              Text(
                 'Start Learning',
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
-                  color: Color(0xFF0F172A),
+                  color: context.textPrimary,
                 ),
               ),
               const SizedBox(height: 14),
@@ -305,7 +299,6 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
             ],
           ),
         ),
-      ),
     );
   }
 }
@@ -336,9 +329,9 @@ class _ModernActionTile extends StatelessWidget {
         child: Container(
           padding: const EdgeInsets.all(18),
           decoration: BoxDecoration(
-            color: Colors.white,
+            color: context.cardBg,
             borderRadius: BorderRadius.circular(16),
-            border: Border.all(color: const Color(0xFFE2E8F0)),
+            border: Border.all(color: context.borderSubtle),
             boxShadow: [
               BoxShadow(
                 color: Colors.black.withValues(alpha: 0.04),
@@ -365,18 +358,19 @@ class _ModernActionTile extends StatelessWidget {
                   children: [
                     Text(
                       title,
-                      style: const TextStyle(
+                      style: TextStyle(
                         fontSize: 16,
                         fontWeight: FontWeight.bold,
+                        color: context.textPrimary,
                       ),
                     ),
                     const SizedBox(height: 4),
-                    Text(subtitle, style: const TextStyle(color: Colors.grey)),
+                    Text(subtitle, style: TextStyle(color: context.textSecondary)),
                   ],
                 ),
               ),
 
-              const Icon(Icons.arrow_forward_ios, size: 16),
+              Icon(Icons.arrow_forward_ios, size: 16, color: context.textSecondary),
             ],
           ),
         ),

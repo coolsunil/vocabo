@@ -5,6 +5,7 @@ import 'package:url_launcher/url_launcher.dart';
 import '../data/bookmark_store.dart';
 import '../data/premium_store.dart';
 import '../data/progress_store.dart';
+import '../utils/app_colors.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -96,10 +97,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F7FA),
+      backgroundColor: context.scaffoldBg,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
-        foregroundColor: const Color(0xFF0F172A),
+        foregroundColor: context.textPrimary,
         elevation: 0,
         scrolledUnderElevation: 0,
         title: const Text('Settings'),
@@ -204,10 +205,10 @@ class _SettingsSection extends StatelessWidget {
       children: [
         Text(
           title,
-          style: const TextStyle(
+          style: TextStyle(
             fontSize: 16,
             fontWeight: FontWeight.w700,
-            color: Color(0xFF0F172A),
+            color: context.textPrimary,
           ),
         ),
         const SizedBox(height: 10),
@@ -237,9 +238,9 @@ class _SettingsTile extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.only(bottom: 12),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: context.cardBg,
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: const Color(0xFFE2E8F0)),
+        border: Border.all(color: context.borderSubtle),
       ),
       child: ListTile(
         onTap: onTap,
@@ -255,19 +256,19 @@ class _SettingsTile extends StatelessWidget {
         ),
         title: Text(
           title,
-          style: const TextStyle(
+          style: TextStyle(
             fontWeight: FontWeight.w700,
-            color: Color(0xFF0F172A),
+            color: context.textPrimary,
           ),
         ),
         subtitle: Text(
           subtitle,
-          style: const TextStyle(color: Color(0xFF64748B)),
+          style: TextStyle(color: context.textSecondary),
         ),
-        trailing: const Icon(
+        trailing: Icon(
           Icons.arrow_forward_ios_rounded,
           size: 16,
-          color: Color(0xFF64748B),
+          color: context.textSecondary,
         ),
       ),
     );
@@ -291,9 +292,9 @@ class _SettingsInfoTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: context.cardBg,
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: const Color(0xFFE2E8F0)),
+        border: Border.all(color: context.borderSubtle),
       ),
       child: ListTile(
         contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
@@ -308,16 +309,16 @@ class _SettingsInfoTile extends StatelessWidget {
         ),
         title: Text(
           title,
-          style: const TextStyle(
+          style: TextStyle(
             fontWeight: FontWeight.w700,
-            color: Color(0xFF0F172A),
+            color: context.textPrimary,
           ),
         ),
         trailing: Text(
           value,
-          style: const TextStyle(
+          style: TextStyle(
             fontWeight: FontWeight.w700,
-            color: Color(0xFF475569),
+            color: context.textSecondary,
           ),
         ),
       ),

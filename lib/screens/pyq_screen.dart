@@ -6,7 +6,9 @@ import 'package:share_plus/share_plus.dart';
 
 import '../data/category_sources.dart';
 import '../data/premium_store.dart';
+import '../data/pyq_progress_store.dart';
 import '../models/pyq_question.dart';
+import '../utils/app_colors.dart';
 import '../widgets/interactive_pressable.dart';
 
 // ── Exam definitions ──────────────────────────────────────────────────────────
@@ -30,7 +32,7 @@ class _ExamInfo {
 const _exams = [
   _ExamInfo(
     name: 'SSC',
-    fullName: 'Staff Selection Commission',
+    fullName: 'CGL · CHSL · CPO · MTS',
     file: 'assets/data/pyq_ssc.json',
     gradient: [Color(0xFF1F3C6D), Color(0xFF2563EB)],
     icon: Icons.school_rounded,
@@ -58,7 +60,7 @@ const _exams = [
   ),
   _ExamInfo(
     name: 'UPSC',
-    fullName: 'Union Public Service Commission',
+    fullName: 'CDS · NDA · CSAT',
     file: 'assets/data/pyq_upsc.json',
     gradient: [Color(0xFF701A75), Color(0xFFC026D3)],
     icon: Icons.account_balance_outlined,
@@ -76,6 +78,13 @@ const _exams = [
     file: 'assets/data/pyq_upsssc_pet.json',
     gradient: [Color(0xFF7C2D12), Color(0xFFEA580C)],
     icon: Icons.assignment_rounded,
+  ),
+  _ExamInfo(
+    name: 'Insurance',
+    fullName: 'LIC · NIACL · ESIC · NICL',
+    file: 'assets/data/pyq_insurance.json',
+    gradient: [Color(0xFF0D1B2A), Color(0xFF1565C0)],
+    icon: Icons.shield_rounded,
   ),
   _ExamInfo(
     name: 'UPPSC',
@@ -97,6 +106,13 @@ const _exams = [
     file: 'assets/data/pyq_rbi_grade_b.json',
     gradient: [Color(0xFF713F12), Color(0xFFCA8A04)],
     icon: Icons.savings_rounded,
+  ),
+  _ExamInfo(
+    name: 'CSIR JSA',
+    fullName: 'Junior Secretariat Assistant',
+    file: 'assets/data/pyq_csir_jsa.json',
+    gradient: [Color(0xFF1A3A1A), Color(0xFF2E7D32)],
+    icon: Icons.science_rounded,
   ),
 ];
 
@@ -122,14 +138,16 @@ class _PYQScreenState extends State<PYQScreen> {
   String? _selectedYear;
   List<String> _availableSubExams = [];
   String? _selectedSubExam;
-  List<int?> _selections = [];
+  List<int?> _allSelections = []; // parallel to _allQuestions
+  List<int?> _selections = [];   // parallel to _questions (current view)
   int _currentIndex = 0;
   bool _quizDone = false;
 
   bool get _isPremium => premiumUnlocked;
   bool get _isLocked => !_isPremium && _currentIndex >= freePYQLimit;
 
-  Future<void> _loadAndStart(_ExamInfo exam) async {
+  Future<void> _loadAndStart(_ExamInfo exam, {bool fresh = false}) async {
+    if (fresh) await clearPYQSession(exam.name);
     setState(() {
       _isLoading = true;
       _selectedExam = exam;
@@ -153,15 +171,25 @@ class _PYQScreenState extends State<PYQScreen> {
       final years = questions.map((q) => q.year).toSet().toList()
         ..sort((a, b) => b.compareTo(a));
       final subExams = questions.map((q) => q.exam).toSet().toList()..sort();
+      final resumeIndex = fresh
+          ? 0
+          : getPYQResumeIndex(exam.name).clamp(0, questions.length - 1);
+      final allSel = List<int?>.filled(questions.length, null);
+      if (!fresh) {
+        for (final e in getPYQSelections(exam.name).entries) {
+          if (e.key < questions.length) allSel[e.key] = e.value;
+        }
+      }
       setState(() {
         _allQuestions = questions;
+        _allSelections = allSel;
         _availableYears = years;
         _availableSubExams = subExams;
         _selectedYear = null;
         _selectedSubExam = null;
         _questions = questions;
-        _selections = List.filled(questions.length, null);
-        _currentIndex = 0;
+        _selections = List.from(allSel);
+        _currentIndex = resumeIndex;
         _quizDone = false;
         _inQuiz = true;
         _isLoading = false;
@@ -172,11 +200,15 @@ class _PYQScreenState extends State<PYQScreen> {
   }
 
   void _resetToHub() {
+    if (_selectedExam != null) {
+      savePYQResumeIndex(_selectedExam!.name, _currentIndex);
+    }
     setState(() {
       _inQuiz = false;
       _quizDone = false;
       _selectedExam = null;
       _allQuestions = [];
+      _allSelections = [];
       _questions = [];
       _availableYears = [];
       _selectedYear = null;
@@ -194,12 +226,19 @@ class _PYQScreenState extends State<PYQScreen> {
     }).toList();
   }
 
+  List<int?> _selectionsFor(List<PYQQuestion> filtered) {
+    return filtered.map((q) {
+      final idx = _allQuestions.indexOf(q);
+      return idx >= 0 ? _allSelections[idx] : null;
+    }).toList();
+  }
+
   void _applySubExamFilter(String? subExam) {
     final f = _filtered(subExam, _selectedYear);
     setState(() {
       _selectedSubExam = subExam;
       _questions = f;
-      _selections = List.filled(f.length, null);
+      _selections = _selectionsFor(f);
       _currentIndex = 0;
     });
   }
@@ -209,7 +248,7 @@ class _PYQScreenState extends State<PYQScreen> {
     setState(() {
       _selectedYear = year;
       _questions = f;
-      _selections = List.filled(f.length, null);
+      _selections = _selectionsFor(f);
       _currentIndex = 0;
     });
   }
@@ -261,58 +300,60 @@ class _PYQScreenState extends State<PYQScreen> {
                       ),
                     GestureDetector(
                       onTap: () => Navigator.pop(ctx),
-                      child: const Icon(Icons.close_rounded,
-                          color: Color(0xFF64748B)),
+                      child: Icon(Icons.close_rounded,
+                          color: ctx.textSecondary),
                     ),
                   ],
                 ),
                 const SizedBox(height: 20),
                 if (_availableSubExams.length > 1) ...[
-                  const Text('Sub-exam',
+                  Text('Sub-exam',
                       style: TextStyle(
                           fontSize: 13,
                           fontWeight: FontWeight.w700,
-                          color: Color(0xFF64748B))),
+                          color: ctx.textSecondary)),
                   const SizedBox(height: 10),
-                  Wrap(
-                    spacing: 8,
-                    runSpacing: 8,
-                    children: [
-                      _filterChip(null, 'All', _selectedSubExam, tapSubExam),
-                      ..._availableSubExams.map((e) {
-                        final prefix = '${_selectedExam!.name} ';
-                        final label = e.startsWith(prefix)
-                            ? e.substring(prefix.length)
-                            : e;
-                        return _filterChip(
-                            e, label, _selectedSubExam, tapSubExam);
-                      }),
-                    ],
+                  SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
+                    child: Row(
+                      children: [
+                        _filterChip(null, 'All', _selectedSubExam, tapSubExam),
+                        ..._availableSubExams.map((e) {
+                          final prefix = '${_selectedExam!.name} ';
+                          final label = e.startsWith(prefix)
+                              ? e.substring(prefix.length)
+                              : e;
+                          return _filterChip(
+                              e, label, _selectedSubExam, tapSubExam);
+                        }),
+                      ],
+                    ),
                   ),
                   const SizedBox(height: 20),
                 ],
                 if (_availableYears.length > 1) ...[
-                  const Text('Year',
+                  Text('Year',
                       style: TextStyle(
                           fontSize: 13,
                           fontWeight: FontWeight.w700,
-                          color: Color(0xFF64748B))),
+                          color: ctx.textSecondary)),
                   const SizedBox(height: 10),
-                  Wrap(
-                    spacing: 8,
-                    runSpacing: 8,
-                    children: [
-                      _filterChip(null, 'All', _selectedYear, tapYear),
-                      ..._availableYears.map(
-                          (y) => _filterChip(y, y, _selectedYear, tapYear)),
-                    ],
+                  SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
+                    child: Row(
+                      children: [
+                        _filterChip(null, 'All', _selectedYear, tapYear),
+                        ..._availableYears.map(
+                            (y) => _filterChip(y, y, _selectedYear, tapYear)),
+                      ],
+                    ),
                   ),
                   const SizedBox(height: 20),
                 ],
                 Container(
                   padding: const EdgeInsets.all(14),
                   decoration: BoxDecoration(
-                    color: const Color(0xFFF1F5F9),
+                    color: ctx.surfaceMuted,
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Row(
@@ -340,17 +381,25 @@ class _PYQScreenState extends State<PYQScreen> {
 
   void _select(int optionIndex) {
     if (_selections[_currentIndex] != null) return;
-    setState(() => _selections[_currentIndex] = optionIndex);
+    final globalIdx = _allQuestions.indexOf(_questions[_currentIndex]);
+    setState(() {
+      _selections[_currentIndex] = optionIndex;
+      if (globalIdx >= 0) _allSelections[globalIdx] = optionIndex;
+    });
+    if (globalIdx >= 0) {
+      savePYQSelection(_selectedExam!.name, globalIdx, optionIndex);
+    }
+    final answered = _allSelections.where((s) => s != null).length;
+    savePYQProgress(_selectedExam!.name, answered);
+    savePYQResumeIndex(_selectedExam!.name, _currentIndex);
   }
 
   void _goNext() {
     if (_currentIndex < _questions.length - 1) {
       setState(() => _currentIndex++);
     } else if (!_isPremium && _currentIndex < freePYQLimit) {
-      // Increment past available questions to reach the premium lock screen
       setState(() => _currentIndex++);
     }
-    // If on last question, use the Finish button instead (handled in UI)
   }
 
   void _goPrev() {
@@ -378,24 +427,24 @@ class _PYQScreenState extends State<PYQScreen> {
                 children: [
                   Row(
                     children: [
-                      const Text('Jump to Question',
+                      Text('Jump to Question',
                           style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.w700,
-                              color: Color(0xFF0F172A))),
+                              color: context.textPrimary)),
                       const Spacer(),
                       GestureDetector(
                         onTap: () => Navigator.pop(context),
-                        child: const Icon(Icons.close_rounded,
-                            color: Color(0xFF64748B)),
+                        child: Icon(Icons.close_rounded,
+                            color: context.textSecondary),
                       ),
                     ],
                   ),
                   const SizedBox(height: 12),
                   Row(
                     children: [
-                      _gridLegend(Colors.white, const Color(0xFFE2E8F0),
-                          'Unanswered'),
+                      _gridLegend(context.cardBg, context.borderSubtle,
+                          'Unanswered', textColor: context.textSecondary),
                       const SizedBox(width: 16),
                       _gridLegend(
                           const Color(0xFF1F3C6D), const Color(0xFF1F3C6D),
@@ -405,7 +454,7 @@ class _PYQScreenState extends State<PYQScreen> {
                       _gridLegend(
                           const Color(0xFF22C55E).withValues(alpha: 0.15),
                           const Color(0xFF22C55E),
-                          'Current'),
+                          'Current', textColor: context.textSecondary),
                     ],
                   ),
                   const SizedBox(height: 12),
@@ -439,14 +488,14 @@ class _PYQScreenState extends State<PYQScreen> {
                           ? const Color(0xFF22C55E).withValues(alpha: 0.12)
                           : isAnswered
                               ? const Color(0xFF1F3C6D)
-                              : Colors.white,
+                              : context.cardBg,
                       borderRadius: BorderRadius.circular(10),
                       border: Border.all(
                         color: isCurrent
                             ? const Color(0xFF22C55E)
                             : isAnswered
                                 ? const Color(0xFF1F3C6D)
-                                : const Color(0xFFE2E8F0),
+                                : context.borderSubtle,
                         width: isCurrent ? 2 : 1.5,
                       ),
                     ),
@@ -458,7 +507,7 @@ class _PYQScreenState extends State<PYQScreen> {
                           fontSize: 14,
                           color: isAnswered && !isCurrent
                               ? Colors.white
-                              : const Color(0xFF334155),
+                              : context.textSecondary,
                         ),
                       ),
                     ),
@@ -487,7 +536,7 @@ class _PYQScreenState extends State<PYQScreen> {
         ),
         const SizedBox(width: 5),
         Text(label,
-            style: const TextStyle(fontSize: 11, color: Color(0xFF64748B))),
+            style: TextStyle(fontSize: 11, color: textColor)),
       ],
     );
   }
@@ -504,28 +553,32 @@ class _PYQScreenState extends State<PYQScreen> {
 
   Color get _accent => _selectedExam?.gradient.last ?? const Color(0xFF2563EB);
 
-  Color _optionBg(int idx) {
+  Color _optionBg(BuildContext context, int idx) {
     final selected = _selections[_currentIndex];
-    if (selected == null) return Colors.white;
+    if (selected == null) return context.cardBg;
     final correct = _questions[_currentIndex].correctAnswer;
     final isCorrect = _questions[_currentIndex].options[idx] == correct;
-    if (idx == selected) {
-      return isCorrect ? const Color(0xFFDCFCE7) : const Color(0xFFFEE2E2);
-    }
-    if (isCorrect) return const Color(0xFFDCFCE7);
-    return Colors.white;
+    final correctBg = context.isDark
+        ? const Color(0xFF16A34A).withValues(alpha: 0.2)
+        : const Color(0xFFDCFCE7);
+    final wrongBg = context.isDark
+        ? const Color(0xFFDC2626).withValues(alpha: 0.2)
+        : const Color(0xFFFEE2E2);
+    if (idx == selected) return isCorrect ? correctBg : wrongBg;
+    if (isCorrect) return correctBg;
+    return context.cardBg;
   }
 
-  Color _optionBorder(int idx) {
+  Color _optionBorder(BuildContext context, int idx) {
     final selected = _selections[_currentIndex];
-    if (selected == null) return const Color(0xFFE2E8F0);
+    if (selected == null) return context.borderSubtle;
     final correct = _questions[_currentIndex].correctAnswer;
     final isCorrect = _questions[_currentIndex].options[idx] == correct;
     if (idx == selected) {
       return isCorrect ? const Color(0xFF16A34A) : const Color(0xFFDC2626);
     }
     if (isCorrect) return const Color(0xFF16A34A);
-    return const Color(0xFFE2E8F0);
+    return context.borderSubtle;
   }
 
   void _shareQuestion() {
@@ -549,16 +602,9 @@ ${q.question}
 
 $optionsText
 
-.
-.
-.
-✅ Answer: ${q.correctAnswer}
-${q.explanation.isNotEmpty ? '\n💡 ${q.explanation}' : ''}
-
 📌 $topicLine
 
-Practice 1000+ English vocabulary questions & PYQs on Vocabo!
-📲 Download: https://play.google.com/store/apps/details?id=com.jarhauliyalabs.vocabo''';
+— Vocabo''';
 
     Share.share(text);
   }
@@ -568,10 +614,10 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: _inQuiz ? const Color(0xFFF5F7FA) : const Color(0xFFF4F7FC),
+      backgroundColor: context.scaffoldBg,
       appBar: AppBar(
         backgroundColor: _inQuiz ? const Color(0xFF1F3C6D) : Colors.transparent,
-        foregroundColor: _inQuiz ? Colors.white : const Color(0xFF0F172A),
+        foregroundColor: _inQuiz ? Colors.white : context.textPrimary,
         elevation: 0,
         scrolledUnderElevation: 0,
         title: Text(
@@ -635,18 +681,18 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text(
+          Text(
             'Choose an Exam',
             style: TextStyle(
               fontSize: 22,
               fontWeight: FontWeight.w800,
-              color: Color(0xFF0F172A),
+              color: context.textPrimary,
             ),
           ),
           const SizedBox(height: 4),
-          const Text(
+          Text(
             'Practice real questions from previous papers',
-            style: TextStyle(fontSize: 14, color: Color(0xFF64748B)),
+            style: TextStyle(fontSize: 14, color: context.textSecondary),
           ),
           const SizedBox(height: 20),
           GridView.count(
@@ -667,21 +713,21 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
           Container(
             padding: const EdgeInsets.all(14),
             decoration: BoxDecoration(
-              color: const Color(0xFFF1F5F9),
+              color: context.surfaceMuted,
               borderRadius: BorderRadius.circular(12),
             ),
             child: Row(
               children: [
-                const Icon(Icons.info_outline_rounded,
-                    size: 16, color: Color(0xFF64748B)),
+                Icon(Icons.info_outline_rounded,
+                    size: 16, color: context.textSecondary),
                 const SizedBox(width: 8),
                 Expanded(
                   child: Text(
                     _isPremium
                         ? 'All questions unlocked — Premium active'
                         : 'First $freePYQLimit questions free per exam · Upgrade for unlimited access',
-                    style: const TextStyle(
-                        fontSize: 12, color: Color(0xFF64748B)),
+                    style: TextStyle(
+                        fontSize: 12, color: context.textSecondary),
                   ),
                 ),
               ],
@@ -699,6 +745,7 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
 
     final q = _questions[_currentIndex];
     final total = _isPremium ? _questions.length : freePYQLimit;
+    final navBtnColor = context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D);
 
     return Padding(
       padding: const EdgeInsets.all(16),
@@ -710,8 +757,8 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
             children: [
               Text(
                 'Question ${_currentIndex + 1} of $total',
-                style: const TextStyle(
-                    color: Color(0xFF334155), fontWeight: FontWeight.w600),
+                style: TextStyle(
+                    color: context.textSecondary, fontWeight: FontWeight.w600),
               ),
               const Spacer(),
               if (!_isPremium)
@@ -738,7 +785,7 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
             value: (_currentIndex + 1) / total,
             minHeight: 8,
             borderRadius: BorderRadius.circular(999),
-            backgroundColor: const Color(0xFFE2E8F0),
+            backgroundColor: context.borderSubtle,
             color: _accent,
           ),
           const SizedBox(height: 10),
@@ -808,13 +855,18 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
+                  // Passage card (CLAT-style comprehension)
+                  if (q.passage.isNotEmpty) ...[
+                    _PassageCard(passage: q.passage, accent: _accent),
+                    const SizedBox(height: 12),
+                  ],
                   // Question card — practice style
                   Container(
                     padding: const EdgeInsets.all(16),
                     decoration: BoxDecoration(
-                      color: Colors.white,
+                      color: context.cardBg,
                       borderRadius: BorderRadius.circular(14),
-                      border: Border.all(color: const Color(0xFFE2E8F0)),
+                      border: Border.all(color: context.borderSubtle),
                     ),
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -838,10 +890,10 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
                         Expanded(
                           child: Text(
                             q.question,
-                            style: const TextStyle(
+                            style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w600,
-                                color: Color(0xFF0F172A),
+                                color: context.textPrimary,
                                 height: 1.4),
                           ),
                         ),
@@ -867,10 +919,10 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
                           padding: const EdgeInsets.all(14),
                           constraints: const BoxConstraints(minHeight: 56),
                           decoration: BoxDecoration(
-                            color: _optionBg(idx),
+                            color: _optionBg(context, idx),
                             borderRadius: BorderRadius.circular(12),
                             border: Border.all(
-                              color: _optionBorder(idx),
+                              color: _optionBorder(context, idx),
                               width: isSelected || (selected != null && isCorrectOption) ? 2 : 1,
                             ),
                           ),
@@ -887,7 +939,7 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
                                           ? const Color(0xFFDC2626)
                                           : isSelected
                                               ? const Color(0xFF1F3C6D)
-                                              : const Color(0xFFF1F5F9),
+                                              : context.surfaceMuted,
                                 ),
                                 child: Center(
                                   child: Text(
@@ -899,7 +951,7 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
                                               (isSelected && selected != null) ||
                                               isSelected
                                           ? Colors.white
-                                          : const Color(0xFF64748B),
+                                          : context.textSecondary,
                                     ),
                                   ),
                                 ),
@@ -911,8 +963,8 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
                                   style: TextStyle(
                                     fontSize: 15,
                                     color: isSelected
-                                        ? _optionBorder(idx)
-                                        : const Color(0xFF1E293B),
+                                        ? _optionBorder(context, idx)
+                                        : context.textPrimary,
                                     fontWeight: isSelected
                                         ? FontWeight.w600
                                         : FontWeight.normal,
@@ -945,8 +997,8 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
                   icon: const Icon(Icons.arrow_back_rounded, size: 18),
                   label: const Text('Prev'),
                   style: OutlinedButton.styleFrom(
-                    side: const BorderSide(color: Color(0xFF1F3C6D)),
-                    foregroundColor: const Color(0xFF1F3C6D),
+                    side: BorderSide(color: navBtnColor),
+                    foregroundColor: navBtnColor,
                     padding: const EdgeInsets.symmetric(vertical: 12),
                     disabledForegroundColor: const Color(0xFFCBD5E1),
                   ),
@@ -956,8 +1008,8 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
               OutlinedButton(
                 onPressed: () => _showQuestionGrid(total),
                 style: OutlinedButton.styleFrom(
-                  side: const BorderSide(color: Color(0xFF1F3C6D)),
-                  foregroundColor: const Color(0xFF1F3C6D),
+                  side: BorderSide(color: navBtnColor),
+                  foregroundColor: navBtnColor,
                   padding: const EdgeInsets.symmetric(
                       horizontal: 14, vertical: 12),
                 ),
@@ -973,8 +1025,8 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
                   label: const Text('Next'),
                   iconAlignment: IconAlignment.end,
                   style: OutlinedButton.styleFrom(
-                    side: const BorderSide(color: Color(0xFF1F3C6D)),
-                    foregroundColor: const Color(0xFF1F3C6D),
+                    side: BorderSide(color: navBtnColor),
+                    foregroundColor: navBtnColor,
                     padding: const EdgeInsets.symmetric(vertical: 12),
                     disabledForegroundColor: const Color(0xFFCBD5E1),
                   ),
@@ -1013,10 +1065,10 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
           duration: const Duration(milliseconds: 150),
           padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
           decoration: BoxDecoration(
-            color: isSelected ? _accent : Colors.white,
+            color: isSelected ? _accent : context.cardBg,
             borderRadius: BorderRadius.circular(999),
             border: Border.all(
-              color: isSelected ? _accent : const Color(0xFFCBD5E1),
+              color: isSelected ? _accent : context.borderMedium,
               width: isSelected ? 1.5 : 1,
             ),
           ),
@@ -1025,7 +1077,7 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
             style: TextStyle(
               fontSize: 13,
               fontWeight: FontWeight.w700,
-              color: isSelected ? Colors.white : const Color(0xFF475569),
+              color: isSelected ? Colors.white : context.textSecondary,
             ),
           ),
         ),
@@ -1077,8 +1129,13 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
   Widget _buildExplanationCard(PYQQuestion q, int total) {
     final selected = _selections[_currentIndex]!;
     final isCorrect = q.options[selected] == q.correctAnswer;
-    final cardColor =
-        isCorrect ? const Color(0xFFDCFCE7) : const Color(0xFFFEE2E2);
+    final cardColor = isCorrect
+        ? (context.isDark
+            ? const Color(0xFF16A34A).withValues(alpha: 0.15)
+            : const Color(0xFFDCFCE7))
+        : (context.isDark
+            ? const Color(0xFFDC2626).withValues(alpha: 0.15)
+            : const Color(0xFFFEE2E2));
     final borderColor =
         isCorrect ? const Color(0xFF16A34A) : const Color(0xFFDC2626);
     final iconColor =
@@ -1126,9 +1183,9 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
             const SizedBox(height: 10),
             Text(
               q.explanation,
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 13,
-                color: Color(0xFF0F172A),
+                color: context.textPrimary,
                 height: 1.5,
               ),
             ),
@@ -1195,7 +1252,7 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-              onPressed: () => _loadAndStart(_selectedExam!),
+              onPressed: () => _loadAndStart(_selectedExam!, fresh: true),
               style: ElevatedButton.styleFrom(
                 backgroundColor: gradient.last,
                 foregroundColor: Colors.white,
@@ -1247,18 +1304,18 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
                   size: 36, color: Color(0xFFD97706)),
             ),
             const SizedBox(height: 20),
-            const Text(
+            Text(
               'Unlock All PYQs',
               style: TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.w800,
-                  color: Color(0xFF0F172A)),
+                  color: context.textPrimary),
             ),
             const SizedBox(height: 8),
             Text(
               'You\'ve completed $freePYQLimit free questions.\nUpgrade to access all questions from every exam.',
               textAlign: TextAlign.center,
-              style: const TextStyle(fontSize: 14, color: Color(0xFF64748B)),
+              style: TextStyle(fontSize: 14, color: context.textSecondary),
             ),
             const SizedBox(height: 24),
             SizedBox(
@@ -1300,6 +1357,83 @@ Practice 1000+ English vocabulary questions & PYQs on Vocabo!
   }
 }
 
+// ── Passage card (for comprehension-based exams like CLAT) ───────────────────
+
+class _PassageCard extends StatefulWidget {
+  final String passage;
+  final Color accent;
+
+  const _PassageCard({required this.passage, required this.accent});
+
+  @override
+  State<_PassageCard> createState() => _PassageCardState();
+}
+
+class _PassageCardState extends State<_PassageCard> {
+  bool _expanded = false;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: BoxDecoration(
+        color: context.surfaceMuted,
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: context.borderMedium),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          GestureDetector(
+            onTap: () => setState(() => _expanded = !_expanded),
+            child: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 11),
+              decoration: BoxDecoration(
+                color: widget.accent.withValues(alpha: 0.08),
+                borderRadius: _expanded
+                    ? const BorderRadius.vertical(top: Radius.circular(14))
+                    : BorderRadius.circular(14),
+              ),
+              child: Row(
+                children: [
+                  Icon(Icons.article_outlined, size: 16, color: widget.accent),
+                  const SizedBox(width: 8),
+                  Text(
+                    'Read Passage',
+                    style: TextStyle(
+                      fontSize: 13,
+                      fontWeight: FontWeight.w700,
+                      color: widget.accent,
+                    ),
+                  ),
+                  const Spacer(),
+                  Icon(
+                    _expanded
+                        ? Icons.keyboard_arrow_up_rounded
+                        : Icons.keyboard_arrow_down_rounded,
+                    size: 20,
+                    color: widget.accent,
+                  ),
+                ],
+              ),
+            ),
+          ),
+          if (_expanded)
+            Padding(
+              padding: const EdgeInsets.fromLTRB(14, 12, 14, 14),
+              child: Text(
+                widget.passage,
+                style: TextStyle(
+                  fontSize: 14,
+                  color: context.textSecondary,
+                  height: 1.65,
+                ),
+              ),
+            ),
+        ],
+      ),
+    );
+  }
+}
 // ── Exam grid card widget ─────────────────────────────────────────────────────
 
 class _ExamGridCard extends StatelessWidget {
@@ -1310,6 +1444,7 @@ class _ExamGridCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final attempted = getPYQProgress(exam.name);
     return InteractivePressable(
       borderRadius: BorderRadius.circular(20),
       onTap: onTap,
@@ -1346,14 +1481,37 @@ class _ExamGridCard extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Container(
-                    width: 46,
-                    height: 46,
-                    decoration: BoxDecoration(
-                      color: Colors.white.withValues(alpha: 0.20),
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                    child: Icon(exam.icon, color: Colors.white, size: 24),
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Container(
+                        width: 46,
+                        height: 46,
+                        decoration: BoxDecoration(
+                          color: Colors.white.withValues(alpha: 0.20),
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Icon(exam.icon, color: Colors.white, size: 24),
+                      ),
+                      const Spacer(),
+                      if (attempted > 0)
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 8, vertical: 4),
+                          decoration: BoxDecoration(
+                            color: Colors.white.withValues(alpha: 0.22),
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          child: Text(
+                            '$attempted done',
+                            style: const TextStyle(
+                              fontSize: 10,
+                              fontWeight: FontWeight.w700,
+                              color: Colors.white,
+                            ),
+                          ),
+                        ),
+                    ],
                   ),
                   const Spacer(),
                   Text(

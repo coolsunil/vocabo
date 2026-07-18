@@ -15,6 +15,26 @@
     "category": "advanced"
   },
   {
+    "word": "Abnegate",
+    "meaning_en": "renounce or give up",
+    "meaning_hi": "त्यागना",
+    "synonyms": [
+      "Renounce",
+      "Forgo",
+      "Relinquish",
+      "Surrender",
+      "Abstain"
+    ],
+    "antonyms": [
+      "Claim",
+      "Retain",
+      "Assert",
+      "Keep"
+    ],
+    "example": "He abnegated all personal desires for the cause.",
+    "category": "advanced"
+  },
+  {
     "word": "Abominable",
     "meaning_hi": "घृणित",
     "meaning_en": "Extremely unpleasant",
@@ -27,6 +47,26 @@
       "Admirable",
       "Pleasant"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Abyss",
+    "meaning_en": "a deep or bottomless chasm",
+    "meaning_hi": "अथाह गहराई",
+    "synonyms": [
+      "Chasm",
+      "Void",
+      "Gulf",
+      "Depth",
+      "Pit"
+    ],
+    "antonyms": [
+      "Surface",
+      "Elevation",
+      "Peak",
+      "Summit"
+    ],
+    "example": "The country stared into the abyss of civil war.",
     "category": "advanced"
   },
   {
@@ -60,6 +100,26 @@
     "category": "advanced"
   },
   {
+    "word": "Acrimonious",
+    "meaning_en": "angry and bitter",
+    "meaning_hi": "कटु",
+    "synonyms": [
+      "Bitter",
+      "Hostile",
+      "Harsh",
+      "Caustic",
+      "Resentful"
+    ],
+    "antonyms": [
+      "Amicable",
+      "Friendly",
+      "Cordial",
+      "Harmonious"
+    ],
+    "example": "The divorce proceedings were acrimonious.",
+    "category": "advanced"
+  },
+  {
     "word": "Acumen",
     "meaning_hi": "कुशाग्रता",
     "meaning_en": "Ability to make good judgments",
@@ -87,6 +147,46 @@
       "Flexible",
       "Yielding"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Adamantine",
+    "meaning_en": "unbreakable; unyielding",
+    "meaning_hi": "अटल",
+    "synonyms": [
+      "Unyielding",
+      "Rigid",
+      "Inflexible",
+      "Stubborn",
+      "Adamant"
+    ],
+    "antonyms": [
+      "Flexible",
+      "Yielding",
+      "Soft",
+      "Compliant"
+    ],
+    "example": "His adamantine will could not be broken.",
+    "category": "advanced"
+  },
+  {
+    "word": "Adroit",
+    "meaning_en": "clever or skilful in action",
+    "meaning_hi": "चतुर",
+    "synonyms": [
+      "Skilful",
+      "Dexterous",
+      "Clever",
+      "Expert",
+      "Nimble"
+    ],
+    "antonyms": [
+      "Clumsy",
+      "Inept",
+      "Awkward",
+      "Incompetent"
+    ],
+    "example": "She was adroit at handling difficult negotiations.",
     "category": "advanced"
   },
   {
@@ -120,6 +220,26 @@
     "category": "advanced"
   },
   {
+    "word": "Affectation",
+    "meaning_en": "pretence of having a quality",
+    "meaning_hi": "दिखावा",
+    "synonyms": [
+      "Pretence",
+      "Artificiality",
+      "Posturing",
+      "Mannerism",
+      "Show"
+    ],
+    "antonyms": [
+      "Sincerity",
+      "Genuineness",
+      "Naturalness",
+      "Simplicity"
+    ],
+    "example": "His posh accent was pure affectation.",
+    "category": "advanced"
+  },
+  {
     "word": "Aggrandize",
     "meaning_hi": "बढ़ा-चढ़ाकर दिखाना",
     "meaning_en": "Increase power or exaggerate",
@@ -132,6 +252,46 @@
       "Diminish",
       "Belittle"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Agnostic",
+    "meaning_en": "one who believes ultimate truth is unknown",
+    "meaning_hi": "अज्ञेयवादी",
+    "synonyms": [
+      "Doubter",
+      "Sceptic",
+      "Questioner",
+      "Non-believer",
+      "Uncommitted"
+    ],
+    "antonyms": [
+      "Believer",
+      "Devout",
+      "Faithful",
+      "Theist"
+    ],
+    "example": "He was agnostic about the existence of god.",
+    "category": "advanced"
+  },
+  {
+    "word": "Amalgamate",
+    "meaning_en": "combine or unite to form one",
+    "meaning_hi": "मिलाना",
+    "synonyms": [
+      "Merge",
+      "Combine",
+      "Unite",
+      "Integrate",
+      "Consolidate"
+    ],
+    "antonyms": [
+      "Separate",
+      "Divide",
+      "Split",
+      "Disintegrate"
+    ],
+    "example": "The two companies amalgamated last year.",
     "category": "advanced"
   },
   {
@@ -162,6 +322,26 @@
       "Modernity",
       "Currency"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Anaemia",
+    "meaning_en": "lack of strength; deficiency",
+    "meaning_hi": "अल्परक्तता",
+    "synonyms": [
+      "Weakness",
+      "Deficiency",
+      "Pallor",
+      "Frailty",
+      "Lack"
+    ],
+    "antonyms": [
+      "Strength",
+      "Vitality",
+      "Vigour",
+      "Robustness"
+    ],
+    "example": "Anaemia caused her constant fatigue.",
     "category": "advanced"
   },
   {
@@ -225,6 +405,26 @@
     "category": "advanced"
   },
   {
+    "word": "Antithesis",
+    "meaning_en": "the exact opposite",
+    "meaning_hi": "विरोध",
+    "synonyms": [
+      "Opposite",
+      "Contrast",
+      "Reverse",
+      "Contradiction",
+      "Converse"
+    ],
+    "antonyms": [
+      "Similarity",
+      "Agreement",
+      "Conformity",
+      "Likeness"
+    ],
+    "example": "Her calm manner was the antithesis of his temper.",
+    "category": "advanced"
+  },
+  {
     "word": "Apocryphal",
     "meaning_hi": "संदिग्ध",
     "meaning_en": "Of doubtful authenticity",
@@ -240,6 +440,26 @@
     "category": "advanced"
   },
   {
+    "word": "Apogee",
+    "meaning_en": "the highest or most distant point",
+    "meaning_hi": "उच्चतम बिंदु",
+    "synonyms": [
+      "Peak",
+      "Summit",
+      "Pinnacle",
+      "Zenith",
+      "Climax"
+    ],
+    "antonyms": [
+      "Perigee",
+      "Nadir",
+      "Bottom",
+      "Lowest point"
+    ],
+    "example": "The empire reached its apogee in the 18th century.",
+    "category": "advanced"
+  },
+  {
     "word": "Apostasy",
     "meaning_hi": "धर्मत्याग",
     "meaning_en": "Abandoning one's beliefs",
@@ -252,6 +472,66 @@
       "Loyalty",
       "Devotion"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Apostate",
+    "meaning_en": "person who renounces a belief",
+    "meaning_hi": "धर्मत्यागी",
+    "synonyms": [
+      "Renegade",
+      "Traitor",
+      "Defector",
+      "Deserter",
+      "Turncoat"
+    ],
+    "antonyms": [
+      "Believer",
+      "Loyalist",
+      "Adherent",
+      "Faithful"
+    ],
+    "example": "The apostate was shunned by his community.",
+    "category": "advanced"
+  },
+  {
+    "word": "Apposite",
+    "meaning_en": "apt in the circumstances",
+    "meaning_hi": "उचित",
+    "synonyms": [
+      "Apt",
+      "Relevant",
+      "Appropriate",
+      "Suitable",
+      "Pertinent"
+    ],
+    "antonyms": [
+      "Inappropriate",
+      "Irrelevant",
+      "Unsuitable",
+      "Inapt"
+    ],
+    "example": "Her apposite remark ended the debate.",
+    "category": "advanced"
+  },
+  {
+    "word": "Apprehensive",
+    "meaning_en": "anxious about the future",
+    "meaning_hi": "आशंकित",
+    "synonyms": [
+      "Anxious",
+      "Worried",
+      "Fearful",
+      "Nervous",
+      "Uneasy"
+    ],
+    "antonyms": [
+      "Confident",
+      "Calm",
+      "Relaxed",
+      "Assured"
+    ],
+    "example": "She was apprehensive about her results.",
     "category": "advanced"
   },
   {
@@ -285,6 +565,26 @@
     "category": "advanced"
   },
   {
+    "word": "Archaic",
+    "meaning_en": "very old or old-fashioned",
+    "meaning_hi": "पुरातन",
+    "synonyms": [
+      "Ancient",
+      "Old-fashioned",
+      "Obsolete",
+      "Antique",
+      "Antiquated"
+    ],
+    "antonyms": [
+      "Modern",
+      "Contemporary",
+      "Current",
+      "New"
+    ],
+    "example": "The archaic law was finally repealed.",
+    "category": "advanced"
+  },
+  {
     "word": "Ardor",
     "meaning_hi": "उत्साह",
     "meaning_en": "Great enthusiasm or passion",
@@ -297,6 +597,46 @@
       "Apathy",
       "Indifference"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Ardour",
+    "meaning_en": "great enthusiasm",
+    "meaning_hi": "उत्साह",
+    "synonyms": [
+      "Passion",
+      "Enthusiasm",
+      "Zeal",
+      "Fervour",
+      "Eagerness"
+    ],
+    "antonyms": [
+      "Indifference",
+      "Apathy",
+      "Coldness",
+      "Disinterest"
+    ],
+    "example": "His ardour for justice was inspiring.",
+    "category": "advanced"
+  },
+  {
+    "word": "Arrogate",
+    "meaning_en": "claim without justification",
+    "meaning_hi": "अनधिकार दावा करना",
+    "synonyms": [
+      "Usurp",
+      "Seize",
+      "Claim",
+      "Assume",
+      "Commandeer"
+    ],
+    "antonyms": [
+      "Relinquish",
+      "Surrender",
+      "Give up",
+      "Renounce"
+    ],
+    "example": "He arrogated powers that did not belong to him.",
     "category": "advanced"
   },
   {
@@ -330,6 +670,26 @@
     "category": "advanced"
   },
   {
+    "word": "Asperse",
+    "meaning_en": "attack the reputation of",
+    "meaning_hi": "बदनाम करना",
+    "synonyms": [
+      "Defame",
+      "Slander",
+      "Malign",
+      "Vilify",
+      "Disparage"
+    ],
+    "antonyms": [
+      "Praise",
+      "Commend",
+      "Honour",
+      "Glorify"
+    ],
+    "example": "He aspersed his colleague's good name.",
+    "category": "advanced"
+  },
+  {
     "word": "Assiduous",
     "meaning_hi": "परिश्रमी",
     "meaning_en": "Showing great care and effort",
@@ -357,6 +717,46 @@
       "Progress",
       "Evolution"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Atone",
+    "meaning_en": "make amends for wrongdoing",
+    "meaning_hi": "प्रायश्चित करना",
+    "synonyms": [
+      "Repent",
+      "Make amends",
+      "Compensate",
+      "Redeem",
+      "Expiate"
+    ],
+    "antonyms": [
+      "Offend",
+      "Sin",
+      "Wrong",
+      "Harm"
+    ],
+    "example": "He tried to atone for his mistakes.",
+    "category": "advanced"
+  },
+  {
+    "word": "Atrophy",
+    "meaning_en": "waste away through lack of use",
+    "meaning_hi": "शोष",
+    "synonyms": [
+      "Wither",
+      "Degenerate",
+      "Waste away",
+      "Deteriorate",
+      "Decline"
+    ],
+    "antonyms": [
+      "Grow",
+      "Develop",
+      "Strengthen",
+      "Flourish"
+    ],
+    "example": "Muscles atrophy without regular exercise.",
     "category": "advanced"
   },
   {
@@ -450,6 +850,26 @@
     "category": "advanced"
   },
   {
+    "word": "Banal",
+    "meaning_en": "lacking originality",
+    "meaning_hi": "सामान्य",
+    "synonyms": [
+      "Trite",
+      "Clichéd",
+      "Predictable",
+      "Dull",
+      "Mundane"
+    ],
+    "antonyms": [
+      "Original",
+      "Fresh",
+      "Novel",
+      "Creative"
+    ],
+    "example": "The speech was full of banal platitudes.",
+    "category": "advanced"
+  },
+  {
     "word": "Beatitude",
     "meaning_hi": "परम आनंद",
     "meaning_en": "Supreme blessedness",
@@ -522,6 +942,44 @@
       "Enlightened",
       "Educated"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Bequeath",
+    "meaning_en": "leave by will to a successor",
+    "meaning_hi": "वसीयत करना",
+    "synonyms": [
+      "Leave",
+      "Will",
+      "Grant",
+      "Pass on",
+      "Hand down"
+    ],
+    "antonyms": [
+      "Inherit",
+      "Receive",
+      "Withhold",
+      "Take"
+    ],
+    "example": "She bequeathed her estate to charity.",
+    "category": "advanced"
+  },
+  {
+    "word": "Bibliophile",
+    "meaning_en": "a person who loves books",
+    "meaning_hi": "पुस्तक प्रेमी",
+    "synonyms": [
+      "Book lover",
+      "Bookworm",
+      "Scholar",
+      "Reader",
+      "Literati"
+    ],
+    "antonyms": [
+      "Illiterate",
+      "Non-reader"
+    ],
+    "example": "A bibliophile, she owned thousands of rare books.",
     "category": "advanced"
   },
   {
@@ -627,6 +1085,106 @@
       "Harmony",
       "Melody"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Cadaverous",
+    "meaning_en": "resembling a corpse; pale and thin",
+    "meaning_hi": "मुर्दे जैसा",
+    "synonyms": [
+      "Gaunt",
+      "Pallid",
+      "Ghastly",
+      "Haggard",
+      "Emaciated"
+    ],
+    "antonyms": [
+      "Healthy",
+      "Robust",
+      "Ruddy",
+      "Vigorous"
+    ],
+    "example": "After the illness, his cadaverous appearance shocked everyone.",
+    "category": "advanced"
+  },
+  {
+    "word": "Callousness",
+    "meaning_en": "insensitivity and cruelty",
+    "meaning_hi": "निर्दयता",
+    "synonyms": [
+      "Heartlessness",
+      "Cruelty",
+      "Insensitivity",
+      "Indifference",
+      "Coldness"
+    ],
+    "antonyms": [
+      "Compassion",
+      "Sensitivity",
+      "Empathy",
+      "Kindness"
+    ],
+    "example": "His callousness shocked the committee.",
+    "category": "advanced"
+  },
+  {
+    "word": "Calumny",
+    "meaning_en": "making false statements to damage reputation",
+    "meaning_hi": "झूठा आरोप",
+    "synonyms": [
+      "Slander",
+      "Defamation",
+      "Libel",
+      "Aspersion",
+      "Vilification"
+    ],
+    "antonyms": [
+      "Praise",
+      "Compliment",
+      "Truth",
+      "Endorsement"
+    ],
+    "example": "His calumny damaged her good name.",
+    "category": "advanced"
+  },
+  {
+    "word": "Candour",
+    "meaning_en": "the quality of being open and honest",
+    "meaning_hi": "स्पष्टवादिता",
+    "synonyms": [
+      "Frankness",
+      "Honesty",
+      "Openness",
+      "Sincerity",
+      "Directness"
+    ],
+    "antonyms": [
+      "Deceit",
+      "Evasiveness",
+      "Dishonesty",
+      "Secrecy"
+    ],
+    "example": "She spoke with disarming candour.",
+    "category": "advanced"
+  },
+  {
+    "word": "Captious",
+    "meaning_en": "too eager to find faults",
+    "meaning_hi": "आलोचनाप्रिय",
+    "synonyms": [
+      "Fault-finding",
+      "Critical",
+      "Carping",
+      "Nit-picking",
+      "Querulous"
+    ],
+    "antonyms": [
+      "Approving",
+      "Tolerant",
+      "Generous",
+      "Complimentary"
+    ],
+    "example": "His captious reviews discouraged writers.",
     "category": "advanced"
   },
   {
@@ -750,6 +1308,26 @@
     "category": "advanced"
   },
   {
+    "word": "Chronicle",
+    "meaning_en": "record events in order",
+    "meaning_hi": "इतिहास",
+    "synonyms": [
+      "Record",
+      "Document",
+      "Account",
+      "Register",
+      "Report"
+    ],
+    "antonyms": [
+      "Ignore",
+      "Omit",
+      "Conceal",
+      "Suppress"
+    ],
+    "example": "The journalist chronicled the events of the war.",
+    "category": "advanced"
+  },
+  {
     "word": "Circumlocution",
     "meaning_hi": "वाग्जाल",
     "meaning_en": "Using many words to say little",
@@ -777,6 +1355,26 @@
       "Reckless",
       "Impulsive"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Circumvent",
+    "meaning_en": "find a way around an obstacle",
+    "meaning_hi": "चकमा देना",
+    "synonyms": [
+      "Bypass",
+      "Evade",
+      "Sidestep",
+      "Outmanoeuvre",
+      "Avoid"
+    ],
+    "antonyms": [
+      "Confront",
+      "Face",
+      "Obey",
+      "Follow"
+    ],
+    "example": "He circumvented the rules with a loophole.",
     "category": "advanced"
   },
   {
@@ -840,6 +1438,25 @@
     "category": "advanced"
   },
   {
+    "word": "Cogitation",
+    "meaning_en": "the action of deep thinking",
+    "meaning_hi": "विचार-मनन",
+    "synonyms": [
+      "Thought",
+      "Reflection",
+      "Contemplation",
+      "Meditation",
+      "Deliberation"
+    ],
+    "antonyms": [
+      "Thoughtlessness",
+      "Impulsiveness",
+      "Rashness"
+    ],
+    "example": "After much cogitation he reached his decision.",
+    "category": "advanced"
+  },
+  {
     "word": "Collusion",
     "meaning_hi": "मिलीभगत",
     "meaning_en": "Secret cooperation for fraud",
@@ -852,6 +1469,26 @@
       "Transparency",
       "Integrity"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Commensurate",
+    "meaning_en": "proportionate in size or degree",
+    "meaning_hi": "अनुपातिक",
+    "synonyms": [
+      "Proportionate",
+      "Appropriate",
+      "Matching",
+      "Corresponding",
+      "Equal"
+    ],
+    "antonyms": [
+      "Disproportionate",
+      "Unequal",
+      "Inadequate",
+      "Excessive"
+    ],
+    "example": "Salary should be commensurate with experience.",
     "category": "advanced"
   },
   {
@@ -900,6 +1537,26 @@
     "category": "advanced"
   },
   {
+    "word": "Concomitant",
+    "meaning_en": "naturally accompanying",
+    "meaning_hi": "सहवर्ती",
+    "synonyms": [
+      "Accompanying",
+      "Associated",
+      "Concurrent",
+      "Related",
+      "Attendant"
+    ],
+    "antonyms": [
+      "Unrelated",
+      "Independent",
+      "Separate",
+      "Isolated"
+    ],
+    "example": "Stress is often concomitant with high-pressure jobs.",
+    "category": "advanced"
+  },
+  {
     "word": "Condescend",
     "meaning_hi": "कृपालु बनना",
     "meaning_en": "Behave as if superior",
@@ -930,6 +1587,66 @@
     "category": "advanced"
   },
   {
+    "word": "Connive",
+    "meaning_en": "secretly allow or be involved in wrongdoing",
+    "meaning_hi": "मिलीभगत करना",
+    "synonyms": [
+      "Conspire",
+      "Collude",
+      "Scheme",
+      "Plot",
+      "Collaborate"
+    ],
+    "antonyms": [
+      "Oppose",
+      "Prevent",
+      "Hinder",
+      "Expose"
+    ],
+    "example": "Officials connived with contractors to inflate bills.",
+    "category": "advanced"
+  },
+  {
+    "word": "Contentious",
+    "meaning_en": "causing disagreement or argument",
+    "meaning_hi": "विवादास्पद",
+    "synonyms": [
+      "Controversial",
+      "Disputed",
+      "Debatable",
+      "Combative",
+      "Quarrelsome"
+    ],
+    "antonyms": [
+      "Agreeable",
+      "Harmonious",
+      "Peaceful",
+      "Uncontroversial"
+    ],
+    "example": "Tax policy is always a contentious issue.",
+    "category": "advanced"
+  },
+  {
+    "word": "Contumacious",
+    "meaning_en": "stubbornly disobedient",
+    "meaning_hi": "अवज्ञाकारी",
+    "synonyms": [
+      "Defiant",
+      "Disobedient",
+      "Rebellious",
+      "Insubordinate",
+      "Refractory"
+    ],
+    "antonyms": [
+      "Obedient",
+      "Compliant",
+      "Submissive",
+      "Respectful"
+    ],
+    "example": "The contumacious defendant ignored court orders.",
+    "category": "advanced"
+  },
+  {
     "word": "Convoluted",
     "meaning_hi": "उलझा हुआ",
     "meaning_en": "Extremely complex and difficult",
@@ -942,6 +1659,26 @@
       "Simple",
       "Clear"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Corpulent",
+    "meaning_en": "fat",
+    "meaning_hi": "मोटा",
+    "synonyms": [
+      "Obese",
+      "Fat",
+      "Overweight",
+      "Stout",
+      "Portly"
+    ],
+    "antonyms": [
+      "Slim",
+      "Thin",
+      "Lean",
+      "Slender"
+    ],
+    "example": "The corpulent man struggled to climb the stairs.",
     "category": "advanced"
   },
   {
@@ -960,6 +1697,26 @@
     "category": "advanced"
   },
   {
+    "word": "Coruscate",
+    "meaning_en": "flash or sparkle",
+    "meaning_hi": "चमकना",
+    "synonyms": [
+      "Sparkle",
+      "Glitter",
+      "Gleam",
+      "Flash",
+      "Scintillate"
+    ],
+    "antonyms": [
+      "Dull",
+      "Fade",
+      "Darken",
+      "Dim"
+    ],
+    "example": "Diamonds coruscate brilliantly in sunlight.",
+    "category": "advanced"
+  },
+  {
     "word": "Countenance",
     "meaning_hi": "समर्थन करना",
     "meaning_en": "Approve or tolerate",
@@ -972,6 +1729,66 @@
       "Oppose",
       "Forbid"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Covet",
+    "meaning_en": "yearn to possess something",
+    "meaning_hi": "लालसा करना",
+    "synonyms": [
+      "Desire",
+      "Crave",
+      "Envy",
+      "Long for",
+      "Lust after"
+    ],
+    "antonyms": [
+      "Despise",
+      "Reject",
+      "Relinquish",
+      "Ignore"
+    ],
+    "example": "He coveted his neighbour's success.",
+    "category": "advanced"
+  },
+  {
+    "word": "Craven",
+    "meaning_en": "contemptibly cowardly",
+    "meaning_hi": "कायर",
+    "synonyms": [
+      "Cowardly",
+      "Fearful",
+      "Timid",
+      "Pusillanimous",
+      "Spineless"
+    ],
+    "antonyms": [
+      "Brave",
+      "Courageous",
+      "Bold",
+      "Fearless"
+    ],
+    "example": "The craven soldier fled at the first sign of danger.",
+    "category": "advanced"
+  },
+  {
+    "word": "Credence",
+    "meaning_en": "belief in or acceptance as true",
+    "meaning_hi": "विश्वास",
+    "synonyms": [
+      "Belief",
+      "Trust",
+      "Faith",
+      "Acceptance",
+      "Confidence"
+    ],
+    "antonyms": [
+      "Disbelief",
+      "Doubt",
+      "Scepticism",
+      "Distrust"
+    ],
+    "example": "The story gained credence after evidence emerged.",
     "category": "advanced"
   },
   {
@@ -990,6 +1807,46 @@
     "category": "advanced"
   },
   {
+    "word": "Cursory",
+    "meaning_en": "hasty and therefore not thorough",
+    "meaning_hi": "सरसरी",
+    "synonyms": [
+      "Hasty",
+      "Superficial",
+      "Quick",
+      "Perfunctory",
+      "Brief"
+    ],
+    "antonyms": [
+      "Thorough",
+      "Detailed",
+      "Careful",
+      "Exhaustive"
+    ],
+    "example": "He gave the report only a cursory glance.",
+    "category": "advanced"
+  },
+  {
+    "word": "Dastardly",
+    "meaning_en": "wicked and cowardly",
+    "meaning_hi": "कायर",
+    "synonyms": [
+      "Cowardly",
+      "Villainous",
+      "Wicked",
+      "Evil",
+      "Treacherous"
+    ],
+    "antonyms": [
+      "Brave",
+      "Noble",
+      "Honourable",
+      "Courageous"
+    ],
+    "example": "It was a dastardly act of deception.",
+    "category": "advanced"
+  },
+  {
     "word": "Dauntless",
     "meaning_hi": "निडर",
     "meaning_en": "Fearlessly determined",
@@ -1002,6 +1859,26 @@
       "Timid",
       "Cowardly"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Decadence",
+    "meaning_en": "moral or cultural decline",
+    "meaning_hi": "पतन",
+    "synonyms": [
+      "Decline",
+      "Decay",
+      "Degeneration",
+      "Corruption",
+      "Deterioration"
+    ],
+    "antonyms": [
+      "Improvement",
+      "Progress",
+      "Rise",
+      "Virtue"
+    ],
+    "example": "Critics blamed media for cultural decadence.",
     "category": "advanced"
   },
   {
@@ -1035,6 +1912,26 @@
     "category": "advanced"
   },
   {
+    "word": "Deleterious",
+    "meaning_en": "causing harm or damage",
+    "meaning_hi": "हानिकारक",
+    "synonyms": [
+      "Harmful",
+      "Injurious",
+      "Damaging",
+      "Detrimental",
+      "Pernicious"
+    ],
+    "antonyms": [
+      "Beneficial",
+      "Harmless",
+      "Helpful",
+      "Salutary"
+    ],
+    "example": "Smoking has deleterious effects on health.",
+    "category": "advanced"
+  },
+  {
     "word": "Demagogue",
     "meaning_hi": "जनतंत्र का दुरुपयोगी नेता",
     "meaning_en": "Leader who exploits prejudices",
@@ -1047,6 +1944,26 @@
       "Statesman",
       "Leader"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Demeaning",
+    "meaning_en": "causing loss of dignity",
+    "meaning_hi": "अपमानजनक",
+    "synonyms": [
+      "Degrading",
+      "Humiliating",
+      "Belittling",
+      "Shameful",
+      "Dishonouring"
+    ],
+    "antonyms": [
+      "Dignifying",
+      "Honouring",
+      "Uplifting",
+      "Respecting"
+    ],
+    "example": "The demeaning task upset the employees.",
     "category": "advanced"
   },
   {
@@ -1065,6 +1982,46 @@
     "category": "advanced"
   },
   {
+    "word": "Demur",
+    "meaning_en": "raise objections or show reluctance",
+    "meaning_hi": "आपत्ति करना",
+    "synonyms": [
+      "Object",
+      "Protest",
+      "Hesitate",
+      "Resist",
+      "Disagree"
+    ],
+    "antonyms": [
+      "Agree",
+      "Comply",
+      "Accept",
+      "Consent"
+    ],
+    "example": "She demurred at the proposal without giving a reason.",
+    "category": "advanced"
+  },
+  {
+    "word": "Demystify",
+    "meaning_en": "make clearer and easier to understand",
+    "meaning_hi": "सरल बनाना",
+    "synonyms": [
+      "Clarify",
+      "Explain",
+      "Simplify",
+      "Illuminate",
+      "Decode"
+    ],
+    "antonyms": [
+      "Mystify",
+      "Complicate",
+      "Obscure",
+      "Confuse"
+    ],
+    "example": "The book demystifies complex economic ideas.",
+    "category": "advanced"
+  },
+  {
     "word": "Denigrate",
     "meaning_hi": "बदनाम करना",
     "meaning_en": "Unfairly criticize",
@@ -1077,6 +2034,46 @@
       "Praise",
       "Honor"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Denote",
+    "meaning_en": "be a sign of; indicate",
+    "meaning_hi": "संकेत करना",
+    "synonyms": [
+      "Indicate",
+      "Signify",
+      "Mean",
+      "Represent",
+      "Show"
+    ],
+    "antonyms": [
+      "Conceal",
+      "Hide",
+      "Misrepresent",
+      "Obscure"
+    ],
+    "example": "A red light denotes danger.",
+    "category": "advanced"
+  },
+  {
+    "word": "Denouement",
+    "meaning_en": "the final resolution of a narrative",
+    "meaning_hi": "परिणाम",
+    "synonyms": [
+      "Resolution",
+      "Conclusion",
+      "Outcome",
+      "End",
+      "Finale"
+    ],
+    "antonyms": [
+      "Beginning",
+      "Prologue",
+      "Exposition",
+      "Opening"
+    ],
+    "example": "The denouement surprised all the readers.",
     "category": "advanced"
   },
   {
@@ -1110,6 +2107,46 @@
     "category": "advanced"
   },
   {
+    "word": "Derisive",
+    "meaning_en": "expressing contempt or ridicule",
+    "meaning_hi": "उपहासपूर्ण",
+    "synonyms": [
+      "Mocking",
+      "Scornful",
+      "Contemptuous",
+      "Ridiculing",
+      "Jeering"
+    ],
+    "antonyms": [
+      "Respectful",
+      "Admiring",
+      "Praising",
+      "Complimentary"
+    ],
+    "example": "His derisive laughter was deeply hurtful.",
+    "category": "advanced"
+  },
+  {
+    "word": "Derogatory",
+    "meaning_en": "showing critical attitude; disrespectful",
+    "meaning_hi": "अपमानजनक",
+    "synonyms": [
+      "Insulting",
+      "Disrespectful",
+      "Disparaging",
+      "Demeaning",
+      "Belittling"
+    ],
+    "antonyms": [
+      "Complimentary",
+      "Respectful",
+      "Admiring",
+      "Praising"
+    ],
+    "example": "Derogatory remarks are not acceptable.",
+    "category": "advanced"
+  },
+  {
     "word": "Desecrate",
     "meaning_hi": "अपवित्र करना",
     "meaning_en": "Violate the sanctity of",
@@ -1140,6 +2177,66 @@
     "category": "advanced"
   },
   {
+    "word": "Desultory",
+    "meaning_en": "lacking a plan; disconnected",
+    "meaning_hi": "बेतरतीब",
+    "synonyms": [
+      "Haphazard",
+      "Random",
+      "Aimless",
+      "Casual",
+      "Sporadic"
+    ],
+    "antonyms": [
+      "Methodical",
+      "Systematic",
+      "Planned",
+      "Focused"
+    ],
+    "example": "His desultory efforts achieved nothing.",
+    "category": "advanced"
+  },
+  {
+    "word": "Devious",
+    "meaning_en": "showing a willingness to deceive",
+    "meaning_hi": "चालबाज",
+    "synonyms": [
+      "Cunning",
+      "Sly",
+      "Crafty",
+      "Underhand",
+      "Deceptive"
+    ],
+    "antonyms": [
+      "Honest",
+      "Straightforward",
+      "Direct",
+      "Frank"
+    ],
+    "example": "He used devious means to win.",
+    "category": "advanced"
+  },
+  {
+    "word": "Dichotomy",
+    "meaning_en": "a division into two contrasting things",
+    "meaning_hi": "विभाजन",
+    "synonyms": [
+      "Division",
+      "Split",
+      "Contrast",
+      "Separation",
+      "Polarity"
+    ],
+    "antonyms": [
+      "Unity",
+      "Integration",
+      "Agreement",
+      "Harmony"
+    ],
+    "example": "There is a dichotomy between theory and practice.",
+    "category": "advanced"
+  },
+  {
     "word": "Didactic",
     "meaning_hi": "शिक्षाप्रद",
     "meaning_en": "Intended to instruct",
@@ -1152,6 +2249,24 @@
       "Frivolous",
       "Uninstructive"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Didacticism",
+    "meaning_en": "excessive concern with instruction",
+    "meaning_hi": "उपदेशवाद",
+    "synonyms": [
+      "Moralizing",
+      "Preaching",
+      "Instructiveness",
+      "Pedagoguery"
+    ],
+    "antonyms": [
+      "Entertainment",
+      "Amusement",
+      "Frivolity"
+    ],
+    "example": "His didacticism made his novels tedious.",
     "category": "advanced"
   },
   {
@@ -1170,6 +2285,86 @@
     "category": "advanced"
   },
   {
+    "word": "Diffident",
+    "meaning_en": "modest or shy due to lack of self-confidence",
+    "meaning_hi": "संकोची",
+    "synonyms": [
+      "Shy",
+      "Timid",
+      "Reserved",
+      "Hesitant",
+      "Meek"
+    ],
+    "antonyms": [
+      "Confident",
+      "Bold",
+      "Assertive",
+      "Outgoing"
+    ],
+    "example": "The diffident student rarely spoke in class.",
+    "category": "advanced"
+  },
+  {
+    "word": "Diffuse",
+    "meaning_en": "spread over a wide area",
+    "meaning_hi": "फैलाना",
+    "synonyms": [
+      "Spread",
+      "Scatter",
+      "Disperse",
+      "Disseminate",
+      "Circulate"
+    ],
+    "antonyms": [
+      "Concentrate",
+      "Focus",
+      "Gather",
+      "Collect"
+    ],
+    "example": "Light diffuses through the curtains.",
+    "category": "advanced"
+  },
+  {
+    "word": "Dilapidated",
+    "meaning_en": "in a state of disrepair",
+    "meaning_hi": "जर्जर",
+    "synonyms": [
+      "Rundown",
+      "Decrepit",
+      "Crumbling",
+      "Neglected",
+      "Shabby"
+    ],
+    "antonyms": [
+      "Well-maintained",
+      "Pristine",
+      "Renovated",
+      "New"
+    ],
+    "example": "The dilapidated building was demolished.",
+    "category": "advanced"
+  },
+  {
+    "word": "Dilatory",
+    "meaning_en": "slow to act; intended to delay",
+    "meaning_hi": "विलंबकारी",
+    "synonyms": [
+      "Slow",
+      "Delaying",
+      "Tardy",
+      "Sluggish",
+      "Procrastinating"
+    ],
+    "antonyms": [
+      "Prompt",
+      "Swift",
+      "Hasty",
+      "Expeditious"
+    ],
+    "example": "His dilatory tactics frustrated the negotiators.",
+    "category": "advanced"
+  },
+  {
     "word": "Dilettante",
     "meaning_hi": "शौकिया",
     "meaning_en": "A person with superficial knowledge",
@@ -1185,6 +2380,45 @@
     "category": "advanced"
   },
   {
+    "word": "Dilettantism",
+    "meaning_en": "superficial interest in an art",
+    "meaning_hi": "शौकियापन",
+    "synonyms": [
+      "Amateurism",
+      "Dabbling",
+      "Superficiality",
+      "Half-heartedness"
+    ],
+    "antonyms": [
+      "Professionalism",
+      "Expertise",
+      "Mastery",
+      "Dedication"
+    ],
+    "example": "He was accused of dilettantism in his pursuits.",
+    "category": "advanced"
+  },
+  {
+    "word": "Discomfit",
+    "meaning_en": "make uneasy or embarrassed",
+    "meaning_hi": "परेशान करना",
+    "synonyms": [
+      "Embarrass",
+      "Disconcert",
+      "Unsettle",
+      "Trouble",
+      "Fluster"
+    ],
+    "antonyms": [
+      "Comfort",
+      "Reassure",
+      "Calm",
+      "Please"
+    ],
+    "example": "Her direct question discomfited the minister.",
+    "category": "advanced"
+  },
+  {
     "word": "Disconcert",
     "meaning_hi": "विचलित करना",
     "meaning_en": "Disturb composure",
@@ -1197,6 +2431,86 @@
       "Reassure",
       "Comfort"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Discordant",
+    "meaning_en": "disagreeing or inconsistent",
+    "meaning_hi": "असंगत",
+    "synonyms": [
+      "Conflicting",
+      "Clashing",
+      "Inconsistent",
+      "Incompatible",
+      "Dissonant"
+    ],
+    "antonyms": [
+      "Harmonious",
+      "Consistent",
+      "Compatible",
+      "Agreeable"
+    ],
+    "example": "His discordant views divided the group.",
+    "category": "advanced"
+  },
+  {
+    "word": "Discretion",
+    "meaning_en": "behaving in such a way as to avoid social embarrassment",
+    "meaning_hi": "विवेक",
+    "synonyms": [
+      "Prudence",
+      "Tact",
+      "Judgement",
+      "Care",
+      "Caution"
+    ],
+    "antonyms": [
+      "Indiscretion",
+      "Carelessness",
+      "Recklessness",
+      "Tactlessness"
+    ],
+    "example": "The matter was handled with great discretion.",
+    "category": "advanced"
+  },
+  {
+    "word": "Disinterested",
+    "meaning_en": "not influenced by personal gain",
+    "meaning_hi": "निस्वार्थ",
+    "synonyms": [
+      "Impartial",
+      "Unbiased",
+      "Neutral",
+      "Objective",
+      "Detached"
+    ],
+    "antonyms": [
+      "Biased",
+      "Self-interested",
+      "Prejudiced",
+      "Partial"
+    ],
+    "example": "A disinterested party should resolve the dispute.",
+    "category": "advanced"
+  },
+  {
+    "word": "Disparate",
+    "meaning_en": "essentially different in kind",
+    "meaning_hi": "असमान",
+    "synonyms": [
+      "Different",
+      "Distinct",
+      "Unrelated",
+      "Contrasting",
+      "Diverse"
+    ],
+    "antonyms": [
+      "Similar",
+      "Alike",
+      "Comparable",
+      "Related"
+    ],
+    "example": "The two countries have disparate cultures.",
     "category": "advanced"
   },
   {
@@ -1230,6 +2544,46 @@
     "category": "advanced"
   },
   {
+    "word": "Dissimulate",
+    "meaning_en": "conceal or disguise feelings",
+    "meaning_hi": "छुपाना",
+    "synonyms": [
+      "Conceal",
+      "Pretend",
+      "Mask",
+      "Feign",
+      "Dissemble"
+    ],
+    "antonyms": [
+      "Reveal",
+      "Show",
+      "Express",
+      "Disclose"
+    ],
+    "example": "She was unable to dissimulate her disappointment.",
+    "category": "advanced"
+  },
+  {
+    "word": "Dissipate",
+    "meaning_en": "scatter and disperse; waste",
+    "meaning_hi": "बर्बाद करना",
+    "synonyms": [
+      "Squander",
+      "Waste",
+      "Scatter",
+      "Disperse",
+      "Fritter"
+    ],
+    "antonyms": [
+      "Save",
+      "Conserve",
+      "Accumulate",
+      "Preserve"
+    ],
+    "example": "He dissipated his fortune on gambling.",
+    "category": "advanced"
+  },
+  {
     "word": "Dissolution",
     "meaning_hi": "विघटन",
     "meaning_en": "Breakdown or ending of something",
@@ -1242,6 +2596,26 @@
       "Formation",
       "Unity"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Divergent",
+    "meaning_en": "tending to develop in different directions",
+    "meaning_hi": "अलग-अलग दिशाओं में जाना",
+    "synonyms": [
+      "Differing",
+      "Different",
+      "Varying",
+      "Separate",
+      "Conflicting"
+    ],
+    "antonyms": [
+      "Convergent",
+      "Similar",
+      "Aligned",
+      "Consistent"
+    ],
+    "example": "Their divergent views led to conflict.",
     "category": "advanced"
   },
   {
@@ -1305,6 +2679,26 @@
     "category": "advanced"
   },
   {
+    "word": "Dormancy",
+    "meaning_en": "state of being temporarily inactive",
+    "meaning_hi": "निष्क्रियता",
+    "synonyms": [
+      "Inactivity",
+      "Hibernation",
+      "Latency",
+      "Suspension",
+      "Sleep"
+    ],
+    "antonyms": [
+      "Activity",
+      "Wakefulness",
+      "Alertness",
+      "Operation"
+    ],
+    "example": "The volcano emerged from dormancy.",
+    "category": "advanced"
+  },
+  {
     "word": "Draconian",
     "meaning_hi": "अत्यंत कठोर",
     "meaning_en": "Exceedingly harsh or severe",
@@ -1332,6 +2726,26 @@
       "Gloomy",
       "Subdued"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Effervescent",
+    "meaning_en": "vivacious and enthusiastic",
+    "meaning_hi": "उत्साही",
+    "synonyms": [
+      "Bubbly",
+      "Lively",
+      "Vivacious",
+      "Enthusiastic",
+      "Exuberant"
+    ],
+    "antonyms": [
+      "Dull",
+      "Flat",
+      "Subdued",
+      "Lethargic"
+    ],
+    "example": "Her effervescent personality lit up the room.",
     "category": "advanced"
   },
   {
@@ -1380,6 +2794,26 @@
     "category": "advanced"
   },
   {
+    "word": "Elusive",
+    "meaning_en": "difficult to find or catch",
+    "meaning_hi": "मायावी",
+    "synonyms": [
+      "Evasive",
+      "Hard to catch",
+      "Slippery",
+      "Fleeting",
+      "Intangible"
+    ],
+    "antonyms": [
+      "Obvious",
+      "Accessible",
+      "Attainable",
+      "Clear"
+    ],
+    "example": "The solution remained elusive.",
+    "category": "advanced"
+  },
+  {
     "word": "Embroil",
     "meaning_hi": "उलझाना",
     "meaning_en": "Involve in conflict",
@@ -1395,6 +2829,25 @@
     "category": "advanced"
   },
   {
+    "word": "Empiricism",
+    "meaning_en": "theory that knowledge comes from experience",
+    "meaning_hi": "अनुभववाद",
+    "synonyms": [
+      "Experimentalism",
+      "Pragmatism",
+      "Practicalism",
+      "Evidence-based approach"
+    ],
+    "antonyms": [
+      "Rationalism",
+      "Idealism",
+      "Theory",
+      "Dogmatism"
+    ],
+    "example": "Empiricism underpins modern scientific method.",
+    "category": "advanced"
+  },
+  {
     "word": "Emulate",
     "meaning_hi": "अनुकरण करना",
     "meaning_en": "Match or surpass by imitation",
@@ -1407,6 +2860,46 @@
       "Ignore",
       "Shun"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Encomium",
+    "meaning_en": "formal expression of high praise",
+    "meaning_hi": "स्तुति",
+    "synonyms": [
+      "Eulogy",
+      "Tribute",
+      "Praise",
+      "Commendation",
+      "Panegyric"
+    ],
+    "antonyms": [
+      "Criticism",
+      "Censure",
+      "Condemnation",
+      "Reproach"
+    ],
+    "example": "The retiring professor received many encomiums.",
+    "category": "advanced"
+  },
+  {
+    "word": "Encroach",
+    "meaning_en": "intrude on someone's territory",
+    "meaning_hi": "अतिक्रमण करना",
+    "synonyms": [
+      "Intrude",
+      "Trespass",
+      "Invade",
+      "Overstep",
+      "Infringe"
+    ],
+    "antonyms": [
+      "Retreat",
+      "Withdraw",
+      "Respect",
+      "Honour"
+    ],
+    "example": "The construction encroached on public land.",
     "category": "advanced"
   },
   {
@@ -1437,6 +2930,26 @@
       "Strengthen",
       "Energize"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Enervation",
+    "meaning_en": "the state of being drained of energy",
+    "meaning_hi": "शक्तिहीनता",
+    "synonyms": [
+      "Weakness",
+      "Exhaustion",
+      "Debility",
+      "Languor",
+      "Fatigue"
+    ],
+    "antonyms": [
+      "Vitality",
+      "Energy",
+      "Strength",
+      "Invigoration"
+    ],
+    "example": "The summer heat caused general enervation.",
     "category": "advanced"
   },
   {
@@ -1485,6 +2998,24 @@
     "category": "advanced"
   },
   {
+    "word": "Epistemic",
+    "meaning_en": "relating to knowledge or its validation",
+    "meaning_hi": "ज्ञान-संबंधी",
+    "synonyms": [
+      "Cognitive",
+      "Intellectual",
+      "Knowledge-based",
+      "Rational"
+    ],
+    "antonyms": [
+      "Intuitive",
+      "Non-rational",
+      "Emotional"
+    ],
+    "example": "The debate raised epistemic questions about evidence.",
+    "category": "advanced"
+  },
+  {
     "word": "Equivocal",
     "meaning_hi": "संदिग्ध",
     "meaning_en": "Ambiguous or uncertain",
@@ -1512,6 +3043,26 @@
       "Assert",
       "State clearly"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Equivocation",
+    "meaning_en": "use of ambiguous language to conceal truth",
+    "meaning_hi": "दुविधापूर्ण बात",
+    "synonyms": [
+      "Ambiguity",
+      "Hedging",
+      "Evasion",
+      "Prevarication",
+      "Double-talk"
+    ],
+    "antonyms": [
+      "Clarity",
+      "Directness",
+      "Honesty",
+      "Transparency"
+    ],
+    "example": "His equivocation on the issue was noted by all.",
     "category": "advanced"
   },
   {
@@ -1545,6 +3096,84 @@
     "category": "advanced"
   },
   {
+    "word": "Errant",
+    "meaning_en": "straying from proper course",
+    "meaning_hi": "भटका हुआ",
+    "synonyms": [
+      "Wandering",
+      "Straying",
+      "Deviant",
+      "Erring",
+      "Wayward"
+    ],
+    "antonyms": [
+      "Correct",
+      "Straight",
+      "Proper",
+      "Righteous"
+    ],
+    "example": "The errant knight roamed without purpose.",
+    "category": "advanced"
+  },
+  {
+    "word": "Espousal",
+    "meaning_en": "adopting or supporting a cause",
+    "meaning_hi": "समर्थन",
+    "synonyms": [
+      "Adoption",
+      "Support",
+      "Advocacy",
+      "Championing",
+      "Promotion"
+    ],
+    "antonyms": [
+      "Rejection",
+      "Opposition",
+      "Abandonment",
+      "Criticism"
+    ],
+    "example": "His espousal of the cause won him many followers.",
+    "category": "advanced"
+  },
+  {
+    "word": "Eulogy",
+    "meaning_en": "a speech of praise, especially for the dead",
+    "meaning_hi": "प्रशंसा भाषण",
+    "synonyms": [
+      "Tribute",
+      "Commendation",
+      "Encomium",
+      "Panegyric",
+      "Praise"
+    ],
+    "antonyms": [
+      "Criticism",
+      "Slander",
+      "Condemnation",
+      "Diatribe"
+    ],
+    "example": "He delivered a moving eulogy at the funeral.",
+    "category": "advanced"
+  },
+  {
+    "word": "Euphemism",
+    "meaning_en": "mild expression substituting a harsh one",
+    "meaning_hi": "कोमल शब्द प्रयोग",
+    "synonyms": [
+      "Understatement",
+      "Mitigation",
+      "Substitute",
+      "Softening"
+    ],
+    "antonyms": [
+      "Dysphemism",
+      "Bluntness",
+      "Directness"
+    ],
+    "example": "'Passed away' is a euphemism for 'died'.",
+    "category": "advanced"
+  },
+  {
     "word": "Evanescent",
     "meaning_hi": "अल्पकालिक",
     "meaning_en": "Fading away quickly",
@@ -1557,6 +3186,26 @@
       "Lasting",
       "Permanent"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Evasive",
+    "meaning_en": "avoiding commitment",
+    "meaning_hi": "टालमटोल करने वाला",
+    "synonyms": [
+      "Elusive",
+      "Shifty",
+      "Ambiguous",
+      "Indirect",
+      "Eluding"
+    ],
+    "antonyms": [
+      "Direct",
+      "Forthright",
+      "Honest",
+      "Transparent"
+    ],
+    "example": "His evasive answers raised suspicion.",
     "category": "advanced"
   },
   {
@@ -1590,6 +3239,26 @@
     "category": "advanced"
   },
   {
+    "word": "Execrable",
+    "meaning_en": "extremely bad",
+    "meaning_hi": "घृणित",
+    "synonyms": [
+      "Dreadful",
+      "Appalling",
+      "Atrocious",
+      "Abominable",
+      "Terrible"
+    ],
+    "antonyms": [
+      "Excellent",
+      "Admirable",
+      "Fine",
+      "Superb"
+    ],
+    "example": "The food at the restaurant was execrable.",
+    "category": "advanced"
+  },
+  {
     "word": "Execrate",
     "meaning_hi": "घृणा करना",
     "meaning_en": "Express loathing for",
@@ -1617,6 +3286,26 @@
       "Trivial",
       "Unimportant"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Exiguous",
+    "meaning_en": "very small in size or amount",
+    "meaning_hi": "अत्यल्प",
+    "synonyms": [
+      "Meagre",
+      "Scanty",
+      "Sparse",
+      "Tiny",
+      "Scant"
+    ],
+    "antonyms": [
+      "Abundant",
+      "Ample",
+      "Plentiful",
+      "Generous"
+    ],
+    "example": "The refugees had only exiguous food supplies.",
     "category": "advanced"
   },
   {
@@ -1665,6 +3354,26 @@
     "category": "advanced"
   },
   {
+    "word": "Expostulate",
+    "meaning_en": "express disagreement with an action",
+    "meaning_hi": "विरोध करना",
+    "synonyms": [
+      "Protest",
+      "Object",
+      "Argue",
+      "Remonstrate",
+      "Disagree"
+    ],
+    "antonyms": [
+      "Agree",
+      "Accept",
+      "Approve",
+      "Endorse"
+    ],
+    "example": "She expostulated with her manager over the decision.",
+    "category": "advanced"
+  },
+  {
     "word": "Expunge",
     "meaning_hi": "मिटाना",
     "meaning_en": "Remove completely",
@@ -1677,6 +3386,46 @@
       "Preserve",
       "Restore"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Expurgate",
+    "meaning_en": "remove obscene content from a text",
+    "meaning_hi": "अनुचित अंश हटाना",
+    "synonyms": [
+      "Censor",
+      "Edit",
+      "Purge",
+      "Sanitize",
+      "Clean"
+    ],
+    "antonyms": [
+      "Include",
+      "Preserve",
+      "Retain",
+      "Uncut"
+    ],
+    "example": "The film was expurgated before release.",
+    "category": "advanced"
+  },
+  {
+    "word": "Extenuate",
+    "meaning_en": "make less serious by partial excuses",
+    "meaning_hi": "कम करना",
+    "synonyms": [
+      "Mitigate",
+      "Reduce",
+      "Lessen",
+      "Justify",
+      "Excuse"
+    ],
+    "antonyms": [
+      "Aggravate",
+      "Intensify",
+      "Emphasize",
+      "Exacerbate"
+    ],
+    "example": "Nothing can extenuate such behaviour.",
     "category": "advanced"
   },
   {
@@ -1725,6 +3474,26 @@
     "category": "advanced"
   },
   {
+    "word": "Factious",
+    "meaning_en": "relating to internal dissension",
+    "meaning_hi": "गुटबाज",
+    "synonyms": [
+      "Divisive",
+      "Dissident",
+      "Seditious",
+      "Rebellious",
+      "Quarrelsome"
+    ],
+    "antonyms": [
+      "United",
+      "Harmonious",
+      "Cooperative",
+      "Loyal"
+    ],
+    "example": "Factious politics weakened the party.",
+    "category": "advanced"
+  },
+  {
     "word": "Fallacious",
     "meaning_hi": "भ्रामक",
     "meaning_en": "Based on false reasoning",
@@ -1737,6 +3506,25 @@
       "Sound",
       "Valid"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Fallibility",
+    "meaning_en": "tendency to make mistakes",
+    "meaning_hi": "भूल करने की प्रवृत्ति",
+    "synonyms": [
+      "Imperfection",
+      "Weakness",
+      "Error-proneness",
+      "Faultiness"
+    ],
+    "antonyms": [
+      "Infallibility",
+      "Perfection",
+      "Accuracy",
+      "Reliability"
+    ],
+    "example": "Human fallibility requires checks and balances.",
     "category": "advanced"
   },
   {
@@ -1800,6 +3588,26 @@
     "category": "advanced"
   },
   {
+    "word": "Fervid",
+    "meaning_en": "intensely enthusiastic or passionate",
+    "meaning_hi": "अत्यंत उत्साही",
+    "synonyms": [
+      "Passionate",
+      "Ardent",
+      "Fervent",
+      "Intense",
+      "Zealous"
+    ],
+    "antonyms": [
+      "Apathetic",
+      "Indifferent",
+      "Cool",
+      "Unenthusiastic"
+    ],
+    "example": "He was a fervid supporter of the cause.",
+    "category": "advanced"
+  },
+  {
     "word": "Fervor",
     "meaning_hi": "जोश",
     "meaning_en": "Intense passion or zeal",
@@ -1812,6 +3620,26 @@
       "Apathy",
       "Indifference"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Flagging",
+    "meaning_en": "becoming tired or less enthusiastic",
+    "meaning_hi": "मंद पड़ना",
+    "synonyms": [
+      "Fading",
+      "Weakening",
+      "Declining",
+      "Waning",
+      "Drooping"
+    ],
+    "antonyms": [
+      "Energizing",
+      "Strengthening",
+      "Thriving",
+      "Growing"
+    ],
+    "example": "His flagging spirits needed encouragement.",
     "category": "advanced"
   },
   {
@@ -1845,6 +3673,26 @@
     "category": "advanced"
   },
   {
+    "word": "Flout",
+    "meaning_en": "openly disregard a rule or convention",
+    "meaning_hi": "अनदेखा करना",
+    "synonyms": [
+      "Defy",
+      "Disobey",
+      "Ignore",
+      "Disregard",
+      "Break"
+    ],
+    "antonyms": [
+      "Obey",
+      "Follow",
+      "Respect",
+      "Observe"
+    ],
+    "example": "He flouted traffic rules regularly.",
+    "category": "advanced"
+  },
+  {
     "word": "Foment",
     "meaning_hi": "भड़काना",
     "meaning_en": "Stir up trouble",
@@ -1875,6 +3723,26 @@
     "category": "advanced"
   },
   {
+    "word": "Foreboding",
+    "meaning_en": "a feeling that something bad will happen",
+    "meaning_hi": "अशुभ संकेत",
+    "synonyms": [
+      "Premonition",
+      "Dread",
+      "Apprehension",
+      "Misgiving",
+      "Omen"
+    ],
+    "antonyms": [
+      "Confidence",
+      "Optimism",
+      "Hope",
+      "Assurance"
+    ],
+    "example": "She felt a sense of foreboding all day.",
+    "category": "advanced"
+  },
+  {
     "word": "Forestall",
     "meaning_hi": "पहले से रोकना",
     "meaning_en": "Prevent by advance action",
@@ -1887,6 +3755,26 @@
       "Allow",
       "Encourage"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Forswear",
+    "meaning_en": "formally renounce",
+    "meaning_hi": "शपथपूर्वक त्यागना",
+    "synonyms": [
+      "Renounce",
+      "Abandon",
+      "Retract",
+      "Abjure",
+      "Recant"
+    ],
+    "antonyms": [
+      "Embrace",
+      "Uphold",
+      "Maintain",
+      "Affirm"
+    ],
+    "example": "He forswore all claims to the throne.",
     "category": "advanced"
   },
   {
@@ -1905,6 +3793,26 @@
     "category": "advanced"
   },
   {
+    "word": "Fortuitous",
+    "meaning_en": "happening by chance",
+    "meaning_hi": "संयोगवश",
+    "synonyms": [
+      "Accidental",
+      "Chance",
+      "Random",
+      "Unexpected",
+      "Incidental"
+    ],
+    "antonyms": [
+      "Intentional",
+      "Planned",
+      "Deliberate",
+      "Predictable"
+    ],
+    "example": "Their meeting was entirely fortuitous.",
+    "category": "advanced"
+  },
+  {
     "word": "Fractious",
     "meaning_hi": "झगड़ालू",
     "meaning_en": "Easily irritated or quarrelsome",
@@ -1917,6 +3825,26 @@
       "Calm",
       "Agreeable"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Fulsome",
+    "meaning_en": "excessively complimentary; insincere",
+    "meaning_hi": "अत्यधिक",
+    "synonyms": [
+      "Excessive",
+      "Overdone",
+      "Cloying",
+      "Sycophantic",
+      "Inordinate"
+    ],
+    "antonyms": [
+      "Restrained",
+      "Sincere",
+      "Genuine",
+      "Moderate"
+    ],
+    "example": "His fulsome praise seemed rehearsed and hollow.",
     "category": "advanced"
   },
   {
@@ -2010,6 +3938,25 @@
     "category": "advanced"
   },
   {
+    "word": "Gourmand",
+    "meaning_en": "a person who enjoys eating in large quantities",
+    "meaning_hi": "पेटू",
+    "synonyms": [
+      "Glutton",
+      "Foodie",
+      "Epicure",
+      "Gourmet",
+      "Overeater"
+    ],
+    "antonyms": [
+      "Ascetic",
+      "Abstemious",
+      "Moderate eater"
+    ],
+    "example": "As a gourmand, he never missed a new restaurant opening.",
+    "category": "advanced"
+  },
+  {
     "word": "Grandiloquent",
     "meaning_hi": "अतिभाषी",
     "meaning_en": "Pompous and extravagant in language",
@@ -2040,6 +3987,43 @@
     "category": "advanced"
   },
   {
+    "word": "Gregariousness",
+    "meaning_en": "quality of being sociable",
+    "meaning_hi": "मिलनसारिता",
+    "synonyms": [
+      "Sociability",
+      "Outgoingness",
+      "Friendliness",
+      "Conviviality"
+    ],
+    "antonyms": [
+      "Reclusiveness",
+      "Introversion",
+      "Solitude"
+    ],
+    "example": "Her gregariousness made her popular.",
+    "category": "advanced"
+  },
+  {
+    "word": "Hedonism",
+    "meaning_en": "pursuit of pleasure as the highest good",
+    "meaning_hi": "सुखवाद",
+    "synonyms": [
+      "Pleasure-seeking",
+      "Sensualism",
+      "Self-indulgence",
+      "Epicureanism"
+    ],
+    "antonyms": [
+      "Asceticism",
+      "Self-denial",
+      "Austerity",
+      "Stoicism"
+    ],
+    "example": "His hedonism led him to neglect responsibility.",
+    "category": "advanced"
+  },
+  {
     "word": "Iconoclast",
     "meaning_hi": "परंपरा-विरोधी",
     "meaning_en": "One who attacks established beliefs",
@@ -2052,6 +4036,26 @@
       "Traditionalist",
       "Conformist"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Idiosyncrasy",
+    "meaning_en": "a peculiar habit or characteristic",
+    "meaning_hi": "विचित्र आदत",
+    "synonyms": [
+      "Quirk",
+      "Eccentricity",
+      "Peculiarity",
+      "Mannerism",
+      "Characteristic"
+    ],
+    "antonyms": [
+      "Normality",
+      "Convention",
+      "Conformity",
+      "Regularity"
+    ],
+    "example": "One of his idiosyncrasies was speaking to himself.",
     "category": "advanced"
   },
   {
@@ -2085,6 +4089,46 @@
     "category": "advanced"
   },
   {
+    "word": "Ignominy",
+    "meaning_en": "public shame and disgrace",
+    "meaning_hi": "अपमान",
+    "synonyms": [
+      "Disgrace",
+      "Shame",
+      "Dishonour",
+      "Humiliation",
+      "Infamy"
+    ],
+    "antonyms": [
+      "Honour",
+      "Glory",
+      "Respect",
+      "Fame"
+    ],
+    "example": "His corruption brought ignominy to the family.",
+    "category": "advanced"
+  },
+  {
+    "word": "Illusory",
+    "meaning_en": "based on illusion; not real",
+    "meaning_hi": "भ्रामक",
+    "synonyms": [
+      "Deceptive",
+      "Unreal",
+      "Imaginary",
+      "Misleading",
+      "Illusionary"
+    ],
+    "antonyms": [
+      "Real",
+      "Genuine",
+      "Actual",
+      "True"
+    ],
+    "example": "The apparent profit was illusory.",
+    "category": "advanced"
+  },
+  {
     "word": "Imbue",
     "meaning_hi": "भर देना",
     "meaning_en": "Inspire or fill with something",
@@ -2112,6 +4156,26 @@
       "Mutable",
       "Changeable"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Impassioned",
+    "meaning_en": "filled with or showing great passion",
+    "meaning_hi": "भावुक",
+    "synonyms": [
+      "Passionate",
+      "Fervent",
+      "Ardent",
+      "Intense",
+      "Emotional"
+    ],
+    "antonyms": [
+      "Dispassionate",
+      "Indifferent",
+      "Cold",
+      "Unemotional"
+    ],
+    "example": "She made an impassioned appeal for justice.",
     "category": "advanced"
   },
   {
@@ -2145,6 +4209,46 @@
     "category": "advanced"
   },
   {
+    "word": "Impecunious",
+    "meaning_en": "having little or no money",
+    "meaning_hi": "कंगाल",
+    "synonyms": [
+      "Poor",
+      "Penniless",
+      "Destitute",
+      "Insolvent",
+      "Indigent"
+    ],
+    "antonyms": [
+      "Wealthy",
+      "Rich",
+      "Affluent",
+      "Prosperous"
+    ],
+    "example": "The impecunious student struggled to pay fees.",
+    "category": "advanced"
+  },
+  {
+    "word": "Imperious",
+    "meaning_en": "assuming power or authority",
+    "meaning_hi": "दबंग",
+    "synonyms": [
+      "Domineering",
+      "Arrogant",
+      "Overbearing",
+      "Commanding",
+      "Dictatorial"
+    ],
+    "antonyms": [
+      "Humble",
+      "Submissive",
+      "Modest",
+      "Meek"
+    ],
+    "example": "His imperious manner intimidated junior staff.",
+    "category": "advanced"
+  },
+  {
     "word": "Impervious",
     "meaning_hi": "अभेद्य",
     "meaning_en": "Unable to be affected",
@@ -2157,6 +4261,26 @@
       "Vulnerable",
       "Sensitive"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Impinge",
+    "meaning_en": "have an effect on something",
+    "meaning_hi": "प्रभावित करना",
+    "synonyms": [
+      "Affect",
+      "Encroach",
+      "Infringe",
+      "Impact",
+      "Intrude"
+    ],
+    "antonyms": [
+      "Miss",
+      "Avoid",
+      "Disregard",
+      "Leave alone"
+    ],
+    "example": "New regulations impinge on business freedom.",
     "category": "advanced"
   },
   {
@@ -2190,6 +4314,46 @@
     "category": "advanced"
   },
   {
+    "word": "Incandescent",
+    "meaning_en": "glowing with intense heat; furious",
+    "meaning_hi": "तीव्र प्रकाशमान",
+    "synonyms": [
+      "Glowing",
+      "Radiant",
+      "Brilliant",
+      "Luminous",
+      "Blazing"
+    ],
+    "antonyms": [
+      "Dim",
+      "Dull",
+      "Dark",
+      "Faded"
+    ],
+    "example": "The incandescent light flooded the room.",
+    "category": "advanced"
+  },
+  {
+    "word": "Incendiary",
+    "meaning_en": "tending to stir up conflict",
+    "meaning_hi": "भड़काऊ",
+    "synonyms": [
+      "Inflammatory",
+      "Provocative",
+      "Agitating",
+      "Rebellious",
+      "Radical"
+    ],
+    "antonyms": [
+      "Conciliatory",
+      "Peaceful",
+      "Calming",
+      "Moderate"
+    ],
+    "example": "His incendiary speech fuelled the protests.",
+    "category": "advanced"
+  },
+  {
     "word": "Inchoate",
     "meaning_hi": "अपूर्ण",
     "meaning_en": "Not yet fully formed",
@@ -2220,6 +4384,46 @@
     "category": "advanced"
   },
   {
+    "word": "Incognito",
+    "meaning_en": "having a concealed identity",
+    "meaning_hi": "गुप्त",
+    "synonyms": [
+      "Disguised",
+      "Unrecognized",
+      "Anonymous",
+      "Hidden",
+      "Secret"
+    ],
+    "antonyms": [
+      "Known",
+      "Identified",
+      "Recognized",
+      "Open"
+    ],
+    "example": "The celebrity travelled incognito.",
+    "category": "advanced"
+  },
+  {
+    "word": "Incongruous",
+    "meaning_en": "not in harmony or out of place",
+    "meaning_hi": "बेमेल",
+    "synonyms": [
+      "Inconsistent",
+      "Incompatible",
+      "Mismatched",
+      "Odd",
+      "Jarring"
+    ],
+    "antonyms": [
+      "Consistent",
+      "Compatible",
+      "Harmonious",
+      "Fitting"
+    ],
+    "example": "A tuxedo at the beach looked incongruous.",
+    "category": "advanced"
+  },
+  {
     "word": "Incorrigible",
     "meaning_hi": "असुधार्य",
     "meaning_en": "Not capable of being corrected",
@@ -2235,6 +4439,46 @@
     "category": "advanced"
   },
   {
+    "word": "Inculcate",
+    "meaning_en": "instil ideas by repetition",
+    "meaning_hi": "बार-बार सिखाना",
+    "synonyms": [
+      "Instil",
+      "Teach",
+      "Implant",
+      "Drum in",
+      "Impart"
+    ],
+    "antonyms": [
+      "Eradicate",
+      "Remove",
+      "Uproot",
+      "Discourage"
+    ],
+    "example": "Schools should inculcate good values.",
+    "category": "advanced"
+  },
+  {
+    "word": "Indolence",
+    "meaning_en": "avoidance of activity; laziness",
+    "meaning_hi": "आलस्य",
+    "synonyms": [
+      "Laziness",
+      "Sloth",
+      "Idleness",
+      "Inactivity",
+      "Lethargy"
+    ],
+    "antonyms": [
+      "Industry",
+      "Diligence",
+      "Energy",
+      "Hardwork"
+    ],
+    "example": "Indolence led to his failure.",
+    "category": "advanced"
+  },
+  {
     "word": "Indolent",
     "meaning_hi": "आलसी",
     "meaning_en": "Wanting to avoid activity",
@@ -2247,6 +4491,26 @@
       "Industrious",
       "Diligent"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Indomitable",
+    "meaning_en": "impossible to subdue",
+    "meaning_hi": "अदम्य",
+    "synonyms": [
+      "Unconquerable",
+      "Fearless",
+      "Resolute",
+      "Stubborn",
+      "Determined"
+    ],
+    "antonyms": [
+      "Weak",
+      "Submissive",
+      "Yielding",
+      "Timid"
+    ],
+    "example": "Her indomitable spirit inspired everyone.",
     "category": "advanced"
   },
   {
@@ -2280,6 +4544,26 @@
     "category": "advanced"
   },
   {
+    "word": "Inexplicable",
+    "meaning_en": "unable to be explained or accounted for",
+    "meaning_hi": "अकथनीय",
+    "synonyms": [
+      "Unexplainable",
+      "Mysterious",
+      "Baffling",
+      "Puzzling",
+      "Incomprehensible"
+    ],
+    "antonyms": [
+      "Explainable",
+      "Clear",
+      "Understandable",
+      "Obvious"
+    ],
+    "example": "His behaviour was inexplicable.",
+    "category": "advanced"
+  },
+  {
     "word": "Infamy",
     "meaning_hi": "बदनामी",
     "meaning_en": "State of being known for evil",
@@ -2307,6 +4591,26 @@
       "Friendly",
       "Beneficial"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Inimitable",
+    "meaning_en": "so good as to be impossible to copy",
+    "meaning_hi": "अनुपम",
+    "synonyms": [
+      "Unique",
+      "Matchless",
+      "Incomparable",
+      "Unparalleled",
+      "Peerless"
+    ],
+    "antonyms": [
+      "Ordinary",
+      "Common",
+      "Imitable",
+      "Mediocre"
+    ],
+    "example": "She danced with inimitable grace.",
     "category": "advanced"
   },
   {
@@ -2370,6 +4674,66 @@
     "category": "advanced"
   },
   {
+    "word": "Insouciance",
+    "meaning_en": "casual lack of concern",
+    "meaning_hi": "लापरवाही",
+    "synonyms": [
+      "Nonchalance",
+      "Indifference",
+      "Carelessness",
+      "Ease",
+      "Unconcern"
+    ],
+    "antonyms": [
+      "Concern",
+      "Anxiety",
+      "Care",
+      "Worry"
+    ],
+    "example": "He approached the crisis with surprising insouciance.",
+    "category": "advanced"
+  },
+  {
+    "word": "Insular",
+    "meaning_en": "ignorant of cultures outside one's own",
+    "meaning_hi": "संकीर्ण",
+    "synonyms": [
+      "Narrow-minded",
+      "Parochial",
+      "Isolated",
+      "Inward-looking",
+      "Limited"
+    ],
+    "antonyms": [
+      "Open-minded",
+      "Cosmopolitan",
+      "Broad-minded",
+      "Global"
+    ],
+    "example": "His insular views limited his opportunities.",
+    "category": "advanced"
+  },
+  {
+    "word": "Interpolate",
+    "meaning_en": "insert something between parts of text",
+    "meaning_hi": "बीच में डालना",
+    "synonyms": [
+      "Insert",
+      "Interject",
+      "Introduce",
+      "Add",
+      "Intercalate"
+    ],
+    "antonyms": [
+      "Remove",
+      "Delete",
+      "Omit",
+      "Extract"
+    ],
+    "example": "The editor interpolated a note into the text.",
+    "category": "advanced"
+  },
+  {
     "word": "Intractable",
     "meaning_hi": "जिद्दी",
     "meaning_en": "Hard to control or deal with",
@@ -2382,6 +4746,66 @@
       "Manageable",
       "Compliant"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Intransigent",
+    "meaning_en": "refusing to agree or compromise",
+    "meaning_hi": "अडियल",
+    "synonyms": [
+      "Stubborn",
+      "Inflexible",
+      "Obstinate",
+      "Unyielding",
+      "Adamant"
+    ],
+    "antonyms": [
+      "Flexible",
+      "Compliant",
+      "Accommodating",
+      "Agreeable"
+    ],
+    "example": "The intransigent negotiator blocked all progress.",
+    "category": "advanced"
+  },
+  {
+    "word": "Intrepid",
+    "meaning_en": "fearless and adventurous",
+    "meaning_hi": "निडर",
+    "synonyms": [
+      "Fearless",
+      "Brave",
+      "Bold",
+      "Daring",
+      "Audacious"
+    ],
+    "antonyms": [
+      "Cowardly",
+      "Timid",
+      "Fearful",
+      "Cautious"
+    ],
+    "example": "The intrepid journalist covered war zones.",
+    "category": "advanced"
+  },
+  {
+    "word": "Introspective",
+    "meaning_en": "examining one's own thoughts",
+    "meaning_hi": "आत्मनिरीक्षक",
+    "synonyms": [
+      "Reflective",
+      "Contemplative",
+      "Meditative",
+      "Thoughtful",
+      "Pensive"
+    ],
+    "antonyms": [
+      "Outward-looking",
+      "Extroverted",
+      "Thoughtless",
+      "Unreflective"
+    ],
+    "example": "The poem is deeply introspective.",
     "category": "advanced"
   },
   {
@@ -2415,6 +4839,26 @@
     "category": "advanced"
   },
   {
+    "word": "Invidious",
+    "meaning_en": "likely to arouse resentment",
+    "meaning_hi": "ईर्ष्या उत्पन्न करने वाला",
+    "synonyms": [
+      "Offensive",
+      "Unfair",
+      "Discriminatory",
+      "Unjust",
+      "Biased"
+    ],
+    "antonyms": [
+      "Fair",
+      "Impartial",
+      "Equitable",
+      "Just"
+    ],
+    "example": "An invidious comparison was drawn between the two.",
+    "category": "advanced"
+  },
+  {
     "word": "Irascible",
     "meaning_hi": "चिड़चिड़ा",
     "meaning_en": "Having a tendency to get angry",
@@ -2427,6 +4871,26 @@
       "Calm",
       "Placid"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Irrefutable",
+    "meaning_en": "impossible to deny or disprove",
+    "meaning_hi": "अखंडनीय",
+    "synonyms": [
+      "Undeniable",
+      "Incontrovertible",
+      "Conclusive",
+      "Certain",
+      "Absolute"
+    ],
+    "antonyms": [
+      "Refutable",
+      "Uncertain",
+      "Debatable",
+      "Questionable"
+    ],
+    "example": "The evidence was irrefutable.",
     "category": "advanced"
   },
   {
@@ -2475,6 +4939,26 @@
     "category": "advanced"
   },
   {
+    "word": "Lacuna",
+    "meaning_en": "a gap or missing portion",
+    "meaning_hi": "रिक्तता",
+    "synonyms": [
+      "Gap",
+      "Void",
+      "Blank",
+      "Absence",
+      "Deficiency"
+    ],
+    "antonyms": [
+      "Fullness",
+      "Completeness",
+      "Abundance",
+      "Surplus"
+    ],
+    "example": "There is a lacuna in the historical record.",
+    "category": "advanced"
+  },
+  {
     "word": "Lambaste",
     "meaning_hi": "कड़ी आलोचना करना",
     "meaning_en": "Criticize harshly",
@@ -2502,6 +4986,26 @@
       "Energy",
       "Vigor"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Laudable",
+    "meaning_en": "deserving praise and commendation",
+    "meaning_hi": "प्रशंसनीय",
+    "synonyms": [
+      "Praiseworthy",
+      "Commendable",
+      "Admirable",
+      "Meritorious",
+      "Worthy"
+    ],
+    "antonyms": [
+      "Disgraceful",
+      "Shameful",
+      "Blameworthy",
+      "Contemptible"
+    ],
+    "example": "His commitment to charity is laudable.",
     "category": "advanced"
   },
   {
@@ -2535,6 +5039,26 @@
     "category": "advanced"
   },
   {
+    "word": "Limpid",
+    "meaning_en": "clear and transparent",
+    "meaning_hi": "पारदर्शी",
+    "synonyms": [
+      "Clear",
+      "Transparent",
+      "Crystal-clear",
+      "Pure",
+      "Pellucid"
+    ],
+    "antonyms": [
+      "Murky",
+      "Cloudy",
+      "Turbid",
+      "Opaque"
+    ],
+    "example": "The limpid stream reflected the sky.",
+    "category": "advanced"
+  },
+  {
     "word": "Litigious",
     "meaning_hi": "मुकदमेबाज",
     "meaning_en": "Prone to going to law",
@@ -2565,6 +5089,25 @@
     "category": "advanced"
   },
   {
+    "word": "Loquacity",
+    "meaning_en": "the quality of talking too much",
+    "meaning_hi": "बातूनापन",
+    "synonyms": [
+      "Talkativeness",
+      "Verbosity",
+      "Garrulousness",
+      "Volubility"
+    ],
+    "antonyms": [
+      "Taciturnity",
+      "Brevity",
+      "Silence",
+      "Reticence"
+    ],
+    "example": "His loquacity at meetings frustrated everyone.",
+    "category": "advanced"
+  },
+  {
     "word": "Lugubrious",
     "meaning_hi": "अत्यंत उदास",
     "meaning_en": "Looking or sounding sad",
@@ -2580,6 +5123,26 @@
     "category": "advanced"
   },
   {
+    "word": "Macabre",
+    "meaning_en": "disturbing and horrifying",
+    "meaning_hi": "भयंकर",
+    "synonyms": [
+      "Ghastly",
+      "Grim",
+      "Gruesome",
+      "Horrifying",
+      "Morbid"
+    ],
+    "antonyms": [
+      "Pleasant",
+      "Cheerful",
+      "Light-hearted",
+      "Delightful"
+    ],
+    "example": "The movie's macabre scenes disturbed viewers.",
+    "category": "advanced"
+  },
+  {
     "word": "Machination",
     "meaning_hi": "षड्यंत्र",
     "meaning_en": "A scheme to harm others",
@@ -2592,6 +5155,26 @@
       "Honesty",
       "Transparency"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Maladroit",
+    "meaning_en": "inefficient or clumsy",
+    "meaning_hi": "अनाड़ी",
+    "synonyms": [
+      "Clumsy",
+      "Awkward",
+      "Inept",
+      "Bungling",
+      "Tactless"
+    ],
+    "antonyms": [
+      "Adroit",
+      "Skilful",
+      "Tactful",
+      "Deft"
+    ],
+    "example": "His maladroit comment offended everyone.",
     "category": "advanced"
   },
   {
@@ -2640,6 +5223,46 @@
     "category": "advanced"
   },
   {
+    "word": "Maverick",
+    "meaning_en": "an independent-minded person",
+    "meaning_hi": "स्वतंत्र विचारक",
+    "synonyms": [
+      "Independent",
+      "Nonconformist",
+      "Rebel",
+      "Free thinker",
+      "Iconoclast"
+    ],
+    "antonyms": [
+      "Conformist",
+      "Follower",
+      "Traditionalist",
+      "Conservative"
+    ],
+    "example": "She was a maverick who challenged conventions.",
+    "category": "advanced"
+  },
+  {
+    "word": "Melee",
+    "meaning_en": "a confused fight or crowd",
+    "meaning_hi": "भगदड़",
+    "synonyms": [
+      "Brawl",
+      "Commotion",
+      "Chaos",
+      "Fracas",
+      "Uproar"
+    ],
+    "antonyms": [
+      "Order",
+      "Calm",
+      "Peace",
+      "Quiet"
+    ],
+    "example": "Police intervened in the melee.",
+    "category": "advanced"
+  },
+  {
     "word": "Mendacious",
     "meaning_hi": "झूठा",
     "meaning_en": "Not telling the truth",
@@ -2652,6 +5275,26 @@
       "Truthful",
       "Honest"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Mendacity",
+    "meaning_en": "untruthfulness",
+    "meaning_hi": "झूठ",
+    "synonyms": [
+      "Dishonesty",
+      "Untruthfulness",
+      "Deceit",
+      "Falsehood",
+      "Duplicity"
+    ],
+    "antonyms": [
+      "Honesty",
+      "Truthfulness",
+      "Sincerity",
+      "Candour"
+    ],
+    "example": "His mendacity undermined his credibility.",
     "category": "advanced"
   },
   {
@@ -2685,6 +5328,46 @@
     "category": "advanced"
   },
   {
+    "word": "Metamorphosis",
+    "meaning_en": "a complete change of form",
+    "meaning_hi": "रूपांतरण",
+    "synonyms": [
+      "Transformation",
+      "Change",
+      "Conversion",
+      "Evolution",
+      "Mutation"
+    ],
+    "antonyms": [
+      "Stagnation",
+      "Preservation",
+      "Continuity",
+      "Uniformity"
+    ],
+    "example": "The city underwent a dramatic metamorphosis.",
+    "category": "advanced"
+  },
+  {
+    "word": "Mettlesome",
+    "meaning_en": "full of spirit and courage",
+    "meaning_hi": "साहसी",
+    "synonyms": [
+      "Spirited",
+      "Brave",
+      "Bold",
+      "Courageous",
+      "Plucky"
+    ],
+    "antonyms": [
+      "Cowardly",
+      "Timid",
+      "Fearful",
+      "Spineless"
+    ],
+    "example": "The mettlesome soldier fought bravely.",
+    "category": "advanced"
+  },
+  {
     "word": "Misanthrope",
     "meaning_hi": "मनुष्य-द्वेषी",
     "meaning_en": "One who dislikes people in general",
@@ -2697,6 +5380,84 @@
       "Philanthropist",
       "Humanist"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Misnomer",
+    "meaning_en": "a wrong or inaccurate name",
+    "meaning_hi": "गलत नाम",
+    "synonyms": [
+      "Misapplication",
+      "Wrong name",
+      "Error",
+      "Misnaming"
+    ],
+    "antonyms": [
+      "Correct name",
+      "Accurate label",
+      "Proper term"
+    ],
+    "example": "Calling it a peanut is a misnomer — it is a legume.",
+    "category": "advanced"
+  },
+  {
+    "word": "Modicum",
+    "meaning_en": "a small quantity of something",
+    "meaning_hi": "थोड़ी मात्रा",
+    "synonyms": [
+      "Small amount",
+      "Little",
+      "Bit",
+      "Trace",
+      "Minimum"
+    ],
+    "antonyms": [
+      "Abundance",
+      "Lot",
+      "Excess",
+      "Surplus"
+    ],
+    "example": "He showed a modicum of remorse.",
+    "category": "advanced"
+  },
+  {
+    "word": "Mordant",
+    "meaning_en": "having a sharp critical quality",
+    "meaning_hi": "तीखा",
+    "synonyms": [
+      "Sharp",
+      "Caustic",
+      "Cutting",
+      "Biting",
+      "Sarcastic"
+    ],
+    "antonyms": [
+      "Kind",
+      "Mild",
+      "Gentle",
+      "Complimentary"
+    ],
+    "example": "His mordant humour was both funny and cruel.",
+    "category": "advanced"
+  },
+  {
+    "word": "Moribund",
+    "meaning_en": "at the point of death; about to die",
+    "meaning_hi": "मरणासन्न",
+    "synonyms": [
+      "Dying",
+      "Declining",
+      "Fading",
+      "Terminal",
+      "Stagnant"
+    ],
+    "antonyms": [
+      "Thriving",
+      "Flourishing",
+      "Active",
+      "Vigorous"
+    ],
+    "example": "The moribund industry needed urgent reform.",
     "category": "advanced"
   },
   {
@@ -2727,6 +5488,66 @@
       "Stingy",
       "Miserly"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Nadir",
+    "meaning_en": "the lowest point",
+    "meaning_hi": "निम्नतम बिंदु",
+    "synonyms": [
+      "Lowest point",
+      "Bottom",
+      "Trough",
+      "Depth",
+      "Rock bottom"
+    ],
+    "antonyms": [
+      "Zenith",
+      "Peak",
+      "Apex",
+      "Summit"
+    ],
+    "example": "His career hit a nadir after the scandal.",
+    "category": "advanced"
+  },
+  {
+    "word": "Narcissism",
+    "meaning_en": "excessive admiration of oneself",
+    "meaning_hi": "आत्मरति",
+    "synonyms": [
+      "Vanity",
+      "Self-love",
+      "Egotism",
+      "Conceit",
+      "Self-obsession"
+    ],
+    "antonyms": [
+      "Humility",
+      "Modesty",
+      "Altruism",
+      "Self-denial"
+    ],
+    "example": "His narcissism prevented meaningful relationships.",
+    "category": "advanced"
+  },
+  {
+    "word": "Nebulous",
+    "meaning_en": "vague, unclear, or hazy",
+    "meaning_hi": "अस्पष्ट",
+    "synonyms": [
+      "Vague",
+      "Unclear",
+      "Hazy",
+      "Indistinct",
+      "Ambiguous"
+    ],
+    "antonyms": [
+      "Clear",
+      "Definite",
+      "Precise",
+      "Distinct"
+    ],
+    "example": "His plans for the future were still nebulous.",
     "category": "advanced"
   },
   {
@@ -2790,6 +5611,26 @@
     "category": "advanced"
   },
   {
+    "word": "Oblivion",
+    "meaning_en": "the state of being forgotten",
+    "meaning_hi": "विस्मृति",
+    "synonyms": [
+      "Forgetfulness",
+      "Obscurity",
+      "Unconsciousness",
+      "Anonymity",
+      "Void"
+    ],
+    "antonyms": [
+      "Fame",
+      "Memory",
+      "Remembrance",
+      "Consciousness"
+    ],
+    "example": "Many great artists died in oblivion.",
+    "category": "advanced"
+  },
+  {
     "word": "Obsequious",
     "meaning_hi": "चापलूस",
     "meaning_en": "Excessively eager to please",
@@ -2802,6 +5643,24 @@
       "Assertive",
       "Independent"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Obsequy",
+    "meaning_en": "funeral rites or ceremony",
+    "meaning_hi": "अंत्येष्टि",
+    "synonyms": [
+      "Funeral",
+      "Burial rite",
+      "Last rites",
+      "Interment"
+    ],
+    "antonyms": [
+      "Birth",
+      "Celebration",
+      "Christening"
+    ],
+    "example": "The obsequies were attended by thousands.",
     "category": "advanced"
   },
   {
@@ -2832,6 +5691,26 @@
       "Sharp",
       "Perceptive"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Odium",
+    "meaning_en": "general hatred",
+    "meaning_hi": "घृणा",
+    "synonyms": [
+      "Hatred",
+      "Disgrace",
+      "Contempt",
+      "Infamy",
+      "Disrepute"
+    ],
+    "antonyms": [
+      "Admiration",
+      "Respect",
+      "Honour",
+      "Esteem"
+    ],
+    "example": "His cowardice brought odium on his family.",
     "category": "advanced"
   },
   {
@@ -2895,6 +5774,26 @@
     "category": "advanced"
   },
   {
+    "word": "Opprobrious",
+    "meaning_en": "bringing shame and disgrace",
+    "meaning_hi": "अपमानजनक",
+    "synonyms": [
+      "Disgraceful",
+      "Shameful",
+      "Scandalous",
+      "Dishonourable",
+      "Contemptible"
+    ],
+    "antonyms": [
+      "Honourable",
+      "Praiseworthy",
+      "Dignified",
+      "Respectable"
+    ],
+    "example": "His opprobrious conduct shocked the court.",
+    "category": "advanced"
+  },
+  {
     "word": "Opprobrium",
     "meaning_hi": "लोकनिंदा",
     "meaning_en": "Harsh public criticism",
@@ -2907,6 +5806,66 @@
       "Praise",
       "Honor"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Oppugn",
+    "meaning_en": "to call into question; challenge",
+    "meaning_hi": "चुनौती देना",
+    "synonyms": [
+      "Challenge",
+      "Question",
+      "Dispute",
+      "Contradict",
+      "Refute"
+    ],
+    "antonyms": [
+      "Support",
+      "Affirm",
+      "Agree",
+      "Confirm"
+    ],
+    "example": "The lawyer oppugned the witness's testimony.",
+    "category": "advanced"
+  },
+  {
+    "word": "Oscillate",
+    "meaning_en": "swing or vary between extremes",
+    "meaning_hi": "दोलन करना",
+    "synonyms": [
+      "Fluctuate",
+      "Waver",
+      "Swing",
+      "Vary",
+      "Alternate"
+    ],
+    "antonyms": [
+      "Stabilize",
+      "Remain constant",
+      "Fix",
+      "Settle"
+    ],
+    "example": "His mood oscillated between joy and despair.",
+    "category": "advanced"
+  },
+  {
+    "word": "Ostentation",
+    "meaning_en": "showy display to impress others",
+    "meaning_hi": "दिखावा",
+    "synonyms": [
+      "Show",
+      "Display",
+      "Pomp",
+      "Flamboyance",
+      "Pretentiousness"
+    ],
+    "antonyms": [
+      "Modesty",
+      "Simplicity",
+      "Restraint",
+      "Humility"
+    ],
+    "example": "His ostentation masked his insecurity.",
     "category": "advanced"
   },
   {
@@ -2970,6 +5929,26 @@
     "category": "advanced"
   },
   {
+    "word": "Panegyric",
+    "meaning_en": "a public speech of praise",
+    "meaning_hi": "प्रशस्तिगान",
+    "synonyms": [
+      "Eulogy",
+      "Tribute",
+      "Encomium",
+      "Laudation",
+      "Commendation"
+    ],
+    "antonyms": [
+      "Condemnation",
+      "Criticism",
+      "Diatribe",
+      "Censure"
+    ],
+    "example": "The general delivered a panegyric at the ceremony.",
+    "category": "advanced"
+  },
+  {
     "word": "Paradigm",
     "meaning_hi": "आदर्श उदाहरण",
     "meaning_en": "A typical example or framework",
@@ -2985,6 +5964,26 @@
     "category": "advanced"
   },
   {
+    "word": "Paragon",
+    "meaning_en": "a model of excellence",
+    "meaning_hi": "आदर्श",
+    "synonyms": [
+      "Model",
+      "Ideal",
+      "Exemplar",
+      "Standard",
+      "Archetype"
+    ],
+    "antonyms": [
+      "Mediocrity",
+      "Failure",
+      "Imperfection",
+      "Inferior"
+    ],
+    "example": "She is a paragon of honesty and integrity.",
+    "category": "advanced"
+  },
+  {
     "word": "Pariah",
     "meaning_hi": "बहिष्कृत व्यक्ति",
     "meaning_en": "An outcast",
@@ -2997,6 +5996,26 @@
       "Celebrity",
       "Insider"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Parity",
+    "meaning_en": "equality of status or pay",
+    "meaning_hi": "समानता",
+    "synonyms": [
+      "Equality",
+      "Equivalence",
+      "Balance",
+      "Uniformity",
+      "Similarity"
+    ],
+    "antonyms": [
+      "Disparity",
+      "Inequality",
+      "Imbalance",
+      "Difference"
+    ],
+    "example": "Pay parity between genders is essential.",
     "category": "advanced"
   },
   {
@@ -3030,6 +6049,26 @@
     "category": "advanced"
   },
   {
+    "word": "Pathological",
+    "meaning_en": "compulsive; relating to a mental disorder",
+    "meaning_hi": "विकृत",
+    "synonyms": [
+      "Compulsive",
+      "Obsessive",
+      "Unhealthy",
+      "Morbid",
+      "Abnormal"
+    ],
+    "antonyms": [
+      "Normal",
+      "Healthy",
+      "Reasonable",
+      "Sane"
+    ],
+    "example": "He was a pathological liar.",
+    "category": "advanced"
+  },
+  {
     "word": "Pejorative",
     "meaning_hi": "अपमानजनक",
     "meaning_en": "Expressing contempt or disapproval",
@@ -3042,6 +6081,26 @@
       "Complimentary",
       "Flattering"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Pellucid",
+    "meaning_en": "translucently clear",
+    "meaning_hi": "पारदर्शी",
+    "synonyms": [
+      "Clear",
+      "Transparent",
+      "Lucid",
+      "Crystal-clear",
+      "Limpid"
+    ],
+    "antonyms": [
+      "Opaque",
+      "Murky",
+      "Unclear",
+      "Turbid"
+    ],
+    "example": "The pellucid water revealed the fish below.",
     "category": "advanced"
   },
   {
@@ -3105,6 +6164,26 @@
     "category": "advanced"
   },
   {
+    "word": "Perspicacity",
+    "meaning_en": "the quality of having a ready insight",
+    "meaning_hi": "दूरदर्शिता",
+    "synonyms": [
+      "Insight",
+      "Perceptiveness",
+      "Shrewdness",
+      "Astuteness",
+      "Acuity"
+    ],
+    "antonyms": [
+      "Obtuseness",
+      "Ignorance",
+      "Dullness",
+      "Blindness"
+    ],
+    "example": "His perspicacity helped him spot the flaw immediately.",
+    "category": "advanced"
+  },
+  {
     "word": "Pertinacious",
     "meaning_hi": "हठी",
     "meaning_en": "Stubbornly persistent",
@@ -3150,6 +6229,106 @@
     "category": "advanced"
   },
   {
+    "word": "Piety",
+    "meaning_en": "devoutness; religiousness",
+    "meaning_hi": "धर्मपरायणता",
+    "synonyms": [
+      "Devoutness",
+      "Religiosity",
+      "Reverence",
+      "Holiness",
+      "Faithfulness"
+    ],
+    "antonyms": [
+      "Impiety",
+      "Irreverence",
+      "Sacrilege",
+      "Godlessness"
+    ],
+    "example": "Her piety was evident in her daily prayers.",
+    "category": "advanced"
+  },
+  {
+    "word": "Piquant",
+    "meaning_en": "having a pleasantly sharp or stimulating taste or quality",
+    "meaning_hi": "तीखा",
+    "synonyms": [
+      "Spicy",
+      "Tangy",
+      "Stimulating",
+      "Lively",
+      "Zingy"
+    ],
+    "antonyms": [
+      "Bland",
+      "Insipid",
+      "Dull",
+      "Tasteless"
+    ],
+    "example": "The dish had a piquant flavour that lingered.",
+    "category": "advanced"
+  },
+  {
+    "word": "Pithy",
+    "meaning_en": "concise and forcefully expressive",
+    "meaning_hi": "सारगर्भित",
+    "synonyms": [
+      "Concise",
+      "Succinct",
+      "Terse",
+      "Brief",
+      "Pointed"
+    ],
+    "antonyms": [
+      "Verbose",
+      "Wordy",
+      "Long-winded",
+      "Rambling"
+    ],
+    "example": "The president's pithy speech was widely quoted.",
+    "category": "advanced"
+  },
+  {
+    "word": "Placatory",
+    "meaning_en": "intended to pacify or conciliate",
+    "meaning_hi": "शांत करने वाला",
+    "synonyms": [
+      "Conciliatory",
+      "Appeasing",
+      "Soothing",
+      "Pacifying",
+      "Mollifying"
+    ],
+    "antonyms": [
+      "Provocative",
+      "Inflammatory",
+      "Antagonistic",
+      "Agitating"
+    ],
+    "example": "His placatory tone diffused the tension.",
+    "category": "advanced"
+  },
+  {
+    "word": "Plagiarize",
+    "meaning_en": "copy work dishonestly",
+    "meaning_hi": "साहित्यिक चोरी करना",
+    "synonyms": [
+      "Copy",
+      "Steal",
+      "Pirate",
+      "Appropriate",
+      "Reproduce"
+    ],
+    "antonyms": [
+      "Create",
+      "Originate",
+      "Invent",
+      "Acknowledge"
+    ],
+    "example": "The student was caught plagiarizing an essay.",
+    "category": "advanced"
+  },
+  {
     "word": "Platitude",
     "meaning_hi": "घिसी-पिटी बात",
     "meaning_en": "Overused statement lacking originality",
@@ -3165,6 +6344,26 @@
     "category": "advanced"
   },
   {
+    "word": "Plaudits",
+    "meaning_en": "praise or applause",
+    "meaning_hi": "प्रशंसा",
+    "synonyms": [
+      "Praise",
+      "Applause",
+      "Acclaim",
+      "Commendation",
+      "Ovation"
+    ],
+    "antonyms": [
+      "Criticism",
+      "Condemnation",
+      "Disapproval",
+      "Censure"
+    ],
+    "example": "The surgeon received plaudits for the complex operation.",
+    "category": "advanced"
+  },
+  {
     "word": "Polemical",
     "meaning_hi": "विवादास्पद",
     "meaning_en": "Strongly controversial",
@@ -3177,6 +6376,46 @@
       "Agreeable",
       "Neutral"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Pomposity",
+    "meaning_en": "affectedly grand self-importance",
+    "meaning_hi": "घमंड",
+    "synonyms": [
+      "Arrogance",
+      "Pretension",
+      "Vanity",
+      "Conceit",
+      "Grandiosity"
+    ],
+    "antonyms": [
+      "Humility",
+      "Modesty",
+      "Simplicity",
+      "Unpretentiousness"
+    ],
+    "example": "His pomposity alienated his colleagues.",
+    "category": "advanced"
+  },
+  {
+    "word": "Ponderous",
+    "meaning_en": "slow and heavy; dull and laborious",
+    "meaning_hi": "भारी-भरकम",
+    "synonyms": [
+      "Heavy",
+      "Unwieldy",
+      "Clumsy",
+      "Laborious",
+      "Tedious"
+    ],
+    "antonyms": [
+      "Light",
+      "Nimble",
+      "Agile",
+      "Lively"
+    ],
+    "example": "His ponderous speech put the audience to sleep.",
     "category": "advanced"
   },
   {
@@ -3225,6 +6464,66 @@
     "category": "advanced"
   },
   {
+    "word": "Predilection",
+    "meaning_en": "a preference or liking for something",
+    "meaning_hi": "रुझान",
+    "synonyms": [
+      "Preference",
+      "Liking",
+      "Fondness",
+      "Inclination",
+      "Partiality"
+    ],
+    "antonyms": [
+      "Dislike",
+      "Aversion",
+      "Indifference",
+      "Repugnance"
+    ],
+    "example": "He had a predilection for classical music.",
+    "category": "advanced"
+  },
+  {
+    "word": "Preeminent",
+    "meaning_en": "surpassing all others",
+    "meaning_hi": "सर्वश्रेष्ठ",
+    "synonyms": [
+      "Supreme",
+      "Outstanding",
+      "Foremost",
+      "Leading",
+      "Greatest"
+    ],
+    "antonyms": [
+      "Inferior",
+      "Mediocre",
+      "Minor",
+      "Ordinary"
+    ],
+    "example": "She is the preeminent expert in her field.",
+    "category": "advanced"
+  },
+  {
+    "word": "Preposterous",
+    "meaning_en": "contrary to reason; absurd",
+    "meaning_hi": "बेतुका",
+    "synonyms": [
+      "Absurd",
+      "Ridiculous",
+      "Ludicrous",
+      "Foolish",
+      "Nonsensical"
+    ],
+    "antonyms": [
+      "Reasonable",
+      "Sensible",
+      "Rational",
+      "Logical"
+    ],
+    "example": "The claim was preposterous.",
+    "category": "advanced"
+  },
+  {
     "word": "Prescient",
     "meaning_hi": "दूरदर्शी",
     "meaning_en": "Having foresight",
@@ -3270,6 +6569,66 @@
     "category": "advanced"
   },
   {
+    "word": "Probity",
+    "meaning_en": "strong moral principles",
+    "meaning_hi": "ईमानदारी",
+    "synonyms": [
+      "Integrity",
+      "Honesty",
+      "Uprightness",
+      "Virtue",
+      "Rectitude"
+    ],
+    "antonyms": [
+      "Dishonesty",
+      "Corruption",
+      "Immorality",
+      "Wickedness"
+    ],
+    "example": "His probity made him ideal for the role.",
+    "category": "advanced"
+  },
+  {
+    "word": "Proclivity",
+    "meaning_en": "tendency to behave in a certain way",
+    "meaning_hi": "प्रवृत्ति",
+    "synonyms": [
+      "Tendency",
+      "Inclination",
+      "Predisposition",
+      "Penchant",
+      "Leaning"
+    ],
+    "antonyms": [
+      "Disinclination",
+      "Aversion",
+      "Reluctance",
+      "Dislike"
+    ],
+    "example": "She had a proclivity for solving puzzles.",
+    "category": "advanced"
+  },
+  {
+    "word": "Proclivous",
+    "meaning_en": "having a strong natural inclination",
+    "meaning_hi": "प्रवृत्त",
+    "synonyms": [
+      "Inclined",
+      "Disposed",
+      "Prone",
+      "Predisposed",
+      "Tending"
+    ],
+    "antonyms": [
+      "Disinclined",
+      "Averse",
+      "Reluctant",
+      "Opposed"
+    ],
+    "example": "She was proclivous toward taking risks.",
+    "category": "advanced"
+  },
+  {
     "word": "Prodigal",
     "meaning_hi": "अपव्ययी",
     "meaning_en": "Wastefully extravagant",
@@ -3282,6 +6641,26 @@
       "Frugal",
       "Thrifty"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Profane",
+    "meaning_en": "treating sacred things with disrespect",
+    "meaning_hi": "अपवित्र",
+    "synonyms": [
+      "Sacrilegious",
+      "Irreverent",
+      "Blasphemous",
+      "Vulgar",
+      "Impious"
+    ],
+    "antonyms": [
+      "Sacred",
+      "Holy",
+      "Reverent",
+      "Pious"
+    ],
+    "example": "His profane language shocked the congregation.",
     "category": "advanced"
   },
   {
@@ -3315,6 +6694,46 @@
     "category": "advanced"
   },
   {
+    "word": "Propitious",
+    "meaning_en": "giving or indicating a good chance of success",
+    "meaning_hi": "शुभ",
+    "synonyms": [
+      "Auspicious",
+      "Favourable",
+      "Promising",
+      "Fortunate",
+      "Opportune"
+    ],
+    "antonyms": [
+      "Inauspicious",
+      "Unfavourable",
+      "Ominous",
+      "Unfortunate"
+    ],
+    "example": "The weather was propitious for the harvest.",
+    "category": "advanced"
+  },
+  {
+    "word": "Propound",
+    "meaning_en": "put forward a theory for consideration",
+    "meaning_hi": "प्रस्तावित करना",
+    "synonyms": [
+      "Propose",
+      "Suggest",
+      "Put forward",
+      "Advocate",
+      "Submit"
+    ],
+    "antonyms": [
+      "Withdraw",
+      "Retract",
+      "Oppose",
+      "Reject"
+    ],
+    "example": "He propounded a new theory of evolution.",
+    "category": "advanced"
+  },
+  {
     "word": "Proscribe",
     "meaning_hi": "प्रतिबंध लगाना",
     "meaning_en": "Officially forbid",
@@ -3342,6 +6761,26 @@
       "Shorten",
       "Curtail"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Provenance",
+    "meaning_en": "the place of origin or source",
+    "meaning_hi": "उद्गम स्थान",
+    "synonyms": [
+      "Origin",
+      "Source",
+      "Derivation",
+      "History",
+      "Background"
+    ],
+    "antonyms": [
+      "Destination",
+      "End",
+      "Result",
+      "Effect"
+    ],
+    "example": "The provenance of the painting was disputed.",
     "category": "advanced"
   },
   {
@@ -3390,6 +6829,45 @@
     "category": "advanced"
   },
   {
+    "word": "Puissant",
+    "meaning_en": "having great power or influence",
+    "meaning_hi": "शक्तिशाली",
+    "synonyms": [
+      "Powerful",
+      "Potent",
+      "Mighty",
+      "Strong",
+      "Dominant"
+    ],
+    "antonyms": [
+      "Weak",
+      "Feeble",
+      "Powerless",
+      "Impotent"
+    ],
+    "example": "A puissant nation commands global respect.",
+    "category": "advanced"
+  },
+  {
+    "word": "Pulchritude",
+    "meaning_en": "physical beauty",
+    "meaning_hi": "सौंदर्य",
+    "synonyms": [
+      "Beauty",
+      "Comeliness",
+      "Attractiveness",
+      "Loveliness",
+      "Grace"
+    ],
+    "antonyms": [
+      "Ugliness",
+      "Homeliness",
+      "Plainness"
+    ],
+    "example": "Her pulchritude was admired by all.",
+    "category": "advanced"
+  },
+  {
     "word": "Punctilious",
     "meaning_hi": "नियम-परायण",
     "meaning_en": "Showing great attention to detail",
@@ -3417,6 +6895,26 @@
       "Certainty",
       "Solution"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Rancour",
+    "meaning_en": "bitter ill feeling",
+    "meaning_hi": "द्वेष",
+    "synonyms": [
+      "Resentment",
+      "Bitterness",
+      "Hatred",
+      "Malice",
+      "Spite"
+    ],
+    "antonyms": [
+      "Goodwill",
+      "Kindness",
+      "Friendliness",
+      "Forgiveness"
+    ],
+    "example": "Years of rancour between the families continued.",
     "category": "advanced"
   },
   {
@@ -3465,6 +6963,26 @@
     "category": "advanced"
   },
   {
+    "word": "Rectitude",
+    "meaning_en": "morally correct behaviour",
+    "meaning_hi": "सत्यनिष्ठा",
+    "synonyms": [
+      "Integrity",
+      "Honesty",
+      "Virtue",
+      "Probity",
+      "Righteousness"
+    ],
+    "antonyms": [
+      "Dishonesty",
+      "Corruption",
+      "Wickedness",
+      "Immorality"
+    ],
+    "example": "His rectitude earned him universal respect.",
+    "category": "advanced"
+  },
+  {
     "word": "Redoubtable",
     "meaning_hi": "शक्तिशाली",
     "meaning_en": "Formidable and awe-inspiring",
@@ -3477,6 +6995,46 @@
       "Weak",
       "Timid"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Refractory",
+    "meaning_en": "stubbornly resistant",
+    "meaning_hi": "हठी",
+    "synonyms": [
+      "Stubborn",
+      "Disobedient",
+      "Unmanageable",
+      "Recalcitrant",
+      "Defiant"
+    ],
+    "antonyms": [
+      "Compliant",
+      "Obedient",
+      "Cooperative",
+      "Amenable"
+    ],
+    "example": "The refractory prisoner refused to cooperate.",
+    "category": "advanced"
+  },
+  {
+    "word": "Refulgent",
+    "meaning_en": "shining very brightly",
+    "meaning_hi": "प्रतिभाशाली",
+    "synonyms": [
+      "Radiant",
+      "Shining",
+      "Brilliant",
+      "Resplendent",
+      "Lustrous"
+    ],
+    "antonyms": [
+      "Dull",
+      "Dark",
+      "Dim",
+      "Faded"
+    ],
+    "example": "The refulgent sun made the snow dazzle.",
     "category": "advanced"
   },
   {
@@ -3525,6 +7083,26 @@
     "category": "advanced"
   },
   {
+    "word": "Reprieve",
+    "meaning_en": "cancellation or postponement of punishment",
+    "meaning_hi": "राहत",
+    "synonyms": [
+      "Pardon",
+      "Relief",
+      "Respite",
+      "Remission",
+      "Stay"
+    ],
+    "antonyms": [
+      "Punishment",
+      "Penalty",
+      "Sentence",
+      "Condemnation"
+    ],
+    "example": "The prisoner received a last-minute reprieve.",
+    "category": "advanced"
+  },
+  {
     "word": "Reprobate",
     "meaning_hi": "दुराचारी",
     "meaning_en": "An unprincipled person",
@@ -3555,6 +7133,26 @@
     "category": "advanced"
   },
   {
+    "word": "Reticence",
+    "meaning_en": "the quality of not revealing thoughts",
+    "meaning_hi": "संकोच",
+    "synonyms": [
+      "Reserve",
+      "Silence",
+      "Restraint",
+      "Shyness",
+      "Taciturnity"
+    ],
+    "antonyms": [
+      "Openness",
+      "Talkativeness",
+      "Frankness",
+      "Loquacity"
+    ],
+    "example": "Her reticence on the matter was noted.",
+    "category": "advanced"
+  },
+  {
     "word": "Retribution",
     "meaning_hi": "प्रतिशोध",
     "meaning_en": "Punishment as vengeance",
@@ -3582,6 +7180,26 @@
       "Praise",
       "Compliment"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Revulsion",
+    "meaning_en": "a sense of disgust and loathing",
+    "meaning_hi": "घृणा",
+    "synonyms": [
+      "Disgust",
+      "Loathing",
+      "Repugnance",
+      "Nausea",
+      "Abhorrence"
+    ],
+    "antonyms": [
+      "Attraction",
+      "Fondness",
+      "Admiration",
+      "Delight"
+    ],
+    "example": "The graphic scene caused revulsion.",
     "category": "advanced"
   },
   {
@@ -3645,6 +7263,26 @@
     "category": "advanced"
   },
   {
+    "word": "Salutary",
+    "meaning_en": "producing a beneficial effect",
+    "meaning_hi": "लाभकारी",
+    "synonyms": [
+      "Beneficial",
+      "Helpful",
+      "Useful",
+      "Healthful",
+      "Remedial"
+    ],
+    "antonyms": [
+      "Harmful",
+      "Detrimental",
+      "Damaging",
+      "Deleterious"
+    ],
+    "example": "The defeat had a salutary effect on the team.",
+    "category": "advanced"
+  },
+  {
     "word": "Sanctimonious",
     "meaning_hi": "पाखंडी",
     "meaning_en": "Making a show of being morally superior",
@@ -3657,6 +7295,41 @@
       "Sincere",
       "Humble"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Sanguinary",
+    "meaning_en": "involving or causing much bloodshed",
+    "meaning_hi": "खूनी",
+    "synonyms": [
+      "Bloody",
+      "Violent",
+      "Brutal",
+      "Murderous",
+      "Ruthless"
+    ],
+    "antonyms": [
+      "Peaceful",
+      "Gentle",
+      "Bloodless",
+      "Nonviolent"
+    ],
+    "example": "The sanguinary battle lasted three days.",
+    "category": "advanced"
+  },
+  {
+    "word": "Sartorial",
+    "meaning_en": "relating to tailoring or clothing",
+    "meaning_hi": "वस्त्र-संबंधी",
+    "synonyms": [
+      "Sewing",
+      "Textile",
+      "Tailoring",
+      "Clothing",
+      "Dress"
+    ],
+    "antonyms": [],
+    "example": "His sartorial elegance was widely admired.",
     "category": "advanced"
   },
   {
@@ -3780,6 +7453,26 @@
     "category": "advanced"
   },
   {
+    "word": "Sophomoric",
+    "meaning_en": "pretentious but juvenile",
+    "meaning_hi": "अपरिपक्व",
+    "synonyms": [
+      "Immature",
+      "Juvenile",
+      "Naive",
+      "Pretentious",
+      "Childish"
+    ],
+    "antonyms": [
+      "Mature",
+      "Sophisticated",
+      "Experienced",
+      "Seasoned"
+    ],
+    "example": "His sophomoric arguments failed to convince anyone.",
+    "category": "advanced"
+  },
+  {
     "word": "Soporific",
     "meaning_hi": "नींद लाने वाला",
     "meaning_en": "Tending to induce sleep",
@@ -3885,6 +7578,26 @@
     "category": "advanced"
   },
   {
+    "word": "Subsume",
+    "meaning_en": "include within a larger category",
+    "meaning_hi": "समाहित करना",
+    "synonyms": [
+      "Include",
+      "Incorporate",
+      "Absorb",
+      "Contain",
+      "Engulf"
+    ],
+    "antonyms": [
+      "Exclude",
+      "Separate",
+      "Extract",
+      "Remove"
+    ],
+    "example": "All exceptions are subsumed under this rule.",
+    "category": "advanced"
+  },
+  {
     "word": "Subterfuge",
     "meaning_hi": "कपट",
     "meaning_en": "Deceit to achieve a goal",
@@ -3960,6 +7673,26 @@
     "category": "advanced"
   },
   {
+    "word": "Sycophancy",
+    "meaning_en": "excessive flattery to gain favour",
+    "meaning_hi": "चापलूसी",
+    "synonyms": [
+      "Flattery",
+      "Fawning",
+      "Obsequiousness",
+      "Servility",
+      "Toadying"
+    ],
+    "antonyms": [
+      "Criticism",
+      "Candour",
+      "Honesty",
+      "Independence"
+    ],
+    "example": "The boardroom was full of sycophancy.",
+    "category": "advanced"
+  },
+  {
     "word": "Sycophant",
     "meaning_hi": "चापलूस",
     "meaning_en": "One who seeks favor by flattery",
@@ -3972,6 +7705,46 @@
       "Critic",
       "Opponent"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Sycophantic",
+    "meaning_en": "using flattery to gain favour",
+    "meaning_hi": "चापलूसी भरा",
+    "synonyms": [
+      "Flattering",
+      "Fawning",
+      "Obsequious",
+      "Servile",
+      "Ingratiating"
+    ],
+    "antonyms": [
+      "Honest",
+      "Candid",
+      "Forthright",
+      "Genuine"
+    ],
+    "example": "His sycophantic behaviour was transparent.",
+    "category": "advanced"
+  },
+  {
+    "word": "Tacit",
+    "meaning_en": "understood without being stated",
+    "meaning_hi": "मौन",
+    "synonyms": [
+      "Implicit",
+      "Unspoken",
+      "Understood",
+      "Silent",
+      "Unexpressed"
+    ],
+    "antonyms": [
+      "Explicit",
+      "Stated",
+      "Spoken",
+      "Direct"
+    ],
+    "example": "There was a tacit understanding between them.",
     "category": "advanced"
   },
   {
@@ -4002,6 +7775,26 @@
       "Timidity",
       "Caution"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Temporal",
+    "meaning_en": "relating to worldly rather than spiritual matters",
+    "meaning_hi": "सांसारिक",
+    "synonyms": [
+      "Worldly",
+      "Secular",
+      "Material",
+      "Earthly",
+      "Civil"
+    ],
+    "antonyms": [
+      "Spiritual",
+      "Sacred",
+      "Religious",
+      "Eternal"
+    ],
+    "example": "The king held both temporal and spiritual power.",
     "category": "advanced"
   },
   {
@@ -4062,6 +7855,26 @@
       "Critic",
       "Opponent"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Torpid",
+    "meaning_en": "mentally or physically inactive",
+    "meaning_hi": "सुस्त",
+    "synonyms": [
+      "Sluggish",
+      "Lethargic",
+      "Dormant",
+      "Inactive",
+      "Dull"
+    ],
+    "antonyms": [
+      "Active",
+      "Energetic",
+      "Alert",
+      "Vigorous"
+    ],
+    "example": "The heat left the workers torpid by afternoon.",
     "category": "advanced"
   },
   {
@@ -4185,6 +7998,26 @@
     "category": "advanced"
   },
   {
+    "word": "Turgid",
+    "meaning_en": "swollen; pompous in language",
+    "meaning_hi": "फूला हुआ",
+    "synonyms": [
+      "Bombastic",
+      "Pompous",
+      "Inflated",
+      "Swollen",
+      "Grandiose"
+    ],
+    "antonyms": [
+      "Simple",
+      "Concise",
+      "Plain",
+      "Restrained"
+    ],
+    "example": "His turgid writing style bored the readers.",
+    "category": "advanced"
+  },
+  {
     "word": "Turpitude",
     "meaning_hi": "नीचता",
     "meaning_en": "Wicked or depraved behavior",
@@ -4275,6 +8108,26 @@
     "category": "advanced"
   },
   {
+    "word": "Upbraid",
+    "meaning_en": "find fault with or scold",
+    "meaning_hi": "फटकारना",
+    "synonyms": [
+      "Scold",
+      "Reprimand",
+      "Rebuke",
+      "Criticize",
+      "Censure"
+    ],
+    "antonyms": [
+      "Praise",
+      "Compliment",
+      "Commend",
+      "Approve"
+    ],
+    "example": "She upbraided him for his carelessness.",
+    "category": "advanced"
+  },
+  {
     "word": "Vacillate",
     "meaning_hi": "डगमगाना",
     "meaning_en": "Keep changing opinion",
@@ -4287,6 +8140,26 @@
       "Decide",
       "Commit"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Vacillation",
+    "meaning_en": "inability to decide",
+    "meaning_hi": "अनिर्णय",
+    "synonyms": [
+      "Indecision",
+      "Wavering",
+      "Hesitation",
+      "Irresolution",
+      "Uncertainty"
+    ],
+    "antonyms": [
+      "Decisiveness",
+      "Resolve",
+      "Determination",
+      "Certainty"
+    ],
+    "example": "His vacillation on the issue frustrated the team.",
     "category": "advanced"
   },
   {
@@ -4317,6 +8190,86 @@
       "Mortal",
       "Grave"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Veracious",
+    "meaning_en": "speaking or representing the truth",
+    "meaning_hi": "सत्यवादी",
+    "synonyms": [
+      "Truthful",
+      "Honest",
+      "Accurate",
+      "Genuine",
+      "Candid"
+    ],
+    "antonyms": [
+      "Dishonest",
+      "Lying",
+      "Deceptive",
+      "False"
+    ],
+    "example": "She gave a veracious account of the accident.",
+    "category": "advanced"
+  },
+  {
+    "word": "Verbatim",
+    "meaning_en": "in exactly the same words",
+    "meaning_hi": "शब्दशः",
+    "synonyms": [
+      "Word for word",
+      "Exact",
+      "Literal",
+      "Precise",
+      "Faithful"
+    ],
+    "antonyms": [
+      "Paraphrased",
+      "Summarized",
+      "Approximate",
+      "Condensed"
+    ],
+    "example": "He quoted the passage verbatim.",
+    "category": "advanced"
+  },
+  {
+    "word": "Vernacular",
+    "meaning_en": "language of a particular group",
+    "meaning_hi": "स्थानीय भाषा",
+    "synonyms": [
+      "Dialect",
+      "Local language",
+      "Idiom",
+      "Native tongue",
+      "Colloquial"
+    ],
+    "antonyms": [
+      "Formal language",
+      "Standard",
+      "Foreign",
+      "Literary"
+    ],
+    "example": "The poem was written in the local vernacular.",
+    "category": "advanced"
+  },
+  {
+    "word": "Vestige",
+    "meaning_en": "a trace or remnant of something",
+    "meaning_hi": "अवशेष",
+    "synonyms": [
+      "Trace",
+      "Remnant",
+      "Relic",
+      "Remainder",
+      "Sign"
+    ],
+    "antonyms": [
+      "Entirety",
+      "Whole",
+      "Abundance",
+      "Plenty"
+    ],
+    "example": "There was not a vestige of truth in his claim.",
     "category": "advanced"
   },
   {
@@ -4395,6 +8348,26 @@
     "category": "advanced"
   },
   {
+    "word": "Vituperate",
+    "meaning_en": "blame or abuse in harsh language",
+    "meaning_hi": "गाली देना",
+    "synonyms": [
+      "Abuse",
+      "Berate",
+      "Castigate",
+      "Denounce",
+      "Revile"
+    ],
+    "antonyms": [
+      "Praise",
+      "Commend",
+      "Compliment",
+      "Honour"
+    ],
+    "example": "He vituperated his critics publicly.",
+    "category": "advanced"
+  },
+  {
     "word": "Vociferous",
     "meaning_hi": "चिल्लाने वाला",
     "meaning_en": "Expressing opinions loudly",
@@ -4407,6 +8380,26 @@
       "Quiet",
       "Silent"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Waive",
+    "meaning_en": "refrain from applying a rule",
+    "meaning_hi": "छोड़ देना",
+    "synonyms": [
+      "Forgo",
+      "Abandon",
+      "Surrender",
+      "Relinquish",
+      "Renounce"
+    ],
+    "antonyms": [
+      "Enforce",
+      "Apply",
+      "Insist",
+      "Maintain"
+    ],
+    "example": "The fee was waived for eligible candidates.",
     "category": "advanced"
   },
   {
@@ -4452,6 +8445,26 @@
       "Repulsive",
       "Unattractive"
     ],
+    "category": "advanced"
+  },
+  {
+    "word": "Zany",
+    "meaning_en": "amusingly unconventional and idiosyncratic",
+    "meaning_hi": "विचित्र",
+    "synonyms": [
+      "Eccentric",
+      "Quirky",
+      "Comical",
+      "Funny",
+      "Offbeat"
+    ],
+    "antonyms": [
+      "Serious",
+      "Conventional",
+      "Dull",
+      "Ordinary"
+    ],
+    "example": "His zany humour made everyone laugh.",
     "category": "advanced"
   },
   {

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../models/word_model.dart';
+import '../../utils/app_colors.dart';
 
 class SynonymCard extends StatelessWidget {
   final Word word;
@@ -23,10 +24,11 @@ class SynonymCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isDark = context.isDark;
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.all(24),
-      decoration: _decor(),
+      decoration: _decor(context),
       child: Column(
         children: [
           if (!shareMode)
@@ -34,13 +36,15 @@ class SynonymCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 IconButton(
-                  icon: const Icon(Icons.share_rounded, color: Color(0xFF1F3C6D)),
+                  icon: Icon(Icons.share_rounded, color: context.textSecondary),
                   onPressed: onShare,
                 ),
                 IconButton(
                   icon: Icon(
                     isBookmarked ? Icons.bookmark : Icons.bookmark_border,
-                    color: const Color(0xFF1F3C6D),
+                    color: isBookmarked
+                        ? (context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D))
+                        : context.textSecondary,
                   ),
                   onPressed: onBookmarkToggle,
                 ),
@@ -50,7 +54,9 @@ class SynonymCard extends StatelessWidget {
             child: Container(
               padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
               decoration: BoxDecoration(
-                color: const Color(0xFF22C55E).withValues(alpha: 0.12),
+                color: context.isDark
+                    ? const Color(0xFF22C55E).withValues(alpha: 0.22)
+                    : const Color(0xFF22C55E).withValues(alpha: 0.12),
                 borderRadius: BorderRadius.circular(14),
               ),
               child: Text(
@@ -63,23 +69,23 @@ class SynonymCard extends StatelessWidget {
           const SizedBox(height: 24),
 
           if (word.synonyms.isNotEmpty) ...[
-            _title("Synonyms"),
+            _sectionLabel('Synonyms', isDark ? const Color(0xFF4ADE80) : const Color(0xFF16A34A), Icons.check_circle_outline),
             const SizedBox(height: 10),
             Wrap(
               spacing: 8,
               runSpacing: 8,
-              children: word.synonyms.map((s) => _chip(s, false)).toList(),
+              children: word.synonyms.map((s) => _chip(context, s, false)).toList(),
             ),
             const SizedBox(height: 20),
           ],
 
           if (word.antonyms.isNotEmpty) ...[
-            _title("Antonyms"),
+            _sectionLabel('Antonyms', isDark ? const Color(0xFFF87171) : const Color(0xFFDC2626), Icons.compare_arrows_rounded),
             const SizedBox(height: 10),
             Wrap(
               spacing: 8,
               runSpacing: 8,
-              children: word.antonyms.map((a) => _chip(a, true)).toList(),
+              children: word.antonyms.map((a) => _chip(context, a, true)).toList(),
             ),
           ],
           if (!shareMode) ...[
@@ -90,20 +96,20 @@ class SynonymCard extends StatelessWidget {
               value: total == 0 ? 0.0 : index / total,
               minHeight: 8,
               borderRadius: BorderRadius.circular(999),
-              backgroundColor: const Color(0xFFE2E8F0),
+              backgroundColor: context.borderSubtle,
               color: const Color(0xFF22C55E),
             ),
             const SizedBox(height: 10),
             Text(
               '$index/$total',
-              style: const TextStyle(
-                color: Color(0xFF334155),
+              style: TextStyle(
+                color: context.textSecondary,
                 fontWeight: FontWeight.w600,
               ),
             ),
           ] else ...[
             const SizedBox(height: 20),
-            const Divider(color: Color(0xFFE2E8F0)),
+            Divider(color: context.borderSubtle),
             const SizedBox(height: 12),
             Row(
               children: [
@@ -133,14 +139,25 @@ class SynonymCard extends StatelessWidget {
     );
   }
 
-  Widget _chip(String text, bool isAntonym) {
-    final color = isAntonym ? Colors.red : const Color(0xFF1F3C6D);
+  Widget _sectionLabel(String label, Color color, IconData icon) => Row(
+    children: [
+      Icon(icon, color: color, size: 18),
+      const SizedBox(width: 6),
+      Text(label, style: TextStyle(fontSize: 15, fontWeight: FontWeight.w700, color: color)),
+    ],
+  );
 
+  Widget _chip(BuildContext context, String text, bool isAntonym) {
+    final isDark = context.isDark;
+    final color = isAntonym
+        ? (isDark ? const Color(0xFFF87171) : const Color(0xFFDC2626))
+        : (isDark ? const Color(0xFF4ADE80) : const Color(0xFF16A34A));
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
       decoration: BoxDecoration(
-        color: color.withValues(alpha: 0.08),
+        color: color.withValues(alpha: isDark ? 0.15 : 0.08),
         borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: color.withValues(alpha: isDark ? 0.35 : 0.20)),
       ),
       child: Text(
         text,
@@ -149,30 +166,8 @@ class SynonymCard extends StatelessWidget {
     );
   }
 
-  Widget _title(String t) => Text(
-    t,
-    style: TextStyle(
-      fontSize: 16,
-      fontWeight: FontWeight.w600,
-      color: _headingColor(t),
-    ),
-  );
-
-  Color _headingColor(String title) {
-    switch (title) {
-      case 'Hindi Meaning':
-        return const Color(0xFF4338CA);
-      case 'Synonyms':
-        return const Color(0xFF1D4ED8);
-      case 'Antonyms':
-        return const Color(0xFFB91C1C);
-      default:
-        return Colors.grey.shade600;
-    }
-  }
-
-  BoxDecoration _decor() => BoxDecoration(
-    color: Colors.white,
+  BoxDecoration _decor(BuildContext context) => BoxDecoration(
+    color: context.cardBg,
     borderRadius: BorderRadius.circular(20),
     boxShadow: [
       BoxShadow(
@@ -183,4 +178,3 @@ class SynonymCard extends StatelessWidget {
     ],
   );
 }
-

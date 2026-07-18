@@ -1,4 +1,5 @@
 class PYQQuestion {
+  final String passage;
   final String question;
   final List<String> options;
   final String correctAnswer;
@@ -9,6 +10,7 @@ class PYQQuestion {
   final String explanation;
 
   const PYQQuestion({
+    this.passage = '',
     required this.question,
     required this.options,
     required this.correctAnswer,
@@ -21,6 +23,7 @@ class PYQQuestion {
 
   factory PYQQuestion.fromJson(Map<String, dynamic> json) {
     return PYQQuestion(
+      passage: (json['passage'] as String?) ?? '',
       question: json['question'] as String,
       options: List<String>.from(json['options'] as List),
       correctAnswer: json['correct_answer'] as String,

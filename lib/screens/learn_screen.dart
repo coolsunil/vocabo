@@ -10,7 +10,9 @@ import 'package:share_plus/share_plus.dart';
 
 import '../data/bookmark_store.dart';
 import '../data/category_sources.dart';
+import '../data/daily_goal_store.dart';
 import '../data/premium_store.dart';
+import '../utils/app_colors.dart';
 import '../data/progress_store.dart';
 import '../models/word_model.dart';
 import '../widgets/cards/cloze_test_card.dart';
@@ -129,7 +131,7 @@ class _LearnScreenState extends State<LearnScreen>
               width: 40,
               height: 4,
               decoration: BoxDecoration(
-                color: const Color(0xFFE2E8F0),
+                color: context.borderSubtle,
                 borderRadius: BorderRadius.circular(2),
               ),
             ),
@@ -145,21 +147,21 @@ class _LearnScreenState extends State<LearnScreen>
                   color: Color(0xFF059669), size: 40),
             ),
             const SizedBox(height: 16),
-            const Text(
+            Text(
               'Category complete!',
               style: TextStyle(
                 fontSize: 22,
                 fontWeight: FontWeight.w800,
-                color: Color(0xFF0F172A),
+                color: context.textPrimary,
               ),
             ),
             const SizedBox(height: 8),
             Text(
               'You\'ve gone through all ${words.length} words in $title.',
               textAlign: TextAlign.center,
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 15,
-                color: Color(0xFF64748B),
+                color: context.textSecondary,
                 height: 1.5,
               ),
             ),
@@ -307,16 +309,16 @@ class _LearnScreenState extends State<LearnScreen>
     }
     if (words.isEmpty) {
       return Scaffold(
-        backgroundColor: const Color(0xFFF5F7FA),
+        backgroundColor: context.scaffoldBg,
         appBar: AppBar(
           backgroundColor: const Color(0xFF1F3C6D),
           foregroundColor: Colors.white,
           title: Text(screenTitle),
         ),
-        body: const Center(
+        body: Center(
           child: Text(
             'No words found for this category yet.',
-            style: TextStyle(color: Color(0xFF475569)),
+            style: TextStyle(color: context.textSecondary),
           ),
         ),
       );
@@ -325,7 +327,7 @@ class _LearnScreenState extends State<LearnScreen>
     final word = words[currentIndex];
 
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F7FA),
+      backgroundColor: context.scaffoldBg,
       appBar: AppBar(
         backgroundColor: const Color(0xFF1F3C6D),
         foregroundColor: Colors.white,
@@ -534,13 +536,14 @@ class _LearnScreenState extends State<LearnScreen>
   void _updateProgress() {
     if (!widget.trackProgress) return;
     final stored = progressStore[widget.category] ?? 0;
-    // Only count progress if swiping sequentially — block jumps ahead
     if (currentIndex > stored + 1) return;
+    final isNew = currentIndex + 1 > stored;
     updateProgressIfHigher(
       widget.category,
       currentIndex + 1,
       total: words.length,
     );
+    if (isNew) incrementDailyWords();
   }
 
   Future<void> _showJumpDialog() async {

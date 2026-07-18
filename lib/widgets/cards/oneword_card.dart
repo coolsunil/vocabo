@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../models/word_model.dart';
+import '../../utils/app_colors.dart';
 
 class OneWordCard extends StatelessWidget {
   final Word word;
@@ -32,7 +33,7 @@ class OneWordCard extends StatelessWidget {
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(20, 14, 20, 20),
-      decoration: _decor(),
+      decoration: _decor(context),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
@@ -41,7 +42,7 @@ class OneWordCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 IconButton(
-                  icon: const Icon(Icons.share_rounded, color: Color(0xFF1F3C6D), size: 20),
+                  icon: Icon(Icons.share_rounded, color: context.textSecondary, size: 20),
                   padding: EdgeInsets.zero,
                   constraints: const BoxConstraints(),
                   onPressed: onShare,
@@ -50,7 +51,9 @@ class OneWordCard extends StatelessWidget {
                 IconButton(
                   icon: Icon(
                     isBookmarked ? Icons.bookmark_rounded : Icons.bookmark_border_rounded,
-                    color: const Color(0xFF1F3C6D),
+                    color: isBookmarked
+                        ? (context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D))
+                        : context.textSecondary,
                     size: 20,
                   ),
                   padding: EdgeInsets.zero,
@@ -60,7 +63,6 @@ class OneWordCard extends StatelessWidget {
               ],
             ),
           const SizedBox(height: 8),
-          // Phrase / Definition block
           _label('Phrase / Definition', _orange),
           const SizedBox(height: 8),
           Center(
@@ -74,21 +76,20 @@ class OneWordCard extends StatelessWidget {
               child: Text(
                 phrase,
                 textAlign: TextAlign.center,
-                style: const TextStyle(
+                style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.w600,
-                  color: Color(0xFF0F172A),
+                  color: context.textPrimary,
                   height: 1.45,
                 ),
               ),
             ),
           ),
-          // Connector
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 14),
             child: Row(
               children: [
-                const Expanded(child: Divider(color: Color(0xFFE2E8F0))),
+                Expanded(child: Divider(color: context.borderSubtle)),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 12),
                   child: Column(
@@ -107,11 +108,10 @@ class OneWordCard extends StatelessWidget {
                     ],
                   ),
                 ),
-                const Expanded(child: Divider(color: Color(0xFFE2E8F0))),
+                Expanded(child: Divider(color: context.borderSubtle)),
               ],
             ),
           ),
-          // The word
           Center(
             child: Container(
               padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 24),
@@ -122,76 +122,74 @@ class OneWordCard extends StatelessWidget {
               ),
               child: Text(
                 word.word,
-                style: const TextStyle(
+                style: TextStyle(
                   fontSize: 30,
                   fontWeight: FontWeight.w800,
-                  color: Color(0xFF0F172A),
+                  color: context.textPrimary,
                   letterSpacing: 0.5,
                 ),
               ),
             ),
           ),
           const SizedBox(height: 20),
-          // Hindi meaning
           if (word.meaningHi.isNotEmpty) ...[
-            _label('Hindi Meaning', const Color(0xFF4338CA)),
+            _label('Hindi Meaning', context.isDark ? const Color(0xFF818CF8) : const Color(0xFF4338CA)),
             const SizedBox(height: 8),
             Container(
               width: double.infinity,
               padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
               decoration: BoxDecoration(
-                color: const Color(0xFFEEF2FF),
+                color: const Color(0xFF4338CA).withValues(alpha: 0.10),
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Text(
                 word.meaningHi,
-                style: const TextStyle(
+                style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.w600,
-                  color: Color(0xFF3730A3),
+                  color: context.isDark ? const Color(0xFF818CF8) : const Color(0xFF3730A3),
                 ),
               ),
             ),
             const SizedBox(height: 14),
           ],
-          // English meaning (only if different from the phrase)
           if (hasEnglishMeaning) ...[
-            _label('English Meaning', const Color(0xFF0F766E)),
+            _label('English Meaning', context.isDark ? const Color(0xFF2DD4BF) : const Color(0xFF0F766E)),
             const SizedBox(height: 8),
             Text(
               word.meaningEn,
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 16,
-                color: Color(0xFF334155),
+                color: context.textSecondary,
                 height: 1.5,
               ),
             ),
           ],
           if (!shareMode) ...[
             const SizedBox(height: 20),
-            const Divider(height: 1, color: Color(0xFFE2E8F0)),
+            Divider(height: 1, color: context.borderSubtle),
             const SizedBox(height: 14),
             LinearProgressIndicator(
               value: total == 0 ? 0.0 : index / total,
               minHeight: 7,
               borderRadius: BorderRadius.circular(999),
-              backgroundColor: const Color(0xFFE2E8F0),
+              backgroundColor: context.borderSubtle,
               color: _green,
             ),
             const SizedBox(height: 8),
             Center(
               child: Text(
                 '$index/$total',
-                style: const TextStyle(
+                style: TextStyle(
                   fontSize: 13,
-                  color: Color(0xFF64748B),
+                  color: context.textSecondary,
                   fontWeight: FontWeight.w600,
                 ),
               ),
             ),
           ] else ...[
             const SizedBox(height: 16),
-            const Divider(color: Color(0xFFE2E8F0)),
+            Divider(color: context.borderSubtle),
             const SizedBox(height: 10),
             Row(
               children: [
@@ -231,8 +229,8 @@ class OneWordCard extends StatelessWidget {
     ),
   );
 
-  BoxDecoration _decor() => BoxDecoration(
-    color: Colors.white,
+  BoxDecoration _decor(BuildContext context) => BoxDecoration(
+    color: context.cardBg,
     borderRadius: BorderRadius.circular(20),
     boxShadow: [
       BoxShadow(

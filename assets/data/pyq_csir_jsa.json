@@ -1,0 +1,658 @@
+[
+  {
+    "passage": "",
+    "question": "Choose the word most similar in meaning to 'ELOQUENT'.",
+    "options": [
+      "Fluent",
+      "Timid",
+      "Rude",
+      "Silent"
+    ],
+    "correct_answer": "Fluent",
+    "exam": "CSIR JSA",
+    "year": "2023",
+    "topic": "Synonym",
+    "difficulty": "Easy",
+    "explanation": "'Eloquent' means fluent or persuasive in speaking or writing. 'Fluent' is the closest synonym."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most similar in meaning to 'TENACIOUS'.",
+    "options": [
+      "Persistent",
+      "Fragile",
+      "Lazy",
+      "Vague"
+    ],
+    "correct_answer": "Persistent",
+    "exam": "CSIR JSA",
+    "year": "2023",
+    "topic": "Synonym",
+    "difficulty": "Easy",
+    "explanation": "'Tenacious' means holding firmly to something; persistent. 'Persistent' is the best synonym."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most similar in meaning to 'IMPEDE'.",
+    "options": [
+      "Hinder",
+      "Assist",
+      "Accelerate",
+      "Encourage"
+    ],
+    "correct_answer": "Hinder",
+    "exam": "CSIR JSA",
+    "year": "2023",
+    "topic": "Synonym",
+    "difficulty": "Easy",
+    "explanation": "'Impede' means to delay or prevent progress. 'Hinder' carries the same meaning."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most similar in meaning to 'METICULOUS'.",
+    "options": [
+      "Careful",
+      "Careless",
+      "Hasty",
+      "Indifferent"
+    ],
+    "correct_answer": "Careful",
+    "exam": "CSIR JSA",
+    "year": "2023",
+    "topic": "Synonym",
+    "difficulty": "Easy",
+    "explanation": "'Meticulous' means showing great attention to detail; very careful. 'Careful' is the closest synonym."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most similar in meaning to 'CANDID'.",
+    "options": [
+      "Frank",
+      "Secretive",
+      "Deceptive",
+      "Reserved"
+    ],
+    "correct_answer": "Frank",
+    "exam": "CSIR JSA",
+    "year": "2023",
+    "topic": "Synonym",
+    "difficulty": "Easy",
+    "explanation": "'Candid' means truthful and straightforward. 'Frank' is the best synonym."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most OPPOSITE in meaning to 'FRUGAL'.",
+    "options": [
+      "Extravagant",
+      "Economical",
+      "Thrifty",
+      "Prudent"
+    ],
+    "correct_answer": "Extravagant",
+    "exam": "CSIR JSA",
+    "year": "2023",
+    "topic": "Antonym",
+    "difficulty": "Easy",
+    "explanation": "'Frugal' means spending little money; careful. Its antonym is 'Extravagant', meaning wastefully lavish."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most OPPOSITE in meaning to 'DILIGENT'.",
+    "options": [
+      "Lazy",
+      "Hardworking",
+      "Punctual",
+      "Sincere"
+    ],
+    "correct_answer": "Lazy",
+    "exam": "CSIR JSA",
+    "year": "2023",
+    "topic": "Antonym",
+    "difficulty": "Easy",
+    "explanation": "'Diligent' means careful and hard-working. The antonym is 'Lazy'."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most OPPOSITE in meaning to 'BENEVOLENT'.",
+    "options": [
+      "Malevolent",
+      "Generous",
+      "Kind",
+      "Charitable"
+    ],
+    "correct_answer": "Malevolent",
+    "exam": "CSIR JSA",
+    "year": "2023",
+    "topic": "Antonym",
+    "difficulty": "Easy",
+    "explanation": "'Benevolent' means well-meaning and kind. Its antonym is 'Malevolent', meaning having or showing a wish to do evil."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most OPPOSITE in meaning to 'RETICENT'.",
+    "options": [
+      "Communicative",
+      "Shy",
+      "Reserved",
+      "Quiet"
+    ],
+    "correct_answer": "Communicative",
+    "exam": "CSIR JSA",
+    "year": "2023",
+    "topic": "Antonym",
+    "difficulty": "Medium",
+    "explanation": "'Reticent' means not revealing one's thoughts or feelings readily; reserved. Its antonym is 'Communicative'."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most OPPOSITE in meaning to 'TURBULENT'.",
+    "options": [
+      "Calm",
+      "Stormy",
+      "Chaotic",
+      "Violent"
+    ],
+    "correct_answer": "Calm",
+    "exam": "CSIR JSA",
+    "year": "2023",
+    "topic": "Antonym",
+    "difficulty": "Easy",
+    "explanation": "'Turbulent' means characterized by conflict or confusion. Its antonym is 'Calm'."
+  },
+  {
+    "passage": "",
+    "question": "Select the correct meaning of the idiom: 'Burning the midnight oil'.",
+    "options": [
+      "Working late into the night",
+      "Wasting resources",
+      "Starting a fire",
+      "Being extravagant"
+    ],
+    "correct_answer": "Working late into the night",
+    "exam": "CSIR JSA",
+    "year": "2022",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Easy",
+    "explanation": "'Burning the midnight oil' means to work or study late into the night."
+  },
+  {
+    "passage": "",
+    "question": "Select the correct meaning of the idiom: 'A dime a dozen'.",
+    "options": [
+      "Very common and of little value",
+      "Very rare",
+      "Extremely expensive",
+      "Very useful"
+    ],
+    "correct_answer": "Very common and of little value",
+    "exam": "CSIR JSA",
+    "year": "2022",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Easy",
+    "explanation": "'A dime a dozen' means something very common that is easy to get and not very valuable."
+  },
+  {
+    "passage": "",
+    "question": "Select the correct meaning of the idiom: 'Hit the nail on the head'.",
+    "options": [
+      "To be exactly right",
+      "To cause harm",
+      "To miss the point",
+      "To fix something"
+    ],
+    "correct_answer": "To be exactly right",
+    "exam": "CSIR JSA",
+    "year": "2022",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Easy",
+    "explanation": "'Hit the nail on the head' means to describe exactly what is causing a situation or problem."
+  },
+  {
+    "passage": "",
+    "question": "Select the correct meaning of the idiom: 'Sitting on the fence'.",
+    "options": [
+      "Avoiding taking sides",
+      "Being alert",
+      "Taking a firm stand",
+      "Being careless"
+    ],
+    "correct_answer": "Avoiding taking sides",
+    "exam": "CSIR JSA",
+    "year": "2022",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Easy",
+    "explanation": "'Sitting on the fence' means avoiding commitment or not taking sides in a dispute."
+  },
+  {
+    "passage": "",
+    "question": "Select the correct meaning of the idiom: 'Beat around the bush'.",
+    "options": [
+      "Avoid the main topic",
+      "Attack someone",
+      "Work very hard",
+      "Search carefully"
+    ],
+    "correct_answer": "Avoid the main topic",
+    "exam": "CSIR JSA",
+    "year": "2022",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Easy",
+    "explanation": "'Beat around the bush' means to avoid coming to the main point, talking about something in a roundabout way."
+  },
+  {
+    "passage": "",
+    "question": "Choose the one-word substitute for: 'A person who is unable to pay his debts'.",
+    "options": [
+      "Insolvent",
+      "Solvent",
+      "Creditor",
+      "Miser"
+    ],
+    "correct_answer": "Insolvent",
+    "exam": "CSIR JSA",
+    "year": "2023",
+    "topic": "One Word Substitution",
+    "difficulty": "Easy",
+    "explanation": "'Insolvent' refers to a person or organization who cannot repay their debts."
+  },
+  {
+    "passage": "",
+    "question": "Choose the one-word substitute for: 'One who knows everything'.",
+    "options": [
+      "Omniscient",
+      "Omnipotent",
+      "Omnivore",
+      "Omnipresent"
+    ],
+    "correct_answer": "Omniscient",
+    "exam": "CSIR JSA",
+    "year": "2023",
+    "topic": "One Word Substitution",
+    "difficulty": "Easy",
+    "explanation": "'Omniscient' means knowing everything. 'Omnipotent' = all-powerful; 'Omnipresent' = present everywhere."
+  },
+  {
+    "passage": "",
+    "question": "Choose the one-word substitute for: 'Words written on a tomb'.",
+    "options": [
+      "Epitaph",
+      "Epilogue",
+      "Epigram",
+      "Epigraph"
+    ],
+    "correct_answer": "Epitaph",
+    "exam": "CSIR JSA",
+    "year": "2023",
+    "topic": "One Word Substitution",
+    "difficulty": "Medium",
+    "explanation": "'Epitaph' is an inscription on a tomb or a short text in memory of a deceased person."
+  },
+  {
+    "passage": "",
+    "question": "Choose the one-word substitute for: 'A place where bees are kept'.",
+    "options": [
+      "Apiary",
+      "Aviary",
+      "Sanctuary",
+      "Den"
+    ],
+    "correct_answer": "Apiary",
+    "exam": "CSIR JSA",
+    "year": "2022",
+    "topic": "One Word Substitution",
+    "difficulty": "Easy",
+    "explanation": "'Apiary' is a place where bees are kept. 'Aviary' is an enclosure for birds."
+  },
+  {
+    "passage": "",
+    "question": "Choose the one-word substitute for: 'The art of speaking to a large audience'.",
+    "options": [
+      "Oratory",
+      "Mimicry",
+      "Calligraphy",
+      "Pantomime"
+    ],
+    "correct_answer": "Oratory",
+    "exam": "CSIR JSA",
+    "year": "2022",
+    "topic": "One Word Substitution",
+    "difficulty": "Easy",
+    "explanation": "'Oratory' is the art or practice of formal speaking in public."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blank: She was _______ by the complexity of the problem.\n'The minister _______ at the new policy.'",
+    "options": [
+      "baffled",
+      "pleased",
+      "amused",
+      "bored"
+    ],
+    "correct_answer": "baffled",
+    "exam": "CSIR JSA",
+    "year": "2023",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Easy",
+    "explanation": "'Baffled' means totally puzzled, which fits the context of being confused by a complex problem."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blank: The scientist's discovery was _______ for the medical community.\n(Choose the most appropriate word)",
+    "options": [
+      "groundbreaking",
+      "trivial",
+      "irrelevant",
+      "detrimental"
+    ],
+    "correct_answer": "groundbreaking",
+    "exam": "CSIR JSA",
+    "year": "2023",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Easy",
+    "explanation": "'Groundbreaking' means innovative and pioneering, which fits the context of an important scientific discovery."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blank: Despite all odds, she remained _______ in her efforts to succeed.",
+    "options": [
+      "undaunted",
+      "discouraged",
+      "indifferent",
+      "pessimistic"
+    ],
+    "correct_answer": "undaunted",
+    "exam": "CSIR JSA",
+    "year": "2022",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Easy",
+    "explanation": "'Undaunted' means not intimidated or discouraged by difficulty. It fits the context of persisting despite obstacles."
+  },
+  {
+    "passage": "",
+    "question": "Identify the part of the sentence that has an error:\n'Neither of the two candidates (A) / were found (B) / suitable for the post. (C) / No error (D)'",
+    "options": [
+      "Neither of the two candidates",
+      "were found",
+      "suitable for the post",
+      "No error"
+    ],
+    "correct_answer": "were found",
+    "exam": "CSIR JSA",
+    "year": "2023",
+    "topic": "Error Spotting",
+    "difficulty": "Medium",
+    "explanation": "'Neither' takes a singular verb. The correct form is 'was found' not 'were found'."
+  },
+  {
+    "passage": "",
+    "question": "Identify the part of the sentence that has an error:\n'He is one of those persons (A) / who always creates (B) / problems for others. (C) / No error (D)'",
+    "options": [
+      "He is one of those persons",
+      "who always creates",
+      "problems for others",
+      "No error"
+    ],
+    "correct_answer": "who always creates",
+    "exam": "CSIR JSA",
+    "year": "2023",
+    "topic": "Error Spotting",
+    "difficulty": "Medium",
+    "explanation": "The relative pronoun 'who' refers to 'those persons' (plural), so the verb should be 'create' not 'creates'."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most similar in meaning to 'AMELIORATE'.",
+    "options": [
+      "Improve",
+      "Worsen",
+      "Neglect",
+      "Ignore"
+    ],
+    "correct_answer": "Improve",
+    "exam": "CSIR JSA",
+    "year": "2022",
+    "topic": "Synonym",
+    "difficulty": "Medium",
+    "explanation": "'Ameliorate' means to make something bad or unsatisfactory better. 'Improve' is the correct synonym."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most similar in meaning to 'INDIGENOUS'.",
+    "options": [
+      "Native",
+      "Foreign",
+      "Imported",
+      "Exotic"
+    ],
+    "correct_answer": "Native",
+    "exam": "CSIR JSA",
+    "year": "2022",
+    "topic": "Synonym",
+    "difficulty": "Easy",
+    "explanation": "'Indigenous' means originating or occurring naturally in a particular place. 'Native' is the best synonym."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most similar in meaning to 'LUCID'.",
+    "options": [
+      "Clear",
+      "Obscure",
+      "Ambiguous",
+      "Vague"
+    ],
+    "correct_answer": "Clear",
+    "exam": "CSIR JSA",
+    "year": "2022",
+    "topic": "Synonym",
+    "difficulty": "Easy",
+    "explanation": "'Lucid' means expressed clearly and easy to understand. 'Clear' is the correct synonym."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most OPPOSITE in meaning to 'EPHEMERAL'.",
+    "options": [
+      "Permanent",
+      "Transient",
+      "Fleeting",
+      "Brief"
+    ],
+    "correct_answer": "Permanent",
+    "exam": "CSIR JSA",
+    "year": "2022",
+    "topic": "Antonym",
+    "difficulty": "Medium",
+    "explanation": "'Ephemeral' means lasting for a very short time. Its antonym is 'Permanent', meaning lasting or intended to last indefinitely."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most OPPOSITE in meaning to 'VERBOSE'.",
+    "options": [
+      "Concise",
+      "Wordy",
+      "Long-winded",
+      "Talkative"
+    ],
+    "correct_answer": "Concise",
+    "exam": "CSIR JSA",
+    "year": "2022",
+    "topic": "Antonym",
+    "difficulty": "Medium",
+    "explanation": "'Verbose' means using more words than needed. Its antonym is 'Concise', meaning brief and to the point."
+  },
+  {
+    "passage": "",
+    "question": "Select the correct meaning of the idiom: 'Spill the beans'.",
+    "options": [
+      "Reveal a secret",
+      "Make a mess",
+      "Waste food",
+      "Create confusion"
+    ],
+    "correct_answer": "Reveal a secret",
+    "exam": "CSIR JSA",
+    "year": "2021",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Easy",
+    "explanation": "'Spill the beans' means to disclose secret or private information."
+  },
+  {
+    "passage": "",
+    "question": "Select the correct meaning of the idiom: 'Pull someone's leg'.",
+    "options": [
+      "To joke or tease",
+      "To physically harm",
+      "To help someone",
+      "To criticise harshly"
+    ],
+    "correct_answer": "To joke or tease",
+    "exam": "CSIR JSA",
+    "year": "2021",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Easy",
+    "explanation": "'Pull someone's leg' means to tease or joke with someone, often by telling them something untrue."
+  },
+  {
+    "passage": "",
+    "question": "Choose the one-word substitute for: 'A government run by the people'.",
+    "options": [
+      "Democracy",
+      "Monarchy",
+      "Autocracy",
+      "Oligarchy"
+    ],
+    "correct_answer": "Democracy",
+    "exam": "CSIR JSA",
+    "year": "2021",
+    "topic": "One Word Substitution",
+    "difficulty": "Easy",
+    "explanation": "'Democracy' is a system of government by the whole population, typically through elected representatives."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most similar in meaning to 'ROBUST'.",
+    "options": [
+      "Strong",
+      "Weak",
+      "Frail",
+      "Delicate"
+    ],
+    "correct_answer": "Strong",
+    "exam": "CSIR JSA",
+    "year": "2021",
+    "topic": "Synonym",
+    "difficulty": "Easy",
+    "explanation": "'Robust' means strong and healthy; vigorous. 'Strong' is the closest synonym."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most OPPOSITE in meaning to 'AUDACIOUS'.",
+    "options": [
+      "Timid",
+      "Bold",
+      "Daring",
+      "Fearless"
+    ],
+    "correct_answer": "Timid",
+    "exam": "CSIR JSA",
+    "year": "2021",
+    "topic": "Antonym",
+    "difficulty": "Easy",
+    "explanation": "'Audacious' means showing a willingness to take surprisingly bold risks. Its antonym is 'Timid', meaning lacking in courage."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blank: The new regulation was _______ by the board after a long discussion.",
+    "options": [
+      "ratified",
+      "rejected",
+      "ignored",
+      "questioned"
+    ],
+    "correct_answer": "ratified",
+    "exam": "CSIR JSA",
+    "year": "2021",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Medium",
+    "explanation": "'Ratified' means to give formal consent to (a treaty, contract, or agreement), making it officially valid. The context of a board approving something after discussion fits 'ratified'."
+  },
+  {
+    "passage": "",
+    "question": "Choose the one-word substitute for: 'Fear of water'.",
+    "options": [
+      "Hydrophobia",
+      "Claustrophobia",
+      "Acrophobia",
+      "Xenophobia"
+    ],
+    "correct_answer": "Hydrophobia",
+    "exam": "CSIR JSA",
+    "year": "2021",
+    "topic": "One Word Substitution",
+    "difficulty": "Easy",
+    "explanation": "'Hydrophobia' is an extreme or irrational fear of water. It is also associated with rabies."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most similar in meaning to 'FICKLE'.",
+    "options": [
+      "Changeable",
+      "Steady",
+      "Reliable",
+      "Consistent"
+    ],
+    "correct_answer": "Changeable",
+    "exam": "CSIR JSA",
+    "year": "2021",
+    "topic": "Synonym",
+    "difficulty": "Easy",
+    "explanation": "'Fickle' means changing frequently, especially with regard to loyalties. 'Changeable' is the correct synonym."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most similar in meaning to 'PERIL'.",
+    "options": [
+      "Danger",
+      "Safety",
+      "Security",
+      "Protection"
+    ],
+    "correct_answer": "Danger",
+    "exam": "CSIR JSA",
+    "year": "2021",
+    "topic": "Synonym",
+    "difficulty": "Easy",
+    "explanation": "'Peril' means serious and immediate danger. 'Danger' is the correct synonym."
+  },
+  {
+    "passage": "",
+    "question": "Identify the part of the sentence that has an error:\n'The committee have (A) / decided to postpone (B) / the meeting indefinitely. (C) / No error (D)'",
+    "options": [
+      "The committee have",
+      "decided to postpone",
+      "the meeting indefinitely",
+      "No error"
+    ],
+    "correct_answer": "No error",
+    "exam": "CSIR JSA",
+    "year": "2021",
+    "topic": "Error Spotting",
+    "difficulty": "Hard",
+    "explanation": "In British English, collective nouns like 'committee' can take either singular or plural verbs depending on whether the group is acting collectively or as individuals. 'The committee have decided' is acceptable in British English usage."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word most OPPOSITE in meaning to 'CONSPICUOUS'.",
+    "options": [
+      "Inconspicuous",
+      "Prominent",
+      "Obvious",
+      "Visible"
+    ],
+    "correct_answer": "Inconspicuous",
+    "exam": "CSIR JSA",
+    "year": "2021",
+    "topic": "Antonym",
+    "difficulty": "Medium",
+    "explanation": "'Conspicuous' means clearly visible; attracting notice. Its antonym is 'Inconspicuous', meaning not clearly visible or attracting attention."
+  }
+]

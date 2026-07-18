@@ -5,6 +5,7 @@ import '../data/bookmark_store.dart';
 import '../data/category_sources.dart';
 import '../data/premium_store.dart';
 import '../models/word_model.dart';
+import '../utils/app_colors.dart';
 import 'learn_screen.dart';
 
 class ReviseScreen extends StatefulWidget {
@@ -73,7 +74,7 @@ class _ReviseScreenState extends State<ReviseScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F7FA),
+      backgroundColor: context.scaffoldBg,
       appBar: AppBar(
         backgroundColor: const Color(0xFF1F3C6D),
         foregroundColor: Colors.white,
@@ -88,9 +89,9 @@ class _ReviseScreenState extends State<ReviseScreen> {
                 child: Container(
                   padding: const EdgeInsets.all(24),
                   decoration: BoxDecoration(
-                    color: Colors.white,
+                    color: context.cardBg,
                     borderRadius: BorderRadius.circular(20),
-                    border: Border.all(color: const Color(0xFFE2E8F0)),
+                    border: Border.all(color: context.borderSubtle),
                     boxShadow: [
                       BoxShadow(
                         color: Colors.black.withValues(alpha: 0.04),
@@ -116,20 +117,20 @@ class _ReviseScreenState extends State<ReviseScreen> {
                         ),
                       ),
                       const SizedBox(height: 16),
-                      const Text(
+                      Text(
                         'No bookmarks yet',
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w700,
-                          color: Color(0xFF0F172A),
+                          color: context.textPrimary,
                         ),
                       ),
                       const SizedBox(height: 8),
-                      const Text(
+                      Text(
                         'Bookmark words while learning and they will appear here for quick revision.',
                         textAlign: TextAlign.center,
                         style: TextStyle(
-                          color: Color(0xFF64748B),
+                          color: context.textSecondary,
                           height: 1.45,
                         ),
                       ),
@@ -220,7 +221,7 @@ class _ReviseScreenState extends State<ReviseScreen> {
                     margin: const EdgeInsets.only(bottom: 12),
                     padding: const EdgeInsets.all(14),
                     decoration: BoxDecoration(
-                      color: Colors.white,
+                      color: context.cardBg,
                       borderRadius: BorderRadius.circular(14),
                       boxShadow: [
                         BoxShadow(
@@ -238,17 +239,17 @@ class _ReviseScreenState extends State<ReviseScreen> {
                             Expanded(
                               child: Text(
                                 word.word,
-                                style: const TextStyle(
+                                style: TextStyle(
                                   fontSize: 22,
                                   fontWeight: FontWeight.bold,
-                                  color: Color(0xFF0F172A),
+                                  color: context.textPrimary,
                                 ),
                               ),
                             ),
                             IconButton(
-                              icon: const Icon(
+                              icon: Icon(
                                 Icons.bookmark_remove_rounded,
-                                color: Color(0xFF1F3C6D),
+                                color: context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D),
                               ),
                               onPressed: () => _removeBookmark(index),
                             ),
@@ -259,7 +260,9 @@ class _ReviseScreenState extends State<ReviseScreen> {
                           Container(
                             padding: const EdgeInsets.all(10),
                             decoration: BoxDecoration(
-                              color: const Color(0xFF1F3C6D).withValues(alpha: 0.06),
+                              color: context.isDark
+                                ? const Color(0xFF1F3C6D).withValues(alpha: 0.45)
+                                : const Color(0xFF1F3C6D).withValues(alpha: 0.06),
                               borderRadius: BorderRadius.circular(10),
                             ),
                             child: Text(
@@ -274,9 +277,9 @@ class _ReviseScreenState extends State<ReviseScreen> {
                         ],
                         Text(
                           word.meaningEn,
-                          style: const TextStyle(
+                          style: TextStyle(
                             fontSize: 16,
-                            color: Color(0xFF334155),
+                            color: context.textSecondary,
                           ),
                         ),
                       ],

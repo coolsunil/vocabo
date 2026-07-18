@@ -10,7 +10,7 @@
     "correct_answer": "SQRP",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Para Jumbles (Sentence Completion)",
+    "topic": "Para Jumbles",
     "difficulty": "Moderate",
     "explanation": "Correct order: S-Q-R-P — 'its members exercised vast power and often participated in the making of policy, and developed a certain tradition of independence, integrity, and hard work.'"
   },
@@ -25,7 +25,7 @@
     "correct_answer": "PRQS",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Para Jumbles (Sentence Completion)",
+    "topic": "Para Jumbles",
     "difficulty": "Moderate",
     "explanation": "Correct order: P-R-Q-S — 'help in decomposing the dead bodies of plants and animals and hence help to clean the environment and put back various useful elements [into the soil, air, and water].'"
   },
@@ -40,7 +40,7 @@
     "correct_answer": "SPQR",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Para Jumbles (Sentence Completion)",
+    "topic": "Para Jumbles",
     "difficulty": "Moderate",
     "explanation": "Correct order: S-P-Q-R — 'be cut with one of the home bottle-cutters which are available in many large stores, but any fine [glass requires personal attention].'"
   },
@@ -130,7 +130,7 @@
     "correct_answer": "bring about",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Phrasal Verbs / Fill in the Blanks",
+    "topic": "Phrasal Verbs",
     "difficulty": "Moderate",
     "explanation": "'Bring about' means to cause something to happen, fitting 'bring about behavioral changes'."
   },
@@ -145,7 +145,7 @@
     "correct_answer": "Small",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Vocabulary (Antonyms)",
+    "topic": "Antonym",
     "difficulty": "Easy",
     "explanation": "'Colossal' means extremely large; 'Small' is the direct antonym."
   },
@@ -160,7 +160,7 @@
     "correct_answer": "Acquired",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Vocabulary (Antonyms)",
+    "topic": "Antonym",
     "difficulty": "Moderate",
     "explanation": "'Intrinsic' means inherent/natural; 'Acquired' (gained externally) is its antonym."
   },
@@ -175,7 +175,7 @@
     "correct_answer": "Supporter",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Vocabulary (Synonyms)",
+    "topic": "Synonym",
     "difficulty": "Easy",
     "explanation": "A 'proponent' is someone who advocates for something — a supporter."
   },
@@ -190,7 +190,7 @@
     "correct_answer": "To scold",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Idioms and Phrases",
+    "topic": "Idioms & Phrases",
     "difficulty": "Moderate",
     "explanation": "'To haul someone over the coals' means to reprimand or scold them severely."
   },
@@ -205,7 +205,7 @@
     "correct_answer": "Providence",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Vocabulary (One-word Substitution)",
+    "topic": "One Word Substitution",
     "difficulty": "Moderate",
     "explanation": "'Providence' refers to divine guidance/protective care believed to govern human affairs."
   },
@@ -220,7 +220,7 @@
     "correct_answer": "To seize an opportunity",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Idioms and Phrases",
+    "topic": "Idioms & Phrases",
     "difficulty": "Moderate",
     "explanation": "This idiom means to act promptly and seize an opportunity while it is available."
   },
@@ -250,7 +250,7 @@
     "correct_answer": "The sweat of one's brows",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Idioms and Phrases",
+    "topic": "Idioms & Phrases",
     "difficulty": "Moderate",
     "explanation": "'By the sweat of one's brow' means through one's own hard, honest labor."
   },
@@ -280,7 +280,7 @@
     "correct_answer": "Uncertain",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Vocabulary (Synonyms)",
+    "topic": "Synonym",
     "difficulty": "Easy",
     "explanation": "'Precarious' means unstable or uncertain, dependent on chance."
   },
@@ -295,7 +295,7 @@
     "correct_answer": "Subdue",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Vocabulary (Antonyms)",
+    "topic": "Antonym",
     "difficulty": "Difficult",
     "explanation": "'Engender' means to give rise to/cause something. 'Cause' is a synonym, not an antonym. Among the remaining options, 'Subdue' (to suppress/quell) is the closest antonym, representing the opposite action of bringing something into being."
   },
@@ -310,7 +310,7 @@
     "correct_answer": "Defeat",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Vocabulary (Synonyms)",
+    "topic": "Synonym",
     "difficulty": "Easy",
     "explanation": "'Rout' means a decisive, overwhelming defeat."
   },
@@ -325,7 +325,7 @@
     "correct_answer": "Cautious : Hasty",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Verbal Analogy",
+    "topic": "Vocabulary",
     "difficulty": "Moderate",
     "explanation": "'Shame' and 'Honor' are antonyms. 'Cautious' and 'Hasty' form the same antonym relationship; the other pairs are synonym pairs or unrelated."
   },
@@ -340,7 +340,7 @@
     "correct_answer": "Example : Epitome",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Verbal Analogy",
+    "topic": "Vocabulary",
     "difficulty": "Moderate",
     "explanation": "'Exterminate' and 'Eradicate' are near-synonyms (both mean to destroy completely). 'Example' and 'Epitome' form a similar synonym-type relationship (an epitome is a perfect example); the other pairs are antonyms."
   },
@@ -355,7 +355,7 @@
     "correct_answer": "A",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "This is a hypothetical/subjunctive conditional, requiring 'If I were the principal', not 'If I am'."
   },
@@ -370,7 +370,7 @@
     "correct_answer": "C",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Easy",
     "explanation": "'Interested to joining' is incorrect; the correct collocation is 'interested in joining'."
   },
@@ -385,7 +385,7 @@
     "correct_answer": "C",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Easy",
     "explanation": "'Reports that was reviewed' has a subject-verb disagreement; plural 'reports' requires 'were reviewed'."
   },
@@ -400,7 +400,7 @@
     "correct_answer": "Rhetoric",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Reading Comprehension (Vocabulary in Context)",
+    "topic": "Reading Comprehension",
     "difficulty": "Easy",
     "explanation": "'Rhetoric' is explicitly the term used in the passage and directly matches this definition."
   },
@@ -445,7 +445,7 @@
     "correct_answer": "The relationship between dolphins and people becomes communicative with the help of effective persuasion of trust and sympathy.",
     "exam": "AFCAT",
     "year": "2022",
-    "topic": "Reading Comprehension (Inference)",
+    "topic": "Reading Comprehension",
     "difficulty": "Difficult",
     "explanation": "The passage frames the connection positively (friendship, kinship, communion), consistent with trust and sympathy — not antipathy, hostility, or non-communication as in the other options."
   },
@@ -460,7 +460,7 @@
     "correct_answer": "Articulate",
     "exam": "AFCAT",
     "year": "2023",
-    "topic": "Vocabulary (Synonyms)",
+    "topic": "Synonym",
     "difficulty": "Easy",
     "explanation": "'Eloquent' means fluent and persuasive in speech; 'Articulate' is the closest synonym."
   },
@@ -475,7 +475,7 @@
     "correct_answer": "Puzzle",
     "exam": "AFCAT",
     "year": "2023",
-    "topic": "Vocabulary (Synonyms)",
+    "topic": "Synonym",
     "difficulty": "Easy",
     "explanation": "'Enigma' means something mysterious or puzzling; 'Puzzle' is the direct synonym."
   },
@@ -490,7 +490,7 @@
     "correct_answer": "Deceptive",
     "exam": "AFCAT",
     "year": "2023",
-    "topic": "Vocabulary (Antonyms)",
+    "topic": "Antonym",
     "difficulty": "Easy",
     "explanation": "'Candid' means honest and straightforward; 'Deceptive' is its antonym."
   },
@@ -505,7 +505,7 @@
     "correct_answer": "Famished",
     "exam": "AFCAT",
     "year": "2023",
-    "topic": "Vocabulary (Synonyms)",
+    "topic": "Synonym",
     "difficulty": "Moderate",
     "explanation": "'Ravenous' means extremely hungry; 'Famished' most closely matches this intensity (versus the milder 'Hungry')."
   },
@@ -520,7 +520,7 @@
     "correct_answer": "Harangue",
     "exam": "AFCAT",
     "year": "2023",
-    "topic": "One-word Substitution",
+    "topic": "One Word Substitution",
     "difficulty": "Moderate",
     "explanation": "A 'harangue' specifically denotes a long, forceful, and tedious speech, unlike the more neutral 'monologue' or 'oratory'."
   },
@@ -535,7 +535,7 @@
     "correct_answer": "Indolent",
     "exam": "AFCAT",
     "year": "2023",
-    "topic": "One-word Substitution",
+    "topic": "One Word Substitution",
     "difficulty": "Moderate",
     "explanation": "'Indolent' precisely describes a person habitually avoiding work or effort due to laziness."
   },
@@ -550,7 +550,7 @@
     "correct_answer": "An unpleasant fact that must be accepted",
     "exam": "AFCAT",
     "year": "2023",
-    "topic": "Idioms and Phrases",
+    "topic": "Idioms & Phrases",
     "difficulty": "Easy",
     "explanation": "This idiom refers to accepting something unpleasant that cannot be avoided."
   },
@@ -565,7 +565,7 @@
     "correct_answer": "A minor part of a much larger problem",
     "exam": "AFCAT",
     "year": "2023",
-    "topic": "Idioms and Phrases",
+    "topic": "Idioms & Phrases",
     "difficulty": "Easy",
     "explanation": "'A drop in the ocean' means an amount too small to make a significant difference to a much larger situation."
   },
@@ -580,7 +580,7 @@
     "correct_answer": "the most shortest",
     "exam": "AFCAT",
     "year": "2023",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Easy",
     "explanation": "'Most shortest' is a double superlative error; it should simply be 'the shortest'."
   },
@@ -595,7 +595,7 @@
     "correct_answer": "little money",
     "exam": "AFCAT",
     "year": "2023",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "For a comparison ('than'), the correct form is 'less money', not 'little money'."
   },
@@ -610,7 +610,7 @@
     "correct_answer": "C",
     "exam": "AFCAT",
     "year": "2023",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "The country name requires the definite article: 'high in the United States', making segment C incorrect as written."
   },
@@ -625,7 +625,7 @@
     "correct_answer": "The manager was referring about",
     "exam": "AFCAT",
     "year": "2023",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "'Referring about' is incorrect; the correct preposition is 'referring to'."
   },
@@ -655,7 +655,7 @@
     "correct_answer": "QSPR",
     "exam": "AFCAT",
     "year": "2023",
-    "topic": "Para Jumbles (Sentence Completion)",
+    "topic": "Para Jumbles",
     "difficulty": "Moderate",
     "explanation": "Correct order: Q-S-P-R — 'Chetana Charitable Trust understood that children were not getting proper guidance over the next ten years and were not acquiring [any out-of-the-box skills].'"
   },
@@ -670,7 +670,7 @@
     "correct_answer": "SRQP",
     "exam": "AFCAT",
     "year": "2023",
-    "topic": "Para Jumbles (Sentence Completion)",
+    "topic": "Para Jumbles",
     "difficulty": "Moderate",
     "explanation": "Correct order: S-R-Q-P — 'means hatred for other countries, but this type of patriotism is an evil and it should be condemned because today man belongs to the whole world [as much as to any one country].'"
   },
@@ -685,7 +685,7 @@
     "correct_answer": "will they",
     "exam": "AFCAT",
     "year": "2023",
-    "topic": "Question Tags",
+    "topic": "Grammar",
     "difficulty": "Easy",
     "explanation": "A negative statement ('will not go') takes a positive tag: 'will they?'"
   },
@@ -700,7 +700,7 @@
     "correct_answer": "Despite",
     "exam": "AFCAT",
     "year": "2023",
-    "topic": "Fill in the Blanks (Prepositions/Connectors)",
+    "topic": "Fill in the Blanks",
     "difficulty": "Easy",
     "explanation": "'Despite' correctly precedes a noun phrase ('his parent's disapproval') to show contrast."
   },
@@ -730,7 +730,7 @@
     "correct_answer": "can",
     "exam": "AFCAT",
     "year": "2023",
-    "topic": "Modals / Fill in the Blanks",
+    "topic": "Fill in the Blanks",
     "difficulty": "Easy",
     "explanation": "'Can' expresses permission/offer, fitting the context of offering one's phone."
   },
@@ -910,7 +910,7 @@
     "correct_answer": "b",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "'Neither of the men' is a singular subject and requires the singular verb 'is', not 'are'."
   },
@@ -925,7 +925,7 @@
     "correct_answer": "b",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "'Await' is already transitive and does not take the preposition 'for'; it should be 'awaiting the results'."
   },
@@ -940,7 +940,7 @@
     "correct_answer": "a",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Easy",
     "explanation": "'Children' is already the plural of 'child'; 'Childrens' is grammatically incorrect."
   },
@@ -955,7 +955,7 @@
     "correct_answer": "b",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "'Scissors' is a plural-only noun and does not take the article 'a'; it should be simply 'bought scissors' or 'a pair of scissors'."
   },
@@ -985,7 +985,7 @@
     "correct_answer": "if",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Fill in the Blanks (Conjunctions)",
+    "topic": "Fill in the Blanks",
     "difficulty": "Easy",
     "explanation": "'If' correctly introduces the necessary condition for attending the concert."
   },
@@ -1000,7 +1000,7 @@
     "correct_answer": "have always wondered",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Fill in the Blanks (Grammar/Tense)",
+    "topic": "Fill in the Blanks",
     "difficulty": "Easy",
     "explanation": "Correct present perfect construction: 'have always wondered'."
   },
@@ -1030,7 +1030,7 @@
     "correct_answer": "Quandary",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Vocabulary (Synonyms)",
+    "topic": "Synonym",
     "difficulty": "Easy",
     "explanation": "'Dilemma' means a difficult choice between options; 'Quandary' is the closest synonym."
   },
@@ -1045,7 +1045,7 @@
     "correct_answer": "Roar",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Vocabulary (Synonyms)",
+    "topic": "Synonym",
     "difficulty": "Easy",
     "explanation": "'Blare' means a loud, harsh sound; 'Roar' is the closest match among the options."
   },
@@ -1060,7 +1060,7 @@
     "correct_answer": "Dilapidated",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Vocabulary (Synonyms)",
+    "topic": "Synonym",
     "difficulty": "Easy",
     "explanation": "'Decrepit' means worn out or ruined through age/neglect; 'Dilapidated' is the direct synonym."
   },
@@ -1075,7 +1075,7 @@
     "correct_answer": "Oppression",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Vocabulary (Synonyms)",
+    "topic": "Synonym",
     "difficulty": "Easy",
     "explanation": "'Tyranny' means cruel, oppressive rule; 'Oppression' is the closest synonym."
   },
@@ -1090,7 +1090,7 @@
     "correct_answer": "Authorize",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Vocabulary (Synonyms)",
+    "topic": "Synonym",
     "difficulty": "Difficult",
     "explanation": "Judgment call / likely source inconsistency: none of the four options is a true synonym of 'Entice' (to tempt/lure). Option (a) 'Authorize' is selected on the possibility that the source text intended 'Allure' (a genuine synonym of Entice) and this was altered/misprinted as 'Authorize'; this answer should be treated with caution given the apparent data issue."
   },
@@ -1105,7 +1105,7 @@
     "correct_answer": "Conflict",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Vocabulary (Synonyms)",
+    "topic": "Synonym",
     "difficulty": "Moderate",
     "explanation": "'Scuffle' denotes a brief, disorganized struggle; 'Conflict' is the broadest and closest general term among the options (Battle/Combat imply larger, organized fighting, and Truce is an antonym)."
   },
@@ -1165,7 +1165,7 @@
     "correct_answer": "RPSQ",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Para Jumbles (Sentence Completion)",
+    "topic": "Para Jumbles",
     "difficulty": "Moderate",
     "explanation": "Correct order: R-P-S-Q — 'reactors are expected to use low-enriched uranium in facilities assembled on-site with factory-made parts, to produce waste that can be handled using existing technologies and power that can be sold [at economical rates].'"
   },
@@ -1180,7 +1180,7 @@
     "correct_answer": "PSRQ",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Para Jumbles (Sentence Completion)",
+    "topic": "Para Jumbles",
     "difficulty": "Moderate",
     "explanation": "Correct order: P-S-R-Q — 'the Byzantine Empire staged an almost unparalleled economic and cultural revival, a recovery that is all the more striking because it followed a long period of [severe internal decline].'"
   },
@@ -1195,7 +1195,7 @@
     "correct_answer": "QRPS",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Para Jumbles (Sentence Completion)",
+    "topic": "Para Jumbles",
     "difficulty": "Difficult",
     "explanation": "Correct order: Q-R-P-S — 'over ten percent of the Black population of the United States left the South, where the preponderance of the Black population had been located, and migrated to northern states, with the largest number moving, [it is claimed, between 1916 and 1918].'"
   },
@@ -1255,7 +1255,7 @@
     "correct_answer": "To go out and enjoy yourself",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Idioms and Phrases",
+    "topic": "Idioms & Phrases",
     "difficulty": "Easy",
     "explanation": "'Paint the town red' means to go out and celebrate/enjoy oneself extensively."
   },
@@ -1270,7 +1270,7 @@
     "correct_answer": "To be kept waiting",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Idioms and Phrases",
+    "topic": "Idioms & Phrases",
     "difficulty": "Easy",
     "explanation": "'Cool one's heels' means to be made to wait, often needlessly."
   },
@@ -1285,7 +1285,7 @@
     "correct_answer": "cut us some slack.",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Idioms / Fill in the Blanks",
+    "topic": "Idioms & Phrases",
     "difficulty": "Moderate",
     "explanation": "'Cut us some slack' means to be lenient, fitting the relaxed context of the last day of class."
   },
@@ -1300,7 +1300,7 @@
     "correct_answer": "Pages",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Verbal Analogy",
+    "topic": "Vocabulary",
     "difficulty": "Easy",
     "explanation": "A window is composed of panes (constituent parts), just as a book is composed of pages."
   },
@@ -1315,7 +1315,7 @@
     "correct_answer": "Noxious : Poisonous",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "Verbal Analogy",
+    "topic": "Vocabulary",
     "difficulty": "Moderate",
     "explanation": "'Pernicious' and 'Malignant' are synonyms (both meaning harmful/destructive). 'Noxious' and 'Poisonous' form the same synonym relationship; the other pairs are antonyms."
   },
@@ -1330,7 +1330,7 @@
     "correct_answer": "Gerascophobia",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "One-word Substitution",
+    "topic": "One Word Substitution",
     "difficulty": "Moderate",
     "explanation": "'Gerascophobia' specifically denotes the fear of growing old/aging."
   },
@@ -1345,7 +1345,7 @@
     "correct_answer": "Altruist",
     "exam": "AFCAT",
     "year": "2024",
-    "topic": "One-word Substitution",
+    "topic": "One Word Substitution",
     "difficulty": "Moderate",
     "explanation": "An 'Altruist' is someone unselfishly devoted to the welfare of others, closest to 'a lover of mankind' among the given options."
   },
@@ -1360,7 +1360,7 @@
     "correct_answer": "Ambivert",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "One-word Substitution",
+    "topic": "One Word Substitution",
     "difficulty": "Easy",
     "explanation": "An 'Ambivert' is someone exhibiting both introverted and extroverted qualities."
   },
@@ -1375,7 +1375,7 @@
     "correct_answer": "Benevolent",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "Vocabulary (Antonyms)",
+    "topic": "Antonym",
     "difficulty": "Easy",
     "explanation": "'Malevolent' means wishing harm to others; 'Benevolent' (kind, well-meaning) is its direct antonym."
   },
@@ -1390,7 +1390,7 @@
     "correct_answer": "To do something superfluous or unnecessary",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "Idioms and Phrases",
+    "topic": "Idioms & Phrases",
     "difficulty": "Moderate",
     "explanation": "Newcastle was historically a major coal-producing city, so 'carrying coal to Newcastle' means doing something pointless/unnecessary."
   },
@@ -1405,7 +1405,7 @@
     "correct_answer": "To surrender or give up a contest",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "Idioms and Phrases",
+    "topic": "Idioms & Phrases",
     "difficulty": "Moderate",
     "explanation": "This idiom originates from boxing, where throwing in the sponge signaled surrender."
   },
@@ -1420,7 +1420,7 @@
     "correct_answer": "Intrepid",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "One-word Substitution",
+    "topic": "One Word Substitution",
     "difficulty": "Easy",
     "explanation": "'Intrepid' means fearless and adventurous; the other three options all mean timid/fearful."
   },
@@ -1435,7 +1435,7 @@
     "correct_answer": "Nullify",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "Vocabulary (Synonyms)",
+    "topic": "Synonym",
     "difficulty": "Easy",
     "explanation": "'Quash' means to void/suppress/annul; 'Nullify' is the closest synonym."
   },
@@ -1450,7 +1450,7 @@
     "correct_answer": "B",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "The correct plural of 'brother-in-law' is 'brothers-in-law' (pluralizing the main noun), not 'brother in laws'."
   },
@@ -1465,7 +1465,7 @@
     "correct_answer": "Sacrilege",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "One-word Substitution",
+    "topic": "One Word Substitution",
     "difficulty": "Easy",
     "explanation": "'Sacrilege' precisely denotes disrespect or violation of something sacred."
   },
@@ -1480,7 +1480,7 @@
     "correct_answer": "Connoisseurs",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "Vocabulary (Synonyms)",
+    "topic": "Synonym",
     "difficulty": "Moderate",
     "explanation": "'Cognoscenti' means people with expert knowledge/connoisseurs in a particular field."
   },
@@ -1495,7 +1495,7 @@
     "correct_answer": "Rash",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "Vocabulary (Synonyms)",
+    "topic": "Synonym",
     "difficulty": "Easy",
     "explanation": "'Reckless' means acting without care for consequences; 'Rash' is the direct synonym (the others mean cautious)."
   },
@@ -1585,7 +1585,7 @@
     "correct_answer": "SQPR",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "Para Jumbles (Sentence Completion)",
+    "topic": "Para Jumbles",
     "difficulty": "Moderate",
     "explanation": "Correct order: S-Q-P-R — 'India has been a land of learning throughout the ages, not indeed, in the sense that education has been universal but in the sense that learning has always been very highly valued and the learned man has been held in higher esteem [than the warrior or the administrator].'"
   },
@@ -1600,7 +1600,7 @@
     "correct_answer": "RQPS",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "Para Jumbles (Sentence Completion)",
+    "topic": "Para Jumbles",
     "difficulty": "Moderate",
     "explanation": "Correct order: R-Q-P-S — 'While the recent rain may have soothed concerns of a drought, India's rainfall data for over a century show that the June rainfall is [no predictor of the monsoon's outcome].'"
   },
@@ -1615,7 +1615,7 @@
     "correct_answer": "Milk",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "Verbal Analogy",
+    "topic": "Vocabulary",
     "difficulty": "Easy",
     "explanation": "A bee produces honey; similarly, a cow produces milk."
   },
@@ -1630,7 +1630,7 @@
     "correct_answer": "Slice",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "Verbal Analogy",
+    "topic": "Vocabulary",
     "difficulty": "Easy",
     "explanation": "An oven is used to bake; a knife is used to slice — matching tool-to-function relationship."
   },
@@ -1645,7 +1645,7 @@
     "correct_answer": "Branch",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "Verbal Analogy",
+    "topic": "Vocabulary",
     "difficulty": "Moderate",
     "explanation": "A finger is a smaller part directly attached to the hand; similarly, a leaf is a smaller part directly attached to a branch (the most immediate structural attachment point)."
   },
@@ -1660,7 +1660,7 @@
     "correct_answer": "B",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "A specific distance/measurement (ten kilometers) is treated as a single singular quantity, requiring 'is', not 'are'."
   },
@@ -1675,7 +1675,7 @@
     "correct_answer": "B",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "'Neither of the students' is a singular subject, requiring 'has completed', not 'have completed'."
   },
@@ -1690,7 +1690,7 @@
     "correct_answer": "B",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "Error Detection",
+    "topic": "Error Spotting",
     "difficulty": "Moderate",
     "explanation": "In an indirect/embedded question, normal word order is used (no inversion): it should be 'to whom she should address', not 'to whom should she'."
   },
@@ -1720,7 +1720,7 @@
     "correct_answer": "had",
     "exam": "AFCAT",
     "year": "2025",
-    "topic": "Fill in the Blanks (Grammar/Inversion)",
+    "topic": "Fill in the Blanks",
     "difficulty": "Moderate",
     "explanation": "'Hardly had...when' is the standard past-perfect inversion construction for describing two closely sequential past events."
   },

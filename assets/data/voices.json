@@ -4,7 +4,12 @@
     "meaning_en": "Simple Present → Passive | Formula: Object + is/am/are + V3 + by + Agent. Subject becomes agent with 'by'; use object pronoun (I→me, he→him, she→her, they→them).",
     "meaning_hi": "Simple Present → Passive | सूत्र: Object + is/am/are + V3 + by + Agent। Subject 'by' के साथ Agent बनता है।",
     "example": "A letter is written by her.",
-    "options": ["A letter is written by her.", "A letter was written by her.", "A letter is being written by her.", "A letter has been written by her."],
+    "options": [
+      "A letter is written by her.",
+      "A letter was written by her.",
+      "A letter is being written by her.",
+      "A letter has been written by her."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -14,7 +19,12 @@
     "meaning_en": "Simple Present → Passive (Plural) | With plural object + plural agent: Object + are + V3 + by + them.",
     "meaning_hi": "Simple Present → Passive (Plural) | Plural object के साथ are + V3 का प्रयोग होता है।",
     "example": "Cars are repaired at this garage by them.",
-    "options": ["Cars are repaired at this garage by them.", "Cars were repaired at this garage by them.", "Cars are being repaired at this garage by them.", "Cars have been repaired at this garage by them."],
+    "options": [
+      "Cars are repaired at this garage by them.",
+      "Cars were repaired at this garage by them.",
+      "Cars are being repaired at this garage by them.",
+      "Cars have been repaired at this garage by them."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -24,7 +34,12 @@
     "meaning_en": "Present Continuous → Passive | Formula: Object + is/am/are + being + V3 + by + Agent. 'Being' is the key marker for continuous passive.",
     "meaning_hi": "Present Continuous → Passive | सूत्र: Object + is/am/are + being + V3 + by + Agent। 'Being' continuous passive की पहचान है।",
     "example": "A bridge is being built by the workers.",
-    "options": ["A bridge is being built by the workers.", "A bridge was being built by the workers.", "A bridge is built by the workers.", "A bridge has been built by the workers."],
+    "options": [
+      "A bridge is being built by the workers.",
+      "A bridge was being built by the workers.",
+      "A bridge is built by the workers.",
+      "A bridge has been built by the workers."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -34,7 +49,12 @@
     "meaning_en": "Present Continuous → Passive | 'is preparing' becomes 'is being prepared'. The auxiliary 'being' signals ongoing action in passive.",
     "meaning_hi": "Present Continuous → Passive | 'is preparing' → 'is being prepared'। 'being' चल रही क्रिया का संकेत है।",
     "example": "A special dish is being prepared by the chef.",
-    "options": ["A special dish is being prepared by the chef.", "A special dish was prepared by the chef.", "A special dish is prepared by the chef.", "A special dish was being prepared by the chef."],
+    "options": [
+      "A special dish is being prepared by the chef.",
+      "A special dish was prepared by the chef.",
+      "A special dish is prepared by the chef.",
+      "A special dish was being prepared by the chef."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -44,7 +64,12 @@
     "meaning_en": "Present Perfect → Passive | Formula: Object + has/have + been + V3 + by + Agent. 'Been' is the passive marker for perfect tenses.",
     "meaning_hi": "Present Perfect → Passive | सूत्र: Object + has/have + been + V3 + by + Agent। Perfect tense की passive में 'been' आता है।",
     "example": "A novel has been written by him.",
-    "options": ["A novel has been written by him.", "A novel was written by him.", "A novel had been written by him.", "A novel is written by him."],
+    "options": [
+      "A novel has been written by him.",
+      "A novel was written by him.",
+      "A novel had been written by him.",
+      "A novel is written by him."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -54,7 +79,12 @@
     "meaning_en": "Present Perfect → Passive (Plural) | 'have completed' → 'has/have + been + V3'. With plural subject object: 'has been completed'.",
     "meaning_hi": "Present Perfect → Passive | 'have completed' → 'has been completed'। Project singular है, इसलिए 'has been'।",
     "example": "The project has been completed on time by them.",
-    "options": ["The project has been completed on time by them.", "The project was completed on time by them.", "The project have been completed on time by them.", "The project had been completed on time by them."],
+    "options": [
+      "The project has been completed on time by them.",
+      "The project was completed on time by them.",
+      "The project have been completed on time by them.",
+      "The project had been completed on time by them."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -64,7 +94,12 @@
     "meaning_en": "Simple Past → Passive | Formula: Object + was/were + V3 + by + Agent. Singular object → 'was'; plural object → 'were'.",
     "meaning_hi": "Simple Past → Passive | सूत्र: Object + was/were + V3 + by + Agent। Singular → 'was', Plural → 'were'।",
     "example": "The letter was written by her yesterday.",
-    "options": ["The letter was written by her yesterday.", "The letter is written by her yesterday.", "The letter has been written by her yesterday.", "The letter were written by her yesterday."],
+    "options": [
+      "The letter was written by her yesterday.",
+      "The letter is written by her yesterday.",
+      "The letter has been written by her yesterday.",
+      "The letter were written by her yesterday."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -74,7 +109,12 @@
     "meaning_en": "Simple Past → Passive | 'caught' (V2) becomes 'was caught' (was + V3). The irregular verb 'catch → caught → caught'.",
     "meaning_hi": "Simple Past → Passive | 'caught' → 'was caught'। Irregular verb: catch → caught → caught।",
     "example": "The thief was caught by the police.",
-    "options": ["The thief was caught by the police.", "The thief is caught by the police.", "The thief were caught by the police.", "The thief had been caught by the police."],
+    "options": [
+      "The thief was caught by the police.",
+      "The thief is caught by the police.",
+      "The thief were caught by the police.",
+      "The thief had been caught by the police."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -84,7 +124,12 @@
     "meaning_en": "Past Continuous → Passive | Formula: Object + was/were + being + V3 + by + Agent. Both 'was/were' and 'being' are required.",
     "meaning_hi": "Past Continuous → Passive | सूत्र: Object + was/were + being + V3 + by + Agent। 'was/were' और 'being' दोनों जरूरी हैं।",
     "example": "Dinner was being cooked by her when I arrived.",
-    "options": ["Dinner was being cooked by her when I arrived.", "Dinner was cooked by her when I arrived.", "Dinner is being cooked by her when I arrived.", "Dinner had been cooked by her when I arrived."],
+    "options": [
+      "Dinner was being cooked by her when I arrived.",
+      "Dinner was cooked by her when I arrived.",
+      "Dinner is being cooked by her when I arrived.",
+      "Dinner had been cooked by her when I arrived."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -94,7 +139,12 @@
     "meaning_en": "Past Continuous → Passive (Plural agent) | 'were repairing' → 'was being repaired' (road is singular).",
     "meaning_hi": "Past Continuous → Passive | 'were repairing' → 'was being repaired'। Road singular है, इसलिए 'was being'।",
     "example": "The road near my house was being repaired by them.",
-    "options": ["The road near my house was being repaired by them.", "The road near my house were being repaired by them.", "The road near my house was repaired by them.", "The road near my house had been repaired by them."],
+    "options": [
+      "The road near my house was being repaired by them.",
+      "The road near my house were being repaired by them.",
+      "The road near my house was repaired by them.",
+      "The road near my house had been repaired by them."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -104,7 +154,12 @@
     "meaning_en": "Past Perfect → Passive | Formula: Object + had + been + V3 + by + Agent. 'Had been' is fixed for all subjects in past perfect passive.",
     "meaning_hi": "Past Perfect → Passive | सूत्र: Object + had + been + V3 + by + Agent। Past perfect passive में सभी subjects के लिए 'had been' आता है।",
     "example": "The letter had been written by her before he arrived.",
-    "options": ["The letter had been written by her before he arrived.", "The letter was written by her before he arrived.", "The letter has been written by her before he arrived.", "The letter was being written by her before he arrived."],
+    "options": [
+      "The letter had been written by her before he arrived.",
+      "The letter was written by her before he arrived.",
+      "The letter has been written by her before he arrived.",
+      "The letter was being written by her before he arrived."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -114,7 +169,12 @@
     "meaning_en": "Simple Future → Passive | Formula: Object + will + be + V3 + by + Agent. 'Will be' is the future passive auxiliary.",
     "meaning_hi": "Simple Future → Passive | सूत्र: Object + will + be + V3 + by + Agent। Future passive में 'will be' आता है।",
     "example": "A new hospital will be built here by them.",
-    "options": ["A new hospital will be built here by them.", "A new hospital will have been built here by them.", "A new hospital would be built here by them.", "A new hospital is going to be built here by them."],
+    "options": [
+      "A new hospital will be built here by them.",
+      "A new hospital will have been built here by them.",
+      "A new hospital would be built here by them.",
+      "A new hospital is going to be built here by them."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -124,7 +184,12 @@
     "meaning_en": "Future Perfect → Passive | Formula: Object + will + have + been + V3 + by + Agent. Three auxiliaries: will + have + been.",
     "meaning_hi": "Future Perfect → Passive | सूत्र: Object + will + have + been + V3 + by + Agent। तीन auxiliaries: will + have + been।",
     "example": "The project will have been completed by Monday by them.",
-    "options": ["The project will have been completed by Monday by them.", "The project will be completed by Monday by them.", "The project would have been completed by Monday by them.", "The project has been completed by Monday by them."],
+    "options": [
+      "The project will have been completed by Monday by them.",
+      "The project will be completed by Monday by them.",
+      "The project would have been completed by Monday by them.",
+      "The project has been completed by Monday by them."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -134,7 +199,12 @@
     "meaning_en": "Modal 'can' → Passive | Formula: Object + can + be + V3 + by + Agent. All modals follow: Modal + be + V3.",
     "meaning_hi": "Modal 'can' → Passive | सूत्र: Object + can + be + V3 + by + Agent। सभी modals के लिए: Modal + be + V3।",
     "example": "Three languages can be spoken fluently by her.",
-    "options": ["Three languages can be spoken fluently by her.", "Three languages can have been spoken fluently by her.", "Three languages could be spoken fluently by her.", "Three languages are spoken fluently by her."],
+    "options": [
+      "Three languages can be spoken fluently by her.",
+      "Three languages can have been spoken fluently by her.",
+      "Three languages could be spoken fluently by her.",
+      "Three languages are spoken fluently by her."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -144,7 +214,12 @@
     "meaning_en": "Modal 'must' → Passive | 'must + V1' → 'must + be + V3'. The sense of obligation is preserved in passive.",
     "meaning_hi": "Modal 'must' → Passive | 'must + V1' → 'must + be + V3'। Obligation का भाव passive में भी रहता है।",
     "example": "The rules of the institution must be followed by students.",
-    "options": ["The rules of the institution must be followed by students.", "The rules of the institution should be followed by students.", "The rules of the institution must have been followed by students.", "The rules of the institution had to be followed by students."],
+    "options": [
+      "The rules of the institution must be followed by students.",
+      "The rules of the institution should be followed by students.",
+      "The rules of the institution must have been followed by students.",
+      "The rules of the institution had to be followed by students."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -154,7 +229,12 @@
     "meaning_en": "Modal 'should' → Passive | 'should + V1' → 'should + be + V3'. The moral obligation remains in passive form.",
     "meaning_hi": "Modal 'should' → Passive | 'should + V1' → 'should + be + V3'। Moral obligation passive में भी बना रहता है।",
     "example": "Our elders should be respected by us.",
-    "options": ["Our elders should be respected by us.", "Our elders must be respected by us.", "Our elders should have been respected by us.", "Our elders would be respected by us."],
+    "options": [
+      "Our elders should be respected by us.",
+      "Our elders must be respected by us.",
+      "Our elders should have been respected by us.",
+      "Our elders would be respected by us."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -164,7 +244,12 @@
     "meaning_en": "Modal 'may' → Passive | 'may + V1' → 'may + be + V3'. The possibility remains expressed through 'may be'.",
     "meaning_hi": "Modal 'may' → Passive | 'may + V1' → 'may + be + V3'। Possibility passive में 'may be' से व्यक्त होती है।",
     "example": "The proposal may be approved by him tomorrow.",
-    "options": ["The proposal may be approved by him tomorrow.", "The proposal might be approved by him tomorrow.", "The proposal may have been approved by him tomorrow.", "The proposal can be approved by him tomorrow."],
+    "options": [
+      "The proposal may be approved by him tomorrow.",
+      "The proposal might be approved by him tomorrow.",
+      "The proposal may have been approved by him tomorrow.",
+      "The proposal can be approved by him tomorrow."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -174,7 +259,12 @@
     "meaning_en": "Modal 'could' → Passive | 'could + V1' → 'could + be + V3'. The past ability/possibility is retained.",
     "meaning_hi": "Modal 'could' → Passive | 'could + V1' → 'could + be + V3'। Past ability/possibility passive में भी रहती है।",
     "example": "The car could be repaired in two hours by the mechanic.",
-    "options": ["The car could be repaired in two hours by the mechanic.", "The car can be repaired in two hours by the mechanic.", "The car could have been repaired in two hours by the mechanic.", "The car would be repaired in two hours by the mechanic."],
+    "options": [
+      "The car could be repaired in two hours by the mechanic.",
+      "The car can be repaired in two hours by the mechanic.",
+      "The car could have been repaired in two hours by the mechanic.",
+      "The car would be repaired in two hours by the mechanic."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -184,7 +274,12 @@
     "meaning_en": "Modal 'would' → Passive | 'would + V1' → 'would + be + V3'. Conditional/future-in-past stays as 'would be'.",
     "meaning_hi": "Modal 'would' → Passive | 'would + V1' → 'would + be + V3'। Conditional passive में 'would be' आता है।",
     "example": "The project would be finished by Friday by her.",
-    "options": ["The project would be finished by Friday by her.", "The project will be finished by Friday by her.", "The project could be finished by Friday by her.", "The project would have been finished by Friday by her."],
+    "options": [
+      "The project would be finished by Friday by her.",
+      "The project will be finished by Friday by her.",
+      "The project could be finished by Friday by her.",
+      "The project would have been finished by Friday by her."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -194,7 +289,12 @@
     "meaning_en": "Modal 'might' → Passive | 'might + V1' → 'might + be + V3'. Remote possibility stays as 'might be'.",
     "meaning_hi": "Modal 'might' → Passive | 'might + V1' → 'might + be + V3'। कम संभावना 'might be' से passive में व्यक्त होती है।",
     "example": "The event might be cancelled due to rain by them.",
-    "options": ["The event might be cancelled due to rain by them.", "The event may be cancelled due to rain by them.", "The event would be cancelled due to rain by them.", "The event might have been cancelled due to rain by them."],
+    "options": [
+      "The event might be cancelled due to rain by them.",
+      "The event may be cancelled due to rain by them.",
+      "The event would be cancelled due to rain by them.",
+      "The event might have been cancelled due to rain by them."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -204,7 +304,12 @@
     "meaning_en": "Imperative (Affirmative) → Passive | Formula: Let + Object + be + V3. The subject 'you' is implied; it is not mentioned in passive.",
     "meaning_hi": "Imperative (Affirmative) → Passive | सूत्र: Let + Object + be + V3। Subject 'you' implied है; passive में नहीं आता।",
     "example": "Let the window be opened.",
-    "options": ["Let the window be opened.", "The window should be opened.", "The window must be opened.", "Let the window be open."],
+    "options": [
+      "Let the window be opened.",
+      "The window should be opened.",
+      "The window must be opened.",
+      "Let the window be open."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -214,7 +319,12 @@
     "meaning_en": "Imperative (Request with 'please') → Passive | Formula: You are requested to + V1 + Object. 'Please' signals a request, so use 'requested'.",
     "meaning_hi": "Imperative (Request) → Passive | सूत्र: You are requested to + V1 + Object। 'Please' request का संकेत है।",
     "example": "You are requested to help the needy.",
-    "options": ["You are requested to help the needy.", "Let the needy be helped.", "You are ordered to help the needy.", "The needy should be helped by you."],
+    "options": [
+      "You are requested to help the needy.",
+      "Let the needy be helped.",
+      "You are ordered to help the needy.",
+      "The needy should be helped by you."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -224,7 +334,12 @@
     "meaning_en": "Imperative (Order/Command) → Passive | Formula: You are ordered to + V1. Strong authority commands use 'ordered' or 'commanded'.",
     "meaning_hi": "Imperative (Order/Command) → Passive | सूत्र: You are ordered to + V1। Authority command के लिए 'ordered/commanded' प्रयोग होता है।",
     "example": "You are ordered to submit your assignment immediately.",
-    "options": ["You are ordered to submit your assignment immediately.", "Let your assignment be submitted immediately.", "You are requested to submit your assignment immediately.", "You are advised to submit your assignment immediately."],
+    "options": [
+      "You are ordered to submit your assignment immediately.",
+      "Let your assignment be submitted immediately.",
+      "You are requested to submit your assignment immediately.",
+      "You are advised to submit your assignment immediately."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -234,7 +349,12 @@
     "meaning_en": "Negative Imperative → Passive | Formula: Let + Object + not + be + V3. 'Don't' is replaced by 'not' after 'let ... be'.",
     "meaning_hi": "Negative Imperative → Passive | सूत्र: Let + Object + not + be + V3। 'Don't' को 'not' से replace करते हैं।",
     "example": "Let noise not be made in the library.",
-    "options": ["Let noise not be made in the library.", "Noise should not be made in the library.", "Don't let noise be made in the library.", "Let not noise be made in the library."],
+    "options": [
+      "Let noise not be made in the library.",
+      "Noise should not be made in the library.",
+      "Don't let noise be made in the library.",
+      "Let not noise be made in the library."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -244,7 +364,12 @@
     "meaning_en": "Imperative (Advice) → Passive | Formula: You are advised to + V1. Advice uses 'advised' or 'suggested'.",
     "meaning_hi": "Imperative (Advice) → Passive | सूत्र: You are advised to + V1। Advice के लिए 'advised/suggested' प्रयोग होता है।",
     "example": "You are advised to take rest for a week.",
-    "options": ["You are advised to take rest for a week.", "You are ordered to take rest for a week.", "You are requested to take rest for a week.", "Let rest be taken for a week."],
+    "options": [
+      "You are advised to take rest for a week.",
+      "You are ordered to take rest for a week.",
+      "You are requested to take rest for a week.",
+      "Let rest be taken for a week."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -254,7 +379,12 @@
     "meaning_en": "Yes/No Interrogative → Passive | Formula: Was/Were + Object + V3 + by + Agent? The question form is retained using 'was/were' at the start.",
     "meaning_hi": "Yes/No Interrogative → Passive | सूत्र: Was/Were + Object + V3 + by + Agent? प्रश्न रूप बना रहता है।",
     "example": "Was the letter written by her?",
-    "options": ["Was the letter written by her?", "Is the letter written by her?", "Had the letter been written by her?", "Has the letter been written by her?"],
+    "options": [
+      "Was the letter written by her?",
+      "Is the letter written by her?",
+      "Had the letter been written by her?",
+      "Has the letter been written by her?"
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -264,7 +394,12 @@
     "meaning_en": "Present Continuous Interrogative → Passive | Formula: Is/Are + Object + being + V3 + by + Agent?",
     "meaning_hi": "Present Continuous Interrogative → Passive | सूत्र: Is/Are + Object + being + V3 + by + Agent?",
     "example": "Are the students being taught by the teacher?",
-    "options": ["Are the students being taught by the teacher?", "Are the students taught by the teacher?", "Were the students being taught by the teacher?", "Have the students been taught by the teacher?"],
+    "options": [
+      "Are the students being taught by the teacher?",
+      "Are the students taught by the teacher?",
+      "Were the students being taught by the teacher?",
+      "Have the students been taught by the teacher?"
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -274,7 +409,12 @@
     "meaning_en": "WH Interrogative ('Who') → Passive | 'Who' → 'By whom'. Formula: By whom + was/were + Object + V3? 'Who' (subject) becomes 'By whom' (agent) in passive.",
     "meaning_hi": "WH Interrogative ('Who') → Passive | 'Who' → 'By whom'। सूत्र: By whom + was/were + Object + V3?",
     "example": "By whom was this poem written?",
-    "options": ["By whom was this poem written?", "Who was this poem written by?", "By who was this poem written?", "By whom is this poem written?"],
+    "options": [
+      "By whom was this poem written?",
+      "Who was this poem written by?",
+      "By who was this poem written?",
+      "By whom is this poem written?"
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -284,7 +424,12 @@
     "meaning_en": "WH Question (Who + Present Continuous) → Passive | 'Who is teaching you' → 'By whom are you being taught'. Both 'being' and 'by whom' are required.",
     "meaning_hi": "WH Question (Who + Present Continuous) → Passive | 'Who is teaching you' → 'By whom are you being taught'।",
     "example": "By whom are you being taught grammar?",
-    "options": ["By whom are you being taught grammar?", "By whom were you being taught grammar?", "By whom are you taught grammar?", "By whom have you been taught grammar?"],
+    "options": [
+      "By whom are you being taught grammar?",
+      "By whom were you being taught grammar?",
+      "By whom are you taught grammar?",
+      "By whom have you been taught grammar?"
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -294,7 +439,12 @@
     "meaning_en": "WH Question (What/Where/When) → Passive | The WH word stays at the beginning. Formula: What + was + V3 + by + Agent?",
     "meaning_hi": "WH Question (What/Where/When) → Passive | WH word शुरू में रहता है। सूत्र: What + was + V3 + by + Agent?",
     "example": "What was said by her at the meeting?",
-    "options": ["What was said by her at the meeting?", "What has been said by her at the meeting?", "What is said by her at the meeting?", "What had been said by her at the meeting?"],
+    "options": [
+      "What was said by her at the meeting?",
+      "What has been said by her at the meeting?",
+      "What is said by her at the meeting?",
+      "What had been said by her at the meeting?"
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -304,7 +454,12 @@
     "meaning_en": "Double Object → Passive | When there are two objects (IO = me, DO = a book), the Indirect Object becomes the subject of the preferred passive: 'I was given a book by him.' (IO as subject is preferred in English).",
     "meaning_hi": "Double Object → Passive | दो objects होने पर (IO = me, DO = a book), Indirect Object subject बनता है: 'I was given a book by him.'",
     "example": "I was given a book by him.",
-    "options": ["I was given a book by him.", "A book was given me by him.", "Me was given a book by him.", "I am given a book by him."],
+    "options": [
+      "I was given a book by him.",
+      "A book was given me by him.",
+      "Me was given a book by him.",
+      "I am given a book by him."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -314,7 +469,12 @@
     "meaning_en": "Double Object → Passive | Both passive forms are correct: IO as subject ('He was told a secret') or DO as subject ('A secret was told to him'). The second form adds 'to' before IO.",
     "meaning_hi": "Double Object → Passive | दोनों passive सही हैं: IO as subject ('He was told a secret') या DO as subject ('A secret was told to him'। दूसरे में 'to' जुड़ता है।",
     "example": "A secret was told to him by her.",
-    "options": ["A secret was told to him by her.", "A secret was told him by her.", "He was told to a secret by her.", "A secret has been told to him by her."],
+    "options": [
+      "A secret was told to him by her.",
+      "A secret was told him by her.",
+      "He was told to a secret by her.",
+      "A secret has been told to him by her."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -324,7 +484,12 @@
     "meaning_en": "Double Object → Passive | IO (her) as subject: 'She was offered a promotion by them.' This is the preferred passive form when IO is a person.",
     "meaning_hi": "Double Object → Passive | IO (her) subject बनता है: 'She was offered a promotion by them.' जब IO एक व्यक्ति हो, यह preferred form है।",
     "example": "She was offered a promotion by them.",
-    "options": ["She was offered a promotion by them.", "A promotion was offered her by them.", "She has been offered a promotion by them.", "Her was offered a promotion by them."],
+    "options": [
+      "She was offered a promotion by them.",
+      "A promotion was offered her by them.",
+      "She has been offered a promotion by them.",
+      "Her was offered a promotion by them."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -334,7 +499,12 @@
     "meaning_en": "Stative Verbs CANNOT be Passive | Verbs like resemble, lack, suit, fit, contain, have (possession), consist of, belong to describe states, not actions. They have NO passive voice.",
     "meaning_hi": "Stative Verbs को Passive नहीं बना सकते | resemble, lack, suit, fit, contain, have (possession) जैसे verbs state बताते हैं, action नहीं। इनकी कोई Passive Voice नहीं होती।",
     "example": "❌ Cannot be converted. 'Resemble' is a stative verb with no passive form.",
-    "options": ["❌ Cannot be converted. 'Resemble' is a stative verb with no passive form.", "Her mother is resembled by her.", "Her mother is being resembled by her.", "Her mother has been resembled by her."],
+    "options": [
+      "❌ Cannot be converted. 'Resemble' is a stative verb with no passive form.",
+      "Her mother is resembled by her.",
+      "Her mother is being resembled by her.",
+      "Her mother has been resembled by her."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -344,7 +514,12 @@
     "meaning_en": "Stative Verbs CANNOT be Passive | 'Suit' describes a state/quality. Other stative verbs: resemble, possess, lack, contain, own, know (in simple present), fit, matter.",
     "meaning_hi": "Stative Verbs — No Passive | 'Suit' state बताता है। अन्य stative verbs: resemble, possess, lack, contain, own, fit इनकी passive नहीं बनती।",
     "example": "❌ Cannot be converted. 'Suit' is a stative verb with no passive form.",
-    "options": ["❌ Cannot be converted. 'Suit' is a stative verb with no passive form.", "He is suited perfectly by this shirt.", "He has been suited perfectly by this shirt.", "He is being suited perfectly by this shirt."],
+    "options": [
+      "❌ Cannot be converted. 'Suit' is a stative verb with no passive form.",
+      "He is suited perfectly by this shirt.",
+      "He has been suited perfectly by this shirt.",
+      "He is being suited perfectly by this shirt."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -354,7 +529,12 @@
     "meaning_en": "Intransitive Verbs CANNOT be Passive | Intransitive verbs (sleep, go, come, arrive, laugh, cry, die, fall) have NO direct object, so they cannot form passive voice.",
     "meaning_hi": "Intransitive Verbs — No Passive | Intransitive verbs (sleep, go, come, arrive, laugh) का कोई direct object नहीं होता, इसलिए इनकी passive नहीं बनती।",
     "example": "❌ Cannot be converted. 'Sleep' is intransitive — it has no object to become the subject.",
-    "options": ["❌ Cannot be converted. 'Sleep' is intransitive — it has no object to become the subject.", "Peacefully all night was slept by her.", "She was slept all night.", "All night has been slept by her."],
+    "options": [
+      "❌ Cannot be converted. 'Sleep' is intransitive — it has no object to become the subject.",
+      "Peacefully all night was slept by her.",
+      "She was slept all night.",
+      "All night has been slept by her."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -364,7 +544,12 @@
     "meaning_en": "'By' Phrase Omission — Unknown Agent | When the agent is 'someone', 'a person', or unknown, the 'by + agent' phrase is omitted from the passive.",
     "meaning_hi": "'By' Phrase Omission — Unknown Agent | जब agent 'someone' या अज्ञात हो, passive में 'by + agent' नहीं लिखते।",
     "example": "My wallet was stolen last night.",
-    "options": ["My wallet was stolen last night.", "My wallet was stolen by someone last night.", "My wallet has been stolen last night.", "My wallet was being stolen last night."],
+    "options": [
+      "My wallet was stolen last night.",
+      "My wallet was stolen by someone last night.",
+      "My wallet has been stolen last night.",
+      "My wallet was being stolen last night."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -374,7 +559,12 @@
     "meaning_en": "'By' Phrase Omission — General Agent | When agent is general (people, they, one, we, everyone), it is omitted in the passive. The focus shifts to the action.",
     "meaning_hi": "'By' Phrase Omission — General Agent | जब agent general हो (people, they, one), passive में 'by' phrase छोड़ देते हैं। Focus action पर आ जाता है।",
     "example": "English is spoken all over the world.",
-    "options": ["English is spoken all over the world.", "English is spoken all over the world by people.", "English has been spoken all over the world.", "English was spoken all over the world."],
+    "options": [
+      "English is spoken all over the world.",
+      "English is spoken all over the world by people.",
+      "English has been spoken all over the world.",
+      "English was spoken all over the world."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -384,7 +574,12 @@
     "meaning_en": "Phrasal Verbs in Passive | Treat the phrasal verb ('look after') as one unit — never split it. 'Was looked after' — NOT 'was looked'.",
     "meaning_hi": "Phrasal Verbs in Passive | Phrasal verb ('look after') को एक unit मानें — कभी मत तोड़ें। 'Was looked after' — 'was looked' नहीं।",
     "example": "The old man was looked after carefully by her.",
-    "options": ["The old man was looked after carefully by her.", "The old man was looked carefully after by her.", "The old man was after looked carefully by her.", "The old man has been looked after carefully by her."],
+    "options": [
+      "The old man was looked after carefully by her.",
+      "The old man was looked carefully after by her.",
+      "The old man was after looked carefully by her.",
+      "The old man has been looked after carefully by her."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -394,7 +589,12 @@
     "meaning_en": "Phrasal Verbs in Passive | 'Called off' (phrasal verb = cancelled) stays together in passive. Other phrasal verbs: put off, take care of, carry out, bring up, give up.",
     "meaning_hi": "Phrasal Verbs in Passive | 'Called off' passive में भी साथ रहता है। अन्य: put off, take care of, carry out, bring up।",
     "example": "The match was called off due to rain by them.",
-    "options": ["The match was called off due to rain by them.", "The match was called due to rain off by them.", "The match is called off due to rain by them.", "The match had been called off due to rain by them."],
+    "options": [
+      "The match was called off due to rain by them.",
+      "The match was called due to rain off by them.",
+      "The match is called off due to rain by them.",
+      "The match had been called off due to rain by them."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -404,7 +604,12 @@
     "meaning_en": "Causative Passive | Get/Have + Object + V3 is already passive in nature — someone else does the action for you. 'Got her hair cut' = she caused someone to cut her hair.",
     "meaning_hi": "Causative Passive | Get/Have + Object + V3 — यहाँ कोई और काम करता है आपके लिए। 'Got her hair cut' = उसने किसी से बाल कटवाए।",
     "example": "Her hair was got cut at the salon. (Or: She had her hair cut.)",
-    "options": ["Her hair was got cut at the salon. (Or: She had her hair cut.)", "Her hair is cut at the salon.", "She cut her hair at the salon.", "Her hair has been cutting at the salon."],
+    "options": [
+      "Her hair was got cut at the salon. (Or: She had her hair cut.)",
+      "Her hair is cut at the salon.",
+      "She cut her hair at the salon.",
+      "Her hair has been cutting at the salon."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -414,7 +619,12 @@
     "meaning_en": "Causative with 'have' | Have + Object + V3 = cause someone to do something. 'Had his car repaired' = he caused a mechanic to repair it. This is a causative, not standard passive.",
     "meaning_hi": "Causative with 'have' | Have + Object + V3 = किसी और से काम करवाना। 'Had his car repaired' = उसने mechanic से car repair करवाई।",
     "example": "His car was had repaired at the garage. (Structure: His car was repaired at the garage for him.)",
-    "options": ["His car was had repaired at the garage. (Structure: His car was repaired at the garage for him.)", "His car was repaired at the garage by him.", "He got his car repaired.", "His car has been repaired at the garage."],
+    "options": [
+      "His car was had repaired at the garage. (Structure: His car was repaired at the garage for him.)",
+      "His car was repaired at the garage by him.",
+      "He got his car repaired.",
+      "His car has been repaired at the garage."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -424,7 +634,12 @@
     "meaning_en": "'It is believed/said/known/reported that…' Construction | When active subject is general (people/they/everyone), use 'It is + V3 + that…' OR '[Subject] is said to + V'.",
     "meaning_hi": "'It is believed/said/known that…' Construction | General subject (people/they) → 'It is V3 that…' या '[Subject] is said to + V'।",
     "example": "It is believed that he is innocent. / He is believed to be innocent.",
-    "options": ["It is believed that he is innocent. / He is believed to be innocent.", "He is believed that he is innocent.", "It is being believed that he is innocent.", "People are believed that he is innocent."],
+    "options": [
+      "It is believed that he is innocent. / He is believed to be innocent.",
+      "He is believed that he is innocent.",
+      "It is being believed that he is innocent.",
+      "People are believed that he is innocent."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -434,7 +649,12 @@
     "meaning_en": "'It is said that…' | Active: 'Everyone/People say that…' → Passive: 'It is said that…' / 'She is said to be honest.' Both passive forms are acceptable.",
     "meaning_hi": "'It is said that…' | Active: 'People say that…' → Passive: 'It is said that…' / 'She is said to be honest.'",
     "example": "It is said that she is honest.",
-    "options": ["It is said that she is honest.", "She is said that she is honest.", "It was said that she is honest.", "It has been said that she is honest."],
+    "options": [
+      "It is said that she is honest.",
+      "She is said that she is honest.",
+      "It was said that she is honest.",
+      "It has been said that she is honest."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -444,7 +664,12 @@
     "meaning_en": "Perfect Continuous CANNOT be Passive | Present Perfect Continuous and Past Perfect Continuous are NOT converted to passive voice. This is a standard grammatical rule in English.",
     "meaning_hi": "Perfect Continuous — No Passive | Present Perfect Continuous और Past Perfect Continuous की Passive Voice नहीं बनती।",
     "example": "❌ Cannot be converted. Perfect Continuous tenses do not have a passive form.",
-    "options": ["❌ Cannot be converted. Perfect Continuous tenses do not have a passive form.", "The essay has been being written by her for two hours.", "The essay had been written by her for two hours.", "The essay is being written by her for two hours."],
+    "options": [
+      "❌ Cannot be converted. Perfect Continuous tenses do not have a passive form.",
+      "The essay has been being written by her for two hours.",
+      "The essay had been written by her for two hours.",
+      "The essay is being written by her for two hours."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -454,7 +679,12 @@
     "meaning_en": "Past Perfect Continuous CANNOT be Passive | Like Present Perfect Continuous, Past Perfect Continuous is also NOT converted to passive. These forms are avoided in passive voice.",
     "meaning_hi": "Past Perfect Continuous — No Passive | Past Perfect Continuous की भी Passive Voice नहीं बनती।",
     "example": "❌ Cannot be converted. Past Perfect Continuous does not have a passive voice form.",
-    "options": ["❌ Cannot be converted. Past Perfect Continuous does not have a passive voice form.", "The car had been being repaired by him for three hours.", "The car was being repaired by him for three hours.", "The car had been repaired by him for three hours."],
+    "options": [
+      "❌ Cannot be converted. Past Perfect Continuous does not have a passive voice form.",
+      "The car had been being repaired by him for three hours.",
+      "The car was being repaired by him for three hours.",
+      "The car had been repaired by him for three hours."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -464,7 +694,12 @@
     "meaning_en": "Passive → Active | Step 1: 'By + Agent' becomes the Subject (object pronoun → subject pronoun: her → she). Step 2: Remove 'was'. Step 3: V3 → V2 (written → wrote).",
     "meaning_hi": "Passive → Active | Step 1: 'by + Agent' → Subject (her → she)। Step 2: 'was' हटाओ। Step 3: V3 → V2 (written → wrote)।",
     "example": "She wrote the letter.",
-    "options": ["She wrote the letter.", "She has written the letter.", "She is writing the letter.", "Her wrote the letter."],
+    "options": [
+      "She wrote the letter.",
+      "She has written the letter.",
+      "She is writing the letter.",
+      "Her wrote the letter."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -474,7 +709,12 @@
     "meaning_en": "Passive → Active | Present Continuous Passive ('is being built') → Active ('is building'). The government builds → The government is building.",
     "meaning_hi": "Passive → Active | Present Continuous Passive ('is being built') → Active ('is building')।",
     "example": "The government is building the new bridge.",
-    "options": ["The government is building the new bridge.", "The government builds the new bridge.", "The government was building the new bridge.", "The government has built the new bridge."],
+    "options": [
+      "The government is building the new bridge.",
+      "The government builds the new bridge.",
+      "The government was building the new bridge.",
+      "The government has built the new bridge."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -484,7 +724,12 @@
     "meaning_en": "Passive → Active | Present Perfect Passive ('has been won') → Active Present Perfect ('has won'). Agent 'our team' becomes subject.",
     "meaning_hi": "Passive → Active | Present Perfect Passive ('has been won') → Active Present Perfect ('has won')।",
     "example": "Our team has won the match.",
-    "options": ["Our team has won the match.", "Our team won the match.", "Our team is winning the match.", "Our team had won the match."],
+    "options": [
+      "Our team has won the match.",
+      "Our team won the match.",
+      "Our team is winning the match.",
+      "Our team had won the match."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -494,7 +739,12 @@
     "meaning_en": "Passive without 'by' phrase → Active | When 'by' phrase is absent, the agent is unknown. Use 'someone' or 'somebody' as the subject in active.",
     "meaning_hi": "Passive without 'by' phrase → Active | जब 'by' phrase नहीं है, agent अज्ञात है। Active में 'someone/somebody' subject बनता है।",
     "example": "Someone broke the window.",
-    "options": ["Someone broke the window.", "Someone has broken the window.", "The window broke itself.", "Someone is breaking the window."],
+    "options": [
+      "Someone broke the window.",
+      "Someone has broken the window.",
+      "The window broke itself.",
+      "Someone is breaking the window."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -504,7 +754,12 @@
     "meaning_en": "Passive → Active | Present Continuous Passive: 'is being read' → Active: 'is reading'. Agent 'the child' becomes subject.",
     "meaning_hi": "Passive → Active | Present Continuous Passive: 'is being read' → Active 'is reading'। Agent 'the child' subject बनता है।",
     "example": "The child is reading a book.",
-    "options": ["The child is reading a book.", "The child reads a book.", "The child was reading a book.", "The child has read a book."],
+    "options": [
+      "The child is reading a book.",
+      "The child reads a book.",
+      "The child was reading a book.",
+      "The child has read a book."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -514,7 +769,12 @@
     "meaning_en": "Pronoun Change in Passive | Subject pronoun → Object pronoun when it becomes the agent: I → me, he → him, she → her, we → us, they → them.",
     "meaning_hi": "Pronoun Change in Passive | Subject pronoun → Object pronoun जब agent बनता है: I → me, he → him, she → her, we → us, they → them।",
     "example": "The students are taught by me every day.",
-    "options": ["The students are taught by me every day.", "The students are taught by I every day.", "The students were taught by me every day.", "The students have been taught by me every day."],
+    "options": [
+      "The students are taught by me every day.",
+      "The students are taught by I every day.",
+      "The students were taught by me every day.",
+      "The students have been taught by me every day."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -524,7 +784,12 @@
     "meaning_en": "Pronoun Change in Passive | Object pronoun 'us' becomes Subject pronoun 'we'. Agent 'they' becomes 'them'. We were defeated by them.",
     "meaning_hi": "Pronoun Change in Passive | Object pronoun 'us' → Subject pronoun 'we'। Agent 'they' → 'them'।",
     "example": "We were defeated by them in the final match.",
-    "options": ["We were defeated by them in the final match.", "Us were defeated by them in the final match.", "We was defeated by them in the final match.", "We have been defeated by them in the final match."],
+    "options": [
+      "We were defeated by them in the final match.",
+      "Us were defeated by them in the final match.",
+      "We was defeated by them in the final match.",
+      "We have been defeated by them in the final match."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -534,7 +799,12 @@
     "meaning_en": "Pronoun Change in Passive | 'He' (subject) → 'him' (agent in passive). Subject pronoun changes to object pronoun when placed after 'by'.",
     "meaning_hi": "Pronoun Change in Passive | 'He' (subject) → 'him' (passive में agent)। Subject pronoun 'by' के बाद object pronoun बन जाता है।",
     "example": "All the problems were solved quickly by him.",
-    "options": ["All the problems were solved quickly by him.", "All the problems were solved quickly by he.", "All the problems are solved quickly by him.", "All the problems had been solved quickly by him."],
+    "options": [
+      "All the problems were solved quickly by him.",
+      "All the problems were solved quickly by he.",
+      "All the problems are solved quickly by him.",
+      "All the problems had been solved quickly by him."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -544,7 +814,12 @@
     "meaning_en": "Simple Future Active → Passive | 'will launch' → 'will be launched'. The future agent (the government) comes after 'by'.",
     "meaning_hi": "Simple Future → Passive | 'will launch' → 'will be launched'। Future agent 'by' के बाद आता है।",
     "example": "A new scheme will be launched next month by the government.",
-    "options": ["A new scheme will be launched next month by the government.", "A new scheme would be launched next month by the government.", "A new scheme will have been launched next month by the government.", "A new scheme is going to be launched next month by the government."],
+    "options": [
+      "A new scheme will be launched next month by the government.",
+      "A new scheme would be launched next month by the government.",
+      "A new scheme will have been launched next month by the government.",
+      "A new scheme is going to be launched next month by the government."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -554,7 +829,12 @@
     "meaning_en": "Identifying Active Voice | An active sentence has: Subject + Verb + Object. The subject performs the action directly. Key: the subject IS doing something.",
     "meaning_hi": "Active Voice की पहचान | Active sentence: Subject + Verb + Object। Subject खुद action करता है।",
     "example": "Active Voice — Subject (students) performs the action (writing).",
-    "options": ["Active Voice — Subject (students) performs the action (writing).", "Passive Voice — the exam is being written.", "Neither active nor passive.", "Causative Voice — students cause writing."],
+    "options": [
+      "Active Voice — Subject (students) performs the action (writing).",
+      "Passive Voice — the exam is being written.",
+      "Neither active nor passive.",
+      "Causative Voice — students cause writing."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
@@ -564,7 +844,2352 @@
     "meaning_en": "Identifying Passive Voice | A passive sentence has: Object (as subject) + be + V3 + by + Agent. Key markers: is/am/are/was/were + V3, 'by' phrase.",
     "meaning_hi": "Passive Voice की पहचान | Passive sentence: Object (as subject) + be + V3 + by + Agent। Key markers: is/am/are/was/were + V3, 'by' phrase।",
     "example": "Passive Voice — Object (exam) receives the action; agent follows 'by'.",
-    "options": ["Passive Voice — Object (exam) receives the action; agent follows 'by'.", "Active Voice — the students write.", "Causative Voice.", "Imperative Voice."],
+    "options": [
+      "Passive Voice — Object (exam) receives the action; agent follows 'by'.",
+      "Active Voice — the students write.",
+      "Causative Voice.",
+      "Imperative Voice."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They have been neglecting maintenance of the archives for years.",
+    "meaning_en": "Present perfect continuous active 'have been neglecting' becomes passive 'has been being neglected'.",
+    "meaning_hi": "",
+    "example": "Maintenance of the archives has been being neglected by them for years.",
+    "options": [
+      "Maintenance of the archives had been neglected by them for years.",
+      "Maintenance of the archives is being neglected by them for years.",
+      "Maintenance of the archives was being neglected by them for years.",
+      "Maintenance of the archives has been being neglected by them for years."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "It was being suggested by multiple sources that the operation had been compromised internally.",
+    "meaning_en": "The active form is 'Multiple sources suggested the operation was compromised internally.'",
+    "meaning_hi": "",
+    "example": "Multiple sources suggested the operation was compromised internally.",
+    "options": [
+      "Multiple sources suggested the operation was compromised internally.",
+      "The operation was compromised, multiple sources suggested.",
+      "The sources were suggesting an operation compromise.",
+      "The operation had compromised multiple internal sources."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "People can seldom access archived manuscripts without clearance.",
+    "meaning_en": "'can access' becomes the passive 'can be accessed'.",
+    "meaning_hi": "",
+    "example": "Archived manuscripts can seldom be accessed without clearance.",
+    "options": [
+      "Archived manuscripts can seldom being accessed without clearance.",
+      "Archived manuscripts could seldom be accessed without clearance.",
+      "Archived manuscripts can seldom be accessed without clearance.",
+      "Archived manuscripts are seldom able to be accessed without clearance."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The package is delivered to the office every morning.",
+    "meaning_en": "With no stated agent, an indefinite subject 'Someone' is used in the active voice.",
+    "meaning_hi": "",
+    "example": "Someone delivers the package to the office every morning.",
+    "options": [
+      "The office delivers the package every morning.",
+      "Someone delivers the package to the office every morning.",
+      "The office has delivered the package every morning.",
+      "The package delivers itself to the office every morning."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Why did the editor overlook the substantial stylistic anomalies?",
+    "meaning_en": "A past-simple 'why' question becomes 'Why were ... overlooked by the editor?'.",
+    "meaning_hi": "",
+    "example": "Why were the substantial stylistic anomalies overlooked by the editor?",
+    "options": [
+      "Why have the substantial stylistic anomalies been overlooked by the editor?",
+      "Why are the substantial stylistic anomalies being overlooked by the editor?",
+      "Why did the substantial stylistic anomalies be overlooked by the editor?",
+      "Why were the substantial stylistic anomalies overlooked by the editor?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "It has been alleged that confidential data was being leaked by insiders within the firm.",
+    "meaning_en": "The active form keeps the allegation adverbially: 'Insiders have allegedly been leaking...'.",
+    "meaning_hi": "",
+    "example": "Insiders have allegedly been leaking confidential data within the firm.",
+    "options": [
+      "Insiders were leaking confidential data within the firm.",
+      "Confidential data had been leaked by insiders, it is alleged.",
+      "Insiders have allegedly been leaking confidential data within the firm.",
+      "The firm was allegedly leaking insider data."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The laboratory will have double-checked the reagents by dawn.",
+    "meaning_en": "Future perfect 'will have double-checked' becomes 'will have been double-checked' in the passive.",
+    "meaning_hi": "",
+    "example": "The reagents will have been double-checked by the laboratory by dawn.",
+    "options": [
+      "The reagents have been double-checked by the laboratory by dawn.",
+      "The reagents will have been double-checked by the laboratory by dawn.",
+      "The reagents will be double-checked by the laboratory by dawn.",
+      "The reagents would have been double-checking by the laboratory by dawn."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Rare minerals are known to have been secretly extracted from the site by unauthorized workers before the inspection.",
+    "meaning_en": "The active version keeps 'are known to have' and makes 'unauthorized workers' the subject of 'extracted'.",
+    "meaning_hi": "",
+    "example": "Unauthorized workers are known to have secretly extracted rare minerals before inspection.",
+    "options": [
+      "Unauthorized workers extracted the rare minerals before inspection.",
+      "The site was secretly mined before the inspection.",
+      "Unauthorized workers are known to have secretly extracted rare minerals before inspection.",
+      "The minerals had been extracted prior to inspection."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "We shall have dispatched the invitations before Friday evening.",
+    "meaning_en": "Future perfect 'shall have dispatched' becomes 'shall have been dispatched' in the passive.",
+    "meaning_hi": "",
+    "example": "The invitations shall have been dispatched before Friday evening.",
+    "options": [
+      "The invitations shall have dispatched before Friday evening.",
+      "The invitations shall have had been dispatched before Friday evening.",
+      "The invitations shall have be dispatched before Friday evening.",
+      "The invitations shall have been dispatched before Friday evening."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The photos will be printed by the studio within an hour.",
+    "meaning_en": "Passive future 'will be printed' becomes active 'The studio will print the photos'.",
+    "meaning_hi": "",
+    "example": "The studio will print the photos within an hour.",
+    "options": [
+      "The studio prints the photos within an hour.",
+      "The studio will print the photos within an hour.",
+      "The photos printed by the studio soon.",
+      "The studio had printed the photos in an hour."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Will the authorities enforce the revised ordinance promptly?",
+    "meaning_en": "Future interrogative 'Will...enforce' becomes 'Will...be enforced' in the passive.",
+    "meaning_hi": "",
+    "example": "Will the revised ordinance be enforced promptly by the authorities?",
+    "options": [
+      "Will the revised ordinance be enforced promptly by the authorities?",
+      "Will the revised ordinance being enforced promptly by the authorities?",
+      "Will the revised ordinance have been enforced promptly by the authorities?",
+      "Will the revised ordinance enforced promptly by the authorities?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The package will have been delivered by the courier before 5 PM.",
+    "meaning_en": "Future perfect passive 'will have been delivered' becomes active 'will have delivered'.",
+    "meaning_hi": "",
+    "example": "The courier will have delivered the package before 5 PM.",
+    "options": [
+      "The courier will deliver the package before 5 PM.",
+      "The courier had delivered the package before 5 PM.",
+      "The courier has delivered the package before 5 PM.",
+      "The courier will have delivered the package before 5 PM."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The committee had been debating complex amendments when the bell rang.",
+    "meaning_en": "Past perfect continuous 'had been debating' becomes 'had been being debated' in the passive.",
+    "meaning_hi": "",
+    "example": "Complex amendments had been being debated by the committee when the bell rang.",
+    "options": [
+      "Complex amendments had had been been debated by the committee when the bell rang.",
+      "Complex amendments had been being debated by the committee when the bell rang.",
+      "Complex amendments had be being debated by the committee when the bell rang.",
+      "Complex amendments had debated by the committee when the bell rang."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "A letter is written to the editor by the citizen every week.",
+    "meaning_en": "The agent 'the citizen' becomes the subject and the verb stays in the simple present: 'writes'.",
+    "meaning_hi": "",
+    "example": "The citizen writes a letter to the editor every week.",
+    "options": [
+      "The editor writes a letter to the citizen every week.",
+      "The citizen writes a letter to the editor every week.",
+      "The editor wrote a letter every week.",
+      "The citizen has been writing letters to the editor weekly."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Historians may well reinterpret the artifact after new evidence emerges.",
+    "meaning_en": "'may well reinterpret' becomes 'may well be reinterpreted' in the passive.",
+    "meaning_hi": "",
+    "example": "The artifact may well be reinterpreted by historians after new evidence emerges.",
+    "options": [
+      "The artifact may well be reinterpreted by historians after new evidence emerges.",
+      "The artifact may have been reinterpreted by historians after new evidence emerges.",
+      "The artifact will be reinterpreted well by historians after new evidence emerges.",
+      "The artifact could well be reinterpreting by historians after new evidence emerges."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The land is believed to have been acquired illegally by the company through forged documents.",
+    "meaning_en": "The active form keeps 'is believed to have' and makes 'the company' the subject of 'acquired'.",
+    "meaning_hi": "",
+    "example": "The company is believed to have acquired the land illegally.",
+    "options": [
+      "The company is believed to have acquired the land illegally.",
+      "The company acquired the land illegally, as believed.",
+      "Someone believed the company acquired land illegally.",
+      "The company had acquired land using forged documents."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The jury has delivered a unanimous verdict.",
+    "meaning_en": "Present perfect 'has delivered' becomes 'has been delivered' in the passive.",
+    "meaning_hi": "",
+    "example": "A unanimous verdict has been delivered by the jury.",
+    "options": [
+      "A unanimous verdict has been delivered by the jury.",
+      "A unanimous verdict was being delivered by the jury.",
+      "A unanimous verdict had been delivered by the jury.",
+      "A unanimous verdict is delivered by the jury."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The construction is alleged to have been halted due to environmental violations.",
+    "meaning_en": "The active form keeps 'are alleged to have' and makes 'the authorities' the subject of 'halted'.",
+    "meaning_hi": "",
+    "example": "The authorities are alleged to have halted the construction.",
+    "options": [
+      "It is alleged that the authorities halted the construction.",
+      "Authorities allegedly halted the construction.",
+      "The authorities are alleged to have halted the construction.",
+      "The violation allegedly halted the construction."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Did the council approve the comprehensive zoning plan?",
+    "meaning_en": "A simple past interrogative 'Did the council approve...?' becomes 'Was the comprehensive zoning plan approved by the council?' in the passive.",
+    "meaning_hi": "",
+    "example": "Was the comprehensive zoning plan approved by the council?",
+    "options": [
+      "Has the comprehensive zoning plan been approved by the council?",
+      "Is the comprehensive zoning plan being approved by the council?",
+      "Was the comprehensive zoning plan being approved by the council?",
+      "Was the comprehensive zoning plan approved by the council?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The accused was believed to have been hiding in the hills before being captured.",
+    "meaning_en": "The impersonal passive 'was believed to have been hiding' is best rendered in the active with a definite subject (Authorities) believing the accused was hiding in the hills.",
+    "meaning_hi": "",
+    "example": "Authorities believed the accused was hiding in the hills.",
+    "options": [
+      "The accused believed he was hiding in the hills.",
+      "Someone believed the accused had hidden in the hills.",
+      "It was believed that the accused had been hiding in the hills.",
+      "Authorities believed the accused was hiding in the hills."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Did the analysts anticipate the sudden market downturn?",
+    "meaning_en": "The simple past interrogative becomes 'Was the sudden market downturn anticipated by the analysts?', with the agent introduced by 'by'.",
+    "meaning_hi": "",
+    "example": "Was the sudden market downturn anticipated by the analysts?",
+    "options": [
+      "Was the sudden market downturn anticipated from the analysts?",
+      "Had the sudden market downturn been anticipated by the analysts?",
+      "Was the sudden market downturn anticipated by the analysts?",
+      "Is the sudden market downturn being anticipated by the analysts?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The ministers were being briefed about the situation by the intelligence officers.",
+    "meaning_en": "The past continuous passive 'were being briefed' converts to the past continuous active 'were briefing', keeping the tense intact.",
+    "meaning_hi": "",
+    "example": "The intelligence officers were briefing the ministers.",
+    "options": [
+      "The intelligence officers briefed the ministers about the situation.",
+      "The intelligence officers had briefed the ministers.",
+      "The ministers were briefed by the intelligence officers.",
+      "The intelligence officers were briefing the ministers."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The university may confer honorary degrees upon exceptional scholars.",
+    "meaning_en": "Modal 'may + bare verb' becomes 'may be + past participle' in the passive: 'may be conferred...by the university'.",
+    "meaning_hi": "",
+    "example": "Honorary degrees may be conferred upon exceptional scholars by the university.",
+    "options": [
+      "Honorary degrees might have been conferred upon exceptional scholars by the university.",
+      "Honorary degrees may be conferred upon exceptional scholars by the university.",
+      "Honorary degrees may have conferred upon exceptional scholars by the university.",
+      "Honorary degrees must be being conferred upon exceptional scholars by the university."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The instructions have been misunderstood by many candidates.",
+    "meaning_en": "The present perfect passive 'have been misunderstood' converts to the present perfect active 'have misunderstood', preserving the tense.",
+    "meaning_hi": "",
+    "example": "Many candidates have misunderstood the instructions.",
+    "options": [
+      "Many candidates misunderstood the instructions.",
+      "Many candidates have misunderstood the instructions.",
+      "The instructions misunderstood the candidates.",
+      "The candidates misunderstand the instructions."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The team will be revising the algorithms during the workshop.",
+    "meaning_en": "The future continuous active 'will be revising' takes the future continuous passive form 'will be being revised', preserving the tense even though it reads awkwardly.",
+    "meaning_hi": "",
+    "example": "The algorithms will be being revised during the workshop.",
+    "options": [
+      "The algorithms were being revised during the workshop.",
+      "The algorithms will be been revised during the workshop.",
+      "The algorithms will be revised during the workshop.",
+      "The algorithms will be being revised during the workshop."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The children were made to apologize by the principal for their behavior.",
+    "meaning_en": "The causative passive 'were made to apologize by the principal' becomes the active causative 'The principal made the children apologize' (bare infinitive in the active).",
+    "meaning_hi": "",
+    "example": "The principal made the children apologize for their behavior.",
+    "options": [
+      "The principal was made to apologize to the children.",
+      "The principal had made the children apologize.",
+      "The principal made the children apologize for their behavior.",
+      "The principal was apologizing to the children for their behavior."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Someone must have tampered with the encryption keys.",
+    "meaning_en": "'Must have tampered with' becomes 'must have been tampered with', with the vague agent 'someone' dropped and the phrasal verb's preposition retained.",
+    "meaning_hi": "",
+    "example": "The encryption keys must have been tampered with.",
+    "options": [
+      "The encryption keys must have been tampered with.",
+      "The encryption keys must have tampered by someone.",
+      "The encryption keys must be tampered with by someone.",
+      "The encryption keys must had been tampered with."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "A solution has been suggested by the team to resolve the issue.",
+    "meaning_en": "The present perfect passive 'has been suggested by the team' converts to the present perfect active 'The team has suggested', preserving the tense.",
+    "meaning_hi": "",
+    "example": "The team has suggested a solution to resolve the issue.",
+    "options": [
+      "The team had suggested a solution to resolve the issue.",
+      "The team was suggesting a solution to resolve the issue.",
+      "The team suggested a solution to resolve the issue.",
+      "The team has suggested a solution to resolve the issue."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Have the engineers resolved the calibration issue yet?",
+    "meaning_en": "The present perfect interrogative 'Have the engineers resolved...?' becomes 'Has the calibration issue been resolved by the engineers yet?' in the passive.",
+    "meaning_hi": "",
+    "example": "Has the calibration issue been resolved by the engineers yet?",
+    "options": [
+      "Has the calibration issue had been resolved by the engineers yet?",
+      "Has the calibration issue been resolved by the engineers yet?",
+      "Has the calibration issue be resolved by the engineers yet?",
+      "Has the calibration issue resolved by the engineers yet?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The injured man was taken to the hospital by some villagers.",
+    "meaning_en": "The simple past passive 'was taken...by some villagers' becomes the simple past active 'Some villagers took the injured man to the hospital.'",
+    "meaning_hi": "",
+    "example": "Some villagers took the injured man to the hospital.",
+    "options": [
+      "Some villagers take the injured man to the hospital.",
+      "Some villagers were taking the injured man to the hospital.",
+      "Some villagers had taken the injured man to the hospital.",
+      "Some villagers took the injured man to the hospital."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They were showing the movie at 7 pm.",
+    "meaning_en": "The active sentence is past continuous ('were showing'). Its passive form is 'was/were being + past participle' â†’ 'The movie was being shown at 7 pm.'",
+    "meaning_hi": "",
+    "example": "The movie was being shown at 7 pm.",
+    "options": [
+      "The movie is shown at 7 pm.",
+      "The movie was shown at 7 pm.",
+      "The movie was being shown at 7 pm.",
+      "The movie has been shown at 7 pm."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "A decision has been taken to have the proposal reviewed by an external panel.",
+    "meaning_en": "The active version supplies a subject ('They') for 'a decision has been taken' and preserves the causative 'have/get ... reviewed' structure. The other options change the meaning or tense.",
+    "meaning_hi": "",
+    "example": "They have decided to get the proposal reviewed by an external panel.",
+    "options": [
+      "An external panel has reviewed the proposal.",
+      "The proposal is being reviewed by an external panel.",
+      "They have decided to get the proposal reviewed by an external panel.",
+      "The proposal was reviewed by the panel as per the decision."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The professor could have been explaining differential topology for hours.",
+    "meaning_en": "The active is in the perfect continuous modal form ('could have been explaining'). Its passive is 'could have been being explained' â€” the only grammatically formed option.",
+    "meaning_hi": "",
+    "example": "Differential topology could have been being explained for hours by the professor.",
+    "options": [
+      "Differential topology could have be being explained for hours by the professor.",
+      "Differential topology could have explained for hours by the professor.",
+      "Differential topology could have been being explained for hours by the professor.",
+      "Differential topology could have had been been explained for hours by the professor."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The documents had been submitted by the assistant before the deadline.",
+    "meaning_en": "The passive is past perfect ('had been submitted'). The corresponding active retains past perfect tense: 'The assistant had submitted the documents before the deadline.'",
+    "meaning_hi": "",
+    "example": "The assistant had submitted the documents before the deadline.",
+    "options": [
+      "The assistant submits the documents before the deadline.",
+      "The assistant had submitted the documents before the deadline.",
+      "The assistant was submitting the documents before the deadline.",
+      "The assistant is submitting the documents before the deadline."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The nurse will give you the injection.",
+    "meaning_en": "Simple future active ('will give') becomes 'will be given' in the passive. Taking the indirect object 'you' as subject: 'You will be given the injection by the nurse.'",
+    "meaning_hi": "",
+    "example": "You will be given the injection by the nurse.",
+    "options": [
+      "You will be given the injection by the nurse.",
+      "You are given the injection by the nurse.",
+      "You will have been given the injection by the nurse.",
+      "You were being given the injection by the nurse."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The audience was made to believe that the product was revolutionary.",
+    "meaning_en": "The causative passive 'was made to believe' becomes active 'made (someone) believe', with an agent ('The presenter') supplied: 'The presenter made the audience believe the product was revolutionary.'",
+    "meaning_hi": "",
+    "example": "The presenter made the audience believe the product was revolutionary.",
+    "options": [
+      "The presenter made the audience believe the product was revolutionary.",
+      "The audience believed the product to be revolutionary.",
+      "The audience was forced to believe in the product.",
+      "The presenter convinced the audience of the product's use."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They had been negotiating the deal for months.",
+    "meaning_en": "Past perfect continuous active becomes 'had been being + past participle' in passive.",
+    "meaning_hi": "",
+    "example": "The deal had been being negotiated for months.",
+    "options": [
+      "The deal had been negotiating for months.",
+      "The deal had been being negotiated for months.",
+      "The deal has been being negotiated for months.",
+      "The deal was being negotiated for months."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The possibility of the files being leaked before the official release was not ruled out.",
+    "meaning_en": "The active version keeps the negative 'did not rule out' and a clear subject ('someone').",
+    "meaning_hi": "",
+    "example": "Someone did not rule out the possibility that the files were leaked before release.",
+    "options": [
+      "Officials ruled out the leak before the files were released.",
+      "The leak of the files was ruled out before the release.",
+      "Someone did not rule out the possibility that the files were leaked before release.",
+      "The release happened before ruling out the leak possibility."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The storm damaged many houses.",
+    "meaning_en": "Simple past active ('damaged') becomes 'were + past participle' in passive.",
+    "meaning_hi": "",
+    "example": "Many houses were damaged by the storm.",
+    "options": [
+      "Many houses are damaged by the storm.",
+      "Many houses had been damaged by the storm.",
+      "Many houses were damaged by the storm.",
+      "Many houses have been damaged by the storm."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The findings were interpreted to have been misrepresented by the spokesperson in the official release.",
+    "meaning_en": "The spokesperson becomes the active subject of 'misrepresented the findings'.",
+    "meaning_hi": "",
+    "example": "The spokesperson is believed to have misrepresented the findings.",
+    "options": [
+      "It is believed that the spokesperson misrepresented the findings.",
+      "The official release was said to have misrepresented the spokesperson.",
+      "The spokesperson is believed to have misrepresented the findings.",
+      "It was believed that the spokesperson had misinterpreted the release."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They feed the animals twice a day.",
+    "meaning_en": "Simple present active ('feed') becomes 'are + past participle' in passive.",
+    "meaning_hi": "",
+    "example": "The animals are fed twice a day.",
+    "options": [
+      "The animals are fed twice a day.",
+      "The animals were fed twice a day.",
+      "The animals are being fed twice a day.",
+      "The animals have been fed twice a day."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The draft is understood to have been reviewed by the legal department last week.",
+    "meaning_en": "The legal department becomes the active subject of 'reviewed the draft'.",
+    "meaning_hi": "",
+    "example": "The legal department is understood to have reviewed the draft last week.",
+    "options": [
+      "The legal department is understood to have reviewed the draft last week.",
+      "The draft was reviewed last week, as is understood.",
+      "It was understood the legal team is reviewing the draft.",
+      "The draft understood itself to be reviewed."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The agent could have sold the house.",
+    "meaning_en": "'Could have + past participle' active becomes 'could have been + past participle' in passive.",
+    "meaning_hi": "",
+    "example": "The house could have been sold by the agent.",
+    "options": [
+      "The house could have been sold by the agent.",
+      "The house could be sold by the agent.",
+      "The house could have sold by the agent.",
+      "The house could had been sold by the agent."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "New protocols are expected to have been implemented by the end of the fiscal year.",
+    "meaning_en": "Authorities become the active subject expected to implement the protocols.",
+    "meaning_hi": "",
+    "example": "Authorities are expected to implement new protocols by fiscal year-end.",
+    "options": [
+      "Authorities implemented the protocols by the fiscal year-end.",
+      "The administration expects to implement protocols soon.",
+      "Authorities are expected to implement new protocols by fiscal year-end.",
+      "The protocols were implemented as expected."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The authorities are to close the road.",
+    "meaning_en": "'Are to + verb' active becomes 'is to be + past participle' in passive.",
+    "meaning_hi": "",
+    "example": "The road is to be closed by the authorities.",
+    "options": [
+      "The road to be closed by the authorities.",
+      "The road is to be closed by the authorities.",
+      "The road has to be closed by the authorities.",
+      "The road will be closed by the authorities."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The allegation that the system had been hacked was denied by the company.",
+    "meaning_en": "'The company' becomes the active subject of 'denied'.",
+    "meaning_hi": "",
+    "example": "The company denied that the system had been hacked.",
+    "options": [
+      "The company denied that the system had been hacked.",
+      "The hacking of the system was denied by the company.",
+      "It was denied that the hacking occurred by the company.",
+      "The company had denied hacking the system."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They will be delivering the parcels this afternoon.",
+    "meaning_en": "Future continuous active ('will be delivering') becomes 'will be being + past participle' in passive.",
+    "meaning_hi": "",
+    "example": "The parcels will be being delivered this afternoon.",
+    "options": [
+      "The parcels will be being delivered this afternoon.",
+      "The parcels are being delivered this afternoon.",
+      "The parcels will being delivered this afternoon.",
+      "The parcels will have been delivered this afternoon."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The road was blocked by the fallen tree.",
+    "meaning_en": "The agent ('the fallen tree') becomes the active subject of the simple past verb 'blocked'.",
+    "meaning_hi": "",
+    "example": "The fallen tree blocked the road.",
+    "options": [
+      "The fallen tree blocked the road.",
+      "The fallen tree had blocked the road.",
+      "The road blocks the tree.",
+      "The road had been blocked by the tree."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "A new bridge is being constructed by the city council.",
+    "meaning_en": "The original passive sentence is in the present continuous tense ('is being constructed'), so the active form must preserve this tense: 'The city council is constructing a new bridge.'",
+    "meaning_hi": "",
+    "example": "The city council is constructing a new bridge.",
+    "options": [
+      "The city council is constructing a new bridge.",
+      "A new bridge constructed the city council.",
+      "The city council constructed a new bridge.",
+      "The city council has constructed a new bridge."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The renowned author's newest novel will have been released by the end of the year.",
+    "meaning_en": "Note: the given sentence is itself in the passive voice, so despite the question's wording ('passive voice transformation'), it is actually asking for the active voice form. The future perfect active equivalent is 'The renowned author will have released his newest novel by the end of the year.'",
+    "meaning_hi": "",
+    "example": "The renowned author will have released his newest novel by the end of the year.",
+    "options": [
+      "The renowned author will have been releasing his newest novel by the end of the year.",
+      "The renowned author will release his newest novel by the end of the year.",
+      "The renowned author will have released his newest novel by the end of the year.",
+      "The renowned author has released his newest novel by the end of the year."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "You should have kept us informed about the progress of the investigation.",
+    "meaning_en": "'Should have + past participle' (modal perfect) in active voice becomes 'should have been + past participle' in passive voice. Hence: 'We should have been kept informed...by you.'",
+    "meaning_hi": "",
+    "example": "We should have been kept informed about the progress of the investigation by you.",
+    "options": [
+      "We should be kept informed about the progress of the investigation by you.",
+      "We should have been kept informed about the progress of the investigation by you.",
+      "We should have been keeping informed about the progress of the investigation by you.",
+      "We should have kept informed about the progress of the investigation by you."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Let the documents be submitted to the head of the department by the end of the week.",
+    "meaning_en": "The passive imperative 'Let X be done' converts to a direct active imperative: 'Do X' â€” hence 'Submit the documents...' preserves the original imperative meaning and tense.",
+    "meaning_hi": "",
+    "example": "Submit the documents to the head of the department by the end of the week.",
+    "options": [
+      "You should submit the documents to the head of the department by the end of the week.",
+      "Submit the documents to the head of the department by the end of the week.",
+      "The documents will be submitted to the head of the department by the end of the week.",
+      "Let the head of the department submit the documents by the end of the week."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They had not closed the shop.",
+    "meaning_en": "The past perfect tense 'had not closed' in active voice becomes 'had not been closed' in passive voice, preserving the same tense.",
+    "meaning_hi": "",
+    "example": "The shop had not been closed by them.",
+    "options": [
+      "The shop has not been closed by them.",
+      "The shop was not closed by them.",
+      "The shop had not been closed by them.",
+      "The shop is not closed by them."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Let the emergency meeting be convened at 10 AM without delay.",
+    "meaning_en": "The passive imperative 'Let X be done' converts to the direct active imperative 'Do X' â€” hence 'Convene the emergency meeting...'. Option 2 ('should be convened') is still in the passive voice, so it is not a valid active-form conversion.",
+    "meaning_hi": "",
+    "example": "Convene the emergency meeting at 10 AM without delay.",
+    "options": [
+      "Convene the emergency meeting at 10 AM without delay.",
+      "The emergency meeting should be convened at 10 AM without delay.",
+      "They will convene the emergency meeting at 10 AM without delay.",
+      "An emergency meeting is convened at 10 AM without delay."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The students are completing their assignments.",
+    "meaning_en": "The present continuous active tense 'are completing' converts to the present continuous passive 'are being completed', preserving the ongoing sense of the action.",
+    "meaning_hi": "",
+    "example": "The assignments are being completed by the students.",
+    "options": [
+      "The assignments are being completed by the students.",
+      "The assignments are completed by the students.",
+      "The assignments were completed by the students.",
+      "The assignments have been completed by the students."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Why was the window broken by the child?",
+    "meaning_en": "Converting the passive interrogative sentence to active voice while preserving the simple past tense gives \"Why did the child break the window?\"",
+    "meaning_hi": "",
+    "example": "Why did the child break the window?",
+    "options": [
+      "Why did the child break the window?",
+      "The child broke the window why?",
+      "Why the child broke the window?",
+      "Why has the child broken the window?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "She buys a new book every month.",
+    "meaning_en": "The original sentence is in simple present tense, so the passive form must also be in simple present tense: \"is bought.\"",
+    "meaning_hi": "",
+    "example": "A new book is bought by her every month.",
+    "options": [
+      "A new book is bought by her every month.",
+      "A new book was bought by her every month.",
+      "A new book has been bought by her every month.",
+      "A new book is being bought by her every month."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Why had the highly sensitive company report been rejected by the board of directors?",
+    "meaning_en": "The passive sentence is in past perfect tense (\"had been rejected\"), so the active form must retain the same tense: \"had rejected.\"",
+    "meaning_hi": "",
+    "example": "Why had the board of directors rejected the highly sensitive company report?",
+    "options": [
+      "Why had the board of directors rejected the highly sensitive company report?",
+      "Why the board of directors had rejected the highly sensitive company report?",
+      "The board of directors had rejected the highly sensitive company report, why?",
+      "Why did the board of directors reject the highly sensitive company report?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The chef had prepared the special dish.",
+    "meaning_en": "The original sentence is in past perfect tense, so the passive form must also use past perfect: \"had been prepared.\"",
+    "meaning_hi": "",
+    "example": "The special dish had been prepared by the chef.",
+    "options": [
+      "The special dish was prepared by the chef.",
+      "The special dish had been prepared by the chef.",
+      "The special dish has been prepared by the chef.",
+      "The special dish is being prepared by the chef."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The national anthem is sung at the beginning of every match.",
+    "meaning_en": "Since no specific agent is mentioned in the passive sentence, a generic subject like \"People\" is used in the active form, keeping the simple present tense.",
+    "meaning_hi": "",
+    "example": "People sing the national anthem at the beginning of every match.",
+    "options": [
+      "The national anthem sings at the beginning of every match.",
+      "People sing the national anthem at the beginning of every match.",
+      "They are singing the national anthem at the beginning of every match.",
+      "The national anthem has been sung at the beginning of every match."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The archaeologists, after many years of searching, have discovered a hidden ancient tomb.",
+    "meaning_en": "The active sentence is in present perfect tense (\"have discovered\"), so the passive form must also use present perfect: \"has been discovered.\"",
+    "meaning_hi": "",
+    "example": "A hidden ancient tomb has been discovered by the archaeologists after many years of searching.",
+    "options": [
+      "A hidden ancient tomb was discovered by the archaeologists after many years of searching.",
+      "A hidden ancient tomb has been discovered by the archaeologists after many years of searching.",
+      "A hidden ancient tomb had been discovered by the archaeologists after many years of searching.",
+      "A hidden ancient tomb is discovered by the archaeologists after many years of searching."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Why do they always make such a big fuss about trivial matters?",
+    "meaning_en": "The active sentence is in simple present tense, so the passive interrogative form must also use simple present: \"is...made.\"",
+    "meaning_hi": "",
+    "example": "Why is such a big fuss always made about trivial matters?",
+    "options": [
+      "Why is such a big fuss always made about trivial matters?",
+      "Why such a big fuss is always made about trivial matters?",
+      "Why was such a big fuss always made about trivial matters?",
+      "Why has such a big fuss always been made about trivial matters?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The report is expected to be delivered by the committee next week.",
+    "meaning_en": "The passive construction \"is expected to be delivered\" converts to the active form \"expects to deliver,\" keeping the same present simple tense and meaning.",
+    "meaning_hi": "",
+    "example": "The committee expects to deliver the report next week.",
+    "options": [
+      "The committee is expecting to deliver the report next week.",
+      "The committee is expected to deliver the report next week.",
+      "The committee expects to deliver the report next week.",
+      "The committee will deliver the report next week."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Will the company launch the new product?",
+    "meaning_en": "For interrogative sentences, the auxiliary \"will\" moves before the subject in the passive form: \"Will...be launched?\"",
+    "meaning_hi": "",
+    "example": "Will the new product be launched by the company?",
+    "options": [
+      "The new product will be launched by the company?",
+      "Will the new product be launched by the company?",
+      "Is the new product launched by the company?",
+      "The new product would be launched by the company?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "It was believed that the secret formula had been stolen by a rival company.",
+    "meaning_en": "Since no specific agent is given for \"it was believed,\" a generic subject \"People\" is used, and \"had been stolen\" becomes \"had stolen\" in the active form.",
+    "meaning_hi": "",
+    "example": "People believed that a rival company had stolen the secret formula.",
+    "options": [
+      "A rival company believed that the secret formula had been stolen.",
+      "People believed that a rival company had stolen the secret formula.",
+      "The secret formula was stolen by a rival company.",
+      "A rival company stole the secret formula, it was believed."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The government will be implementing the new environmental regulations next month.",
+    "meaning_en": "The active sentence uses future continuous tense (\"will be implementing\"), so the passive form must also use future continuous: \"will be being implemented,\" as marked in the official key.",
+    "meaning_hi": "",
+    "example": "The new environmental regulations will be being implemented by the government next month.",
+    "options": [
+      "The new environmental regulations will be implemented by the government next month.",
+      "The new environmental regulations will be being implemented by the government next month.",
+      "The new environmental regulations are being implemented by the government next month.",
+      "The new environmental regulations will have been implemented by the government next month."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The report could not be accessed without the proper security clearance.",
+    "meaning_en": "Since no specific agent is mentioned, a generic subject \"They\" is used in the active form, keeping the modal \"could not\" and tense consistent.",
+    "meaning_hi": "",
+    "example": "They could not access the report without the proper security clearance.",
+    "options": [
+      "They could not access the report without the proper security clearance.",
+      "The report cannot be accessed without the proper security clearance.",
+      "Without the proper security clearance, the report was not accessed.",
+      "The proper security clearance could not access the report."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "My brother built this house in 2005.",
+    "meaning_en": "The active sentence is in simple past tense, so the passive form must also use simple past tense: \"was built.\"",
+    "meaning_hi": "",
+    "example": "This house was built by my brother in 2005.",
+    "options": [
+      "This house was built by my brother in 2005.",
+      "This house is built by my brother in 2005.",
+      "This house is built by my brother in 2005.",
+      "This house was being built by my brother in 2005."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The old castle was believed to have been built by a legendary king.",
+    "meaning_en": "Since no specific agent is given for \"was believed,\" a generic subject \"People\" is used, and \"had been built\" becomes \"had built\" in the active form.",
+    "meaning_hi": "",
+    "example": "People believed that a legendary king had built the old castle.",
+    "options": [
+      "A legendary king built the old castle, it was believed.",
+      "People believed that a legendary king had built the old castle.",
+      "The old castle had been built by a legendary king, it was believed.",
+      "A legendary king was believed to have built the old castle."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The dedicated researchers have already published the groundbreaking findings in a prestigious scientific journal.",
+    "meaning_en": "The active sentence is in present perfect tense (\"have already published\"), so the passive form must also use present perfect: \"have already been published.\"",
+    "meaning_hi": "",
+    "example": "The groundbreaking findings have already been published in a prestigious scientific journal by the dedicated researchers.",
+    "options": [
+      "The groundbreaking findings were already published in a prestigious scientific journal by the dedicated researchers.",
+      "The groundbreaking findings have already been published in a prestigious scientific journal by the dedicated researchers.",
+      "The groundbreaking findings have already published in a prestigious scientific journal by the dedicated researchers.",
+      "The groundbreaking findings are already published in a prestigious scientific journal by the dedicated researchers."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The city council's decision is thought to be influenced by powerful lobbying groups.",
+    "meaning_en": "Since no specific agent is given for \"is thought,\" a generic subject \"People\" is used, and the passive infinitive \"to be influenced\" becomes the active \"influence\" in the subordinate clause.",
+    "meaning_hi": "",
+    "example": "People think that powerful lobbying groups influence the city council's decision.",
+    "options": [
+      "Powerful lobbying groups think that the city council's decision is influenced.",
+      "Powerful lobbying groups are thought to influence the city council's decision.",
+      "People think that powerful lobbying groups influence the city council's decision.",
+      "The city council thinks that powerful lobbying groups influence the decision."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Why did the brilliant detective suddenly solve the complex mystery?",
+    "meaning_en": "The active sentence is in simple past tense, so the passive interrogative form must also use simple past: \"was...solved.\"",
+    "meaning_hi": "",
+    "example": "Why was the complex mystery suddenly solved by the brilliant detective?",
+    "options": [
+      "Why was the complex mystery suddenly solved by the brilliant detective?",
+      "Why was the complex mystery suddenly been solved by the brilliant detective?",
+      "Why has the complex mystery been suddenly solved by the brilliant detective?",
+      "Why did the complex mystery be solved by the brilliant detective?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The students are said to be struggling with the new curriculum.",
+    "meaning_en": "Since no specific agent is given for \"are said,\" a generic subject \"They\" is used, and the passive infinitive \"to be struggling\" becomes the active \"are struggling\" in the subordinate clause, keeping the present tense.",
+    "meaning_hi": "",
+    "example": "They say that the students are struggling with the new curriculum.",
+    "options": [
+      "The new curriculum is said to be struggling with the students.",
+      "They say that the students are struggling with the new curriculum.",
+      "The students are struggling with the new curriculum, it is said.",
+      "Someone said that the students were struggling with the new curriculum."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Someone is cleaning the windows.",
+    "meaning_en": "The active sentence is in present continuous tense, so the passive form must also use present continuous: \"are being cleaned.\"",
+    "meaning_hi": "",
+    "example": "The windows are being cleaned.",
+    "options": [
+      "The windows were being cleaned.",
+      "The windows have been cleaned.",
+      "The windows are being cleaned.",
+      "The windows are cleaned."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "You must finish your homework.",
+    "meaning_en": "Modal 'must' + base verb in active voice becomes 'must be + past participle' in passive voice.",
+    "meaning_hi": "",
+    "example": "Your homework must be finished by you.",
+    "options": [
+      "Your homework must be finished by you.",
+      "Your homework must being finished by you.",
+      "Your homework must have been finished by you.",
+      "Your homework is must be finished by you."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The new intern had forgotten to lock the laboratory door before leaving.",
+    "meaning_en": "The past perfect active 'had forgotten to lock' becomes past perfect passive 'had been forgotten to be locked' when the object of the infinitive is made the subject.",
+    "meaning_hi": "",
+    "example": "The laboratory door had been forgotten to be locked by the new intern before leaving.",
+    "options": [
+      "The laboratory door was forgotten to be locked by the new intern before leaving.",
+      "The laboratory door had been forgotten to be locked by the new intern before leaving.",
+      "The laboratory door has been forgotten to be locked by the new intern before leaving.",
+      "The laboratory door had forgotten to lock by the new intern before leaving."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They were discussing the new plan.",
+    "meaning_en": "Past continuous active ('were discussing') becomes past continuous passive ('was being discussed').",
+    "meaning_hi": "",
+    "example": "The new plan was being discussed by them.",
+    "options": [
+      "The new plan has been discussed by them.",
+      "The new plan was discussed by them.",
+      "The new plan was being discussed by them.",
+      "The new plan is being discussed by them."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The famous art curator, who is known for his unique taste, is organizing a special exhibition.",
+    "meaning_en": "Present continuous active ('is organizing') becomes present continuous passive ('is being organized'); the relative clause describing the curator is retained unchanged.",
+    "meaning_hi": "",
+    "example": "A special exhibition is being organized by the famous art curator, who is known for his unique taste.",
+    "options": [
+      "A special exhibition is organized by the famous art curator.",
+      "A special exhibition is being organized by the famous art curator, who is known for his unique taste.",
+      "A special exhibition was being organized by the famous art curator.",
+      "A special exhibition has been organized by the famous art curator."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The renowned professor had been given a standing ovation by the students after her powerful lecture.",
+    "meaning_en": "The past perfect passive ('had been given') converts to past perfect active ('had given'), with the students as the subject and the professor as the object.",
+    "meaning_hi": "",
+    "example": "After her powerful lecture, the students had given the renowned professor a standing ovation.",
+    "options": [
+      "The students had been giving the renowned professor a standing ovation after her powerful lecture.",
+      "The students gave the renowned professor a standing ovation after her powerful lecture.",
+      "After her powerful lecture, the students had given the renowned professor a standing ovation.",
+      "After her powerful lecture, a standing ovation had been given to the renowned professor by the students."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They will have built the bridge by next year.",
+    "meaning_en": "Future perfect active ('will have built') becomes future perfect passive ('will have been built').",
+    "meaning_hi": "",
+    "example": "The bridge will have been built by them by next year.",
+    "options": [
+      "The bridge will have been built by them by next year.",
+      "The bridge will be built by them by next year.",
+      "The bridge would have been built by them by next year.",
+      "The bridge has been built by them by next year."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The children are making colorful decorations for the upcoming school festival.",
+    "meaning_en": "Present continuous active ('are making') becomes present continuous passive ('are being made').",
+    "meaning_hi": "",
+    "example": "Colorful decorations are being made by the children for the upcoming school festival.",
+    "options": [
+      "Colorful decorations are made by the children for the upcoming school festival.",
+      "Colorful decorations are being made by the children for the upcoming school festival.",
+      "Colorful decorations were being made by the children for the upcoming school festival.",
+      "Colorful decorations have been made by the children for the upcoming school festival."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The decision will have been announced before the meeting concludes.",
+    "meaning_en": "Future perfect passive ('will have been announced') becomes future perfect active ('will have announced') with a general subject 'they' performing the action.",
+    "meaning_hi": "",
+    "example": "They will have announced the decision before the meeting concludes.",
+    "options": [
+      "Someone will announce the decision before the meeting concludes.",
+      "They will have announced the decision before the meeting concludes.",
+      "The decision will be announced before the meeting concludes.",
+      "The meeting will have announced the decision."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The cat drank all the milk.",
+    "meaning_en": "Simple past active ('drank') becomes simple past passive ('was drunk').",
+    "meaning_hi": "",
+    "example": "All the milk was drunk by the cat.",
+    "options": [
+      "All the milk was drunk by the cat.",
+      "All the milk is drunk by the cat.",
+      "All the milk has been drunk by the cat.",
+      "All the milk had been drunk by the cat."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The new CEO has promised to give all employees a substantial bonus at the end of the year.",
+    "meaning_en": "Present perfect active ('has promised to give') becomes present perfect passive with the indirect object as subject: 'All employees have been promised...'.",
+    "meaning_hi": "",
+    "example": "All employees have been promised a substantial bonus at the end of the year by the new CEO.",
+    "options": [
+      "All employees have been promised a substantial bonus at the end of the year by the new CEO.",
+      "A substantial bonus have been promised to all employees by the new CEO at the end of the year.",
+      "All employees will be given a substantial bonus at the end of the year by the new CEO.",
+      "A substantial bonus will be promised to all employees by the new CEO at the end of the year."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "My grandmother tells us stories.",
+    "meaning_en": "Simple present active ('tells') becomes simple present passive ('are told'), with the indirect object 'us' made the subject.",
+    "meaning_hi": "",
+    "example": "We are told stories by my grandmother.",
+    "options": [
+      "We are told stories by my grandmother.",
+      "We were told stories by my grandmother.",
+      "We have been told stories by my grandmother.",
+      "Stories are told to us by my grandmother."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "He claimed to have seen a rare species of bird during his expedition to the Amazon rainforest.",
+    "meaning_en": "For 'claimed to have seen' (a perfect infinitive construction), the object of the infinitive becomes the subject: 'A rare species of bird was claimed to have been seen by him...'.",
+    "meaning_hi": "",
+    "example": "A rare species of bird was claimed to have been seen by him during his expedition to the Amazon rainforest.",
+    "options": [
+      "It was claimed by him that he had seen a rare species of bird during his expedition to the Amazon rainforest.",
+      "A rare species of bird was claimed to have been seen by him during his expedition to the Amazon rainforest.",
+      "A rare species of bird was seen by him during his expedition, it was claimed.",
+      "He claimed that a rare species of bird was seen by him during his expedition."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The message could have been sent by an automated system.",
+    "meaning_en": "Past modal passive ('could have been sent') becomes past modal active ('could have sent'), with 'an automated system' as the subject.",
+    "meaning_hi": "",
+    "example": "An automated system could have sent the message.",
+    "options": [
+      "An automated system could have sent the message.",
+      "The message could be sent by an automated system.",
+      "An automated system might have sent the message.",
+      "The message had been sent by an automated system."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The painting could not be exhibited without being restored first.",
+    "meaning_en": "Modal passive ('could not be exhibited... without being restored') becomes active with a general subject 'they' performing both actions: 'could not exhibit the painting without restoring it first'.",
+    "meaning_hi": "",
+    "example": "They could not exhibit the painting without restoring it first.",
+    "options": [
+      "They could not exhibit the painting without restoring it first.",
+      "The painting could not have been exhibited without being restored.",
+      "The painting could not exhibit itself without being restored first.",
+      "Without being restored first, they could not exhibit the painting."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The board members had to listen to the presentation with rapt attention.",
+    "meaning_en": "Modal obligation active ('had to listen to') becomes modal passive ('had to be listened to'), preserving the phrasal verb 'listen to' as a unit.",
+    "meaning_hi": "",
+    "example": "The presentation had to be listened to with rapt attention by the board members.",
+    "options": [
+      "The presentation had to be listened to with rapt attention by the board members.",
+      "The presentation had been listened to with rapt attention by the board members.",
+      "The presentation was listened to with rapt attention by the board members.",
+      "The presentation had to have been listened to with rapt attention by the board members."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "People say that she will make a great leader someday.",
+    "meaning_en": "'People say that + clause' converts to the passive pattern 'Subject + is said + to + infinitive': 'She is said to make a great leader someday.'",
+    "meaning_hi": "",
+    "example": "She is said to make a great leader someday.",
+    "options": [
+      "She is said to make a great leader someday.",
+      "It is said that she will be made a great leader someday.",
+      "It is said that she will make a great leader someday.",
+      "She is said that she is a prodigy."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The manuscript will have been translated by the time the expedition returns.",
+    "meaning_en": "Future perfect passive ('will have been translated') becomes future perfect active ('will have translated'), with a general subject 'they' performing the action.",
+    "meaning_hi": "",
+    "example": "They will have translated the manuscript by the time the expedition returns.",
+    "options": [
+      "They will have translated the manuscript by the time the expedition returns.",
+      "The expedition will return by the time they translate the manuscript.",
+      "Someone will translate the manuscript by the time the expedition returns.",
+      "They have translated the manuscript by the time the expedition returns."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The ancient manuscript has to be handled with extreme care.",
+    "meaning_en": "'Has to be handled' (modal obligation passive) becomes 'have to handle' in the active voice, with a general subject 'they' performing the action; the modal 'has to' should remain in its original form ('have to'), not be changed to 'must'.",
+    "meaning_hi": "",
+    "example": "They have to handle the ancient manuscript with extreme care.",
+    "options": [
+      "Extreme care has to handle the ancient manuscript.",
+      "The ancient manuscript is handled with extreme care.",
+      "They have to handle the ancient manuscript with extreme care.",
+      "They must handle the ancient manuscript with extreme care."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The head of state will have already addressed the nation about the critical matter.",
+    "meaning_en": "Future perfect active ('will have already addressed') becomes future perfect passive ('will have been addressed').",
+    "meaning_hi": "",
+    "example": "The nation will have been addressed about the critical matter by the head of state.",
+    "options": [
+      "The nation will have been addressed about the critical matter by the head of state.",
+      "The nation will be addressed about the critical matter by the head of state.",
+      "The nation has been addressed about the critical matter by the head of state.",
+      "The nation will have addressed about the critical matter by the head of state."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "We are supposed to submit the final report to the department head by the end of the week.",
+    "meaning_en": "'Are supposed to submit' (active) becomes 'is supposed to be submitted' in the passive, with 'the final report' as the new subject and 'by us' retained to show the original doer.",
+    "meaning_hi": "",
+    "example": "The final report is supposed to be submitted to the department head by the end of the week by us.",
+    "options": [
+      "The final report is supposed to be submitted to the department head by the end of the week by us.",
+      "The final report is to be submitted to the department head by the end of the week by us.",
+      "The final report was supposed to be submitted to the department head by the end of the week.",
+      "We were supposed to submit the final report to the department head by the end of the week."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Why has Purusottam driven Parshuram out of Mainak's house?",
+    "meaning_en": "In the active sentence, Purusottam (subject) drives Parshuram (object) out of Mainak's house. Passive voice must retain this exact logic: Parshuram (now subject) has been driven out ... by Purusottam.",
+    "meaning_hi": "",
+    "example": "Why has Parshuram been driven out of Mainak's house by Purusottam?",
+    "options": [
+      "Why has Purusottam been driven out of Mainak's house by Parshuram?",
+      "Why has Mainak been driven out of Purusottam's house by Parshuram?",
+      "Why has Purusottam been driven out by Parshuram of Mainak's house?",
+      "Why has Parshuram been driven out of Mainak's house by Purusottam?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The company's decision was made known to the public through a press release.",
+    "meaning_en": "The logical subject in the passive sentence is 'the company', so the active form must have 'the company' as subject performing the action of making its decision known.",
+    "meaning_hi": "",
+    "example": "The company made its decision known to the public through a press release.",
+    "options": [
+      "A press release made the company's decision known to the public.",
+      "The public was made known to the company's decision.",
+      "The company made its decision known to the public through a press release.",
+      "A press release was used to make the company's decision known."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The students were made to write a detailed summary of the complex text.",
+    "meaning_en": "With causative verbs like 'made', the active form uses the bare infinitive ('make someone write'), not the to-infinitive, so 'They made the students write...' is correct.",
+    "meaning_hi": "",
+    "example": "They made the students write a detailed summary of the complex text.",
+    "options": [
+      "They made the students write a detailed summary of the complex text.",
+      "The students wrote a detailed summary of the complex text.",
+      "They made the students to write a detailed summary of the complex text.",
+      "The students were made that they should write a detailed summary."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Did the renowned author finally release the highly anticipated sequel to his award-winning novel?",
+    "meaning_en": "The active sentence is in simple past interrogative ('Did ... release'), so the passive form must also be simple past interrogative: 'Was ... released by ...?'",
+    "meaning_hi": "",
+    "example": "Was the highly anticipated sequel to his award-winning novel finally released by the renowned author?",
+    "options": [
+      "Was the highly anticipated sequel to his award-winning novel finally released by the renowned author?",
+      "Has the highly anticipated sequel to his award-winning novel been finally released by the renowned author?",
+      "Was the highly anticipated sequel to his award-winning novel been released by the renowned author?",
+      "Did the highly anticipated sequel to his award-winning novel be released by the renowned author?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "His success is said to have been a result of his relentless determination.",
+    "meaning_en": "'Is said to have been' (present passive with perfect infinitive) converts to active as 'People say that ... has been', preserving both the present reporting tense and the perfect aspect of the reported action.",
+    "meaning_hi": "",
+    "example": "People say that his success has been a result of his relentless determination.",
+    "options": [
+      "People say that his success has been a result of his relentless determination.",
+      "People said that his success was a result of his relentless determination.",
+      "They are saying his success was a result of his relentless determination.",
+      "His relentless determination caused his success, it is said."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "You cannot allow such an egregious error in the official report to go unnoticed.",
+    "meaning_en": "The passive form retains the modal 'cannot' and correctly converts the object 'such an egregious error' to the subject while preserving 'to go unnoticed' and adding the agent 'by you'.",
+    "meaning_hi": "",
+    "example": "Such an egregious error in the official report cannot be allowed to go unnoticed by you.",
+    "options": [
+      "Such an egregious error in the official report cannot be allowed to go unnoticed by you.",
+      "Such an egregious error in the official report cannot be allowed to be unnoticed by you.",
+      "It cannot be allowed by you that such an egregious error in the official report goes unnoticed.",
+      "Such an egregious error in the official report must not be allowed to go unnoticed by you."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The board was made to reconsider the proposal after a strong shareholder backlash.",
+    "meaning_en": "The passive sentence's implied agent, 'a strong shareholder backlash', becomes the subject in the active voice, using the causative structure 'made the board reconsider'.",
+    "meaning_hi": "",
+    "example": "A strong shareholder backlash made the board reconsider the proposal.",
+    "options": [
+      "The board reconsidered the proposal after a strong shareholder backlash.",
+      "A strong shareholder backlash made the board reconsider the proposal.",
+      "A strong shareholder backlash was made to reconsider the proposal.",
+      "After a strong shareholder backlash, the board was forced to reconsider the proposal."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They are building a new shopping mall.",
+    "meaning_en": "The active sentence is in present continuous tense, so its passive form must also be present continuous: 'is being built by them'.",
+    "meaning_hi": "",
+    "example": "A new shopping mall is being built by them.",
+    "options": [
+      "A new shopping mall has been built by them.",
+      "A new shopping mall is being built by them.",
+      "A new shopping mall is built by them.",
+      "A new shopping mall was being built by them."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Did she read the book?",
+    "meaning_en": "The active question is in simple past, so the passive interrogative form must also be simple past: 'Was the book read by her?'",
+    "meaning_hi": "",
+    "example": "Was the book read by her?",
+    "options": [
+      "The book was read by her?",
+      "Had the book been read by her?",
+      "Was the book read by her?",
+      "Is the book read by her?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The nuns have to leave the door of the church open for all the parishioners to get in.",
+    "meaning_en": "The active sentence 'have to leave...open' (modal obligation + object complement) converts to passive as 'has to be left open by...', correctly preserving the modal obligation and the adjective 'open'.",
+    "meaning_hi": "",
+    "example": "The door of the church has to be left open by the nuns for all the parishioners to get in.",
+    "options": [
+      "The door of the church has been left open by the nuns for all the parishioners to get in.",
+      "The door of the church has to be left open by the nuns for all the parishioners to get in.",
+      "The door of the church has to be left opened by the nuns for all the parishioners to get in.",
+      "The door of the church has to be left open for all the parishioners by the nuns to get in."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "It is being claimed that a new species has been discovered in the Amazon.",
+    "meaning_en": "'It is being claimed' (present continuous passive) becomes active as 'Someone is claiming', preserving both the present continuous tense and the impersonal subject as 'someone'.",
+    "meaning_hi": "",
+    "example": "Someone is claiming that a new species has been discovered in the Amazon.",
+    "options": [
+      "Someone is claiming that a new species has been discovered in the Amazon.",
+      "A new species has been discovered in the Amazon, it is being claimed.",
+      "Someone claims that a new species has been discovered in the Amazon.",
+      "Someone is claiming that they have discovered a new species in the Amazon."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "What are they building?",
+    "meaning_en": "The active question is present continuous ('are building'), so the passive form must also be present continuous: 'What is being built by them?'",
+    "meaning_hi": "",
+    "example": "What is being built by them?",
+    "options": [
+      "What has been built by them?",
+      "What is being built by them?",
+      "What was built by them?",
+      "What were they building?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The old woman watered the plants every morning.",
+    "meaning_en": "The active sentence is in simple past tense, so the passive form must also be simple past: 'were watered by the old woman'.",
+    "meaning_hi": "",
+    "example": "The plants were watered by the old woman every morning.",
+    "options": [
+      "The plants was watered by the old woman every morning.",
+      "The plants were watered by the old woman every morning.",
+      "The plants are watered by the old woman every morning.",
+      "The plants had been watered by the old woman every morning."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "It has been being debated for months whether the new law will be enacted or not.",
+    "meaning_en": "'Has been being debated' (present perfect continuous passive) converts to active as 'have been debating' (present perfect continuous active), with an indefinite subject 'they'.",
+    "meaning_hi": "",
+    "example": "They have been debating for months whether the new law will be enacted or not.",
+    "options": [
+      "They have been debating for months whether the new law will be enacted or not.",
+      "The new law will be enacted or not, which they have been debating for months.",
+      "Whether the new law will be enacted or not has been debated for months.",
+      "They have been being debated for months whether the new law will be enacted or not."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "We have visited Paris many times.",
+    "meaning_en": "The active sentence is present perfect tense, so the passive form must also be present perfect: 'has been visited by us'.",
+    "meaning_hi": "",
+    "example": "Paris has been visited by us many times.",
+    "options": [
+      "Paris was visited by us many times.",
+      "Paris has been visited by us many times.",
+      "Paris had been visited by us many times.",
+      "Paris is visited by us many times."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Make sure that your children have completed their tasks before going to school.",
+    "meaning_en": "Imperative sentences using 'Make sure' convert to passive using the fixed structure 'Let it be made sure that...', while correctly retaining 'their tasks' and 'before going to school'.",
+    "meaning_hi": "",
+    "example": "Let it be made sure that their tasks have been completed by your children before going to school.",
+    "options": [
+      "Let it be made sure that their tasks have been completed by your children before going to school.",
+      "Made sure that their tasks have been complete by your children before going to school.",
+      "Let it be sure that their tasks have been completed by your children before going to school.",
+      "Let it be made sure that your tasks have been completed by your children after going to school."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Suhani has written a beautiful poem on how to make your country proud.",
+    "meaning_en": "The infinitive phrase 'how to make your country proud' remains unchanged in the passive form; only the main clause 'has written' converts to 'has been written by Suhani'.",
+    "meaning_hi": "",
+    "example": "A beautiful poem on how to make your country proud has been written by Suhani.",
+    "options": [
+      "A beautiful poem on how to to be made your country proud has been written by Suhani.",
+      "A beautiful poem on how your country to be made proud had been written by Suhani.",
+      "A beautiful poem on how to make your country proud has been written by Suhani.",
+      "A beautiful poem on how to make your country proud of been written by Suhani."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The decision was made at the meeting.",
+    "meaning_en": "Since no agent is specified in the passive sentence, the active form uses the indefinite subject 'someone', preserving the simple past tense.",
+    "meaning_hi": "",
+    "example": "Someone made the decision at the meeting.",
+    "options": [
+      "Someone made the decision at the meeting.",
+      "The decision is made at the meeting.",
+      "Someone makes the decision at the meeting.",
+      "The meeting made the decision."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The concert will have been broadcast by the time we arrive.",
+    "meaning_en": "The future perfect passive 'will have been broadcast' converts to future perfect active 'will have broadcast', with an indefinite subject 'they'.",
+    "meaning_hi": "",
+    "example": "They will have broadcast the concert by the time we arrive.",
+    "options": [
+      "The concert will broadcast by the time we arrive.",
+      "They will broadcast the concert by the time we arrive.",
+      "They will have broadcast the concert by the time we arrive.",
+      "The concert has been broadcast by the time we arrive."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Always keep in mind that truth pervades the whole universe.",
+    "meaning_en": "Imperative sentences use 'Let it always be kept in mind that...' as the fixed passive structure, with the embedded clause 'truth pervades the whole universe' correctly converted to 'the whole universe is pervaded by truth'.",
+    "meaning_hi": "",
+    "example": "Let it always be kept in mind that the whole universe is pervaded by truth.",
+    "options": [
+      "Let always be kept in mind that the whole universe is pervaded by truth.",
+      "Let it always kept in mind that the whole universe is pervaded by truth.",
+      "Let it always be kept in mind that the whole universe pervaded truth.",
+      "Let it always be kept in mind that the whole universe is pervaded by truth."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The new law was passed by the parliament.",
+    "meaning_en": "The passive sentence's agent 'by the parliament' becomes the subject in the active form, retaining the simple past tense: 'The parliament passed the new law.'",
+    "meaning_hi": "",
+    "example": "The parliament passed the new law.",
+    "options": [
+      "The new law passed the parliament.",
+      "The parliament passes the new law.",
+      "The parliament passed the new law.",
+      "The new law has been passed by the parliament."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Do not put your hand over the stove lest you should burn your fingers.",
+    "meaning_en": "Negative imperative sentences convert to passive using 'Let ... be not put', and the 'lest' clause correctly becomes passive as 'lest your fingers should be burnt'.",
+    "meaning_hi": "",
+    "example": "Let your hand be not put over the stove lest your fingers should be burnt.",
+    "options": [
+      "Let your hand be not put over the stove lest your fingers should be burnt.",
+      "Lest your hand be not put over the stove let your fingers should be burnt.",
+      "Let your hand not put over the stove lest your fingers should be burnt.",
+      "Let your hand be not put over the stove lest your fingers should burn."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Let him cover the car with that pink cloth lying on the table.",
+    "meaning_en": "'Let him cover the car' converts to 'Let the car be covered by him', with 'that pink cloth lying on the table' correctly retained as a descriptive phrase after the agent.",
+    "meaning_hi": "",
+    "example": "Let the car be covered by him with that pink cloth lying on the table.",
+    "options": [
+      "Let the cloth be covered with by him the car with that pink cloth lying on the table.",
+      "Let the car covered by him with that pink cloth be lying on the table.",
+      "Let the car be covered with that pink cloth by him lying on the table.",
+      "Let the car be covered by him with that pink cloth lying on the table."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The award will be given to the winner.",
+    "meaning_en": "Since no agent is specified, the active form uses the indefinite subject 'they', preserving the simple future tense: 'They will give the award to the winner.'",
+    "meaning_hi": "",
+    "example": "They will give the award to the winner.",
+    "options": [
+      "They will give the award to the winner.",
+      "The winner will be given the award.",
+      "The award is given to the winner.",
+      "The award is given to the winner."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The experiment had been completed by the scientists.",
+    "meaning_en": "The passive sentence is in past perfect tense ('had been completed'), so the active form must also be past perfect: 'The scientists had completed the experiment.'",
+    "meaning_hi": "",
+    "example": "The scientists had completed the experiment.",
+    "options": [
+      "The scientists completed the experiment.",
+      "The experiment was completed by the scientists.",
+      "The scientists had completed the experiment.",
+      "The scientists have completed the experiment."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The presentation has been given.",
+    "meaning_en": "The passive sentence is in present perfect tense ('has been given'), so the active form must also be present perfect, using the indefinite subject 'someone': 'Someone has given the presentation.'",
+    "meaning_hi": "",
+    "example": "Someone has given the presentation.",
+    "options": [
+      "The presentation was given.",
+      "They had given the presentation.",
+      "Someone has given the presentation.",
+      "Someone gives the presentation."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Her family will have accepted her decision by next year.",
+    "meaning_en": "The active sentence is in future perfect tense ('will have accepted'), so the passive form must also be future perfect: 'will have been accepted'.",
+    "meaning_hi": "",
+    "example": "Her decision will have been accepted by her family by next year.",
+    "options": [
+      "Her decision will be accepted by her family by next year.",
+      "Her decision will be being accepted by her family by next year.",
+      "Her decision will have been accepted by her family by next year.",
+      "Her decision will have being accepted by her family by next year."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The new environmental policy will be implemented by the government with immediate effect.",
+    "meaning_en": "The given sentence is in future simple passive tense, so its corresponding active form retains the same tense: 'The government will implement the new environmental policy with immediate effect.'",
+    "meaning_hi": "",
+    "example": "The government will implement the new environmental policy with immediate effect.",
+    "options": [
+      "The government will implement the new environmental policy with immediate effect.",
+      "The government will have implemented the new environmental policy with immediate effect.",
+      "The government has implemented the new environmental policy with immediate effect.",
+      "The government is implementing the new environmental policy with immediate effect."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "It was being said that the new policy would be a disaster.",
+    "meaning_en": "The passive is in past continuous ('was being said'), so the active form should use past continuous with a general subject: 'People were saying...'.",
+    "meaning_hi": "",
+    "example": "People were saying that the new policy would be a disaster.",
+    "options": [
+      "The new policy would be a disaster.",
+      "The news said the new policy would be a disaster.",
+      "People were saying that the new policy would be a disaster.",
+      "Someone has said that the new policy was a disaster."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The diligent team of researchers, who had been analyzing the data for months, finally published their findings.",
+    "meaning_en": "The main verb 'published' is simple past, so the passive must also be simple past ('were published'), while the embedded relative clause tense stays unchanged.",
+    "meaning_hi": "",
+    "example": "Their findings were finally published by the diligent team of researchers, who had been analyzing the data for months.",
+    "options": [
+      "Their findings were finally published by the diligent team of researchers, who had been analyzing the data for months.",
+      "Their findings had been finally published by the diligent team of researchers, who had been analyzing the data for months.",
+      "Their findings have been finally published by the diligent team of researchers, who had been analyzing the data for months.",
+      "The diligent team of researchers was finally published by their findings."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The children will have played the game by sunset.",
+    "meaning_en": "Future perfect active ('will have played') becomes future perfect passive ('will have been played').",
+    "meaning_hi": "",
+    "example": "The game will have been played by the children by sunset.",
+    "options": [
+      "The game will have being played by the children by sunset.",
+      "The game would have been played by the children by sunset.",
+      "The game will be played by the children by sunset.",
+      "The game will have been played by the children by sunset."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The famous poem was written by a renowned poet.",
+    "meaning_en": "Simple past passive ('was written') converts to simple past active ('wrote').",
+    "meaning_hi": "",
+    "example": "A renowned poet wrote the famous poem.",
+    "options": [
+      "A renowned poet wrote the famous poem.",
+      "The famous poem writes a renowned poet.",
+      "A renowned poet has written the famous poem.",
+      "The famous poem was being written by a renowned poet."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The jury, after a long deliberation, has finally reached a verdict in the high-profile case.",
+    "meaning_en": "Present perfect active ('has reached') converts to present perfect passive ('has been reached').",
+    "meaning_hi": "",
+    "example": "A verdict in the high-profile case has finally been reached by the jury after a long deliberation.",
+    "options": [
+      "A verdict in the high-profile case has finally been reached by the jury after a long deliberation.",
+      "A verdict in the high-profile case was finally reached by the jury after a long deliberation.",
+      "A verdict in the high-profile case had been finally reached by the jury after a long deliberation.",
+      "A verdict in the high-profile case is discovered by the jury after a long deliberation."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The students were made to rewrite the entire assignment.",
+    "meaning_en": "The passive is in simple past ('were made'), so the active form should also be simple past.",
+    "meaning_hi": "",
+    "example": "The teacher made the students rewrite the entire assignment.",
+    "options": [
+      "The teacher made the students rewrite the entire assignment.",
+      "The teacher makes the students rewrite the entire assignment.",
+      "The teacher is making the students rewrite the entire assignment.",
+      "The teacher has made the students rewrite the entire assignment."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The report, which should have been submitted by the deadline, was delayed due to unforeseen circumstances.",
+    "meaning_en": "The active form must recast both clauses with active subjects: 'They should have submitted...' and 'unforeseen circumstances delayed it'.",
+    "meaning_hi": "",
+    "example": "They should have submitted the report by the deadline, but unforeseen circumstances delayed it.",
+    "options": [
+      "The report, which should have submitted by the deadline, was delayed due to unforeseen circumstances.",
+      "They should have submitted the report by the deadline, but it was delayed due to unforeseen circumstances.",
+      "Due to unforeseen circumstances, the report was delayed, which should have been submitted by the deadline.",
+      "They should have submitted the report by the deadline, but unforeseen circumstances delayed it."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "We are watching a fantastic movie tonight.",
+    "meaning_en": "Present continuous active ('are watching') converts to present continuous passive ('is being watched').",
+    "meaning_hi": "",
+    "example": "A fantastic movie is being watched by us tonight.",
+    "options": [
+      "A fantastic movie has been watched by us tonight.",
+      "A fantastic movie is watched by us tonight.",
+      "A fantastic movie was being watched by us tonight.",
+      "A fantastic movie is being watched by us tonight."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Had the meticulous investigators examined all the critical evidence before they closed the case?",
+    "meaning_en": "Past perfect interrogative active ('Had...examined') converts to past perfect interrogative passive ('Had...been examined').",
+    "meaning_hi": "",
+    "example": "Had all the critical evidence been examined by the meticulous investigators before they closed the case?",
+    "options": [
+      "Was all the critical evidence examined by the meticulous investigators before they closed the case?",
+      "Had all the critical evidence been examined by the meticulous investigators before they closed the case?",
+      "Has all the critical evidence been examined by the meticulous investigators before they closed the case?",
+      "Had all the critical evidence examined by the meticulous investigators before they closed the case?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Cut the blue wire all at once; otherwise, you have to throw the entire thing out of the house with your maximum strength.",
+    "meaning_en": "The imperative 'Cut...' becomes 'Let...be cut', and 'you have to throw' becomes 'has to be thrown...by you', keeping word order and modifiers intact.",
+    "meaning_hi": "",
+    "example": "Let the blue wire be cut all at once; otherwise, the entire thing has to be thrown out of the house by you with your maximum strength.",
+    "options": [
+      "Let the blue wire be cut all at once; otherwise, the entire thing has to throw out of the house with your maximum strength.",
+      "Let the blue wire cut all at once; otherwise, the entire thing has to be thrown out of the house by you with your maximum strength.",
+      "Let the blue wire be cut all at once; otherwise, the entire thing has to be thrown out of the house by you with your maximum strength.",
+      "Let the blue wire be cut all at once; otherwise, the entire thing has to be thrown out with your maximum strength of the house by you."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Dinner is being prepared by my sister.",
+    "meaning_en": "Present continuous passive ('is being prepared') converts to present continuous active ('is preparing').",
+    "meaning_hi": "",
+    "example": "My sister is preparing dinner.",
+    "options": [
+      "Dinner prepared my sister.",
+      "My sister is preparing dinner.",
+      "My sister prepares dinner.",
+      "My sister was preparing dinner."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The ancient ruins are being preserved by the archaeologists.",
+    "meaning_en": "Present continuous passive ('are being preserved') converts to present continuous active ('are preserving').",
+    "meaning_hi": "",
+    "example": "The archaeologists are preserving the ancient ruins.",
+    "options": [
+      "The archaeologists preserve the ancient ruins.",
+      "The archaeologists are preserving the ancient ruins.",
+      "The archaeologists were preserving the ancient ruins.",
+      "The archaeologists have preserved the ancient ruins."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "It had been decided that the final exam would not be graded on a curve this semester.",
+    "meaning_en": "Past perfect passive ('had been decided') converts to past perfect active with a general subject ('They had decided').",
+    "meaning_hi": "",
+    "example": "They had decided that the final exam would not be graded on a curve this semester.",
+    "options": [
+      "They had decided that the final exam would not be graded on a curve this semester.",
+      "The final exam would not be graded on a curve this semester, it had been decided.",
+      "They have decided that the final exam would not be graded on a curve this semester.",
+      "The final exam was decided not to be graded on a curve this semester."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Did Sanya pay the dinner bills?",
+    "meaning_en": "Simple past interrogative active ('Did...pay') converts to simple past interrogative passive ('Were...paid').",
+    "meaning_hi": "",
+    "example": "Were the dinner bills paid by Sanya?",
+    "options": [
+      "The dinner bills did get paid by Sanya?",
+      "The dinner bills were paid by Sanya?",
+      "Did the dinner bills be paid by Sanya?",
+      "Were the dinner bills paid by Sanya?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Who did you suspect was responsible for leaking the confidential information to the press?",
+    "meaning_en": "The active question with 'who' as object of 'suspect' is transformed while retaining 'who' as the passive subject: 'Who was suspected by you of being responsible...'.",
+    "meaning_hi": "",
+    "example": "Who was suspected by you of being responsible for leaking the confidential information to the press?",
+    "options": [
+      "Who was suspected by you of being responsible for leaking the confidential information to the press?",
+      "By whom was it suspected that the confidential information had been leaked to the press?",
+      "Who do you suspect was responsible for the confidential information being leaked to the press?",
+      "By whom was the confidential information suspected to have been leaked to the press?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The strong current of the river broke through the wall of the earthen dam within no time.",
+    "meaning_en": "Simple past active ('broke through') converts to simple past passive ('was broken through'), preserving the phrasal verb intact.",
+    "meaning_hi": "",
+    "example": "The wall of the earthen dam was broken through within no time by the strong current of the river.",
+    "options": [
+      "The wall of the earthen dam was broken within no time by the strong current of the river.",
+      "The wall of the earthen dam was broken through within no time by the strong current of the river.",
+      "The wall of the earthen dam had broken through within no time by the strong current of the river.",
+      "The wall of the earthen dam had been broken through within no time by the strong current of the river."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The mystery had never been solved by anyone before the detective arrived.",
+    "meaning_en": "Past perfect passive ('had never been solved') converts to past perfect active ('had solved'), replacing 'anyone' with 'no one' for the negative sense.",
+    "meaning_hi": "",
+    "example": "No one had solved the mystery before the detective arrived.",
+    "options": [
+      "No one never solved the mystery before the detective arrived.",
+      "No one had solved the mystery before the detective arrived.",
+      "No one solves the mystery before the detective arrived.",
+      "No one has solved the mystery before the detective arrived."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The groundbreaking quantum theory should not have been dismissed as mere speculation by the scientific community.",
+    "meaning_en": "'Should not have been dismissed' (passive) converts to 'should not have dismissed' (active) with 'the scientific community' as the new subject.",
+    "meaning_hi": "",
+    "example": "The scientific community should not have dismissed the groundbreaking quantum theory as mere speculation.",
+    "options": [
+      "The scientific community should not have been dismissing the groundbreaking quantum theory as mere speculation.",
+      "The scientific community should not have dismissed the groundbreaking quantum theory as mere speculation.",
+      "The groundbreaking quantum theory should not be dismissed as mere speculation by the scientific community.",
+      "The scientific community should not be dismissing the groundbreaking quantum theory as mere speculation."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They had not finished the project before the deadline.",
+    "meaning_en": "Past perfect negative active ('had not finished') converts to past perfect negative passive ('had not been finished').",
+    "meaning_hi": "",
+    "example": "The project had not been finished by them before the deadline.",
+    "options": [
+      "The project was not finished by them before the deadline.",
+      "The project has not been finished by them before the deadline.",
+      "The project had not been finished by them before the deadline.",
+      "The project was not being finished by them before the deadline."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The shopkeeper must have misguided the customers to purchase the faulty watches.",
+    "meaning_en": "'Must have misguided' (active) converts to 'must have been misguided' (passive), keeping the infinitive purpose clause 'to purchase' unchanged.",
+    "meaning_hi": "",
+    "example": "The customers must have been misguided by the shopkeeper to purchase the faulty watches.",
+    "options": [
+      "The customers must be misguided by the shopkeeper to purchase the faulty watches.",
+      "The customers must have been misguided by the shopkeeper to purchase the faulty watches.",
+      "The customers must have been misguided by the shopkeeper to have purchased the faulty watches.",
+      "The customers must have been misguided by the shopkeeper to be purchasing the faulty watches."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The school building was constructed in 1980.",
+    "meaning_en": "Simple past passive ('was constructed') converts to simple past active with a general subject ('Someone constructed').",
+    "meaning_hi": "",
+    "example": "Someone constructed the school building in 1980.",
+    "options": [
+      "The school building had been constructed in 1980.",
+      "Someone constructed the school building in 1980.",
+      "The school building constructs in 1980.",
+      "Someone is constructing the school building in 1980."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The students were imitating the way of the description by the teacher.",
+    "meaning_en": "Past continuous active ('were imitating') converts to past continuous passive ('was being imitated'), with singular verb agreement matching 'the way'.",
+    "meaning_hi": "",
+    "example": "The way of the description by the teacher was being imitated by the students.",
+    "options": [
+      "The way of the description by the teacher was imitated by the students.",
+      "The way of the description by the teacher were being imitated by the students.",
+      "The way of the description by the teacher had been imitated by the students.",
+      "The way of the description by the teacher was being imitated by the students."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "All the arrangements had been made by the organizers before we arrived.",
+    "meaning_en": "Past perfect passive ('had been made') converts to past perfect active ('had made').",
+    "meaning_hi": "",
+    "example": "The organizers had made all the arrangements before we arrived.",
+    "options": [
+      "The organizers made all the arrangements before we arrived.",
+      "The organizers will have made all the arrangements before we arrive.",
+      "The organizers had made all the arrangements before we arrived.",
+      "The organizers have made all the arrangements before we arrived"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "It was widely considered that the ancient ruins were believed to have been constructed by a previously unknown civilization.",
+    "meaning_en": "Both passive layers ('was widely considered' and 'were believed to have been constructed') convert to a single active construction: 'People widely considered that...had constructed'.",
+    "meaning_hi": "",
+    "example": "People widely considered that a previously unknown civilization had constructed the ancient ruins.",
+    "options": [
+      "They widely considered that a previously unknown civilization believed to have constructed the ancient ruins.",
+      "People widely considered that a previously unknown civilization was believed to have constructed the ancient ruins.",
+      "People widely considered that a previously unknown civilization had constructed the ancient ruins.",
+      "It was believed that a previously unknown civilization had constructed the ancient ruins, it was widely considered."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Bob was drawing the portrait.",
+    "meaning_en": "Past continuous active ('was drawing') converts to past continuous passive ('was being drawn').",
+    "meaning_hi": "",
+    "example": "The portrait was being drawn by Bob.",
+    "options": [
+      "The portrait is being drawn by Bob.",
+      "The portrait was being drawn by Bob.",
+      "The portrait has been drawn by Bob.",
+      "The portrait was drawn by Bob."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Had the restoration work been being done on the antique cabinet for months before you arrived?",
+    "meaning_en": "The passive past perfect continuous question 'Had ... been being done' converts to the active past perfect continuous question 'Had they been doing...', with an unnamed agent supplied as 'they'.",
+    "meaning_hi": "",
+    "example": "Had they been doing the restoration work on the antique cabinet for months before you arrived?",
+    "options": [
+      "Had they been doing the restoration work on the antique cabinet for months before you arrived?",
+      "They had been doing the restoration work on the antique cabinet for months before you arrived?",
+      "Had the antique cabinet been doing the restoration work for months before you arrived?",
+      "Were they doing the restoration work on the antique cabinet for months before you arrived?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Someone has left the door open.",
+    "meaning_en": "Present perfect active ('has left') becomes present perfect passive ('has been left').",
+    "meaning_hi": "",
+    "example": "The door has been left open.",
+    "options": [
+      "The door has been left open.",
+      "The door was left open.",
+      "The door is left open.",
+      "The door had been left open."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The evidence could not have been overlooked by an experienced detective, a fact that was later emphasized.",
+    "meaning_en": "The passive modal perfect 'could not have been overlooked by X' converts to the active 'X could not have overlooked', retaining the modal perfect aspect and meaning.",
+    "meaning_hi": "",
+    "example": "An experienced detective could not have overlooked the evidence, a fact that was later emphasized.",
+    "options": [
+      "An experienced detective could not have overlooked the evidence, a fact that was later emphasized.",
+      "The evidence could not overlook an experienced detective.",
+      "An experienced detective could not overlook the evidence.",
+      "The evidence was not overlooked by an experienced detective, a fact that was later emphasized."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The suspect was believed to have been seen near the crime scene.",
+    "meaning_en": "The passive 'was believed to have been seen' requires an active subject ('they') believing an action that had already happened to the suspect, giving 'They believed someone had seen the suspect...'.",
+    "meaning_hi": "",
+    "example": "They believed someone had seen the suspect near the crime scene.",
+    "options": [
+      "Someone believed that the suspect was seen near the crime scene.",
+      "They believed someone had seen the suspect near the crime scene.",
+      "The suspect was seen near the crime scene, it was believed.",
+      "People believed that someone had seen the suspect near the crime scene."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They must have taken the intricate artifacts from the museum's security vault with great care.",
+    "meaning_en": "The modal perfect active 'must have taken' converts to the modal perfect passive 'must have been taken', preserving the same modal meaning.",
+    "meaning_hi": "",
+    "example": "The intricate artifacts must have been taken with great care from the museum's security vault.",
+    "options": [
+      "The intricate artifacts must have been taken with great care from the museum's security vault.",
+      "The intricate artifacts had to be taken with great care from the museum's security vault.",
+      "It must have been the intricate artifacts that were taken from the museum's security vault with great care.",
+      "The intricate artifacts should have been taken from the museum's security vault with great care."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The new policy will have been debated for months before it is implemented.",
+    "meaning_en": "The passive future perfect 'will have been debated' converts to the active future perfect 'will have debated', with an unnamed agent supplied as 'they'.",
+    "meaning_hi": "",
+    "example": "They will have debated the new policy for months before it is implemented.",
+    "options": [
+      "They will have debated the new policy for months before it is implemented.",
+      "The new policy will have debated for months before they implement it.",
+      "The new policy will be debated for months before it is implemented.",
+      "They will be debating the new policy for months before they implement it."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The doctor is examining the patient.",
+    "meaning_en": "Present continuous active ('is examining') converts to present continuous passive ('is being examined').",
+    "meaning_hi": "",
+    "example": "The patient is being examined by the doctor.",
+    "options": [
+      "The patient was being examined by the doctor.",
+      "The patient is examined by the doctor.",
+      "The patient is being examined by the doctor.",
+      "The patient has been examined by the doctor."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "It has been found that the trees are being destroyed by a moth.",
+    "meaning_en": "The sentence is already correctly written in the passive continuous form.",
+    "meaning_hi": "",
+    "example": "No substitution required",
+    "options": [
+      "have destroyed",
+      "is being destroyed",
+      "have been destroying",
+      "No substitution required"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "I cannot use my office at the moment because it being painted.",
+    "meaning_en": "The sentence needs the auxiliary verb 'is': 'it is being painted'.",
+    "meaning_hi": "",
+    "example": "it is being painted",
+    "options": [
+      "it is being painted",
+      "it had been paint",
+      "it has being painted",
+      "No substitution required"
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "voices"
