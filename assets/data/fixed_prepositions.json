@@ -9,6 +9,42 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "absent from",
+    "meaning_hi": "से अनुपस्थित",
+    "meaning_en": "not present at a place or event",
+    "example": "He was absent from school for three days due to illness.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "absorbed in",
+    "meaning_hi": "में मग्न",
+    "meaning_en": "completely focused on something",
+    "example": "She was so absorbed in her book that she missed dinner.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "abstain from",
+    "meaning_hi": "से दूर रहना",
+    "meaning_en": "to choose not to do or have something",
+    "example": "The doctor advised him to abstain from alcohol.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "accompanied by",
+    "meaning_hi": "के साथ",
+    "meaning_en": "going somewhere with someone or something",
+    "example": "The minister arrived accompanied by a large security detail.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "accuse of",
     "meaning_hi": "आरोप लगाना",
     "meaning_en": "to charge someone with a fault or crime",
@@ -54,6 +90,24 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "adequate for",
+    "meaning_hi": "के लिए पर्याप्त",
+    "meaning_en": "enough for a particular purpose",
+    "example": "The budget was adequate for the project's basic needs.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "adjacent to",
+    "meaning_hi": "के बगल में / निकट",
+    "meaning_en": "next to or adjoining something else",
+    "example": "The new hospital is adjacent to the medical college.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "afraid of",
     "meaning_hi": "डरना",
     "meaning_en": "feeling fear about something",
@@ -81,6 +135,24 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "allergic to",
+    "meaning_hi": "से एलर्जी होना",
+    "meaning_en": "having a harmful reaction to something",
+    "example": "She is allergic to penicillin and several other antibiotics.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "amazed at",
+    "meaning_hi": "पर चकित होना",
+    "meaning_en": "greatly surprised or astonished by something",
+    "example": "We were amazed at the speed of her recovery.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "angry at",
     "meaning_hi": "किसी बात पर नाराज़",
     "meaning_en": "angry about a situation or thing",
@@ -94,6 +166,15 @@
     "meaning_hi": "किसी से नाराज़",
     "meaning_en": "angry at a specific person",
     "example": "She was angry with him for breaking his promise.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "annoyed with",
+    "meaning_hi": "से नाराज़ होना",
+    "meaning_en": "slightly angry with someone",
+    "example": "She was annoyed with her colleague for interrupting her presentation.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"
@@ -180,6 +261,24 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "aspire to",
+    "meaning_hi": "की आकांक्षा रखना",
+    "meaning_en": "to have a strong desire to achieve something",
+    "example": "Every young officer aspires to a position of leadership.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "attracted to",
+    "meaning_hi": "की ओर आकर्षित होना",
+    "meaning_en": "drawn towards someone or something",
+    "example": "Investors are attracted to sectors with high growth potential.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "averse to",
     "meaning_hi": "के प्रति अनिच्छुक",
     "meaning_en": "having a strong dislike or opposition to something",
@@ -216,6 +315,15 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "beneficial to",
+    "meaning_hi": "के लिए लाभकारी",
+    "meaning_en": "producing good or helpful results",
+    "example": "Regular exercise is beneficial to both physical and mental health.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "blame for",
     "meaning_hi": "दोष देना",
     "meaning_en": "to hold someone responsible for something",
@@ -229,6 +337,15 @@
     "meaning_hi": "घमंड करना",
     "meaning_en": "to speak with excessive pride about something",
     "example": "She boasts of her achievements at every opportunity.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "bored with",
+    "meaning_hi": "से ऊब जाना",
+    "meaning_en": "feeling uninterested because of something tedious",
+    "example": "The students grew bored with the repetitive drills.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"
@@ -315,6 +432,24 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "comply with",
+    "meaning_hi": "का अनुपालन करना",
+    "meaning_en": "to act in accordance with a rule or request",
+    "example": "All companies must comply with the new environmental regulations.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "composed of",
+    "meaning_hi": "से मिलकर बना",
+    "meaning_en": "made up of particular parts or members",
+    "example": "The committee is composed of experts from various fields.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "concentrate on",
     "meaning_hi": "पर ध्यान केंद्रित करना",
     "meaning_en": "to focus all attention on something",
@@ -346,6 +481,15 @@
     "meaning_hi": "के अनुसार होना",
     "meaning_en": "to comply with rules, standards or expectations",
     "example": "All staff must conform to the dress code of the office.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "congratulate on",
+    "meaning_hi": "पर बधाई देना",
+    "meaning_en": "to praise someone for an achievement",
+    "example": "The principal congratulated the students on their excellent results.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"
@@ -400,6 +544,33 @@
     "meaning_hi": "का विश्वास दिलाना",
     "meaning_en": "to make someone believe something is true",
     "example": "He convinced the panel of his innocence with solid evidence.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "cope with",
+    "meaning_hi": "का सामना करना",
+    "meaning_en": "to deal effectively with something difficult",
+    "example": "She found it hard to cope with the pressure of the new job.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "cure of",
+    "meaning_hi": "से ठीक करना",
+    "meaning_en": "to make someone recover from a disease or habit",
+    "example": "The treatment cured him of the chronic back pain.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "curious about",
+    "meaning_hi": "के बारे में जिज्ञासु",
+    "meaning_en": "eager to know or learn something",
+    "example": "Children are naturally curious about the world around them.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"
@@ -468,6 +639,15 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "devoted to",
+    "meaning_hi": "के प्रति समर्पित",
+    "meaning_en": "giving a lot of time and attention to someone or something",
+    "example": "She has devoted her life to serving the underprivileged.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "die from",
     "meaning_hi": "से मरना (चोट/बाहरी कारण)",
     "meaning_en": "to die as a result of an injury or external cause",
@@ -490,6 +670,24 @@
     "meaning_hi": "से अलग",
     "meaning_en": "not the same as; unlike",
     "example": "This approach is fundamentally different from the previous one.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "disappointed in",
+    "meaning_hi": "में निराश होना",
+    "meaning_en": "unhappy because someone or something has not met your expectations",
+    "example": "He was disappointed in his team's performance in the final.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "disqualified from",
+    "meaning_hi": "से अयोग्य ठहराना",
+    "meaning_en": "to be officially prevented from participating in something",
+    "example": "The athlete was disqualified from the race for doping.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"
@@ -522,6 +720,15 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "enthusiastic about",
+    "meaning_hi": "के बारे में उत्साहित",
+    "meaning_en": "showing great excitement and interest",
+    "example": "The new recruits were enthusiastic about the training programme.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "envious of",
     "meaning_hi": "से ईर्ष्यालु",
     "meaning_en": "feeling jealousy about another's advantage",
@@ -531,10 +738,28 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "escape from",
+    "meaning_hi": "से भागना",
+    "meaning_en": "to get away from a place or situation",
+    "example": "The prisoners tried to escape from the heavily guarded facility.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "excel at",
     "meaning_hi": "में उत्कृष्ट होना",
     "meaning_en": "to be exceptionally good at something",
     "example": "She excels at public speaking and debate competitions.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "excited about",
+    "meaning_hi": "के बारे में उत्साहित",
+    "meaning_en": "very enthusiastic and eager about something",
+    "example": "The whole team is excited about the upcoming product launch.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"
@@ -585,6 +810,42 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "fascinated by",
+    "meaning_hi": "से मोहित / आकर्षित",
+    "meaning_en": "extremely interested in and attracted to something",
+    "example": "The researchers were fascinated by the unusual behaviour of the species.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "fed up with",
+    "meaning_hi": "से तंग आ जाना",
+    "meaning_en": "annoyed or bored with something that has continued too long",
+    "example": "The residents are fed up with the constant power cuts.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "fluent in",
+    "meaning_hi": "में धाराप्रवाह",
+    "meaning_en": "able to speak a language easily and accurately",
+    "example": "She is fluent in three languages including French and Mandarin.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "focus on",
+    "meaning_hi": "पर ध्यान केंद्रित करना",
+    "meaning_en": "to direct attention or effort at something specific",
+    "example": "The government decided to focus on rural infrastructure development.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "fond of",
     "meaning_hi": "का शौकीन",
     "meaning_en": "having a liking or affection for something",
@@ -612,6 +873,15 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "frightened of",
+    "meaning_hi": "से डरना",
+    "meaning_en": "feeling fear about something",
+    "example": "As a child, she was frightened of thunderstorms.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "full of",
     "meaning_hi": "से भरा",
     "meaning_en": "containing a large amount of something",
@@ -634,6 +904,24 @@
     "meaning_hi": "में अच्छा",
     "meaning_en": "having skill or ability in a subject or activity",
     "example": "She has always been good at solving logical reasoning problems.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "graduate from",
+    "meaning_hi": "से स्नातक होना",
+    "meaning_en": "to successfully complete a degree or course",
+    "example": "He graduated from IIT Delhi with a degree in civil engineering.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "grateful for",
+    "meaning_hi": "के लिए आभारी",
+    "meaning_en": "feeling thankful for something received",
+    "example": "We are grateful for your generous support during the crisis.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"
@@ -702,6 +990,51 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "ignorant of",
+    "meaning_hi": "से अनजान / अज्ञानी",
+    "meaning_en": "not aware of or knowing about something",
+    "example": "Many citizens remain ignorant of their fundamental rights.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "impressed by",
+    "meaning_hi": "से प्रभावित",
+    "meaning_en": "feeling admiration for someone or something",
+    "example": "The interviewers were impressed by his command over the subject.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "in charge of",
+    "meaning_hi": "का प्रभारी",
+    "meaning_en": "responsible for managing or controlling something",
+    "example": "She is in charge of the entire northern sales region.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "in favour of",
+    "meaning_hi": "के पक्ष में",
+    "meaning_en": "supporting or preferring something",
+    "example": "The majority voted in favour of the proposed amendment.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "incapable of",
+    "meaning_hi": "में असमर्थ",
+    "meaning_en": "not able to do or achieve something",
+    "example": "He seemed incapable of admitting his mistakes.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "independent of",
     "meaning_hi": "से स्वतंत्र",
     "meaning_en": "not controlled or influenced by someone or something",
@@ -729,10 +1062,37 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "innocent of",
+    "meaning_hi": "का निर्दोष",
+    "meaning_en": "not guilty of a crime or wrongdoing",
+    "example": "The court declared her innocent of all charges.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "insist on",
+    "meaning_hi": "पर ज़ोर देना",
+    "meaning_en": "to demand something firmly",
+    "example": "The manager insists on punctuality from all his staff.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "interested in",
     "meaning_hi": "में रुचि",
     "meaning_en": "showing curiosity or attention towards something",
     "example": "She has always been interested in environmental conservation.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "invest in",
+    "meaning_hi": "में निवेश करना",
+    "meaning_en": "to put money or effort into something for future benefit",
+    "example": "It is wise to invest in good health and education early in life.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"
@@ -760,15 +1120,6 @@
     "meaning_hi": "से कनिष्ठ",
     "meaning_en": "lower in rank or less experienced than someone",
     "example": "She is two years junior to me in the organisation.",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "fixed_prepositions"
-  },
-  {
-    "word": "justly accused of",
-    "meaning_hi": "न्यायपूर्वक दोषी",
-    "meaning_en": "rightly held responsible for something",
-    "example": "He was justly accused of misusing public funds.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"
@@ -846,6 +1197,24 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "long for",
+    "meaning_hi": "के लिए तरसना",
+    "meaning_en": "to have a strong desire for something",
+    "example": "After years abroad, she longed for the familiar tastes of home.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "look forward to",
+    "meaning_hi": "की प्रतीक्षा करना",
+    "meaning_en": "to feel excited about something that is going to happen",
+    "example": "We look forward to welcoming you at the annual conference.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "loyal to",
     "meaning_hi": "के प्रति वफादार",
     "meaning_en": "consistently faithful and supportive to someone",
@@ -891,6 +1260,15 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "nervous about",
+    "meaning_hi": "के बारे में घबराया हुआ",
+    "meaning_en": "anxious or worried about something",
+    "example": "He was nervous about delivering his first public speech.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "next to",
     "meaning_hi": "के बगल में",
     "meaning_en": "immediately beside or adjacent to something",
@@ -927,10 +1305,28 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "obsessed with",
+    "meaning_hi": "के साथ जुनूनी",
+    "meaning_en": "unable to stop thinking about something",
+    "example": "She is obsessed with achieving perfection in every task.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "opposed to",
     "meaning_hi": "के विरोध में",
     "meaning_en": "being against or in disagreement with something",
     "example": "She is strongly opposed to any form of child labour.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "optimistic about",
+    "meaning_hi": "के बारे में आशावादी",
+    "meaning_en": "hopeful and confident about the future",
+    "example": "Economists are optimistic about the country's growth prospects.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"
@@ -954,10 +1350,28 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "pessimistic about",
+    "meaning_hi": "के बारे में निराशावादी",
+    "meaning_en": "expecting the worst outcome in a situation",
+    "example": "Critics are pessimistic about the chances of passing the bill.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "pleased with",
     "meaning_hi": "से प्रसन्न",
     "meaning_en": "feeling satisfaction and happiness about something",
     "example": "The principal was very pleased with the students' exam results.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "polite to",
+    "meaning_hi": "के प्रति विनम्र",
+    "meaning_en": "showing good manners towards someone",
+    "example": "Always be polite to customers, even when they are difficult.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"
@@ -1008,6 +1422,15 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "protect from",
+    "meaning_hi": "से बचाना",
+    "meaning_en": "to keep someone safe from harm or danger",
+    "example": "The new law is designed to protect workers from exploitation.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "proud of",
     "meaning_hi": "पर गर्व",
     "meaning_en": "feeling deep satisfaction about an achievement",
@@ -1035,10 +1458,28 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "react to",
+    "meaning_hi": "पर प्रतिक्रिया करना",
+    "meaning_en": "to respond to something that has happened",
+    "example": "Different people react to stress in very different ways.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "ready for",
     "meaning_hi": "के लिए तैयार",
     "meaning_en": "fully prepared for something",
     "example": "The army is always ready for any national emergency.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "recover from",
+    "meaning_hi": "से उबरना / ठीक होना",
+    "meaning_en": "to return to a normal state after illness or difficulty",
+    "example": "It took the economy two years to recover from the recession.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"
@@ -1062,6 +1503,15 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "reply to",
+    "meaning_hi": "का जवाब देना",
+    "meaning_en": "to give a spoken or written response",
+    "example": "Please reply to the invitation before the end of the week.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "rescue from",
     "meaning_hi": "से बचाना",
     "meaning_en": "to free someone from danger",
@@ -1071,10 +1521,37 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "respond to",
+    "meaning_hi": "का उत्तर देना / प्रतिक्रिया करना",
+    "meaning_en": "to say or do something in reaction to something else",
+    "example": "The government was slow to respond to the flood disaster.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "responsible for",
     "meaning_hi": "के लिए जिम्मेदार",
     "meaning_en": "having the duty to deal with or account for something",
     "example": "The manager is responsible for maintaining workplace safety standards.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "result from",
+    "meaning_hi": "के कारण होना",
+    "meaning_en": "to be caused by something",
+    "example": "Many health problems result from a poor diet and lack of sleep.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "result in",
+    "meaning_hi": "में परिणाम होना",
+    "meaning_en": "to cause something to happen",
+    "example": "Careless driving often results in fatal accidents.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"
@@ -1098,10 +1575,37 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "scared of",
+    "meaning_hi": "से डरना",
+    "meaning_en": "frightened by something",
+    "example": "Many people are scared of speaking in public.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "search for",
+    "meaning_hi": "की खोज करना",
+    "meaning_en": "to look carefully for someone or something",
+    "example": "Rescue teams searched for survivors through the night.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "sensitive to",
     "meaning_hi": "के प्रति संवेदनशील",
     "meaning_en": "easily affected or influenced by something",
     "example": "Some people are highly sensitive to changes in temperature.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "shocked at",
+    "meaning_hi": "पर हैरान / स्तब्ध",
+    "meaning_en": "feeling great surprise or distress at something",
+    "example": "The community was shocked at the sudden closure of the factory.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"
@@ -1125,6 +1629,15 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "skilled in",
+    "meaning_hi": "में कुशल",
+    "meaning_en": "having the ability and experience to do something well",
+    "example": "The surgeon is highly skilled in minimally invasive procedures.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "sorry for",
     "meaning_hi": "के लिए खेद",
     "meaning_en": "feeling regret or sympathy about something",
@@ -1143,10 +1656,28 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "succeed in",
+    "meaning_hi": "में सफल होना",
+    "meaning_en": "to achieve a desired aim or result",
+    "example": "With hard work and perseverance, she succeeded in clearing the exam.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "suffer from",
     "meaning_hi": "से पीड़ित",
     "meaning_en": "to be affected by an illness or problem",
     "example": "He has been suffering from chronic back pain for many years.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "suitable for",
+    "meaning_hi": "के लिए उपयुक्त",
+    "meaning_en": "right or appropriate for a particular purpose",
+    "example": "This content is suitable for all age groups.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"
@@ -1161,6 +1692,15 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "supply with",
+    "meaning_hi": "से सुसज्जित करना / देना",
+    "meaning_en": "to provide someone with something they need",
+    "example": "The NGO supplies remote villages with clean drinking water.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "sure of",
     "meaning_hi": "के प्रति निश्चित",
     "meaning_en": "completely certain about something",
@@ -1170,10 +1710,37 @@
     "category": "fixed_prepositions"
   },
   {
+    "word": "suspicious of",
+    "meaning_hi": "पर संदेह करना",
+    "meaning_en": "having doubts about the honesty of someone",
+    "example": "The detective was suspicious of the witness's inconsistent account.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
     "word": "sympathetic to",
     "meaning_hi": "के प्रति सहानुभूतिपूर्ण",
     "meaning_en": "showing understanding of someone's feelings or situation",
     "example": "The judge was sympathetic to the defendant's difficult circumstances.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "terrified of",
+    "meaning_hi": "से अत्यंत भयभीत",
+    "meaning_en": "extremely frightened of something",
+    "example": "She has been terrified of heights since childhood.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "thankful for",
+    "meaning_hi": "के लिए कृतज्ञ",
+    "meaning_en": "feeling glad and appreciative about something",
+    "example": "We should be thankful for every opportunity we receive.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"
@@ -1192,6 +1759,15 @@
     "meaning_hi": "से थका/ऊबा",
     "meaning_en": "exhausted by or bored of something repetitive",
     "example": "She is tired of answering the same questions at every interview.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "tolerant of",
+    "meaning_hi": "के प्रति सहिष्णु",
+    "meaning_en": "willing to accept behaviour or opinions you may disagree with",
+    "example": "A democratic society must be tolerant of differing viewpoints.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"
@@ -1219,6 +1795,15 @@
     "meaning_hi": "के अनुरूप/विशेष",
     "meaning_en": "characteristic or representative of someone or something",
     "example": "Arriving late is typical of his casual approach to everything.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "unaware of",
+    "meaning_hi": "से बेखबर / अनजान",
+    "meaning_en": "not knowing about something",
+    "example": "She was completely unaware of the changes made to the policy.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"
@@ -1273,6 +1858,24 @@
     "meaning_hi": "के प्रति कमज़ोर/असुरक्षित",
     "meaning_en": "susceptible to harm or attack from something",
     "example": "Children are especially vulnerable to the effects of malnutrition.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "wait for",
+    "meaning_hi": "के लिए इंतज़ार करना",
+    "meaning_en": "to stay in a place until someone or something arrives",
+    "example": "We waited for hours before the delayed flight finally departed.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "fixed_prepositions"
+  },
+  {
+    "word": "warn of",
+    "meaning_hi": "के बारे में सावधान करना",
+    "meaning_en": "to inform someone of a possible danger in advance",
+    "example": "Meteorologists warned of heavy rainfall over the next three days.",
     "synonyms": [],
     "antonyms": [],
     "category": "fixed_prepositions"

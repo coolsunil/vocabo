@@ -50,6 +50,26 @@
     "category": "advanced"
   },
   {
+    "word": "Abscond",
+    "meaning_hi": "भाग जाना, फरार होना",
+    "meaning_en": "To leave hurriedly and secretly, typically to escape from custody or avoid consequences",
+    "example": "The accused absconded before the verdict was delivered, prompting the court to issue a non-bailable warrant.",
+    "synonyms": [
+      "Flee",
+      "Escape",
+      "Run away",
+      "Bolt",
+      "Decamp"
+    ],
+    "antonyms": [
+      "Remain",
+      "Stay",
+      "Surrender",
+      "Submit"
+    ],
+    "category": "advanced"
+  },
+  {
     "word": "Abyss",
     "meaning_en": "a deep or bottomless chasm",
     "meaning_hi": "अथाह गहराई",
@@ -117,6 +137,26 @@
       "Harmonious"
     ],
     "example": "The divorce proceedings were acrimonious.",
+    "category": "advanced"
+  },
+  {
+    "word": "Acrimony",
+    "meaning_hi": "कटुता, कड़वाहट",
+    "meaning_en": "Bitterness or ill feeling, especially in speech or manner",
+    "example": "The prolonged border dispute generated considerable acrimony between the two neighbouring nations.",
+    "synonyms": [
+      "Bitterness",
+      "Rancour",
+      "Animosity",
+      "Hostility",
+      "Asperity"
+    ],
+    "antonyms": [
+      "Goodwill",
+      "Amity",
+      "Cordiality",
+      "Benevolence"
+    ],
     "category": "advanced"
   },
   {
@@ -275,6 +315,27 @@
     "category": "advanced"
   },
   {
+    "word": "Alacrity",
+    "meaning_hi": "स्फूर्ति, उत्साह",
+    "meaning_en": "Brisk and cheerful readiness to do something",
+    "example": "The volunteers responded with alacrity to the flood relief operation, arriving within hours of the announcement.",
+    "synonyms": [
+      "Eagerness",
+      "Willingness",
+      "Promptness",
+      "Enthusiasm",
+      "Zeal"
+    ],
+    "antonyms": [
+      "Reluctance",
+      "Hesitation",
+      "Slowness",
+      "Apathy",
+      "Indifference"
+    ],
+    "category": "advanced"
+  },
+  {
     "word": "Amalgamate",
     "meaning_en": "combine or unite to form one",
     "meaning_hi": "मिलाना",
@@ -306,6 +367,26 @@
     "antonyms": [
       "Certainty",
       "Conviction"
+    ],
+    "category": "advanced"
+  },
+  {
+    "word": "Ameliorate",
+    "meaning_hi": "सुधारना, बेहतर बनाना",
+    "meaning_en": "To make something bad or unsatisfactory better; to improve",
+    "example": "The government launched several schemes to ameliorate the condition of marginalised communities.",
+    "synonyms": [
+      "Improve",
+      "Enhance",
+      "Better",
+      "Alleviate",
+      "Reform"
+    ],
+    "antonyms": [
+      "Worsen",
+      "Aggravate",
+      "Deteriorate",
+      "Exacerbate"
     ],
     "category": "advanced"
   },
@@ -1168,6 +1249,27 @@
     "category": "advanced"
   },
   {
+    "word": "Capricious",
+    "meaning_hi": "मनमौजी, चंचल",
+    "meaning_en": "Given to sudden and unaccountable changes of mood or behaviour; unpredictable",
+    "example": "The capricious weather along the coast made it difficult for fishermen to plan their expeditions.",
+    "synonyms": [
+      "Unpredictable",
+      "Fickle",
+      "Volatile",
+      "Whimsical",
+      "Erratic"
+    ],
+    "antonyms": [
+      "Consistent",
+      "Predictable",
+      "Steady",
+      "Resolute",
+      "Stable"
+    ],
+    "category": "advanced"
+  },
+  {
     "word": "Captious",
     "meaning_en": "too eager to find faults",
     "meaning_hi": "आलोचनाप्रिय",
@@ -1423,6 +1525,27 @@
     "category": "advanced"
   },
   {
+    "word": "Cogent",
+    "meaning_hi": "ठोस, प्रभावशाली",
+    "meaning_en": "Clear, logical, and convincing; powerfully persuasive",
+    "example": "The lawyer presented a cogent argument that left the jury with little room for doubt.",
+    "synonyms": [
+      "Convincing",
+      "Compelling",
+      "Persuasive",
+      "Lucid",
+      "Forceful"
+    ],
+    "antonyms": [
+      "Weak",
+      "Unconvincing",
+      "Flawed",
+      "Nebulous",
+      "Vague"
+    ],
+    "category": "advanced"
+  },
+  {
     "word": "Cogitate",
     "meaning_hi": "गहन विचार करना",
     "meaning_en": "Think deeply about something",
@@ -1647,6 +1770,26 @@
     "category": "advanced"
   },
   {
+    "word": "Conundrum",
+    "meaning_hi": "पहेली, उलझन",
+    "meaning_en": "A confusing and difficult problem or question; a riddle",
+    "example": "The policymakers faced a conundrum — how to boost growth without increasing the fiscal deficit.",
+    "synonyms": [
+      "Puzzle",
+      "Enigma",
+      "Dilemma",
+      "Riddle",
+      "Quandary"
+    ],
+    "antonyms": [
+      "Solution",
+      "Answer",
+      "Clarity",
+      "Certainty"
+    ],
+    "category": "advanced"
+  },
+  {
     "word": "Convoluted",
     "meaning_hi": "उलझा हुआ",
     "meaning_en": "Extremely complex and difficult",
@@ -1663,7 +1806,7 @@
   },
   {
     "word": "Corpulent",
-    "meaning_en": "fat",
+    "meaning_en": "Excessively overweight; having a large and heavy body",
     "meaning_hi": "मोटा",
     "synonyms": [
       "Obese",
@@ -2093,7 +2236,7 @@
   },
   {
     "word": "Derision",
-    "meaning_hi": "嘲笑",
+    "meaning_hi": "उपहास / तिरस्कार",
     "meaning_en": "Contemptuous ridicule",
     "example": "His idea was met with derision.",
     "synonyms": [
@@ -3828,6 +3971,26 @@
     "category": "advanced"
   },
   {
+    "word": "Fulminate",
+    "meaning_hi": "क्रोध से फटकारना, जोरदार आलोचना करना",
+    "meaning_en": "To express vehement protest or condemnation; to issue a formal condemnation",
+    "example": "The opposition leader fulminated against the bill, calling it a direct assault on civil liberties.",
+    "synonyms": [
+      "Rail",
+      "Inveigh",
+      "Denounce",
+      "Condemn",
+      "Decry"
+    ],
+    "antonyms": [
+      "Praise",
+      "Commend",
+      "Endorse",
+      "Applaud"
+    ],
+    "category": "advanced"
+  },
+  {
     "word": "Fulsome",
     "meaning_en": "excessively complimentary; insincere",
     "meaning_hi": "अत्यधिक",
@@ -4260,6 +4423,27 @@
     "antonyms": [
       "Vulnerable",
       "Sensitive"
+    ],
+    "category": "advanced"
+  },
+  {
+    "word": "Impetuous",
+    "meaning_hi": "आवेगशील, उतावला",
+    "meaning_en": "Acting or done quickly and without thought or care; impulsive",
+    "example": "His impetuous decision to resign without another job lined up left his family in financial difficulty.",
+    "synonyms": [
+      "Impulsive",
+      "Rash",
+      "Hasty",
+      "Reckless",
+      "Headstrong"
+    ],
+    "antonyms": [
+      "Cautious",
+      "Deliberate",
+      "Careful",
+      "Considered",
+      "Prudent"
     ],
     "category": "advanced"
   },
@@ -5208,6 +5392,26 @@
     "category": "advanced"
   },
   {
+    "word": "Malfeasance",
+    "meaning_hi": "कदाचार, अनुचित कार्य",
+    "meaning_en": "Wrongdoing, especially by a public official; misconduct in public office",
+    "example": "The tribunal was convened to investigate allegations of malfeasance in the municipal corporation.",
+    "synonyms": [
+      "Misconduct",
+      "Wrongdoing",
+      "Corruption",
+      "Malpractice",
+      "Transgression"
+    ],
+    "antonyms": [
+      "Integrity",
+      "Honesty",
+      "Probity",
+      "Rectitude"
+    ],
+    "category": "advanced"
+  },
+  {
     "word": "Malign",
     "meaning_hi": "बदनाम करना",
     "meaning_en": "Speak ill of",
@@ -6119,6 +6323,47 @@
     "category": "advanced"
   },
   {
+    "word": "Peremptory",
+    "meaning_hi": "निर्णायक, अटल",
+    "meaning_en": "Insisting on immediate attention or obedience; not open to appeal or challenge",
+    "example": "The general issued a peremptory order that no soldier was to leave the barracks until further notice.",
+    "synonyms": [
+      "Imperious",
+      "Commanding",
+      "Authoritative",
+      "High-handed",
+      "Dictatorial"
+    ],
+    "antonyms": [
+      "Tentative",
+      "Flexible",
+      "Accommodating",
+      "Deferential"
+    ],
+    "category": "advanced"
+  },
+  {
+    "word": "Perfidious",
+    "meaning_hi": "विश्वासघाती, धोखेबाज",
+    "meaning_en": "Deceitful and untrustworthy; guilty of betrayal",
+    "example": "The perfidious ally switched sides on the eve of the decisive battle, sealing the kingdom's defeat.",
+    "synonyms": [
+      "Treacherous",
+      "Disloyal",
+      "Traitorous",
+      "Faithless",
+      "Duplicitous"
+    ],
+    "antonyms": [
+      "Loyal",
+      "Faithful",
+      "Trustworthy",
+      "Dependable",
+      "Steadfast"
+    ],
+    "category": "advanced"
+  },
+  {
     "word": "Perfidy",
     "meaning_hi": "विश्वासघात",
     "meaning_en": "Deceitful betrayal",
@@ -6898,6 +7143,27 @@
     "category": "advanced"
   },
   {
+    "word": "Querulous",
+    "meaning_hi": "शिकायती, झगड़ालू",
+    "meaning_en": "Complaining in a petulant or whining manner; habitually complaining",
+    "example": "The querulous patient complained incessantly to the nurses, finding fault with every aspect of his care.",
+    "synonyms": [
+      "Complaining",
+      "Fretful",
+      "Petulant",
+      "Whining",
+      "Grumbling"
+    ],
+    "antonyms": [
+      "Content",
+      "Satisfied",
+      "Uncomplaining",
+      "Cheerful",
+      "Placid"
+    ],
+    "category": "advanced"
+  },
+  {
     "word": "Rancour",
     "meaning_en": "bitter ill feeling",
     "meaning_hi": "द्वेष",
@@ -7315,6 +7581,27 @@
       "Nonviolent"
     ],
     "example": "The sanguinary battle lasted three days.",
+    "category": "advanced"
+  },
+  {
+    "word": "Sanguine",
+    "meaning_hi": "आशावादी, प्रसन्नचित्त",
+    "meaning_en": "Optimistic or positive, especially in a difficult situation; hopeful",
+    "example": "Despite the economic setback, the finance minister remained sanguine about the country's long-term growth prospects.",
+    "synonyms": [
+      "Optimistic",
+      "Positive",
+      "Hopeful",
+      "Confident",
+      "Buoyant"
+    ],
+    "antonyms": [
+      "Pessimistic",
+      "Gloomy",
+      "Despondent",
+      "Cynical",
+      "Doubtful"
+    ],
     "category": "advanced"
   },
   {
@@ -7798,6 +8085,27 @@
     "category": "advanced"
   },
   {
+    "word": "Tenacious",
+    "meaning_hi": "दृढ़, हठी",
+    "meaning_en": "Holding firmly to something; not readily relinquishing a position or principle",
+    "example": "Her tenacious pursuit of justice over two decades finally led to a landmark Supreme Court ruling.",
+    "synonyms": [
+      "Persistent",
+      "Determined",
+      "Resolute",
+      "Steadfast",
+      "Dogged"
+    ],
+    "antonyms": [
+      "Irresolute",
+      "Yielding",
+      "Weak",
+      "Vacillating",
+      "Fickle"
+    ],
+    "category": "advanced"
+  },
+  {
     "word": "Tenuous",
     "meaning_hi": "क्षीण",
     "meaning_en": "Very weak or slight",
@@ -7846,7 +8154,7 @@
     "word": "Toady",
     "meaning_hi": "खुशामदी",
     "meaning_en": "A flatterer seeking self-gain",
-    "example": "The minister was surrounded by toadies.",
+    "example": "He toadied to every senior official in the department, hoping to gain their favour and secure a promotion.",
     "synonyms": [
       "Sycophant",
       "Flatterer"

@@ -24,11 +24,17 @@ class ConfusingCard extends StatelessWidget {
     this.shareMode = false,
   });
 
-  static const _blue = Color(0xFF2563EB);
-  static const _amber = Color(0xFFD97706);
+  static const _blueDark   = Color(0xFF93C5FD);
+  static const _blueLight  = Color(0xFF2563EB);
+  static const _amberDark  = Color(0xFFFCD34D);
+  static const _amberLight = Color(0xFFD97706);
 
   @override
   Widget build(BuildContext context) {
+    final isDark = context.isDark;
+    final blue  = isDark ? _blueDark  : _blueLight;
+    final amber = isDark ? _amberDark : _amberLight;
+
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(20, 14, 20, 20),
@@ -51,7 +57,7 @@ class ConfusingCard extends StatelessWidget {
                   icon: Icon(
                     isBookmarked ? Icons.bookmark : Icons.bookmark_border,
                     color: isBookmarked
-                        ? (context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D))
+                        ? (isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D))
                         : context.textSecondary,
                     size: 20,
                   ),
@@ -63,11 +69,11 @@ class ConfusingCard extends StatelessWidget {
             ),
           const SizedBox(height: 10),
           if (pairWord != null) ...[
-            _wordBlock(context, word, _blue),
+            _wordBlock(context, word, blue),
             _vsChip(context),
-            _wordBlock(context, pairWord!, _amber),
+            _wordBlock(context, pairWord!, amber),
           ] else ...[
-            _singleLayout(context),
+            _singleLayout(context, blue, amber),
           ],
           if (!shareMode) ...[
             const Divider(height: 32),
@@ -121,7 +127,7 @@ class ConfusingCard extends StatelessWidget {
     );
   }
 
-  Widget _singleLayout(BuildContext context) {
+  Widget _singleLayout(BuildContext context, Color blue, Color amber) {
     final parts = word.word.contains(' / ')
         ? word.word.split(' / ').map((e) => e.trim()).toList()
         : null;
@@ -130,7 +136,7 @@ class ConfusingCard extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         if (parts != null && parts.length >= 2)
-          _dualHeader(parts[0], parts[1])
+          _dualHeader(parts[0], parts[1], blue, amber)
         else
           Text(
             word.word,
@@ -191,21 +197,21 @@ class ConfusingCard extends StatelessWidget {
     );
   }
 
-  Widget _dualHeader(String w1, String w2) {
+  Widget _dualHeader(String w1, String w2, Color blue, Color amber) {
     return Row(
       children: [
         Expanded(
           child: Container(
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 16),
             decoration: BoxDecoration(
-              color: _blue.withValues(alpha: 0.08),
+              color: blue.withValues(alpha: 0.08),
               borderRadius: BorderRadius.circular(14),
-              border: Border.all(color: _blue.withValues(alpha: 0.3), width: 1.5),
+              border: Border.all(color: blue.withValues(alpha: 0.3), width: 1.5),
             ),
             child: Text(
               w1,
               textAlign: TextAlign.center,
-              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w800, color: _blue),
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w800, color: blue),
             ),
           ),
         ),
@@ -225,14 +231,14 @@ class ConfusingCard extends StatelessWidget {
           child: Container(
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 16),
             decoration: BoxDecoration(
-              color: _amber.withValues(alpha: 0.08),
+              color: amber.withValues(alpha: 0.08),
               borderRadius: BorderRadius.circular(14),
-              border: Border.all(color: _amber.withValues(alpha: 0.3), width: 1.5),
+              border: Border.all(color: amber.withValues(alpha: 0.3), width: 1.5),
             ),
             child: Text(
               w2,
               textAlign: TextAlign.center,
-              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w800, color: _amber),
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w800, color: amber),
             ),
           ),
         ),

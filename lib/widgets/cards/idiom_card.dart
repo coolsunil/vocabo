@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../models/word_model.dart';
 import '../../utils/app_colors.dart';
+import '../pyq_chip_row.dart';
 
 class IdiomCard extends StatelessWidget {
   final Word word;
@@ -10,6 +11,7 @@ class IdiomCard extends StatelessWidget {
   final int index;
   final int total;
   final bool shareMode;
+  final List<Map<String, dynamic>> pyqMatches;
 
   const IdiomCard({
     super.key,
@@ -20,6 +22,7 @@ class IdiomCard extends StatelessWidget {
     required this.index,
     required this.total,
     this.shareMode = false,
+    this.pyqMatches = const [],
   });
 
   @override
@@ -65,6 +68,8 @@ class IdiomCard extends StatelessWidget {
               ),
             ),
           ),
+          if (!shareMode && pyqMatches.isNotEmpty)
+            PyqChipRow(matches: pyqMatches),
 
           const SizedBox(height: 24),
 

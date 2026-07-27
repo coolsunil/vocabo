@@ -1,6 +1,8 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
-int dailyGoal = 10;
+const _kGoalPresets = {25, 50, 75, 100};
+
+int dailyGoal = 25;
 
 int _todayCount = 0;
 
@@ -8,7 +10,13 @@ int get todayWordCount => _todayCount;
 
 Future<void> loadDailyGoalStore() async {
   final prefs = await SharedPreferences.getInstance();
-  dailyGoal = prefs.getInt('daily_goal') ?? 10;
+  final stored = prefs.getInt('daily_goal');
+  if (stored != null && _kGoalPresets.contains(stored)) {
+    dailyGoal = stored;
+  } else {
+    dailyGoal = 25;
+    await prefs.setInt('daily_goal', 25);
+  }
   _todayCount = prefs.getInt('daily_words_${_todayKey()}') ?? 0;
 }
 

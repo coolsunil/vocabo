@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_description">Shows the Word of the Day from Vocabo</string>
+    <string name="widget_label">Word of the Day</string>
+</resources>

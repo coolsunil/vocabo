@@ -2853,19 +2853,19 @@
     "category": "common_errors"
   },
   {
-    "wrong": "I saw a one-eyed man.",
+    "wrong": "I saw an one-eyed man.",
     "correct": "I saw a one-eyed man.",
-    "explanation_hi": "'One' 'वन' (W sound, consonant) से शुरू होता है इसलिए 'a' सही है।",
-    "explanation_en": "'One' begins with a /w/ consonant sound; 'a' is correct.",
+    "explanation_hi": "'One' का उच्चारण /वन/ है जो व्यंजन ध्वनि है, इसलिए 'a' सही है, 'an' नहीं।",
+    "explanation_en": "'One' is pronounced /wʌn/ — a consonant sound — so 'a' is correct, not 'an'.",
     "synonyms": [],
     "antonyms": [],
     "category": "common_errors"
   },
   {
-    "wrong": "He has an MA degree.",
+    "wrong": "He has a MA degree.",
     "correct": "He has an MA degree.",
-    "explanation_hi": "Abbreviation में पहले letter का sound देखा जाता है; 'M' vowel sound /em/ देता है।",
-    "explanation_en": "When reading abbreviations, check the first letter sound; 'M' sounds like /em/ (vowel sound).",
+    "explanation_hi": "'M' का उच्चारण /em/ है जो स्वर ध्वनि है, इसलिए 'an' सही है।",
+    "explanation_en": "The letter 'M' is pronounced /em/ — a vowel sound — so 'an' is correct before abbreviations starting with a vowel sound.",
     "synonyms": [],
     "antonyms": [],
     "category": "common_errors"
@@ -2992,15 +2992,6 @@
     "correct": "He hurt himself while playing.",
     "explanation_hi": "जब subject और object एक ही व्यक्ति हो तो reflexive pronoun आता है।",
     "explanation_en": "Use reflexive pronoun when the subject and object refer to the same person.",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "common_errors"
-  },
-  {
-    "wrong": "Please help yourself with the food.",
-    "correct": "Please help yourself with the food.",
-    "explanation_hi": "'Help yourself' सही reflexive expression है।",
-    "explanation_en": "'Help yourself' is the correct reflexive expression; this sentence is correct.",
     "synonyms": [],
     "antonyms": [],
     "category": "common_errors"
@@ -3321,15 +3312,6 @@
     "category": "common_errors"
   },
   {
-    "wrong": "The letter was written by him yesterday.",
-    "correct": "The letter was written by him yesterday.",
-    "explanation_hi": "Passive voice सही है: was + past participle + by + agent।",
-    "explanation_en": "This passive construction is correct: was + past participle + by + agent.",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "common_errors"
-  },
-  {
     "wrong": "The work is being did by him.",
     "correct": "The work is being done by him.",
     "explanation_hi": "Passive में past participle (done) आता है, not 'did'।",
@@ -3343,15 +3325,6 @@
     "correct": "The letter has been written by her.",
     "explanation_hi": "Perfect passive में past participle 'written' आता है।",
     "explanation_en": "Use past participle 'written' in perfect passive construction.",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "common_errors"
-  },
-  {
-    "wrong": "He was given a prize by the teacher.",
-    "correct": "He was given a prize by the teacher.",
-    "explanation_hi": "यह सही passive construction है।",
-    "explanation_en": "This is correct passive construction with indirect object as subject.",
     "synonyms": [],
     "antonyms": [],
     "category": "common_errors"
@@ -3843,19 +3816,19 @@
     "category": "common_errors"
   },
   {
-    "wrong": "Nobody came, did they?",
+    "wrong": "Nobody came, didn't they?",
     "correct": "Nobody came, did they?",
-    "explanation_hi": "Negative indefinite pronouns (nobody, no one) के साथ plural tag 'they' आता है।",
-    "explanation_en": "With negative indefinites like 'nobody', use plural pronoun 'they' in the tag.",
+    "explanation_hi": "'Nobody' नकारात्मक शब्द है; इसलिए tag question सकारात्मक 'did they?' होगा।",
+    "explanation_en": "'Nobody' is a negative word; the question tag must be positive: 'did they?'.",
     "synonyms": [],
     "antonyms": [],
     "category": "common_errors"
   },
   {
-    "wrong": "She has finished, hasn't she?",
+    "wrong": "She has finished, has she?",
     "correct": "She has finished, hasn't she?",
-    "explanation_hi": "यह सही question tag है।",
-    "explanation_en": "This is the correct question tag.",
+    "explanation_hi": "सकारात्मक वाक्य के बाद tag question नकारात्मक होता है: 'hasn't she?'",
+    "explanation_en": "After a positive statement, the question tag must be negative: 'hasn't she?'.",
     "synonyms": [],
     "antonyms": [],
     "category": "common_errors"
@@ -4174,5 +4147,284 @@
     "synonyms": [],
     "antonyms": [],
     "category": "common_errors"
+  },
+  {
+    "wrong": "He avoided to tell the truth.",
+    "correct": "He avoided telling the truth.",
+    "explanation_en": "'Avoid' is always followed by a gerund (-ing form), not an infinitive.",
+    "explanation_hi": "'Avoid' के बाद हमेशा gerund (-ing) आता है, infinitive नहीं।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Would you mind to open the window?",
+    "correct": "Would you mind opening the window?",
+    "explanation_en": "'Mind' is followed by a gerund, not an infinitive.",
+    "explanation_hi": "'Mind' के बाद gerund आता है: 'Would you mind opening?'",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "It is no use to cry over the matter.",
+    "correct": "It is no use crying over the matter.",
+    "explanation_en": "After 'no use', 'no good', and 'no point', use a gerund, not an infinitive.",
+    "explanation_hi": "'No use', 'no good', 'no point' के बाद gerund (-ing) आता है।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is used to study late at night.",
+    "correct": "He is used to studying late at night.",
+    "explanation_en": "'Be used to' means 'be accustomed to' and takes a gerund, not an infinitive.",
+    "explanation_hi": "'Be used to' = 'आदी होना'; इसके बाद gerund (-ing) आता है।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "I am used to get up early every morning.",
+    "correct": "I am used to getting up early every morning.",
+    "explanation_en": "'Used to' as a present state ('accustomed to') takes a gerund; the infinitive form 'used to do' refers to past habits.",
+    "explanation_hi": "'Be used to' (आदी होना) के बाद gerund आता है; 'used to + infinitive' सिर्फ past habit के लिए।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She made me to apologise for the mistake.",
+    "correct": "She made me apologise for the mistake.",
+    "explanation_en": "After causative 'make', use a bare infinitive (without 'to').",
+    "explanation_hi": "Causative verb 'make' के बाद bare infinitive (to के बिना) आता है।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Let him to speak the truth freely.",
+    "correct": "Let him speak the truth freely.",
+    "explanation_en": "'Let' takes a bare infinitive; never use 'to' after 'let'.",
+    "explanation_hi": "'Let' के बाद bare infinitive आता है, 'to' नहीं।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Despite of his efforts, he could not succeed.",
+    "correct": "Despite his efforts, he could not succeed.",
+    "explanation_en": "'Despite' is used without 'of'. Use 'in spite of' if you need the preposition.",
+    "explanation_hi": "'Despite' के साथ 'of' नहीं आता। 'In spite of' में 'of' आता है।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "In spite he was tired, he continued working.",
+    "correct": "In spite of being tired, he continued working.",
+    "explanation_en": "The correct phrase is 'in spite of', never 'in spite' alone.",
+    "explanation_hi": "'In spite of' पूरा phrase है; 'in spite' अकेले प्रयुक्त नहीं होता।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is more superior to all his colleagues.",
+    "correct": "He is superior to all his colleagues.",
+    "explanation_en": "'Superior' is already a comparative form; 'more' is redundant.",
+    "explanation_hi": "'Superior' पहले से ही comparative है; इसके साथ 'more' नहीं आता।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "This plan is more preferable to the other.",
+    "correct": "This plan is preferable to the other.",
+    "explanation_en": "'Preferable' already expresses comparison; 'more' is redundant.",
+    "explanation_hi": "'Preferable' में तुलना का भाव पहले से है; 'more' अनावश्यक है।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is the most intelligent of the two sisters.",
+    "correct": "She is the more intelligent of the two sisters.",
+    "explanation_en": "When comparing two things, use the comparative degree, not the superlative.",
+    "explanation_hi": "दो के बीच तुलना में comparative degree (more) प्रयोग होती है, superlative (most) नहीं।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The number of errors are increasing every year.",
+    "correct": "The number of errors is increasing every year.",
+    "explanation_en": "'The number of' takes a singular verb; 'a number of' takes a plural verb.",
+    "explanation_hi": "'The number of' के साथ singular verb आती है; 'a number of' के साथ plural।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "A number of students is absent from the class.",
+    "correct": "A number of students are absent from the class.",
+    "explanation_en": "'A number of' means 'several' and takes a plural verb.",
+    "explanation_hi": "'A number of' का अर्थ 'कई' है; इसके साथ plural verb आती है।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He could had solved the problem easily.",
+    "correct": "He could have solved the problem easily.",
+    "explanation_en": "Modal verbs are followed by 'have' + past participle, not 'had'.",
+    "explanation_hi": "Modal verb के बाद 'have + past participle' आता है, 'had' नहीं।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She must has completed the assignment by now.",
+    "correct": "She must have completed the assignment by now.",
+    "explanation_en": "After modal verbs, use 'have' (base form), not 'has'.",
+    "explanation_hi": "Modal verb के बाद 'have' (base form) आता है, 'has' नहीं।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Please advance forward to the next stage.",
+    "correct": "Please advance to the next stage.",
+    "explanation_en": "'Advance' already means to move forward; 'forward' is redundant.",
+    "explanation_hi": "'Advance' का अर्थ ही आगे बढ़ना है; 'forward' अनावश्यक है।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "The two companies decided to merge together.",
+    "correct": "The two companies decided to merge.",
+    "explanation_en": "'Merge' already implies coming together; 'together' is redundant.",
+    "explanation_hi": "'Merge' में मिलने का अर्थ पहले से है; 'together' अनावश्यक है।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Please respond back to my email at the earliest.",
+    "correct": "Please respond to my email at the earliest.",
+    "explanation_en": "'Respond' already implies sending a reply; 'back' is redundant.",
+    "explanation_hi": "'Respond' का अर्थ ही उत्तर देना है; 'back' अनावश्यक है।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She has many luggages to carry for the trip.",
+    "correct": "She has a lot of luggage to carry for the trip.",
+    "explanation_en": "'Luggage' is an uncountable noun; it has no plural form.",
+    "explanation_hi": "'Luggage' uncountable noun है; इसका plural नहीं होता।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He has many experiences of life.",
+    "correct": "He has much experience of life.",
+    "explanation_en": "When 'experience' means general skill or knowledge, it is uncountable; use 'much', not 'many'.",
+    "explanation_hi": "सामान्य अनुभव के अर्थ में 'experience' uncountable है; 'many' नहीं, 'much' प्रयोग होता है।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He is one of the best player in the team.",
+    "correct": "He is one of the best players in the team.",
+    "explanation_en": "After 'one of the', the noun must be plural.",
+    "explanation_hi": "'One of the' के बाद noun plural होना चाहिए।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "This is one of the most interesting topic I have read.",
+    "correct": "This is one of the most interesting topics I have read.",
+    "explanation_en": "'One of the most + adjective' is followed by a plural noun.",
+    "explanation_hi": "'One of the most + adjective' के बाद plural noun आता है।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Please give me your advise on this matter.",
+    "correct": "Please give me your advice on this matter.",
+    "explanation_en": "'Advice' (noun) means a recommendation; 'advise' (verb) means to recommend.",
+    "explanation_hi": "'Advice' संज्ञा है (सलाह); 'advise' क्रिया है (सलाह देना)।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She suggested me to apply for the post.",
+    "correct": "She suggested that I should apply for the post.",
+    "explanation_en": "'Suggest' cannot take a personal object followed by an infinitive; use 'suggest + that-clause'.",
+    "explanation_hi": "'Suggest' के बाद indirect object + infinitive नहीं आता; 'suggest that...' structure प्रयोग होती है।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He refrained to comment on the controversy.",
+    "correct": "He refrained from commenting on the controversy.",
+    "explanation_en": "'Refrain' is followed by 'from' + gerund, not an infinitive.",
+    "explanation_hi": "'Refrain' के बाद 'from + gerund' आता है, infinitive नहीं।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He was so absorbed at his work that he forgot to eat.",
+    "correct": "He was so absorbed in his work that he forgot to eat.",
+    "explanation_en": "'Absorbed' takes the preposition 'in', not 'at'.",
+    "explanation_hi": "'Absorbed' के साथ 'in' preposition आती है, 'at' नहीं।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She is competent of handling the entire project.",
+    "correct": "She is competent to handle the entire project.",
+    "explanation_en": "'Competent' is followed by 'to + infinitive', not 'of + gerund'.",
+    "explanation_hi": "'Competent' के बाद 'to + infinitive' आता है, 'of' नहीं।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "Both he and his sister is extremely talented.",
+    "correct": "Both he and his sister are extremely talented.",
+    "explanation_en": "'Both ... and ...' is a plural subject and always takes a plural verb.",
+    "explanation_hi": "'Both ... and ...' plural subject है; इसके साथ plural verb आती है।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "He tried for clear the civil services examination.",
+    "correct": "He tried to clear the civil services examination.",
+    "explanation_en": "'Try' meaning 'to attempt' is followed by 'to + infinitive'.",
+    "explanation_hi": "प्रयास करने के अर्थ में 'try' के बाद 'to + infinitive' आता है।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "wrong": "She has a very unique style of writing.",
+    "correct": "She has a unique style of writing.",
+    "explanation_en": "'Unique' means one of a kind and cannot be modified by 'very', 'most', or 'more'.",
+    "explanation_hi": "'Unique' absolute adjective है; इसके साथ 'very', 'more', 'most' नहीं आता।",
+    "category": "common_errors",
+    "synonyms": [],
+    "antonyms": []
   }
 ]

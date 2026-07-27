@@ -18,6 +18,7 @@ import 'learn_screen.dart';
 import 'onboarding_screen.dart';
 import 'search_screen.dart';
 import 'practice_screen.dart';
+import 'donation_screen.dart';
 import 'settings_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -27,18 +28,34 @@ class HomeScreen extends StatefulWidget {
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
   bool _premiumLoaded = false;
   int _remainingMixedQuizSessions = 0;
 
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
     _loadPremiumMeta();
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _checkOnboarding();
       Future.delayed(const Duration(seconds: 2), initNotifications);
     });
+  }
+
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    super.dispose();
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed && wordOfDayIsStale) {
+      loadWordOfDay().then((_) {
+        if (mounted) setState(() {});
+      });
+    }
   }
 
   Future<void> _checkOnboarding() async {
@@ -306,11 +323,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["core"] ?? 0,
-                          total: 1501,
+                          total: 1513,
                           onTap: () => _openCategory(
                             title: 'Core Vocabulary',
                             categoryKey: "core",
-                            total: 1501,
+                            total: 1513,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -325,11 +342,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["advanced"] ?? 0,
-                          total: 500,
+                          total: 515,
                           onTap: () => _openCategory(
                             title: 'Advanced Vocabulary',
                             categoryKey: "advanced",
-                            total: 500,
+                            total: 515,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -344,11 +361,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["synonyms"] ?? 0,
-                          total: 325,
+                          total: 438,
                           onTap: () => _openCategory(
                             title: 'Synonyms & Antonyms',
                             categoryKey: "synonyms",
-                            total: 325,
+                            total: 438,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -363,11 +380,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["oneword"] ?? 0,
-                          total: 401,
+                          total: 501,
                           onTap: () => _openCategory(
                             title: 'One-word Substitutions',
                             categoryKey: "oneword",
-                            total: 401,
+                            total: 501,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -382,11 +399,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["confusing"] ?? 0,
-                          total: 331,
+                          total: 380,
                           onTap: () => _openCategory(
                             title: 'Confusing Words',
                             categoryKey: "confusing",
-                            total: 331,
+                            total: 380,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -401,11 +418,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["idioms"] ?? 0,
-                          total: 495,
+                          total: 473,
                           onTap: () => _openCategory(
                             title: 'Idioms & Phrases',
                             categoryKey: "idioms",
-                            total: 495,
+                            total: 473,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -420,11 +437,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["fixed_prepositions"] ?? 0,
-                          total: 150,
+                          total: 217,
                           onTap: () => _openCategory(
                             title: 'Fixed Prepositions',
                             categoryKey: "fixed_prepositions",
-                            total: 150,
+                            total: 217,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -439,11 +456,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["phrasal_verbs"] ?? 0,
-                          total: 225,
+                          total: 285,
                           onTap: () => _openCategory(
                             title: 'Phrasal Verbs',
                             categoryKey: "phrasal_verbs",
-                            total: 225,
+                            total: 285,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -458,11 +475,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["root_words"] ?? 0,
-                          total: 439,
+                          total: 461,
                           onTap: () => _openCategory(
                             title: 'Root Words',
                             categoryKey: "root_words",
-                            total: 439,
+                            total: 461,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -477,11 +494,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["common_errors"] ?? 0,
-                          total: 464,
+                          total: 492,
                           onTap: () => _openCategory(
                             title: 'Common Errors',
                             categoryKey: "common_errors",
-                            total: 464,
+                            total: 492,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -496,11 +513,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["homophones"] ?? 0,
-                          total: 264,
+                          total: 278,
                           onTap: () => _openCategory(
                             title: 'Homophones',
                             categoryKey: "homophones",
-                            total: 264,
+                            total: 278,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -515,11 +532,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["spellings"] ?? 0,
-                          total: 220,
+                          total: 250,
                           onTap: () => _openCategory(
                             title: 'Spellings',
                             categoryKey: "spellings",
-                            total: 220,
+                            total: 250,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -534,11 +551,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["foreign_words"] ?? 0,
-                          total: 247,
+                          total: 276,
                           onTap: () => _openCategory(
                             title: 'Foreign Words',
                             categoryKey: "foreign_words",
-                            total: 247,
+                            total: 276,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -553,11 +570,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["proverbs"] ?? 0,
-                          total: 118,
+                          total: 145,
                           onTap: () => _openCategory(
                             title: 'Proverbs',
                             categoryKey: "proverbs",
-                            total: 118,
+                            total: 145,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -572,11 +589,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["sentence_improvement"] ?? 0,
-                          total: 150,
+                          total: 183,
                           onTap: () => _openCategory(
                             title: 'Sentence Improvement',
                             categoryKey: "sentence_improvement",
-                            total: 150,
+                            total: 183,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -591,11 +608,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["cloze_test"] ?? 0,
-                          total: 121,
+                          total: 153,
                           onTap: () => _openCategory(
                             title: 'Cloze Test',
                             categoryKey: "cloze_test",
-                            total: 121,
+                            total: 153,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -610,11 +627,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["voices"] ?? 0,
-                          total: 213,
+                          total: 228,
                           onTap: () => _openCategory(
                             title: 'Active / Passive Voice',
                             categoryKey: "voices",
-                            total: 213,
+                            total: 228,
                           ),
                         ),
                         _ModernCategoryTile(
@@ -629,11 +646,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             end: Alignment.bottomRight,
                           ),
                           learned: progressStore["narration"] ?? 0,
-                          total: 195,
+                          total: 212,
                           onTap: () => _openCategory(
                             title: 'Direct & Indirect Speech',
                             categoryKey: "narration",
-                            total: 195,
+                            total: 212,
                           ),
                         ),
                       ],
@@ -701,6 +718,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     const SizedBox(height: 14),
                     const _FeedbackCard(),
+                    const SizedBox(height: 14),
+                    const _SupportCard(),
                     const SizedBox(height: 14),
                     const _ReferralCard(),
                     const SizedBox(height: 20),
@@ -991,12 +1010,12 @@ class _DailyGoalCard extends StatelessWidget {
 
 class _OverallProgressCard extends StatelessWidget {
   static const Map<String, int> _totals = {
-    'core': 1501, 'synonyms': 325, 'oneword': 401, 'confusing': 331,
-    'idioms': 495, 'advanced': 500, 'fixed_prepositions': 150,
-    'phrasal_verbs': 225, 'root_words': 439, 'common_errors': 464,
-    'homophones': 264, 'spellings': 220, 'foreign_words': 247,
-    'proverbs': 118, 'sentence_improvement': 150, 'cloze_test': 121,
-    'voices': 213, 'narration': 195,
+    'core': 1513, 'synonyms': 438, 'oneword': 501, 'confusing': 380,
+    'idioms': 473, 'advanced': 515, 'fixed_prepositions': 217,
+    'phrasal_verbs': 285, 'root_words': 461, 'common_errors': 492,
+    'homophones': 278, 'spellings': 250, 'foreign_words': 276,
+    'proverbs': 145, 'sentence_improvement': 183, 'cloze_test': 153,
+    'voices': 228, 'narration': 212,
   };
 
   const _OverallProgressCard();
@@ -1506,20 +1525,19 @@ class _WordOfDayCard extends StatelessWidget {
               overflow: TextOverflow.ellipsis,
               style: TextStyle(
                 color: Colors.white.withValues(alpha: 0.88),
-                fontSize: 14,
+                fontSize: 15,
                 height: 1.4,
               ),
             ),
-            if (word.example.isNotEmpty) ...[
-              const SizedBox(height: 8),
+            if (word.meaningHi.isNotEmpty) ...[
+              const SizedBox(height: 6),
               Text(
-                '"${word.example}"',
+                word.meaningHi,
                 maxLines: 2,
                 overflow: TextOverflow.ellipsis,
                 style: TextStyle(
-                  color: Colors.white.withValues(alpha: 0.65),
-                  fontSize: 12,
-                  fontStyle: FontStyle.italic,
+                  color: Colors.white.withValues(alpha: 0.80),
+                  fontSize: 14,
                   height: 1.4,
                 ),
               ),
@@ -1706,6 +1724,92 @@ class _FeedbackCard extends StatelessWidget {
           ),
         ],
       ),
+      ),
+    );
+  }
+}
+
+// ── Support Card ──────────────────────────────────────────────────────────────
+
+class _SupportCard extends StatelessWidget {
+  const _SupportCard();
+
+  @override
+  Widget build(BuildContext context) {
+    return InteractivePressable(
+      borderRadius: BorderRadius.circular(16),
+      onTap: () => Navigator.push(
+        context,
+        MaterialPageRoute(builder: (_) => const DonationScreen()),
+      ),
+      overlayColor: Colors.white,
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 14),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(16),
+          gradient: const LinearGradient(
+            colors: [Color(0xFFBE185D), Color(0xFFEA580C)],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+          boxShadow: [
+            BoxShadow(
+              color: const Color(0xFFBE185D).withValues(alpha: 0.35),
+              blurRadius: 14,
+              offset: const Offset(0, 7),
+            ),
+          ],
+        ),
+        child: Row(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                color: Colors.white.withValues(alpha: 0.18),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: const Icon(Icons.favorite_rounded, color: Colors.white, size: 22),
+            ),
+            const SizedBox(width: 14),
+            const Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'Support Vocabo',
+                    style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.w700,
+                      color: Colors.white,
+                    ),
+                  ),
+                  SizedBox(height: 2),
+                  Text(
+                    'Buy the developer a chai — keep the app free',
+                    style: TextStyle(fontSize: 12, color: Colors.white70),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(width: 8),
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+              decoration: BoxDecoration(
+                color: Colors.white.withValues(alpha: 0.20),
+                borderRadius: BorderRadius.circular(10),
+                border: Border.all(color: Colors.white.withValues(alpha: 0.40)),
+              ),
+              child: const Text(
+                'Support',
+                style: TextStyle(
+                  fontSize: 13,
+                  fontWeight: FontWeight.w700,
+                  color: Colors.white,
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

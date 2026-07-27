@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../models/word_model.dart';
 import '../../utils/app_colors.dart';
+import '../pyq_chip_row.dart';
 
 class NarrationCard extends StatelessWidget {
   final Word word;
@@ -10,6 +11,7 @@ class NarrationCard extends StatelessWidget {
   final int index;
   final int total;
   final bool shareMode;
+  final List<Map<String, dynamic>> pyqMatches;
 
   const NarrationCard({
     super.key,
@@ -20,6 +22,7 @@ class NarrationCard extends StatelessWidget {
     required this.index,
     required this.total,
     this.shareMode = false,
+    this.pyqMatches = const [],
   });
 
   static const _accent = Color(0xFFD97706);
@@ -56,6 +59,8 @@ class NarrationCard extends StatelessWidget {
             border: const Color(0xFFFCD34D),
             textColor: isDark ? const Color(0xFFFCD34D) : const Color(0xFF92400E),
           ),
+          if (!shareMode && pyqMatches.isNotEmpty)
+            PyqChipRow(matches: pyqMatches),
 
           const SizedBox(height: 20),
 

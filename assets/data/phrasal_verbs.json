@@ -81,6 +81,15 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "back off",
+    "meaning_hi": "पीछे हटना / छोड़ देना",
+    "meaning_en": "to withdraw from a confrontation or stop pressuring someone",
+    "example": "The manager backed off after realising his demand was unreasonable.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "back out",
     "meaning_hi": "मुकर जाना",
     "meaning_en": "to withdraw from an agreement or commitment",
@@ -121,6 +130,15 @@
     "meaning_hi": "सत्य साबित करना",
     "meaning_en": "to confirm or support a claim or theory",
     "example": "The investigation fully bore out the allegations made by the whistleblower.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "blow away",
+    "meaning_hi": "उड़ा देना / दंग कर देना",
+    "meaning_en": "to impress someone greatly, or to kill someone",
+    "example": "Her performance in the final round blew the judges away.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -180,6 +198,15 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "break off",
+    "meaning_hi": "तोड़ देना / समाप्त कर देना",
+    "meaning_en": "to end something suddenly, or to snap a piece off",
+    "example": "The two countries broke off diplomatic relations after the attack.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "break out",
     "meaning_hi": "अचानक शुरू होना",
     "meaning_en": "to start suddenly and spread rapidly",
@@ -216,6 +243,15 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "bring down",
+    "meaning_hi": "गिराना / हराना",
+    "meaning_en": "to cause a government or system to lose power, or to reduce something",
+    "example": "Widespread protests eventually brought down the corrupt government.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "bring out",
     "meaning_hi": "प्रकट करना",
     "meaning_en": "to reveal or highlight a quality",
@@ -243,6 +279,15 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "build up",
+    "meaning_hi": "जमा करना / बनाना / बढ़ाना",
+    "meaning_en": "to accumulate or increase something gradually",
+    "example": "She built up her savings over several years of disciplined spending.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "bump into",
     "meaning_hi": "अचानक मिलना",
     "meaning_en": "to meet someone unexpectedly",
@@ -252,10 +297,64 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "burn out",
+    "meaning_hi": "थककर चूर होना / खत्म हो जाना",
+    "meaning_en": "to become exhausted from overwork, or to stop functioning",
+    "example": "Many young doctors burn out within the first few years of their career.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "call back",
+    "meaning_hi": "वापस फोन करना / वापस बुलाना",
+    "meaning_en": "to phone someone again, or to ask someone to return",
+    "example": "The interviewer said she would call back with a final decision.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "call in",
+    "meaning_hi": "अंदर बुलाना / फोन करके बताना",
+    "meaning_en": "to ask someone to come or telephone, especially for help",
+    "example": "The factory called in extra workers to meet the deadline.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "call off",
     "meaning_hi": "रद्द करना",
     "meaning_en": "to cancel a planned event or action",
     "example": "They called off the cricket match due to heavy rainfall.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "call out",
+    "meaning_hi": "बाहर बुलाना / ललकारना",
+    "meaning_en": "to summon someone, or to challenge or criticise them publicly",
+    "example": "The journalist called out the minister for making false statements.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "call up",
+    "meaning_hi": "फोन करना / याद दिलाना / भर्ती करना",
+    "meaning_en": "to phone someone, or to summon into military service",
+    "example": "He was called up for national service at the age of eighteen.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "calm down",
+    "meaning_hi": "शांत होना",
+    "meaning_en": "to become less agitated or to make someone less agitated",
+    "example": "She took a few deep breaths and slowly calmed down.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -288,6 +387,60 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "catch on",
+    "meaning_hi": "समझना / लोकप्रिय होना",
+    "meaning_en": "to understand something, or to become popular",
+    "example": "The new fitness trend quickly caught on among the urban youth.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "catch up",
+    "meaning_hi": "बराबरी करना / आगे आना",
+    "meaning_en": "to reach the same level as someone or something ahead",
+    "example": "India is working hard to catch up with leading economies in technology.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "check in",
+    "meaning_hi": "पंजीकरण कराना / चेक-इन करना",
+    "meaning_en": "to register at a hotel or airport, or to report your arrival",
+    "example": "Passengers must check in at least two hours before departure.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "check out",
+    "meaning_hi": "जाँच करना / होटल छोड़ना",
+    "meaning_en": "to investigate something, or to leave a hotel after paying",
+    "example": "The detectives went to check out the crime scene early in the morning.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "cheer up",
+    "meaning_hi": "प्रसन्न होना / प्रसन्न करना",
+    "meaning_en": "to become or make someone happier",
+    "example": "Friends visited him in hospital to cheer him up after the surgery.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "clear up",
+    "meaning_hi": "साफ करना / हल करना",
+    "meaning_en": "to tidy or solve something, or for weather to become clear",
+    "example": "The police cleared up the mystery within forty-eight hours.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "come across",
     "meaning_hi": "अचानक मिलना",
     "meaning_en": "to find or encounter something by chance",
@@ -306,6 +459,15 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "come out",
+    "meaning_hi": "बाहर आना / प्रकाशित होना",
+    "meaning_en": "to be published or released, or to become known",
+    "example": "The final report came out after months of investigation.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "come up",
     "meaning_hi": "उत्पन्न होना",
     "meaning_en": "to arise or occur unexpectedly",
@@ -315,10 +477,28 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "come up with",
+    "meaning_hi": "सुझाना / निकालना",
+    "meaning_en": "to think of or produce an idea, plan, or solution",
+    "example": "The team came up with an innovative solution to the water shortage problem.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "count on",
     "meaning_hi": "भरोसा करना",
     "meaning_en": "to depend on someone with confidence",
     "example": "I count on your full support during this critical phase of the project.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "cover up",
+    "meaning_hi": "छुपाना / ढकना",
+    "meaning_en": "to conceal a mistake or wrongdoing",
+    "example": "The officials tried to cover up the financial irregularities in the accounts.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -337,6 +517,15 @@
     "meaning_hi": "काटकर हटाना",
     "meaning_en": "to draw a line through text to indicate it is wrong or deleted",
     "example": "Cross out any incorrect answer before writing the correct one below it.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "cut back",
+    "meaning_hi": "कम करना / घटाना",
+    "meaning_en": "to reduce the amount or size of something",
+    "example": "The company cut back on advertising expenses to reduce costs.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -400,6 +589,15 @@
     "meaning_hi": "पीछे हटना",
     "meaning_en": "to move backward or retreat from a position",
     "example": "He drew back in fear when he saw the snake on the path.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "draw up",
+    "meaning_hi": "तैयार करना / बनाना",
+    "meaning_en": "to prepare a formal document or plan",
+    "example": "The lawyers were asked to draw up a new contract for the merger.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -486,10 +684,28 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "fall off",
+    "meaning_hi": "कम होना / गिर जाना",
+    "meaning_en": "to decrease in amount or quality",
+    "example": "Sales fell off sharply during the second quarter of the year.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "fall out",
     "meaning_hi": "झगड़ा होना",
     "meaning_en": "to have a quarrel and stop being friendly",
     "example": "The two partners fell out over a dispute about profit sharing.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "fall short",
+    "meaning_hi": "कम पड़ना / लक्ष्य न पाना",
+    "meaning_en": "to fail to reach a required level or standard",
+    "example": "The relief funds fell short of what was needed for the disaster victims.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -553,6 +769,15 @@
     "meaning_hi": "पता लगाना",
     "meaning_en": "to discover a fact or piece of information",
     "example": "She found out the truth about the incident from a reliable source.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "fit in",
+    "meaning_hi": "समाना / मेल खाना / समय निकालना",
+    "meaning_en": "to feel accepted in a group, or to find time for something",
+    "example": "It takes time to fit in when you join a new organisation.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -648,6 +873,15 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "get down",
+    "meaning_hi": "नीचे उतरना / निराश करना / काम में लगना",
+    "meaning_en": "to come down from a higher place, or to make someone depressed",
+    "example": "The constant bad news was beginning to get her down.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "get in",
     "meaning_hi": "अंदर प्रवेश करना",
     "meaning_en": "to enter a vehicle or enclosed space",
@@ -711,6 +945,15 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "get together",
+    "meaning_hi": "मिलना / एकत्र होना",
+    "meaning_en": "to meet or gather with others socially or for a purpose",
+    "example": "The old classmates got together for a reunion after twenty years.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "get up",
     "meaning_hi": "उठना",
     "meaning_en": "to rise from bed after sleeping",
@@ -742,6 +985,15 @@
     "meaning_hi": "छोड़ना",
     "meaning_en": "to emit a smell, heat or other substance",
     "example": "Burning plastic gives off toxic fumes that are harmful to breathe.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "give out",
+    "meaning_hi": "वितरित करना / थक जाना / खत्म होना",
+    "meaning_en": "to distribute something, or to stop functioning",
+    "example": "Volunteers gave out food packets to flood victims across the city.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -783,6 +1035,15 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "go for",
+    "meaning_hi": "चुनना / कोशिश करना / हमला करना",
+    "meaning_en": "to choose, attempt, or attack something",
+    "example": "She decided to go for the promotion despite the competition.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "go off",
     "meaning_hi": "बज उठना",
     "meaning_en": "to explode, go bad, or ring as an alarm",
@@ -805,6 +1066,15 @@
     "meaning_hi": "बाहर जाना",
     "meaning_en": "to leave one's home for a social or other purpose",
     "example": "They went out for a celebratory dinner after receiving the good news.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "go over",
+    "meaning_hi": "दोबारा देखना / जाँचना",
+    "meaning_en": "to review or examine something carefully",
+    "example": "Please go over the report once more before submitting it tomorrow.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -891,10 +1161,28 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "hold off",
+    "meaning_hi": "रोकना / टालना",
+    "meaning_en": "to delay something, or to resist an attack",
+    "example": "The government decided to hold off the announcement until after elections.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "hold on",
     "meaning_hi": "इंतजार करना",
     "meaning_en": "to wait or pause for a short time",
     "example": "Hold on for a few seconds — I need to check the information.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "hold out",
+    "meaning_hi": "टिके रहना / प्रतिरोध करना",
+    "meaning_en": "to resist or continue in difficult circumstances",
+    "example": "The small garrison held out for three weeks against superior forces.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -1008,6 +1296,15 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "kick in",
+    "meaning_hi": "प्रभाव में आना / शुरू होना",
+    "meaning_en": "to begin to take effect",
+    "example": "The new tax reforms will kick in from the beginning of next year.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "kick out",
     "meaning_hi": "निकाल देना",
     "meaning_en": "to force someone to leave a place or organisation",
@@ -1021,6 +1318,15 @@
     "meaning_hi": "गिरा देना",
     "meaning_en": "to cause something or someone to fall to the ground",
     "example": "A speeding truck knocked down the boundary wall of the colony.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "knock off",
+    "meaning_hi": "काम बंद करना / छोड़ देना",
+    "meaning_en": "to stop working for the day, or to reduce a price",
+    "example": "The workers knocked off early on the last day before the festival.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -1066,6 +1372,15 @@
     "meaning_hi": "निराश करना",
     "meaning_en": "to disappoint someone who was counting on you",
     "example": "He let the entire team down by failing to submit the report on time.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "let go",
+    "meaning_hi": "जाने देना / छोड़ना",
+    "meaning_en": "to release someone or something, or to stop worrying",
+    "example": "It is difficult to let go of memories associated with loved ones.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -1188,6 +1503,24 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "look up to",
+    "meaning_hi": "सम्मान करना / आदर करना",
+    "meaning_en": "to admire and respect someone",
+    "example": "Young athletes look up to the national team's captain as a role model.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "make do",
+    "meaning_hi": "गुज़ारा करना / काम चलाना",
+    "meaning_en": "to manage with something less than ideal",
+    "example": "During the shortage, families had to make do with rationed supplies.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "make out",
     "meaning_hi": "समझना",
     "meaning_en": "to understand something with difficulty",
@@ -1269,15 +1602,6 @@
     "category": "phrasal_verbs"
   },
   {
-    "word": "overrun",
-    "meaning_hi": "से आगे बढ़ जाना",
-    "meaning_en": "to exceed a time or budget limit",
-    "example": "The construction project overran its estimated budget by thirty percent.",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "phrasal_verbs"
-  },
-  {
     "word": "own up",
     "meaning_hi": "स्वीकार करना",
     "meaning_en": "to confess or admit doing something wrong",
@@ -1300,6 +1624,15 @@
     "meaning_hi": "पास से गुजरना",
     "meaning_en": "to go past a place or person without stopping",
     "example": "A police van passed by slowly while patrolling the deserted street.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "pass on",
+    "meaning_hi": "आगे बढ़ाना / मना करना",
+    "meaning_en": "to transmit information or an object to someone else, or to decline",
+    "example": "Please pass on my best wishes to the entire team.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -1368,6 +1701,24 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "pile up",
+    "meaning_hi": "इकट्ठा होना / ढेर लगना",
+    "meaning_en": "to accumulate in large amounts",
+    "example": "Unread emails were beginning to pile up in her inbox.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "play down",
+    "meaning_hi": "कम करके दिखाना / महत्त्व कम करना",
+    "meaning_en": "to make something seem less important than it is",
+    "example": "The spokesperson tried to play down the severity of the crisis.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "point out",
     "meaning_hi": "इशारा करना",
     "meaning_en": "to indicate or bring something to someone's attention",
@@ -1413,6 +1764,15 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "put forward",
+    "meaning_hi": "प्रस्ताव रखना / सुझाना",
+    "meaning_en": "to propose a plan or idea for consideration",
+    "example": "She put forward a detailed proposal for improving rural healthcare.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "put off",
     "meaning_hi": "टालना",
     "meaning_en": "to postpone something to a later time or date",
@@ -1435,6 +1795,15 @@
     "meaning_hi": "बुझाना",
     "meaning_en": "to extinguish a fire or flame",
     "example": "Firefighters worked for hours to put out the fire in the textile factory.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "put together",
+    "meaning_hi": "बनाना / जोड़ना / तैयार करना",
+    "meaning_en": "to assemble parts into a whole, or to prepare something",
+    "example": "The committee put together a comprehensive report on the issue.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -1467,10 +1836,28 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "reach out",
+    "meaning_hi": "संपर्क करना / मदद माँगना / हाथ बढ़ाना",
+    "meaning_en": "to contact someone or offer help",
+    "example": "The NGO reached out to survivors in the most remote areas.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "roll out",
     "meaning_hi": "शुरू करना",
     "meaning_en": "to launch a new product or service officially",
     "example": "The government rolled out the new health insurance scheme across ten states.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "round up",
+    "meaning_hi": "इकट्ठा करना / गोल आँकड़ा करना",
+    "meaning_en": "to gather together people or animals, or to increase to the nearest whole number",
+    "example": "Police rounded up the suspects within hours of the incident.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -1489,6 +1876,15 @@
     "meaning_hi": "पीछा करना",
     "meaning_en": "to chase someone or something",
     "example": "The security guard ran after the suspect but failed to catch him.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "run away",
+    "meaning_hi": "भाग जाना",
+    "meaning_en": "to flee from a place or situation",
+    "example": "The frightened child ran away from the noisy crowd.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -1521,6 +1917,15 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "save up",
+    "meaning_hi": "जमा करना / बचाना",
+    "meaning_en": "to accumulate money for a future purpose",
+    "example": "He saved up for two years before buying his first car.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "scale up",
     "meaning_hi": "विस्तार करना",
     "meaning_en": "to increase the size or scope of an operation",
@@ -1548,6 +1953,15 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "set aside",
+    "meaning_hi": "अलग रखना / बचाकर रखना",
+    "meaning_en": "to reserve something for a specific purpose",
+    "example": "The government set aside funds for infrastructure in the budget.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "set off",
     "meaning_hi": "यात्रा शुरू करना",
     "meaning_en": "to begin a journey or trip",
@@ -1561,6 +1975,15 @@
     "meaning_hi": "स्थापित करना",
     "meaning_en": "to establish or create an organisation or system",
     "example": "He set up his own law firm after gaining ten years of experience.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "settle down",
+    "meaning_hi": "स्थिर होना / शांत होना",
+    "meaning_en": "to establish a stable home or routine, or to become calm",
+    "example": "After years of travelling, she finally settled down in her hometown.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -1602,6 +2025,24 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "sign up",
+    "meaning_hi": "नामांकन करना / पंजीकरण कराना",
+    "meaning_en": "to register for a course, service, or activity",
+    "example": "Over a thousand students signed up for the online exam preparation course.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "sink in",
+    "meaning_hi": "समझ में आना / धंसना",
+    "meaning_en": "to become fully understood or absorbed",
+    "example": "The news of his passing took a while to sink in.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "sit down",
     "meaning_hi": "बैठना",
     "meaning_en": "to lower one's body onto a seat",
@@ -1615,6 +2056,15 @@
     "meaning_hi": "सुलझाना",
     "meaning_en": "to resolve a problem or organise something properly",
     "example": "The manager called a meeting to sort out the confusion among departments.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "speak out",
+    "meaning_hi": "खुलकर बोलना / आवाज़ उठाना",
+    "meaning_en": "to express an opinion or protest publicly and without fear",
+    "example": "She spoke out against the injustice despite pressure from her superiors.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -1665,10 +2115,28 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "step up",
+    "meaning_hi": "आगे आना / बढ़ाना",
+    "meaning_en": "to increase effort or take greater responsibility",
+    "example": "The army stepped up its operations along the border.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "stick to",
     "meaning_hi": "पालन करना",
     "meaning_en": "to continue following a plan or principle firmly",
     "example": "Stick to your revision schedule even when you feel tired or distracted.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "stir up",
+    "meaning_hi": "भड़काना / हलचल मचाना",
+    "meaning_en": "to provoke strong feelings or to cause trouble",
+    "example": "The inflammatory speech stirred up tension in an already divided community.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -1687,6 +2155,24 @@
     "meaning_hi": "जैसा होना",
     "meaning_en": "to resemble a parent or relative in appearance or character",
     "example": "She takes after her mother in both personality and physical appearance.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "take back",
+    "meaning_hi": "वापस लेना / पछतावा होना",
+    "meaning_en": "to retract a statement or reclaim something",
+    "example": "He was forced to take back his remarks after widespread criticism.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "take in",
+    "meaning_hi": "समझना / ठगना / शरण देना",
+    "meaning_en": "to understand fully, to deceive, or to provide shelter",
+    "example": "It was hard to take in all the information provided in a single session.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -1719,10 +2205,28 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "talk into",
+    "meaning_hi": "मनाना / राज़ी करना",
+    "meaning_en": "to persuade someone to do something",
+    "example": "She was eventually talked into accepting the leadership role.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "tear up",
     "meaning_hi": "फाड़ देना",
     "meaning_en": "to rip something into small pieces",
     "example": "He tore up the rejection letter and immediately began working on a new plan.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "tell off",
+    "meaning_hi": "डाँटना / फटकारना",
+    "meaning_en": "to scold or reprimand someone sharply",
+    "example": "The teacher told him off for arriving late for the third time that week.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -1741,6 +2245,15 @@
     "meaning_hi": "फेंक देना",
     "meaning_en": "to discard something by putting it in the bin",
     "example": "Throw away all expired medicines from your first aid kit immediately.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "tone down",
+    "meaning_hi": "कम करना / नरम करना",
+    "meaning_en": "to make something less extreme or forceful",
+    "example": "The editor asked the reporter to tone down the aggressive language in the article.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -1791,19 +2304,19 @@
     "category": "phrasal_verbs"
   },
   {
-    "word": "turn up",
-    "meaning_hi": "आ जाना",
-    "meaning_en": "to appear unexpectedly or after being delayed",
-    "example": "He turned up at the meeting two hours late without prior notice.",
+    "word": "turn out",
+    "meaning_hi": "निकलना / साबित होना / उपस्थित होना",
+    "meaning_en": "to result in a certain way, or to attend an event",
+    "example": "The project turned out to be more complex than originally anticipated.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
   },
   {
-    "word": "uphold",
-    "meaning_hi": "बनाए रखना",
-    "meaning_en": "to maintain or support a principle or decision",
-    "example": "The Supreme Court upheld the lower court's verdict in the landmark case.",
+    "word": "turn up",
+    "meaning_hi": "आ जाना",
+    "meaning_en": "to appear unexpectedly or after being delayed",
+    "example": "He turned up at the meeting two hours late without prior notice.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"
@@ -1935,6 +2448,15 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "wind down",
+    "meaning_hi": "धीमा होना / बंद होना / आराम करना",
+    "meaning_en": "to gradually slow down or come to an end",
+    "example": "The company began to wind down its operations in the unprofitable region.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "wind up",
     "meaning_hi": "समाप्त करना",
     "meaning_en": "to bring something to an end or find oneself in a situation",
@@ -1971,6 +2493,15 @@
     "category": "phrasal_verbs"
   },
   {
+    "word": "work up",
+    "meaning_hi": "उत्साहित करना / विकसित करना",
+    "meaning_en": "to gradually develop something, or to make someone excited or upset",
+    "example": "He worked up the courage to speak in front of a large audience.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
     "word": "write down",
     "meaning_hi": "लिख लेना",
     "meaning_en": "to record something in writing so it is not forgotten",
@@ -1984,6 +2515,15 @@
     "meaning_hi": "खारिज करना",
     "meaning_en": "to regard something as a complete loss or failure",
     "example": "Do not write him off yet — he has overcome setbacks before and will again.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "phrasal_verbs"
+  },
+  {
+    "word": "write up",
+    "meaning_hi": "लिखकर तैयार करना",
+    "meaning_en": "to produce a complete written record of something",
+    "example": "The researcher wrote up her findings in a detailed scientific paper.",
     "synonyms": [],
     "antonyms": [],
     "category": "phrasal_verbs"

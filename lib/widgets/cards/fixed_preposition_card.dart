@@ -22,7 +22,8 @@ class FixedPrepositionCard extends StatelessWidget {
     this.shareMode = false,
   });
 
-  static const _accent = Color(0xFF0F766E);
+  static const _accentDark  = Color(0xFF2DD4BF); // teal-300 — readable on dark bg
+  static const _accentLight = Color(0xFF0F766E); // teal-700
 
   static const _prepositions = {
     'of', 'to', 'for', 'with', 'on', 'at', 'from', 'by', 'about', 'in',
@@ -49,6 +50,7 @@ class FixedPrepositionCard extends StatelessWidget {
     final split = _splitWord();
     final base = split[0];
     final prep = split[1];
+    final accent = context.isDark ? _accentDark : _accentLight;
 
     return Container(
       width: double.infinity,
@@ -90,13 +92,13 @@ class FixedPrepositionCard extends StatelessWidget {
                   Container(
                     padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
                     decoration: BoxDecoration(
-                      color: _accent.withValues(alpha: 0.13),
+                      color: accent.withValues(alpha: 0.13),
                       borderRadius: BorderRadius.circular(8),
-                      border: Border.all(color: _accent.withValues(alpha: 0.35), width: 1.2),
+                      border: Border.all(color: accent.withValues(alpha: 0.35), width: 1.2),
                     ),
                     child: Text(
                       prep,
-                      style: const TextStyle(fontSize: 34, fontWeight: FontWeight.bold, color: _accent),
+                      style: TextStyle(fontSize: 34, fontWeight: FontWeight.bold, color: accent),
                     ),
                   ),
                 if (base.isEmpty && prep.isEmpty)
@@ -108,7 +110,7 @@ class FixedPrepositionCard extends StatelessWidget {
 
           _title(context, "Hindi Meaning"),
           const SizedBox(height: 6),
-          _highlight(context, word.meaningHi),
+          _highlight(context, word.meaningHi, accent),
 
           const SizedBox(height: 20),
 
@@ -147,7 +149,7 @@ class FixedPrepositionCard extends StatelessWidget {
               minHeight: 8,
               borderRadius: BorderRadius.circular(999),
               backgroundColor: context.borderSubtle,
-              color: _accent,
+              color: accent,
             ),
             const SizedBox(height: 10),
             Center(
@@ -204,7 +206,7 @@ class FixedPrepositionCard extends StatelessWidget {
     final dark = context.isDark;
     switch (title) {
       case 'Hindi Meaning':   return dark ? const Color(0xFF818CF8) : const Color(0xFF4338CA);
-      case 'English Meaning': return dark ? const Color(0xFF2DD4BF) : _accent;
+      case 'English Meaning': return dark ? const Color(0xFF2DD4BF) : _accentLight;
       case 'Example':         return dark ? const Color(0xFFFBBF24) : const Color(0xFFB45309);
       case 'Synonyms':        return dark ? const Color(0xFF60A5FA) : const Color(0xFF1D4ED8);
       case 'Antonyms':        return dark ? const Color(0xFFF87171) : const Color(0xFFB91C1C);
@@ -212,10 +214,10 @@ class FixedPrepositionCard extends StatelessWidget {
     }
   }
 
-  Widget _highlight(BuildContext context, String text) => Container(
+  Widget _highlight(BuildContext context, String text, Color accent) => Container(
     padding: const EdgeInsets.all(12),
     decoration: BoxDecoration(
-      color: _accent.withValues(alpha: context.isDark ? 0.22 : 0.07),
+      color: accent.withValues(alpha: context.isDark ? 0.22 : 0.07),
       borderRadius: BorderRadius.circular(12),
     ),
     child: Text(

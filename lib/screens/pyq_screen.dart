@@ -119,13 +119,31 @@ const _exams = [
 // ── Screen ────────────────────────────────────────────────────────────────────
 
 class PYQScreen extends StatefulWidget {
-  const PYQScreen({super.key});
+  /// When set, the screen skips the hub and jumps straight to this exam+question.
+  final String? jumpToFile;
+  final int jumpToIndex;
+
+  const PYQScreen({super.key, this.jumpToFile, this.jumpToIndex = 0});
 
   @override
   State<PYQScreen> createState() => _PYQScreenState();
 }
 
 class _PYQScreenState extends State<PYQScreen> {
+  @override
+  void initState() {
+    super.initState();
+    if (widget.jumpToFile != null) {
+      final exam = _exams.firstWhere(
+        (e) => e.file.contains(widget.jumpToFile!),
+        orElse: () => _exams.first,
+      );
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        _loadAndStart(exam, jumpToIndex: widget.jumpToIndex);
+      });
+    }
+  }
+
   // Phase tracking
   _ExamInfo? _selectedExam;
   bool _inQuiz = false;
@@ -150,7 +168,7 @@ class _PYQScreenState extends State<PYQScreen> {
   bool get _isPremium => premiumUnlocked;
   bool get _isLocked => !_isPremium && _currentIndex >= freePYQLimit;
 
-  Future<void> _loadAndStart(_ExamInfo exam, {bool fresh = false}) async {
+  Future<void> _loadAndStart(_ExamInfo exam, {bool fresh = false, int jumpToIndex = 0}) async {
     if (fresh) await clearPYQSession(exam.name);
     setState(() {
       _isLoading = true;
@@ -187,9 +205,11 @@ class _PYQScreenState extends State<PYQScreen> {
           .toSet()
           .toList()
         ..sort();
-      final resumeIndex = fresh
-          ? 0
-          : getPYQResumeIndex(exam.name).clamp(0, questions.length - 1);
+      final resumeIndex = jumpToIndex > 0
+          ? jumpToIndex.clamp(0, questions.length - 1)
+          : fresh
+              ? 0
+              : getPYQResumeIndex(exam.name).clamp(0, questions.length - 1);
       final allSel = List<int?>.filled(questions.length, null);
       if (!fresh) {
         for (final e in getPYQSelections(exam.name).entries) {
@@ -780,30 +800,30 @@ $optionsText
                     ))
                 .toList(),
           ),
-          const SizedBox(height: 20),
-          Container(
-            padding: const EdgeInsets.all(14),
-            decoration: BoxDecoration(
-              color: context.surfaceMuted,
-              borderRadius: BorderRadius.circular(12),
-            ),
-            child: Row(
-              children: [
-                Icon(Icons.info_outline_rounded,
-                    size: 16, color: context.textSecondary),
-                const SizedBox(width: 8),
-                Expanded(
-                  child: Text(
-                    _isPremium
-                        ? 'All questions unlocked — Premium active'
-                        : 'First $freePYQLimit questions free per exam · Upgrade for unlimited access',
-                    style: TextStyle(
-                        fontSize: 12, color: context.textSecondary),
+          if (!_isPremium) ...[
+            const SizedBox(height: 20),
+            Container(
+              padding: const EdgeInsets.all(14),
+              decoration: BoxDecoration(
+                color: context.surfaceMuted,
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: Row(
+                children: [
+                  Icon(Icons.info_outline_rounded,
+                      size: 16, color: context.textSecondary),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      'First $freePYQLimit questions free per exam · Upgrade for unlimited access',
+                      style: TextStyle(
+                          fontSize: 12, color: context.textSecondary),
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
-          ),
+          ],
         ],
       ),
     );

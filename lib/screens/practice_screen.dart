@@ -8,6 +8,7 @@ import 'package:flutter/services.dart';
 import '../data/category_sources.dart';
 import '../utils/app_colors.dart';
 import '../data/practice_stats_store.dart';
+import '../data/quiz_settings_store.dart';
 import '../data/premium_store.dart';
 import '../data/weak_areas_store.dart';
 import '../models/weak_attempt.dart';
@@ -59,9 +60,12 @@ class _PracticeScreenState extends State<PracticeScreen> {
   int _lastTotal = 0;
   int _lastPercent = 0;
   int _lastClearedCount = 0;
+  double _lastNetScore = 0.0;
   List<_PracticeQuestion> _reviewQuestions = [];
   List<int?> _reviewSelections = [];
   Set<int> _reviewBookmarks = {};
+
+  bool _negativeMarkingEnabled = false;
 
   bool get _isMixedQuiz => widget.category == 'mixed';
   bool get _isWeakAreasMode => widget.weakAttempts != null;
@@ -71,6 +75,9 @@ class _PracticeScreenState extends State<PracticeScreen> {
   void initState() {
     super.initState();
     _initializePractice();
+    loadQuizSettings().then((_) {
+      if (mounted) setState(() => _negativeMarkingEnabled = negativeMarkingEnabled);
+    });
   }
 
   @override
@@ -839,6 +846,11 @@ class _PracticeScreenState extends State<PracticeScreen> {
 
   // ── Interaction ──────────────────────────────────────────────────────────
 
+  void _toggleNegativeMarking() {
+    setState(() => _negativeMarkingEnabled = !_negativeMarkingEnabled);
+    setNegativeMarking(_negativeMarkingEnabled);
+  }
+
   void _selectOption(int index) {
     HapticFeedback.lightImpact();
     setState(() => _userSelections[currentIndex] = index);
@@ -955,6 +967,22 @@ class _PracticeScreenState extends State<PracticeScreen> {
     return count;
   }
 
+  int _computeWrongCount() {
+    int count = 0;
+    for (int i = 0; i < questions.length; i++) {
+      final sel = _userSelections[i];
+      if (sel != null && sel >= 0 && sel < questions[i].options.length) {
+        if (questions[i].options[sel] != questions[i].correctAnswer) count++;
+      }
+    }
+    return count;
+  }
+
+  String _fmtScore(double v) {
+    if (v == v.truncateToDouble()) return v.toInt().toString();
+    return v.toStringAsFixed(2);
+  }
+
   void _saveWeakAttempts() {
     for (int i = 0; i < questions.length; i++) {
       final q = questions[i];
@@ -977,8 +1005,12 @@ class _PracticeScreenState extends State<PracticeScreen> {
   Future<void> _showResult() async {
     _cancelTimer();
     final correctCount = _computeCorrectCount();
+    final wrongCount = _computeWrongCount();
     final total = questions.length;
-    final percent = total == 0 ? 0 : ((correctCount / total) * 100).round();
+    final netScore = _negativeMarkingEnabled
+        ? (correctCount - wrongCount * 0.25).clamp(0.0, total.toDouble())
+        : correctCount.toDouble();
+    final percent = total == 0 ? 0 : ((netScore / total) * 100).round();
 
     // Capture pre-update values for comparison
     final prevBest = bestScore;
@@ -997,7 +1029,7 @@ class _PracticeScreenState extends State<PracticeScreen> {
       }
     } else {
       _saveWeakAttempts();
-      await updateBestPracticeStats(widget.category, score: correctCount, accuracy: percent);
+      await updateBestPracticeStats(widget.category, score: netScore.round(), accuracy: percent);
     }
 
     if (!mounted) return;
@@ -1009,8 +1041,9 @@ class _PracticeScreenState extends State<PracticeScreen> {
         averageScore = getStoredAverageScore(widget.category);
       }
       _prevBestScore = prevBest;
-      _isNewPersonalBest = hadPreviousAttempt && !_isWeakAreasMode && correctCount > prevBest;
+      _isNewPersonalBest = hadPreviousAttempt && !_isWeakAreasMode && netScore.round() > prevBest;
       _lastCorrectCount = correctCount;
+      _lastNetScore = netScore;
       _lastTotal = total;
       _lastPercent = percent;
       _lastClearedCount = clearedCount;
@@ -1041,6 +1074,7 @@ class _PracticeScreenState extends State<PracticeScreen> {
   Widget _buildCompletionView() {
     final skippedCount = _lastTotal - _reviewSelections.where((s) => s != null).length;
     final wrongCount = _lastTotal - _lastCorrectCount - skippedCount;
+    final penalty = wrongCount * 0.25;
 
     return Scaffold(
       backgroundColor: context.scaffoldBg,
@@ -1099,7 +1133,12 @@ class _PracticeScreenState extends State<PracticeScreen> {
                   const SizedBox(height: 20),
                   Row(
                     children: [
-                      Expanded(child: _ResultStatCard(label: 'Score', value: '$_lastCorrectCount/$_lastTotal', valueColor: context.textPrimary, backgroundColor: context.surfaceMuted)),
+                      Expanded(child: _ResultStatCard(
+                        label: 'Score',
+                        value: _negativeMarkingEnabled ? '${_fmtScore(_lastNetScore)}/$_lastTotal' : '$_lastCorrectCount/$_lastTotal',
+                        valueColor: context.textPrimary,
+                        backgroundColor: context.surfaceMuted,
+                      )),
                       const SizedBox(width: 10),
                       Expanded(child: _ResultStatCard(label: 'Accuracy', value: '$_lastPercent%', valueColor: const Color(0xFF0F766E), backgroundColor: context.isDark ? const Color(0xFF0D9488).withValues(alpha: 0.15) : const Color(0xFFF0FDFA))),
                     ],
@@ -1109,16 +1148,46 @@ class _PracticeScreenState extends State<PracticeScreen> {
                     children: [
                       Expanded(child: _ResultStatCard(label: 'Correct', value: '$_lastCorrectCount', valueColor: const Color(0xFF15803D), backgroundColor: context.isDark ? const Color(0xFF15803D).withValues(alpha: 0.15) : const Color(0xFFF0FDF4))),
                       const SizedBox(width: 10),
-                      Expanded(child: _ResultStatCard(label: 'Wrong', value: '$wrongCount', valueColor: const Color(0xFFDC2626), backgroundColor: context.isDark ? const Color(0xFFDC2626).withValues(alpha: 0.15) : const Color(0xFFFEF2F2))),
+                      Expanded(child: _ResultStatCard(
+                        label: _negativeMarkingEnabled ? 'Wrong (−${_fmtScore(penalty)})' : 'Wrong',
+                        value: '$wrongCount',
+                        valueColor: const Color(0xFFDC2626),
+                        backgroundColor: context.isDark ? const Color(0xFFDC2626).withValues(alpha: 0.15) : const Color(0xFFFEF2F2),
+                      )),
                     ],
                   ),
+                  if (_negativeMarkingEnabled && wrongCount > 0) ...[
+                    const SizedBox(height: 10),
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 9),
+                      decoration: BoxDecoration(
+                        color: context.isDark ? const Color(0xFFDC2626).withValues(alpha: 0.12) : const Color(0xFFFEF2F2),
+                        borderRadius: BorderRadius.circular(10),
+                        border: Border.all(color: const Color(0xFFDC2626).withValues(alpha: 0.35)),
+                      ),
+                      child: Row(
+                        children: [
+                          const Icon(Icons.remove_circle_outline_rounded, color: Color(0xFFDC2626), size: 14),
+                          const SizedBox(width: 6),
+                          Text(
+                            '−0.25 × $wrongCount wrong = −${_fmtScore(penalty)} penalty applied',
+                            style: const TextStyle(color: Color(0xFFDC2626), fontSize: 12, fontWeight: FontWeight.w600),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
                   if (skippedCount > 0) ...[
                     const SizedBox(height: 10),
                     _ResultStatCard(label: 'Skipped', value: '$skippedCount', valueColor: const Color(0xFFB45309), backgroundColor: context.isDark ? const Color(0xFFB45309).withValues(alpha: 0.15) : const Color(0xFFFFFBEB)),
                   ],
                   if (!_isWeakAreasMode && _prevBestScore > 0) ...[
                     const SizedBox(height: 12),
-                    _DeltaChip(current: _lastCorrectCount, previous: _prevBestScore, total: _lastTotal),
+                    _DeltaChip(
+                      current: _negativeMarkingEnabled ? _lastNetScore.round() : _lastCorrectCount,
+                      previous: _prevBestScore,
+                      total: _lastTotal,
+                    ),
                   ],
                 ],
               ),
@@ -1373,6 +1442,56 @@ class _PracticeScreenState extends State<PracticeScreen> {
                   ],
                 ),
               ),
+            if (!_isWeakAreasMode) ...[
+              const SizedBox(height: 10),
+              GestureDetector(
+                onTap: _toggleNegativeMarking,
+                child: Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                  decoration: BoxDecoration(
+                    color: _negativeMarkingEnabled
+                        ? (context.isDark ? const Color(0xFFDC2626).withValues(alpha: 0.12) : const Color(0xFFFEF2F2))
+                        : context.cardBg,
+                    borderRadius: BorderRadius.circular(12),
+                    border: Border.all(
+                      color: _negativeMarkingEnabled
+                          ? const Color(0xFFDC2626).withValues(alpha: 0.5)
+                          : context.borderSubtle,
+                    ),
+                  ),
+                  child: Row(
+                    children: [
+                      Icon(
+                        Icons.remove_circle_outline_rounded,
+                        size: 16,
+                        color: _negativeMarkingEnabled ? const Color(0xFFDC2626) : context.textSecondary,
+                      ),
+                      const SizedBox(width: 8),
+                      Text(
+                        'Negative marking',
+                        style: TextStyle(
+                          fontWeight: FontWeight.w600,
+                          fontSize: 13,
+                          color: _negativeMarkingEnabled ? const Color(0xFFDC2626) : context.textPrimary,
+                        ),
+                      ),
+                      const SizedBox(width: 6),
+                      Text(
+                        '−0.25 per wrong',
+                        style: TextStyle(fontSize: 12, color: context.textSecondary),
+                      ),
+                      const Spacer(),
+                      Switch(
+                        value: _negativeMarkingEnabled,
+                        onChanged: (_) => _toggleNegativeMarking(),
+                        activeThumbColor: const Color(0xFFDC2626),
+                        materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ],
             if (showFreeTierInfo) ...[
               const SizedBox(height: 10),
               Container(
@@ -1407,7 +1526,7 @@ class _PracticeScreenState extends State<PracticeScreen> {
                   ),
                   child: Text(
                     'Answered: $_answeredCount/${questions.length}',
-                    style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w700, color: Color(0xFF1D4ED8)),
+                    style: TextStyle(fontSize: 12, fontWeight: FontWeight.w700, color: context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1D4ED8)),
                   ),
                 ),
               ],
@@ -1474,7 +1593,9 @@ class _PracticeScreenState extends State<PracticeScreen> {
                         color: isSelected ? (context.isDark ? const Color(0xFF1E3A5F) : const Color(0xFFEFF6FF)) : context.cardBg,
                         borderRadius: BorderRadius.circular(12),
                         border: Border.all(
-                          color: isSelected ? const Color(0xFF1F3C6D) : context.borderSubtle,
+                          color: isSelected
+                              ? (context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D))
+                              : context.borderSubtle,
                           width: isSelected ? 2 : 1,
                         ),
                       ),
@@ -1485,7 +1606,9 @@ class _PracticeScreenState extends State<PracticeScreen> {
                             height: 28,
                             decoration: BoxDecoration(
                               shape: BoxShape.circle,
-                              color: isSelected ? const Color(0xFF1F3C6D) : context.surfaceMuted,
+                              color: isSelected
+                                  ? (context.isDark ? const Color(0xFF3B82F6) : const Color(0xFF1F3C6D))
+                                  : context.surfaceMuted,
                             ),
                             child: Center(
                               child: Text(
@@ -1504,7 +1627,9 @@ class _PracticeScreenState extends State<PracticeScreen> {
                               option,
                               style: TextStyle(
                                 fontSize: 15,
-                                color: isSelected ? const Color(0xFF1F3C6D) : context.textPrimary,
+                                color: isSelected
+                                    ? (context.isDark ? Colors.white : const Color(0xFF1F3C6D))
+                                    : context.textPrimary,
                                 fontWeight: isSelected ? FontWeight.w600 : FontWeight.normal,
                               ),
                             ),

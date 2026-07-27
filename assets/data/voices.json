@@ -857,7 +857,7 @@
   {
     "word": "They have been neglecting maintenance of the archives for years.",
     "meaning_en": "Present perfect continuous active 'have been neglecting' becomes passive 'has been being neglected'.",
-    "meaning_hi": "",
+    "meaning_hi": "Present Perfect Continuous → Passive | 'has/have been + V1-ing (active)' → Passive में 'has/have been being + V3' होता है।",
     "example": "Maintenance of the archives has been being neglected by them for years.",
     "options": [
       "Maintenance of the archives had been neglected by them for years.",
@@ -872,7 +872,7 @@
   {
     "word": "It was being suggested by multiple sources that the operation had been compromised internally.",
     "meaning_en": "The active form is 'Multiple sources suggested the operation was compromised internally.'",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "Multiple sources suggested the operation was compromised internally.",
     "options": [
       "Multiple sources suggested the operation was compromised internally.",
@@ -887,7 +887,7 @@
   {
     "word": "People can seldom access archived manuscripts without clearance.",
     "meaning_en": "'can access' becomes the passive 'can be accessed'.",
-    "meaning_hi": "",
+    "meaning_hi": "Modal → Passive | 'Modal + V1 (active)' → Passive में 'Modal + be + V3' होता है।",
     "example": "Archived manuscripts can seldom be accessed without clearance.",
     "options": [
       "Archived manuscripts can seldom being accessed without clearance.",
@@ -902,7 +902,7 @@
   {
     "word": "The package is delivered to the office every morning.",
     "meaning_en": "With no stated agent, an indefinite subject 'Someone' is used in the active voice.",
-    "meaning_hi": "",
+    "meaning_hi": "Voice Transformation | Active → Passive में tense preserve करें; object → subject बनता है।",
     "example": "Someone delivers the package to the office every morning.",
     "options": [
       "The office delivers the package every morning.",
@@ -917,7 +917,7 @@
   {
     "word": "Why did the editor overlook the substantial stylistic anomalies?",
     "meaning_en": "A past-simple 'why' question becomes 'Why were ... overlooked by the editor?'.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "Why were the substantial stylistic anomalies overlooked by the editor?",
     "options": [
       "Why have the substantial stylistic anomalies been overlooked by the editor?",
@@ -932,7 +932,7 @@
   {
     "word": "It has been alleged that confidential data was being leaked by insiders within the firm.",
     "meaning_en": "The active form keeps the allegation adverbially: 'Insiders have allegedly been leaking...'.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "Insiders have allegedly been leaking confidential data within the firm.",
     "options": [
       "Insiders were leaking confidential data within the firm.",
@@ -947,7 +947,7 @@
   {
     "word": "The laboratory will have double-checked the reagents by dawn.",
     "meaning_en": "Future perfect 'will have double-checked' becomes 'will have been double-checked' in the passive.",
-    "meaning_hi": "",
+    "meaning_hi": "Future Perfect → Passive | 'will have + V3 (active)' → Passive में 'will have been + V3' होता है।",
     "example": "The reagents will have been double-checked by the laboratory by dawn.",
     "options": [
       "The reagents have been double-checked by the laboratory by dawn.",
@@ -962,7 +962,7 @@
   {
     "word": "Rare minerals are known to have been secretly extracted from the site by unauthorized workers before the inspection.",
     "meaning_en": "The active version keeps 'are known to have' and makes 'unauthorized workers' the subject of 'extracted'.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "Unauthorized workers are known to have secretly extracted rare minerals before inspection.",
     "options": [
       "Unauthorized workers extracted the rare minerals before inspection.",
@@ -977,7 +977,7 @@
   {
     "word": "We shall have dispatched the invitations before Friday evening.",
     "meaning_en": "Future perfect 'shall have dispatched' becomes 'shall have been dispatched' in the passive.",
-    "meaning_hi": "",
+    "meaning_hi": "Future Perfect → Passive | 'will have + V3 (active)' → Passive में 'will have been + V3' होता है।",
     "example": "The invitations shall have been dispatched before Friday evening.",
     "options": [
       "The invitations shall have dispatched before Friday evening.",
@@ -992,7 +992,7 @@
   {
     "word": "The photos will be printed by the studio within an hour.",
     "meaning_en": "Passive future 'will be printed' becomes active 'The studio will print the photos'.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "The studio will print the photos within an hour.",
     "options": [
       "The studio prints the photos within an hour.",
@@ -1007,7 +1007,7 @@
   {
     "word": "Will the authorities enforce the revised ordinance promptly?",
     "meaning_en": "Future interrogative 'Will...enforce' becomes 'Will...be enforced' in the passive.",
-    "meaning_hi": "",
+    "meaning_hi": "Future Interrogative → Passive | 'Will + S + V1...?' → 'Will + O + be + V3 + by + Agent?' होता है।",
     "example": "Will the revised ordinance be enforced promptly by the authorities?",
     "options": [
       "Will the revised ordinance be enforced promptly by the authorities?",
@@ -1022,7 +1022,7 @@
   {
     "word": "The package will have been delivered by the courier before 5 PM.",
     "meaning_en": "Future perfect passive 'will have been delivered' becomes active 'will have delivered'.",
-    "meaning_hi": "",
+    "meaning_hi": "Future Perfect → Passive | 'will have + V3 (active)' → Passive में 'will have been + V3' होता है।",
     "example": "The courier will have delivered the package before 5 PM.",
     "options": [
       "The courier will deliver the package before 5 PM.",
@@ -1037,7 +1037,7 @@
   {
     "word": "The committee had been debating complex amendments when the bell rang.",
     "meaning_en": "Past perfect continuous 'had been debating' becomes 'had been being debated' in the passive.",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect Continuous → Passive | 'had been + V1-ing (active)' → Passive में 'had been being + V3' होता है।",
     "example": "Complex amendments had been being debated by the committee when the bell rang.",
     "options": [
       "Complex amendments had had been been debated by the committee when the bell rang.",
@@ -1052,7 +1052,7 @@
   {
     "word": "A letter is written to the editor by the citizen every week.",
     "meaning_en": "The agent 'the citizen' becomes the subject and the verb stays in the simple present: 'writes'.",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Present → Passive | 'V1 (active)' → Passive में 'is/am/are + V3' होता है।",
     "example": "The citizen writes a letter to the editor every week.",
     "options": [
       "The editor writes a letter to the citizen every week.",
@@ -1067,7 +1067,7 @@
   {
     "word": "Historians may well reinterpret the artifact after new evidence emerges.",
     "meaning_en": "'may well reinterpret' becomes 'may well be reinterpreted' in the passive.",
-    "meaning_hi": "",
+    "meaning_hi": "Voice Transformation | Active → Passive में tense preserve करें; object → subject बनता है।",
     "example": "The artifact may well be reinterpreted by historians after new evidence emerges.",
     "options": [
       "The artifact may well be reinterpreted by historians after new evidence emerges.",
@@ -1082,7 +1082,7 @@
   {
     "word": "The land is believed to have been acquired illegally by the company through forged documents.",
     "meaning_en": "The active form keeps 'is believed to have' and makes 'the company' the subject of 'acquired'.",
-    "meaning_hi": "",
+    "meaning_hi": "Impersonal Passive | 'It is said/believed that...' या 'Subject + is said to + V' — दोनों passive forms सही हैं।",
     "example": "The company is believed to have acquired the land illegally.",
     "options": [
       "The company is believed to have acquired the land illegally.",
@@ -1097,7 +1097,7 @@
   {
     "word": "The jury has delivered a unanimous verdict.",
     "meaning_en": "Present perfect 'has delivered' becomes 'has been delivered' in the passive.",
-    "meaning_hi": "",
+    "meaning_hi": "Present Perfect → Passive | 'has/have + V3 (active)' → Passive में 'has/have been + V3' होता है।",
     "example": "A unanimous verdict has been delivered by the jury.",
     "options": [
       "A unanimous verdict has been delivered by the jury.",
@@ -1112,7 +1112,7 @@
   {
     "word": "The construction is alleged to have been halted due to environmental violations.",
     "meaning_en": "The active form keeps 'are alleged to have' and makes 'the authorities' the subject of 'halted'.",
-    "meaning_hi": "",
+    "meaning_hi": "Passive → Active | Agent ('by + Agent') subject बनता है; tense वही रखें जो passive में है।",
     "example": "The authorities are alleged to have halted the construction.",
     "options": [
       "It is alleged that the authorities halted the construction.",
@@ -1127,7 +1127,7 @@
   {
     "word": "Did the council approve the comprehensive zoning plan?",
     "meaning_en": "A simple past interrogative 'Did the council approve...?' becomes 'Was the comprehensive zoning plan approved by the council?' in the passive.",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Past Interrogative → Passive | 'Did + S + V1...?' → 'Was/Were + O + V3 + by + Agent?' होता है।",
     "example": "Was the comprehensive zoning plan approved by the council?",
     "options": [
       "Has the comprehensive zoning plan been approved by the council?",
@@ -1142,7 +1142,7 @@
   {
     "word": "The accused was believed to have been hiding in the hills before being captured.",
     "meaning_en": "The impersonal passive 'was believed to have been hiding' is best rendered in the active with a definite subject (Authorities) believing the accused was hiding in the hills.",
-    "meaning_hi": "",
+    "meaning_hi": "Impersonal Passive | 'It is said/believed that...' या 'Subject + is said to + V' — दोनों passive forms सही हैं।",
     "example": "Authorities believed the accused was hiding in the hills.",
     "options": [
       "The accused believed he was hiding in the hills.",
@@ -1157,7 +1157,7 @@
   {
     "word": "Did the analysts anticipate the sudden market downturn?",
     "meaning_en": "The simple past interrogative becomes 'Was the sudden market downturn anticipated by the analysts?', with the agent introduced by 'by'.",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Past Interrogative → Passive | 'Did + S + V1...?' → 'Was/Were + O + V3 + by + Agent?' होता है।",
     "example": "Was the sudden market downturn anticipated by the analysts?",
     "options": [
       "Was the sudden market downturn anticipated from the analysts?",
@@ -1172,7 +1172,7 @@
   {
     "word": "The ministers were being briefed about the situation by the intelligence officers.",
     "meaning_en": "The past continuous passive 'were being briefed' converts to the past continuous active 'were briefing', keeping the tense intact.",
-    "meaning_hi": "",
+    "meaning_hi": "Past Continuous Passive → Active | 'was/were being + V3 (passive)' → Active में 'was/were + V1-ing' होता है।",
     "example": "The intelligence officers were briefing the ministers.",
     "options": [
       "The intelligence officers briefed the ministers about the situation.",
@@ -1187,7 +1187,7 @@
   {
     "word": "The university may confer honorary degrees upon exceptional scholars.",
     "meaning_en": "Modal 'may + bare verb' becomes 'may be + past participle' in the passive: 'may be conferred...by the university'.",
-    "meaning_hi": "",
+    "meaning_hi": "Modal → Passive | 'Modal + V1 (active)' → Passive में 'Modal + be + V3' होता है।",
     "example": "Honorary degrees may be conferred upon exceptional scholars by the university.",
     "options": [
       "Honorary degrees might have been conferred upon exceptional scholars by the university.",
@@ -1202,7 +1202,7 @@
   {
     "word": "The instructions have been misunderstood by many candidates.",
     "meaning_en": "The present perfect passive 'have been misunderstood' converts to the present perfect active 'have misunderstood', preserving the tense.",
-    "meaning_hi": "",
+    "meaning_hi": "Present Perfect Passive → Active | 'has/have been + V3 (passive)' → Active में 'has/have + V3' होता है।",
     "example": "Many candidates have misunderstood the instructions.",
     "options": [
       "Many candidates misunderstood the instructions.",
@@ -1217,7 +1217,7 @@
   {
     "word": "The team will be revising the algorithms during the workshop.",
     "meaning_en": "The future continuous active 'will be revising' takes the future continuous passive form 'will be being revised', preserving the tense even though it reads awkwardly.",
-    "meaning_hi": "",
+    "meaning_hi": "Future Continuous → Passive | 'will be + V1-ing (active)' → Passive में 'will be being + V3' होता है।",
     "example": "The algorithms will be being revised during the workshop.",
     "options": [
       "The algorithms were being revised during the workshop.",
@@ -1232,7 +1232,7 @@
   {
     "word": "The children were made to apologize by the principal for their behavior.",
     "meaning_en": "The causative passive 'were made to apologize by the principal' becomes the active causative 'The principal made the children apologize' (bare infinitive in the active).",
-    "meaning_hi": "",
+    "meaning_hi": "Causative Passive → Active | 'was/were made to + V1 (passive)' → Active में 'make + Object + bare infinitive'।",
     "example": "The principal made the children apologize for their behavior.",
     "options": [
       "The principal was made to apologize to the children.",
@@ -1247,7 +1247,7 @@
   {
     "word": "Someone must have tampered with the encryption keys.",
     "meaning_en": "'Must have tampered with' becomes 'must have been tampered with', with the vague agent 'someone' dropped and the phrasal verb's preposition retained.",
-    "meaning_hi": "",
+    "meaning_hi": "Phrasal Verb → Passive | Phrasal verb को एक unit मानें; preposition verb के साथ ही रहती है।",
     "example": "The encryption keys must have been tampered with.",
     "options": [
       "The encryption keys must have been tampered with.",
@@ -1262,7 +1262,7 @@
   {
     "word": "A solution has been suggested by the team to resolve the issue.",
     "meaning_en": "The present perfect passive 'has been suggested by the team' converts to the present perfect active 'The team has suggested', preserving the tense.",
-    "meaning_hi": "",
+    "meaning_hi": "Present Perfect Passive → Active | 'has/have been + V3 (passive)' → Active में 'has/have + V3' होता है।",
     "example": "The team has suggested a solution to resolve the issue.",
     "options": [
       "The team had suggested a solution to resolve the issue.",
@@ -1277,7 +1277,7 @@
   {
     "word": "Have the engineers resolved the calibration issue yet?",
     "meaning_en": "The present perfect interrogative 'Have the engineers resolved...?' becomes 'Has the calibration issue been resolved by the engineers yet?' in the passive.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "Has the calibration issue been resolved by the engineers yet?",
     "options": [
       "Has the calibration issue had been resolved by the engineers yet?",
@@ -1292,7 +1292,7 @@
   {
     "word": "The injured man was taken to the hospital by some villagers.",
     "meaning_en": "The simple past passive 'was taken...by some villagers' becomes the simple past active 'Some villagers took the injured man to the hospital.'",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Past → Passive | 'V2 (active)' → Passive में 'was/were + V3' होता है।",
     "example": "Some villagers took the injured man to the hospital.",
     "options": [
       "Some villagers take the injured man to the hospital.",
@@ -1307,7 +1307,7 @@
   {
     "word": "They were showing the movie at 7 pm.",
     "meaning_en": "The active sentence is past continuous ('were showing'). Its passive form is 'was/were being + past participle' â†’ 'The movie was being shown at 7 pm.'",
-    "meaning_hi": "",
+    "meaning_hi": "Past Continuous → Passive | 'was/were + V1-ing (active)' → Passive में 'was/were being + V3' होता है।",
     "example": "The movie was being shown at 7 pm.",
     "options": [
       "The movie is shown at 7 pm.",
@@ -1322,7 +1322,7 @@
   {
     "word": "A decision has been taken to have the proposal reviewed by an external panel.",
     "meaning_en": "The active version supplies a subject ('They') for 'a decision has been taken' and preserves the causative 'have/get ... reviewed' structure. The other options change the meaning or tense.",
-    "meaning_hi": "",
+    "meaning_hi": "Causative Active → Passive | 'make + Object + bare infinitive (active)' → 'was/were made to + V1 (passive)'।",
     "example": "They have decided to get the proposal reviewed by an external panel.",
     "options": [
       "An external panel has reviewed the proposal.",
@@ -1337,7 +1337,7 @@
   {
     "word": "The professor could have been explaining differential topology for hours.",
     "meaning_en": "The active is in the perfect continuous modal form ('could have been explaining'). Its passive is 'could have been being explained' â€” the only grammatically formed option.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "Differential topology could have been being explained for hours by the professor.",
     "options": [
       "Differential topology could have be being explained for hours by the professor.",
@@ -1352,7 +1352,7 @@
   {
     "word": "The documents had been submitted by the assistant before the deadline.",
     "meaning_en": "The passive is past perfect ('had been submitted'). The corresponding active retains past perfect tense: 'The assistant had submitted the documents before the deadline.'",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect → Passive | 'had + V3 (active)' → Passive में 'had been + V3' होता है।",
     "example": "The assistant had submitted the documents before the deadline.",
     "options": [
       "The assistant submits the documents before the deadline.",
@@ -1367,7 +1367,7 @@
   {
     "word": "The nurse will give you the injection.",
     "meaning_en": "Simple future active ('will give') becomes 'will be given' in the passive. Taking the indirect object 'you' as subject: 'You will be given the injection by the nurse.'",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "You will be given the injection by the nurse.",
     "options": [
       "You will be given the injection by the nurse.",
@@ -1382,7 +1382,7 @@
   {
     "word": "The audience was made to believe that the product was revolutionary.",
     "meaning_en": "The causative passive 'was made to believe' becomes active 'made (someone) believe', with an agent ('The presenter') supplied: 'The presenter made the audience believe the product was revolutionary.'",
-    "meaning_hi": "",
+    "meaning_hi": "Causative Passive → Active | 'was/were made to + V1 (passive)' → Active में 'make + Object + bare infinitive'।",
     "example": "The presenter made the audience believe the product was revolutionary.",
     "options": [
       "The presenter made the audience believe the product was revolutionary.",
@@ -1397,7 +1397,7 @@
   {
     "word": "They had been negotiating the deal for months.",
     "meaning_en": "Past perfect continuous active becomes 'had been being + past participle' in passive.",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect Continuous → Passive | 'had been + V1-ing (active)' → Passive में 'had been being + V3' होता है।",
     "example": "The deal had been being negotiated for months.",
     "options": [
       "The deal had been negotiating for months.",
@@ -1412,7 +1412,7 @@
   {
     "word": "The possibility of the files being leaked before the official release was not ruled out.",
     "meaning_en": "The active version keeps the negative 'did not rule out' and a clear subject ('someone').",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "Someone did not rule out the possibility that the files were leaked before release.",
     "options": [
       "Officials ruled out the leak before the files were released.",
@@ -1427,7 +1427,7 @@
   {
     "word": "The storm damaged many houses.",
     "meaning_en": "Simple past active ('damaged') becomes 'were + past participle' in passive.",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Past → Passive | 'V2 (active)' → Passive में 'was/were + V3' होता है।",
     "example": "Many houses were damaged by the storm.",
     "options": [
       "Many houses are damaged by the storm.",
@@ -1442,7 +1442,7 @@
   {
     "word": "The findings were interpreted to have been misrepresented by the spokesperson in the official release.",
     "meaning_en": "The spokesperson becomes the active subject of 'misrepresented the findings'.",
-    "meaning_hi": "",
+    "meaning_hi": "Voice Transformation | Active → Passive में tense preserve करें; object → subject बनता है।",
     "example": "The spokesperson is believed to have misrepresented the findings.",
     "options": [
       "It is believed that the spokesperson misrepresented the findings.",
@@ -1457,7 +1457,7 @@
   {
     "word": "They feed the animals twice a day.",
     "meaning_en": "Simple present active ('feed') becomes 'are + past participle' in passive.",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Present → Passive | 'V1 (active)' → Passive में 'is/am/are + V3' होता है।",
     "example": "The animals are fed twice a day.",
     "options": [
       "The animals are fed twice a day.",
@@ -1472,7 +1472,7 @@
   {
     "word": "The draft is understood to have been reviewed by the legal department last week.",
     "meaning_en": "The legal department becomes the active subject of 'reviewed the draft'.",
-    "meaning_hi": "",
+    "meaning_hi": "Voice Transformation | Active → Passive में tense preserve करें; object → subject बनता है।",
     "example": "The legal department is understood to have reviewed the draft last week.",
     "options": [
       "The legal department is understood to have reviewed the draft last week.",
@@ -1487,7 +1487,7 @@
   {
     "word": "The agent could have sold the house.",
     "meaning_en": "'Could have + past participle' active becomes 'could have been + past participle' in passive.",
-    "meaning_hi": "",
+    "meaning_hi": "Modal → Passive | 'Modal + V1 (active)' → Passive में 'Modal + be + V3' होता है।",
     "example": "The house could have been sold by the agent.",
     "options": [
       "The house could have been sold by the agent.",
@@ -1502,7 +1502,7 @@
   {
     "word": "New protocols are expected to have been implemented by the end of the fiscal year.",
     "meaning_en": "Authorities become the active subject expected to implement the protocols.",
-    "meaning_hi": "",
+    "meaning_hi": "Voice Transformation | Active → Passive में tense preserve करें; object → subject बनता है।",
     "example": "Authorities are expected to implement new protocols by fiscal year-end.",
     "options": [
       "Authorities implemented the protocols by the fiscal year-end.",
@@ -1517,7 +1517,7 @@
   {
     "word": "The authorities are to close the road.",
     "meaning_en": "'Are to + verb' active becomes 'is to be + past participle' in passive.",
-    "meaning_hi": "",
+    "meaning_hi": "'Are to + V1' → Passive | 'is/are to + V1' → Passive में 'is/are to + be + V3' होता है।",
     "example": "The road is to be closed by the authorities.",
     "options": [
       "The road to be closed by the authorities.",
@@ -1532,7 +1532,7 @@
   {
     "word": "The allegation that the system had been hacked was denied by the company.",
     "meaning_en": "'The company' becomes the active subject of 'denied'.",
-    "meaning_hi": "",
+    "meaning_hi": "Voice Transformation | Active → Passive में tense preserve करें; object → subject बनता है।",
     "example": "The company denied that the system had been hacked.",
     "options": [
       "The company denied that the system had been hacked.",
@@ -1547,7 +1547,7 @@
   {
     "word": "They will be delivering the parcels this afternoon.",
     "meaning_en": "Future continuous active ('will be delivering') becomes 'will be being + past participle' in passive.",
-    "meaning_hi": "",
+    "meaning_hi": "Future Continuous → Passive | 'will be + V1-ing (active)' → Passive में 'will be being + V3' होता है।",
     "example": "The parcels will be being delivered this afternoon.",
     "options": [
       "The parcels will be being delivered this afternoon.",
@@ -1562,7 +1562,7 @@
   {
     "word": "The road was blocked by the fallen tree.",
     "meaning_en": "The agent ('the fallen tree') becomes the active subject of the simple past verb 'blocked'.",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Past → Passive | 'V2 (active)' → Passive में 'was/were + V3' होता है।",
     "example": "The fallen tree blocked the road.",
     "options": [
       "The fallen tree blocked the road.",
@@ -1577,7 +1577,7 @@
   {
     "word": "A new bridge is being constructed by the city council.",
     "meaning_en": "The original passive sentence is in the present continuous tense ('is being constructed'), so the active form must preserve this tense: 'The city council is constructing a new bridge.'",
-    "meaning_hi": "",
+    "meaning_hi": "Present Continuous Passive → Active | 'is/are being + V3 (passive)' → Active में 'is/are + V1-ing' होता है।",
     "example": "The city council is constructing a new bridge.",
     "options": [
       "The city council is constructing a new bridge.",
@@ -1592,7 +1592,7 @@
   {
     "word": "The renowned author's newest novel will have been released by the end of the year.",
     "meaning_en": "Note: the given sentence is itself in the passive voice, so despite the question's wording ('passive voice transformation'), it is actually asking for the active voice form. The future perfect active equivalent is 'The renowned author will have released his newest novel by the end of the year.'",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "The renowned author will have released his newest novel by the end of the year.",
     "options": [
       "The renowned author will have been releasing his newest novel by the end of the year.",
@@ -1607,7 +1607,7 @@
   {
     "word": "You should have kept us informed about the progress of the investigation.",
     "meaning_en": "'Should have + past participle' (modal perfect) in active voice becomes 'should have been + past participle' in passive voice. Hence: 'We should have been kept informed...by you.'",
-    "meaning_hi": "",
+    "meaning_hi": "Modal Perfect → Passive | 'Modal + have + V3 (active)' → Passive में 'Modal + have been + V3' होता है।",
     "example": "We should have been kept informed about the progress of the investigation by you.",
     "options": [
       "We should be kept informed about the progress of the investigation by you.",
@@ -1622,7 +1622,7 @@
   {
     "word": "Let the documents be submitted to the head of the department by the end of the week.",
     "meaning_en": "The passive imperative 'Let X be done' converts to a direct active imperative: 'Do X' â€” hence 'Submit the documents...' preserves the original imperative meaning and tense.",
-    "meaning_hi": "",
+    "meaning_hi": "Imperative → Passive | सूत्र: Let + Object + be + V3। Subject 'you' implied है; passive में नहीं लिखते।",
     "example": "Submit the documents to the head of the department by the end of the week.",
     "options": [
       "You should submit the documents to the head of the department by the end of the week.",
@@ -1637,7 +1637,7 @@
   {
     "word": "They had not closed the shop.",
     "meaning_en": "The past perfect tense 'had not closed' in active voice becomes 'had not been closed' in passive voice, preserving the same tense.",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect → Passive | 'had + V3 (active)' → Passive में 'had been + V3' होता है।",
     "example": "The shop had not been closed by them.",
     "options": [
       "The shop has not been closed by them.",
@@ -1652,7 +1652,7 @@
   {
     "word": "Let the emergency meeting be convened at 10 AM without delay.",
     "meaning_en": "The passive imperative 'Let X be done' converts to the direct active imperative 'Do X' â€” hence 'Convene the emergency meeting...'. Option 2 ('should be convened') is still in the passive voice, so it is not a valid active-form conversion.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "Convene the emergency meeting at 10 AM without delay.",
     "options": [
       "Convene the emergency meeting at 10 AM without delay.",
@@ -1667,7 +1667,7 @@
   {
     "word": "The students are completing their assignments.",
     "meaning_en": "The present continuous active tense 'are completing' converts to the present continuous passive 'are being completed', preserving the ongoing sense of the action.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "The assignments are being completed by the students.",
     "options": [
       "The assignments are being completed by the students.",
@@ -1682,7 +1682,7 @@
   {
     "word": "Why was the window broken by the child?",
     "meaning_en": "Converting the passive interrogative sentence to active voice while preserving the simple past tense gives \"Why did the child break the window?\"",
-    "meaning_hi": "",
+    "meaning_hi": "WH Question → Passive | WH word शुरू में रहता है; बाकी sentence passive formula के अनुसार बदलता है।",
     "example": "Why did the child break the window?",
     "options": [
       "Why did the child break the window?",
@@ -1697,7 +1697,7 @@
   {
     "word": "She buys a new book every month.",
     "meaning_en": "The original sentence is in simple present tense, so the passive form must also be in simple present tense: \"is bought.\"",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Present → Passive | 'V1 (active)' → Passive में 'is/am/are + V3' होता है।",
     "example": "A new book is bought by her every month.",
     "options": [
       "A new book is bought by her every month.",
@@ -1712,7 +1712,7 @@
   {
     "word": "Why had the highly sensitive company report been rejected by the board of directors?",
     "meaning_en": "The passive sentence is in past perfect tense (\"had been rejected\"), so the active form must retain the same tense: \"had rejected.\"",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect Passive → Active | 'had been + V3 (passive)' → Active में 'had + V3' होता है।",
     "example": "Why had the board of directors rejected the highly sensitive company report?",
     "options": [
       "Why had the board of directors rejected the highly sensitive company report?",
@@ -1727,7 +1727,7 @@
   {
     "word": "The chef had prepared the special dish.",
     "meaning_en": "The original sentence is in past perfect tense, so the passive form must also use past perfect: \"had been prepared.\"",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect → Passive | 'had + V3 (active)' → Passive में 'had been + V3' होता है।",
     "example": "The special dish had been prepared by the chef.",
     "options": [
       "The special dish was prepared by the chef.",
@@ -1742,7 +1742,7 @@
   {
     "word": "The national anthem is sung at the beginning of every match.",
     "meaning_en": "Since no specific agent is mentioned in the passive sentence, a generic subject like \"People\" is used in the active form, keeping the simple present tense.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "People sing the national anthem at the beginning of every match.",
     "options": [
       "The national anthem sings at the beginning of every match.",
@@ -1757,7 +1757,7 @@
   {
     "word": "The archaeologists, after many years of searching, have discovered a hidden ancient tomb.",
     "meaning_en": "The active sentence is in present perfect tense (\"have discovered\"), so the passive form must also use present perfect: \"has been discovered.\"",
-    "meaning_hi": "",
+    "meaning_hi": "Present Perfect → Passive | 'has/have + V3 (active)' → Passive में 'has/have been + V3' होता है।",
     "example": "A hidden ancient tomb has been discovered by the archaeologists after many years of searching.",
     "options": [
       "A hidden ancient tomb was discovered by the archaeologists after many years of searching.",
@@ -1772,7 +1772,7 @@
   {
     "word": "Why do they always make such a big fuss about trivial matters?",
     "meaning_en": "The active sentence is in simple present tense, so the passive interrogative form must also use simple present: \"is...made.\"",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Present Interrogative → Passive | 'Do/Does + S + V1...?' → 'Is/Are + O + V3 + by + Agent?' होता है।",
     "example": "Why is such a big fuss always made about trivial matters?",
     "options": [
       "Why is such a big fuss always made about trivial matters?",
@@ -1787,7 +1787,7 @@
   {
     "word": "The report is expected to be delivered by the committee next week.",
     "meaning_en": "The passive construction \"is expected to be delivered\" converts to the active form \"expects to deliver,\" keeping the same present simple tense and meaning.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "The committee expects to deliver the report next week.",
     "options": [
       "The committee is expecting to deliver the report next week.",
@@ -1802,7 +1802,7 @@
   {
     "word": "Will the company launch the new product?",
     "meaning_en": "For interrogative sentences, the auxiliary \"will\" moves before the subject in the passive form: \"Will...be launched?\"",
-    "meaning_hi": "",
+    "meaning_hi": "Interrogative → Passive | Question form passive में भी बनी रहती है; auxiliary verb शुरू में आता है।",
     "example": "Will the new product be launched by the company?",
     "options": [
       "The new product will be launched by the company?",
@@ -1817,7 +1817,7 @@
   {
     "word": "It was believed that the secret formula had been stolen by a rival company.",
     "meaning_en": "Since no specific agent is given for \"it was believed,\" a generic subject \"People\" is used, and \"had been stolen\" becomes \"had stolen\" in the active form.",
-    "meaning_hi": "",
+    "meaning_hi": "Passive → Active | Agent ('by + Agent') subject बनता है; tense वही रखें जो passive में है।",
     "example": "People believed that a rival company had stolen the secret formula.",
     "options": [
       "A rival company believed that the secret formula had been stolen.",
@@ -1832,7 +1832,7 @@
   {
     "word": "The government will be implementing the new environmental regulations next month.",
     "meaning_en": "The active sentence uses future continuous tense (\"will be implementing\"), so the passive form must also use future continuous: \"will be being implemented,\" as marked in the official key.",
-    "meaning_hi": "",
+    "meaning_hi": "Future Continuous → Passive | 'will be + V1-ing (active)' → Passive में 'will be being + V3' होता है।",
     "example": "The new environmental regulations will be being implemented by the government next month.",
     "options": [
       "The new environmental regulations will be implemented by the government next month.",
@@ -1847,7 +1847,7 @@
   {
     "word": "The report could not be accessed without the proper security clearance.",
     "meaning_en": "Since no specific agent is mentioned, a generic subject \"They\" is used in the active form, keeping the modal \"could not\" and tense consistent.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "They could not access the report without the proper security clearance.",
     "options": [
       "They could not access the report without the proper security clearance.",
@@ -1862,12 +1862,12 @@
   {
     "word": "My brother built this house in 2005.",
     "meaning_en": "The active sentence is in simple past tense, so the passive form must also use simple past tense: \"was built.\"",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Past → Passive | 'V2 (active)' → Passive में 'was/were + V3' होता है।",
     "example": "This house was built by my brother in 2005.",
     "options": [
       "This house was built by my brother in 2005.",
       "This house is built by my brother in 2005.",
-      "This house is built by my brother in 2005.",
+      "This house has been built by my brother in 2005.",
       "This house was being built by my brother in 2005."
     ],
     "synonyms": [],
@@ -1877,7 +1877,7 @@
   {
     "word": "The old castle was believed to have been built by a legendary king.",
     "meaning_en": "Since no specific agent is given for \"was believed,\" a generic subject \"People\" is used, and \"had been built\" becomes \"had built\" in the active form.",
-    "meaning_hi": "",
+    "meaning_hi": "Passive → Active | Agent ('by + Agent') subject बनता है; tense वही रखें जो passive में है।",
     "example": "People believed that a legendary king had built the old castle.",
     "options": [
       "A legendary king built the old castle, it was believed.",
@@ -1892,7 +1892,7 @@
   {
     "word": "The dedicated researchers have already published the groundbreaking findings in a prestigious scientific journal.",
     "meaning_en": "The active sentence is in present perfect tense (\"have already published\"), so the passive form must also use present perfect: \"have already been published.\"",
-    "meaning_hi": "",
+    "meaning_hi": "Present Perfect → Passive | 'has/have + V3 (active)' → Passive में 'has/have been + V3' होता है।",
     "example": "The groundbreaking findings have already been published in a prestigious scientific journal by the dedicated researchers.",
     "options": [
       "The groundbreaking findings were already published in a prestigious scientific journal by the dedicated researchers.",
@@ -1907,7 +1907,7 @@
   {
     "word": "The city council's decision is thought to be influenced by powerful lobbying groups.",
     "meaning_en": "Since no specific agent is given for \"is thought,\" a generic subject \"People\" is used, and the passive infinitive \"to be influenced\" becomes the active \"influence\" in the subordinate clause.",
-    "meaning_hi": "",
+    "meaning_hi": "Voice Transformation | Active → Passive में tense preserve करें; object → subject बनता है।",
     "example": "People think that powerful lobbying groups influence the city council's decision.",
     "options": [
       "Powerful lobbying groups think that the city council's decision is influenced.",
@@ -1922,7 +1922,7 @@
   {
     "word": "Why did the brilliant detective suddenly solve the complex mystery?",
     "meaning_en": "The active sentence is in simple past tense, so the passive interrogative form must also use simple past: \"was...solved.\"",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Past Interrogative → Passive | 'Did + S + V1...?' → 'Was/Were + O + V3 + by + Agent?' होता है।",
     "example": "Why was the complex mystery suddenly solved by the brilliant detective?",
     "options": [
       "Why was the complex mystery suddenly solved by the brilliant detective?",
@@ -1937,7 +1937,7 @@
   {
     "word": "The students are said to be struggling with the new curriculum.",
     "meaning_en": "Since no specific agent is given for \"are said,\" a generic subject \"They\" is used, and the passive infinitive \"to be struggling\" becomes the active \"are struggling\" in the subordinate clause, keeping the present tense.",
-    "meaning_hi": "",
+    "meaning_hi": "Voice Transformation | Active → Passive में tense preserve करें; object → subject बनता है।",
     "example": "They say that the students are struggling with the new curriculum.",
     "options": [
       "The new curriculum is said to be struggling with the students.",
@@ -1952,7 +1952,7 @@
   {
     "word": "Someone is cleaning the windows.",
     "meaning_en": "The active sentence is in present continuous tense, so the passive form must also use present continuous: \"are being cleaned.\"",
-    "meaning_hi": "",
+    "meaning_hi": "Present Continuous → Passive | 'is/are + V1-ing (active)' → Passive में 'is/are being + V3' होता है।",
     "example": "The windows are being cleaned.",
     "options": [
       "The windows were being cleaned.",
@@ -1967,7 +1967,7 @@
   {
     "word": "You must finish your homework.",
     "meaning_en": "Modal 'must' + base verb in active voice becomes 'must be + past participle' in passive voice.",
-    "meaning_hi": "",
+    "meaning_hi": "Modal → Passive | 'Modal + V1 (active)' → Passive में 'Modal + be + V3' होता है।",
     "example": "Your homework must be finished by you.",
     "options": [
       "Your homework must be finished by you.",
@@ -1982,7 +1982,7 @@
   {
     "word": "The new intern had forgotten to lock the laboratory door before leaving.",
     "meaning_en": "The past perfect active 'had forgotten to lock' becomes past perfect passive 'had been forgotten to be locked' when the object of the infinitive is made the subject.",
-    "meaning_hi": "",
+    "meaning_hi": "WH Question → Passive | WH word शुरू में रहता है; बाकी sentence passive formula के अनुसार बदलता है।",
     "example": "The laboratory door had been forgotten to be locked by the new intern before leaving.",
     "options": [
       "The laboratory door was forgotten to be locked by the new intern before leaving.",
@@ -1997,7 +1997,7 @@
   {
     "word": "They were discussing the new plan.",
     "meaning_en": "Past continuous active ('were discussing') becomes past continuous passive ('was being discussed').",
-    "meaning_hi": "",
+    "meaning_hi": "Past Continuous → Passive | 'was/were + V1-ing (active)' → Passive में 'was/were being + V3' होता है।",
     "example": "The new plan was being discussed by them.",
     "options": [
       "The new plan has been discussed by them.",
@@ -2012,7 +2012,7 @@
   {
     "word": "The famous art curator, who is known for his unique taste, is organizing a special exhibition.",
     "meaning_en": "Present continuous active ('is organizing') becomes present continuous passive ('is being organized'); the relative clause describing the curator is retained unchanged.",
-    "meaning_hi": "",
+    "meaning_hi": "Present Continuous → Passive | 'is/are + V1-ing (active)' → Passive में 'is/are being + V3' होता है।",
     "example": "A special exhibition is being organized by the famous art curator, who is known for his unique taste.",
     "options": [
       "A special exhibition is organized by the famous art curator.",
@@ -2027,7 +2027,7 @@
   {
     "word": "The renowned professor had been given a standing ovation by the students after her powerful lecture.",
     "meaning_en": "The past perfect passive ('had been given') converts to past perfect active ('had given'), with the students as the subject and the professor as the object.",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect Passive → Active | 'had been + V3 (passive)' → Active में 'had + V3' होता है।",
     "example": "After her powerful lecture, the students had given the renowned professor a standing ovation.",
     "options": [
       "The students had been giving the renowned professor a standing ovation after her powerful lecture.",
@@ -2042,7 +2042,7 @@
   {
     "word": "They will have built the bridge by next year.",
     "meaning_en": "Future perfect active ('will have built') becomes future perfect passive ('will have been built').",
-    "meaning_hi": "",
+    "meaning_hi": "Future Perfect → Passive | 'will have + V3 (active)' → Passive में 'will have been + V3' होता है।",
     "example": "The bridge will have been built by them by next year.",
     "options": [
       "The bridge will have been built by them by next year.",
@@ -2057,7 +2057,7 @@
   {
     "word": "The children are making colorful decorations for the upcoming school festival.",
     "meaning_en": "Present continuous active ('are making') becomes present continuous passive ('are being made').",
-    "meaning_hi": "",
+    "meaning_hi": "Present Continuous → Passive | 'is/are + V1-ing (active)' → Passive में 'is/are being + V3' होता है।",
     "example": "Colorful decorations are being made by the children for the upcoming school festival.",
     "options": [
       "Colorful decorations are made by the children for the upcoming school festival.",
@@ -2072,7 +2072,7 @@
   {
     "word": "The decision will have been announced before the meeting concludes.",
     "meaning_en": "Future perfect passive ('will have been announced') becomes future perfect active ('will have announced') with a general subject 'they' performing the action.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "They will have announced the decision before the meeting concludes.",
     "options": [
       "Someone will announce the decision before the meeting concludes.",
@@ -2087,7 +2087,7 @@
   {
     "word": "The cat drank all the milk.",
     "meaning_en": "Simple past active ('drank') becomes simple past passive ('was drunk').",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Past → Passive | 'V2 (active)' → Passive में 'was/were + V3' होता है।",
     "example": "All the milk was drunk by the cat.",
     "options": [
       "All the milk was drunk by the cat.",
@@ -2102,7 +2102,7 @@
   {
     "word": "The new CEO has promised to give all employees a substantial bonus at the end of the year.",
     "meaning_en": "Present perfect active ('has promised to give') becomes present perfect passive with the indirect object as subject: 'All employees have been promised...'.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "All employees have been promised a substantial bonus at the end of the year by the new CEO.",
     "options": [
       "All employees have been promised a substantial bonus at the end of the year by the new CEO.",
@@ -2117,7 +2117,7 @@
   {
     "word": "My grandmother tells us stories.",
     "meaning_en": "Simple present active ('tells') becomes simple present passive ('are told'), with the indirect object 'us' made the subject.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "We are told stories by my grandmother.",
     "options": [
       "We are told stories by my grandmother.",
@@ -2132,7 +2132,7 @@
   {
     "word": "He claimed to have seen a rare species of bird during his expedition to the Amazon rainforest.",
     "meaning_en": "For 'claimed to have seen' (a perfect infinitive construction), the object of the infinitive becomes the subject: 'A rare species of bird was claimed to have been seen by him...'.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "A rare species of bird was claimed to have been seen by him during his expedition to the Amazon rainforest.",
     "options": [
       "It was claimed by him that he had seen a rare species of bird during his expedition to the Amazon rainforest.",
@@ -2147,7 +2147,7 @@
   {
     "word": "The message could have been sent by an automated system.",
     "meaning_en": "Past modal passive ('could have been sent') becomes past modal active ('could have sent'), with 'an automated system' as the subject.",
-    "meaning_hi": "",
+    "meaning_hi": "Modal → Passive | 'Modal + V1 (active)' → Passive में 'Modal + be + V3' होता है।",
     "example": "An automated system could have sent the message.",
     "options": [
       "An automated system could have sent the message.",
@@ -2162,7 +2162,7 @@
   {
     "word": "The painting could not be exhibited without being restored first.",
     "meaning_en": "Modal passive ('could not be exhibited... without being restored') becomes active with a general subject 'they' performing both actions: 'could not exhibit the painting without restoring it first'.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "They could not exhibit the painting without restoring it first.",
     "options": [
       "They could not exhibit the painting without restoring it first.",
@@ -2177,7 +2177,7 @@
   {
     "word": "The board members had to listen to the presentation with rapt attention.",
     "meaning_en": "Modal obligation active ('had to listen to') becomes modal passive ('had to be listened to'), preserving the phrasal verb 'listen to' as a unit.",
-    "meaning_hi": "",
+    "meaning_hi": "Phrasal Verb → Passive | Phrasal verb को एक unit मानें; preposition verb के साथ ही रहती है।",
     "example": "The presentation had to be listened to with rapt attention by the board members.",
     "options": [
       "The presentation had to be listened to with rapt attention by the board members.",
@@ -2192,7 +2192,7 @@
   {
     "word": "People say that she will make a great leader someday.",
     "meaning_en": "'People say that + clause' converts to the passive pattern 'Subject + is said + to + infinitive': 'She is said to make a great leader someday.'",
-    "meaning_hi": "",
+    "meaning_hi": "Impersonal Passive | 'It is said/believed that...' या 'Subject + is said to + V' — दोनों passive forms सही हैं।",
     "example": "She is said to make a great leader someday.",
     "options": [
       "She is said to make a great leader someday.",
@@ -2207,7 +2207,7 @@
   {
     "word": "The manuscript will have been translated by the time the expedition returns.",
     "meaning_en": "Future perfect passive ('will have been translated') becomes future perfect active ('will have translated'), with a general subject 'they' performing the action.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "They will have translated the manuscript by the time the expedition returns.",
     "options": [
       "They will have translated the manuscript by the time the expedition returns.",
@@ -2222,7 +2222,7 @@
   {
     "word": "The ancient manuscript has to be handled with extreme care.",
     "meaning_en": "'Has to be handled' (modal obligation passive) becomes 'have to handle' in the active voice, with a general subject 'they' performing the action; the modal 'has to' should remain in its original form ('have to'), not be changed to 'must'.",
-    "meaning_hi": "",
+    "meaning_hi": "'Have/Has to + V1' → Passive | 'have/has to + be + V3' का प्रयोग होता है; obligation passive में बना रहता है।",
     "example": "They have to handle the ancient manuscript with extreme care.",
     "options": [
       "Extreme care has to handle the ancient manuscript.",
@@ -2237,7 +2237,7 @@
   {
     "word": "The head of state will have already addressed the nation about the critical matter.",
     "meaning_en": "Future perfect active ('will have already addressed') becomes future perfect passive ('will have been addressed').",
-    "meaning_hi": "",
+    "meaning_hi": "Future Perfect → Passive | 'will have + V3 (active)' → Passive में 'will have been + V3' होता है।",
     "example": "The nation will have been addressed about the critical matter by the head of state.",
     "options": [
       "The nation will have been addressed about the critical matter by the head of state.",
@@ -2252,7 +2252,7 @@
   {
     "word": "We are supposed to submit the final report to the department head by the end of the week.",
     "meaning_en": "'Are supposed to submit' (active) becomes 'is supposed to be submitted' in the passive, with 'the final report' as the new subject and 'by us' retained to show the original doer.",
-    "meaning_hi": "",
+    "meaning_hi": "'Are supposed to + V1' → Passive | 'is/are supposed to + be + V3' का प्रयोग होता है।",
     "example": "The final report is supposed to be submitted to the department head by the end of the week by us.",
     "options": [
       "The final report is supposed to be submitted to the department head by the end of the week by us.",
@@ -2267,7 +2267,7 @@
   {
     "word": "Why has Purusottam driven Parshuram out of Mainak's house?",
     "meaning_en": "In the active sentence, Purusottam (subject) drives Parshuram (object) out of Mainak's house. Passive voice must retain this exact logic: Parshuram (now subject) has been driven out ... by Purusottam.",
-    "meaning_hi": "",
+    "meaning_hi": "Voice Transformation | Active → Passive में tense preserve करें; object → subject बनता है।",
     "example": "Why has Parshuram been driven out of Mainak's house by Purusottam?",
     "options": [
       "Why has Purusottam been driven out of Mainak's house by Parshuram?",
@@ -2282,7 +2282,7 @@
   {
     "word": "The company's decision was made known to the public through a press release.",
     "meaning_en": "The logical subject in the passive sentence is 'the company', so the active form must have 'the company' as subject performing the action of making its decision known.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "The company made its decision known to the public through a press release.",
     "options": [
       "A press release made the company's decision known to the public.",
@@ -2297,7 +2297,7 @@
   {
     "word": "The students were made to write a detailed summary of the complex text.",
     "meaning_en": "With causative verbs like 'made', the active form uses the bare infinitive ('make someone write'), not the to-infinitive, so 'They made the students write...' is correct.",
-    "meaning_hi": "",
+    "meaning_hi": "Causative Active → Passive | 'make + Object + bare infinitive (active)' → 'was/were made to + V1 (passive)'।",
     "example": "They made the students write a detailed summary of the complex text.",
     "options": [
       "They made the students write a detailed summary of the complex text.",
@@ -2312,7 +2312,7 @@
   {
     "word": "Did the renowned author finally release the highly anticipated sequel to his award-winning novel?",
     "meaning_en": "The active sentence is in simple past interrogative ('Did ... release'), so the passive form must also be simple past interrogative: 'Was ... released by ...?'",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Past Interrogative → Passive | 'Did + S + V1...?' → 'Was/Were + O + V3 + by + Agent?' होता है।",
     "example": "Was the highly anticipated sequel to his award-winning novel finally released by the renowned author?",
     "options": [
       "Was the highly anticipated sequel to his award-winning novel finally released by the renowned author?",
@@ -2327,7 +2327,7 @@
   {
     "word": "His success is said to have been a result of his relentless determination.",
     "meaning_en": "'Is said to have been' (present passive with perfect infinitive) converts to active as 'People say that ... has been', preserving both the present reporting tense and the perfect aspect of the reported action.",
-    "meaning_hi": "",
+    "meaning_hi": "Impersonal Passive | 'It is said/believed that...' या 'Subject + is said to + V' — दोनों passive forms सही हैं।",
     "example": "People say that his success has been a result of his relentless determination.",
     "options": [
       "People say that his success has been a result of his relentless determination.",
@@ -2342,7 +2342,7 @@
   {
     "word": "You cannot allow such an egregious error in the official report to go unnoticed.",
     "meaning_en": "The passive form retains the modal 'cannot' and correctly converts the object 'such an egregious error' to the subject while preserving 'to go unnoticed' and adding the agent 'by you'.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "Such an egregious error in the official report cannot be allowed to go unnoticed by you.",
     "options": [
       "Such an egregious error in the official report cannot be allowed to go unnoticed by you.",
@@ -2357,7 +2357,7 @@
   {
     "word": "The board was made to reconsider the proposal after a strong shareholder backlash.",
     "meaning_en": "The passive sentence's implied agent, 'a strong shareholder backlash', becomes the subject in the active voice, using the causative structure 'made the board reconsider'.",
-    "meaning_hi": "",
+    "meaning_hi": "Causative Passive → Active | 'was/were made to + V1 (passive)' → Active में 'make + Object + bare infinitive'।",
     "example": "A strong shareholder backlash made the board reconsider the proposal.",
     "options": [
       "The board reconsidered the proposal after a strong shareholder backlash.",
@@ -2372,7 +2372,7 @@
   {
     "word": "They are building a new shopping mall.",
     "meaning_en": "The active sentence is in present continuous tense, so its passive form must also be present continuous: 'is being built by them'.",
-    "meaning_hi": "",
+    "meaning_hi": "Present Continuous → Passive | 'is/are + V1-ing (active)' → Passive में 'is/are being + V3' होता है।",
     "example": "A new shopping mall is being built by them.",
     "options": [
       "A new shopping mall has been built by them.",
@@ -2387,7 +2387,7 @@
   {
     "word": "Did she read the book?",
     "meaning_en": "The active question is in simple past, so the passive interrogative form must also be simple past: 'Was the book read by her?'",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "Was the book read by her?",
     "options": [
       "The book was read by her?",
@@ -2402,7 +2402,7 @@
   {
     "word": "The nuns have to leave the door of the church open for all the parishioners to get in.",
     "meaning_en": "The active sentence 'have to leave...open' (modal obligation + object complement) converts to passive as 'has to be left open by...', correctly preserving the modal obligation and the adjective 'open'.",
-    "meaning_hi": "",
+    "meaning_hi": "'Have/Has to + V1' → Passive | 'have/has to + be + V3' का प्रयोग होता है; obligation passive में बना रहता है।",
     "example": "The door of the church has to be left open by the nuns for all the parishioners to get in.",
     "options": [
       "The door of the church has been left open by the nuns for all the parishioners to get in.",
@@ -2417,7 +2417,7 @@
   {
     "word": "It is being claimed that a new species has been discovered in the Amazon.",
     "meaning_en": "'It is being claimed' (present continuous passive) becomes active as 'Someone is claiming', preserving both the present continuous tense and the impersonal subject as 'someone'.",
-    "meaning_hi": "",
+    "meaning_hi": "Impersonal Passive | 'It is said/believed that...' या 'Subject + is said to + V' — दोनों passive forms सही हैं।",
     "example": "Someone is claiming that a new species has been discovered in the Amazon.",
     "options": [
       "Someone is claiming that a new species has been discovered in the Amazon.",
@@ -2432,7 +2432,7 @@
   {
     "word": "What are they building?",
     "meaning_en": "The active question is present continuous ('are building'), so the passive form must also be present continuous: 'What is being built by them?'",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "What is being built by them?",
     "options": [
       "What has been built by them?",
@@ -2447,7 +2447,7 @@
   {
     "word": "The old woman watered the plants every morning.",
     "meaning_en": "The active sentence is in simple past tense, so the passive form must also be simple past: 'were watered by the old woman'.",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Past → Passive | 'V2 (active)' → Passive में 'was/were + V3' होता है।",
     "example": "The plants were watered by the old woman every morning.",
     "options": [
       "The plants was watered by the old woman every morning.",
@@ -2462,7 +2462,7 @@
   {
     "word": "It has been being debated for months whether the new law will be enacted or not.",
     "meaning_en": "'Has been being debated' (present perfect continuous passive) converts to active as 'have been debating' (present perfect continuous active), with an indefinite subject 'they'.",
-    "meaning_hi": "",
+    "meaning_hi": "Present Perfect Continuous Passive → Active | 'has/have been being + V3 (passive)' → Active में 'has/have been + V1-ing' होता है।",
     "example": "They have been debating for months whether the new law will be enacted or not.",
     "options": [
       "They have been debating for months whether the new law will be enacted or not.",
@@ -2477,7 +2477,7 @@
   {
     "word": "We have visited Paris many times.",
     "meaning_en": "The active sentence is present perfect tense, so the passive form must also be present perfect: 'has been visited by us'.",
-    "meaning_hi": "",
+    "meaning_hi": "Present Perfect → Passive | 'has/have + V3 (active)' → Passive में 'has/have been + V3' होता है।",
     "example": "Paris has been visited by us many times.",
     "options": [
       "Paris was visited by us many times.",
@@ -2492,7 +2492,7 @@
   {
     "word": "Make sure that your children have completed their tasks before going to school.",
     "meaning_en": "Imperative sentences using 'Make sure' convert to passive using the fixed structure 'Let it be made sure that...', while correctly retaining 'their tasks' and 'before going to school'.",
-    "meaning_hi": "",
+    "meaning_hi": "'Is/Am/Are going to + V1' → Passive | 'is/am/are going to + be + V3' का प्रयोग होता है।",
     "example": "Let it be made sure that their tasks have been completed by your children before going to school.",
     "options": [
       "Let it be made sure that their tasks have been completed by your children before going to school.",
@@ -2507,7 +2507,7 @@
   {
     "word": "Suhani has written a beautiful poem on how to make your country proud.",
     "meaning_en": "The infinitive phrase 'how to make your country proud' remains unchanged in the passive form; only the main clause 'has written' converts to 'has been written by Suhani'.",
-    "meaning_hi": "",
+    "meaning_hi": "Voice Transformation | Active → Passive में tense preserve करें; object → subject बनता है।",
     "example": "A beautiful poem on how to make your country proud has been written by Suhani.",
     "options": [
       "A beautiful poem on how to to be made your country proud has been written by Suhani.",
@@ -2522,7 +2522,7 @@
   {
     "word": "The decision was made at the meeting.",
     "meaning_en": "Since no agent is specified in the passive sentence, the active form uses the indefinite subject 'someone', preserving the simple past tense.",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Past Passive → Active | 'was/were + V3 (passive)' → Active में 'V2' होता है।",
     "example": "Someone made the decision at the meeting.",
     "options": [
       "Someone made the decision at the meeting.",
@@ -2537,7 +2537,7 @@
   {
     "word": "The concert will have been broadcast by the time we arrive.",
     "meaning_en": "The future perfect passive 'will have been broadcast' converts to future perfect active 'will have broadcast', with an indefinite subject 'they'.",
-    "meaning_hi": "",
+    "meaning_hi": "Future Perfect Passive → Active | 'will have been + V3 (passive)' → Active में 'will have + V3' होता है।",
     "example": "They will have broadcast the concert by the time we arrive.",
     "options": [
       "The concert will broadcast by the time we arrive.",
@@ -2552,7 +2552,7 @@
   {
     "word": "Always keep in mind that truth pervades the whole universe.",
     "meaning_en": "Imperative sentences use 'Let it always be kept in mind that...' as the fixed passive structure, with the embedded clause 'truth pervades the whole universe' correctly converted to 'the whole universe is pervaded by truth'.",
-    "meaning_hi": "",
+    "meaning_hi": "WH Question → Passive | WH word शुरू में रहता है; बाकी sentence passive formula के अनुसार बदलता है।",
     "example": "Let it always be kept in mind that the whole universe is pervaded by truth.",
     "options": [
       "Let always be kept in mind that the whole universe is pervaded by truth.",
@@ -2567,7 +2567,7 @@
   {
     "word": "The new law was passed by the parliament.",
     "meaning_en": "The passive sentence's agent 'by the parliament' becomes the subject in the active form, retaining the simple past tense: 'The parliament passed the new law.'",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Past Passive → Active | 'was/were + V3 (passive)' → Active में 'V2' होता है।",
     "example": "The parliament passed the new law.",
     "options": [
       "The new law passed the parliament.",
@@ -2582,7 +2582,7 @@
   {
     "word": "Do not put your hand over the stove lest you should burn your fingers.",
     "meaning_en": "Negative imperative sentences convert to passive using 'Let ... be not put', and the 'lest' clause correctly becomes passive as 'lest your fingers should be burnt'.",
-    "meaning_hi": "",
+    "meaning_hi": "Negative Imperative → Passive | सूत्र: Let + Object + not + be + V3। 'Don't' हटाकर 'not' जोड़ते हैं।",
     "example": "Let your hand be not put over the stove lest your fingers should be burnt.",
     "options": [
       "Let your hand be not put over the stove lest your fingers should be burnt.",
@@ -2597,7 +2597,7 @@
   {
     "word": "Let him cover the car with that pink cloth lying on the table.",
     "meaning_en": "'Let him cover the car' converts to 'Let the car be covered by him', with 'that pink cloth lying on the table' correctly retained as a descriptive phrase after the agent.",
-    "meaning_hi": "",
+    "meaning_hi": "Voice Transformation | Active → Passive में tense preserve करें; object → subject बनता है।",
     "example": "Let the car be covered by him with that pink cloth lying on the table.",
     "options": [
       "Let the cloth be covered with by him the car with that pink cloth lying on the table.",
@@ -2612,13 +2612,13 @@
   {
     "word": "The award will be given to the winner.",
     "meaning_en": "Since no agent is specified, the active form uses the indefinite subject 'they', preserving the simple future tense: 'They will give the award to the winner.'",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Future Passive → Active | 'will be + V3 (passive)' → Active में 'will + V1' होता है।",
     "example": "They will give the award to the winner.",
     "options": [
       "They will give the award to the winner.",
       "The winner will be given the award.",
       "The award is given to the winner.",
-      "The award is given to the winner."
+      "The award was given to the winner."
     ],
     "synonyms": [],
     "antonyms": [],
@@ -2627,7 +2627,7 @@
   {
     "word": "The experiment had been completed by the scientists.",
     "meaning_en": "The passive sentence is in past perfect tense ('had been completed'), so the active form must also be past perfect: 'The scientists had completed the experiment.'",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect Passive → Active | 'had been + V3 (passive)' → Active में 'had + V3' होता है।",
     "example": "The scientists had completed the experiment.",
     "options": [
       "The scientists completed the experiment.",
@@ -2642,7 +2642,7 @@
   {
     "word": "The presentation has been given.",
     "meaning_en": "The passive sentence is in present perfect tense ('has been given'), so the active form must also be present perfect, using the indefinite subject 'someone': 'Someone has given the presentation.'",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "Someone has given the presentation.",
     "options": [
       "The presentation was given.",
@@ -2657,7 +2657,7 @@
   {
     "word": "Her family will have accepted her decision by next year.",
     "meaning_en": "The active sentence is in future perfect tense ('will have accepted'), so the passive form must also be future perfect: 'will have been accepted'.",
-    "meaning_hi": "",
+    "meaning_hi": "Future Perfect → Passive | 'will have + V3 (active)' → Passive में 'will have been + V3' होता है।",
     "example": "Her decision will have been accepted by her family by next year.",
     "options": [
       "Her decision will be accepted by her family by next year.",
@@ -2672,7 +2672,7 @@
   {
     "word": "The new environmental policy will be implemented by the government with immediate effect.",
     "meaning_en": "The given sentence is in future simple passive tense, so its corresponding active form retains the same tense: 'The government will implement the new environmental policy with immediate effect.'",
-    "meaning_hi": "",
+    "meaning_hi": "Passive → Active | Agent ('by + Agent') subject बनता है; tense वही रखें जो passive में है।",
     "example": "The government will implement the new environmental policy with immediate effect.",
     "options": [
       "The government will implement the new environmental policy with immediate effect.",
@@ -2687,7 +2687,7 @@
   {
     "word": "It was being said that the new policy would be a disaster.",
     "meaning_en": "The passive is in past continuous ('was being said'), so the active form should use past continuous with a general subject: 'People were saying...'.",
-    "meaning_hi": "",
+    "meaning_hi": "Past Continuous Passive → Active | 'was/were being + V3 (passive)' → Active में 'was/were + V1-ing' होता है।",
     "example": "People were saying that the new policy would be a disaster.",
     "options": [
       "The new policy would be a disaster.",
@@ -2702,7 +2702,7 @@
   {
     "word": "The diligent team of researchers, who had been analyzing the data for months, finally published their findings.",
     "meaning_en": "The main verb 'published' is simple past, so the passive must also be simple past ('were published'), while the embedded relative clause tense stays unchanged.",
-    "meaning_hi": "",
+    "meaning_hi": "WH Question → Passive | WH word शुरू में रहता है; बाकी sentence passive formula के अनुसार बदलता है।",
     "example": "Their findings were finally published by the diligent team of researchers, who had been analyzing the data for months.",
     "options": [
       "Their findings were finally published by the diligent team of researchers, who had been analyzing the data for months.",
@@ -2717,7 +2717,7 @@
   {
     "word": "The children will have played the game by sunset.",
     "meaning_en": "Future perfect active ('will have played') becomes future perfect passive ('will have been played').",
-    "meaning_hi": "",
+    "meaning_hi": "Future Perfect → Passive | 'will have + V3 (active)' → Passive में 'will have been + V3' होता है।",
     "example": "The game will have been played by the children by sunset.",
     "options": [
       "The game will have being played by the children by sunset.",
@@ -2732,7 +2732,7 @@
   {
     "word": "The famous poem was written by a renowned poet.",
     "meaning_en": "Simple past passive ('was written') converts to simple past active ('wrote').",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Past Passive → Active | 'was/were + V3 (passive)' → Active में 'V2' होता है।",
     "example": "A renowned poet wrote the famous poem.",
     "options": [
       "A renowned poet wrote the famous poem.",
@@ -2747,7 +2747,7 @@
   {
     "word": "The jury, after a long deliberation, has finally reached a verdict in the high-profile case.",
     "meaning_en": "Present perfect active ('has reached') converts to present perfect passive ('has been reached').",
-    "meaning_hi": "",
+    "meaning_hi": "Present Perfect → Passive | 'has/have + V3 (active)' → Passive में 'has/have been + V3' होता है।",
     "example": "A verdict in the high-profile case has finally been reached by the jury after a long deliberation.",
     "options": [
       "A verdict in the high-profile case has finally been reached by the jury after a long deliberation.",
@@ -2762,7 +2762,7 @@
   {
     "word": "The students were made to rewrite the entire assignment.",
     "meaning_en": "The passive is in simple past ('were made'), so the active form should also be simple past.",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Past Passive → Active | 'was/were + V3 (passive)' → Active में 'V2' होता है।",
     "example": "The teacher made the students rewrite the entire assignment.",
     "options": [
       "The teacher made the students rewrite the entire assignment.",
@@ -2777,7 +2777,7 @@
   {
     "word": "The report, which should have been submitted by the deadline, was delayed due to unforeseen circumstances.",
     "meaning_en": "The active form must recast both clauses with active subjects: 'They should have submitted...' and 'unforeseen circumstances delayed it'.",
-    "meaning_hi": "",
+    "meaning_hi": "Modal Passive → Active | 'Modal + be + V3' → Active में 'Modal + V1' होता है।",
     "example": "They should have submitted the report by the deadline, but unforeseen circumstances delayed it.",
     "options": [
       "The report, which should have submitted by the deadline, was delayed due to unforeseen circumstances.",
@@ -2792,7 +2792,7 @@
   {
     "word": "We are watching a fantastic movie tonight.",
     "meaning_en": "Present continuous active ('are watching') converts to present continuous passive ('is being watched').",
-    "meaning_hi": "",
+    "meaning_hi": "Present Continuous → Passive | 'is/are + V1-ing (active)' → Passive में 'is/are being + V3' होता है।",
     "example": "A fantastic movie is being watched by us tonight.",
     "options": [
       "A fantastic movie has been watched by us tonight.",
@@ -2807,7 +2807,7 @@
   {
     "word": "Had the meticulous investigators examined all the critical evidence before they closed the case?",
     "meaning_en": "Past perfect interrogative active ('Had...examined') converts to past perfect interrogative passive ('Had...been examined').",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect Interrogative → Passive | 'Had + S + V3...?' → 'Had + O + been + V3 + by + Agent?' होता है।",
     "example": "Had all the critical evidence been examined by the meticulous investigators before they closed the case?",
     "options": [
       "Was all the critical evidence examined by the meticulous investigators before they closed the case?",
@@ -2822,7 +2822,7 @@
   {
     "word": "Cut the blue wire all at once; otherwise, you have to throw the entire thing out of the house with your maximum strength.",
     "meaning_en": "The imperative 'Cut...' becomes 'Let...be cut', and 'you have to throw' becomes 'has to be thrown...by you', keeping word order and modifiers intact.",
-    "meaning_hi": "",
+    "meaning_hi": "'Have/Has to + V1' → Passive | 'have/has to + be + V3' का प्रयोग होता है; obligation passive में बना रहता है।",
     "example": "Let the blue wire be cut all at once; otherwise, the entire thing has to be thrown out of the house by you with your maximum strength.",
     "options": [
       "Let the blue wire be cut all at once; otherwise, the entire thing has to throw out of the house with your maximum strength.",
@@ -2837,7 +2837,7 @@
   {
     "word": "Dinner is being prepared by my sister.",
     "meaning_en": "Present continuous passive ('is being prepared') converts to present continuous active ('is preparing').",
-    "meaning_hi": "",
+    "meaning_hi": "Present Continuous Passive → Active | 'is/are being + V3 (passive)' → Active में 'is/are + V1-ing' होता है।",
     "example": "My sister is preparing dinner.",
     "options": [
       "Dinner prepared my sister.",
@@ -2852,7 +2852,7 @@
   {
     "word": "The ancient ruins are being preserved by the archaeologists.",
     "meaning_en": "Present continuous passive ('are being preserved') converts to present continuous active ('are preserving').",
-    "meaning_hi": "",
+    "meaning_hi": "Present Continuous Passive → Active | 'is/are being + V3 (passive)' → Active में 'is/are + V1-ing' होता है।",
     "example": "The archaeologists are preserving the ancient ruins.",
     "options": [
       "The archaeologists preserve the ancient ruins.",
@@ -2867,7 +2867,7 @@
   {
     "word": "It had been decided that the final exam would not be graded on a curve this semester.",
     "meaning_en": "Past perfect passive ('had been decided') converts to past perfect active with a general subject ('They had decided').",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect Passive → Active | 'had been + V3 (passive)' → Active में 'had + V3' होता है।",
     "example": "They had decided that the final exam would not be graded on a curve this semester.",
     "options": [
       "They had decided that the final exam would not be graded on a curve this semester.",
@@ -2882,7 +2882,7 @@
   {
     "word": "Did Sanya pay the dinner bills?",
     "meaning_en": "Simple past interrogative active ('Did...pay') converts to simple past interrogative passive ('Were...paid').",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Past Interrogative → Passive | 'Did + S + V1...?' → 'Was/Were + O + V3 + by + Agent?' होता है।",
     "example": "Were the dinner bills paid by Sanya?",
     "options": [
       "The dinner bills did get paid by Sanya?",
@@ -2897,7 +2897,7 @@
   {
     "word": "Who did you suspect was responsible for leaking the confidential information to the press?",
     "meaning_en": "The active question with 'who' as object of 'suspect' is transformed while retaining 'who' as the passive subject: 'Who was suspected by you of being responsible...'.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "Who was suspected by you of being responsible for leaking the confidential information to the press?",
     "options": [
       "Who was suspected by you of being responsible for leaking the confidential information to the press?",
@@ -2912,7 +2912,7 @@
   {
     "word": "The strong current of the river broke through the wall of the earthen dam within no time.",
     "meaning_en": "Simple past active ('broke through') converts to simple past passive ('was broken through'), preserving the phrasal verb intact.",
-    "meaning_hi": "",
+    "meaning_hi": "Phrasal Verb → Passive | Phrasal verb को एक unit मानें; preposition verb के साथ ही रहती है।",
     "example": "The wall of the earthen dam was broken through within no time by the strong current of the river.",
     "options": [
       "The wall of the earthen dam was broken within no time by the strong current of the river.",
@@ -2927,7 +2927,7 @@
   {
     "word": "The mystery had never been solved by anyone before the detective arrived.",
     "meaning_en": "Past perfect passive ('had never been solved') converts to past perfect active ('had solved'), replacing 'anyone' with 'no one' for the negative sense.",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect Passive → Active | 'had been + V3 (passive)' → Active में 'had + V3' होता है।",
     "example": "No one had solved the mystery before the detective arrived.",
     "options": [
       "No one never solved the mystery before the detective arrived.",
@@ -2942,7 +2942,7 @@
   {
     "word": "The groundbreaking quantum theory should not have been dismissed as mere speculation by the scientific community.",
     "meaning_en": "'Should not have been dismissed' (passive) converts to 'should not have dismissed' (active) with 'the scientific community' as the new subject.",
-    "meaning_hi": "",
+    "meaning_hi": "Modal Passive → Active | 'Modal + be + V3' → Active में 'Modal + V1' होता है।",
     "example": "The scientific community should not have dismissed the groundbreaking quantum theory as mere speculation.",
     "options": [
       "The scientific community should not have been dismissing the groundbreaking quantum theory as mere speculation.",
@@ -2957,7 +2957,7 @@
   {
     "word": "They had not finished the project before the deadline.",
     "meaning_en": "Past perfect negative active ('had not finished') converts to past perfect negative passive ('had not been finished').",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect → Passive | 'had + V3 (active)' → Passive में 'had been + V3' होता है।",
     "example": "The project had not been finished by them before the deadline.",
     "options": [
       "The project was not finished by them before the deadline.",
@@ -2972,7 +2972,7 @@
   {
     "word": "The shopkeeper must have misguided the customers to purchase the faulty watches.",
     "meaning_en": "'Must have misguided' (active) converts to 'must have been misguided' (passive), keeping the infinitive purpose clause 'to purchase' unchanged.",
-    "meaning_hi": "",
+    "meaning_hi": "Modal → Passive | 'Modal + V1 (active)' → Passive में 'Modal + be + V3' होता है।",
     "example": "The customers must have been misguided by the shopkeeper to purchase the faulty watches.",
     "options": [
       "The customers must be misguided by the shopkeeper to purchase the faulty watches.",
@@ -2987,7 +2987,7 @@
   {
     "word": "The school building was constructed in 1980.",
     "meaning_en": "Simple past passive ('was constructed') converts to simple past active with a general subject ('Someone constructed').",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Past Passive → Active | 'was/were + V3 (passive)' → Active में 'V2' होता है।",
     "example": "Someone constructed the school building in 1980.",
     "options": [
       "The school building had been constructed in 1980.",
@@ -3002,7 +3002,7 @@
   {
     "word": "The students were imitating the way of the description by the teacher.",
     "meaning_en": "Past continuous active ('were imitating') converts to past continuous passive ('was being imitated'), with singular verb agreement matching 'the way'.",
-    "meaning_hi": "",
+    "meaning_hi": "Past Continuous → Passive | 'was/were + V1-ing (active)' → Passive में 'was/were being + V3' होता है।",
     "example": "The way of the description by the teacher was being imitated by the students.",
     "options": [
       "The way of the description by the teacher was imitated by the students.",
@@ -3017,7 +3017,7 @@
   {
     "word": "All the arrangements had been made by the organizers before we arrived.",
     "meaning_en": "Past perfect passive ('had been made') converts to past perfect active ('had made').",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect Passive → Active | 'had been + V3 (passive)' → Active में 'had + V3' होता है।",
     "example": "The organizers had made all the arrangements before we arrived.",
     "options": [
       "The organizers made all the arrangements before we arrived.",
@@ -3032,7 +3032,7 @@
   {
     "word": "It was widely considered that the ancient ruins were believed to have been constructed by a previously unknown civilization.",
     "meaning_en": "Both passive layers ('was widely considered' and 'were believed to have been constructed') convert to a single active construction: 'People widely considered that...had constructed'.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "People widely considered that a previously unknown civilization had constructed the ancient ruins.",
     "options": [
       "They widely considered that a previously unknown civilization believed to have constructed the ancient ruins.",
@@ -3047,7 +3047,7 @@
   {
     "word": "Bob was drawing the portrait.",
     "meaning_en": "Past continuous active ('was drawing') converts to past continuous passive ('was being drawn').",
-    "meaning_hi": "",
+    "meaning_hi": "Past Continuous → Passive | 'was/were + V1-ing (active)' → Passive में 'was/were being + V3' होता है।",
     "example": "The portrait was being drawn by Bob.",
     "options": [
       "The portrait is being drawn by Bob.",
@@ -3062,7 +3062,7 @@
   {
     "word": "Had the restoration work been being done on the antique cabinet for months before you arrived?",
     "meaning_en": "The passive past perfect continuous question 'Had ... been being done' converts to the active past perfect continuous question 'Had they been doing...', with an unnamed agent supplied as 'they'.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "Had they been doing the restoration work on the antique cabinet for months before you arrived?",
     "options": [
       "Had they been doing the restoration work on the antique cabinet for months before you arrived?",
@@ -3077,7 +3077,7 @@
   {
     "word": "Someone has left the door open.",
     "meaning_en": "Present perfect active ('has left') becomes present perfect passive ('has been left').",
-    "meaning_hi": "",
+    "meaning_hi": "Present Perfect → Passive | 'has/have + V3 (active)' → Passive में 'has/have been + V3' होता है।",
     "example": "The door has been left open.",
     "options": [
       "The door has been left open.",
@@ -3092,7 +3092,7 @@
   {
     "word": "The evidence could not have been overlooked by an experienced detective, a fact that was later emphasized.",
     "meaning_en": "The passive modal perfect 'could not have been overlooked by X' converts to the active 'X could not have overlooked', retaining the modal perfect aspect and meaning.",
-    "meaning_hi": "",
+    "meaning_hi": "Modal Perfect Passive → Active | 'Modal + have been + V3' → Active में 'Modal + have + V3' होता है।",
     "example": "An experienced detective could not have overlooked the evidence, a fact that was later emphasized.",
     "options": [
       "An experienced detective could not have overlooked the evidence, a fact that was later emphasized.",
@@ -3107,7 +3107,7 @@
   {
     "word": "The suspect was believed to have been seen near the crime scene.",
     "meaning_en": "The passive 'was believed to have been seen' requires an active subject ('they') believing an action that had already happened to the suspect, giving 'They believed someone had seen the suspect...'.",
-    "meaning_hi": "",
+    "meaning_hi": "Double Object → Passive | Indirect Object (IO) या Direct Object (DO) — दोनों में से कोई भी subject बन सकता है।",
     "example": "They believed someone had seen the suspect near the crime scene.",
     "options": [
       "Someone believed that the suspect was seen near the crime scene.",
@@ -3122,7 +3122,7 @@
   {
     "word": "They must have taken the intricate artifacts from the museum's security vault with great care.",
     "meaning_en": "The modal perfect active 'must have taken' converts to the modal perfect passive 'must have been taken', preserving the same modal meaning.",
-    "meaning_hi": "",
+    "meaning_hi": "Modal Perfect → Passive | 'Modal + have + V3 (active)' → Passive में 'Modal + have been + V3' होता है।",
     "example": "The intricate artifacts must have been taken with great care from the museum's security vault.",
     "options": [
       "The intricate artifacts must have been taken with great care from the museum's security vault.",
@@ -3137,7 +3137,7 @@
   {
     "word": "The new policy will have been debated for months before it is implemented.",
     "meaning_en": "The passive future perfect 'will have been debated' converts to the active future perfect 'will have debated', with an unnamed agent supplied as 'they'.",
-    "meaning_hi": "",
+    "meaning_hi": "Future Perfect Passive → Active | 'will have been + V3 (passive)' → Active में 'will have + V3' होता है।",
     "example": "They will have debated the new policy for months before it is implemented.",
     "options": [
       "They will have debated the new policy for months before it is implemented.",
@@ -3152,7 +3152,7 @@
   {
     "word": "The doctor is examining the patient.",
     "meaning_en": "Present continuous active ('is examining') converts to present continuous passive ('is being examined').",
-    "meaning_hi": "",
+    "meaning_hi": "Present Continuous → Passive | 'is/are + V1-ing (active)' → Passive में 'is/are being + V3' होता है।",
     "example": "The patient is being examined by the doctor.",
     "options": [
       "The patient was being examined by the doctor.",
@@ -3167,7 +3167,7 @@
   {
     "word": "It has been found that the trees are being destroyed by a moth.",
     "meaning_en": "The sentence is already correctly written in the passive continuous form.",
-    "meaning_hi": "",
+    "meaning_hi": "Voice Transformation | Active → Passive में tense preserve करें; object → subject बनता है।",
     "example": "No substitution required",
     "options": [
       "have destroyed",
@@ -3182,13 +3182,238 @@
   {
     "word": "I cannot use my office at the moment because it being painted.",
     "meaning_en": "The sentence needs the auxiliary verb 'is': 'it is being painted'.",
-    "meaning_hi": "",
+    "meaning_hi": "Voice Transformation | Active → Passive में tense preserve करें; object → subject बनता है।",
     "example": "it is being painted",
     "options": [
       "it is being painted",
       "it had been paint",
       "it has being painted",
       "No substitution required"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "What a mess they have made! (Exclamatory → Passive)",
+    "meaning_en": "Exclamatory → Passive | Formula: What a/an + adjective + noun + has/have + been + V3 + by + Agent! The exclamatory structure is retained in passive.",
+    "meaning_hi": "Exclamatory → Passive | सूत्र: What a/an + adjective + noun + has/have + been + V3 + by + Agent! Exclamatory structure passive में भी बनी रहती है।",
+    "example": "What a mess has been made by them!",
+    "options": [
+      "What a mess has been made by them!",
+      "What a mess was made by them!",
+      "What a mess is being made by them!",
+      "What a mess had been made by them!"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "You need not pay the fee today.",
+    "meaning_en": "Modal 'need not' → Passive | 'need not + V1' → 'need not + be + V3'. The negative modal 'need not' is retained unchanged in passive.",
+    "meaning_hi": "Modal 'need not' → Passive | 'need not + V1' → 'need not + be + V3'। Negative modal 'need not' passive में अपरिवर्तित रहता है।",
+    "example": "The fee need not be paid by you today.",
+    "options": [
+      "The fee need not be paid by you today.",
+      "The fee must not be paid by you today.",
+      "The fee need not have been paid by you today.",
+      "The fee cannot be paid by you today."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "She used to teach us English every day.",
+    "meaning_en": "'Used to + V1' → Passive | 'used to + be + V3'. The past habitual structure 'used to' is retained in passive voice.",
+    "meaning_hi": "'Used to + V1' → Passive | 'used to + be + V3'। Past habit को दर्शाने वाला 'used to' passive में भी बना रहता है।",
+    "example": "We used to be taught English by her every day.",
+    "options": [
+      "We used to be taught English by her every day.",
+      "We are used to being taught English by her every day.",
+      "We were taught English by her every day.",
+      "We had been taught English by her every day."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "We ought to follow the traffic rules.",
+    "meaning_en": "Modal 'ought to' → Passive | 'ought to + V1' → 'ought to + be + V3'. The moral obligation expressed by 'ought to' is preserved in passive.",
+    "meaning_hi": "Modal 'ought to' → Passive | 'ought to + V1' → 'ought to + be + V3'। 'Ought to' का moral obligation passive में भी बना रहता है।",
+    "example": "Traffic rules ought to be followed by us.",
+    "options": [
+      "Traffic rules ought to be followed by us.",
+      "Traffic rules should be followed by us.",
+      "Traffic rules ought to have been followed by us.",
+      "Traffic rules must be followed by us."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The government is going to build a new expressway.",
+    "meaning_en": "'Is/Am/Are going to + V1' → Passive | 'is/am/are going to + be + V3'. The near-future structure 'be going to' is retained in passive.",
+    "meaning_hi": "'Is/Am/Are going to + V1' → Passive | 'is/am/are going to + be + V3'। Near future को दर्शाने वाला 'going to' passive में भी बना रहता है।",
+    "example": "A new expressway is going to be built by the government.",
+    "options": [
+      "A new expressway is going to be built by the government.",
+      "A new expressway will be built by the government.",
+      "A new expressway is being built by the government.",
+      "A new expressway is going to have been built by the government."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "We saw him cross the street. (Verb of Perception → Passive)",
+    "meaning_en": "Verb of Perception → Passive | With verbs of perception (see, hear, watch, notice, feel), bare infinitive in active (V1) becomes 'to + V1' in passive. Formula: was/were + seen/heard/watched + to + V1 + by + Agent.",
+    "meaning_hi": "Verb of Perception → Passive | see, hear, watch जैसे verbs के साथ Active में bare infinitive (V1) → Passive में 'to + V1' बन जाता है।",
+    "example": "He was seen to cross the street by us.",
+    "options": [
+      "He was seen to cross the street by us.",
+      "He was seen crossing the street by us.",
+      "He was seen cross the street by us.",
+      "He has been seen to cross the street by us."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "They heard her sing a folk song. (Verb of Perception → Passive)",
+    "meaning_en": "Verb of Perception (hear) → Passive | 'heard + object + V1 (bare)' → 'was/were heard + to + V1'. The bare infinitive 'sing' becomes 'to sing' in passive.",
+    "meaning_hi": "Verb of Perception (hear) → Passive | 'heard + object + V1 (bare)' → 'was/were heard + to + V1'। Bare infinitive 'sing' → 'to sing' बन जाता है।",
+    "example": "She was heard to sing a folk song by them.",
+    "options": [
+      "She was heard to sing a folk song by them.",
+      "She was heard singing a folk song by them.",
+      "She was heard sing a folk song by them.",
+      "She has been heard to sing a folk song by them."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "You have to submit the application by tomorrow.",
+    "meaning_en": "'Have to + V1' → Passive | 'has/have to + be + V3'. With a singular object (application), use 'has to be'. The sense of obligation is preserved in passive.",
+    "meaning_hi": "'Have to + V1' → Passive | Singular object के साथ 'has to be + V3'। Obligation का भाव passive में भी बना रहता है।",
+    "example": "The application has to be submitted by you by tomorrow.",
+    "options": [
+      "The application has to be submitted by you by tomorrow.",
+      "The application must be submitted by you by tomorrow.",
+      "The application has to have been submitted by you by tomorrow.",
+      "The application had to be submitted by you by tomorrow."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The company sent her a warning letter.",
+    "meaning_en": "Double Object → Passive | IO (her → she) as subject: 'She was sent a warning letter by the company.' This is the preferred form when IO is a person.",
+    "meaning_hi": "Double Object → Passive | IO (her → she) subject बनता है: 'She was sent a warning letter by the company.'। जब IO व्यक्ति हो, यह preferred form है।",
+    "example": "She was sent a warning letter by the company.",
+    "options": [
+      "She was sent a warning letter by the company.",
+      "Her was sent a warning letter by the company.",
+      "She has been sent a warning letter by the company.",
+      "She was sent to a warning letter by the company."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "What do they sell in this shop?",
+    "meaning_en": "WH Question (What) → Passive | 'What' stays at the beginning. 'do they sell' → 'is sold by them'. Formula: What + is/are + V3 + by + Agent?",
+    "meaning_hi": "WH Question (What) → Passive | 'What' शुरू में रहता है। 'do they sell' → 'is sold by them'। सूत्र: What + is/are + V3 + by + Agent?",
+    "example": "What is sold in this shop by them?",
+    "options": [
+      "What is sold in this shop by them?",
+      "What was sold in this shop by them?",
+      "What is being sold in this shop by them?",
+      "What has been sold in this shop by them?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "When did the police arrest him?",
+    "meaning_en": "WH Question (When) → Passive | 'When' stays at the beginning. 'did the police arrest him' → 'was he arrested by the police'. Formula: When + was/were + Object + V3 + by + Agent?",
+    "meaning_hi": "WH Question (When) → Passive | 'When' शुरू में रहता है। Simple past question → passive में 'When + was/were + Object + V3 + by + Agent?' होता है।",
+    "example": "When was he arrested by the police?",
+    "options": [
+      "When was he arrested by the police?",
+      "When has he been arrested by the police?",
+      "When were he arrested by the police?",
+      "When is he arrested by the police?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Who will write the annual report?",
+    "meaning_en": "WH Question (Who) + Future → Passive | 'Who' (subject) → 'By whom'. 'will write' → 'will be written'. Formula: By whom + will + Object + be + V3?",
+    "meaning_hi": "WH Question (Who) + Future → Passive | 'Who' → 'By whom'। 'will write' → 'will be written'। सूत्र: By whom + will + Object + be + V3?",
+    "example": "By whom will the annual report be written?",
+    "options": [
+      "By whom will the annual report be written?",
+      "By who will the annual report be written?",
+      "By whom will the annual report have been written?",
+      "By whom was the annual report written?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "Didn't she sign the agreement? (Negative Interrogative → Passive)",
+    "meaning_en": "Negative Interrogative → Passive | 'Didn't + Subject + V1' → 'Was/Were + Object + not + V3 + by + Agent?' The negation is preserved in passive.",
+    "meaning_hi": "Negative Interrogative → Passive | 'Didn't + Subject + V1' → 'Was/Were + Object + not + V3 + by + Agent?' Negation passive में भी बनी रहती है।",
+    "example": "Was the agreement not signed by her?",
+    "options": [
+      "Was the agreement not signed by her?",
+      "Was the agreement signed by her?",
+      "Wasn't the agreement signed by her?",
+      "Had the agreement not been signed by her?"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The students laughed at the clown. (Phrasal Verb → Passive)",
+    "meaning_en": "Phrasal Verb (laugh at) → Passive | 'Laugh at' is treated as a unit — never split it. 'laughed at + object' → 'was laughed at + by + Agent'. The preposition stays with the verb.",
+    "meaning_hi": "Phrasal Verb (laugh at) → Passive | 'Laugh at' को एक unit मानें — कभी मत तोड़ें। 'laughed at + object' → 'was laughed at + by + Agent'। Preposition verb के साथ रहती है।",
+    "example": "The clown was laughed at by the students.",
+    "options": [
+      "The clown was laughed at by the students.",
+      "The clown was laughed by the students.",
+      "The clown was laughed at the students.",
+      "The clown had been laughed at by the students."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "voices"
+  },
+  {
+    "word": "The workers are paid weekly. (Passive → Active)",
+    "meaning_en": "Simple Present Passive → Active | Since no agent is specified, use a general subject 'They/The employer'. 'are paid' (passive) → 'pays' (active, singular subject) or 'pay' (plural).",
+    "meaning_hi": "Simple Present Passive → Active | Agent नहीं दिया है; 'they' या specific subject लें। 'are paid (passive)' → 'pay/pays (active)' में बदलता है।",
+    "example": "The employer pays the workers weekly.",
+    "options": [
+      "The employer pays the workers weekly.",
+      "The employer paid the workers weekly.",
+      "The employer is paying the workers weekly.",
+      "The employer has paid the workers weekly."
     ],
     "synonyms": [],
     "antonyms": [],

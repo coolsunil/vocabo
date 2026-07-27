@@ -1,9 +1,36 @@
 [
   {
+    "word": "A bird in hand is worth two in the bush",
+    "meaning_en": "What we have is always more valuable that what we have a chance of getting",
+    "meaning_hi": "हाथ की चिड़िया दो झाड़ी के बराबर",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "A bitter pill to swallow",
+    "meaning_en": "This idiom refers to accepting something unpleasant that cannot be avoided.",
+    "meaning_hi": "कड़वी सच्चाई स्वीकार करना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "A blessing in disguise",
     "meaning_hi": "छिपा हुआ वरदान",
     "meaning_en": "Something that appears bad but results in good",
     "example": "His illness, though painful, was a blessing in disguise as it led him to slow down.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "A bolt from the blue",
+    "meaning_en": "A sudden and unexpected event",
+    "meaning_hi": "अचानक और अप्रत्याशित झटका",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -18,10 +45,55 @@
     "category": "idioms"
   },
   {
+    "word": "A drop in the ocean",
+    "meaning_en": "'A drop in the ocean' means an amount too small to make a significant difference to a much larger situation.",
+    "meaning_hi": "ऊँट के मुँह में जीरा",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "A fish out of water",
     "meaning_hi": "असहज स्थिति में व्यक्ति",
     "meaning_en": "Someone uncomfortable in a situation",
     "example": "Being the only engineer in a room full of lawyers, he felt like a fish out of water.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "A piece of cake",
+    "meaning_en": "The restaurant was crowded, but they found a table without any difficulty.",
+    "meaning_hi": "बहुत आसान काम",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "A purple patch",
+    "meaning_en": "Standard idiomatic meaning as per common English usage.",
+    "meaning_hi": "सफलता और प्रतिभा का दौर",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "A sting in the tail",
+    "meaning_en": "An unexpected, typically unpleasant or problematic end to something",
+    "meaning_hi": "अंत में छिपी अप्रिय बात",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "A stitch in time saves nine",
+    "meaning_en": "Timely addressal of a problem prevents future exacerbation of the same",
+    "meaning_hi": "समय पर किया काम नुकसान बचाता है",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -36,10 +108,28 @@
     "category": "idioms"
   },
   {
+    "word": "A white elephant",
+    "meaning_en": "'A white elephant' refers to a costly possession that is more burdensome than beneficial.",
+    "meaning_hi": "बेकार और महंगी चीज़",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "A wild goose chase",
     "meaning_hi": "व्यर्थ प्रयास",
     "meaning_en": "A useless or hopeless search",
     "example": "Following that rumour turned out to be a complete wild goose chase.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Ace in the hole",
+    "meaning_en": "'Ace in the hole' refers to a hidden resource or advantage kept in reserve until it is needed.",
+    "meaning_hi": "छिपा हुआ फायदा / गुप्त हथियार",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -81,6 +171,15 @@
     "category": "idioms"
   },
   {
+    "word": "All hands on the deck",
+    "meaning_en": "\"All hands on the deck\" means everyone available is needed to work together on a task.",
+    "meaning_hi": "सभी मिलकर काम में लगें",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "All in the same boat",
     "meaning_hi": "एक ही परिस्थिति में",
     "meaning_en": "Facing the same situation together",
@@ -112,6 +211,33 @@
     "meaning_hi": "जैसे को तैसा",
     "meaning_en": "Retaliation in equal measure",
     "example": "A justice system based purely on an eye for an eye eventually blinds everyone.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "An ivory tower",
+    "meaning_en": "\"An ivory tower\" refers to a state of being isolated from the practical realities of everyday life, often due to privilege.",
+    "meaning_hi": "वास्तविकता से कटा जीवन",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "An old head on young shoulders",
+    "meaning_en": "A young person who acts or speaks like an older person.",
+    "meaning_hi": "कम उम्र में परिपक्वता",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Are on a collision course",
+    "meaning_en": "'On a collision course' means two people, groups, or ideas are set to inevitably clash or conflict.",
+    "meaning_hi": "टकराव की राह पर",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -153,6 +279,15 @@
     "category": "idioms"
   },
   {
+    "word": "As thick as thieves",
+    "meaning_en": "'As thick as thieves' describes people who are very close friends and share confidences loyally with each other.",
+    "meaning_hi": "बहुत घनिष्ठ मित्र",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "At arm's length",
     "meaning_hi": "दूरी बनाकर",
     "meaning_en": "Keeping distance",
@@ -162,10 +297,10 @@
     "category": "idioms"
   },
   {
-    "word": "At daggers drawn",
-    "meaning_hi": "कट्टर विरोध में",
-    "meaning_en": "In bitter hostility",
-    "example": "The two neighbouring states have been at daggers drawn over the river water dispute.",
+    "word": "At one's fingertips",
+    "meaning_en": "'At one's fingertips' means readily available and thoroughly known, i.e. having complete knowledge of something.",
+    "meaning_hi": "उँगलियों पर / सब याद होना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -207,6 +342,15 @@
     "category": "idioms"
   },
   {
+    "word": "Bag and baggage",
+    "meaning_en": "With all goods",
+    "meaning_hi": "बोरिया बिस्तर सहित / सब कुछ लेकर",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Bark up the wrong tree",
     "meaning_hi": "गलत व्यक्ति को दोष देना",
     "meaning_en": "To make a wrong assumption",
@@ -229,6 +373,24 @@
     "meaning_hi": "पहले ही कर लेना",
     "meaning_en": "To do something before someone else",
     "example": "Our rival beat us to the punch by launching their product two weeks earlier.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Bells and whistles",
+    "meaning_en": "Attractive but unnecessary features added to products",
+    "meaning_hi": "अतिरिक्त सुविधाएँ",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Below the belt",
+    "meaning_en": "\"Below the belt\" means an unfair or unjust action, often referring to a hurtful or unsporting remark.",
+    "meaning_hi": "नीचे वार करना / अनुचित हमला",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -288,6 +450,45 @@
     "category": "idioms"
   },
   {
+    "word": "Bite the dust",
+    "meaning_en": "To fail, be defeated, or die",
+    "meaning_hi": "हार जाना / मर जाना",
+    "example": "Several small businesses bit the dust during the recession.",
+    "category": "idioms"
+  },
+  {
+    "word": "Bite the hand that feeds you",
+    "meaning_en": "To act ungratefully toward someone who helps you",
+    "meaning_hi": "ऐहसानफरामोशी करना / उपकारी का बुरा करना",
+    "example": "Criticising your employer publicly is biting the hand that feeds you.",
+    "category": "idioms"
+  },
+  {
+    "word": "Black and white",
+    "meaning_en": "'In black and white' means something is documented or put down in writing, making it official or verifiable.",
+    "meaning_hi": "स्पष्ट / लिखित रूप में",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Blood is thicker than water",
+    "meaning_en": "Family relationships are stronger than other bonds",
+    "meaning_hi": "खून पानी से गाढ़ा होता है",
+    "example": "Despite the argument, he stood by his brother — blood is thicker than water.",
+    "category": "idioms"
+  },
+  {
+    "word": "Blow hot and cold",
+    "meaning_en": "To 'blow hot and cold' means to keep changing one's attitude or opinion.",
+    "meaning_hi": "अस्थिर और बदलता रवैया अपनाना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Blow one's own trumpet",
     "meaning_hi": "अपनी प्रशंसा करना",
     "meaning_en": "To boast about oneself",
@@ -297,10 +498,35 @@
     "category": "idioms"
   },
   {
+    "word": "Blowing smoke",
+    "meaning_en": "'Blowing smoke' means saying things that are exaggerated or untrue in order to confuse or mislead someone.",
+    "meaning_hi": "झूठी बातें / दूसरे को धोखा देना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Blue blood",
     "meaning_hi": "उच्च कुलीन व्यक्ति",
     "meaning_en": "Person of noble birth",
     "example": "The prince was clearly blue blood, raised with every privilege imaginable.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Born with a silver spoon",
+    "meaning_en": "Born into a wealthy and privileged family",
+    "meaning_hi": "अमीर परिवार में पैदा होना",
+    "example": "She never understood struggle because she was born with a silver spoon.",
+    "category": "idioms"
+  },
+  {
+    "word": "Bread and butter",
+    "meaning_en": "An activity you do to get money for basic needs",
+    "meaning_hi": "रोज़ी-रोटी / आजीविका",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -324,10 +550,26 @@
     "category": "idioms"
   },
   {
+    "word": "Burn one's bridges",
+    "meaning_en": "To do something that makes it impossible to return to a previous situation",
+    "meaning_hi": "पीछे हटने का रास्ता बंद कर लेना",
+    "example": "By resigning so rudely, he burned his bridges with the company.",
+    "category": "idioms"
+  },
+  {
     "word": "Burn the midnight oil",
     "meaning_hi": "रात भर मेहनत करना",
     "meaning_en": "To work late at night",
     "example": "She burned the midnight oil for weeks to prepare for the civil service exam.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Bury the hatchet",
+    "meaning_en": "To 'bury the hatchet' means to make peace and end a quarrel.",
+    "meaning_hi": "झगड़ा भुलाकर सुलह करना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -369,6 +611,31 @@
     "category": "idioms"
   },
   {
+    "word": "Came of age",
+    "meaning_en": "To 'come of age' means to reach maturity/adulthood, legally or socially.",
+    "meaning_hi": "परिपक्व होना / वयस्क होना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Care a hang",
+    "meaning_en": "To be totally indifferent; not to care at all",
+    "meaning_hi": "बिल्कुल परवाह न करना",
+    "example": "He does not care a hang about what people think of him.",
+    "category": "idioms"
+  },
+  {
+    "word": "Carry coals to Newcastle",
+    "meaning_en": "Newcastle was a famous coal-producing town, so to 'carry coals to Newcastle' is to supply something where it is already plentiful, i.e. a pointless effort.",
+    "meaning_hi": "अनावश्यक काम करना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Carry the day",
     "meaning_hi": "विजय प्राप्त करना",
     "meaning_en": "To win victory",
@@ -382,6 +649,15 @@
     "meaning_hi": "एक जैसे स्वभाव के",
     "meaning_en": "Having similar character",
     "example": "The two siblings are clearly cast in the same mould — both stubborn perfectionists.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Cast one's bread upon the waters",
+    "meaning_en": "Standard idiomatic meaning as per common English usage.",
+    "meaning_hi": "निःस्वार्थ भाव से अच्छे काम करना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -405,10 +681,28 @@
     "category": "idioms"
   },
   {
+    "word": "Chalk and cheese",
+    "meaning_en": "\"Chalk and cheese\" is an idiom used to describe two things that are completely different from each other.",
+    "meaning_hi": "एकदम अलग / कोई समानता नहीं",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Chance one's arm",
     "meaning_hi": "जोखिम उठाना",
     "meaning_en": "To take a risk",
     "example": "With nothing to lose, she chanced her arm and applied for the dream job.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Chapter and verse",
+    "meaning_en": "'Chapter and verse' means with exact, precise reference and full detail.",
+    "meaning_hi": "पूरा ब्यौरा और प्रमाण देना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -459,6 +753,15 @@
     "category": "idioms"
   },
   {
+    "word": "Cool one's heels",
+    "meaning_en": "'Cool one's heels' means to be made to wait, often needlessly.",
+    "meaning_hi": "प्रतीक्षा करना / इंतज़ार करना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Cost an arm and a leg",
     "meaning_hi": "बहुत महंगा होना",
     "meaning_en": "To be very expensive",
@@ -486,10 +789,26 @@
     "category": "idioms"
   },
   {
+    "word": "Cross the Rubicon",
+    "meaning_en": "To take a decisive and irreversible step",
+    "meaning_hi": "निर्णायक और अपरिवर्तनीय कदम उठाना",
+    "example": "By announcing his candidacy, he crossed the Rubicon.",
+    "category": "idioms"
+  },
+  {
     "word": "Cry over spilt milk",
     "meaning_hi": "बीती बात पर पछताना",
     "meaning_en": "To regret what cannot be undone",
     "example": "The damage is done; there is no use crying over spilt milk now.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Currying favour",
+    "meaning_en": "To 'curry favour' is to ingratiate oneself by flattery or obsequious behaviour.",
+    "meaning_hi": "चापलूसी करना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -576,6 +895,15 @@
     "category": "idioms"
   },
   {
+    "word": "Dicing with death",
+    "meaning_en": "\"Dicing with death\" means engaging in a very risky activity that could result in death or serious harm.",
+    "meaning_hi": "मौत से खेलना / जान जोखिम में डालना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Die hard",
     "meaning_hi": "जिद्दी समर्थक",
     "meaning_en": "A stubborn supporter",
@@ -598,6 +926,15 @@
     "meaning_hi": "पूरी कोशिश करना",
     "meaning_en": "To try one's hardest",
     "example": "He did his level best, but the competition was simply too tough this year.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Dog eat dog",
+    "meaning_en": "'Dog eat dog' describes a situation of fierce competition where people are willing to harm others to succeed.",
+    "meaning_hi": "कड़ी और निर्दयी प्रतिस्पर्धा",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -639,6 +976,13 @@
     "category": "idioms"
   },
   {
+    "word": "Down to earth",
+    "meaning_en": "Practical, realistic, and without pretension",
+    "meaning_hi": "व्यावहारिक / ज़मीन से जुड़ा",
+    "example": "Despite her fame, she remained down to earth and approachable.",
+    "category": "idioms"
+  },
+  {
     "word": "Draw a blank",
     "meaning_hi": "कुछ याद न आना",
     "meaning_en": "To fail to recall or find",
@@ -654,6 +998,13 @@
     "example": "The manager draws the line at personal insults during team disagreements.",
     "synonyms": [],
     "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Draw the long bow",
+    "meaning_en": "To exaggerate or make extravagant claims",
+    "meaning_hi": "बढ़ा-चढ़ाकर बात करना",
+    "example": "He was drawing the long bow when he claimed to have met the president.",
     "category": "idioms"
   },
   {
@@ -675,10 +1026,26 @@
     "category": "idioms"
   },
   {
+    "word": "Drop the ball",
+    "meaning_en": "To make an error or fail to fulfil a responsibility",
+    "meaning_hi": "ज़िम्मेदारी निभाने में चूकना",
+    "example": "The marketing team dropped the ball on the product launch.",
+    "category": "idioms"
+  },
+  {
     "word": "Dwell on the past",
     "meaning_hi": "अतीत में उलझे रहना",
     "meaning_en": "To keep thinking about past events",
     "example": "She tends to dwell on the past instead of focusing on future opportunities.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Dyed in the wool",
+    "meaning_en": "Standard idiomatic meaning as per common English usage.",
+    "meaning_hi": "कट्टर / पूरी तरह पक्का",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -726,6 +1093,20 @@
     "example": "The climax of the thriller kept the entire audience on the edge of their seats.",
     "synonyms": [],
     "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Egg on one's face",
+    "meaning_en": "To be left embarrassed by a mistake",
+    "meaning_hi": "शर्मिंदगी उठाना / मुँह पर कालिख",
+    "example": "The minister had egg on his face after his claim proved false.",
+    "category": "idioms"
+  },
+  {
+    "word": "Egg someone on",
+    "meaning_en": "To urge or encourage someone to do something, often something unwise",
+    "meaning_hi": "उकसाना / भड़काना",
+    "example": "His friends egged him on to take the dangerous bet.",
     "category": "idioms"
   },
   {
@@ -787,6 +1168,15 @@
     "meaning_hi": "हर बुराई में भलाई",
     "meaning_en": "Hope or good aspect in every bad situation",
     "example": "Losing the job was hard, but it led him to a better one — every cloud has a silver lining.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Every nook and cranny",
+    "meaning_en": "'Every nook and cranny' means every small corner or hidden part of a place.",
+    "meaning_hi": "हर कोने-कोने में",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -864,6 +1254,15 @@
     "category": "idioms"
   },
   {
+    "word": "Fallen off the radar",
+    "meaning_en": "\"Fallen off the radar\" means to have become unnoticed or forgotten by others.",
+    "meaning_hi": "नज़रों से ओझल हो जाना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Far and wide",
     "meaning_hi": "हर जगह",
     "meaning_en": "Over a large area",
@@ -886,6 +1285,24 @@
     "meaning_hi": "बहुत कम",
     "meaning_en": "Rare",
     "example": "Good mentors who genuinely invest in others are few and far between.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Fiddle while Rome burns",
+    "meaning_en": "To 'fiddle while Rome burns' is to occupy oneself with unimportant matters while a serious crisis demands attention.",
+    "meaning_hi": "बड़े संकट में भी बेपरवाह रहना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Fight fire with fire",
+    "meaning_en": "Use the same force or strategy of one's opponent to counter them",
+    "meaning_hi": "आग से आग बुझाना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -927,6 +1344,15 @@
     "category": "idioms"
   },
   {
+    "word": "Fish out of water",
+    "meaning_en": "To be out of place",
+    "meaning_hi": "अनजाने माहौल में असहज महसूस करना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Flesh and blood",
     "meaning_hi": "मानवीय कमजोरी",
     "meaning_en": "Human nature with weaknesses",
@@ -940,6 +1366,15 @@
     "meaning_hi": "खुशी में बाधा",
     "meaning_en": "A small defect that spoils something",
     "example": "Everything was arranged perfectly; the venue cancellation was the fly in the ointment.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Fly off the handle",
+    "meaning_en": "'Fly off the handle' means to lose one's temper suddenly.",
+    "meaning_hi": "अचानक आपा खोना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -981,12 +1416,28 @@
     "category": "idioms"
   },
   {
+    "word": "Fringe benefits",
+    "meaning_en": "\"Fringe benefits\" refers to additional perks (like insurance or bonuses) given on top of a regular salary.",
+    "meaning_hi": "अतिरिक्त लाभ",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "From pillar to post",
     "meaning_hi": "इधर-उधर भटकना",
     "meaning_en": "From one place to another",
     "example": "He was sent from pillar to post by various officials before getting his documents approved.",
     "synonyms": [],
     "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Full of beans",
+    "meaning_en": "Lively, energetic, and in high spirits",
+    "meaning_hi": "ऊर्जावान / उत्साह से भरपूर",
+    "example": "The children were full of beans after the holiday.",
     "category": "idioms"
   },
   {
@@ -999,6 +1450,22 @@
     "category": "idioms"
   },
   {
+    "word": "Gall and wormwood",
+    "meaning_en": "'Gall and wormwood' refers to a source of deep bitterness, resentment or mortification.",
+    "meaning_hi": "अत्यंत कड़वा और कष्टदायक अनुभव",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Get a taste of one's own medicine",
+    "meaning_en": "To experience the same unpleasant treatment one gives others",
+    "meaning_hi": "अपनी करनी का फल मिलना",
+    "example": "The bully finally got a taste of his own medicine.",
+    "category": "idioms"
+  },
+  {
     "word": "Get cold feet",
     "meaning_hi": "डर जाना",
     "meaning_en": "To lose courage suddenly",
@@ -1008,10 +1475,26 @@
     "category": "idioms"
   },
   {
+    "word": "Get off on the wrong foot",
+    "meaning_en": "To start a relationship or activity badly",
+    "meaning_hi": "गलत शुरुआत करना",
+    "example": "They got off on the wrong foot at their first meeting.",
+    "category": "idioms"
+  },
+  {
     "word": "Get out of hand",
     "meaning_hi": "नियंत्रण से बाहर होना",
     "meaning_en": "To become uncontrollable",
     "example": "The celebration got out of hand when uninvited guests started arriving.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Get under someone's skin",
+    "meaning_en": "Standard idiomatic meaning as per common English usage.",
+    "meaning_hi": "किसी को परेशान करना / नाराज़ करना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -1044,6 +1527,13 @@
     "category": "idioms"
   },
   {
+    "word": "Give someone the benefit of the doubt",
+    "meaning_en": "To trust someone even though one is not certain they deserve it",
+    "meaning_hi": "संदेह का लाभ देना",
+    "example": "I'll give him the benefit of the doubt this time.",
+    "category": "idioms"
+  },
+  {
     "word": "Give someone the cold shoulder",
     "meaning_hi": "उपेक्षा करना",
     "meaning_en": "To ignore deliberately",
@@ -1059,6 +1549,13 @@
     "example": "Accepting bribes goes completely against the grain of his personal values.",
     "synonyms": [],
     "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Go back to the drawing board",
+    "meaning_en": "To start planning something again from the beginning",
+    "meaning_hi": "नए सिरे से शुरुआत करना",
+    "example": "The plan failed, so they had to go back to the drawing board.",
     "category": "idioms"
   },
   {
@@ -1093,6 +1590,15 @@
     "meaning_hi": "बर्बाद होना",
     "meaning_en": "To deteriorate badly",
     "example": "Ever since the founder left, the once-reputed institution has gone to the dogs.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Going through a sticky patch",
+    "meaning_en": "'Sticky patch' refers to a difficult period.",
+    "meaning_hi": "मुश्किल दौर से गुज़रना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -1143,10 +1649,26 @@
     "category": "idioms"
   },
   {
+    "word": "Green thumb",
+    "meaning_en": "A natural skill for growing plants successfully",
+    "meaning_hi": "पौधे उगाने की प्राकृतिक कुशलता",
+    "example": "Her garden was beautiful — she clearly had a green thumb.",
+    "category": "idioms"
+  },
+  {
     "word": "Hale and hearty",
     "meaning_hi": "स्वस्थ और मजबूत",
     "meaning_en": "Healthy and strong",
     "example": "Despite his age, the retired general is hale and hearty and fully active.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Hand and glove",
+    "meaning_en": "'Hand and glove' (or 'hand in glove') means in very close, intimate association.",
+    "meaning_hi": "घनिष्ठ सहयोग / हाथ-दस्ताने की तरह",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -1179,6 +1701,33 @@
     "category": "idioms"
   },
   {
+    "word": "Has two strings to his bow",
+    "meaning_en": "To have 'two strings to one's bow' means to have more than one resource or option to fall back on.",
+    "meaning_hi": "दो विकल्प होना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Haul over the coals",
+    "meaning_en": "'To haul someone over the coals' means to reprimand or scold them severely.",
+    "meaning_hi": "खरी-खोटी सुनाना / कड़ी फटकार लगाना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Have a bee in your bonnet",
+    "meaning_en": "'Have a bee in your bonnet' means to be preoccupied or obsessed with an idea.",
+    "meaning_hi": "किसी बात की धुन सवार होना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Have a finger in every pie",
     "meaning_hi": "हर काम में दखल",
     "meaning_en": "To be involved in many activities",
@@ -1194,6 +1743,13 @@
     "example": "She has an axe to grind against the management and that colours all her feedback.",
     "synonyms": [],
     "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Have bigger fish to fry",
+    "meaning_en": "To have more important things to deal with",
+    "meaning_hi": "करने को बड़े काम होना",
+    "example": "I can't attend that meeting — I have bigger fish to fry today.",
     "category": "idioms"
   },
   {
@@ -1260,10 +1816,44 @@
     "category": "idioms"
   },
   {
+    "word": "Hit the ground running",
+    "meaning_en": "'To hit the ground running' means to begin an activity energetically and effectively from the very start.",
+    "meaning_hi": "तेज़ी और जोश से शुरुआत करना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Hit the nail on the head",
     "meaning_hi": "बिल्कुल सही कहना",
     "meaning_en": "To state exactly right",
     "example": "You have hit the nail on the head — inefficiency is the root cause here.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Hit the sack",
+    "meaning_en": "To go to bed and sleep",
+    "meaning_hi": "सोने जाना / बिस्तर पर जाना",
+    "example": "I'm exhausted — I'm going to hit the sack early tonight.",
+    "category": "idioms"
+  },
+  {
+    "word": "Hobson's choice",
+    "meaning_en": "'Hobson's choice' is an apparently free choice that offers no real alternative â€” take it or leave it.",
+    "meaning_hi": "कोई वास्तविक विकल्प न होना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Hoist with one's own petard",
+    "meaning_en": "'Hoist with one's own petard' means harmed by one's own plot or scheme.",
+    "meaning_hi": "अपने ही जाल में फँसना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -1341,6 +1931,15 @@
     "category": "idioms"
   },
   {
+    "word": "In dribs and drabs",
+    "meaning_en": "'In dribs and drabs' means in small amounts occurring at irregular intervals rather than all at once.",
+    "meaning_hi": "थोड़ा-थोड़ा करके",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "In good books",
     "meaning_hi": "प्रिय होना",
     "meaning_en": "In someone's favor",
@@ -1372,6 +1971,15 @@
     "meaning_hi": "पलभर में",
     "meaning_en": "Very quickly",
     "example": "The entire accident happened in the blink of an eye before anyone could react.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "In the doldrums",
+    "meaning_en": "To be 'in the doldrums' is to be in a state of low spirits, stagnation or inactivity.",
+    "meaning_hi": "उदासी / सुस्ती / मंदी में",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -1557,6 +2165,13 @@
     "category": "idioms"
   },
   {
+    "word": "Keep one's chin up",
+    "meaning_en": "To remain cheerful and courageous in difficult circumstances",
+    "meaning_hi": "हिम्मत बनाए रखना",
+    "example": "Keep your chin up — things will get better soon.",
+    "category": "idioms"
+  },
+  {
     "word": "Keep one's fingers crossed",
     "meaning_hi": "सौभाग्य की आशा करना",
     "meaning_en": "To hope for good luck",
@@ -1575,10 +2190,26 @@
     "category": "idioms"
   },
   {
+    "word": "Keep someone in the loop",
+    "meaning_en": "To ensure someone is kept informed about a situation",
+    "meaning_hi": "किसी को जानकारी में रखना",
+    "example": "Please keep me in the loop about the project's progress.",
+    "category": "idioms"
+  },
+  {
     "word": "Keep up appearances",
     "meaning_hi": "दिखावा बनाए रखना",
     "meaning_en": "To maintain outward image",
     "example": "Though financially struggling, the family kept up appearances in front of neighbours.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Keeps a good table",
+    "meaning_en": "To 'keep a good table' means to provide generous, high-quality food.",
+    "meaning_hi": "अच्छा खाना परोसना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -1647,6 +2278,15 @@
     "category": "idioms"
   },
   {
+    "word": "Last resort",
+    "meaning_en": "'Last resort' means the final option to be tried after all other options have failed.",
+    "meaning_hi": "अंतिम उपाय",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Last straw",
     "meaning_hi": "अंतिम सीमा",
     "meaning_en": "Final problem that breaks patience",
@@ -1701,6 +2341,15 @@
     "category": "idioms"
   },
   {
+    "word": "Let sleeping dogs lie",
+    "meaning_en": "Not interfere in situations where interference may exacerbate matters",
+    "meaning_hi": "सोती बला को मत जगाओ",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Let the cat out of the bag",
     "meaning_hi": "राज़ खोल देना",
     "meaning_en": "To reveal secret",
@@ -1732,6 +2381,15 @@
     "meaning_hi": "सबसे बड़ा हिस्सा",
     "meaning_en": "Largest portion",
     "example": "Despite equal effort, one partner took the lion's share of the credit.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Listen with half an ear",
+    "meaning_en": "Standard idiomatic meaning as per common English usage.",
+    "meaning_hi": "आधे ध्यान से सुनना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -1809,6 +2467,24 @@
     "category": "idioms"
   },
   {
+    "word": "Make heavy weather",
+    "meaning_en": "Standard idiomatic meaning as per common English usage.",
+    "meaning_hi": "आसान काम को भी मुश्किल बनाना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Make no bones about it",
+    "meaning_en": "'Make no bones about it' means to state something plainly, without hesitation or evasion.",
+    "meaning_hi": "साफ-साफ बात करना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Make up one's mind",
     "meaning_hi": "निर्णय लेना",
     "meaning_en": "To decide",
@@ -1831,6 +2507,15 @@
     "meaning_hi": "विद्वान व्यक्ति",
     "meaning_en": "Scholar or literary person",
     "example": "Rabindranath Tagore was a great man of letters and a Nobel laureate.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Many hands make light work",
+    "meaning_en": "Standard idiomatic meaning as per common English usage.",
+    "meaning_hi": "जितने हाथ, उतना हल्का बोझ",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -1903,6 +2588,15 @@
     "meaning_hi": "बिना कारण हंगामा",
     "meaning_en": "Unnecessary fuss",
     "example": "Much ado about nothing is commonly used.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Mum's the word",
+    "meaning_en": "'Mum's the word' means to keep something a secret; say nothing about it.",
+    "meaning_hi": "राज़ बनाए रखना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -1998,6 +2692,15 @@
     "category": "idioms"
   },
   {
+    "word": "Not fit to hold a candle to",
+    "meaning_en": "'Not fit to hold a candle to (someone)' means to be far inferior to them, i.e., 'Greatly inferior to'.",
+    "meaning_hi": "किसी की बराबरी न कर पाना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Not one's cup of tea",
     "meaning_hi": "रुचि का न होना",
     "meaning_en": "Not something one likes",
@@ -2034,12 +2737,28 @@
     "category": "idioms"
   },
   {
+    "word": "On its last legs",
+    "meaning_en": "'On its last legs' means something is in very poor condition and likely to fail or stop working soon.",
+    "meaning_hi": "अंतिम दौर में / टूटने के करीब",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "On one's toes",
     "meaning_hi": "सतर्क",
     "meaning_en": "Alert and ready",
     "example": "A strict teacher keeps students on their toes throughout the year.",
     "synonyms": [],
     "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "On the ball",
+    "meaning_en": "Alert, competent, and quick to understand or act",
+    "meaning_hi": "चौकस और कुशल / ध्यान में रहना",
+    "example": "The new assistant is really on the ball.",
     "category": "idioms"
   },
   {
@@ -2052,10 +2771,44 @@
     "category": "idioms"
   },
   {
+    "word": "On the same wavelength",
+    "meaning_en": "'On the same wavelength' means thinking alike and understanding each other well.",
+    "meaning_hi": "एक ही सोच और समझ पर होना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "On the spur of the moment",
     "meaning_hi": "अचानक",
     "meaning_en": "Without planning",
     "example": "He decided on the spur of the moment to resign from the post.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "On the warpath",
+    "meaning_en": "'On the warpath' means to be angry and ready to confront or fight someone.",
+    "meaning_hi": "लड़ाई के मूड में / बहुत नाराज़",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "On thin ice",
+    "meaning_en": "In a risky or precarious situation",
+    "meaning_hi": "जोखिम भरी स्थिति में",
+    "example": "He was on thin ice after missing three deadlines in a row.",
+    "category": "idioms"
+  },
+  {
+    "word": "Once bitten, twice shy",
+    "meaning_en": "twice shy",
+    "meaning_hi": "एक बार ठगे जाने पर अधिक सावधानी",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -2088,6 +2841,15 @@
     "category": "idioms"
   },
   {
+    "word": "Out and about",
+    "meaning_en": "'Out and about' means active and moving around after being unwell or inactive, engaging with others.",
+    "meaning_hi": "सक्रिय और घूमते-फिरते",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Out of sorts",
     "meaning_hi": "अस्वस्थ या चिड़चिड़ा",
     "meaning_en": "Irritable or unwell",
@@ -2106,10 +2868,28 @@
     "category": "idioms"
   },
   {
+    "word": "Out of the frying pan and into the fire",
+    "meaning_en": "This idiom means escaping one bad situation only to enter a worse one.",
+    "meaning_hi": "एक मुसीबत से निकलकर दूसरी में पड़ना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Pain in the neck",
     "meaning_hi": "झुंझलाने वाला व्यक्ति",
     "meaning_en": "Annoying person",
     "example": "Filling out all these government forms is a real pain in the neck.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Paint the town red",
+    "meaning_en": "'Paint the town red' means to go out and celebrate/enjoy oneself extensively.",
+    "meaning_hi": "खूब धूमधाम से जश्न मनाना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -2151,6 +2931,13 @@
     "category": "idioms"
   },
   {
+    "word": "Play one's cards close to one's chest",
+    "meaning_en": "To conceal one's plans or intentions",
+    "meaning_hi": "अपनी योजना और इरादे छुपाना",
+    "example": "She played her cards close to her chest during the negotiations.",
+    "category": "idioms"
+  },
+  {
     "word": "Play second fiddle",
     "meaning_hi": "दूसरा स्थान लेना",
     "meaning_en": "Take subordinate role",
@@ -2169,10 +2956,40 @@
     "category": "idioms"
   },
   {
+    "word": "Pot calling the kettle black",
+    "meaning_en": "Accusing someone of faults that you yourself have",
+    "meaning_hi": "चोर की दाढ़ी में तिनका",
+    "example": "He called her lazy — talk about the pot calling the kettle black!",
+    "category": "idioms"
+  },
+  {
+    "word": "Pull one's socks up",
+    "meaning_en": "To make an effort to improve one's work or behaviour",
+    "meaning_hi": "और मेहनत करना / कमर कसना",
+    "example": "The teacher told the class to pull their socks up before the exams.",
+    "category": "idioms"
+  },
+  {
     "word": "Pull someone's leg",
     "meaning_hi": "मजाक करना",
     "meaning_en": "Tease jokingly",
     "example": "Relax — I was only pulling your leg about the surprise inspection.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Put a spoke in someone's wheel",
+    "meaning_en": "To deliberately hinder or obstruct someone's plans",
+    "meaning_hi": "किसी की योजना में अड़ंगा डालना",
+    "example": "A last-minute objection put a spoke in their wheel.",
+    "category": "idioms"
+  },
+  {
+    "word": "Put in mind",
+    "meaning_en": "'Put in mind' means to remind someone of something.",
+    "meaning_hi": "याद दिलाना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -2187,10 +3004,42 @@
     "category": "idioms"
   },
   {
+    "word": "Put one's foot in it",
+    "meaning_en": "To say something accidentally that causes embarrassment",
+    "meaning_hi": "अनजाने में गलती करना / मुँह से निकल जाना",
+    "example": "He really put his foot in it by mentioning her ex-husband.",
+    "category": "idioms"
+  },
+  {
+    "word": "Put out to pasture",
+    "meaning_en": "Standard idiomatic meaning as per common English usage.",
+    "meaning_hi": "सेवानिवृत्त करना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Put someone on the spot",
+    "meaning_en": "To put someone in a difficult or embarrassing position",
+    "meaning_hi": "किसी को मुश्किल स्थिति में डालना",
+    "example": "The reporter put the minister on the spot with her question.",
+    "category": "idioms"
+  },
+  {
     "word": "Put two and two together",
     "meaning_hi": "तथ्यों से निष्कर्ष निकालना",
     "meaning_en": "Draw logical conclusion",
     "example": "When she saw the clues, she quickly put two and two together.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Pyrrhic victory",
+    "meaning_en": "A 'Pyrrhic victory' is a success won at such a devastating cost that it is almost as bad as a defeat.",
+    "meaning_hi": "बहुत महंगी और नुकसानदेह जीत",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -2202,6 +3051,13 @@
     "example": "The new neighbour is a real queer fish who rarely speaks to anyone.",
     "synonyms": [],
     "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Queer someone's pitch",
+    "meaning_en": "To spoil someone's plans or chances",
+    "meaning_hi": "किसी की योजना बिगाड़ना",
+    "example": "A sudden policy change queered their pitch completely.",
     "category": "idioms"
   },
   {
@@ -2241,10 +3097,26 @@
     "category": "idioms"
   },
   {
+    "word": "Rain on someone's parade",
+    "meaning_en": "To spoil someone's pleasure or plans",
+    "meaning_hi": "किसी की खुशी में खलल डालना",
+    "example": "I don't want to rain on your parade, but the trip may have to be cancelled.",
+    "category": "idioms"
+  },
+  {
     "word": "Read between the lines",
     "meaning_hi": "अप्रत्यक्ष अर्थ समझना",
     "meaning_en": "Understand hidden meaning",
     "example": "If you read between the lines of his letter, his unhappiness is clear.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Red herring",
+    "meaning_en": "A 'red herring' is something that misleads or distracts attention away from the real or important issue.",
+    "meaning_hi": "भटकाने वाली बात / झाँसा",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -2313,6 +3185,13 @@
     "category": "idioms"
   },
   {
+    "word": "Run out of steam",
+    "meaning_en": "To lose energy or enthusiasm and be unable to continue",
+    "meaning_hi": "उत्साह और ऊर्जा खो देना",
+    "example": "The movement ran out of steam after its leader resigned.",
+    "category": "idioms"
+  },
+  {
     "word": "Run the gauntlet",
     "meaning_hi": "कठिन परीक्षा से गुजरना",
     "meaning_en": "Face severe criticism",
@@ -2358,6 +3237,13 @@
     "category": "idioms"
   },
   {
+    "word": "See the writing on the wall",
+    "meaning_en": "To recognise signs that something bad is going to happen",
+    "meaning_hi": "भविष्य के संकेत पढ़ना",
+    "example": "Smart investors saw the writing on the wall and sold early.",
+    "category": "idioms"
+  },
+  {
     "word": "Sell like hot cakes",
     "meaning_hi": "तेजी से बिकना",
     "meaning_en": "Sell very fast",
@@ -2385,12 +3271,69 @@
     "category": "idioms"
   },
   {
+    "word": "Show the white feather",
+    "meaning_en": "To 'show the white feather' means to display cowardice.",
+    "meaning_hi": "कायरता दिखाना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Sit on the fence",
     "meaning_hi": "निर्णय न लेना",
     "meaning_en": "Remain neutral",
     "example": "A good leader cannot afford to sit on the fence on important issues.",
     "synonyms": [],
     "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Slip your mind",
+    "meaning_en": "'Slip your mind' means to forget something.",
+    "meaning_hi": "भूल जाना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Smell a rat",
+    "meaning_en": "To suspect that something is wrong or dishonest",
+    "meaning_hi": "कुछ गड़बड़ होने का अहसास होना",
+    "example": "When no one answered his calls, he began to smell a rat.",
+    "category": "idioms"
+  },
+  {
+    "word": "Someone's ears are burning",
+    "meaning_en": "The feeling when someone thinks others are talking about them",
+    "meaning_hi": "किसी की अभी बात हो रही है",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Someone's ears are flapping",
+    "meaning_en": "Standard idiomatic meaning as per common English usage.",
+    "meaning_hi": "कोई चुपके से सुन रहा है",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Sour grapes",
+    "meaning_en": "Pretending to dislike something because one cannot have it",
+    "meaning_hi": "खट्टे अंगूर / न मिलने पर कमतर बताना",
+    "example": "His criticism of the award was just sour grapes.",
+    "category": "idioms"
+  },
+  {
+    "word": "Speak of the devil",
+    "meaning_en": "Said when someone appears just as they were being talked about",
+    "meaning_hi": "जिसकी बात उसकी हाज़िरी",
+    "example": "Speak of the devil — there she is now!",
     "category": "idioms"
   },
   {
@@ -2413,10 +3356,140 @@
     "category": "idioms"
   },
   {
+    "word": "Star-crossed lovers",
+    "meaning_en": "\"Star-crossed lovers\" refers to a couple whose relationship is fated to end in tragedy or failure.",
+    "meaning_hi": "दुर्भाग्यशाली प्रेमी",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Steal a march on",
+    "meaning_en": "To 'steal a march on' someone is to gain an advantage over them by acting earlier or more quickly than expected.",
+    "meaning_hi": "किसी से पहले लाभ उठाना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Steal someone's thunder",
+    "meaning_en": "To take attention or credit away from someone else",
+    "meaning_hi": "किसी का श्रेय छीन लेना",
+    "example": "His surprise announcement stole the bride's thunder.",
+    "category": "idioms"
+  },
+  {
+    "word": "Stick one's neck out",
+    "meaning_en": "To take a risk by saying or doing something that might cause trouble",
+    "meaning_hi": "जोखिम उठाना / मुँह खोलने की हिम्मत करना",
+    "example": "The whistleblower stuck his neck out to expose the fraud.",
+    "category": "idioms"
+  },
+  {
+    "word": "Stick to one's guns",
+    "meaning_en": "'Stick to one's guns' means to maintain one's position or opinion despite pressure to change it.",
+    "meaning_hi": "अपनी बात पर टिके रहना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Straight and narrow",
+    "meaning_en": "Standard idiomatic meaning as per common English usage.",
+    "meaning_hi": "सदाचार की राह",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Straight from the horse's mouth",
+    "meaning_en": "This idiom means information obtained directly from the person concerned or a highly reliable, authoritative source.",
+    "meaning_hi": "सीधे मूल स्रोत से",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Strain every nerve",
+    "meaning_en": "To make every possible effort",
+    "meaning_hi": "एड़ी-चोटी का ज़ोर लगाना",
+    "example": "She strained every nerve to meet the deadline.",
+    "category": "idioms"
+  },
+  {
     "word": "Strike while the iron is hot",
     "meaning_hi": "समय का लाभ उठाना",
     "meaning_en": "Act at right moment",
     "example": "The company should strike while the iron is hot and expand now.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Stuck in a rut",
+    "meaning_hi": "एकरस दिनचर्या में फँसे होना",
+    "meaning_en": "Feeling trapped in a repetitive and unchanging routine.",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Sweep under the carpet",
+    "meaning_en": "Keep a problem under wraps in the hope that it will be forgotten",
+    "meaning_hi": "कमियाँ और समस्याएँ छुपाना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Take a rain check",
+    "meaning_en": "To decline an invitation but suggest it be repeated at a later date",
+    "meaning_hi": "फ़िलहाल मना करना पर बाद में करने का वादा",
+    "example": "I'll have to take a rain check on dinner tonight.",
+    "category": "idioms"
+  },
+  {
+    "word": "Take someone for a ride",
+    "meaning_en": "'To take someone for a ride' means to cheat, trick or deceive someone.",
+    "meaning_hi": "किसी को ठगना / बेवकूफ बनाना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Take someone under one's wing",
+    "meaning_en": "To guide and protect someone less experienced",
+    "meaning_hi": "किसी की देखभाल और मार्गदर्शन करना",
+    "example": "The senior professor took the young researcher under her wing.",
+    "category": "idioms"
+  },
+  {
+    "word": "Take the plunge",
+    "meaning_en": "To decide to do something after hesitating",
+    "meaning_hi": "साहस के साथ निर्णायक कदम उठाना",
+    "example": "After months of deliberation, he finally took the plunge and quit his job.",
+    "category": "idioms"
+  },
+  {
+    "word": "Take the wind out of someone's sails",
+    "meaning_en": "To suddenly reduce someone's enthusiasm or confidence",
+    "meaning_hi": "उत्साह भंग करना / जोश ठंडा कर देना",
+    "example": "His blunt criticism took the wind out of her sails.",
+    "category": "idioms"
+  },
+  {
+    "word": "Take time by the forelock",
+    "meaning_en": "This idiom means to act promptly and seize an opportunity while it is available.",
+    "meaning_hi": "सुअवसर को तुरंत भुनाना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -2440,12 +3513,58 @@
     "category": "idioms"
   },
   {
-    "word": "The last resort",
-    "meaning_hi": "अंतिम उपाय",
-    "meaning_en": "The final option when all others have failed",
-    "example": "Surgery should be considered only as a last resort when all other treatments fail.",
+    "word": "The ball is in your court",
+    "meaning_en": "It is now your turn to take action or make a decision",
+    "meaning_hi": "अब फ़ैसला तुम्हारे हाथ में है",
+    "example": "I've made my offer — the ball is in your court now.",
+    "category": "idioms"
+  },
+  {
+    "word": "The last nail in the coffin",
+    "meaning_en": "The final event that causes a complete failure",
+    "meaning_hi": "पतन की अंतिम कड़ी",
+    "example": "The scandal was the last nail in the coffin for his career.",
+    "category": "idioms"
+  },
+  {
+    "word": "The Midas touch",
+    "meaning_en": "\"The Midas touch\" refers to the ability to make anything one is involved with successful or profitable, from the myth of King Midas.",
+    "meaning_hi": "सब कुछ सोना बना देने की शक्ति",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "The sword of Damocles",
+    "meaning_en": "'The sword of Damocles' denotes an ever-present, looming danger or threat.",
+    "meaning_hi": "सिर पर मँडराता खतरा",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "The tip of the iceberg",
+    "meaning_en": "A small visible part of a much larger hidden problem",
+    "meaning_hi": "हिमशैल का सिरा / बड़ी समस्या का छोटा हिस्सा",
+    "example": "The corruption revealed was just the tip of the iceberg.",
+    "category": "idioms"
+  },
+  {
+    "word": "The world is your oyster",
+    "meaning_en": "You have all the opportunity to obtain what you wish from life",
+    "meaning_hi": "दुनिया तुम्हारे कदमों में है",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Think outside the box",
+    "meaning_en": "To think creatively and beyond conventional ideas",
+    "meaning_hi": "नए और अलग तरीके से सोचना",
+    "example": "The company encouraged employees to think outside the box.",
     "category": "idioms"
   },
   {
@@ -2458,10 +3577,94 @@
     "category": "idioms"
   },
   {
+    "word": "Throw caution to the wind",
+    "meaning_en": "To stop worrying about risks and act boldly",
+    "meaning_hi": "जोखिम की परवाह न करना / निडर होकर काम करना",
+    "example": "She threw caution to the wind and quit her job to travel.",
+    "category": "idioms"
+  },
+  {
     "word": "Throw cold water on",
     "meaning_hi": "उत्साह कम करना",
     "meaning_en": "Discourage",
     "example": "His senior threw cold water on all his innovative project proposals.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Throw in the towel",
+    "meaning_en": "To accept defeat and give up",
+    "meaning_hi": "हार मान लेना / हथियार डाल देना",
+    "example": "After hours of negotiations, one side threw in the towel.",
+    "category": "idioms"
+  },
+  {
+    "word": "Throw one's weight around",
+    "meaning_en": "'To throw one's weight around' means to use one's power or authority in an aggressive, domineering manner.",
+    "meaning_hi": "अपना रोब और प्रभाव दिखाना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Tie the knot",
+    "meaning_en": "To get married",
+    "meaning_hi": "शादी करना / विवाह-बंधन में बँधना",
+    "example": "The couple finally tied the knot after a five-year engagement.",
+    "category": "idioms"
+  },
+  {
+    "word": "To chew the cud of reflection",
+    "meaning_en": "'To chew the cud' means to think deeply and at length about something; here 'of reflection' reinforces 'Pondering deeply'.",
+    "meaning_hi": "गहन चिंतन करना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "To cry stinking fish",
+    "meaning_en": "'To cry stinking fish' means to belittle or disparage one's own efforts or goods â€” i.e., undervaluing one's own worth.",
+    "meaning_hi": "अपनी ही चीज़ों की बुराई करना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "To take the bull by the horns",
+    "meaning_en": "'To take the bull by the horns' means to confront a difficult situation directly and with courage.",
+    "meaning_hi": "समस्या का सीधे सामना करना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "To take/carry coal to Newcastle",
+    "meaning_en": "Newcastle was historically a major coal-producing city, so 'carrying coal to Newcastle' means doing something pointless/unnecessary.",
+    "meaning_hi": "अनावश्यक काम करना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "To throw dust in one's eyes",
+    "meaning_en": "This idiom means to deceive or mislead someone.",
+    "meaning_hi": "आँखों में धूल झोंकना / धोखा देना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "To throw up the sponge",
+    "meaning_en": "This idiom originates from boxing, where throwing in the sponge signaled surrender.",
+    "meaning_hi": "हार मान लेना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -2485,6 +3688,24 @@
     "category": "idioms"
   },
   {
+    "word": "Tooth and nail",
+    "meaning_en": "To fight 'tooth and nail' means to fight fiercely, using all one's energy and resources.",
+    "meaning_hi": "पूरी ताकत और जोश के साथ",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Tread on your toes",
+    "meaning_en": "'Tread on someone's toes' means to offend or upset someone, often by encroaching on their responsibilities.",
+    "meaning_hi": "किसी को ठेस पहुँचाना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Turn a blind eye",
     "meaning_hi": "जानबूझकर अनदेखा करना",
     "meaning_en": "Ignore deliberately",
@@ -2503,6 +3724,15 @@
     "category": "idioms"
   },
   {
+    "word": "Turn one's stomach",
+    "meaning_en": "Standard idiomatic meaning as per common English usage.",
+    "meaning_hi": "जी मिचलाना / घृणा होना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
     "word": "Turn over a new leaf",
     "meaning_hi": "नई शुरुआत करना",
     "meaning_en": "Start fresh",
@@ -2516,6 +3746,15 @@
     "meaning_hi": "स्थिति पलटना",
     "meaning_en": "Reverse situation",
     "example": "In the second half, the team turned the tables and won convincingly.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Twist of the knife",
+    "meaning_en": "To make someone who is already feeling bad, feel worse with one's words or actions",
+    "meaning_hi": "जले पर नमक छिड़कना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -2548,6 +3787,13 @@
     "category": "idioms"
   },
   {
+    "word": "Under one's thumb",
+    "meaning_en": "Completely under the control of someone",
+    "meaning_hi": "किसी के नियंत्रण में / वश में",
+    "example": "He kept all his employees under his thumb.",
+    "category": "idioms"
+  },
+  {
     "word": "Under the weather",
     "meaning_hi": "अस्वस्थ",
     "meaning_en": "Feeling ill",
@@ -2572,6 +3818,13 @@
     "example": "Residents were up in arms over the sudden closure of the local hospital.",
     "synonyms": [],
     "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Up one's sleeve",
+    "meaning_en": "Kept secret for use when needed",
+    "meaning_hi": "छिपी हुई योजना या चाल",
+    "example": "She had a few tricks up her sleeve for the final round.",
     "category": "idioms"
   },
   {
@@ -2647,6 +3900,22 @@
     "category": "idioms"
   },
   {
+    "word": "Walk a tightrope",
+    "meaning_en": "To act carefully in a difficult situation",
+    "meaning_hi": "नाज़ुक संतुलन बनाए रखना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Walk on eggshells",
+    "meaning_en": "To be extremely careful not to upset someone",
+    "meaning_hi": "बहुत सावधानी से बात करना / नाज़ुक स्थिति में चलना",
+    "example": "Everyone walked on eggshells around the angry director.",
+    "category": "idioms"
+  },
+  {
     "word": "Warts and all",
     "meaning_hi": "सभी कमियों के बावजूद",
     "meaning_en": "Including all faults and imperfections",
@@ -2669,6 +3938,15 @@
     "meaning_hi": "बीती बात",
     "meaning_en": "Past matter",
     "example": "Their old argument is water under the bridge; they are friends again.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Waxed and waned",
+    "meaning_en": "\"Waxed and waned\" describes something that has alternately increased and decreased, like phases of the moon.",
+    "meaning_hi": "बढ़ना और घटना",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -2701,10 +3979,19 @@
     "category": "idioms"
   },
   {
-    "word": "White elephant",
-    "meaning_hi": "बेकार महंगी वस्तु",
-    "meaning_en": "Costly but useless thing",
-    "example": "The grand stadium built for the games became a white elephant afterwards.",
+    "word": "Whatever floats your boat",
+    "meaning_en": "'Whatever floats your boat' means whatever makes you happy or appeals to you personally.",
+    "meaning_hi": "जो भी तुम्हें खुश रखे",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Where the shoe pinches",
+    "meaning_en": "Where the difficulty lies",
+    "meaning_hi": "जहाँ असली तकलीफ होती है",
+    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"
@@ -2716,6 +4003,22 @@
     "example": "The rumour spread like wildfire through the office before anyone could correct it.",
     "synonyms": [],
     "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Won his laurels",
+    "meaning_en": "To 'win one's laurels' means to gain honour, distinction or fame through achievement.",
+    "meaning_hi": "प्रसिद्धि और सम्मान पाना",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "idioms"
+  },
+  {
+    "word": "Wrap one's head around",
+    "meaning_en": "To try to understand something complex or surprising",
+    "meaning_hi": "किसी मुश्किल बात को समझने की कोशिश करना",
+    "example": "I still can't wrap my head around what happened.",
     "category": "idioms"
   },
   {
@@ -2840,1617 +4143,6 @@
     "meaning_hi": "चुप रहना",
     "meaning_en": "Keep silent",
     "example": "He was told firmly to zip his lip and stop spreading rumours.",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Haul over the coals",
-    "meaning_en": "'To haul someone over the coals' means to reprimand or scold them severely.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Take time by the forelock",
-    "meaning_en": "This idiom means to act promptly and seize an opportunity while it is available.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "A bitter pill to swallow",
-    "meaning_en": "This idiom refers to accepting something unpleasant that cannot be avoided.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "A drop in the ocean",
-    "meaning_en": "'A drop in the ocean' means an amount too small to make a significant difference to a much larger situation.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Paint the town red",
-    "meaning_en": "'Paint the town red' means to go out and celebrate/enjoy oneself extensively.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Cool one's heels",
-    "meaning_en": "'Cool one's heels' means to be made to wait, often needlessly.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "To take/carry coal to Newcastle",
-    "meaning_en": "Newcastle was historically a major coal-producing city, so 'carrying coal to Newcastle' means doing something pointless/unnecessary.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "To throw up the sponge",
-    "meaning_en": "This idiom originates from boxing, where throwing in the sponge signaled surrender.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Burning the midnight oil'.",
-    "meaning_en": "'Burning the midnight oil' means to work or study late into the night.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "A dime a dozen'.",
-    "meaning_en": "'A dime a dozen' means something very common that is easy to get and not very valuable.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Hit the nail on the head'.",
-    "meaning_en": "'Hit the nail on the head' means to describe exactly what is causing a situation or problem.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Sitting on the fence'.",
-    "meaning_en": "'Sitting on the fence' means avoiding commitment or not taking sides in a dispute.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Beat around the bush'.",
-    "meaning_en": "'Beat around the bush' means to avoid coming to the main point, talking about something in a roundabout way.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Spill the beans'.",
-    "meaning_en": "'Spill the beans' means to disclose secret or private information.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Pull someone's leg'.",
-    "meaning_en": "'Pull someone's leg' means to tease or joke with someone, often by telling them something untrue.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "(III) The farmer bought a dark horse and a white cow from the village market.",
-    "meaning_en": "(I) and (II) use 'dark horse' idiomatically (an unexpected achiever/talent). (III) uses it literally to mean an actual horse, which is not the idiomatic sense being tested.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "digital technology came as a blessing in disguise",
-    "meaning_en": "'Blessing in disguise' here refers to digital technology enabling emotional connection despite social distancing, as directly stated in the passage.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "to bite the bullet",
-    "meaning_en": "'To bite the bullet' means to force oneself to endure or face a difficult or unpleasant situation with courage.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "throw his weight around",
-    "meaning_en": "'To throw one's weight around' means to use one's power or authority in an aggressive, domineering manner.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "red herring",
-    "meaning_en": "A 'red herring' is something that misleads or distracts attention away from the real or important issue.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "hit the ground running",
-    "meaning_en": "'To hit the ground running' means to begin an activity energetically and effectively from the very start.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Pyrrhic victory",
-    "meaning_en": "A 'Pyrrhic victory' is a success won at such a devastating cost that it is almost as bad as a defeat.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "to take someone for a ride",
-    "meaning_en": "'To take someone for a ride' means to cheat, trick or deceive someone.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "to move heaven and earth",
-    "meaning_en": "'To move heaven and earth' means to make every possible effort to achieve something.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "The thief was caught red-handed and apprehended by the police.",
-    "meaning_en": "'Caught red-handed' means caught in the very act of committing a crime or wrongdoing.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "What egged you on to become a social worker?",
-    "meaning_en": "'Egged on' means to urge or incite someone to do something; 'urged' is the closest dictionary match, though 'inspired' is a plausible near-alternative.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "It was he who put a spoke in my wheel.",
-    "meaning_en": "'Put a spoke in someone's wheel' means to deliberately hinder or obstruct someone's plan — it does not necessarily mean destroying it outright.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "When he tells stories about himself he is inspired to draw the long bow.",
-    "meaning_en": "'Draw the long bow' means to exaggerate or stretch the truth.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "My father strained every nerve to enable me to get settled in life.",
-    "meaning_en": "'Strain every nerve' means to make the greatest possible effort, i.e., to work very hard, not specifically to use tricks or money.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "It was he who put a spoke in the wheel.",
-    "meaning_en": "'Put a spoke in someone's wheel' means to deliberately hinder or obstruct their plan.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "The new Chief Minister stuck his neck out today and promised 10 kg free wheat a month for all rural families.",
-    "meaning_en": "'Stick one's neck out' means to take a risk or make oneself vulnerable by taking a bold stance.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "The old man was cut to the quick when his rich son refused to recognise him.",
-    "meaning_en": "'Cut to the quick' means deeply hurt or offended emotionally.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Mohan thanked Ramesh for helping him financially and not leaving him in the lurch.",
-    "meaning_en": "'Leave someone in the lurch' means to abandon them in a difficult situation without help.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "All my houseplants are in sorry shape; it is clear that I do not have a green thumb.",
-    "meaning_en": "'Having a green thumb' is a well-known idiom meaning having a natural ability to grow plants successfully.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Listen with half an ear",
-    "meaning_en": "Standard idiomatic meaning as per common English usage.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Dyed in the wool",
-    "meaning_en": "Standard idiomatic meaning as per common English usage.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Let sleeping dogs lie",
-    "meaning_en": "Not interfere in situations where interference may exacerbate matters",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "A stitch in time saves nine",
-    "meaning_en": "Timely addressal of a problem prevents future exacerbation of the same",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Fight fire with fire",
-    "meaning_en": "Use the same force or strategy of one's opponent to counter them",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Straight and narrow",
-    "meaning_en": "Standard idiomatic meaning as per common English usage.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Someone's ears are burning",
-    "meaning_en": "The feeling when someone thinks others are talking about them",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Turn one's stomach",
-    "meaning_en": "Standard idiomatic meaning as per common English usage.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "The world is your oyster",
-    "meaning_en": "You have all the opportunity to obtain what you wish from life",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Cast one's bread upon the waters",
-    "meaning_en": "Standard idiomatic meaning as per common English usage.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Someone's ears are flapping",
-    "meaning_en": "Standard idiomatic meaning as per common English usage.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Twist of the knife",
-    "meaning_en": "To make someone who is already feeling bad, feel worse with one's words or actions",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Blow your own trumpet",
-    "meaning_en": "Standard idiomatic meaning as per common English usage.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Get under someone's skin",
-    "meaning_en": "Standard idiomatic meaning as per common English usage.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Many hands make light work",
-    "meaning_en": "Standard idiomatic meaning as per common English usage.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "A bird in hand is worth two in the bush",
-    "meaning_en": "What we have is always more valuable that what we have a chance of getting",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Make heavy weather",
-    "meaning_en": "Standard idiomatic meaning as per common English usage.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Sweep under the carpet",
-    "meaning_en": "Keep a problem under wraps in the hope that it will be forgotten",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "A purple patch",
-    "meaning_en": "Standard idiomatic meaning as per common English usage.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Put out to pasture",
-    "meaning_en": "Standard idiomatic meaning as per common English usage.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Hobson's choice",
-    "meaning_en": "'Hobson's choice' is an apparently free choice that offers no real alternative â€” take it or leave it.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Fly off the handle",
-    "meaning_en": "'Fly off the handle' means to lose one's temper suddenly.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Make no bones about it",
-    "meaning_en": "'Make no bones about it' means to state something plainly, without hesitation or evasion.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Has two strings to his bow",
-    "meaning_en": "To have 'two strings to one's bow' means to have more than one resource or option to fall back on.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Show the white feather",
-    "meaning_en": "To 'show the white feather' means to display cowardice.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Bury the hatchet",
-    "meaning_en": "To 'bury the hatchet' means to make peace and end a quarrel.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Blow hot and cold",
-    "meaning_en": "To 'blow hot and cold' means to keep changing one's attitude or opinion.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Tooth and nail",
-    "meaning_en": "To fight 'tooth and nail' means to fight fiercely, using all one's energy and resources.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Steal a march on",
-    "meaning_en": "To 'steal a march on' someone is to gain an advantage over them by acting earlier or more quickly than expected.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Fiddle while Rome burns",
-    "meaning_en": "To 'fiddle while Rome burns' is to occupy oneself with unimportant matters while a serious crisis demands attention.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Carry coals to Newcastle",
-    "meaning_en": "Newcastle was a famous coal-producing town, so to 'carry coals to Newcastle' is to supply something where it is already plentiful, i.e. a pointless effort.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "In the doldrums",
-    "meaning_en": "To be 'in the doldrums' is to be in a state of low spirits, stagnation or inactivity.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "To chew the cud of reflection",
-    "meaning_en": "'To chew the cud' means to think deeply and at length about something; here 'of reflection' reinforces 'Pondering deeply'.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Not fit to hold a candle to",
-    "meaning_en": "'Not fit to hold a candle to (someone)' means to be far inferior to them, i.e., 'Greatly inferior to'.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "To cry stinking fish",
-    "meaning_en": "'To cry stinking fish' means to belittle or disparage one's own efforts or goods â€” i.e., undervaluing one's own worth.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Won his laurels",
-    "meaning_en": "To 'win one's laurels' means to gain honour, distinction or fame through achievement.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Came of age",
-    "meaning_en": "To 'come of age' means to reach maturity/adulthood, legally or socially.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Gall and wormwood",
-    "meaning_en": "'Gall and wormwood' refers to a source of deep bitterness, resentment or mortification.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "The sword of Damocles",
-    "meaning_en": "'The sword of Damocles' denotes an ever-present, looming danger or threat.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Keeps a good table",
-    "meaning_en": "To 'keep a good table' means to provide generous, high-quality food.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Hoist with one's own petard",
-    "meaning_en": "'Hoist with one's own petard' means harmed by one's own plot or scheme.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Hand and glove",
-    "meaning_en": "'Hand and glove' (or 'hand in glove') means in very close, intimate association.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Currying favour",
-    "meaning_en": "To 'curry favour' is to ingratiate oneself by flattery or obsequious behaviour.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Chapter and verse",
-    "meaning_en": "'Chapter and verse' means with exact, precise reference and full detail.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Which of the following idioms means 'to steal from a shop'?",
-    "meaning_en": "'Five-finger discount' is a humorous slang idiom for shoplifting, i.e., taking goods without paying.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Select the most appropriate meaning of the underlined idiom. Fatima was at her wits' end trying to decide on a serene place for spending the holidays in.",
-    "meaning_en": "'At one's wits' end' means so worried or perplexed that one does not know what to do.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Select the most appropriate meaning of the given idiom. Break a leg",
-    "meaning_en": "'Break a leg' is a theatrical idiom used to wish a performer good luck.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Select the most appropriate option to substitute the underlined segment in the given sentence. Raju's job as a clerk seemed to be bad at first because of the low salary, but resulted in something good happening later because it saved him from being unemployed.",
-    "meaning_en": "'A blessing in disguise' is the fixed idiom for something that seems bad at first but turns out to be good.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Select the most appropriate meaning of the given idiom. To have bigger fish to fry",
-    "meaning_en": "'To have bigger fish to fry' means to have more important matters to attend to.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Select the most appropriate meaning of the given idiom. On the ball",
-    "meaning_en": "To be 'on the ball' means to be alert, competent and quick to respond.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Select the most appropriate meaning of the phrase in bold. Your so-called friend has cooked your goose.",
-    "meaning_en": "'To cook someone's goose' means to spoil or ruin someone's plans or chances.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "What does the idiom 'Bite the bullet' mean?",
-    "meaning_en": "'Bite the bullet' means to endure a painful or difficult situation with courage.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Select the most appropriate meaning of the given idiom. Care a hang",
-    "meaning_en": "'Not to care a hang' means to be completely indifferent â€” showing no interest.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Select the most appropriate option to substitute the underlined segment in the given sentence. To tell others secret information only for enjoyment is not a good practice.",
-    "meaning_en": "'Spill the beans' is the idiom for revealing secret information.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Whatever floats your boat",
-    "meaning_en": "'Whatever floats your boat' means whatever makes you happy or appeals to you personally.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "As thick as thieves",
-    "meaning_en": "'As thick as thieves' describes people who are very close friends and share confidences loyally with each other.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Chalk and cheese",
-    "meaning_en": "\"Chalk and cheese\" is an idiom used to describe two things that are completely different from each other.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Waxed and waned",
-    "meaning_en": "\"Waxed and waned\" describes something that has alternately increased and decreased, like phases of the moon.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "All hands on the deck",
-    "meaning_en": "\"All hands on the deck\" means everyone available is needed to work together on a task.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Fallen off the radar",
-    "meaning_en": "\"Fallen off the radar\" means to have become unnoticed or forgotten by others.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Dicing with death",
-    "meaning_en": "\"Dicing with death\" means engaging in a very risky activity that could result in death or serious harm.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Fringe benefits",
-    "meaning_en": "\"Fringe benefits\" refers to additional perks (like insurance or bonuses) given on top of a regular salary.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Below the belt",
-    "meaning_en": "\"Below the belt\" means an unfair or unjust action, often referring to a hurtful or unsporting remark.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Star-crossed lovers",
-    "meaning_en": "\"Star-crossed lovers\" refers to a couple whose relationship is fated to end in tragedy or failure.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "An ivory tower",
-    "meaning_en": "\"An ivory tower\" refers to a state of being isolated from the practical realities of everyday life, often due to privilege.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "The Midas touch",
-    "meaning_en": "\"The Midas touch\" refers to the ability to make anything one is involved with successful or profitable, from the myth of King Midas.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Out and about",
-    "meaning_en": "'Out and about' means active and moving around after being unwell or inactive, engaging with others.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Mum's the word",
-    "meaning_en": "'Mum's the word' means to keep something a secret; say nothing about it.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "In dribs and drabs",
-    "meaning_en": "'In dribs and drabs' means in small amounts occurring at irregular intervals rather than all at once.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Every nook and cranny",
-    "meaning_en": "'Every nook and cranny' means every small corner or hidden part of a place.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Tread on your toes",
-    "meaning_en": "'Tread on someone's toes' means to offend or upset someone, often by encroaching on their responsibilities.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Took the wind out of her sails",
-    "meaning_en": "'To take the wind out of someone's sails' means to suddenly remove their confidence, energy, or enthusiasm.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "On the warpath",
-    "meaning_en": "'On the warpath' means to be angry and ready to confront or fight someone.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "On the same wavelength",
-    "meaning_en": "'On the same wavelength' means thinking alike and understanding each other well.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "He decided to bite the bullet by finally agreeing to surgery as it was the only option left for him to survive.",
-    "meaning_en": "'Bite the bullet' means to face a difficult or unpleasant situation with courage because it cannot be avoided.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "In radiant secrecy, Sheela burned the midnight oil and prepared woolen sweaters for the beggars around the street.",
-    "meaning_en": "'Burn the midnight oil' is an idiom meaning to work or study late into the night, i.e., to work hard for a long time.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "To take the bull by the horns",
-    "meaning_en": "'To take the bull by the horns' means to confront a difficult situation directly and with courage.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "The mode of payment is cash is a pain in the neck for those who have no habit of carrying cash around them.",
-    "meaning_en": "'A pain in the neck' is an idiom meaning someone or something very annoying or troublesome.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "A white elephant",
-    "meaning_en": "'A white elephant' refers to a costly possession that is more burdensome than beneficial.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Are on a collision course",
-    "meaning_en": "'On a collision course' means two people, groups, or ideas are set to inevitably clash or conflict.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Straight from the horse's mouth",
-    "meaning_en": "This idiom means information obtained directly from the person concerned or a highly reliable, authoritative source.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "I know you are ready. Go break a leg now.",
-    "meaning_en": "'Break a leg' is a theatrical expression used to wish someone good luck.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Looking at the situation, the best plan of action would be to throw caution to the wind.",
-    "meaning_en": "'Throw caution to the wind' means to act boldly and take risks without worrying about danger.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "I am down with her complaints.",
-    "meaning_en": "'Fed up with' means annoyed or tired of something, which fits the context of being irritated by complaints; 'down with' typically means suffering from an illness.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Black and white",
-    "meaning_en": "'In black and white' means something is documented or put down in writing, making it official or verifiable.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "The realtors of the new venture sold plots like hot cakes.",
-    "meaning_en": "'Selling like hot cakes' means something sells very quickly and in large quantities.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "At one's fingertips",
-    "meaning_en": "'At one's fingertips' means readily available and thoroughly known, i.e. having complete knowledge of something.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Teja followed his friend's advice so now he is in deep water.",
-    "meaning_en": "'In deep water' means to be in a difficult or troublesome situation.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Blowing smoke",
-    "meaning_en": "'Blowing smoke' means saying things that are exaggerated or untrue in order to confuse or mislead someone.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Riding a horse was a piece of cake for him.",
-    "meaning_en": "'A piece of cake' is an idiom meaning something very easy to do.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "I am so glad that I ran into you on the way.",
-    "meaning_en": "'Ran into someone' correctly means to meet someone unexpectedly, which fits the context perfectly, so no substitution is needed.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "The arrival of Pragati in the house brought disharmony among the family members.",
-    "meaning_en": "'A rift in the lute' is an idiom meaning a flaw or disagreement that spoils a previously harmonious situation, fitting the sense of disharmony introduced.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Put in mind",
-    "meaning_en": "'Put in mind' means to remind someone of something.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Dog eat dog",
-    "meaning_en": "'Dog eat dog' describes a situation of fierce competition where people are willing to harm others to succeed.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Slip your mind",
-    "meaning_en": "'Slip your mind' means to forget something.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "A B C D",
-    "meaning_en": "The correct idiom is 'taken aback' (meaning surprised/shocked), not 'taken back'.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "It feels like I made a promise of more than my ability when I promised to complete this worksheet in one day.",
-    "meaning_en": "'Bite off more than one can chew' means to take on more responsibility than one can handle, fitting the sense of overpromising.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "On its last legs",
-    "meaning_en": "'On its last legs' means something is in very poor condition and likely to fail or stop working soon.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Last resort",
-    "meaning_en": "'Last resort' means the final option to be tried after all other options have failed.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Ace in the hole",
-    "meaning_en": "'Ace in the hole' refers to a hidden resource or advantage kept in reserve until it is needed.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Have a bee in your bonnet",
-    "meaning_en": "'Have a bee in your bonnet' means to be preoccupied or obsessed with an idea.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Stick to one's guns",
-    "meaning_en": "'Stick to one's guns' means to maintain one's position or opinion despite pressure to change it.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Delivering that furniture to the tenth floor without the lift and an incline is incredibly foolish and next to impossible.",
-    "meaning_en": "'Like nailing jelly to a tree' is an idiom meaning something is extremely difficult or nearly impossible to accomplish.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Independence Day is considered as a red-letter day in the history of India.",
-    "meaning_en": "Memorable day",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Vishnu and Vignesh are always like two peas in a pod.",
-    "meaning_en": "Very similar to each other",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Prakash could not make up his mind about what to do with the project.",
-    "meaning_en": "Decide",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "My entire family left me in the lurch when I went to them after I divorced my husband.",
-    "meaning_en": "refused to help me in my distress",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "I can't begin to talk on this situation right now; I am still wrapping my head around it.",
-    "meaning_en": "Understanding something complicated",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "You can best identify the fair weather friends at the time of adversity.",
-    "meaning_en": "Friend only at the time of prosperity",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "A bolt from the blue",
-    "meaning_en": "A sudden and unexpected event",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Walk a tightrope",
-    "meaning_en": "To act carefully in a difficult situation",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "To be at daggers drawn",
-    "meaning_en": "Ready to fight",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "To cost an arm and a leg",
-    "meaning_en": "Something is very expensive",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Bag and baggage",
-    "meaning_en": "With all goods",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "The United Nations is working to eliminate the vicious cycle of poverty.",
-    "meaning_en": "One problem causes other",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Last year art critics praised Animesh as if he were a master, but he turned out to be a pleasure for a short time.",
-    "meaning_en": "a nine days' wonder",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "bread and butter",
-    "meaning_en": "An activity you do to get money for basic needs",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Vihaan is clumsy at dancing.",
-    "meaning_en": "all thumbs",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "When I got an opportunity to start a new business, Ravikanth queered my pitch.",
-    "meaning_en": "Ruined my plan",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Fish out of water",
-    "meaning_en": "To be out of place",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Bells and whistles",
-    "meaning_en": "Attractive but unnecessary features added to products",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Which of the following idioms means 'going to sleep'?",
-    "meaning_en": "Hit the sack",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Where the shoe pinches",
-    "meaning_en": "Where the difficulty lies",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "To read between the lines",
-    "meaning_en": "To grasp the hidden meaning",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "The player was declared fit and in excellent health to play the final matches.",
-    "meaning_en": "right as rain",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Shantanu always buries his head in the sand whenever he explains his professional failures to his father.",
-    "meaning_en": "hides from the truth",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "He got medals time after time by following the instructions of his mentor.",
-    "meaning_en": "Repeatedly",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "An old head on young shoulders",
-    "meaning_en": "A young person who acts or speaks like an older person.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "A piece of cake",
-    "meaning_en": "The restaurant was crowded, but they found a table without any difficulty.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Once bitten, thrice shy.",
-    "meaning_en": "twice shy",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Even though she's a celebrity, she doesn't draw any attention towards herself.",
-    "meaning_en": "keeps a low profile",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "A gift from my teacher on the eve of the new year was a complete surprise.",
-    "meaning_en": "a bolt from the blue",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Select the sentence that brings out the most appropriate meaning of the idiom 'Dog in the manger'.",
-    "meaning_en": "'Dog in the manger' means preventing others from having something one doesn't need oneself.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "The technicians who were repairing the broken elevator called it a day.",
-    "meaning_en": "'Called it a day' means to stop working for the day.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Manish told Rounak time and again of the ill consequences of his habit of being late to the college.",
-    "meaning_en": "'Time and again' means repeatedly.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Mr. Sengupta's complaint to the higher authority was only a red herring.",
-    "meaning_en": "'Red herring' means something misleading, similar to a 'clever bluff'.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Costing an arm and a leg",
-    "meaning_en": "'Costing an arm and a leg' means very expensive.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Going through a sticky patch",
-    "meaning_en": "'Sticky patch' refers to a difficult period.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "A sting in the tail",
-    "meaning_en": "An unexpected, typically unpleasant or problematic end to something",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "I know Covid has made you terribly ill, but the good thing is that you have developed immunity against it for further infections.",
-    "meaning_en": "'Silver lining' refers to a positive aspect within a negative situation.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "At his wit's end, he decided to return to his parents as he was unable to cope up with the stress of adjusting at a new place.",
-    "meaning_en": "'At his wit's end' means being completely unsure of what to do.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Out of the frying pan and into the fire",
-    "meaning_en": "This idiom means escaping one bad situation only to enter a worse one.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "To throw dust in one's eyes",
-    "meaning_en": "This idiom means to deceive or mislead someone.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "Every piece of furniture in her house is in apple-pie order.",
-    "meaning_en": "'Apple-pie order' means perfectly neat and organized.",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "idioms"
-  },
-  {
-    "word": "A jack of all trades cannot survive in the world of specialisation.",
-    "meaning_en": "'Jack of all trades' refers to someone with varied but not expert skills.",
-    "meaning_hi": "",
-    "example": "",
     "synonyms": [],
     "antonyms": [],
     "category": "idioms"

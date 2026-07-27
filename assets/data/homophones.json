@@ -27,6 +27,15 @@
     "category": "homophones"
   },
   {
+    "word": "adverse / averse",
+    "meaning_hi": "adverse = प्रतिकूल / हानिकारक, averse = अनिच्छुक / विरुद्ध",
+    "meaning_en": "adverse = harmful or unfavourable, averse = having a strong dislike or reluctance",
+    "example": "She was averse to taking risks under adverse weather conditions.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
     "word": "affect / effect",
     "meaning_hi": "affect = प्रभावित करना, effect = परिणाम / प्रभाव",
     "meaning_en": "affect = to influence (verb), effect = result (noun)",
@@ -72,6 +81,15 @@
     "category": "homophones"
   },
   {
+    "word": "allusion / illusion",
+    "meaning_hi": "allusion = संकेत / परोक्ष उल्लेख, illusion = भ्रम / भ्रांति",
+    "meaning_en": "allusion = an indirect reference, illusion = a false impression or deceptive appearance",
+    "example": "His speech made an allusion to freedom, shattering the illusion of stability.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
     "word": "altar / alter",
     "meaning_hi": "altar = वेदी / यज्ञ-वेदी, alter = बदलना",
     "meaning_en": "altar = a sacred table in a place of worship, alter = to change",
@@ -85,6 +103,15 @@
     "meaning_hi": "ant = चींटी, aunt = मौसी / चाची / बुआ",
     "meaning_en": "ant = a small insect, aunt = a parent's sister",
     "example": "My aunt screamed when she saw an ant on her plate.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
+    "word": "apprise / appraise",
+    "meaning_hi": "apprise = सूचित करना, appraise = मूल्यांकन करना",
+    "meaning_en": "apprise = to inform someone of a situation, appraise = to assess the value or quality",
+    "example": "Please apprise the manager before he appraises the property.",
     "synonyms": [],
     "antonyms": [],
     "category": "homophones"
@@ -387,6 +414,15 @@
     "category": "homophones"
   },
   {
+    "word": "cereal / serial",
+    "meaning_hi": "cereal = अनाज / नाश्ते का अनाज, serial = क्रमिक / धारावाहिक",
+    "meaning_en": "cereal = grain used as food, serial = arranged in a series or a TV series",
+    "example": "She watched her favourite serial while eating a bowl of cereal.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
     "word": "chord / cord",
     "meaning_hi": "chord = संगीत में स्वर-समूह, cord = रस्सी / डोरी",
     "meaning_en": "chord = a combination of musical notes, cord = a thin rope",
@@ -400,6 +436,15 @@
     "meaning_hi": "cite = उद्धृत करना, sight = दृश्य / दृष्टि, site = स्थान",
     "meaning_en": "cite = to quote as a source, sight = vision or a view, site = a location",
     "example": "The journalist will cite the construction site as a historical sight.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
+    "word": "clause / claws",
+    "meaning_hi": "clause = उपवाक्य / धारा, claws = पंजे",
+    "meaning_en": "clause = a section of a legal document or a grammar unit, claws = sharp curved nails of an animal",
+    "example": "The contract had a clause about damage caused by a lion's claws.",
     "synonyms": [],
     "antonyms": [],
     "category": "homophones"
@@ -445,6 +490,15 @@
     "meaning_hi": "complement = पूरक (पूर्ण करना), compliment = प्रशंसा",
     "meaning_en": "complement = something that completes, compliment = an expression of praise",
     "example": "She gave him a compliment on how well his tie complemented his suit.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
+    "word": "continual / continuous",
+    "meaning_hi": "continual = बार-बार होने वाला, continuous = लगातार बिना रुके",
+    "meaning_en": "continual = happening repeatedly with short breaks, continuous = without any interruption",
+    "example": "The continual rain was unusual; continuous rain for forty days would be a disaster.",
     "synonyms": [],
     "antonyms": [],
     "category": "homophones"
@@ -504,10 +558,37 @@
     "category": "homophones"
   },
   {
+    "word": "deprecate / depreciate",
+    "meaning_hi": "deprecate = अस्वीकृति व्यक्त करना, depreciate = मूल्य घटना / छोटा दिखाना",
+    "meaning_en": "deprecate = to express disapproval, depreciate = to lose value over time",
+    "example": "Critics deprecated the policy, and investors watched the currency depreciate.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
     "word": "die / dye",
     "meaning_hi": "die = मरना, dye = रंग / रंगना",
     "meaning_en": "die = to cease living, dye = a colouring substance",
     "example": "She used dye to colour the fabric before it could die of age.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
+    "word": "discreet / discrete",
+    "meaning_hi": "discreet = विवेकशील / सतर्क, discrete = अलग / पृथक",
+    "meaning_en": "discreet = careful and tactful to avoid causing offence, discrete = individually separate and distinct",
+    "example": "The discreet official kept the three discrete reports confidential.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
+    "word": "disinterested / uninterested",
+    "meaning_hi": "disinterested = निष्पक्ष, uninterested = अरुचि वाला",
+    "meaning_en": "disinterested = impartial, having no personal stake, uninterested = lacking interest or attention",
+    "example": "A judge must be disinterested; a student who is uninterested will not pass.",
     "synonyms": [],
     "antonyms": [],
     "category": "homophones"
@@ -558,10 +639,37 @@
     "category": "homophones"
   },
   {
+    "word": "elusive / illusive",
+    "meaning_hi": "elusive = अपकड़ / पकड़ में न आने वाला, illusive = भ्रामक",
+    "meaning_en": "elusive = difficult to find or catch, illusive = based on or producing illusion",
+    "example": "The elusive treasure turned out to be an illusive dream.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
+    "word": "emigrant / immigrant",
+    "meaning_hi": "emigrant = अपना देश छोड़ने वाला, immigrant = नए देश में आने वाला",
+    "meaning_en": "emigrant = a person who leaves their own country, immigrant = a person who enters a new country",
+    "example": "He was an emigrant from India and an immigrant to Canada.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
     "word": "emigrate / immigrate",
     "meaning_hi": "emigrate = देश छोड़ना, immigrate = देश में आना",
     "meaning_en": "emigrate = to leave one's country, immigrate = to enter a new country",
     "example": "Many families emigrate from their homeland to immigrate to wealthier nations.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
+    "word": "eminent / imminent",
+    "meaning_hi": "eminent = विशिष्ट / प्रतिष्ठित, imminent = आसन्न / जल्द होने वाला",
+    "meaning_en": "eminent = famous and respected in a particular field, imminent = about to happen very soon",
+    "example": "An eminent scientist warned that a major earthquake was imminent.",
     "synonyms": [],
     "antonyms": [],
     "category": "homophones"
@@ -675,6 +783,15 @@
     "category": "homophones"
   },
   {
+    "word": "flounder / founder",
+    "meaning_hi": "flounder = संघर्ष करना / लड़खड़ाना, founder = डूबना / संस्थापक",
+    "meaning_en": "flounder = to struggle helplessly, founder = to fail or sink, or one who establishes something",
+    "example": "The startup began to flounder and then founder within a year.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
     "word": "flour / flower",
     "meaning_hi": "flour = आटा, flower = फूल",
     "meaning_en": "flour = finely ground grain used in cooking, flower = the blossom of a plant",
@@ -738,15 +855,6 @@
     "category": "homophones"
   },
   {
-    "word": "gilded / guilded",
-    "meaning_hi": "gilded = सोने से मढ़ा, guild = व्यापार संघ",
-    "meaning_en": "gilded = covered in gold, guild = a trade association",
-    "example": "The gilded hall was rented by the merchant's guild.",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "homophones"
-  },
-  {
     "word": "gilt / guilt",
     "meaning_hi": "gilt = सोने की परत चढ़ाना, guilt = अपराध-बोध",
     "meaning_en": "gilt = covered with gold, guilt = a feeling of having done wrong",
@@ -778,6 +886,15 @@
     "meaning_hi": "grate = कद्दूकस करना / चिढ़ाना, great = महान / बहुत अच्छा",
     "meaning_en": "grate = to shred or to irritate, great = of outstanding quality",
     "example": "Great chefs know how to grate cheese without irritating anyone.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
+    "word": "grisly / grizzly",
+    "meaning_hi": "grisly = भयावह / रोंगटे खड़े करने वाला, grizzly = भूरे रंग का भालू / धूसर",
+    "meaning_en": "grisly = causing horror or disgust, grizzly = a type of large brown bear or grey-haired",
+    "example": "The explorer had a grisly encounter with a grizzly bear in the forest.",
     "synonyms": [],
     "antonyms": [],
     "category": "homophones"
@@ -832,6 +949,15 @@
     "meaning_hi": "hall = हॉल / गलियारा, haul = ढोना / खींचना",
     "meaning_en": "hall = a large room or corridor, haul = to pull with effort",
     "example": "Workers had to haul the heavy equipment through the main hall.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
+    "word": "hanger / hangar",
+    "meaning_hi": "hanger = कपड़े टाँगने का हुक, hangar = हवाई जहाज़ का शेड",
+    "meaning_en": "hanger = a frame for hanging clothes, hangar = a large shed for aircraft",
+    "example": "He left his coat on a hanger inside the airline hangar.",
     "synonyms": [],
     "antonyms": [],
     "category": "homophones"
@@ -945,15 +1071,6 @@
     "category": "homophones"
   },
   {
-    "word": "jail / jale",
-    "meaning_hi": "jail = जेल / कैद, gale = तूफान",
-    "meaning_en": "jail = a prison, gale = a strong wind",
-    "example": "The prison guard locked the jail door just as the gale began to blow.",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "homophones"
-  },
-  {
     "word": "jam / jamb",
     "meaning_hi": "jam = जैम / जाम, jamb = दरवाजे की चौखट",
     "meaning_en": "jam = a fruit preserve or traffic block, jamb = the side post of a door frame",
@@ -963,10 +1080,10 @@
     "category": "homophones"
   },
   {
-    "word": "jest / just",
-    "meaning_hi": "jest = मजाक, just = न्यायसंगत / केवल / अभी",
-    "meaning_en": "jest = a joke, just = fair or only or recently",
-    "example": "He spoke in jest, but the just officer was not amused.",
+    "word": "judicial / judicious",
+    "meaning_hi": "judicial = न्यायिक / अदालत संबंधी, judicious = विवेकपूर्ण / सुविचारित",
+    "meaning_en": "judicial = relating to courts and the administration of justice, judicious = having sound judgement",
+    "example": "A judicious use of judicial authority inspires public trust.",
     "synonyms": [],
     "antonyms": [],
     "category": "homophones"
@@ -981,7 +1098,7 @@
     "category": "homophones"
   },
   {
-    "word": "kneel / nil",
+    "word": "kneel / Neil",
     "meaning_hi": "kneel = घुटने टेकना, Neil = नाम",
     "meaning_en": "kneel = to go down on one knee, Neil = a proper name",
     "example": "Neil had to kneel before the ceremony could begin.",
@@ -1111,6 +1228,24 @@
     "meaning_hi": "loan = ऋण / उधार, lone = अकेला",
     "meaning_en": "loan = money borrowed, lone = solitary, alone",
     "example": "The lone businessman took out a loan to start his new venture.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
+    "word": "loath / loathe",
+    "meaning_hi": "loath = अनिच्छुक / अनमना, loathe = घृणा करना",
+    "meaning_en": "loath = reluctant or unwilling (adjective), loathe = to feel intense dislike for (verb)",
+    "example": "He was loath to admit that he loathed the idea from the start.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
+    "word": "luxuriant / luxurious",
+    "meaning_hi": "luxuriant = घना / भरपूर, luxurious = विलासपूर्ण / आरामदायक",
+    "meaning_en": "luxuriant = lush, rich and abundant in growth, luxurious = characterised by luxury and comfort",
+    "example": "The luxurious resort was surrounded by luxuriant tropical vegetation.",
     "synonyms": [],
     "antonyms": [],
     "category": "homophones"
@@ -1404,15 +1539,6 @@
     "category": "homophones"
   },
   {
-    "word": "past / passed",
-    "meaning_hi": "past = अतीत / गुजरा हुआ, passed = गुजरा / उत्तीर्ण हुआ",
-    "meaning_en": "past = gone by or beyond, passed = moved beyond or succeeded",
-    "example": "He drove past the street where he had passed his childhood.",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "homophones"
-  },
-  {
     "word": "patience / patients",
     "meaning_hi": "patience = धैर्य, patients = मरीज (बहुवचन)",
     "meaning_en": "patience = the ability to wait calmly, patients = plural of patient (sick persons)",
@@ -1444,6 +1570,15 @@
     "meaning_hi": "peer = समकक्ष / टकटकी लगाना, pier = घाट / जेटी",
     "meaning_en": "peer = an equal or to look closely, pier = a structure extending into water",
     "example": "He had to peer through the fog to find the wooden pier.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
+    "word": "persecute / prosecute",
+    "meaning_hi": "persecute = उत्पीड़ित करना, prosecute = मुकदमा चलाना",
+    "meaning_en": "persecute = to treat someone cruelly on the basis of race or beliefs, prosecute = to take legal action",
+    "example": "The state chose to prosecute those who persecute religious minorities.",
     "synonyms": [],
     "antonyms": [],
     "category": "homophones"
@@ -1521,6 +1656,15 @@
     "category": "homophones"
   },
   {
+    "word": "practical / practicable",
+    "meaning_hi": "practical = व्यावहारिक / उपयोगी, practicable = क्रियान्वयन योग्य",
+    "meaning_en": "practical = useful and realistic rather than theoretical, practicable = capable of being put into practice",
+    "example": "The idea was practical in theory but not practicable given the budget.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
     "word": "practice / practise",
     "meaning_hi": "practice = अभ्यास (noun), practise = अभ्यास करना (verb)",
     "meaning_en": "practice = the noun form, practise = the verb form",
@@ -1566,10 +1710,10 @@
     "category": "homophones"
   },
   {
-    "word": "prune / prun",
-    "meaning_hi": "prune = छाँटना / आलूबुखारा (सूखा), proven = सिद्ध",
-    "meaning_en": "prune = to trim or a dried plum, proven = demonstrated as true",
-    "example": "His ability to prune costs was a proven skill in the industry.",
+    "word": "proscribe / prescribe",
+    "meaning_hi": "proscribe = निषेध करना / प्रतिबंध लगाना, prescribe = निर्धारित करना / दवाई लिखना",
+    "meaning_en": "proscribe = to officially forbid, prescribe = to recommend or order as a rule",
+    "example": "The government will proscribe the drug that doctors used to prescribe.",
     "synonyms": [],
     "antonyms": [],
     "category": "homophones"
@@ -1674,15 +1818,6 @@
     "category": "homophones"
   },
   {
-    "word": "riffle / rifle",
-    "meaning_hi": "riffle = पन्ने पलटना / उथला बहाव, rifle = राइफल / छानबीन करना",
-    "meaning_en": "riffle = to flip through pages, rifle = a gun or to search rapidly",
-    "example": "He riffled through the pages while the officer riffled through the bag with a rifle in hand.",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "homophones"
-  },
-  {
     "word": "right / write",
     "meaning_hi": "right = सही / दायाँ, write = लिखना",
     "meaning_en": "right = correct or the direction, write = to form words on a surface",
@@ -1782,6 +1917,15 @@
     "category": "homophones"
   },
   {
+    "word": "sensual / sensuous",
+    "meaning_hi": "sensual = कामुक / शारीरिक सुख संबंधी, sensuous = इंद्रियों को सुखद",
+    "meaning_en": "sensual = relating to physical pleasure, sensuous = affecting or appealing to the senses pleasantly",
+    "example": "The poem's sensuous imagery contrasted with its sensual undertones.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
     "word": "shear / sheer",
     "meaning_hi": "shear = कतरना, sheer = बिल्कुल / पतला",
     "meaning_en": "shear = to cut hair or wool, sheer = absolute or very thin",
@@ -1804,15 +1948,6 @@
     "meaning_hi": "sighs = आहें, size = आकार",
     "meaning_en": "sighs = long deep breaths expressing emotion, size = dimensions",
     "example": "His sighs were of a size that filled the entire silent room.",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "homophones"
-  },
-  {
-    "word": "sight / site / cite",
-    "meaning_hi": "sight = दृश्य / दृष्टि, site = स्थान / साइट, cite = उद्धृत करना",
-    "meaning_en": "sight = ability to see or a view, site = a location, cite = to quote or refer",
-    "example": "The report cited the construction site as a sight worth preserving.",
     "synonyms": [],
     "antonyms": [],
     "category": "homophones"
@@ -2124,6 +2259,15 @@
     "category": "homophones"
   },
   {
+    "word": "urban / urbane",
+    "meaning_hi": "urban = शहरी / नगरीय, urbane = शिष्ट / सुसंस्कृत",
+    "meaning_en": "urban = relating to a city, urbane = having sophisticated and polished manners",
+    "example": "His urbane manner seemed out of place in the urban slum.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
     "word": "vain / vane / vein",
     "meaning_hi": "vain = व्यर्थ / घमंडी, vane = दिशासूचक पंख, vein = नस / रक्तवाहिनी",
     "meaning_en": "vain = having no result or too proud, vane = a device showing wind direction, vein = a blood vessel",
@@ -2142,6 +2286,15 @@
     "category": "homophones"
   },
   {
+    "word": "venal / venial",
+    "meaning_hi": "venal = भ्रष्ट / रिश्वतखोर, venial = क्षमायोग्य / हल्का पाप",
+    "meaning_en": "venal = open to bribery or corruption, venial = a minor sin or fault that can be forgiven",
+    "example": "A venal official treats every venial slip as an opportunity for a bribe.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
     "word": "vice / vise",
     "meaning_hi": "vice = बुराई / उपसर्ग, vise = शिकंजा (यंत्र)",
     "meaning_en": "vice = immoral behaviour or a prefix meaning deputy, vise = a clamp tool",
@@ -2151,16 +2304,7 @@
     "category": "homophones"
   },
   {
-    "word": "vocal / vocalise",
-    "meaning_hi": "vocal = मुखर, vocalise = स्वरों का अभ्यास करना",
-    "meaning_en": "vocal = relating to the voice, vocalise = to sing scales",
-    "example": "The vocal coach asked each student to vocalise before rehearsal.",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "homophones"
-  },
-  {
-    "word": "vow / vow",
+    "word": "vow / bow",
     "meaning_hi": "vow = प्रतिज्ञा, bow = झुकना",
     "meaning_en": "vow = a solemn promise, bow = to bend forward",
     "example": "He took a vow to bow before no unjust authority.",
@@ -2286,6 +2430,15 @@
     "category": "homophones"
   },
   {
+    "word": "whither / wither",
+    "meaning_hi": "whither = किस ओर (पुराना), wither = मुरझाना / कमज़ोर पड़ना",
+    "meaning_en": "whither = to what place (archaic), wither = to become dry and shrivelled",
+    "example": "Whither shall we go if our ambitions wither without support?",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "homophones"
+  },
+  {
     "word": "wholly / holy",
     "meaning_hi": "wholly = पूर्णतः, holy = पवित्र",
     "meaning_en": "wholly = completely or entirely, holy = sacred",
@@ -2304,37 +2457,10 @@
     "category": "homophones"
   },
   {
-    "word": "won / one",
-    "meaning_hi": "won = जीता, one = एक",
-    "meaning_en": "won = past tense of win, one = the number 1",
-    "example": "One brave athlete won the gold medal against all odds.",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "homophones"
-  },
-  {
     "word": "wood / would",
     "meaning_hi": "wood = लकड़ी / जंगल, would = past/conditional form of will",
     "meaning_en": "wood = material from trees, would = used for past habits or conditionals",
     "example": "He said he would carve the statue from a block of solid wood.",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "homophones"
-  },
-  {
-    "word": "wrap / rap",
-    "meaning_hi": "wrap = लपेटना, rap = थपथपाना / रैप संगीत",
-    "meaning_en": "wrap = to cover with paper or cloth, rap = to knock sharply or hip-hop music",
-    "example": "She decided to wrap the gift while listening to a rap song.",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "homophones"
-  },
-  {
-    "word": "year / ear",
-    "meaning_hi": "year = वर्ष, ear = कान / गेहूँ की बाल",
-    "meaning_en": "year = twelve months, ear = organ of hearing or grain spike",
-    "example": "Every year, the farmer listened with a careful ear for signs of a good harvest.",
     "synonyms": [],
     "antonyms": [],
     "category": "homophones"

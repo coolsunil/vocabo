@@ -1,5 +1,37 @@
 [
   {
+    "word": "Abdication",
+    "meaning_en": "A formal resignation and renunciation of powers",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "word": "Abeyance",
+    "meaning_en": "Choose the correct one-word substitute for: 'A state of temporary disuse or suspension'",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'To leave suddenly and hurriedly'.",
+    "word": "Abscond",
+    "meaning_hi": "",
+    "meaning_en": "Choose the correct one-word substitution for: 'To leave suddenly and hurriedly'.",
+    "category": "oneword"
+  },
+  {
+    "phrase": "for: 'A deep and seemingly bottomless chasm'.",
+    "word": "Abyss",
+    "meaning_hi": "",
+    "meaning_en": "for: 'A deep and seemingly bottomless chasm'.",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who helps another commit a crime",
     "word": "Accomplice",
     "meaning_hi": "सह-अपराधी",
@@ -35,6 +67,15 @@
     "category": "oneword"
   },
   {
+    "word": "Aesthete",
+    "meaning_en": "A person who is a lover of fine arts",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
     "phrase": "One who stirs up public feeling for a cause",
     "word": "Agitator",
     "meaning_hi": "आंदोलनकारी",
@@ -54,6 +95,16 @@
     "meaning_hi": "खुली जगह से डरने वाला",
     "meaning_en": "Person with an irrational fear of open or public spaces",
     "category": "oneword"
+  },
+  {
+    "word": "Alimony",
+    "meaning_en": "allowance paid by a husband to his wife on legal separation",
+    "meaning_hi": "गुज़ारा भत्ता",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword",
+    "phrase": "Financial allowance paid to a spouse after legal separation or divorce"
   },
   {
     "phrase": "One who is selflessly devoted to others' welfare",
@@ -77,6 +128,34 @@
     "category": "oneword"
   },
   {
+    "phrase": "A person who has both introvert and extrovert qualities.",
+    "word": "Ambivert",
+    "meaning_hi": "",
+    "meaning_en": "A person who has both introvert and extrovert qualities.",
+    "category": "oneword"
+  },
+  {
+    "word": "Amnesia",
+    "phrase": "A condition in which a person loses their memory partially or completely",
+    "meaning_en": "Partial or total loss of memory",
+    "meaning_hi": "स्मृतिभ्रंश / भूलने की बीमारी",
+    "category": "oneword"
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'A general pardon granted by a government'.",
+    "word": "Amnesty",
+    "meaning_hi": "",
+    "meaning_en": "Choose the correct one-word substitution for: 'A general pardon granted by a government'.",
+    "category": "oneword"
+  },
+  {
+    "word": "Amputee",
+    "phrase": "A person who has had a limb removed by surgery or accident",
+    "meaning_en": "One who has undergone amputation of a limb",
+    "meaning_hi": "अंगभंग व्यक्ति",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who is against all established government",
     "word": "Anarchist",
     "meaning_hi": "अराजकतावादी",
@@ -88,6 +167,27 @@
     "word": "Anatomist",
     "meaning_hi": "शरीर-रचना विज्ञानी",
     "meaning_en": "Scientist who studies the structure of the body",
+    "category": "oneword"
+  },
+  {
+    "phrase": "A short interesting story about a real person or event",
+    "word": "Anecdote",
+    "meaning_hi": "",
+    "meaning_en": "A short interesting story about a real person or event",
+    "category": "oneword"
+  },
+  {
+    "phrase": "for: 'Extremely old-fashioned; belonging to a time before the biblical flood'.",
+    "word": "Antediluvian",
+    "meaning_hi": "",
+    "meaning_en": "for: 'Extremely old-fashioned; belonging to a time before the biblical flood'.",
+    "category": "oneword"
+  },
+  {
+    "word": "Anthology",
+    "phrase": "A collection of selected literary works by various authors",
+    "meaning_en": "A published collection of poems or writings",
+    "meaning_hi": "संकलन / साहित्य-संग्रह",
     "category": "oneword"
   },
   {
@@ -105,6 +205,15 @@
     "category": "oneword"
   },
   {
+    "word": "Apiary",
+    "meaning_en": "'A place where bees are kept'",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
     "phrase": "One who abandons religious faith",
     "word": "Apostate",
     "meaning_hi": "धर्म त्यागने वाला",
@@ -119,10 +228,35 @@
     "category": "oneword"
   },
   {
+    "word": "Apprentice",
+    "meaning_en": "Choose the one word substitute for the below sentence: Neha approached her new hobby with enthusiasm, eager to grasp the basics as a beginner",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "word": "Aquatic",
+    "meaning_en": "Choose the one word substitute for the below sentence: Ravi marvelled at the diverse forms of life, including animals and plants, thriving in aquatic habitats",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
     "phrase": "One who has an excessive fear of spiders",
     "word": "Arachnophobe",
     "meaning_hi": "मकड़ी से डरने वाला",
     "meaning_en": "Person with an extreme fear of spiders",
+    "category": "oneword"
+  },
+  {
+    "word": "Arbitrator",
+    "phrase": "An independent person appointed to settle a dispute",
+    "meaning_en": "One who settles disputes between parties",
+    "meaning_hi": "मध्यस्थ / पंच",
     "category": "oneword"
   },
   {
@@ -140,10 +274,33 @@
     "category": "oneword"
   },
   {
+    "word": "Archive",
+    "meaning_en": "A place where records and documents are stored",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
     "phrase": "One who keeps and manages public records",
     "word": "Archivist",
     "meaning_hi": "अभिलेखागार रक्षक",
     "meaning_en": "Custodian of historical documents and records",
+    "category": "oneword"
+  },
+  {
+    "phrase": "for: 'Excessive self-importance or over-confidence.'",
+    "word": "Arrogance",
+    "meaning_hi": "",
+    "meaning_en": "for: 'Excessive self-importance or over-confidence.'",
+    "category": "oneword"
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'An act of intentionally setting fire to property'.",
+    "word": "Arson",
+    "meaning_hi": "",
+    "meaning_en": "Choose the correct one-word substitution for: 'An act of intentionally setting fire to property'.",
     "category": "oneword"
   },
   {
@@ -168,6 +325,15 @@
     "category": "oneword"
   },
   {
+    "word": "Assimilation",
+    "meaning_en": "Choose the option which can be substituted for given words/sentence: The process by which something, especially a word or phrase, is adapted into a new cultural or social context?",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
     "phrase": "One who studies celestial bodies to make predictions",
     "word": "Astrologer",
     "meaning_hi": "ज्योतिषी",
@@ -186,6 +352,13 @@
     "word": "Astrophysicist",
     "meaning_hi": "खगोल भौतिकीविद",
     "meaning_en": "Scientist who studies the physical properties of stars",
+    "category": "oneword"
+  },
+  {
+    "phrase": "Hospital for people with mental illnesses",
+    "word": "Asylum",
+    "meaning_hi": "",
+    "meaning_en": "Hospital for people with mental illnesses",
     "category": "oneword"
   },
   {
@@ -210,6 +383,13 @@
     "category": "oneword"
   },
   {
+    "word": "Autocracy",
+    "phrase": "A system of government in which one person has absolute power",
+    "meaning_en": "Government by a single person with unlimited power",
+    "meaning_hi": "निरंकुशतंत्र / तानाशाही",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who is self-taught without formal education",
     "word": "Autodidact",
     "meaning_hi": "स्वयंशिक्षित",
@@ -224,10 +404,26 @@
     "category": "oneword"
   },
   {
+    "word": "Autopsy",
+    "phrase": "A post-mortem examination to determine the cause of death",
+    "meaning_en": "Medical examination of a dead body",
+    "meaning_hi": "शव-परीक्षण / पोस्टमार्टम",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who is skilled in navigating and flying aircraft",
     "word": "Aviator",
     "meaning_hi": "हवाबाज़",
     "meaning_en": "Person who flies aircraft",
+    "category": "oneword"
+  },
+  {
+    "word": "Bachelor",
+    "meaning_en": "Choose the one word substitute for the below sentence: Emily asked her friend, a person who has never been married called?",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
@@ -256,6 +452,22 @@
     "word": "Barber",
     "meaning_hi": "नाई",
     "meaning_en": "Person who cuts hair professionally",
+    "category": "oneword"
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'One who writes traditional poems'.",
+    "word": "Bard",
+    "meaning_hi": "",
+    "meaning_en": "Choose the correct one-word substitution for: 'One who writes traditional poems'.",
+    "category": "oneword"
+  },
+  {
+    "word": "Barracks",
+    "meaning_en": "Choose the correct one-word substitute for: A place where soldiers are stationed",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
@@ -301,6 +513,16 @@
     "category": "oneword"
   },
   {
+    "word": "Biography",
+    "meaning_en": "a record of one's life written by somebody else",
+    "meaning_hi": "जीवनी",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword",
+    "phrase": "A written account of a person's life written by someone else"
+  },
+  {
     "phrase": "One who studies living organisms",
     "word": "Biologist",
     "meaning_hi": "जीवविज्ञानी",
@@ -322,10 +544,26 @@
     "category": "oneword"
   },
   {
+    "word": "Blasphemy",
+    "phrase": "The act of speaking with contempt about God or sacred things",
+    "meaning_en": "Irreverent speech about God or sacred things",
+    "meaning_hi": "ईश-निंदा / धर्म-अपमान",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who cannot see",
     "word": "Blind",
     "meaning_hi": "अंधा",
     "meaning_en": "Person lacking the sense of sight",
+    "category": "oneword"
+  },
+  {
+    "word": "Blot",
+    "meaning_en": "A stain caused by a discoloring substance",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
@@ -343,6 +581,13 @@
     "category": "oneword"
   },
   {
+    "phrase": "A government by the officials",
+    "word": "Bureaucracy",
+    "meaning_hi": "",
+    "meaning_en": "A government by the officials",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who works in a government office or administration",
     "word": "Bureaucrat",
     "meaning_hi": "नौकरशाह",
@@ -350,10 +595,49 @@
     "category": "oneword"
   },
   {
+    "phrase": "Choose the correct one-word substitution for: 'A loud and confused noise'.",
+    "word": "Cacophony",
+    "meaning_hi": "",
+    "meaning_en": "Choose the correct one-word substitution for: 'A loud and confused noise'.",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who practises the art of beautiful handwriting",
     "word": "Calligrapher",
     "meaning_hi": "सुलेखक",
     "meaning_en": "Person skilled in the art of beautiful handwriting",
+    "category": "oneword"
+  },
+  {
+    "word": "Calligraphy",
+    "meaning_en": "The art of beautiful handwriting",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "word": "Cannibal",
+    "phrase": "One who eats human flesh",
+    "meaning_en": "A person who eats the flesh of other humans",
+    "meaning_hi": "नरभक्षी",
+    "category": "oneword"
+  },
+  {
+    "word": "Captain",
+    "meaning_en": "A person who is in charge of a ship",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "phrase": "given. Unit of weight for precious stones",
+    "word": "Carat",
+    "meaning_hi": "",
+    "meaning_en": "given. Unit of weight for precious stones",
     "category": "oneword"
   },
   {
@@ -399,10 +683,42 @@
     "category": "oneword"
   },
   {
+    "word": "Cataclysm",
+    "meaning_en": "A sudden and violent event causing great destruction",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "word": "Catharsis",
+    "phrase": "The process of releasing strong emotions through art, especially drama",
+    "meaning_en": "A release of emotional tension through art",
+    "meaning_hi": "भावनात्मक शुद्धि / कैथार्सिस",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who seeks public attention and fame excessively",
     "word": "Celebrity-seeker",
     "meaning_hi": "प्रसिद्धि-लोभी",
     "meaning_en": "Person obsessed with achieving fame",
+    "category": "oneword"
+  },
+  {
+    "word": "Celibate",
+    "phrase": "One who voluntarily abstains from marriage and sexual relations",
+    "meaning_en": "A person who abstains from marriage",
+    "meaning_hi": "ब्रह्मचारी / विवाहमुक्त",
+    "category": "oneword"
+  },
+  {
+    "word": "Censure",
+    "meaning_en": "Choose the correct one-word substitute for: 'An official reprimand or strong criticism'",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
@@ -434,6 +750,27 @@
     "category": "oneword"
   },
   {
+    "phrase": "for: 'A secret or disguised way of writing'.",
+    "word": "Cipher",
+    "meaning_hi": "",
+    "meaning_en": "for: 'A secret or disguised way of writing'.",
+    "category": "oneword"
+  },
+  {
+    "word": "Circumlocution",
+    "phrase": "The use of many words where fewer would do; indirect expression",
+    "meaning_en": "Using more words than necessary to express an idea",
+    "meaning_hi": "वक्रोक्ति / घुमा-फिरा कर कहना",
+    "category": "oneword"
+  },
+  {
+    "word": "Clairvoyant",
+    "phrase": "One who claims to have the ability to perceive future events",
+    "meaning_en": "A person with supposed psychic powers",
+    "meaning_hi": "भविष्यदृष्टा / दिव्यदर्शी",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who has an excessive and irrational fear of enclosed spaces",
     "word": "Claustrophobe",
     "meaning_hi": "बंद जगह से डरने वाला",
@@ -441,10 +778,24 @@
     "category": "oneword"
   },
   {
+    "phrase": "Fear of closed spaces",
+    "word": "Claustrophobia",
+    "meaning_hi": "",
+    "meaning_en": "Fear of closed spaces",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who studies the earth's climate over long periods",
     "word": "Climatologist",
     "meaning_hi": "जलवायु वैज्ञानिक",
     "meaning_en": "Scientist who studies long-term climate patterns",
+    "category": "oneword"
+  },
+  {
+    "phrase": "A small group of people who spend their time together and do not welcome other people into that group",
+    "word": "Clique",
+    "meaning_hi": "",
+    "meaning_en": "A small group of people who spend their time together and do not welcome other people into that group",
     "category": "oneword"
   },
   {
@@ -490,6 +841,20 @@
     "category": "oneword"
   },
   {
+    "phrase": "A person who likes to argue about anything",
+    "word": "Contentious",
+    "meaning_hi": "",
+    "meaning_en": "A person who likes to argue about anything",
+    "category": "oneword"
+  },
+  {
+    "word": "Convalescent",
+    "phrase": "A person recovering slowly from an illness or medical treatment",
+    "meaning_en": "One who is recovering from sickness",
+    "meaning_hi": "स्वास्थ्यलाभ कर रहा व्यक्ति",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who is skilled in a particular craft",
     "word": "Craftsman",
     "meaning_hi": "कारीगर",
@@ -508,6 +873,15 @@
     "word": "Credulous",
     "meaning_hi": "भोला विश्वास करने वाला",
     "meaning_en": "Gullible person who believes too easily",
+    "category": "oneword"
+  },
+  {
+    "word": "Crew",
+    "meaning_en": "Choose the one word substitution: A group of persons working on a ship or aircraft",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
@@ -539,10 +913,26 @@
     "category": "oneword"
   },
   {
+    "phrase": "An order of law requiring people to remain indoors",
+    "word": "Curfew",
+    "meaning_hi": "",
+    "meaning_en": "An order of law requiring people to remain indoors",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who distrusts human motives and is always critical",
     "word": "Cynic",
     "meaning_hi": "निंदक",
     "meaning_en": "Person who believes people act only from selfish motives",
+    "category": "oneword"
+  },
+  {
+    "word": "Daze",
+    "meaning_en": "A state of stunned confusion",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
@@ -557,6 +947,13 @@
     "word": "Debauchee",
     "meaning_hi": "भोगी व्यक्ति",
     "meaning_en": "Person who indulges excessively in sensual pleasure",
+    "category": "oneword"
+  },
+  {
+    "word": "Debut",
+    "phrase": "The first public appearance of a performer or performance",
+    "meaning_en": "A first public performance or appearance",
+    "meaning_hi": "पहली प्रस्तुति / शुरुआत",
     "category": "oneword"
   },
   {
@@ -592,6 +989,15 @@
     "word": "Demagogue",
     "meaning_hi": "जनमत भड़काने वाला नेता",
     "meaning_en": "Political leader who exploits public prejudices",
+    "category": "oneword"
+  },
+  {
+    "word": "Democracy",
+    "meaning_en": "'A government run by the people'",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
@@ -637,6 +1043,15 @@
     "category": "oneword"
   },
   {
+    "word": "Desuetude",
+    "meaning_en": "Choose the correct one-word substitute for: 'A state of disuse or inactivity'",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
     "phrase": "One who believes all events are caused and determined",
     "word": "Determinist",
     "meaning_hi": "नियतिवादी",
@@ -658,6 +1073,13 @@
     "category": "oneword"
   },
   {
+    "phrase": "given. Choice between two unsatisfactory alternatives",
+    "word": "Dilemma",
+    "meaning_hi": "",
+    "meaning_en": "given. Choice between two unsatisfactory alternatives",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who does something for pleasure and not professionally",
     "word": "Dilettante",
     "meaning_hi": "शौकिया व्यक्ति",
@@ -672,10 +1094,24 @@
     "category": "oneword"
   },
   {
+    "phrase": "Morbid compulsion to consume alcohol continuously",
+    "word": "Dipsomania",
+    "meaning_hi": "",
+    "meaning_en": "Morbid compulsion to consume alcohol continuously",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who has an uncontrollable craving for alcohol",
     "word": "Dipsomaniac",
     "meaning_hi": "शराब की लत वाला",
     "meaning_en": "Person with an uncontrollable craving for alcohol",
+    "category": "oneword"
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'A person who opposes official policy'.",
+    "word": "Dissident",
+    "meaning_hi": "",
+    "meaning_en": "Choose the correct one-word substitution for: 'A person who opposes official policy'.",
     "category": "oneword"
   },
   {
@@ -721,6 +1157,13 @@
     "category": "oneword"
   },
   {
+    "word": "Elegy",
+    "phrase": "A poem of lamentation, especially for one who is dead",
+    "meaning_en": "A mournful or sad poem",
+    "meaning_hi": "शोकगीत / मर्सिया",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who uses public funds dishonestly for personal gain",
     "word": "Embezzler",
     "meaning_hi": "गबनकर्ता",
@@ -742,10 +1185,26 @@
     "category": "oneword"
   },
   {
+    "word": "Encomium",
+    "meaning_en": "Choose the correct one-word substitute for: 'A speech or piece of writing that praises someone highly'",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
     "phrase": "One who designs and oversees construction of large structures",
     "word": "Engineer",
     "meaning_hi": "अभियंता",
     "meaning_en": "Person who designs and builds engineering projects",
+    "category": "oneword"
+  },
+  {
+    "phrase": "for: 'A state of mental weariness and lack of enthusiasm'.",
+    "word": "Ennui",
+    "meaning_hi": "",
+    "meaning_en": "for: 'A state of mental weariness and lack of enthusiasm'.",
     "category": "oneword"
   },
   {
@@ -763,10 +1222,47 @@
     "category": "oneword"
   },
   {
+    "phrase": "Choose the correct one-word substitution for: 'One who lives entirely for pleasure'.",
+    "word": "Epicure",
+    "meaning_hi": "",
+    "meaning_en": "Choose the correct one-word substitution for: 'One who lives entirely for pleasure'.",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who seeks sensual and intellectual pleasure",
     "word": "Epicurean",
     "meaning_hi": "सुखवादी",
     "meaning_en": "Person devoted to refined sensual enjoyment",
+    "category": "oneword"
+  },
+  {
+    "word": "Epigram",
+    "phrase": "A short, witty saying expressing a clever observation",
+    "meaning_en": "A pithy, often paradoxical saying",
+    "meaning_hi": "व्यंग्योक्ति / सूक्ति",
+    "category": "oneword"
+  },
+  {
+    "word": "Epilogue",
+    "phrase": "A concluding section added to a literary work",
+    "meaning_en": "A final section that comes after the main text",
+    "meaning_hi": "उपसंहार",
+    "category": "oneword"
+  },
+  {
+    "word": "Epitaph",
+    "meaning_en": "'Words written on a tomb'",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "word": "Epitome",
+    "phrase": "A person or thing that is a perfect example of a quality or type",
+    "meaning_en": "The most perfect example of something",
+    "meaning_hi": "सर्वोत्तम उदाहरण / प्रतिरूप",
     "category": "oneword"
   },
   {
@@ -798,10 +1294,35 @@
     "category": "oneword"
   },
   {
+    "word": "Euthanasia",
+    "phrase": "The practice of intentionally ending a life to relieve pain and suffering",
+    "meaning_en": "Deliberately ending a life to relieve incurable suffering",
+    "meaning_hi": "दयामृत्यु / इच्छामृत्यु",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who is banished from their own country",
     "word": "Exile",
     "meaning_hi": "देशनिर्वासित",
     "meaning_en": "Person expelled from their homeland",
+    "category": "oneword"
+  },
+  {
+    "word": "Exodus",
+    "meaning_en": "A large-scale departure of people from one place",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "word": "Expert",
+    "meaning_en": "Jennifer asked her colleague, a person who is highly educated in a specific field called?",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
@@ -861,6 +1382,13 @@
     "category": "oneword"
   },
   {
+    "word": "Fauna",
+    "phrase": "The animals of a particular region, habitat, or geological period",
+    "meaning_en": "The animal life of a particular area",
+    "meaning_hi": "जीव-जंतु / प्राणी-जगत",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who commits a crime against the state",
     "word": "Felon",
     "meaning_hi": "अपराधी",
@@ -886,6 +1414,36 @@
     "word": "First offender",
     "meaning_hi": "पहली बार अपराध करने वाला",
     "meaning_en": "Person who commits a crime for the first time",
+    "category": "oneword"
+  },
+  {
+    "word": "Flora",
+    "phrase": "The plants of a particular region, habitat, or geological period",
+    "meaning_en": "The plant life of a particular area",
+    "meaning_hi": "वनस्पति-जगत / पेड़-पौधे",
+    "category": "oneword"
+  },
+  {
+    "phrase": "A person who sells and arranges cut flowers.",
+    "word": "Florist",
+    "meaning_hi": "",
+    "meaning_en": "A person who sells and arranges cut flowers.",
+    "category": "oneword"
+  },
+  {
+    "word": "Foeticide",
+    "meaning_en": "Choose the correct option to give a one-word substitution for the sentence given: Killing of an unborn baby",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "phrase": "a short section (as of a book) that leads to or explains the main part.",
+    "word": "Foreword",
+    "meaning_hi": "",
+    "meaning_en": "a short section (as of a book) that leads to or explains the main part.",
     "category": "oneword"
   },
   {
@@ -924,10 +1482,35 @@
     "category": "oneword"
   },
   {
+    "word": "Fulminate",
+    "meaning_en": "To express vehement protest",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
     "phrase": "One who talks excessively and at great length",
     "word": "Garrulous",
     "meaning_hi": "बातूनी",
     "meaning_en": "Person who talks too much about trivial things",
+    "category": "oneword"
+  },
+  {
+    "word": "Gemologist",
+    "meaning_en": "A person who works with gemstones",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "word": "Genealogist",
+    "phrase": "One who traces the history and descent of families",
+    "meaning_en": "A person who studies family lineages",
+    "meaning_hi": "वंशावली विशेषज्ञ",
     "category": "oneword"
   },
   {
@@ -945,6 +1528,15 @@
     "category": "oneword"
   },
   {
+    "word": "Geocentrism",
+    "meaning_en": "A belief that the Earth is the center of the universe",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
     "phrase": "One who studies rocks, minerals and the earth",
     "word": "Geologist",
     "meaning_hi": "भूविज्ञानी",
@@ -952,10 +1544,24 @@
     "category": "oneword"
   },
   {
+    "phrase": "The fear of aging",
+    "word": "Gerascophobia",
+    "meaning_hi": "",
+    "meaning_en": "The fear of aging",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who specialises in care of the elderly",
     "word": "Geriatrician",
     "meaning_hi": "वृद्धावस्था रोग विशेषज्ञ",
     "meaning_en": "Doctor who specialises in elderly care",
+    "category": "oneword"
+  },
+  {
+    "phrase": "for: 'Fear of public speaking.'",
+    "word": "Glossophobia",
+    "meaning_hi": "",
+    "meaning_en": "for: 'Fear of public speaking.'",
     "category": "oneword"
   },
   {
@@ -994,6 +1600,20 @@
     "category": "oneword"
   },
   {
+    "word": "Hallucination",
+    "phrase": "Perception of something that is not actually present",
+    "meaning_en": "Seeing or hearing things that do not exist",
+    "meaning_hi": "मतिभ्रम / भ्रमजन्य अनुभव",
+    "category": "oneword"
+  },
+  {
+    "phrase": "A long and tedious speech",
+    "word": "Harangue",
+    "meaning_hi": "",
+    "meaning_en": "A long and tedious speech",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who is devoted to seeking pleasure above all",
     "word": "Hedonist",
     "meaning_hi": "भोगवादी",
@@ -1005,6 +1625,13 @@
     "word": "Herbivore",
     "meaning_hi": "शाकाहारी",
     "meaning_en": "Creature that feeds only on plants",
+    "category": "oneword"
+  },
+  {
+    "phrase": "for: 'A belief or opinion that goes against the established doctrine, especially in religion or ideology'.",
+    "word": "Heresy",
+    "meaning_hi": "",
+    "meaning_en": "for: 'A belief or opinion that goes against the established doctrine, especially in religion or ideology'.",
     "category": "oneword"
   },
   {
@@ -1050,6 +1677,16 @@
     "category": "oneword"
   },
   {
+    "word": "Honorary",
+    "meaning_en": "an office for which no salary is paid",
+    "meaning_hi": "मानद / अवैतनिक",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword",
+    "phrase": "An office or title given without payment or professional qualification"
+  },
+  {
     "phrase": "One who promotes the welfare of all human beings",
     "word": "Humanitarian",
     "meaning_hi": "मानवतावादी",
@@ -1061,6 +1698,15 @@
     "word": "Hydrophobe",
     "meaning_hi": "पानी से डरने वाला",
     "meaning_en": "Person with an irrational fear of water",
+    "category": "oneword"
+  },
+  {
+    "word": "Hydrophobia",
+    "meaning_en": "'Fear of water'",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
@@ -1085,6 +1731,13 @@
     "category": "oneword"
   },
   {
+    "word": "Iconoclast",
+    "phrase": "One who attacks and rejects traditional beliefs, customs, or institutions",
+    "meaning_en": "A person who challenges cherished beliefs",
+    "meaning_hi": "परम्परा-विरोधी / मूर्तिभंजक",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who has an impractical and idealistic approach to life",
     "word": "Idealist",
     "meaning_hi": "आदर्शवादी",
@@ -1106,10 +1759,26 @@
     "category": "oneword"
   },
   {
+    "phrase": "for: 'Something that is impossible to be read'.",
+    "word": "Illegible",
+    "meaning_hi": "",
+    "meaning_en": "for: 'Something that is impossible to be read'.",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who cannot read or write",
     "word": "Illiterate",
     "meaning_hi": "अनपढ़",
     "meaning_en": "Person without literacy skills",
+    "category": "oneword"
+  },
+  {
+    "word": "Imbroglio",
+    "meaning_en": "An extremely confused or complicated situation",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
@@ -1134,6 +1803,22 @@
     "category": "oneword"
   },
   {
+    "word": "Importune",
+    "meaning_en": "Persistent harassment to do something",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'A person who pretends to be what he is not'.",
+    "word": "Impostor",
+    "meaning_hi": "",
+    "meaning_en": "Choose the correct one-word substitution for: 'A person who pretends to be what he is not'.",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who manages and directs theatrical or musical productions",
     "word": "Impresario",
     "meaning_hi": "कार्यक्रम प्रबंधक",
@@ -1146,6 +1831,30 @@
     "meaning_hi": "असुधार्य",
     "meaning_en": "Person impossible to reform or improve",
     "category": "oneword"
+  },
+  {
+    "word": "Incumbent",
+    "phrase": "The person currently holding a particular office or position",
+    "meaning_en": "The current holder of an office",
+    "meaning_hi": "पदधारी / वर्तमान पदाधिकारी",
+    "category": "oneword"
+  },
+  {
+    "phrase": "A person who avoids work or effort",
+    "word": "Indolent",
+    "meaning_hi": "",
+    "meaning_en": "A person who avoids work or effort",
+    "category": "oneword"
+  },
+  {
+    "word": "Inevitable",
+    "meaning_en": "that which is bound to happen",
+    "meaning_hi": "अनिवार्य / अपरिहार्य",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword",
+    "phrase": "That which is bound to happen and cannot be avoided"
   },
   {
     "phrase": "One who is incapable of making mistakes",
@@ -1166,6 +1875,29 @@
     "word": "Infiltrator",
     "meaning_hi": "घुसपैठिया",
     "meaning_en": "Person who secretly enters a group to spy or undermine it",
+    "category": "oneword"
+  },
+  {
+    "word": "Insolvent",
+    "meaning_en": "'A person who is unable to pay his debts'",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "word": "Insomnia",
+    "phrase": "The condition of being habitually unable to sleep",
+    "meaning_en": "Chronic inability to fall asleep",
+    "meaning_hi": "अनिद्रा",
+    "category": "oneword"
+  },
+  {
+    "word": "Insomniac",
+    "phrase": "One who suffers from the inability to sleep",
+    "meaning_en": "A person who cannot sleep normally",
+    "meaning_hi": "अनिद्रा से पीड़ित व्यक्ति",
     "category": "oneword"
   },
   {
@@ -1197,10 +1929,24 @@
     "category": "oneword"
   },
   {
+    "phrase": "A person who is fearless and adventurous is called –",
+    "word": "Intrepid",
+    "meaning_hi": "",
+    "meaning_en": "A person who is fearless and adventurous is called –",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who is reserved and finds energy in solitude",
     "word": "Introvert",
     "meaning_hi": "अंतर्मुखी",
     "meaning_en": "Person who is reserved and prefers solitude",
+    "category": "oneword"
+  },
+  {
+    "word": "Itinerary",
+    "phrase": "A planned route or schedule of a journey",
+    "meaning_en": "A detailed plan of a journey or route",
+    "meaning_hi": "यात्रा-कार्यक्रम / मार्ग-विवरण",
     "category": "oneword"
   },
   {
@@ -1246,10 +1992,24 @@
     "category": "oneword"
   },
   {
+    "phrase": "Choose the correct one-word substitution for: 'A government or state in which those in power exploit national resources and steal'.",
+    "word": "Kleptocracy",
+    "meaning_hi": "",
+    "meaning_en": "Choose the correct one-word substitution for: 'A government or state in which those in power exploit national resources and steal'.",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who has an obsession with stealing",
     "word": "Kleptomaniac",
     "meaning_hi": "चोरी की पागल इच्छा वाला",
     "meaning_en": "Person with an uncontrollable urge to steal",
+    "category": "oneword"
+  },
+  {
+    "word": "Landlocked",
+    "phrase": "A country or region entirely enclosed by land with no access to the sea",
+    "meaning_en": "Surrounded on all sides by land",
+    "meaning_hi": "स्थलावृत / चारों ओर से जमीन से घिरा",
     "category": "oneword"
   },
   {
@@ -1264,6 +2024,13 @@
     "word": "Lawyer",
     "meaning_hi": "वकील",
     "meaning_en": "Person qualified and licensed to practise law",
+    "category": "oneword"
+  },
+  {
+    "word": "Layman",
+    "phrase": "One who does not belong to a particular profession or clergy",
+    "meaning_en": "A non-professional or non-expert",
+    "meaning_hi": "आम आदमी / अनिष्णात",
     "category": "oneword"
   },
   {
@@ -1330,6 +2097,16 @@
     "category": "oneword"
   },
   {
+    "word": "Malcontent",
+    "meaning_en": "a person who is always dissatisfied",
+    "meaning_hi": "असंतुष्ट / विद्रोही",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword",
+    "phrase": "A person who is always dissatisfied and rebellious"
+  },
+  {
     "phrase": "One who pretends to be ill to avoid work",
     "word": "Malingerer",
     "meaning_hi": "नकली बीमार",
@@ -1365,6 +2142,15 @@
     "category": "oneword"
   },
   {
+    "word": "Mechanic",
+    "meaning_en": "Choose the one word substitute for the below sentence: John asked his neighbor, a person who repairs and maintains machines called?",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
     "phrase": "One who has delusions of great power or importance",
     "word": "Megalomaniac",
     "meaning_hi": "महत्ता का भ्रम रखने वाला",
@@ -1372,10 +2158,26 @@
     "category": "oneword"
   },
   {
+    "word": "Melodrama",
+    "meaning_en": "A style of writing characterized by exaggerated sentimentality",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
     "phrase": "One who has a passionate love for music",
     "word": "Melomaniac",
     "meaning_hi": "संगीत-प्रेमी",
     "meaning_en": "Person with intense love of music",
+    "category": "oneword"
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'A place where wild animals are kept'.",
+    "word": "Menagerie",
+    "meaning_hi": "",
+    "meaning_en": "Choose the correct one-word substitution for: 'A place where wild animals are kept'.",
     "category": "oneword"
   },
   {
@@ -1393,6 +2195,13 @@
     "category": "oneword"
   },
   {
+    "word": "Meritocracy",
+    "phrase": "A system in which advancement is based on ability and talent",
+    "meaning_en": "Government or leadership by those most able",
+    "meaning_hi": "योग्यतातंत्र",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who claims to speak on behalf of God",
     "word": "Messiah",
     "meaning_hi": "मसीहा",
@@ -1400,10 +2209,26 @@
     "category": "oneword"
   },
   {
+    "word": "Metaphor",
+    "phrase": "A figure of speech that describes something as if it were something else",
+    "meaning_en": "A direct comparison without using 'like' or 'as'",
+    "meaning_hi": "रूपक / उपमा",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who studies the weather and atmosphere",
     "word": "Meteorologist",
     "meaning_hi": "मौसम वैज्ञानिक",
     "meaning_en": "Scientist who studies and predicts weather",
+    "category": "oneword"
+  },
+  {
+    "word": "Mineralogist",
+    "meaning_en": "A person who studies rocks and minerals",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
@@ -1439,6 +2264,45 @@
     "word": "Misogynist",
     "meaning_hi": "स्त्री-द्वेषी",
     "meaning_en": "Person who has a strong dislike or prejudice against women",
+    "category": "oneword"
+  },
+  {
+    "word": "Misologist",
+    "meaning_en": "A person who hates reason or discussion",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "word": "Moratorium",
+    "phrase": "A temporary suspension of an activity or law",
+    "meaning_en": "A legally authorised delay or suspension",
+    "meaning_hi": "स्थगन / अस्थायी रोक",
+    "category": "oneword"
+  },
+  {
+    "word": "Morgue",
+    "meaning_en": "A place where dead bodies are kept for examination",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'A building where dead bodies are kept temporarily'.",
+    "word": "Mortuary",
+    "meaning_hi": "",
+    "meaning_en": "Choose the correct one-word substitution for: 'A building where dead bodies are kept temporarily'.",
+    "category": "oneword"
+  },
+  {
+    "phrase": "She is proficient in speaking many languages.",
+    "word": "Multilingual",
+    "meaning_hi": "",
+    "meaning_en": "She is proficient in speaking many languages.",
     "category": "oneword"
   },
   {
@@ -1491,6 +2355,13 @@
     "category": "oneword"
   },
   {
+    "word": "Necromancer",
+    "phrase": "One who claims to communicate with or raise the spirits of the dead",
+    "meaning_en": "A person who practises black magic using the dead",
+    "meaning_hi": "मृत-आत्मा-आह्वायक / काला जादूगर",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who is new to a profession or activity",
     "word": "Neophyte",
     "meaning_hi": "नवसिखिया",
@@ -1512,6 +2383,13 @@
     "category": "oneword"
   },
   {
+    "word": "Nocturnal",
+    "phrase": "Animals or activities that are active or occurring during the night",
+    "meaning_en": "Done or occurring at night",
+    "meaning_hi": "रात्रिचर / निशाचर",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who wanders from place to place without a fixed home",
     "word": "Nomad",
     "meaning_hi": "घुमक्कड़",
@@ -1523,6 +2401,15 @@
     "word": "Nonconformist",
     "meaning_hi": "परंपरा-विरोधी",
     "meaning_en": "Person who rebels against norms and conventions",
+    "category": "oneword"
+  },
+  {
+    "word": "Nostalgia",
+    "meaning_en": "A longing for past times",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
@@ -1561,6 +2448,13 @@
     "category": "oneword"
   },
   {
+    "word": "Obituary",
+    "phrase": "A notice of a person's death, usually with a brief biography",
+    "meaning_en": "A published announcement of someone's death",
+    "meaning_hi": "मृत्यु-लेख / श्रद्धांजलि",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who studies ocean and sea life",
     "word": "Oceanographer",
     "meaning_hi": "समुद्र विज्ञानी",
@@ -1582,10 +2476,24 @@
     "category": "oneword"
   },
   {
+    "word": "Oligarchy",
+    "phrase": "A form of government in which power is held by a small group of people",
+    "meaning_en": "Government by a small privileged group",
+    "meaning_hi": "अल्पतंत्र / कुलीनतंत्र",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who is all-powerful",
     "word": "Omnipotent",
     "meaning_hi": "सर्वशक्तिमान",
     "meaning_en": "Being with unlimited power",
+    "category": "oneword"
+  },
+  {
+    "word": "Omnipresence",
+    "phrase": "The quality of being present everywhere at the same time",
+    "meaning_en": "The state of being present everywhere simultaneously",
+    "meaning_hi": "सर्वव्यापकता",
     "category": "oneword"
   },
   {
@@ -1610,10 +2518,28 @@
     "category": "oneword"
   },
   {
+    "word": "Omnivorous",
+    "meaning_en": "Give single word for \"One who eats everything\"",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
     "phrase": "One who specialises in treating cancer",
     "word": "Oncologist",
     "meaning_hi": "कैंसर रोग विशेषज्ञ",
     "meaning_en": "Doctor who specialises in treating cancer",
+    "category": "oneword"
+  },
+  {
+    "word": "Ontology",
+    "meaning_en": "Choose the option which can be substituted for given words/sentence: The philosophical study of the nature of being, reality, and existence?",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
@@ -1635,6 +2561,22 @@
     "word": "Orator",
     "meaning_hi": "वक्ता",
     "meaning_en": "A persuasive and eloquent public speaker",
+    "category": "oneword"
+  },
+  {
+    "word": "Oratory",
+    "meaning_en": "'The art of speaking to a large audience'",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "phrase": "A place where fruit trees are grown",
+    "word": "Orchard",
+    "meaning_hi": "",
+    "meaning_en": "A place where fruit trees are grown",
     "category": "oneword"
   },
   {
@@ -1694,10 +2636,42 @@
     "category": "oneword"
   },
   {
+    "word": "Panacea",
+    "phrase": "A solution or remedy for all difficulties or diseases",
+    "meaning_en": "A supposed cure for all diseases or problems",
+    "meaning_hi": "सर्वरोगहर / रामबाण",
+    "category": "oneword"
+  },
+  {
+    "word": "Pandemic",
+    "phrase": "A disease that spreads across a whole country or the entire world",
+    "meaning_en": "An epidemic occurring over a very wide area",
+    "meaning_hi": "महामारी / वैश्विक रोगफैलाव",
+    "category": "oneword"
+  },
+  {
+    "word": "Panegyric",
+    "meaning_en": "A speech or writing that praises someone excessively",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
     "phrase": "One who believes God is present in all of nature",
     "word": "Pantheist",
     "meaning_hi": "सर्वेश्वरवादी",
     "meaning_en": "Person who identifies God with the universe and nature",
+    "category": "oneword"
+  },
+  {
+    "word": "Paradox",
+    "meaning_en": "Choose the correct one-word substitute for: 'A statement that appears self-contradictory yet may be true'",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
@@ -1733,6 +2707,13 @@
     "word": "Patriot",
     "meaning_hi": "देशभक्त",
     "meaning_en": "Person with strong love and loyalty to their country",
+    "category": "oneword"
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'A person who is excessively concerned with minor details'.",
+    "word": "Pedant",
+    "meaning_hi": "",
+    "meaning_en": "Choose the correct one-word substitution for: 'A person who is excessively concerned with minor details'.",
     "category": "oneword"
   },
   {
@@ -1827,6 +2808,13 @@
     "category": "oneword"
   },
   {
+    "phrase": "Choose the correct one-word substitution for: 'A harmless, inert substance or pill prescribed more for psychological benefit than for any physiological effect'.",
+    "word": "Placebo",
+    "meaning_hi": "",
+    "meaning_en": "Choose the correct one-word substitution for: 'A harmless, inert substance or pill prescribed more for psychological benefit than for any physiological effect'.",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who steals and uses another's writing as their own",
     "word": "Plagiarist",
     "meaning_hi": "साहित्यिक चोर",
@@ -1834,10 +2822,33 @@
     "category": "oneword"
   },
   {
+    "word": "Plutocracy",
+    "meaning_en": "Choose the correct one-word substitute for: 'A political system based on the rule of the wealthy'",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
     "phrase": "One who writes poetry",
     "word": "Poet",
     "meaning_hi": "कवि",
     "meaning_en": "Person who writes poems",
+    "category": "oneword"
+  },
+  {
+    "word": "Polyandry",
+    "phrase": "The practice of a woman having more than one husband at the same time",
+    "meaning_en": "A woman having multiple husbands simultaneously",
+    "meaning_hi": "बहुपतित्व",
+    "category": "oneword"
+  },
+  {
+    "word": "Polygamy",
+    "phrase": "The practice of having more than one spouse at the same time",
+    "meaning_en": "The custom of having more than one spouse simultaneously",
+    "meaning_hi": "बहुविवाह",
     "category": "oneword"
   },
   {
@@ -1852,6 +2863,27 @@
     "word": "Polymath",
     "meaning_hi": "बहुज्ञ",
     "meaning_en": "Person with broad and extensive knowledge in many fields",
+    "category": "oneword"
+  },
+  {
+    "word": "Posthumous",
+    "phrase": "Occurring or published after the death of the author or originator",
+    "meaning_en": "Coming or occurring after a person's death",
+    "meaning_hi": "मरणोपरांत / मृत्यु के बाद",
+    "category": "oneword"
+  },
+  {
+    "word": "Posthumously",
+    "phrase": "After the death of the originator; occurring or awarded after one's death",
+    "meaning_en": "After the person's death",
+    "meaning_hi": "मरणोपरांत",
+    "category": "oneword"
+  },
+  {
+    "phrase": "Anything written in a letter after it is signed",
+    "word": "Postscript",
+    "meaning_hi": "",
+    "meaning_en": "Anything written in a letter after it is signed",
     "category": "oneword"
   },
   {
@@ -1890,6 +2922,15 @@
     "category": "oneword"
   },
   {
+    "word": "Providence",
+    "meaning_en": "\"A divine force that some people believe controls our lives and in a way protects us is called ________\"",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
     "phrase": "One who writes under a false name",
     "word": "Pseudonymist",
     "meaning_hi": "छद्म नाम लेखक",
@@ -1908,6 +2949,15 @@
     "word": "Psychologist",
     "meaning_hi": "मनोवैज्ञानिक",
     "meaning_en": "Scientist who studies the human mind",
+    "category": "oneword"
+  },
+  {
+    "word": "Psychology",
+    "meaning_en": "The study of the human mind and its functions",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
@@ -1981,6 +3031,20 @@
     "category": "oneword"
   },
   {
+    "word": "Referendum",
+    "phrase": "A vote by the whole electorate on a specific political question",
+    "meaning_en": "A general vote by the public on an issue",
+    "meaning_hi": "जनमत-संग्रह",
+    "category": "oneword"
+  },
+  {
+    "phrase": "for: 'A person who supports change'.",
+    "word": "Reformer",
+    "meaning_hi": "",
+    "meaning_en": "for: 'A person who supports change'.",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who rules in the name of another who is absent",
     "word": "Regent",
     "meaning_hi": "शासक-प्रतिनिधि",
@@ -2016,10 +3080,26 @@
     "category": "oneword"
   },
   {
+    "word": "Reverent",
+    "meaning_en": "Showing deep respect",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
     "phrase": "One who is new to a job or activity",
     "word": "Rookie",
     "meaning_hi": "नया खिलाड़ी / नवागंतुक",
     "meaning_en": "Person who is new and inexperienced",
+    "category": "oneword"
+  },
+  {
+    "phrase": "An act of violating or showing disrespect towards something sacred or holy is called–",
+    "word": "Sacrilege",
+    "meaning_hi": "",
+    "meaning_en": "An act of violating or showing disrespect towards something sacred or holy is called–",
     "category": "oneword"
   },
   {
@@ -2044,10 +3124,24 @@
     "category": "oneword"
   },
   {
+    "word": "Scapegoat",
+    "phrase": "One who is blamed and punished for the mistakes of others",
+    "meaning_en": "A person made to bear blame for others",
+    "meaning_hi": "बलि का बकरा",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who habitually doubts and questions accepted beliefs",
     "word": "Sceptic",
     "meaning_hi": "संशयवादी",
     "meaning_en": "Person who doubts the truth of claims",
+    "category": "oneword"
+  },
+  {
+    "phrase": "for: 'A formal split within a religious organization'.",
+    "word": "Schism",
+    "meaning_hi": "",
+    "meaning_en": "for: 'A formal split within a religious organization'.",
     "category": "oneword"
   },
   {
@@ -2062,6 +3156,22 @@
     "word": "Sculptor",
     "meaning_hi": "मूर्तिकार",
     "meaning_en": "Artist who creates sculptures",
+    "category": "oneword"
+  },
+  {
+    "word": "Secularism",
+    "phrase": "The principle of separation of the state from religious institutions",
+    "meaning_en": "The doctrine that society should be free from religion",
+    "meaning_hi": "धर्मनिरपेक्षता",
+    "category": "oneword"
+  },
+  {
+    "word": "Sedative",
+    "meaning_en": "A medicine or other substance that has a calming or soothing effect",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
@@ -2093,6 +3203,15 @@
     "category": "oneword"
   },
   {
+    "word": "Soliloquy",
+    "meaning_en": "Choose the option which can be substituted for given words/sentence: A speech in which a person talks to themselves, often used in drama?",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
     "phrase": "One who is an expert in identifying and selecting wines",
     "word": "Sommelier",
     "meaning_hi": "मद्य-विशेषज्ञ",
@@ -2107,10 +3226,24 @@
     "category": "oneword"
   },
   {
+    "word": "Somniloquist",
+    "phrase": "One who talks in their sleep",
+    "meaning_en": "A person who speaks while asleep",
+    "meaning_hi": "नींद में बात करने वाला",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who kills their own sister",
     "word": "Sororicide",
     "meaning_hi": "बहन की हत्या करने वाला",
     "meaning_en": "Person who kills their own sister",
+    "category": "oneword"
+  },
+  {
+    "word": "Souvenir",
+    "phrase": "A thing kept as a reminder of a person, place, or event",
+    "meaning_en": "A keepsake from a place visited",
+    "meaning_hi": "स्मृतिचिह्न / यादगार वस्तु",
     "category": "oneword"
   },
   {
@@ -2177,10 +3310,33 @@
     "category": "oneword"
   },
   {
+    "word": "Taboo",
+    "phrase": "A social or religious custom prohibiting or restricting a particular action",
+    "meaning_en": "A social prohibition on certain practices",
+    "meaning_hi": "वर्जित / निषिद्ध",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who prepares and mounts animal specimens for display",
     "word": "Taxidermist",
     "meaning_hi": "पशु-संरक्षण विशेषज्ञ",
     "meaning_en": "Person who preserves and mounts animal skins",
+    "category": "oneword"
+  },
+  {
+    "word": "Teetotaler",
+    "meaning_en": "Choose the correct option to give a one-word substitution for the sentence given: A person who does not drink any alcohol",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "word": "Telepathy",
+    "phrase": "The supposed communication of thoughts or feelings between minds without speech",
+    "meaning_en": "Communication of thoughts directly from mind to mind",
+    "meaning_hi": "मनोसंचार / दूरमानस",
     "category": "oneword"
   },
   {
@@ -2202,6 +3358,13 @@
     "word": "Theist",
     "meaning_hi": "आस्तिक",
     "meaning_en": "Person who believes in the existence of God or gods",
+    "category": "oneword"
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'A system of government where priests rule in the name of God'.",
+    "word": "Theocracy",
+    "meaning_hi": "",
+    "meaning_en": "Choose the correct one-word substitution for: 'A system of government where priests rule in the name of God'.",
     "category": "oneword"
   },
   {
@@ -2233,6 +3396,24 @@
     "category": "oneword"
   },
   {
+    "word": "Trepidation",
+    "meaning_en": "A feeling of apprehension in tense situations",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "word": "Truant",
+    "meaning_en": "A child who stays away from school without leave or explanation",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
     "phrase": "One who teaches or trains someone in a subject",
     "word": "Tutor",
     "meaning_hi": "शिक्षक / गुरु",
@@ -2251,6 +3432,13 @@
     "word": "Usurer",
     "meaning_hi": "सूदखोर",
     "meaning_en": "Person who lends money at excessively high interest",
+    "category": "oneword"
+  },
+  {
+    "phrase": "An often-imaginary place or state of utter perfection and happiness",
+    "word": "Utopia",
+    "meaning_hi": "",
+    "meaning_en": "An often-imaginary place or state of utter perfection and happiness",
     "category": "oneword"
   },
   {
@@ -2279,6 +3467,13 @@
     "word": "Vagrant",
     "meaning_hi": "आवारा / बेघर",
     "meaning_en": "Homeless person who wanders without purpose",
+    "category": "oneword"
+  },
+  {
+    "word": "Vandal",
+    "phrase": "One who deliberately destroys or damages works of art or public property",
+    "meaning_en": "A person who wilfully damages property",
+    "meaning_hi": "विध्वंसक / नाशकारी",
     "category": "oneword"
   },
   {
@@ -2331,10 +3526,26 @@
     "category": "oneword"
   },
   {
+    "word": "Vivisection",
+    "phrase": "The practice of performing experiments on living animals for scientific research",
+    "meaning_en": "Surgery on a living organism for research purposes",
+    "meaning_hi": "जीवित प्राणी पर प्रयोग / जीव-विच्छेदन",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who offers services willingly without payment",
     "word": "Volunteer",
     "meaning_hi": "स्वयंसेवक",
     "meaning_en": "Person who works without pay out of goodwill",
+    "category": "oneword"
+  },
+  {
+    "word": "Voyager",
+    "meaning_en": "Sara asked her geography teacher, a person who travels to distant lands called?",
+    "meaning_hi": "",
+    "example": "",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
@@ -2387,6 +3598,13 @@
     "category": "oneword"
   },
   {
+    "phrase": "Strange or unusual in an amusing way",
+    "word": "Zany",
+    "meaning_hi": "",
+    "meaning_en": "Strange or unusual in an amusing way",
+    "category": "oneword"
+  },
+  {
     "phrase": "One who is excessively fanatical about religion or a cause",
     "word": "Zealot",
     "meaning_hi": "धर्मांध व्यक्ति",
@@ -2405,519 +3623,6 @@
     "word": "Zoologist",
     "meaning_hi": "प्राणी विज्ञानी",
     "meaning_en": "Scientist who studies animals",
-    "category": "oneword"
-  },
-  {
-    "word": "Providence",
-    "meaning_en": "\"A divine force that some people believe controls our lives and in a way protects us is called ________\"",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Insolvent",
-    "meaning_en": "'A person who is unable to pay his debts'",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Epitaph",
-    "meaning_en": "'Words written on a tomb'",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Apiary",
-    "meaning_en": "'A place where bees are kept'",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Oratory",
-    "meaning_en": "'The art of speaking to a large audience'",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Democracy",
-    "meaning_en": "'A government run by the people'",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Hydrophobia",
-    "meaning_en": "'Fear of water'",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Ontology",
-    "meaning_en": "Choose the option which can be substituted for given words/sentence: The philosophical study of the nature of being, reality, and existence?",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Soliloquy",
-    "meaning_en": "Choose the option which can be substituted for given words/sentence: A speech in which a person talks to themselves, often used in drama?",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Assimilation",
-    "meaning_en": "Choose the option which can be substituted for given words/sentence: The process by which something, especially a word or phrase, is adapted into a new cultural or social context?",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Omnivorous",
-    "meaning_en": "Give single word for \"One who eats everything\"",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "honorary",
-    "meaning_en": "an office for which no salary is paid",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "biography",
-    "meaning_en": "a record of one's life written by somebody else",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "inevitable",
-    "meaning_en": "that which is bound to happen",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "alimony",
-    "meaning_en": "allowance paid by a husband to his wife on legal separation",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "malcontent",
-    "meaning_en": "a person who is always dissatisfied",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Imbroglio",
-    "meaning_en": "An extremely confused or complicated situation",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Abdication",
-    "meaning_en": "A formal resignation and renunciation of powers",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Misologist",
-    "meaning_en": "A person who hates reason or discussion",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Truant",
-    "meaning_en": "A child who stays away from school without leave or explanation",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Fulminate",
-    "meaning_en": "To express vehement protest",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Crew",
-    "meaning_en": "Choose the one word substitution: A group of persons working on a ship or aircraft",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Censure",
-    "meaning_en": "Choose the correct one-word substitute for: 'An official reprimand or strong criticism'",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Desuetude",
-    "meaning_en": "Choose the correct one-word substitute for: 'A state of disuse or inactivity'",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Plutocracy",
-    "meaning_en": "Choose the correct one-word substitute for: 'A political system based on the rule of the wealthy'",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Abeyance",
-    "meaning_en": "Choose the correct one-word substitute for: 'A state of temporary disuse or suspension'",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Paradox",
-    "meaning_en": "Choose the correct one-word substitute for: 'A statement that appears self-contradictory yet may be true'",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Encomium",
-    "meaning_en": "Choose the correct one-word substitute for: 'A speech or piece of writing that praises someone highly'",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Exodus",
-    "meaning_en": "A large-scale departure of people from one place",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Geocentrism",
-    "meaning_en": "A belief that the Earth is the center of the universe",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Archive",
-    "meaning_en": "A place where records and documents are stored",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Calligraphy",
-    "meaning_en": "The art of beautiful handwriting",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Cataclysm",
-    "meaning_en": "A sudden and violent event causing great destruction",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Captain",
-    "meaning_en": "A person who is in charge of a ship",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Blot",
-    "meaning_en": "A stain caused by a discoloring substance",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Sedative",
-    "meaning_en": "A medicine or other substance that has a calming or soothing effect",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Morgue",
-    "meaning_en": "A place where dead bodies are kept for examination",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Nostalgia",
-    "meaning_en": "A longing for past times",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Melodrama",
-    "meaning_en": "A style of writing characterized by exaggerated sentimentality",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Psychology",
-    "meaning_en": "The study of the human mind and its functions",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Mineralogist",
-    "meaning_en": "A person who studies rocks and minerals",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Gemologist",
-    "meaning_en": "A person who works with gemstones",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Trepidation",
-    "meaning_en": "A feeling of apprehension in tense situations",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Aesthete",
-    "meaning_en": "A person who is a lover of fine arts",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Importune",
-    "meaning_en": "Persistent harassment to do something",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Reverent",
-    "meaning_en": "Showing deep respect",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Barracks",
-    "meaning_en": "Choose the correct one-word substitute for: A place where soldiers are stationed",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Voyager",
-    "meaning_en": "Sara asked her geography teacher, a person who travels to distant lands called?",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Daze",
-    "meaning_en": "A state of stunned confusion",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Panegyric",
-    "meaning_en": "A speech or writing that praises someone excessively",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Expert",
-    "meaning_en": "Jennifer asked her colleague, a person who is highly educated in a specific field called?",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Bachelor",
-    "meaning_en": "Choose the one word substitute for the below sentence: Emily asked her friend, a person who has never been married called?",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Apprentice",
-    "meaning_en": "Choose the one word substitute for the below sentence: Neha approached her new hobby with enthusiasm, eager to grasp the basics as a beginner",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Mechanic",
-    "meaning_en": "Choose the one word substitute for the below sentence: John asked his neighbor, a person who repairs and maintains machines called?",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Teetotaler",
-    "meaning_en": "Choose the correct option to give a one-word substitution for the sentence given: A person who does not drink any alcohol",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Aquatic",
-    "meaning_en": "Choose the one word substitute for the below sentence: Ravi marvelled at the diverse forms of life, including animals and plants, thriving in aquatic habitats",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "oneword"
-  },
-  {
-    "word": "Foeticide",
-    "meaning_en": "Choose the correct option to give a one-word substitution for the sentence given: Killing of an unborn baby",
-    "meaning_hi": "",
-    "example": "",
-    "synonyms": [],
-    "antonyms": [],
     "category": "oneword"
   }
 ]

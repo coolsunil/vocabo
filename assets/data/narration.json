@@ -902,7 +902,7 @@
   {
     "word": "Charu said to her friend, \"I want you to be here at 6.00 p.m. tomorrow for the meeting.",
     "meaning_en": "In reported speech, 'here' becomes 'there' and 'tomorrow' becomes 'the next day'; the reporting verb 'said to' becomes 'told'.",
-    "meaning_hi": "",
+    "meaning_hi": "Time Change: 'tomorrow' → 'the next day' / 'the following day' | 'will' → 'would'।",
     "example": "Charu told her friend that she wanted her to be there at 6.00 p.m. the next day for the meeting",
     "options": [
       "Charu told her friend that she wanted her to be there at 6.00 p.m. the next day for the meeting",
@@ -916,13 +916,13 @@
   },
   {
     "word": "Nitin said to his brother, \"What a beautiful painting it is?",
-    "meaning_en": "Exclamatory sentences are reported using verbs like 'exclaimed'; among the given options, this is the only one that correctly identifies the sentence as an exclamation rather than a question or wondering.",
-    "meaning_hi": "",
-    "example": "Nitin exclaimed that it is a beautiful painting",
+    "meaning_en": "Exclamatory sentences are reported using 'exclaimed'. The verb backshifts: 'is' → 'was'. 'What a beautiful painting' → 'it was a very beautiful painting'. Note: the '?' in the direct sentence is a punctuation error — it should be '!'.",
+    "meaning_hi": "Exclamatory → Indirect | 'said' → 'exclaimed'। 'What a/How + adjective' → 'exclaimed that it was very + adjective'।",
+    "example": "Nitin exclaimed that it was a very beautiful painting",
     "options": [
       "Nitin wondered to his brother that what a beautiful painting it was",
       "Nitin wondered before his brother that it was a beautiful painting",
-      "Nitin exclaimed that it is a beautiful painting",
+      "Nitin exclaimed that it was a very beautiful painting",
       "Nitin asked his brother whether it was beautiful painting"
     ],
     "synonyms": [],
@@ -932,7 +932,7 @@
   {
     "word": "The teacher asked her students why they had been quiet in the previous class.",
     "meaning_en": "When converting back to direct speech, the pronoun reverts to 'you' (direct address) and the tense reverts to simple past 'were', retaining the article 'the' before 'previous class'.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change (2nd Person) | 'you' → Reporting verb के object के अनुसार बदलता है। 'said to me' → object 'me' (I); 'you' → 'I'।",
     "example": "The teacher said to her students, \"Why were you quiet in the previous class?\"",
     "options": [
       "The teacher asked her students, \"Why were they keeping quiet in the previous class?\"",
@@ -947,7 +947,7 @@
   {
     "word": "Ayushi said to the group, \"We have had enough of suffering today. It is time to march forward.",
     "meaning_en": "'We' shifts to 'they', 'today' shifts to 'that day', and the tense backshifts to past perfect 'had had'.",
-    "meaning_hi": "",
+    "meaning_hi": "Time Change: 'today' → 'that day' | 'now' → 'then', 'this' → 'that', 'here' → 'there'।",
     "example": "Ayushi told the group that they had had enough of suffering that day and it was time to march forward",
     "options": [
       "Ayushi told the group that they had had enough of suffering that day and it was time to march forward",
@@ -962,7 +962,7 @@
   {
     "word": "Alas! We lost the match by one point,\" said the Captain",
     "meaning_en": "'Alas!' expresses regret/sorrow, correctly reported using 'regretted', with the tense backshifted to past perfect.",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect → Past Perfect | Past Perfect Indirect Speech में नहीं बदलता; 'had + V3' वही रहता है।",
     "example": "The Captain regretted that they had lost the match by one point",
     "options": [
       "The Captain regretted that they had lost the match by one point",
@@ -977,7 +977,7 @@
   {
     "word": "Where were you last week?\" Alok asked Sheela",
     "meaning_en": "The reporting verb 'asked' is retained for a question, tense backshifts to past perfect, and 'last week' becomes 'the week before'.",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect → Past Perfect (No Change) | Past Perfect Indirect Speech में नहीं बदलता — यह already highest form है।",
     "example": "Alok asked Sheela where she had been the week before",
     "options": [
       "Alok told Sheela where she had been the week before",
@@ -992,7 +992,7 @@
   {
     "word": "He asked me, \"Have you done your homework?",
     "meaning_en": "A yes/no question in reported speech uses 'if/whether' and back-shifts the tense.",
-    "meaning_hi": "",
+    "meaning_hi": "Yes/No Question → Indirect | 'if' या 'whether' use करें ('that' नहीं)। Statement word order; '?' हटाएं।",
     "example": "He asked me if I had done my homework.",
     "options": [
       "He asked me if I had done my homework.",
@@ -1007,7 +1007,7 @@
   {
     "word": "He said that he would join the meeting after lunch.",
     "meaning_en": "'Would' in reported speech maps back to 'will' in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "'Will' → 'Would' | 'will' → Indirect में 'would' बनता है। यह Indirect Speech का मूल rule है।",
     "example": "\"I will join the meeting after lunch,\" he said.",
     "options": [
       "\"I will join the meeting after lunch,\" he said.",
@@ -1022,7 +1022,7 @@
   {
     "word": "She said, \"I saw him last night.",
     "meaning_en": "Past simple back-shifts to past perfect, and 'last night' becomes 'the previous night'.",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect → Past Perfect | Past Perfect Indirect Speech में नहीं बदलता; 'had + V3' वही रहता है।",
     "example": "She said she had seen him the previous night.",
     "options": [
       "She said she had seen him the previous night.",
@@ -1037,7 +1037,7 @@
   {
     "word": "The librarian said that silence must be maintained in the library.",
     "meaning_en": "'must be maintained' as an instruction converts to the imperative 'Maintain silence...'.",
-    "meaning_hi": "",
+    "meaning_hi": "Imperative (Order) → Indirect | 'said to' → 'ordered/commanded'। Formula: ordered + object + to + V1।",
     "example": "\"Maintain silence in the library,\" said the librarian.",
     "options": [
       "\"Silence should be maintained in the library,\" said the librarian.",
@@ -1052,7 +1052,7 @@
   {
     "word": "He said, \"I am not feeling well.",
     "meaning_en": "Present continuous back-shifts to past continuous: 'was not feeling well'.",
-    "meaning_hi": "",
+    "meaning_hi": "Past Continuous → Past Perfect Continuous | 'was/were + V1-ing' → Indirect में 'had been + V1-ing' बनता है।",
     "example": "He said that he was not feeling well.",
     "options": [
       "He said that he is not feeling well.",
@@ -1067,7 +1067,7 @@
   {
     "word": "The manager told the staff that deadlines must be followed strictly.",
     "meaning_en": "The reported 'must be followed' restores directly to '\"Deadlines must be followed strictly\"'.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | Tense और pronouns original direct speech form में वापस आते हैं।",
     "example": "\"Deadlines must be followed strictly,\" said the manager.",
     "options": [
       "\"Deadlines must be followed strictly,\" said the manager.",
@@ -1082,7 +1082,7 @@
   {
     "word": "She said, \"He doesn't listen to me.",
     "meaning_en": "Present simple 'doesn't listen' back-shifts to past 'didn't listen' in reported speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Tense Backshift Rule | Direct Speech का tense Indirect में एक step पीछे जाता है। Reporting verb past होने पर backshift लागू होता है।",
     "example": "She said that he didn't listen to her.",
     "options": [
       "She said he don't listen to her.",
@@ -1097,7 +1097,7 @@
   {
     "word": "The manager informed the employees that the deadline for submission had been extended by two days.",
     "meaning_en": "'had been extended' reverts to 'has been extended' in direct speech, preserving the original wording.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | Tense और pronouns original direct speech form में वापस आते हैं।",
     "example": "\"The deadline has been extended by two days,\" said the manager.",
     "options": [
       "\"You may submit the work two days later than planned,\" the manager informed.",
@@ -1112,7 +1112,7 @@
   {
     "word": "Ravi said, \"I like this pen.",
     "meaning_en": "'like' back-shifts to 'liked' and the demonstrative 'this' changes to 'that'.",
-    "meaning_hi": "",
+    "meaning_hi": "Time/Place Change | Direct के time words Indirect में बदलते हैं: today→that day, here→there, this→that, ago→before।",
     "example": "Ravi said he liked that pen.",
     "options": [
       "Ravi said he liked that pen.",
@@ -1127,7 +1127,7 @@
   {
     "word": "The judge said that justice must be served at any cost.",
     "meaning_en": "'must' (expressing obligation/universal truth) is retained unchanged in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Universal Truth — Tense नहीं बदलता | वैज्ञानिक सत्य / Universal truths → Indirect Speech में भी Present tense में रहते हैं।",
     "example": "\"Justice must be served at any cost,\" the judge said.",
     "options": [
       "\"Justice should be served at any cost,\" said the judge.",
@@ -1142,7 +1142,7 @@
   {
     "word": "He said, \"How long have you been waiting?",
     "meaning_en": "Present perfect continuous 'have been waiting' back-shifts to 'had been waiting', with question word order changed to statement order.",
-    "meaning_hi": "",
+    "meaning_hi": "WH Question → Indirect | WH word सीधे use करें (if/whether नहीं)। Statement word order (subject before verb); '?' हटाएं।",
     "example": "He asked how long I had been waiting.",
     "options": [
       "He asked how long had I been waiting.",
@@ -1157,7 +1157,7 @@
   {
     "word": "The coach said that the players were improving with each match.",
     "meaning_en": "Past continuous 'were improving' reverts to present continuous 'are improving' in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'was/were + V1-ing' → 'is/are + V1-ing' (present continuous) में वापस बदलता है।",
     "example": "\"The players are improving with each match,\" said the coach.",
     "options": [
       "\"The players are improving with each match,\" said the coach.",
@@ -1172,7 +1172,7 @@
   {
     "word": "He said, \"Do it right now.",
     "meaning_en": "An imperative is reported with 'told + object + to-infinitive', and 'right now' becomes 'at once'.",
-    "meaning_hi": "",
+    "meaning_hi": "Imperative → Indirect | 'said to' → appropriate verb (told/ordered/requested/advised)। Formula: verb + object + to + V1।",
     "example": "He told me to do it at once.",
     "options": [
       "He said do it immediately.",
@@ -1187,7 +1187,7 @@
   {
     "word": "The professor remarked that students needed to submit their papers before Friday.",
     "meaning_en": "The back-shifted 'needed' reverts to 'need' in direct speech, preserving the original statement form.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | Tense और pronouns original direct speech form में वापस आते हैं।",
     "example": "\"Students need to submit their papers before Friday,\" the professor remarked.",
     "options": [
       "\"Students need to submit their papers before Friday,\" the professor remarked.",
@@ -1202,7 +1202,7 @@
   {
     "word": "She said to me, \"Open the window.",
     "meaning_en": "An imperative addressed to someone is reported with 'told + object + to-infinitive'.",
-    "meaning_hi": "",
+    "meaning_hi": "Imperative → Indirect | 'said to' → appropriate verb (told/ordered/requested/advised)। Formula: verb + object + to + V1।",
     "example": "She told me to open the window.",
     "options": [
       "She told me open the window.",
@@ -1217,7 +1217,7 @@
   {
     "word": "She said that they had already left before she arrived.",
     "meaning_en": "The past perfect 'had already left' is retained, and 'she' reverts to the first person 'I' in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change | 1st/2nd person pronouns reporting verb के subject/object के अनुसार बदलते हैं।",
     "example": "\"They had already left before I arrived,\" she said.",
     "options": [
       "\"They have already left before I arrived,\" she said.",
@@ -1232,7 +1232,7 @@
   {
     "word": "She said, \"I had completed the report.",
     "meaning_en": "The past perfect 'had completed' does not back-shift further and is retained in reported speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect → Past Perfect (No Change) | Past Perfect Indirect Speech में नहीं बदलता — यह already highest form है।",
     "example": "She said that she had completed the report.",
     "options": [
       "She said that she completed the report.",
@@ -1247,7 +1247,7 @@
   {
     "word": "The scientist stated that water boiled at 100 degrees Celsius.",
     "meaning_en": "A universal/scientific truth stays in the simple present, so 'boiled' reverts to 'boils' in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Universal Truth — Tense नहीं बदलता | वैज्ञानिक सत्य / Universal truths → Indirect Speech में भी Present tense में रहते हैं।",
     "example": "\"Water boils at 100 degrees Celsius,\" the scientist stated.",
     "options": [
       "\"Water will boil at 100 degrees Celsius,\" said the scientist.",
@@ -1262,7 +1262,7 @@
   {
     "word": "He confessed that the violin concerto would have remained fragmentary had the late maestro not bequeathed his annotated sketches.",
     "meaning_en": "The reported conditional is kept intact in direct speech without altering the inversion or tense.",
-    "meaning_hi": "",
+    "meaning_hi": "Conditional → Indirect | Hypothetical conditions (if...were / would) → Indirect Speech में तनाव नहीं बदलता।",
     "example": "He said, \"The violin concerto would have remained fragmentary had the late maestro not bequeathed his annotated sketches.\"",
     "options": [
       "He said, \"The violin concerto would have remained fragmentary had the late maestro not bequeathed his annotated sketches.\"",
@@ -1277,7 +1277,7 @@
   {
     "word": "She said, \"I didn't see him at the station.",
     "meaning_en": "Simple past ('didn't see') shifts to past perfect ('had not seen') in indirect speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect → Past Perfect | Past Perfect Indirect Speech में नहीं बदलता; 'had + V3' वही रहता है।",
     "example": "She said that she had not seen him at the station.",
     "options": [
       "She said that she hasn't seen him at the station.",
@@ -1292,7 +1292,7 @@
   {
     "word": "Rita said, \"I haven't eaten anything.",
     "meaning_en": "Present perfect ('haven't eaten') shifts to past perfect ('hadn't eaten').",
-    "meaning_hi": "",
+    "meaning_hi": "Present Perfect → Past Perfect | 'have/has + V3' → Indirect में 'had + V3' बनता है।",
     "example": "Rita said that she hadn't eaten anything.",
     "options": [
       "Rita said that she didn't eat anything.",
@@ -1307,7 +1307,7 @@
   {
     "word": "They said, \"We shall overcome this challenge together.",
     "meaning_en": "'Shall' becomes 'would' and 'this' becomes 'that' in indirect speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Time/Place Change | Direct के time words Indirect में बदलते हैं: today→that day, here→there, this→that, ago→before।",
     "example": "They said they would overcome that challenge together.",
     "options": [
       "They said they will overcome that challenge together.",
@@ -1322,7 +1322,7 @@
   {
     "word": "The lawyer said that had the evidence not been tampered with, the verdict could have been different.",
     "meaning_en": "The inverted third conditional is retained unchanged in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Third Conditional → Indirect | 'If...had...would have' — यह पहले से Past Perfect + would have है; Indirect में tense नहीं बदलता।",
     "example": "\"Had the evidence not been tampered with, the verdict could have been different,\" said the lawyer.",
     "options": [
       "\"If the evidence had not tampered with, the verdict could change,\" said the lawyer.",
@@ -1337,7 +1337,7 @@
   {
     "word": "He remarked that the sculpture would have commanded greater gravitas had the pedestal been proportionally austere.",
     "meaning_en": "The reported third conditional is retained verbatim in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Third Conditional → Indirect | 'If...had...would have' — यह पहले से Past Perfect + would have है; Indirect में tense नहीं बदलता।",
     "example": "He said, \"The sculpture would have commanded greater gravitas had the pedestal been proportionally austere.\"",
     "options": [
       "He said, \"The sculpture would have commanded greater gravitas had the pedestal been proportionally austere.\"",
@@ -1352,7 +1352,7 @@
   {
     "word": "She said, \"Why did you lie to me?",
     "meaning_en": "A 'why' question keeps assertive word order and shifts past simple to past perfect.",
-    "meaning_hi": "",
+    "meaning_hi": "WH Question → Indirect | WH word सीधे use करें (if/whether नहीं)। Statement word order (subject before verb); '?' हटाएं।",
     "example": "She asked why I had lied to her.",
     "options": [
       "She asked why I lied to her.",
@@ -1367,7 +1367,7 @@
   {
     "word": "He said, \"The sun rises in the east.",
     "meaning_en": "A universal truth keeps the present tense in indirect speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Universal Truth — Tense नहीं बदलता | वैज्ञानिक सत्य / Universal truths → Indirect Speech में भी Present tense में रहते हैं।",
     "example": "He said that the sun rises in the east.",
     "options": [
       "He said that the sun rose in the east.",
@@ -1382,7 +1382,7 @@
   {
     "word": "She said, \"Why didn't you tell me the truth earlier?",
     "meaning_en": "The 'why' question takes assertive order and shifts past simple to past perfect.",
-    "meaning_hi": "",
+    "meaning_hi": "WH Question → Indirect | WH word सीधे use करें (if/whether नहीं)। Statement word order (subject before verb); '?' हटाएं।",
     "example": "She asked why I hadn't told her the truth earlier.",
     "options": [
       "She asked why I hadn't told her the truth earlier.",
@@ -1397,7 +1397,7 @@
   {
     "word": "The analyst said that were the policies amended earlier, the crisis could have been avoided.",
     "meaning_en": "The inverted conditional ('were the policies amended') becomes 'Had the policies been amended' in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Conditional → Indirect | Hypothetical conditions (if...were / would) → Indirect Speech में तनाव नहीं बदलता।",
     "example": "\"Had the policies been amended earlier, the crisis could have been avoided,\" said the analyst.",
     "options": [
       "\"If the policies were amended earlier, the crisis could have been avoided,\" said the analyst.",
@@ -1412,7 +1412,7 @@
   {
     "word": "He commented that the policy's efficacy would remain conjectural until longitudinal data accrued.",
     "meaning_en": "In direct speech, 'would remain' reverts to 'will remain' and 'accrued' to 'accrue'.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'would' → 'will' में वापस बदलता है।",
     "example": "He commented, \"The policy's efficacy will remain conjectural until longitudinal data accrue.\"",
     "options": [
       "He commented \"The efficacy of the policy remains conjectural as the data are yet to be collected.\"",
@@ -1427,7 +1427,7 @@
   {
     "word": "She said, \"I enjoy painting.",
     "meaning_en": "Simple present ('enjoy') shifts to simple past ('enjoyed') in indirect speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Past → Past Perfect | 'V2 (simple past)' → Indirect में 'had + V3 (past perfect)' बनता है।",
     "example": "She said that she enjoyed painting.",
     "options": [
       "She said that she enjoys painting.",
@@ -1442,7 +1442,7 @@
   {
     "word": "Teacher said, \"Who broke the window?",
     "meaning_en": "The 'who' question takes 'asked' and shifts past simple to past perfect ('had broken').",
-    "meaning_hi": "",
+    "meaning_hi": "WH Question → Indirect | WH word सीधे use करें (if/whether नहीं)। Statement word order (subject before verb); '?' हटाएं।",
     "example": "Teacher asked who had broken the window.",
     "options": [
       "Teacher asked who had broken the window.",
@@ -1457,7 +1457,7 @@
   {
     "word": "The patient said, \"It has been three days since I last slept.",
     "meaning_en": "Present perfect ('has been') becomes past perfect ('had been'), and 'last slept' becomes 'had last slept'.",
-    "meaning_hi": "",
+    "meaning_hi": "Present Perfect → Past Perfect | 'have/has + V3' → Indirect में 'had + V3' बनता है।",
     "example": "The patient said that it had been three days since he had last slept.",
     "options": [
       "The patient said that it was three days since he last slept.",
@@ -1472,7 +1472,7 @@
   {
     "word": "He said that little did he realize what consequences his words would have.",
     "meaning_en": "The reported past inversion ('little did he realize') becomes 'Little did I realize' in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Narration Change | Direct → Indirect में tense (backshift), pronouns, और time/place words appropriately बदलते हैं।",
     "example": "\"Little did I realize what consequences my words would have,\" he said.",
     "options": [
       "\"Little do I realize what consequences my words would have,\" he said.",
@@ -1487,7 +1487,7 @@
   {
     "word": "The manager said, \"We will make a decision by Friday.",
     "meaning_en": "In indirect speech, 'will' changes to 'would' (backshift of tense), and the pronoun 'we' is reported as 'they' since the reporter is not part of the group referred to.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change | 1st/2nd person pronouns reporting verb के subject/object के अनुसार बदलते हैं।",
     "example": "The manager said that they would make a decision by Friday.",
     "options": [
       "The manager said that they would make a decision by Friday.",
@@ -1502,7 +1502,7 @@
   {
     "word": "The manager told the team that their hard work and dedication had been noticed and appreciated.",
     "meaning_en": "Converting to direct speech reverses the backshift of tense (past perfect 'had been' reverts to present perfect 'have been'), and 'their' (referring to the team, the listener) becomes 'your' in direct address.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'had + V3' → 'have + V3' (present perfect) या 'V2' (simple past) में वापस बदलता है।",
     "example": "The manager said, \"Your hard work and dedication have been noticed and appreciated.\"",
     "options": [
       "The manager said, \"Your hard work and dedication had been noticed and appreciated.\"",
@@ -1517,7 +1517,7 @@
   {
     "word": "He asked me if I would have been able to finish the report that day if he had not helped me with the research, which had been a very tedious process.",
     "meaning_en": "In direct speech, 'that day' reverts to 'today', pronouns swap (I â†” you), and the third conditional structure 'would have been able' is retained; 'had been a very tedious process' simplifies to 'was a very tedious process' in direct address.",
-    "meaning_hi": "",
+    "meaning_hi": "Third Conditional → Indirect | 'If...had...would have' — यह पहले से Past Perfect + would have है; Indirect में tense नहीं बदलता।",
     "example": "\"Would you have been able to finish the report today if I had not helped you with the research, which was a very tedious process?\" he asked me.",
     "options": [
       "\"Would you have been able to finish the report today if I had not helped you with the research, which was a very tedious process?\" he asked me.",
@@ -1532,7 +1532,7 @@
   {
     "word": "The librarian told the child, \"You should not be making so much noise, because the other students have been trying to study for their exams.",
     "meaning_en": "The modal 'should' does not change in reported speech. The present perfect continuous 'have been trying' backshifts to past perfect continuous 'had been trying', and the pronoun 'you' becomes 'he'.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change (2nd Person) | 'you' → Reporting verb के object के अनुसार बदलता है। 'said to me' → object 'me' (I); 'you' → 'I'।",
     "example": "The librarian told the child that he should not be making so much noise, because the other students had been trying to study for their exams.",
     "options": [
       "The librarian told the child that he should not be making so much noise, because the other students had been trying to study for their exams.",
@@ -1547,7 +1547,7 @@
   {
     "word": "He said that if he were to receive a promotion, he would buy his family a bigger house.",
     "meaning_en": "Per the official answer key, the indirect 'if he were to receive... he would buy' is treated as reporting a first conditional ('if...will'), converting back to 'If I receive a promotion, I will buy...' in direct speech. Note this is debatable: option 2, which preserves the original 'were to... would' hypothetical conditional structure unchanged, is arguably the more standard grammatical conversion, since second-conditional (hypothetical) clauses typically retain their form in direct speech regardless of the reporting verb's tense.",
-    "meaning_hi": "",
+    "meaning_hi": "Second Conditional → Indirect | Hypothetical conditionals (Past + would) → Indirect Speech में tense नहीं बदलते।",
     "example": "He said, \"If I receive a promotion, I will buy my family a bigger house.\"",
     "options": [
       "He said, \"If I received a promotion, I would buy my family a bigger house.\"",
@@ -1562,7 +1562,7 @@
   {
     "word": "The company CEO announced, \"We will not be able to meet the deadline for this quarter, which is a great disappointment for all of us, but we will have to work harder next time.",
     "meaning_en": "In indirect speech, 'will' backshifts to 'would', 'is' to 'was', 'us' to 'them', 'this quarter' to 'that quarter' (change of proximity marker), and 'next time' to 'the next time' (standard time-expression shift).",
-    "meaning_hi": "",
+    "meaning_hi": "'Will' → 'Would' | 'will' → Indirect में 'would' बनता है। यह Indirect Speech का मूल rule है।",
     "example": "The company CEO announced that they would not be able to meet the deadline for that quarter, which was a great disappointment for all of them, but that they would have to work harder the next time.",
     "options": [
       "The company CEO announced that they will not be able to meet the deadline for this quarter, which is a great disappointment for all of us, but that they will have to work harder next time.",
@@ -1577,7 +1577,7 @@
   {
     "word": "The captain explained that the ship had been sailing for three weeks and they had faced a severe storm the previous night.",
     "meaning_en": "The ongoing background action 'had been sailing' (past perfect continuous) is retained in direct speech, while the completed action 'had faced' simplifies to simple past 'faced', and 'the previous night' reverts to 'last night'.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'had been + V1-ing' → 'have been + V1-ing' (present perfect continuous) में वापस बदलता है।",
     "example": "The captain explained, \"The ship had been sailing for three weeks, and we faced a severe storm last night.\"",
     "options": [
       "The captain explained, \"The ship was sailing for three weeks, and we faced a severe storm last night.\"",
@@ -1592,7 +1592,7 @@
   {
     "word": "He said to her, \"If you can solve this puzzle, I will give you the prize that I was planning to give away all along.",
     "meaning_en": "In indirect speech, \"can\" changes to \"could,\" \"will\" changes to \"would,\" \"was planning\" changes to \"had been planning,\" and \"this\" changes to \"that.\"",
-    "meaning_hi": "",
+    "meaning_hi": "'Will' → 'Would' | 'will' → Indirect में 'would' बनता है। यह Indirect Speech का मूल rule है।",
     "example": "He told her that if she could solve that puzzle, he would give her the prize that he had been planning to give away all along.",
     "options": [
       "He told her that if she could solve that puzzle, he would give her the prize that he had been planning to give away all along.",
@@ -1607,7 +1607,7 @@
   {
     "word": "The detective asked the suspect how he could have committed the crime without leaving any evidence when the security cameras had been recording all night.",
     "meaning_en": "\"Could have committed\" and \"had been recording\" (past perfect continuous) in indirect speech must be reverted correctly to preserve the same tense structure in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect → Past Perfect | Past Perfect Indirect Speech में नहीं बदलता; 'had + V3' वही रहता है।",
     "example": "The detective asked the suspect, \"How could you have committed the crime without leaving any evidence when the security cameras had been recording all night?\"",
     "options": [
       "The detective asked the suspect, \"How can you commit the crime without leaving any evidence when the security cameras have been recording all night?\"",
@@ -1622,7 +1622,7 @@
   {
     "word": "The captain said, \"We have been sailing in these choppy waters for two days, and we expect that the storm, which is now on the horizon, will hit us in a few hours.",
     "meaning_en": "In indirect speech, \"have been sailing\" becomes \"had been sailing,\" \"expect\" becomes \"expected,\" \"is\" becomes \"was,\" \"will\" becomes \"would,\" \"these\" becomes \"those,\" and \"now\" becomes \"then.\"",
-    "meaning_hi": "",
+    "meaning_hi": "'Will' → 'Would' | 'will' → Indirect में 'would' बनता है। यह Indirect Speech का मूल rule है।",
     "example": "The captain said that they had been sailing in those choppy waters for two days, and they expected that the storm, which was then on the horizon, would hit them in a few hours.",
     "options": [
       "The captain said that they have been sailing in these choppy waters for two days, and they expect that the storm, which is now on the horizon, will hit them in a few hours.",
@@ -1637,7 +1637,7 @@
   {
     "word": "The scientist announced that the new compound would react violently if it came into contact with water, and that they had been observing its properties for months.",
     "meaning_en": "Reverting to direct speech, \"would react\" becomes \"will react,\" \"came into contact\" becomes \"comes into contact,\" and \"had been observing\" becomes \"have been observing,\" since it is a general scientific statement.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'would' → 'will' में वापस बदलता है।",
     "example": "The scientist announced, \"The new compound will react violently if it comes into contact with water, and we have been observing its properties for months.\"",
     "options": [
       "The scientist announced, \"The new compound will react violently if it comes into contact with water, and we have been observing its properties for months.\"",
@@ -1652,7 +1652,7 @@
   {
     "word": "He said, \"I finished my project, and I was working on a new one.",
     "meaning_en": "In indirect speech, simple past (\"finished\") becomes past perfect (\"had finished\"), and past continuous (\"was working\") becomes past perfect continuous (\"had been working\").",
-    "meaning_hi": "",
+    "meaning_hi": "Past Continuous → Past Perfect Continuous | 'was/were + V1-ing' → Indirect में 'had been + V1-ing' बनता है।",
     "example": "He said that he had finished his project and he had been working on a new one.",
     "options": [
       "He said that he had finished his project and he was working on a new one.",
@@ -1667,7 +1667,7 @@
   {
     "word": "The young boy asked his mother how he could fix his broken toy.",
     "meaning_en": "The reporting verb \"asked\" and reference to \"his mother\" as the listener are retained, and \"could\" reverts to \"can\" with the pronouns changed to first person.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change | 1st/2nd person pronouns reporting verb के subject/object के अनुसार बदलते हैं।",
     "example": "The young boy asked his mother, \"How can I fix my broken toy?\"",
     "options": [
       "The young boy asked, \"How could I fix my broken toy?\"",
@@ -1682,7 +1682,7 @@
   {
     "word": "The judge said that the defendant's plea of not guilty had been a waste of the court's time, as the evidence which had been presented by the prosecution had clearly proven that he was guilty.",
     "meaning_en": "Reverting the past perfect tenses of indirect speech to direct speech: \"had been\" becomes \"has been,\" \"had been presented\" becomes \"was presented,\" and \"had proven...was guilty\" becomes \"has proven...is guilty,\" reflecting the judge's present assessment.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'had + V3' → 'have + V3' (present perfect) या 'V2' (simple past) में वापस बदलता है।",
     "example": "\"The defendant's plea of not guilty has been a waste of the court's time, as the evidence which was presented by the prosecution has clearly proven that he is guilty,\" the judge said.",
     "options": [
       "\"The defendant's plea of not guilty was a waste of the court's time, as the evidence which was presented by the prosecution has clearly proven that he is guilty,\" the judge said.",
@@ -1697,7 +1697,7 @@
   {
     "word": "The tour guide said, \"We have been walking for hours, but the ruins we have been looking for are just around this corner, and we will be there in a few minutes.",
     "meaning_en": "In indirect speech, present perfect continuous (\"have been walking\") becomes past perfect continuous (\"had been walking\"), \"are\" becomes \"were,\" \"will\" becomes \"would,\" and \"this\" becomes \"that.\"",
-    "meaning_hi": "",
+    "meaning_hi": "Present Perfect Continuous → Past Perfect Continuous | 'have been + V1-ing' → Indirect में 'had been + V1-ing' बनता है।",
     "example": "The tour guide said that they had been walking for hours, but the ruins they had been looking for were just around that corner, and they would be there in a few minutes.",
     "options": [
       "The tour guide said that they had been walking for hours, but the ruins they had been looking for were just around that corner, and they would be there in a few minutes.",
@@ -1712,7 +1712,7 @@
   {
     "word": "He said to her that the film they had watched the previous night was not as good as he had expected it to be.",
     "meaning_en": "Reverting to direct speech, past perfect (\"had watched,\" \"had expected\") becomes simple past (\"watched,\" \"expected\"), and \"the previous night\" becomes \"last night.\"",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'had + V3' → 'have + V3' (present perfect) या 'V2' (simple past) में वापस बदलता है।",
     "example": "He said to her, \"The film we watched last night was not as good as I expected it to be.\"",
     "options": [
       "He said to her, \"The film we watched last night was not as good as I expected it to be.\"",
@@ -1727,7 +1727,7 @@
   {
     "word": "The professor said, \"The study published last year proves that the hypothesis is false.",
     "meaning_en": "\"Last year\" changes to \"the previous year\" and \"proves\" changes to \"proved,\" but since the falseness of the hypothesis remains a universally true fact, \"is false\" is retained in present tense.",
-    "meaning_hi": "",
+    "meaning_hi": "Narration Change | Direct → Indirect में tense (backshift), pronouns, और time/place words appropriately बदलते हैं।",
     "example": "The professor said that the study published the previous year proved that the hypothesis is false.",
     "options": [
       "The professor said that the study published the previous year proved that the hypothesis was false.",
@@ -1742,7 +1742,7 @@
   {
     "word": "My friend told me that she had been thinking about quitting her job but that she had not made a final decision yet.",
     "meaning_en": "Reverting to direct speech, past perfect continuous (\"had been thinking\") becomes present perfect continuous (\"have been thinking\"), and \"had not made\" becomes \"have not made.\"",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'had been + V1-ing' → 'have been + V1-ing' (present perfect continuous) में वापस बदलता है।",
     "example": "My friend said to me, \"I have been thinking about quitting my job, but I have not made a final decision yet.\"",
     "options": [
       "My friend said to me, \"I was thinking about quitting my job, but I have not made a final decision yet.\"",
@@ -1757,7 +1757,7 @@
   {
     "word": "The director said, \"The new actor will be arriving shortly.",
     "meaning_en": "In indirect speech, the future continuous tense \"will be arriving\" changes to \"would be arriving,\" preserving the continuous aspect.",
-    "meaning_hi": "",
+    "meaning_hi": "Future Continuous → Indirect | 'will be + V1-ing' → Indirect में 'would be + V1-ing' बनता है।",
     "example": "The director said that the new actor would be arriving shortly.",
     "options": [
       "The director said that the new actor would be arriving shortly.",
@@ -1772,7 +1772,7 @@
   {
     "word": "The professor explained that although the theory had been considered correct for centuries, new findings now proved that it was flawed.",
     "meaning_en": "Reverting past perfect (\"had been considered,\" \"had proved\") to direct speech present-relevant tenses gives present perfect (\"has been considered\") and simple present (\"prove,\" \"is flawed\"), since \"now\" signals the professor's immediate statement.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'had + V3' → 'have + V3' (present perfect) या 'V2' (simple past) में वापस बदलता है।",
     "example": "The professor explained, \"Although the theory has been considered correct for centuries, new findings now prove that it is flawed.\"",
     "options": [
       "The professor explained, \"Although the theory had been considered correct for centuries, new findings now prove that it is flawed.\"",
@@ -1787,7 +1787,7 @@
   {
     "word": "Who is singing so beautifully?\" the judge asked.",
     "meaning_en": "In indirect speech, the wh-question retains its normal word order (subject before verb) and the present continuous \"is singing\" changes to past continuous \"was singing.\"",
-    "meaning_hi": "",
+    "meaning_hi": "Yes/No Question → Indirect | 'if' या 'whether' use करें ('that' नहीं)। Statement word order; '?' हटाएं।",
     "example": "The judge asked who was singing so beautifully.",
     "options": [
       "The judge asked who was singing so beautifully.",
@@ -1802,7 +1802,7 @@
   {
     "word": "The historian asserted that the ruins were much older than previously thought and that new research had been continually proving it for years.",
     "meaning_en": "Reverting to direct speech, since the fact (ruins being older) remains true, \"were\" becomes \"are,\" and past perfect continuous (\"had been proving\") becomes present perfect continuous (\"has been proving\").",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'had been + V1-ing' → 'have been + V1-ing' (present perfect continuous) में वापस बदलता है।",
     "example": "The historian said, \"The ruins are much older than previously thought, and new research has been continually proving it for years.\"",
     "options": [
       "The historian said, \"The ruins were much older than previously thought, and new research has been continually proving it for years.\"",
@@ -1817,7 +1817,7 @@
   {
     "word": "The guide said, \"We will be exploring the ruins all morning.",
     "meaning_en": "In indirect speech, future continuous \"will be exploring\" changes to \"would be exploring,\" and the pronoun \"we\" changes to \"they\" since the guide's group is being referred to in reported speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change | 1st/2nd person pronouns reporting verb के subject/object के अनुसार बदलते हैं।",
     "example": "The guide said that they would be exploring the ruins all morning.",
     "options": [
       "The guide said that they would be exploring the ruins all morning.",
@@ -1832,7 +1832,7 @@
   {
     "word": "The traveler explained that he was going to visit several historic sites on his trip.",
     "meaning_en": "Reverting to direct speech, the pronoun \"he\" changes to \"I\" (the speaker), \"his\" changes to \"my,\" and \"was going to visit\" reverts to the present continuous \"am going to visit,\" as marked in the official key.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change | 1st/2nd person pronouns reporting verb के subject/object के अनुसार बदलते हैं।",
     "example": "The traveler said, \"I am going to visit several historic sites on my trip.\"",
     "options": [
       "The traveler said, \"He was going to visit several historic sites on his trip.\"",
@@ -1847,7 +1847,7 @@
   {
     "word": "He says, \"I am building a model ship in my spare time.",
     "meaning_en": "Since the reporting verb \"says\" is in present tense, the tense of the reported speech does not change: \"is building\" remains \"is building.\"",
-    "meaning_hi": "",
+    "meaning_hi": "Narration Change | Direct → Indirect में tense (backshift), pronouns, और time/place words appropriately बदलते हैं।",
     "example": "He says that he is building a model ship in his spare time.",
     "options": [
       "He says that he was building a model ship in his spare time.",
@@ -1862,7 +1862,7 @@
   {
     "word": "The old woman told the children that they should always be kind to animals and that she had been doing so her entire life.",
     "meaning_en": "\"Should\" (advice/obligation) is retained as \"should\" in direct speech, and past perfect continuous (\"had been doing\") reverts to present perfect continuous (\"have been doing\") since the action continues into the present.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'had been + V1-ing' → 'have been + V1-ing' (present perfect continuous) में वापस बदलता है।",
     "example": "The old woman said to the children, \"You should always be kind to animals, and I have been doing so my entire life.\"",
     "options": [
       "The old woman said to the children, \"You must always be kind to animals, and I have done so my entire life.\"",
@@ -1877,7 +1877,7 @@
   {
     "word": "The student said, \"I have been reading this book for a month, but I still do not understand the last chapter, which is the most crucial part.",
     "meaning_en": "In reported speech, present perfect continuous ('have been reading') shifts to past perfect continuous ('had been reading'), present simple ('is') shifts to past ('was'), 'this' shifts to 'that', and the tense of the reporting clause verb also shifts accordingly ('do not understand' → 'did not understand').",
-    "meaning_hi": "",
+    "meaning_hi": "Time/Place Change | Direct के time words Indirect में बदलते हैं: today→that day, here→there, this→that, ago→before।",
     "example": "The student said that he had been reading that book for a month, but he still did not understand the last chapter, which was the most crucial part.",
     "options": [
       "The student said that he had been reading that book for a month, but he still did not understand the last chapter, which was the most crucial part.",
@@ -1892,7 +1892,7 @@
   {
     "word": "The doctor said, \"If you exercise regularly, you will feel better.",
     "meaning_en": "The general 'you' in a conditional statement of general truth is reported using the indefinite pronoun 'one', and the tense shifts back: 'exercise' → 'exercised', 'will feel' → 'would feel'.",
-    "meaning_hi": "",
+    "meaning_hi": "Conditional → Indirect | Hypothetical conditions (if...were / would) → Indirect Speech में तनाव नहीं बदलता।",
     "example": "The doctor said that if one exercised regularly, one would feel better.",
     "options": [
       "The doctor said that if you exercised regularly, you would feel better.",
@@ -1907,7 +1907,7 @@
   {
     "word": "The student told his friend that he had to go home that day because he had been feeling unwell since the day before, and his parents were waiting for him.",
     "meaning_en": "Converting back to direct speech, the reported past tenses revert to the tenses originally spoken: 'had to' → 'have to', 'the day before' → 'yesterday', 'that day' → 'today', and 'were waiting' → 'are waiting', as per the official answer key.",
-    "meaning_hi": "",
+    "meaning_hi": "Time Change: 'yesterday' → 'the previous day' / 'the day before' | Simple Past → Past Perfect।",
     "example": "\"I have to go home today because I was feeling unwell since yesterday, and my parents are waiting for me,\" the student said to his friend.",
     "options": [
       "\"I have to go home today because I was feeling unwell since yesterday, and my parents are waiting for me,\" the student said to his friend.",
@@ -1922,7 +1922,7 @@
   {
     "word": "The teacher told the students that they had to complete the complex project that had been assigned to them the previous week, as it was a crucial part of their curriculum which would determine their final grades.",
     "meaning_en": "Converting to direct speech reverses the tense shifts: 'had to' → 'must', 'had been assigned' → 'was assigned', 'was' → 'is', 'would determine' → 'will determine', and 'the previous week'/'that' revert to 'last week'/'this'.",
-    "meaning_hi": "",
+    "meaning_hi": "Time/Place Change | Direct के time words Indirect में बदलते हैं: today→that day, here→there, this→that, ago→before।",
     "example": "\"You must complete this complex project that was assigned to you last week, as it is a crucial part of your curriculum which will determine your final grades,\" the teacher said to the students.",
     "options": [
       "\"You must complete this complex project that has been assigned to you last week, as it is a crucial part of your curriculum which will determine your final grades,\" the teacher said to the students.",
@@ -1937,7 +1937,7 @@
   {
     "word": "The manager told the employees that their hard work had been noticed and that they would be given a bonus at the end of the quarter, which would be an acknowledgement of their dedication.",
     "meaning_en": "Converting to direct speech, 'had been noticed' → 'has been noticed', 'would be given' → 'will be given', and pronouns 'their/they' revert to 'your/you' since the manager is addressing the employees directly.",
-    "meaning_hi": "",
+    "meaning_hi": "Addressing Terms Removal | 'Sir', 'Madam', 'Uncle' जैसे addressing terms Indirect Speech में हटा दिए जाते हैं।",
     "example": "\"Your hard work has been noticed and you will be given a bonus at the end of the quarter, which will be an acknowledgement of your dedication,\" the manager said to the employees.",
     "options": [
       "\"Your hard work has been noticed and you will be given a bonus at the end of the quarter, which will be an acknowledgement of your dedication,\" the manager said to the employees.",
@@ -1952,7 +1952,7 @@
   {
     "word": "He said, \"I will be working on the project.",
     "meaning_en": "Future continuous ('will be working') shifts to 'would be working' in reported speech, preserving the continuous aspect.",
-    "meaning_hi": "",
+    "meaning_hi": "Future Continuous → Indirect | 'will be + V1-ing' → Indirect में 'would be + V1-ing' बनता है।",
     "example": "He said that he would be working on the project.",
     "options": [
       "He said that he would be working on the project.",
@@ -1967,7 +1967,7 @@
   {
     "word": "The environmentalist said that although the governments had been discussing the issue for years, they had not yet implemented any effective measures, and he believed that time was running out.",
     "meaning_en": "Converting to direct speech, the reported past perfect continuous/perfect tenses revert to present perfect ('had been discussing' → 'have been discussing', 'had not implemented' → 'haven't implemented'), and 'was running out' → 'is running out' since the speaker's belief is stated as current.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'had been + V1-ing' → 'have been + V1-ing' (present perfect continuous) में वापस बदलता है।",
     "example": "\"Although the governments have been discussing the issue for years, they haven't yet implemented any effective measures, and I believe that time is running out,\" the environmentalist said.",
     "options": [
       "\"Although the governments were discussing the issue for years, they have not yet implemented any effective measures, and I believe that time is running out,\" the environmentalist said.",
@@ -1982,7 +1982,7 @@
   {
     "word": "Sujit said, \"Can you pass me the chilli sauce please?",
     "meaning_en": "A polite request ('Can you...please') is reported using 'requested' with the modal shifted back to 'could', and the redundant politeness marker 'please' is dropped in reported speech.",
-    "meaning_hi": "",
+    "meaning_hi": "'Can' → 'Could' | 'can' → Indirect में 'could' बनता है।",
     "example": "Sujit requested if he could pass him the chilli sauce.",
     "options": [
       "Sujit requested if he could pass him the chilli sauce please.",
@@ -1997,7 +1997,7 @@
   {
     "word": "He said, \"The train will leave in ten minutes.",
     "meaning_en": "Future simple ('will leave') shifts back to 'would leave' in reported speech.",
-    "meaning_hi": "",
+    "meaning_hi": "'Will' → 'Would' | 'will' → Indirect में 'would' बनता है। यह Indirect Speech का मूल rule है।",
     "example": "He said that the train would leave in ten minutes.",
     "options": [
       "He said that the train would leave in ten minutes.",
@@ -2012,7 +2012,7 @@
   {
     "word": "The politician declared that he would not be swayed by the opposition's baseless accusations which were aimed at destabilizing the government that had been working for the welfare of the country for years.",
     "meaning_en": "Converting to direct speech reverses the tense shifts: 'would not be swayed' → 'will not be swayed', 'were aimed' → 'are aimed', and 'had been working' → 'has been working', with the pronoun 'he' reverting to 'I' as the politician is speaking about himself.",
-    "meaning_hi": "",
+    "meaning_hi": "Conditional → Indirect | Hypothetical conditions (if...were / would) → Indirect Speech में तनाव नहीं बदलता।",
     "example": "\"I will not be swayed by the opposition's baseless accusations which are aimed at destabilizing the government that has been working for the welfare of the country for years,\" the politician declared.",
     "options": [
       "\"I will not be swayed by the opposition's baseless accusations which were aimed at destabilizing the government that had been working for the welfare of the country for years,\" the politician declared.",
@@ -2027,7 +2027,7 @@
   {
     "word": "She asked him if he had been to the new cafe that had opened the previous week, and whether he thought it was better than the one they had been going to for months.",
     "meaning_en": "Converting to direct speech, 'had been' → 'have been', 'had opened' → 'opened', 'the previous week' → 'last week', and 'thought'/'was' → 'think'/'is', since she is asking about the present moment.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | Tense और pronouns original direct speech form में वापस आते हैं।",
     "example": "\"Have you been to the new cafe that opened last week, and do you think it is better than the one we have been going to for months?\" she asked him.",
     "options": [
       "\"Has you been to the new cafe that opened last week, and do you think it is better than the one we had been going to for months?\" she asked him.",
@@ -2042,7 +2042,7 @@
   {
     "word": "The detective told the witnesses that they must tell him everything they had seen that morning, as it could be the key to solving the case that had been haunting the city for a long time.",
     "meaning_en": "Converting to direct speech, 'had seen' → 'saw', 'that morning' → 'this morning', and 'had been haunting' → 'has been haunting', while retaining 'must' as it expresses an unchanged obligation, and the pronoun 'me' since the detective is speaking to the witnesses directly.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change | 1st/2nd person pronouns reporting verb के subject/object के अनुसार बदलते हैं।",
     "example": "\"You must tell me everything you saw this morning, as it could be the key to solving the case that has been haunting the city for a long time,\" the detective said to the witnesses.",
     "options": [
       "\"You must tell me everything you saw this morning, as it could be the key to solving the case that has been haunting the city for a long time,\" the detective said to the witnesses.",
@@ -2057,7 +2057,7 @@
   {
     "word": "The professor said, \"The students who had been absent yesterday will have to submit their assignments by tomorrow, or they will be penalized.",
     "meaning_en": "'Had been absent yesterday' → 'had been absent the day before', 'will have to' → 'would have to', 'tomorrow' → 'the next day', and 'will be penalized' → 'would be penalized' — all standard backshifts for reported speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Time Change: 'yesterday' → 'the previous day' / 'the day before' | Simple Past → Past Perfect।",
     "example": "The professor said that the students who had been absent the day before would have to submit their assignments by the next day, or they would be penalized.",
     "options": [
       "The professor said that the students who had been absent the day before would have to submit their assignments by the next day, or they would be penalized.",
@@ -2072,7 +2072,7 @@
   {
     "word": "He told me, \"I was trying to call you, but my phone's battery died, so I have been looking for a public phone since then.",
     "meaning_en": "'Was trying' → 'had been trying', 'you' → 'me' (referring back to the listener), and since the battery dying happened before the looking began, 'died' correctly shifts to the past perfect 'had died' to preserve the sequence of past events.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change (2nd Person) | 'you' → Reporting verb के object के अनुसार बदलता है। 'said to me' → object 'me' (I); 'you' → 'I'।",
     "example": "He told me that he had been trying to call me, but his phone's battery had died, so he had been looking for a public phone since then.",
     "options": [
       "He told me that he was trying to call you, but his phone's battery died, so he has been looking for a public phone since then.",
@@ -2087,7 +2087,7 @@
   {
     "word": "The journalist noted that the celebrity was having a very busy schedule that week.",
     "meaning_en": "Converting to direct speech, 'was having' → 'is having' and 'that week' → 'this week', retaining the reporting verb 'noted' as used in the original.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | Tense और pronouns original direct speech form में वापस आते हैं।",
     "example": "The journalist noted, \"The celebrity is having a very busy schedule this week.\"",
     "options": [
       "The journalist noted, \"The celebrity is having a very busy schedule this week.\"",
@@ -2102,7 +2102,7 @@
   {
     "word": "The student, with a confused look, asked the librarian how he could find a book on medieval history.",
     "meaning_en": "Converting to direct speech, 'could find' → 'can find' and the third-person 'he' reverts to the first-person 'I', since the student is speaking about himself directly to the librarian.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change | 1st/2nd person pronouns reporting verb के subject/object के अनुसार बदलते हैं।",
     "example": "The student asked the librarian, \"How can I find a book on medieval history?\"",
     "options": [
       "The student asked the librarian, \"How can I find a book on medieval history?\"",
@@ -2117,7 +2117,7 @@
   {
     "word": "The man said to his wife, \"What have I done to you that you are treating me so cruelly?",
     "meaning_en": "Present perfect ('have done') shifts to past perfect ('had done') in indirect speech, while present continuous ('are treating') shifts to past continuous ('was treating'). No interrogative word 'that' is needed since 'what' already introduces the clause.",
-    "meaning_hi": "",
+    "meaning_hi": "WH Question → Indirect | WH word सीधे use करें (if/whether नहीं)। Statement word order (subject before verb); '?' हटाएं।",
     "example": "The man asked his wife what he had done to her that she was treating him so cruelly.",
     "options": [
       "The man asked his wife that what he did to her that she was treating him so cruelly.",
@@ -2132,7 +2132,7 @@
   {
     "word": "He said that he had finished his work.",
     "meaning_en": "The past perfect 'had finished' in indirect speech reverts to present perfect 'have finished' in direct speech, and the pronouns must correctly refer back to the speaker himself ('I ... my').",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change | 1st/2nd person pronouns reporting verb के subject/object के अनुसार बदलते हैं।",
     "example": "He said, \"I have finished my work.\"",
     "options": [
       "He said, \"I have finished his work.\"",
@@ -2147,7 +2147,7 @@
   {
     "word": "He said that the machine operates automatically but had malfunctioned that morning.",
     "meaning_en": "A universal/habitual fact ('operates automatically') stays in present tense in direct speech, past perfect ('had malfunctioned') reverts to simple past ('malfunctioned'), and 'that morning' converts to 'this morning' in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'had + V3' → 'have + V3' (present perfect) या 'V2' (simple past) में वापस बदलता है।",
     "example": "He said, \"The machine operates automatically, but malfunctioned this morning.\"",
     "options": [
       "He said, \"The machine operated automatically but had malfunctioned that morning.\"",
@@ -2162,7 +2162,7 @@
   {
     "word": "She said, \"I have completed my task.",
     "meaning_en": "Present perfect 'have completed' shifts to past perfect 'had completed' in indirect speech, and pronouns 'I'/'my' shift to 'she'/'her' to match the subject of the reporting verb.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change | 1st/2nd person pronouns reporting verb के subject/object के अनुसार बदलते हैं।",
     "example": "She said that she had completed her task.",
     "options": [
       "She said that she has completed her task.",
@@ -2177,7 +2177,7 @@
   {
     "word": "The manager said, \"Will you attend the birthday party of my daughter please?",
     "meaning_en": "A polite request introduced with 'please' is reported using 'requested', 'will' shifts to 'would', and 'whether' introduces the reported yes/no question, followed by the base form 'attend'.",
-    "meaning_hi": "",
+    "meaning_hi": "Yes/No Question → Indirect | 'if' या 'whether' use करें ('that' नहीं)। Statement word order; '?' हटाएं।",
     "example": "The manager requested whether they would attend the birthday party of his daughter.",
     "options": [
       "The manager requested whether they would attend the birthday party of his daughter.",
@@ -2192,7 +2192,7 @@
   {
     "word": "The foreman stated that the team had completed the construction project the previous day.",
     "meaning_en": "Past perfect 'had completed' reverts to simple past 'completed' in direct speech, the reporting verb becomes simple 'said', and 'the previous day' converts back to 'yesterday'.",
-    "meaning_hi": "",
+    "meaning_hi": "Time Change: 'yesterday' → 'the previous day' / 'the day before' | Simple Past → Past Perfect।",
     "example": "The foreman said, \"The team completed the construction project yesterday.\"",
     "options": [
       "The foreman said, \"The team has completed the construction project yesterday.\"",
@@ -2207,7 +2207,7 @@
   {
     "word": "The king said to his wife, \"I have already conquered all the neighbouring kingdoms and possess all the wealth therein.",
     "meaning_en": "Both present perfect ('have conquered') and simple present ('possess') shift backward in indirect speech to past perfect ('had conquered') and simple past ('possessed') respectively, for tense consistency.",
-    "meaning_hi": "",
+    "meaning_hi": "Present Perfect → Past Perfect | 'have/has + V3' → Indirect में 'had + V3' बनता है।",
     "example": "The king told his wife that he had already conquered all the neighbouring kingdoms and possessed all the wealth therein.",
     "options": [
       "The king told his wife that he had already conquered all the neighbouring kingdoms and possessed all the wealth therein.",
@@ -2222,7 +2222,7 @@
   {
     "word": "The workers will be installing the new equipment,\" the supervisor said.",
     "meaning_en": "Future continuous 'will be installing' shifts to 'would be installing' in indirect speech, following standard backshift rules.",
-    "meaning_hi": "",
+    "meaning_hi": "Future Continuous → Indirect | 'will be + V1-ing' → Indirect में 'would be + V1-ing' बनता है।",
     "example": "The supervisor said that the workers would be installing the new equipment.",
     "options": [
       "The supervisor said that the workers would be installing the new equipment.",
@@ -2237,7 +2237,7 @@
   {
     "word": "The scientist told the students that light travels faster than sound.",
     "meaning_en": "Universal truths remain in simple present tense even in direct speech, and 'told' converts to 'said to' when addressing a listener directly.",
-    "meaning_hi": "",
+    "meaning_hi": "Universal Truth — Tense नहीं बदलता | वैज्ञानिक सत्य / Universal truths → Indirect Speech में भी Present tense में रहते हैं।",
     "example": "The scientist said to the students, \"Light travels faster than sound.\"",
     "options": [
       "The scientist told the students, \"Light travelled faster than sound.\"",
@@ -2252,7 +2252,7 @@
   {
     "word": "The child said, \"I am ten years old.",
     "meaning_en": "Simple present 'am' shifts to simple past 'was' in indirect speech, following standard backshift rules.",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Past → Past Perfect | 'V2 (simple past)' → Indirect में 'had + V3 (past perfect)' बनता है।",
     "example": "The child said that he was ten years old.",
     "options": [
       "The child said that he has been ten years old.",
@@ -2267,7 +2267,7 @@
   {
     "word": "The historian concluded that the ancient civilization had developed advanced irrigation techniques long before its demise.",
     "meaning_en": "Past perfect 'had developed' reverts to simple past 'developed' in direct speech, and the reporting verb 'concluded' simplifies to 'said' when quoting exact words.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'had + V3' → 'have + V3' (present perfect) या 'V2' (simple past) में वापस बदलता है।",
     "example": "The historian said, \"The ancient civilization developed advanced irrigation techniques long before its demise.\"",
     "options": [
       "The historian said, \"The ancient civilization had developed advanced irrigation techniques long before its demise.\"",
@@ -2282,7 +2282,7 @@
   {
     "word": "The lady said to her friend, \"When was the bridge built here on this river?",
     "meaning_en": "Simple past 'was built' shifts to past perfect 'had been built' in indirect speech, and the proximity markers 'here'/'this' change to 'there'/'that'.",
-    "meaning_hi": "",
+    "meaning_hi": "Time/Place Change | Direct के time words Indirect में बदलते हैं: today→that day, here→there, this→that, ago→before।",
     "example": "The lady asked her friend when the bridge had been built there on that river.",
     "options": [
       "The lady asked her friend when the bridge had been built there on this river.",
@@ -2297,7 +2297,7 @@
   {
     "word": "He said, \"What are you doing today?",
     "meaning_en": "Present continuous 'are doing' shifts to past continuous 'was doing', word order reverts to statement form (no inversion), and 'today' converts to 'that day'.",
-    "meaning_hi": "",
+    "meaning_hi": "Time Change: 'today' → 'that day' | 'now' → 'then', 'this' → 'that', 'here' → 'there'।",
     "example": "He asked what I was doing that day.",
     "options": [
       "He asked what I was doing that day.",
@@ -2312,7 +2312,7 @@
   {
     "word": "She said that she would not leave her job.",
     "meaning_en": "Past modal 'would' reverts to 'will' in direct speech, and pronouns 'she'/'her' revert to 'I'/'my' since the speaker refers to herself.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change | 1st/2nd person pronouns reporting verb के subject/object के अनुसार बदलते हैं।",
     "example": "She said, \"I will not leave my job.\"",
     "options": [
       "She said, \"I will not leave my job.\"",
@@ -2327,7 +2327,7 @@
   {
     "word": "She said, \"I am going to carry all the luggage alone as I did not call my friend to help me.",
     "meaning_en": "'Am going to' shifts to 'was going to', and simple past 'did not call' shifts to past perfect 'had not called' in indirect speech, following standard backshift rules.",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect → Past Perfect | Past Perfect Indirect Speech में नहीं बदलता; 'had + V3' वही रहता है।",
     "example": "She said that she was going to carry all the luggage alone as she had not called her friend to help her.",
     "options": [
       "She said that she was going to carry all the luggage alone as she had not called her friend to help her.",
@@ -2342,7 +2342,7 @@
   {
     "word": "She said, \"I am not going to forgive Robin as he took my pencils without my permission.",
     "meaning_en": "'Am not going to' shifts to 'was not going to', and simple past 'took' shifts to past perfect 'had taken' since it happened before the reported statement.",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect → Past Perfect | Past Perfect Indirect Speech में नहीं बदलता; 'had + V3' वही रहता है।",
     "example": "She said that she was not going to forgive Robin as he had taken her pencils without her permission.",
     "options": [
       "She said that she was not going to forgive Robin as he had taken her pencils without her permission.",
@@ -2357,7 +2357,7 @@
   {
     "word": "The judge said, \"What do you have to say on your defence?",
     "meaning_en": "'Have to' (simple present obligation) shifts to 'had to' in indirect speech, following standard backshift rules.",
-    "meaning_hi": "",
+    "meaning_hi": "Simple Present → Simple Past | 'V1 (simple present)' → Indirect में 'V2 (simple past)' बनता है।",
     "example": "The judge asked what he had to say on his defence.",
     "options": [
       "The judge asked what he was to say on his defence.",
@@ -2372,7 +2372,7 @@
   {
     "word": "He asked me if I needed to use his laptop to prepare my presentation.",
     "meaning_en": "Past continuous 'needed' reverts to present 'need' in direct speech, pronouns 'his'/'my' revert to 'my'/'your' from the speaker's perspective, and the reporting verb 'asked' converts to 'said to' with the interrogative structure restored.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change (2nd Person) | 'you' → Reporting verb के object के अनुसार बदलता है। 'said to me' → object 'me' (I); 'you' → 'I'।",
     "example": "He said to me, \"Do you need to use my laptop to prepare your presentation?\"",
     "options": [
       "He said to me, \"Do you need to use my laptop to prepare your presentation?\"",
@@ -2387,7 +2387,7 @@
   {
     "word": "Seema said to Meera, \"Why didn't you inform your father about the problem you were facing in the hostel?",
     "meaning_en": "Simple past 'didn't inform' shifts to past perfect 'had not informed', and past continuous 'were facing' shifts to past perfect continuous 'had been facing' since it describes an ongoing situation prior to the reported speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Conditional → Indirect | Hypothetical conditions (if...were / would) → Indirect Speech में तनाव नहीं बदलता।",
     "example": "Seema asked Meera why she had not informed her father about the problem she had been facing in the hostel.",
     "options": [
       "Seema asked Meera why she had not informed her father about the problem she had been facing in the hostel.",
@@ -2402,7 +2402,7 @@
   {
     "word": "She said that by the next month, she would have been living in Paris for five years.",
     "meaning_en": "Past modal 'would have been living' (future perfect continuous in the past) reverts to 'will have been living' (future perfect continuous) in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'would have been + V1-ing' → 'will have been + V1-ing' में वापस बदलता है।",
     "example": "She said, \"By next month, I will have been living in Paris for five years.",
     "options": [
       "She said, \"By next month, I will have been living in Paris for five years.",
@@ -2417,7 +2417,7 @@
   {
     "word": "The child said to his mother, \"Please help me with my homework.",
     "meaning_en": "A polite request with 'please' is reported using 'requested', and the pronouns 'me'/'my' shift to 'him'/'his' since the subject of the reporting verb is 'the child', not the speaker.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change | 1st/2nd person pronouns reporting verb के subject/object के अनुसार बदलते हैं।",
     "example": "The child requested his mother to help him with his homework.",
     "options": [
       "The child requested his mother to help him with his homework.",
@@ -2432,7 +2432,7 @@
   {
     "word": "She said to Martin, \"What is the matter with you that you look so cross today?",
     "meaning_en": "Simple present 'is'/'look' shifts to simple past 'was'/'looked', and the time marker 'today' correctly shifts to 'that day' in indirect speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Time Change: 'today' → 'that day' | 'now' → 'then', 'this' → 'that', 'here' → 'there'।",
     "example": "She asked Martin what was the matter with him that he looked so cross that day.",
     "options": [
       "She asked Martin what was the matter with him that he looked so cross today.",
@@ -2447,7 +2447,7 @@
   {
     "word": "The judge said to the prisoner, \"What were you doing in the garage at 10:30 pm on Monday when the incident took place?",
     "meaning_en": "Past continuous 'were doing' shifts to past perfect continuous 'had been doing', and simple past 'took place' shifts to past perfect 'had taken place', for consistent backshift in indirect speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Conditional → Indirect | Hypothetical conditions (if...were / would) → Indirect Speech में तनाव नहीं बदलता।",
     "example": "The judge asked the prisoner what he had been doing in the garage at 10:30 pm on Monday when the incident had taken place.",
     "options": [
       "The judge asked the prisoner what he was doing in the garage at 10:30 pm on Monday when the incident had taken place.",
@@ -2462,7 +2462,7 @@
   {
     "word": "The analyst remarked that the statistical data had evidently been misinterpreted, which might have skewed the report.",
     "meaning_en": "Past perfect passive 'had evidently been misinterpreted' reverts to present perfect passive 'has evidently been misinterpreted', and past modal 'might have skewed' reverts to 'may have skewed' in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'had + V3' → 'have + V3' (present perfect) या 'V2' (simple past) में वापस बदलता है।",
     "example": "The analyst said, \"The statistical data has evidently been misinterpreted, which may have skewed the report.\"",
     "options": [
       "The analyst said, \"The statistical data is evidently misinterpreted, which might have skewed the report.\"",
@@ -2477,7 +2477,7 @@
   {
     "word": "The doctor said, \"Your father is going to recover within the next two days.",
     "meaning_en": "'Is going to' shifts to 'was going to', 'your' shifts to 'his' (third-person reference), and 'the next two days' converts to 'the following two days' in indirect speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Narration Change | Direct → Indirect में tense (backshift), pronouns, और time/place words appropriately बदलते हैं।",
     "example": "The doctor said that his father was going to recover within the following two days.",
     "options": [
       "The doctor said that his father was going to recover within the following two days.",
@@ -2492,7 +2492,7 @@
   {
     "word": "He told her that the documents had already been signed before she had called.",
     "meaning_en": "'Told' converts to 'said to' when addressing a listener, 'had already been signed' stays as past perfect passive since the original quote was likely in that tense, and 'had called' reverts to simple past 'called' in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "'Said to' → 'Told' Rule | 'Said to + person' → 'told + person' ('to' हटा दें)। यह Indirect Speech का महत्वपूर्ण rule है।",
     "example": "He said to her, \"The documents had already been signed before you called.\"",
     "options": [
       "He said, \"The documents were already signed before you called.\"",
@@ -2507,7 +2507,7 @@
   {
     "word": "The farmer said, 'There is a well nearby our village which is filled with different kinds of snails.",
     "meaning_en": "'Is' shifts to 'was', 'our' shifts to 'their' (pronoun matching subject), and no further backshift is needed since both original verbs are simple present.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change | 1st/2nd person pronouns reporting verb के subject/object के अनुसार बदलते हैं।",
     "example": "The farmer said that there was a well nearby their village which was filled with different kinds of snails.",
     "options": [
       "The farmer said that there was a well nearby their village which had been filled with different kinds of snails.",
@@ -2522,7 +2522,7 @@
   {
     "word": "The child said that he was afraid of the dark and requested the lady to stay with him.",
     "meaning_en": "Reported past tense reverts to present in direct speech, and a polite 'request' is rendered with 'Please'.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | Tense और pronouns original direct speech form में वापस आते हैं।",
     "example": "The child said, \"I am afraid of the dark. Please stay with me.\"",
     "options": [
       "The child said, \"I am afraid of the dark. Please stay with me.\"",
@@ -2537,7 +2537,7 @@
   {
     "word": "She said to me, 'We are going to live in a new city from next month onwards until my brother gets a new job.",
     "meaning_en": "'Are going to' backshifts to 'were going to', 'next month' becomes 'the following month', 'my brother' becomes 'her brother', and 'gets' backshifts to 'got'.",
-    "meaning_hi": "",
+    "meaning_hi": "Conditional → Indirect | Hypothetical conditions (if...were / would) → Indirect Speech में तनाव नहीं बदलता।",
     "example": "She told me that they were going to live in a new city from the following month onwards until her brother got a new job.",
     "options": [
       "She told me that they will be going to live in a new city from the next month onwards until her brother gets a new job.",
@@ -2552,7 +2552,7 @@
   {
     "word": "The coach advised the players not to skip the warm-up exercises.",
     "meaning_en": "'Advised...not to' is a negative imperative, correctly rendered in direct speech as 'said to..., \"Do not...\"'.",
-    "meaning_hi": "",
+    "meaning_hi": "Imperative (Advice) → Indirect | 'said to' → 'advised/suggested'। Formula: advised + object + to + V1।",
     "example": "The coach said to the players, \"Do not skip the warm-up exercises.\"",
     "options": [
       "The coach advises the players, \"Don't skip the warm-up exercises.\"",
@@ -2567,7 +2567,7 @@
   {
     "word": "Sohan said, 'You will get up early tomorrow to go for a morning walk as you must qualify in the physical test.",
     "meaning_en": "'Will' backshifts to 'would', 'you' (referring to the speaker himself) becomes 'he', 'tomorrow' becomes 'the day after', and 'must' backshifts to 'had to'.",
-    "meaning_hi": "",
+    "meaning_hi": "Time Change: 'tomorrow' → 'the next day' / 'the following day' | 'will' → 'would'।",
     "example": "Sohan said that he would get up early the day after to go for a morning walk as he had to qualify in the physical test.",
     "options": [
       "Sohan said that he would get up early the day after to go for a morning walk as he had to qualify in the physical test.",
@@ -2582,7 +2582,7 @@
   {
     "word": "The student inquired what the deadline for the submission was.",
     "meaning_en": "'Inquired' correctly reports the reporting verb, and the past tense 'was' reverts to present tense 'is' in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | Tense और pronouns original direct speech form में वापस आते हैं।",
     "example": "The student inquired, \"What is the deadline for the submission?\"",
     "options": [
       "The student said, \"When is the deadline for submission?\"",
@@ -2597,7 +2597,7 @@
   {
     "word": "He said that he planned to visit his grandparents that night.",
     "meaning_en": "Past tense 'planned' reverts to present 'plan', and 'that night' (referring to the same day) becomes 'tonight' in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | Tense और pronouns original direct speech form में वापस आते हैं।",
     "example": "He said, \"I plan to visit my grandparents tonight.\"",
     "options": [
       "He said, \"I plan to visit my grandparents that night.\"",
@@ -2612,7 +2612,7 @@
   {
     "word": "Rajan said to Rini, 'I have very often informed you that we have to attend the meeting every Saturday.",
     "meaning_en": "'Have informed' backshifts to 'had informed', 'you' becomes 'her', and 'have to attend' backshifts to 'had to attend'.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change (2nd Person) | 'you' → Reporting verb के object के अनुसार बदलता है। 'said to me' → object 'me' (I); 'you' → 'I'।",
     "example": "Rajan told Rini that he had very often informed her that they had to attend the meeting every Saturday.",
     "options": [
       "Rajan told Rini that he had very often informed her that they had to attend the meeting every Saturday.",
@@ -2627,7 +2627,7 @@
   {
     "word": "He asked me if I had ever been to the Louvre.",
     "meaning_en": "'Asked...if' reverts to a direct yes/no question, retaining 'ever' and using 'said to me' as the reporting structure.",
-    "meaning_hi": "",
+    "meaning_hi": "Yes/No Question → Indirect | 'if' या 'whether' use करें ('that' नहीं)। Statement word order; '?' हटाएं।",
     "example": "He said to me, \"Have you ever been to the Louvre?\"",
     "options": [
       "He said, \"You have ever been to the Louvre?\"",
@@ -2642,7 +2642,7 @@
   {
     "word": "She said to him, 'You were sleeping.",
     "meaning_en": "Past continuous ('were sleeping') backshifts to past perfect continuous ('had been sleeping'), and 'you' (addressed to him) becomes 'he'.",
-    "meaning_hi": "",
+    "meaning_hi": "Conditional → Indirect | Hypothetical conditions (if...were / would) → Indirect Speech में तनाव नहीं बदलता।",
     "example": "She told him that he had been sleeping.",
     "options": [
       "She told him that he was sleeping.",
@@ -2657,13 +2657,13 @@
   {
     "word": "The culprit said to the judge, 'I am innocent as I did not commit the crime at all.",
     "meaning_en": "'Am' backshifts to 'was', and 'did not commit' backshifts to 'had not committed'; the pronoun 'I' correctly refers to the speaker (the culprit) throughout.",
-    "meaning_hi": "",
-    "example": "The culprit told the judge that he was innocent as I had not committed the crime at all.",
+    "meaning_hi": "Pronoun Change | 1st/2nd person pronouns reporting verb के subject/object के अनुसार बदलते हैं।",
+    "example": "The culprit told the judge that he was innocent as he had not committed the crime at all.",
     "options": [
-      "The culprit told the judge that he is innocent as I had not committed the crime at all.",
-      "The culprit told the judge that he was innocent as I did not commit the crime at all.",
-      "The culprit told the judge that he is innocent as I did not commit the crime at all.",
-      "The culprit told the judge that he was innocent as I had not committed the crime at all."
+      "The culprit told the judge that he is innocent as he had not committed the crime at all.",
+      "The culprit told the judge that he was innocent as he did not commit the crime at all.",
+      "The culprit told the judge that he is innocent as he did not commit the crime at all.",
+      "The culprit told the judge that he was innocent as he had not committed the crime at all."
     ],
     "synonyms": [],
     "antonyms": [],
@@ -2672,7 +2672,7 @@
   {
     "word": "He suggested that we revise the chapter thoroughly before the test.",
     "meaning_en": "A suggestion involving both speaker and listener ('we') is correctly rendered in direct speech using 'Let's'.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change | 1st/2nd person pronouns reporting verb के subject/object के अनुसार बदलते हैं।",
     "example": "He said, \"Let's revise the chapter thoroughly before the test.\"",
     "options": [
       "He suggested, \"We will revise the chapter thoroughly before the test.\"",
@@ -2687,7 +2687,7 @@
   {
     "word": "She said that the documents had to be submitted by the next evening.",
     "meaning_en": "'Had to' in reported speech reverts to 'must' in direct speech, and 'the next evening' (from the time of speaking) becomes 'tomorrow evening'.",
-    "meaning_hi": "",
+    "meaning_hi": "Time Change: 'tomorrow' → 'the next day' / 'the following day' | 'will' → 'would'।",
     "example": "She said, \"The documents must be submitted by tomorrow evening.\"",
     "options": [
       "She said, \"The documents ought to be submitted by the next evening.\"",
@@ -2702,7 +2702,7 @@
   {
     "word": "Sairam said, 'She has to come to Delhi to me within the next couple of hours to take help to solve the problem she mentioned.",
     "meaning_en": "'Come...to me' becomes 'go...to him' (Sairam is the speaker), 'has to' backshifts to 'had to', 'next' becomes 'following', and 'mentioned' backshifts to 'had mentioned'.",
-    "meaning_hi": "",
+    "meaning_hi": "Tense Backshift Rule | Direct Speech का tense Indirect में एक step पीछे जाता है। Reporting verb past होने पर backshift लागू होता है।",
     "example": "Sairam said that she had to go to Delhi to him within the following couple of hours to take help to solve the problem she had mentioned.",
     "options": [
       "Sairam said that she had to come to Delhi to her within the following couple of hours to take help to solve the problem she had mentioned.",
@@ -2717,7 +2717,7 @@
   {
     "word": "He exclaimed with regret that he had forgotten his wallet at home.",
     "meaning_en": "'Regret' is conveyed through the natural exclamation 'Oh no!', and past perfect 'had forgotten' reverts to present perfect 'have forgotten' in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'had + V3' → 'have + V3' (present perfect) या 'V2' (simple past) में वापस बदलता है।",
     "example": "He said, \"Oh no! I have forgotten my wallet at home.\"",
     "options": [
       "He exclaimed, \"Hey! I had forgotten my wallet at home.\"",
@@ -2732,10 +2732,10 @@
   {
     "word": "She told the detective that she had been sleeping when the thieves had broken in.",
     "meaning_en": "Past perfect continuous ('had been sleeping') is retained, and the past perfect 'had broken in' reverts to simple past 'broke in' in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'had been + V1-ing' → 'have been + V1-ing' (present perfect continuous) में वापस बदलता है।",
     "example": "She told the detective, \"I had been sleeping when the thieves broke in.\"",
     "options": [
-      "She said to the detective, \"I had slept when the thieves had broken in.\"",
+      "She said to the detective, \"I was sleeping when the thieves broke in.\"",
       "She said to the detective, \"I had slept when the thieves had broken in.\"",
       "She told the detective, \"I had been sleeping when the thieves broke in.\"",
       "She told the detective, \"I had been asleep when the thieves were breaking in.\""
@@ -2747,7 +2747,7 @@
   {
     "word": "The farmers said, 'It is time to plough our fields as the soil has become damp.",
     "meaning_en": "'Is' backshifts to 'was', 'our' becomes 'their', and present perfect 'has become' backshifts to past perfect 'had become'.",
-    "meaning_hi": "",
+    "meaning_hi": "Present Perfect → Past Perfect | 'have/has + V3' → Indirect में 'had + V3' बनता है।",
     "example": "The farmers said that it was time to plough their fields as the soil had become damp.",
     "options": [
       "The farmers said that it has been time to plough their fields as the soil had become damp.",
@@ -2762,7 +2762,7 @@
   {
     "word": "She told me that she had been learning French for three months.",
     "meaning_en": "Past perfect continuous ('had been learning') reverts to present perfect continuous ('have been learning') in direct speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'had been + V1-ing' → 'have been + V1-ing' (present perfect continuous) में वापस बदलता है।",
     "example": "She said to me, \"I have been learning French for three months.\"",
     "options": [
       "She said to me, \"I am learning French for three months.\"",
@@ -2777,7 +2777,7 @@
   {
     "word": "He said, 'I spoke with my parents yesterday.",
     "meaning_en": "Simple past 'spoke' backshifts to past perfect 'had spoken', and 'yesterday' becomes 'the previous day'.",
-    "meaning_hi": "",
+    "meaning_hi": "Time Change: 'yesterday' → 'the previous day' / 'the day before' | Simple Past → Past Perfect।",
     "example": "He said that he had spoken with his parents the previous day.",
     "options": [
       "He said that he spoke with his parents the previous day.",
@@ -2792,7 +2792,7 @@
   {
     "word": "Snigdha said, 'What a beautiful day today is!",
     "meaning_en": "An exclamatory sentence with 'what a...' is converted to a statement form using 'exclaimed that', 'today' becomes 'that day', and 'is' backshifts to 'was'.",
-    "meaning_hi": "",
+    "meaning_hi": "Exclamatory → Indirect | 'said' → 'exclaimed'। 'What a/How + adjective' → 'exclaimed that it was very + adjective'।",
     "example": "Snigdha exclaimed that that day was a very beautiful day.",
     "options": [
       "Snigdha exclaimed that that day has been a very beautiful day.",
@@ -2807,7 +2807,7 @@
   {
     "word": "They asked if I knew the way to the museum.",
     "meaning_en": "Past tense 'knew' reverts to present tense 'know' in direct speech, forming a natural yes/no question.",
-    "meaning_hi": "",
+    "meaning_hi": "Yes/No Question → Indirect | 'if' या 'whether' use करें ('that' नहीं)। Statement word order; '?' हटाएं।",
     "example": "They asked, \"Do you know the way to the museum?\"",
     "options": [
       "They asked, \"Do you know the way to the museum?\"",
@@ -2822,7 +2822,7 @@
   {
     "word": "He said that by the time she arrived, the guests had already started leaving.",
     "meaning_en": "Since the reported speech is already in past perfect ('had already started leaving'), the direct speech retains the same tense, with 'arrived' remaining in simple past as the time-clause verb.",
-    "meaning_hi": "",
+    "meaning_hi": "Past Perfect → Past Perfect | Past Perfect Indirect Speech में नहीं बदलता; 'had + V3' वही रहता है।",
     "example": "He said, \"By the time she arrived, the guests had already started leaving.\"",
     "options": [
       "He said, \"By the time she has arrived, the guests were already leaving.\"",
@@ -2837,7 +2837,7 @@
   {
     "word": "They asked whether the meeting was likely to begin soon or be delayed further.",
     "meaning_en": "Converting indirect to direct speech restores present tense ('is') and question structure, and 'be delayed further' correctly becomes 'will it be delayed further'.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | Tense और pronouns original direct speech form में वापस आते हैं।",
     "example": "They asked, \"Is the meeting likely to begin soon or will it be delayed further?\"",
     "options": [
       "They asked, \"Was the meeting likely to begin soon or be delayed further?\"",
@@ -2852,7 +2852,7 @@
   {
     "word": "We will bake a cake for the party,\" my friends told me.",
     "meaning_en": "In reported speech, 'we' (referring to the friends, excluding the speaker) becomes 'they', and 'will' shifts back to 'would'.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change | 1st/2nd person pronouns reporting verb के subject/object के अनुसार बदलते हैं।",
     "example": "My friends told me that they would bake a cake for the party.",
     "options": [
       "My friends told me that they would bake a cake for the party.",
@@ -2867,7 +2867,7 @@
   {
     "word": "He said, \"I will be travelling next month.",
     "meaning_en": "'Will' shifts back to 'would' in reported speech, and the time expression 'next month' changes to 'the following month'.",
-    "meaning_hi": "",
+    "meaning_hi": "Time Change: 'next week/month/year' → 'the following week/month/year' | 'will' → 'would'।",
     "example": "He said that he would be travelling the following month.",
     "options": [
       "He said that he would be travelling the following month.",
@@ -2882,7 +2882,7 @@
   {
     "word": "The teacher asked the students if they had finished their homework.",
     "meaning_en": "Reported past perfect ('had finished') converts back to present perfect in direct speech ('Have you finished'), and 'their' correctly reverts to 'your' since the teacher is addressing the students directly.",
-    "meaning_hi": "",
+    "meaning_hi": "Addressing Terms Removal | 'Sir', 'Madam', 'Uncle' जैसे addressing terms Indirect Speech में हटा दिए जाते हैं।",
     "example": "The teacher said to the students, \"Have you finished your homework?\"",
     "options": [
       "The teacher said to the students, \"Have you finished your homework?\"",
@@ -2897,7 +2897,7 @@
   {
     "word": "The mentor asked whether I had been preparing regularly and if I would be ready by Monday.",
     "meaning_en": "Reported past perfect continuous ('had been preparing') reverts to present perfect continuous in direct speech ('Have you been preparing'), and 'would' reverts to 'will'.",
-    "meaning_hi": "",
+    "meaning_hi": "Indirect → Direct | 'had been + V1-ing' → 'have been + V1-ing' (present perfect continuous) में वापस बदलता है।",
     "example": "The mentor asked, \"Have you been preparing regularly and will you be ready by Monday?\"",
     "options": [
       "The mentor asked, \"Have you been preparing regularly and will you be ready by Monday?\"",
@@ -2912,13 +2912,268 @@
   {
     "word": "She said to them, \"You will be surprised.",
     "meaning_en": "'You' (referring to 'them') becomes 'they', and 'will' shifts back to 'would' in reported speech.",
-    "meaning_hi": "",
+    "meaning_hi": "Pronoun Change (2nd Person) | 'you' → Reporting verb के object के अनुसार बदलता है। 'said to me' → object 'me' (I); 'you' → 'I'।",
     "example": "She told them that they would be surprised.",
     "options": [
       "She told them that they would be surprised.",
       "She told them that you would be surprised.",
       "She told them that they will be surprised.",
       "She told them that she would be surprised."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'Hurrah! We have won the match.'",
+    "meaning_en": "Exclamatory (Joy) → Indirect | 'Hurrah!' shows joy. 'said' → 'exclaimed with joy'. 'have won' → 'had won'. Formula: exclaimed with joy that + subject + had + V3.",
+    "meaning_hi": "Exclamatory (Joy) → Indirect | 'Hurrah!/Bravo!' joy दर्शाता है। 'said' → 'exclaimed with joy'। 'have won' → 'had won'।",
+    "example": "He exclaimed with joy that they had won the match.",
+    "options": [
+      "He exclaimed with joy that they had won the match.",
+      "He said with joy that they have won the match.",
+      "He exclaimed with sorrow that they had won the match.",
+      "He exclaimed that they have won the match."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'What! He has topped the UPSC exam?'",
+    "meaning_en": "Exclamatory (Surprise) → Indirect | 'What!' shows surprise/astonishment. 'said' → 'exclaimed with surprise'. 'has topped' → 'had topped'. The question mark is replaced by a statement in indirect speech.",
+    "meaning_hi": "Exclamatory (Surprise) → Indirect | 'What!' आश्चर्य दर्शाता है। 'said' → 'exclaimed with surprise'। 'has topped' → 'had topped'।",
+    "example": "She exclaimed with surprise that he had topped the UPSC exam.",
+    "options": [
+      "She exclaimed with surprise that he had topped the UPSC exam.",
+      "She asked with surprise if he had topped the UPSC exam.",
+      "She exclaimed with surprise that he has topped the UPSC exam.",
+      "She wondered if he had topped the UPSC exam."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "The coach said to the players, 'Bravo! You have played brilliantly today.'",
+    "meaning_en": "Exclamatory (Appreciation) → Indirect | 'Bravo!' shows appreciation/applause. 'said to' → 'exclaimed with appreciation'. 'have played' → 'had played'. 'today' → 'that day'. 'You' → 'they' (referring to the players).",
+    "meaning_hi": "Exclamatory (Appreciation) → Indirect | 'Bravo!' प्रशंसा दर्शाता है। 'said to' → 'exclaimed with appreciation'। 'have played' → 'had played'। 'today' → 'that day'।",
+    "example": "The coach exclaimed with appreciation that they had played brilliantly that day.",
+    "options": [
+      "The coach exclaimed with appreciation that they had played brilliantly that day.",
+      "The coach exclaimed with sorrow that they had played brilliantly that day.",
+      "The coach said with joy that they have played brilliantly today.",
+      "The coach praised that they had played brilliantly that day."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said to him, 'You had better consult a doctor immediately.'",
+    "meaning_en": "'Had better' → No Change | 'Had better' does NOT change in Indirect Speech; it stays 'had better'. 'said to' → 'told'. 'You' → 'he'.",
+    "meaning_hi": "'Had better' → No Change | 'Had better' Indirect Speech में नहीं बदलता — 'had better' ही रहता है।",
+    "example": "She told him that he had better consult a doctor immediately.",
+    "options": [
+      "She told him that he had better consult a doctor immediately.",
+      "She told him that he would better consult a doctor immediately.",
+      "She told him that he should better consult a doctor immediately.",
+      "She told him that he must consult a doctor immediately."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'I would rather walk than take a cab.'",
+    "meaning_en": "'Would rather' → No Change | 'Would rather' does NOT change in Indirect Speech. It stays 'would rather' regardless of the reporting verb tense. 'I' → 'he'.",
+    "meaning_hi": "'Would rather' → No Change | 'Would rather' Indirect Speech में नहीं बदलता। Reporting verb का tense चाहे जो हो — 'would rather' वही रहता है।",
+    "example": "He said that he would rather walk than take a cab.",
+    "options": [
+      "He said that he would rather walk than take a cab.",
+      "He said that he would have rather walked than taken a cab.",
+      "He said that he had rather walk than take a cab.",
+      "He said that he should rather walk than take a cab."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'I'll call you after the meeting.'",
+    "meaning_en": "Contracted Form in Direct Speech → Indirect | 'I'll' = 'I will' → 'would' in indirect speech. 'you' → 'him'. 'after the meeting' is a general time phrase (not a time adverb) and is retained.",
+    "meaning_hi": "Contracted Form → Indirect | 'I'll' = 'I will' → Indirect में 'would' बनता है। Contracted forms को पहले expand करें, फिर backshift लगाएं।",
+    "example": "She said that she would call him after the meeting.",
+    "options": [
+      "She said that she would call him after the meeting.",
+      "She said that she will call him after the meeting.",
+      "She said that she shall call him after the meeting.",
+      "She said that she could call him after the meeting."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'I never tell lies.'",
+    "meaning_en": "'Never' in Direct Speech → Indirect | 'Never' does NOT change in Indirect Speech — it stays 'never'. Tense changes: 'tell' (simple present) → 'told' (simple past). 'I' → 'she'.",
+    "meaning_hi": "'Never' → Indirect में नहीं बदलता | 'Never' Indirect Speech में वही रहता है। Tense backshift होती है: 'tell' → 'told'।",
+    "example": "She said that she never told lies.",
+    "options": [
+      "She said that she never told lies.",
+      "She said that she did not ever tell lies.",
+      "She said that she never tells lies.",
+      "She said that she had never told lies."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'I am still waiting for the results.'",
+    "meaning_en": "'Still' in Direct Speech → Indirect | 'Still' does NOT change in Indirect Speech — it stays 'still'. 'am waiting' (present continuous) → 'was still waiting' (past continuous). 'I' → 'he'.",
+    "meaning_hi": "'Still' → Indirect में नहीं बदलता | 'Still' Indirect Speech में वही रहता है। 'am waiting' → 'was still waiting' में बदलता है।",
+    "example": "He said that he was still waiting for the results.",
+    "options": [
+      "He said that he was still waiting for the results.",
+      "He said that he had been still waiting for the results.",
+      "He said that he was yet waiting for the results.",
+      "He said that he is still waiting for the results."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said, 'I did not steal the money.'",
+    "meaning_en": "Denial in Indirect Speech | A negative statement of this type is reported using 'denied + gerund (V1-ing)'. Alternatively: 'denied that he had stolen'. Both are correct. Tense backshift: 'did not steal' → 'had stolen'.",
+    "meaning_hi": "Denial → Indirect | Negative denial को 'denied + gerund (V1-ing)' से report करें। 'Denied stealing' या 'denied that he had stolen' — दोनों सही हैं।",
+    "example": "He denied stealing the money.",
+    "options": [
+      "He denied stealing the money.",
+      "He denied that he stole the money.",
+      "He denied to steal the money.",
+      "He refused to steal the money."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "The guard said to the visitors, 'Beware of pickpockets.'",
+    "meaning_en": "Imperative (Warning: 'Beware') → Indirect | 'Beware of' is an imperative expressing caution/warning. 'said to' → 'warned'. Formula: warned + object + to beware of + noun.",
+    "meaning_hi": "Imperative (Warning: 'Beware') → Indirect | 'Beware of' warning / caution देता है। 'said to' → 'warned'। Formula: warned + object + to beware of।",
+    "example": "The guard warned the visitors to beware of pickpockets.",
+    "options": [
+      "The guard warned the visitors to beware of pickpockets.",
+      "The guard told the visitors to beware of pickpockets.",
+      "The guard asked the visitors to beware of pickpockets.",
+      "The guard warned that the visitors beware of pickpockets."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said to her mother, 'Let me go to the picnic with my friends.'",
+    "meaning_en": "Imperative ('Let me' = Permission Request) → Indirect | 'Let me...' is a request for permission, NOT a suggestion. It is reported as: requested + object + to allow/permit + pronoun + to + V1.",
+    "meaning_hi": "Imperative ('Let me' = Permission Request) → Indirect | 'Let me...' permission के लिए request है। Formula: requested + object + to allow/permit + pronoun + to + V1।",
+    "example": "She requested her mother to allow her to go to the picnic with her friends.",
+    "options": [
+      "She requested her mother to allow her to go to the picnic with her friends.",
+      "She told her mother to let her go to the picnic with her friends.",
+      "She asked her mother that she should let her go to the picnic.",
+      "She requested her mother to permit to go to the picnic with friends."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said to me, 'It is a fine day, isn't it?'",
+    "meaning_en": "Tag Question → Indirect | For tag questions: report the main clause as a statement; drop the tag. 'said to me' → 'remarked to me'. 'is' → 'was'. The tag 'isn't it' is omitted in indirect speech.",
+    "meaning_hi": "Tag Question → Indirect | Main clause को statement की तरह report करें; tag ('isn't it?') हटाएं। 'said to me' → 'remarked to me'। 'is' → 'was'।",
+    "example": "He remarked to me that it was a fine day.",
+    "options": [
+      "He remarked to me that it was a fine day.",
+      "He asked me if it was a fine day, wasn't it.",
+      "He said to me that it is a fine day, isn't it.",
+      "He told me whether it was a fine day."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said to me, 'I am unwell. Can you call a doctor?'",
+    "meaning_en": "Mixed Sentence Types → Indirect | Two sentences in one: (1) Statement: 'I am unwell' → 'told + that + he was unwell'. (2) Yes/No Question: 'Can you call?' → 'asked + if/whether + I could call'. Each type follows its own rule.",
+    "meaning_hi": "Mixed Sentence → Indirect | दो sentences: (1) Statement → 'told that'; (2) Yes/No Question → 'asked if/whether'। हर sentence type का अपना rule है।",
+    "example": "He told me that he was unwell and asked if/whether I could call a doctor.",
+    "options": [
+      "He told me that he was unwell and asked if/whether I could call a doctor.",
+      "He said that he was unwell and asked me can I call a doctor.",
+      "He told me he was unwell and told me if I could call a doctor.",
+      "He said that he is unwell and asked me if I can call a doctor."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'I will call you as soon as I reach home.'",
+    "meaning_en": "'As soon as' in Indirect Speech | 'will call' → 'would call'. Time clause 'as soon as I reach' (simple present) → 'as soon as she reached' (simple past) in indirect speech. 'you' → 'him'.",
+    "meaning_hi": "'As soon as' → Indirect | 'will call' → 'would call'। 'As soon as + simple present (direct)' → 'as soon as + simple past (indirect)' बनता है।",
+    "example": "She said that she would call him as soon as she reached home.",
+    "options": [
+      "She said that she would call him as soon as she reached home.",
+      "She said that she will call him as soon as she reaches home.",
+      "She said that she would call him as soon as she reaches home.",
+      "She said that she would have called him as soon as she reached home."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "She said, 'The results will be declared the day after tomorrow.'",
+    "meaning_en": "Time Change: 'the day after tomorrow' → 'two days later' / 'in two days' | 'will be declared' → 'would be declared'. This is a less common time expression tested in advanced narration questions.",
+    "meaning_hi": "Time Change: 'the day after tomorrow' → 'two days later' | 'will be declared' → 'would be declared'। यह time expression Indirect में 'two days later / in two days' बनता है।",
+    "example": "She said that the results would be declared two days later.",
+    "options": [
+      "She said that the results would be declared two days later.",
+      "She said that the results will be declared the day after tomorrow.",
+      "She said that the results would be declared the following day.",
+      "She said that the results were going to be declared two days later."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "He said to her, 'You must submit the application form today.'",
+    "meaning_en": "Reporting verb 'insisted' | When the direct speech is a strong assertion or compulsion, 'said' → 'insisted'. 'must' stays as 'must' (or changes to 'should' in some styles). 'today' → 'that day'. 'You' → 'she'.",
+    "meaning_hi": "Reporting verb 'insisted' | जब speaker किसी बात पर जोर दे, 'said' → 'insisted'। 'must' → 'must/should'। 'today' → 'that day'।",
+    "example": "He insisted that she must submit the application form that day.",
+    "options": [
+      "He insisted that she must submit the application form that day.",
+      "He told her that she must submit the application form today.",
+      "He insisted that she submits the application form that day.",
+      "He said that she must have submitted the application form that day."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "narration"
+  },
+  {
+    "word": "The principal said to him, 'Congratulations on winning the gold medal.'",
+    "meaning_en": "Reporting verb 'congratulated' | Congratulatory expressions are reported using 'congratulated + object + on + V1-ing'. The direct speech structure is dropped entirely and replaced with this formula.",
+    "meaning_hi": "Reporting verb 'congratulated' | 'Congratulations on...' → 'congratulated + object + on + V1-ing'। Direct speech की structure पूरी तरह बदल जाती है।",
+    "example": "The principal congratulated him on winning the gold medal.",
+    "options": [
+      "The principal congratulated him on winning the gold medal.",
+      "The principal told him congratulations on winning the gold medal.",
+      "The principal said him that congratulations on winning the gold medal.",
+      "The principal wished him on winning the gold medal."
     ],
     "synonyms": [],
     "antonyms": [],

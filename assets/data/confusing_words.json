@@ -78,6 +78,19 @@
     "category": "confusing"
   },
   {
+    "word": "Access / Excess",
+    "confusion_with": [
+      "Access",
+      "Excess"
+    ],
+    "meaning_hi": "Access = पहुँच / उपयोग करना; Excess = अत्यधिक / अधिकता",
+    "meaning_en": "Access = the means or right to use something; Excess = more than what is needed or allowed",
+    "example": "She gained access to the files but found them excessive in number.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Acerbic / Ascetic",
     "confusion_with": [
       "Acerbic",
@@ -125,6 +138,32 @@
     "meaning_hi": "Acute = तीव्र/अल्पकालिक; Chronic = दीर्घकालिक/पुराना",
     "meaning_en": "Acute = sudden and severe; Chronic = persisting for a long time",
     "example": "He suffered an acute attack of fever that developed into a chronic respiratory condition.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Adapt / Adopt",
+    "confusion_with": [
+      "Adapt",
+      "Adopt"
+    ],
+    "meaning_hi": "Adapt = अनुकूलित करना; Adopt = अपनाना",
+    "meaning_en": "Adapt = to adjust to new conditions; Adopt = to take up and make one's own",
+    "example": "She adapted to the new city quickly after her family adopted a healthier lifestyle.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Addition / Edition",
+    "confusion_with": [
+      "Addition",
+      "Edition"
+    ],
+    "meaning_hi": "Addition = जोड़; Edition = किसी पुस्तक या प्रकाशन का संस्करण",
+    "meaning_en": "Addition = the process of adding; Edition = a particular version of a published work",
+    "example": "The new addition to the library is the third edition of that classic novel.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -273,6 +312,19 @@
     "category": "confusing"
   },
   {
+    "word": "Allusion / Illusion",
+    "confusion_with": [
+      "Allusion",
+      "Illusion"
+    ],
+    "meaning_hi": "Allusion = अप्रत्यक्ष संकेत; Illusion = भ्रम / झूठा आभास",
+    "meaning_en": "Allusion = an indirect reference; Illusion = a false impression or belief",
+    "example": "His speech made an allusion to Shakespeare; the prosperity he described was an illusion.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Altar / Alter",
     "confusion_with": [
       "Altar",
@@ -359,6 +411,19 @@
     "meaning_hi": "Amiable = मिलनसार (व्यक्ति); Amicable = सौहार्दपूर्ण (स्थिति/समझौता)",
     "meaning_en": "Amiable = friendly in personality (of people); Amicable = done in a friendly spirit (of situations)",
     "example": "Her amiable nature helped both parties reach an amicable settlement.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Among / Between",
+    "confusion_with": [
+      "Among",
+      "Between"
+    ],
+    "meaning_hi": "Among = कई के बीच में (तीन या अधिक); Between = दो के बीच",
+    "meaning_en": "Among = in the middle of (three or more); Between = in the space separating two things",
+    "example": "The prize money was divided between two winners, but goodwill was shared among all participants.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -468,7 +533,7 @@
     "category": "confusing"
   },
   {
-    "word": "Apprise / Apprise vs Appraise",
+    "word": "Apprise / Appraise",
     "confusion_with": [
       "Apprise",
       "Appraise"
@@ -541,6 +606,19 @@
     "meaning_hi": "Ascent = चढ़ाई/उत्थान; Assent = सहमति",
     "meaning_en": "Ascent = the act of climbing or rising; Assent = agreement or approval",
     "example": "His rapid ascent in the organisation required the assent of the entire board.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Assume / Presume",
+    "confusion_with": [
+      "Assume",
+      "Presume"
+    ],
+    "meaning_hi": "Assume = बिना प्रमाण के मान लेना; Presume = किसी आधार पर अनुमान लगाना",
+    "meaning_en": "Assume = to take for granted without evidence; Presume = to suppose something based on reasonable grounds",
+    "example": "Don't assume she is guilty; the law presumes innocence until proven otherwise.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -633,6 +711,19 @@
     "meaning_hi": "Bare = नग्न/खुला; Bear = सहन करना / भालू",
     "meaning_en": "Bare (adj/verb) = uncovered or to uncover; Bear (verb/noun) = to endure, or a large animal",
     "example": "The bear walked on the bare hillside with a dignity she could barely bear to disturb.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Bazaar / Bizarre",
+    "confusion_with": [
+      "Bazaar",
+      "Bizarre"
+    ],
+    "meaning_hi": "Bazaar = बाज़ार; Bizarre = अजीब / विचित्र",
+    "meaning_en": "Bazaar = a market; Bizarre = strange and unusual",
+    "example": "The bazaar was crowded with bizarre street performers.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -782,6 +873,32 @@
     "category": "confusing"
   },
   {
+    "word": "Canvas / Canvass",
+    "confusion_with": [
+      "Canvas",
+      "Canvass"
+    ],
+    "meaning_hi": "Canvas = मोटा कपड़ा / पेंटिंग की सतह; Canvass = राय माँगना / प्रचार करना",
+    "meaning_en": "Canvas = a heavy cloth used for painting or making tents; Canvass = to seek votes or opinions",
+    "example": "The artist stretched the canvas while volunteers canvassed the neighbourhood for support.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Capital / Capitol",
+    "confusion_with": [
+      "Capital",
+      "Capitol"
+    ],
+    "meaning_hi": "Capital = राजधानी / मुख्य अक्षर / पूँजी; Capitol = अमेरिकी संसद भवन",
+    "meaning_en": "Capital = a city, wealth, or upper-case letter; Capitol = the US Congress building",
+    "example": "Washington D.C. is the capital of the United States, where the Capitol building is located.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Capitulate / Recapitulate",
     "confusion_with": [
       "Capitulate",
@@ -790,6 +907,19 @@
     "meaning_hi": "Capitulate = आत्मसमर्पण करना; Recapitulate = सारांश दोहराना",
     "meaning_en": "Capitulate = to give up resistance; Recapitulate = to summarise the main points",
     "example": "He refused to capitulate and asked the mediator to recapitulate the terms once more.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Casual / Causal",
+    "confusion_with": [
+      "Casual",
+      "Causal"
+    ],
+    "meaning_hi": "Casual = अनौपचारिक / लापरवाह; Causal = कारणात्मक",
+    "meaning_en": "Casual = relaxed and informal, or happening by chance; Causal = relating to cause and effect",
+    "example": "His casual attitude towards safety had a causal link to the accident.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -855,6 +985,20 @@
     "meaning_hi": "Circumspect = सतर्क/सावधान; Circumscribe = सीमित करना",
     "meaning_en": "Circumspect = wary and unwilling to take risks; Circumscribe = to restrict within limits",
     "example": "The circumspect minister was careful not to circumscribe the committee's authority.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Cite / Site / Sight",
+    "confusion_with": [
+      "Cite",
+      "Site",
+      "Sight"
+    ],
+    "meaning_hi": "Cite = उद्धृत करना; Site = स्थान; Sight = दृश्य / दृष्टि",
+    "meaning_en": "Cite = to quote as evidence; Site = a location; Sight = the ability to see, or a view",
+    "example": "The report cited the construction site as an eyesore — a terrible sight for tourists.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -990,6 +1134,19 @@
     "category": "confusing"
   },
   {
+    "word": "Compose / Comprise",
+    "confusion_with": [
+      "Compose",
+      "Comprise"
+    ],
+    "meaning_hi": "Compose = बनाना / रचना करना; Comprise = शामिल होना",
+    "meaning_en": "Compose = to make up or create; Comprise = to consist of or include",
+    "example": "The committee comprises five members; their individual talents compose a strong team.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Confident / Confidant",
     "confusion_with": [
       "Confident",
@@ -998,6 +1155,19 @@
     "meaning_hi": "Confident = आत्मविश्वासी; Confidant = विश्वासपात्र मित्र",
     "meaning_en": "Confident (adj) = feeling self-assurance; Confidant (noun) = a trusted friend",
     "example": "She was confident in her decisions and chose only one confidant to share her concerns.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Confirm / Conform",
+    "confusion_with": [
+      "Confirm",
+      "Conform"
+    ],
+    "meaning_hi": "Confirm = पुष्टि करना; Conform = अनुरूप होना / नियम का पालन करना",
+    "meaning_en": "Confirm = to establish the truth of; Conform = to comply with rules or standards",
+    "example": "Please confirm your attendance; all guests are expected to conform to the dress code.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -1037,6 +1207,19 @@
     "meaning_hi": "Connote = अप्रत्यक्ष अर्थ देना; Denote = प्रत्यक्ष अर्थ देना",
     "meaning_en": "Connote = to imply or suggest in addition to the literal meaning; Denote = to indicate directly",
     "example": "The word 'home' denotes a place to live; it connotes warmth, safety and belonging.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Conscience / Conscious",
+    "confusion_with": [
+      "Conscience",
+      "Conscious"
+    ],
+    "meaning_hi": "Conscience = अंतरात्मा / अंतःकरण; Conscious = जागरूक / चेतन",
+    "meaning_en": "Conscience = the inner sense of right and wrong; Conscious = aware and alert",
+    "example": "She was conscious of her mistake, and her conscience compelled her to apologise.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -1250,6 +1433,19 @@
     "category": "confusing"
   },
   {
+    "word": "Dependant / Dependent",
+    "confusion_with": [
+      "Dependant",
+      "Dependent"
+    ],
+    "meaning_hi": "Dependant = आश्रित व्यक्ति (संज्ञा); Dependent = निर्भर (विशेषण)",
+    "meaning_en": "Dependant = a person who relies on another (noun); Dependent = relying on something (adjective)",
+    "example": "He has two dependants; his income is wholly dependent on freelance work.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Deprecate / Depreciate",
     "confusion_with": [
       "Deprecate",
@@ -1323,6 +1519,19 @@
     "meaning_hi": "Diaphanous = पारदर्शी/बहुत पतला; Opaque = अपारदर्शी",
     "meaning_en": "Diaphanous = light and translucent; Opaque = not allowing light to pass through",
     "example": "The diaphanous curtains were replaced with opaque blinds to block the sunlight.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Diary / Dairy",
+    "confusion_with": [
+      "Diary",
+      "Dairy"
+    ],
+    "meaning_hi": "Diary = दैनिक पत्रिका / रोज़नामचा; Dairy = डेयरी / दूध उत्पाद",
+    "meaning_en": "Diary = a daily personal journal; Dairy = a place where milk is processed, or milk products",
+    "example": "She noted in her diary that the dairy near her house had shut down.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -1420,6 +1629,19 @@
     "category": "confusing"
   },
   {
+    "word": "Dual / Duel",
+    "confusion_with": [
+      "Dual",
+      "Duel"
+    ],
+    "meaning_hi": "Dual = दोहरा / दोहरे उद्देश्य वाला; Duel = द्वंद्वयुद्ध",
+    "meaning_en": "Dual = having two parts or purposes; Duel = a formal fight between two people",
+    "example": "The dual-use technology had a dangerous side; the inventors challenged each other to a duel of ideas.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Ebullient / Exuberant",
     "confusion_with": [
       "Ebullient",
@@ -1499,6 +1721,19 @@
     "category": "confusing"
   },
   {
+    "word": "Elusive / Illusive",
+    "confusion_with": [
+      "Elusive",
+      "Illusive"
+    ],
+    "meaning_hi": "Elusive = पकड़ में न आने वाला / मायावी; Illusive = भ्रामक / झूठे आभास वाला",
+    "meaning_en": "Elusive = difficult to find, catch, or achieve; Illusive = based on or producing illusion",
+    "example": "The spy remained elusive; his promises of peace turned out to be illusive.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Eminent / Imminent / Immanent",
     "confusion_with": [
       "Eminent",
@@ -1566,6 +1801,19 @@
     "category": "confusing"
   },
   {
+    "word": "Envelop / Envelope",
+    "confusion_with": [
+      "Envelop",
+      "Envelope"
+    ],
+    "meaning_hi": "Envelop = ढकना / घेरना (क्रिया); Envelope = लिफ़ाफ़ा (संज्ञा)",
+    "meaning_en": "Envelop = to wrap or surround completely (verb); Envelope = a paper container for a letter (noun)",
+    "example": "Thick fog began to envelop the city; she sealed the envelope and posted the letter.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Envious / Jealous",
     "confusion_with": [
       "Envious",
@@ -1600,6 +1848,19 @@
     "meaning_hi": "Ephemeral = क्षणिक/अल्पकालिक; Perennial = दीर्घकालिक/बारहमासी",
     "meaning_en": "Ephemeral = lasting for a very short time; Perennial = lasting for a long or indefinite time",
     "example": "Fame can be ephemeral; the pursuit of knowledge is perennial.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Epitaph / Epithet",
+    "confusion_with": [
+      "Epitaph",
+      "Epithet"
+    ],
+    "meaning_hi": "Epitaph = समाधि-लेख; Epithet = विशेषण / उपाधि",
+    "meaning_en": "Epitaph = an inscription on a tombstone; Epithet = a word or phrase describing a quality of a person",
+    "example": "His epitaph read 'Beloved Teacher'; the epithet 'Iron Lady' defined his predecessor's legacy.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -1657,6 +1918,32 @@
     "category": "confusing"
   },
   {
+    "word": "Exhaustive / Exhausted",
+    "confusion_with": [
+      "Exhaustive",
+      "Exhausted"
+    ],
+    "meaning_hi": "Exhaustive = व्यापक / सम्पूर्ण; Exhausted = थका हुआ / समाप्त",
+    "meaning_en": "Exhaustive = thorough and complete; Exhausted = completely tired or used up",
+    "example": "The researchers compiled an exhaustive report, leaving themselves exhausted.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Expedient / Expeditious",
+    "confusion_with": [
+      "Expedient",
+      "Expeditious"
+    ],
+    "meaning_hi": "Expedient = व्यावहारिक / तात्कालिक सुविधा के लिए; Expeditious = शीघ्र / तेज़",
+    "meaning_en": "Expedient = convenient and practical though possibly improper; Expeditious = quick and efficient",
+    "example": "It was expedient to take the shortcut, and the team completed it in an expeditious manner.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Explicit / Implicit",
     "confusion_with": [
       "Explicit",
@@ -1678,6 +1965,19 @@
     "meaning_hi": "Facetious = हँसी में गलत समय पर बोलना; Fatuous = मूर्खतापूर्ण/निरर्थक",
     "meaning_en": "Facetious = treating serious matters flippantly; Fatuous = silly and pointless",
     "example": "His facetious remark during the meeting was dismissed as merely fatuous.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Faint / Feint",
+    "confusion_with": [
+      "Faint",
+      "Feint"
+    ],
+    "meaning_hi": "Faint = बेहोश होना / हल्का; Feint = दिखावटी हमला / धोखे की चाल",
+    "meaning_en": "Faint = to lose consciousness briefly, or lacking strength; Feint = a mock attack to distract an opponent",
+    "example": "She felt faint in the heat; the boxer used a feint to confuse his opponent.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -1748,6 +2048,19 @@
     "category": "confusing"
   },
   {
+    "word": "Ferment / Foment",
+    "confusion_with": [
+      "Ferment",
+      "Foment"
+    ],
+    "meaning_hi": "Ferment = किण्वन / अशांति; Foment = भड़काना / उकसाना",
+    "meaning_en": "Ferment = to undergo fermentation, or a state of agitation; Foment = to instigate or stir up trouble",
+    "example": "Social ferment was rising, fuelled by agitators who sought to foment unrest.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Fervent / Fervid",
     "confusion_with": [
       "Fervent",
@@ -1795,6 +2108,19 @@
     "meaning_hi": "Flagrant = स्पष्ट रूप से अपमानजनक; Blatant = अत्यंत स्पष्ट/घोर",
     "meaning_en": "Flagrant = conspicuously or obviously offensive; Blatant = done openly and unashamedly",
     "example": "The flagrant disregard for rules and the blatant lies caused public outrage.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Flair / Flare",
+    "confusion_with": [
+      "Flair",
+      "Flare"
+    ],
+    "meaning_hi": "Flair = प्राकृतिक प्रतिभा / शैली; Flare = भड़कना / रोशनी का संकेत",
+    "meaning_en": "Flair = a natural talent or stylish quality; Flare = to burn with a sudden flame, or a signal light",
+    "example": "She had a flair for design; the emergency team fired a flare to signal for help.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -1852,6 +2178,19 @@
     "category": "confusing"
   },
   {
+    "word": "Formally / Formerly",
+    "confusion_with": [
+      "Formally",
+      "Formerly"
+    ],
+    "meaning_hi": "Formally = औपचारिक रूप से; Formerly = पहले / पूर्व में",
+    "meaning_en": "Formally = in an official or ceremonial manner; Formerly = at an earlier time",
+    "example": "The treaty was formally signed today; the site was formerly a battlefield.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Former / Latter",
     "confusion_with": [
       "Former",
@@ -1860,6 +2199,32 @@
     "meaning_hi": "Former = पहला (दो में से); Latter = दूसरा (दो में से)",
     "meaning_en": "Former = the first of two things mentioned; Latter = the second of two mentioned",
     "example": "Of honesty and cleverness, the former is more enduring; the latter, without ethics, is dangerous.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Fort / Forte",
+    "confusion_with": [
+      "Fort",
+      "Forte"
+    ],
+    "meaning_hi": "Fort = किला; Forte = विशेष कौशल / ताकत",
+    "meaning_en": "Fort = a military stronghold; Forte = a person's strong point or special skill",
+    "example": "The soldiers held the fort; mathematics was never her forte.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Fortuitous / Fortunate",
+    "confusion_with": [
+      "Fortuitous",
+      "Fortunate"
+    ],
+    "meaning_hi": "Fortuitous = संयोगवश घटित; Fortunate = भाग्यशाली",
+    "meaning_en": "Fortuitous = happening by chance, not necessarily good; Fortunate = lucky and having good outcomes",
+    "example": "Their meeting was fortuitous; it proved fortunate that they met at all.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -1886,6 +2251,19 @@
     "meaning_hi": "Fragile = आसानी से टूटने वाला (वस्तु); Frail = शारीरिक रूप से कमज़ोर",
     "meaning_en": "Fragile = easily broken; Frail = physically weak",
     "example": "The ancient vase was fragile; the elderly patient was too frail to walk unaided.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Frugal / Austere",
+    "confusion_with": [
+      "Frugal",
+      "Austere"
+    ],
+    "meaning_hi": "Frugal = मितव्ययी / किफ़ायती; Austere = सादगीपूर्ण / कठोर",
+    "meaning_en": "Frugal = careful with money and resources; Austere = severely simple, or morally strict",
+    "example": "Her frugal habits ensured savings; the monk's austere lifestyle had no comforts.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -1951,6 +2329,19 @@
     "meaning_hi": "Germane = सीधे विषय से संबंधित; Relevant = प्रासंगिक",
     "meaning_en": "Germane = directly pertinent; Relevant = closely connected to the matter",
     "example": "Only germane evidence was admitted; relevant background was summarised separately.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Gorilla / Guerrilla",
+    "confusion_with": [
+      "Gorilla",
+      "Guerrilla"
+    ],
+    "meaning_hi": "Gorilla = गोरिल्ला (वानर); Guerrilla = छापामार लड़ाका",
+    "meaning_en": "Gorilla = a large primate; Guerrilla = a fighter in an irregular military force",
+    "example": "The documentary about gorillas was interrupted by news of guerrilla attacks.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -2112,6 +2503,32 @@
     "category": "confusing"
   },
   {
+    "word": "Humility / Humiliation",
+    "confusion_with": [
+      "Humility",
+      "Humiliation"
+    ],
+    "meaning_hi": "Humility = नम्रता / विनम्रता; Humiliation = अपमान / लज्जा",
+    "meaning_en": "Humility = a modest sense of one's own importance; Humiliation = the feeling of shame and embarrassment",
+    "example": "He accepted criticism with humility, never allowing defeat to become humiliation.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Hyper / Hypo",
+    "confusion_with": [
+      "Hyper",
+      "Hypo"
+    ],
+    "meaning_hi": "Hyper = अति / अधिक (उपसर्ग); Hypo = न्यून / कम (उपसर्ग)",
+    "meaning_en": "Hyper = a prefix meaning over or above normal; Hypo = a prefix meaning under or below normal",
+    "example": "Hypertension means high blood pressure; hypotension means dangerously low blood pressure.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Idle / Indolent",
     "confusion_with": [
       "Idle",
@@ -2138,6 +2555,19 @@
     "category": "confusing"
   },
   {
+    "word": "Impel / Compel",
+    "confusion_with": [
+      "Impel",
+      "Compel"
+    ],
+    "meaning_hi": "Impel = आंतरिक प्रेरणा से प्रेरित करना; Compel = बाहरी दबाव से मजबूर करना",
+    "meaning_en": "Impel = to drive or urge from within; Compel = to force by external pressure",
+    "example": "Conscience impelled her to confess; circumstances compelled him to resign.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Impetuous / Impulsive",
     "confusion_with": [
       "Impetuous",
@@ -2159,6 +2589,19 @@
     "meaning_hi": "Imply = संकेत देना (बोलने वाला); Infer = निष्कर्ष निकालना (सुनने वाला)",
     "meaning_en": "Imply = to suggest without stating directly (speaker); Infer = to deduce from evidence (listener)",
     "example": "Her silence implied disapproval; he inferred from her expression that she disagreed.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Incredulous / Incredible",
+    "confusion_with": [
+      "Incredulous",
+      "Incredible"
+    ],
+    "meaning_hi": "Incredulous = अविश्वासी / संशयपूर्ण; Incredible = अविश्वसनीय / अद्भुत",
+    "meaning_en": "Incredulous = unwilling to believe; Incredible = impossible to believe; extraordinary",
+    "example": "She was incredulous when she heard the incredible story of survival.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -2307,6 +2750,19 @@
     "category": "confusing"
   },
   {
+    "word": "Insolent / Insolvent",
+    "confusion_with": [
+      "Insolent",
+      "Insolvent"
+    ],
+    "meaning_hi": "Insolent = ढीठ / अपमानजनक; Insolvent = दिवालिया",
+    "meaning_en": "Insolent = rude and disrespectful; Insolvent = unable to pay debts",
+    "example": "The insolent clerk was dismissed; the once-rich trader was now insolvent.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Integral / Intrinsic",
     "confusion_with": [
       "Integral",
@@ -2354,19 +2810,6 @@
     "meaning_hi": "Judicial = न्यायिक; Judicious = विवेकपूर्ण",
     "meaning_en": "Judicial = relating to courts of law; Judicious = having or showing good judgement",
     "example": "A judicious use of judicial review can strengthen democratic institutions.",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "confusing"
-  },
-  {
-    "word": "Kernel / Colonel",
-    "confusion_with": [
-      "Kernel",
-      "Colonel"
-    ],
-    "meaning_hi": "Kernel = बीज का भीतरी भाग/सार; Colonel = कर्नल (सैन्य पद)",
-    "meaning_en": "Kernel = central part of a nut or seed, or the essence; Colonel = a senior army officer",
-    "example": "The colonel identified the kernel of truth within the intelligence report.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -2463,6 +2906,19 @@
     "category": "confusing"
   },
   {
+    "word": "Licence / License",
+    "confusion_with": [
+      "Licence",
+      "License"
+    ],
+    "meaning_hi": "Licence = अनुमति / लाइसेंस (संज्ञा); License = अनुमति देना (क्रिया)",
+    "meaning_en": "Licence = an official permit (noun); License = to give official permission (verb)",
+    "example": "She holds a driving licence; the state will license the new pharmacy next month.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Loath / Loathe",
     "confusion_with": [
       "Loath",
@@ -2497,6 +2953,19 @@
     "meaning_hi": "Lucid = स्पष्ट/बोधगम्य; Lucent = चमकीला/प्रकाशमान",
     "meaning_en": "Lucid = clearly expressed and easy to understand; Lucent = glowing or shining",
     "example": "Her lucid explanation stood in contrast to the lucent lamp that lit the room.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Luxurious / Luxuriant",
+    "confusion_with": [
+      "Luxurious",
+      "Luxuriant"
+    ],
+    "meaning_hi": "Luxurious = विलासितापूर्ण; Luxuriant = हरा-भरा / घना",
+    "meaning_en": "Luxurious = extremely comfortable and expensive; Luxuriant = rich and profuse in growth",
+    "example": "They stayed in a luxurious hotel surrounded by luxuriant tropical forests.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -2893,6 +3362,19 @@
     "category": "confusing"
   },
   {
+    "word": "Passed / Past",
+    "confusion_with": [
+      "Passed",
+      "Past"
+    ],
+    "meaning_hi": "Passed = गुज़रा / पास किया (क्रिया का भूतकाल); Past = अतीत / पहले का",
+    "meaning_en": "Passed = past tense of 'pass' (verb); Past = a time before the present (noun/adjective)",
+    "example": "He passed the exam and put his difficult past behind him.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Patriot / Nationalist",
     "confusion_with": [
       "Patriot",
@@ -3036,6 +3518,19 @@
     "category": "confusing"
   },
   {
+    "word": "Populace / Populous",
+    "confusion_with": [
+      "Populace",
+      "Populous"
+    ],
+    "meaning_hi": "Populace = जनता / आम लोग; Populous = घनी आबादी वाला",
+    "meaning_en": "Populace = the people of a country or area; Populous = having a large population",
+    "example": "The populace of the populous city demanded better public transport.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Practicable / Practical",
     "confusion_with": [
       "Practicable",
@@ -3044,6 +3539,19 @@
     "meaning_hi": "Practicable = व्यावहारिक रूप से संभव; Practical = व्यावहारिक/उपयोगी",
     "meaning_en": "Practicable = capable of being done; Practical = concerned with actual use not theory",
     "example": "The plan looked practical on paper, but implementing it was not practicable within the budget.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Precipitate / Precipitous",
+    "confusion_with": [
+      "Precipitate",
+      "Precipitous"
+    ],
+    "meaning_hi": "Precipitate = अचानक / जल्दबाजी में; Precipitous = खड़ी चट्टान जैसा / अत्यधिक तेज़",
+    "meaning_en": "Precipitate = done hastily and without consideration; Precipitous = extremely steep or sudden",
+    "example": "His precipitate decision led to a precipitous fall in the company's share price.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -3083,6 +3591,32 @@
     "meaning_hi": "Principal = प्रधान / मुख्य / प्राचार्य; Principle = सिद्धांत / नियम",
     "meaning_en": "Principal = most important, or head of a school; Principle = a fundamental rule or belief",
     "example": "The school principal insisted that no compromise on the principle of honesty would be tolerated.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Prodigal / Prodigious",
+    "confusion_with": [
+      "Prodigal",
+      "Prodigious"
+    ],
+    "meaning_hi": "Prodigal = फ़िज़ूलखर्च / उड़ाऊ; Prodigious = विशाल / असाधारण",
+    "meaning_en": "Prodigal = wastefully extravagant; Prodigious = remarkably great in size or degree",
+    "example": "The prodigal heir spent a prodigious sum in just a few months.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Prophecy / Prophesy",
+    "confusion_with": [
+      "Prophecy",
+      "Prophesy"
+    ],
+    "meaning_hi": "Prophecy = भविष्यवाणी (संज्ञा); Prophesy = भविष्यवाणी करना (क्रिया)",
+    "meaning_en": "Prophecy = a prediction (noun); Prophesy = to make a prediction (verb)",
+    "example": "The oracle made a prophecy; she would prophesy the outcome of every battle.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -3179,6 +3713,20 @@
     "category": "confusing"
   },
   {
+    "word": "Rain / Reign / Rein",
+    "confusion_with": [
+      "Rain",
+      "Reign",
+      "Rein"
+    ],
+    "meaning_hi": "Rain = वर्षा; Reign = शासनकाल; Rein = लगाम / नियंत्रण",
+    "meaning_en": "Rain = water falling from clouds; Reign = the rule of a monarch; Rein = a strap to control a horse, or to check",
+    "example": "During the queen's reign, heavy rain disrupted travel; the government kept a tight rein on spending.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Raise / Rise",
     "confusion_with": [
       "Raise",
@@ -3187,6 +3735,19 @@
     "meaning_hi": "Raise = उठाना (सकर्मक-object चाहिए); Rise = उठना (अकर्मक)",
     "meaning_en": "Raise (transitive) = to lift something up; Rise (intransitive) = to move upward by itself",
     "example": "Raise your hand before you speak; the sun will rise at six tomorrow.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Rational / Rationale",
+    "confusion_with": [
+      "Rational",
+      "Rationale"
+    ],
+    "meaning_hi": "Rational = तर्कसंगत / विवेकी; Rationale = औचित्य / कारण",
+    "meaning_en": "Rational = based on logic and reason; Rationale = the underlying reason or justification",
+    "example": "Her decision was rational; she explained the rationale clearly in her report.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -3635,6 +4196,19 @@
     "category": "confusing"
   },
   {
+    "word": "Subsequently / Consequently",
+    "confusion_with": [
+      "Subsequently",
+      "Consequently"
+    ],
+    "meaning_hi": "Subsequently = बाद में / तत्पश्चात; Consequently = फलस्वरूप / इसलिए",
+    "meaning_en": "Subsequently = coming after something in time; Consequently = as a result of",
+    "example": "He lost the contract; consequently, the firm suffered; subsequently it had to downsize.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Suit / Suite",
     "confusion_with": [
       "Suit",
@@ -3643,6 +4217,19 @@
     "meaning_hi": "Suit = कोट-पतलून / अनुकूल होना; Suite = कमरों का समूह / संगीत श्रृंखला",
     "meaning_en": "Suit (noun/verb) = a set of clothes, or to be convenient; Suite = connected rooms or musical pieces",
     "example": "He wore his finest suit to the presidential suite where the negotiations were being held.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Supine / Prone",
+    "confusion_with": [
+      "Supine",
+      "Prone"
+    ],
+    "meaning_hi": "Supine = चित लेटा हुआ (मुँह ऊपर) / निष्क्रिय; Prone = औंधा लेटा हुआ (मुँह नीचे) / प्रवण",
+    "meaning_en": "Supine = lying face upward, or passive; Prone = lying face downward, or likely to do something",
+    "example": "The patient was placed supine on the stretcher; she is prone to making rash decisions.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -3819,6 +4406,19 @@
     "category": "confusing"
   },
   {
+    "word": "Tortuous / Torturous",
+    "confusion_with": [
+      "Tortuous",
+      "Torturous"
+    ],
+    "meaning_hi": "Tortuous = टेढ़ा-मेढ़ा / पेचीदा; Torturous = अत्यंत कष्टदायक",
+    "meaning_en": "Tortuous = winding and full of twists; Torturous = causing great pain or suffering",
+    "example": "The tortuous mountain road made the torturous journey even more exhausting.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
     "word": "Transgress / Trespass",
     "confusion_with": [
       "Transgress",
@@ -3840,6 +4440,19 @@
     "meaning_hi": "Translucent = अर्धपारदर्शी (प्रकाश आता है पर दृश्य नहीं); Transparent = पूरी तरह पारदर्शी",
     "meaning_en": "Translucent = allowing light to pass but not a clear view; Transparent = clear, allowing full visibility",
     "example": "Frosted glass is translucent; the organisation pledged transparent governance.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Travesty / Parody",
+    "confusion_with": [
+      "Travesty",
+      "Parody"
+    ],
+    "meaning_hi": "Travesty = किसी चीज़ की विकृत नकल; Parody = हास्यपूर्ण अनुकरण",
+    "meaning_en": "Travesty = a false, distorted representation of something; Parody = a humorous imitation",
+    "example": "The rushed trial was a travesty of justice; the comedian's parody of it went viral.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -3931,6 +4544,19 @@
     "meaning_hi": "Unctuous = चिकनी-चुपड़ी बातें करने वाला; Obsequious = चापलूस",
     "meaning_en": "Unctuous = excessively flattering in an insincere way; Obsequious = excessively compliant",
     "example": "His unctuous praise and obsequious manner did not fool the shrewd interviewer.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Undo / Undue",
+    "confusion_with": [
+      "Undo",
+      "Undue"
+    ],
+    "meaning_hi": "Undo = पूर्ववत करना / खोलना; Undue = अनुचित / अत्यधिक",
+    "meaning_en": "Undo = to reverse an action or untie; Undue = more than is reasonable or appropriate",
+    "example": "There is no way to undo the damage caused by undue haste.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"
@@ -4140,6 +4766,19 @@
     "meaning_hi": "Waive = अधिकार छोड़ना; Wave = लहर / हाथ हिलाना",
     "meaning_en": "Waive = to give up a right or claim; Wave = a ridge of water, or to move the hand as a greeting",
     "example": "She agreed to waive the late fee and gave a friendly wave as she left the office.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "confusing"
+  },
+  {
+    "word": "Wander / Wonder",
+    "confusion_with": [
+      "Wander",
+      "Wonder"
+    ],
+    "meaning_hi": "Wander = भटकना / इधर-उधर घूमना; Wonder = आश्चर्य / जिज्ञासा",
+    "meaning_en": "Wander = to walk without a fixed route; Wonder = to feel curious or amazed",
+    "example": "She wandered through the forest, wondering at its incredible beauty.",
     "synonyms": [],
     "antonyms": [],
     "category": "confusing"

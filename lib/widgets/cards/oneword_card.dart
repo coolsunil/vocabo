@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../models/word_model.dart';
 import '../../utils/app_colors.dart';
+import '../pyq_chip_row.dart';
 
 class OneWordCard extends StatelessWidget {
   final Word word;
@@ -10,6 +11,7 @@ class OneWordCard extends StatelessWidget {
   final int index;
   final int total;
   final bool shareMode;
+  final List<Map<String, dynamic>> pyqMatches;
 
   const OneWordCard({
     super.key,
@@ -20,6 +22,7 @@ class OneWordCard extends StatelessWidget {
     required this.index,
     required this.total,
     this.shareMode = false,
+    this.pyqMatches = const [],
   });
 
   static const _green  = Color(0xFF059669);
@@ -131,25 +134,32 @@ class OneWordCard extends StatelessWidget {
               ),
             ),
           ),
+          if (!shareMode && pyqMatches.isNotEmpty)
+            PyqChipRow(matches: pyqMatches),
           const SizedBox(height: 20),
           if (word.meaningHi.isNotEmpty) ...[
             _label('Hindi Meaning', context.isDark ? const Color(0xFF818CF8) : const Color(0xFF4338CA)),
             const SizedBox(height: 8),
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
-              decoration: BoxDecoration(
-                color: const Color(0xFF4338CA).withValues(alpha: 0.10),
-                borderRadius: BorderRadius.circular(12),
-              ),
-              child: Text(
-                word.meaningHi,
-                style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.w600,
-                  color: context.isDark ? const Color(0xFF818CF8) : const Color(0xFF3730A3),
+            Row(
+              children: [
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+                  decoration: BoxDecoration(
+                    color: context.isDark
+                        ? const Color(0xFF6366F1).withValues(alpha: 0.18)
+                        : const Color(0xFF4338CA).withValues(alpha: 0.10),
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Text(
+                    word.meaningHi,
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.w600,
+                      color: context.isDark ? const Color(0xFFC7D2FE) : const Color(0xFF3730A3),
+                    ),
+                  ),
                 ),
-              ),
+              ],
             ),
             const SizedBox(height: 14),
           ],

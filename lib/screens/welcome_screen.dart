@@ -1,4 +1,4 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 import 'home_screen.dart';
 
@@ -43,14 +43,20 @@ class _WelcomeScreenState extends State<WelcomeScreen>
 
   @override
   Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    const darkBg = Color(0xFF160728);
     return Scaffold(
+      backgroundColor: isDark ? darkBg : const Color(0xFFF3E8FF),
       body: Container(
-        decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            colors: [Color(0xFFF3E8FF), Color(0xFFFAE8FF), Colors.white],
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-          ),
+        decoration: BoxDecoration(
+          color: isDark ? darkBg : null,
+          gradient: isDark
+              ? null
+              : const LinearGradient(
+                  colors: [Color(0xFFF3E8FF), Color(0xFFFAE8FF), Colors.white],
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                ),
         ),
         child: SafeArea(
           child: FadeTransition(
@@ -67,8 +73,10 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                     const SizedBox(height: 36),
                     // Title
                     ShaderMask(
-                      shaderCallback: (bounds) => const LinearGradient(
-                        colors: [_kDark, _kBright],
+                      shaderCallback: (bounds) => LinearGradient(
+                        colors: isDark
+                            ? const [Color(0xFFE879F9), Color(0xFFF5D0FE)]
+                            : const [_kDark, _kBright],
                         begin: Alignment.topLeft,
                         end: Alignment.bottomRight,
                       ).createShader(bounds),
@@ -84,12 +92,12 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                       ),
                     ),
                     const SizedBox(height: 10),
-                    const Text(
+                    Text(
                       'Words that Crack Exams!',
                       style: TextStyle(
                         fontSize: 19,
                         fontWeight: FontWeight.w600,
-                        color: _kDark,
+                        color: isDark ? const Color(0xFFE9D5FF) : _kDark,
                         letterSpacing: 0.1,
                       ),
                     ),
@@ -99,20 +107,11 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                       spacing: 10,
                       runSpacing: 10,
                       alignment: WrapAlignment.center,
-                      children: const [
-                        _Chip(icon: Icons.layers_rounded, label: '15+ Topics'),
-                        _Chip(
-                          icon: Icons.history_edu_rounded,
-                          label: 'PYQs Included',
-                        ),
-                        _Chip(
-                          icon: Icons.bolt_rounded,
-                          label: 'Smart Practice',
-                        ),
-                        _Chip(
-                          icon: Icons.emoji_events_rounded,
-                          label: 'SSC · IBPS · UPSC',
-                        ),
+                      children: [
+                        _Chip(icon: Icons.layers_rounded, label: '18+ Topics', isDark: isDark),
+                        _Chip(icon: Icons.grading_rounded, label: 'PYQs Included', isDark: isDark),
+                        _Chip(icon: Icons.bolt_rounded, label: 'Smart Practice', isDark: isDark),
+                        _Chip(icon: Icons.emoji_events_rounded, label: 'SSC · IBPS · UPSC', isDark: isDark),
                       ],
                     ),
                     const Spacer(flex: 3),
@@ -124,12 +123,12 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                       ),
                     ),
                     const SizedBox(height: 14),
-                    const Text(
+                    Text(
                       'No sign-up needed · Free to start',
                       style: TextStyle(
                         fontSize: 14,
                         fontWeight: FontWeight.w500,
-                        color: Color(0xFF374151),
+                        color: isDark ? const Color(0xFFA78BCA) : const Color(0xFF374151),
                         letterSpacing: 0.3,
                       ),
                     ),
@@ -175,8 +174,9 @@ class _AppIcon extends StatelessWidget {
 class _Chip extends StatelessWidget {
   final IconData icon;
   final String label;
+  final bool isDark;
 
-  const _Chip({required this.icon, required this.label});
+  const _Chip({required this.icon, required this.label, required this.isDark});
 
   @override
   Widget build(BuildContext context) {
@@ -184,19 +184,22 @@ class _Chip extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 9),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(30),
-        color: _kLight,
+        color: isDark ? const Color(0xFF3B0764).withValues(alpha: 0.8) : _kLight,
+        border: isDark
+            ? Border.all(color: const Color(0xFF7E22CE).withValues(alpha: 0.5), width: 1)
+            : null,
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(icon, color: _kBright, size: 15),
+          Icon(icon, color: isDark ? const Color(0xFFD946EF) : _kBright, size: 15),
           const SizedBox(width: 6),
           Text(
             label,
-            style: const TextStyle(
+            style: TextStyle(
               fontSize: 13,
               fontWeight: FontWeight.w700,
-              color: _kDark,
+              color: isDark ? const Color(0xFFE9D5FF) : _kDark,
             ),
           ),
         ],

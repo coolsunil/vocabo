@@ -1536,14 +1536,14 @@
   {
     "sentence": "I _____ know anything about it.",
     "options": [
-      "don't",
-      "doesn't",
-      "didn't",
-      "do not"
+      "does not",
+      "do not",
+      "did not",
+      "is not"
     ],
     "answer": "do not",
-    "explanation_hi": "Double negative से बचना चाहिए।",
-    "explanation_en": "Avoid double negatives; 'do not know anything' is correct.",
+    "explanation_hi": "Subject 'I' के साथ 'do not' आता है; 'does not' third person singular के लिए है।",
+    "explanation_en": "Subject 'I' takes 'do not' (not 'does not' which is for third person singular).",
     "category": "cloze_test"
   },
   {
@@ -1570,6 +1570,422 @@
     "answer": "the",
     "explanation_hi": "'Repeat' में already once more का अर्थ है; 'again' अनावश्यक है।",
     "explanation_en": "'Repeat' already implies doing something again; 'again' is redundant.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The officer agreed _____ all the terms of the contract.",
+    "options": [
+      "with",
+      "to",
+      "for",
+      "on"
+    ],
+    "answer": "to",
+    "explanation_hi": "'Agree to' proposal/plan के साथ आता है; 'agree with' व्यक्ति/राय के साथ।",
+    "explanation_en": "Use 'agree to' for proposals and plans; 'agree with' is used with a person or opinion.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She has been married _____ a doctor for fifteen years.",
+    "options": [
+      "with",
+      "to",
+      "by",
+      "at"
+    ],
+    "answer": "to",
+    "explanation_hi": "'Married to' सही phrase है।",
+    "explanation_en": "The correct phrase is 'married to'; do not use 'with' or 'by'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He was envious _____ his colleague's rapid promotion.",
+    "options": [
+      "at",
+      "for",
+      "of",
+      "with"
+    ],
+    "answer": "of",
+    "explanation_hi": "'Envious of' सही phrase है।",
+    "explanation_en": "The correct phrase is 'envious of'; use 'of' after 'envious'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Only those above eighteen are eligible _____ voting.",
+    "options": [
+      "to",
+      "for",
+      "of",
+      "in"
+    ],
+    "answer": "for",
+    "explanation_hi": "'Eligible for' सही phrase है।",
+    "explanation_en": "The correct phrase is 'eligible for'; do not use 'to' or 'of'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "His decision was contrary _____ the orders of his superior.",
+    "options": [
+      "to",
+      "with",
+      "than",
+      "of"
+    ],
+    "answer": "to",
+    "explanation_hi": "'Contrary to' सही phrase है।",
+    "explanation_en": "The correct phrase is 'contrary to'; do not use 'with' or 'than'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She is completely indifferent _____ the opinions of others.",
+    "options": [
+      "about",
+      "of",
+      "to",
+      "for"
+    ],
+    "answer": "to",
+    "explanation_hi": "'Indifferent to' सही phrase है।",
+    "explanation_en": "The correct phrase is 'indifferent to'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "His views on the policy differ _____ those of his predecessor.",
+    "options": [
+      "with",
+      "from",
+      "to",
+      "by"
+    ],
+    "answer": "from",
+    "explanation_hi": "'Differ from' सही phrase है।",
+    "explanation_en": "The correct phrase is 'differ from'; do not use 'with' or 'to'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She apologized _____ arriving late to the board meeting.",
+    "options": [
+      "to",
+      "for",
+      "with",
+      "at"
+    ],
+    "answer": "for",
+    "explanation_hi": "'Apologize for + action/reason' आता है; व्यक्ति के लिए 'apologize to' आता है।",
+    "explanation_en": "Use 'apologize for + reason/action'; 'apologize to' is used before the person.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Many a candidate _____ appeared for the examination this year.",
+    "options": [
+      "have",
+      "has",
+      "are",
+      "were"
+    ],
+    "answer": "has",
+    "explanation_hi": "'Many a + singular noun' के साथ singular verb आती है।",
+    "explanation_en": "'Many a' always takes a singular noun and a singular verb.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Not only the students but also the teacher _____ present in the hall.",
+    "options": [
+      "are",
+      "were",
+      "was",
+      "have"
+    ],
+    "answer": "was",
+    "explanation_hi": "'Not only...but also' में verb nearest subject (teacher-singular) के अनुसार आती है।",
+    "explanation_en": "With 'not only...but also', the verb agrees with the nearest subject 'teacher' (singular).",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Bread and butter _____ his only meal during those difficult days.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "have"
+    ],
+    "answer": "is",
+    "explanation_hi": "'Bread and butter' एक इकाई के रूप में लिया जाता है; singular verb आती है।",
+    "explanation_en": "'Bread and butter' is treated as a single unit and takes a singular verb.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Ten kilometres _____ a very long distance to cover on foot.",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "have"
+    ],
+    "answer": "is",
+    "explanation_hi": "Distance/Measurement को एक इकाई के रूप में singular माना जाता है।",
+    "explanation_en": "A distance or measurement used as a unit takes a singular verb.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She enjoys _____ classical music in the evenings.",
+    "options": [
+      "to listen",
+      "listening",
+      "listened",
+      "listen"
+    ],
+    "answer": "listening",
+    "explanation_hi": "'Enjoy' के बाद gerund (-ing form) आता है, infinitive नहीं।",
+    "explanation_en": "Use gerund after 'enjoy'; 'enjoy + gerund' is the correct structure.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He avoided _____ eye contact during the interrogation.",
+    "options": [
+      "to make",
+      "making",
+      "made",
+      "make"
+    ],
+    "answer": "making",
+    "explanation_hi": "'Avoid' के बाद gerund (-ing form) आता है।",
+    "explanation_en": "Use gerund after 'avoid'; 'avoid + gerund' is the correct structure.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The committee decided _____ the election by two weeks.",
+    "options": [
+      "postponing",
+      "to postpone",
+      "postponed",
+      "postpone"
+    ],
+    "answer": "to postpone",
+    "explanation_hi": "'Decide' के बाद infinitive (to + verb) आता है।",
+    "explanation_en": "Use infinitive after 'decide'; 'decide + to + infinitive' is the correct structure.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He suggested _____ the venue to a larger auditorium.",
+    "options": [
+      "to shift",
+      "shifting",
+      "shifted",
+      "shift"
+    ],
+    "answer": "shifting",
+    "explanation_hi": "'Suggest' के बाद gerund (-ing form) आता है।",
+    "explanation_en": "Use gerund after 'suggest'; 'suggest + gerund' is the correct structure.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The accused denied _____ any role in the conspiracy.",
+    "options": [
+      "to play",
+      "playing",
+      "played",
+      "play"
+    ],
+    "answer": "playing",
+    "explanation_hi": "'Deny' के बाद gerund (-ing form) आता है।",
+    "explanation_en": "Use gerund after 'deny'; 'deny + gerund' is the correct structure.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Would you mind _____ the door while we talk?",
+    "options": [
+      "to close",
+      "closing",
+      "closed",
+      "close"
+    ],
+    "answer": "closing",
+    "explanation_hi": "'Mind' के बाद gerund (-ing form) आता है।",
+    "explanation_en": "Use gerund after 'mind'; 'mind + gerund' is the correct structure.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She _____ to music when her mother called her.",
+    "options": [
+      "listened",
+      "listens",
+      "was listening",
+      "has listened"
+    ],
+    "answer": "was listening",
+    "explanation_hi": "Interrupted past action के लिए past continuous (was/were + -ing) चाहिए।",
+    "explanation_en": "Use past continuous for an action in progress when another past action interrupted it.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He _____ walk five kilometres every morning when he was young.",
+    "options": [
+      "used to",
+      "was used to",
+      "is used to",
+      "use to"
+    ],
+    "answer": "used to",
+    "explanation_hi": "Past habitual action के लिए 'used to + base verb' आता है।",
+    "explanation_en": "Use 'used to + base verb' for habits or states that existed in the past but no longer do.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "Look at those dark clouds — it _____ rain heavily today.",
+    "options": [
+      "will",
+      "shall",
+      "is going to",
+      "would"
+    ],
+    "answer": "is going to",
+    "explanation_hi": "Present evidence के आधार पर near future के लिए 'is/are going to' आता है।",
+    "explanation_en": "Use 'is going to' for a future event predicted from present visible evidence.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She practised daily _____ she could improve her performance.",
+    "options": [
+      "because",
+      "so that",
+      "although",
+      "however"
+    ],
+    "answer": "so that",
+    "explanation_hi": "Purpose clause के लिए 'so that' आता है।",
+    "explanation_en": "Use 'so that' to introduce a purpose clause showing the aim of an action.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He must work diligently, _____ he should fail the examination.",
+    "options": [
+      "lest",
+      "so that",
+      "unless",
+      "although"
+    ],
+    "answer": "lest",
+    "explanation_hi": "'Lest' का अर्थ है 'इस डर से कि'; इसके बाद 'should' आता है।",
+    "explanation_en": "'Lest' means 'for fear that'; the clause after 'lest' takes 'should'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She ran as fast _____ she could to catch the train.",
+    "options": [
+      "as",
+      "than",
+      "so",
+      "that"
+    ],
+    "answer": "as",
+    "explanation_hi": "'As fast as' में दूसरा 'as' अनिवार्य है; यह positive degree comparison है।",
+    "explanation_en": "In 'as...as' positive degree comparison, the second 'as' is required.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The new welfare scheme will _____ the condition of the underprivileged.",
+    "options": [
+      "worsen",
+      "ameliorate",
+      "deteriorate",
+      "aggravate"
+    ],
+    "answer": "ameliorate",
+    "explanation_hi": "'Ameliorate' = सुधारना; welfare scheme positive action करती है।",
+    "explanation_en": "'Ameliorate' means to improve or make better; a welfare scheme implies a positive action.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "His _____ attitude towards the victims of the disaster shocked everyone present.",
+    "options": [
+      "sympathetic",
+      "flippant",
+      "earnest",
+      "solemn"
+    ],
+    "answer": "flippant",
+    "explanation_hi": "'Flippant' = गंभीर विषयों पर हल्का या अनुचित रवैया; 'shocked everyone' से negative अर्थ confirm होता है।",
+    "explanation_en": "'Flippant' means treating serious matters without due respect; 'shocked everyone' confirms the negative connotation.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The officer's _____ conduct during the rescue operation earned him a national award.",
+    "options": [
+      "exemplary",
+      "reckless",
+      "erratic",
+      "deplorable"
+    ],
+    "answer": "exemplary",
+    "explanation_hi": "'Exemplary' = अनुकरणीय / आदर्शपूर्ण; award मिलने के संदर्भ में positive word सही है।",
+    "explanation_en": "'Exemplary' means serving as a worthy model; earning an award confirms this positive meaning.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The court _____ the accused after all charges were found to be baseless.",
+    "options": [
+      "convicted",
+      "acquitted",
+      "indicted",
+      "charged"
+    ],
+    "answer": "acquitted",
+    "explanation_hi": "'Acquit' = निर्दोष घोषित करना; 'convict' = दोषी ठहराना (इसका विपरीत)।",
+    "explanation_en": "'Acquitted' means declared not guilty; 'convicted' is the opposite.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "She could not cope _____ the pressure of the final examinations.",
+    "options": [
+      "up with",
+      "with",
+      "up",
+      "to"
+    ],
+    "answer": "with",
+    "explanation_hi": "'Cope with' सही phrase है; 'cope up with' Indian English की एक आम गलती है।",
+    "explanation_en": "The correct phrase is 'cope with'; 'cope up with' is a common Indian English error.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "He is three years senior _____ me in the department.",
+    "options": [
+      "than",
+      "to",
+      "from",
+      "over"
+    ],
+    "answer": "to",
+    "explanation_hi": "Latin origin comparatives (senior, junior, superior, inferior) के साथ 'to' आता है, 'than' नहीं।",
+    "explanation_en": "Latin-origin comparatives (senior, junior, superior, inferior) take 'to', not 'than'.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The new policy is expected to _____ the unemployment rate in rural areas.",
+    "options": [
+      "mitigate",
+      "aggravate",
+      "instigate",
+      "perpetuate"
+    ],
+    "answer": "mitigate",
+    "explanation_hi": "'Mitigate' = कम करना; policy का उद्देश्य सकारात्मक है — unemployment घटाना। 'Aggravate' = बढ़ाना (विपरीत)।",
+    "explanation_en": "'Mitigate' means to reduce or lessen. A policy designed to help employment implies a positive action. 'Aggravate' is the opposite.",
+    "category": "cloze_test"
+  },
+  {
+    "sentence": "The minister _____ to resign if the controversial bill was not withdrawn.",
+    "options": [
+      "promised",
+      "threatened",
+      "suggested",
+      "pleaded"
+    ],
+    "answer": "threatened",
+    "explanation_hi": "'Threatened' = conditional consequence दिखाना। Resignation एक negative consequence है जो minister दे रहे हैं — यह threat है, promise नहीं।",
+    "explanation_en": "'Threatened' conveys a conditional negative consequence. Resignation as a conditional action is a threat, not a promise.",
     "category": "cloze_test"
   }
 ]

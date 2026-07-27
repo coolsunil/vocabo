@@ -1,6 +1,5 @@
 ﻿import 'package:flutter/material.dart';
 import 'package:package_info_plus/package_info_plus.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 import '../data/bookmark_store.dart';
 import '../data/premium_store.dart';
@@ -155,27 +154,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
           ),
           const SizedBox(height: 18),
           _SettingsSection(
-            title: 'Community',
-            children: [
-              _SettingsTile(
-                icon: Icons.send_rounded,
-                iconColor: const Color(0xFF0088CC),
-                title: 'Join Vocabo on Telegram',
-                subtitle: 'Discuss words, tips & daily vocab challenges',
-                onTap: () async {
-                  final tgUri = Uri.parse('tg://resolve?domain=vocabo_community');
-                  final webUri = Uri.parse('https://t.me/vocabo_community');
-                  if (await canLaunchUrl(tgUri)) {
-                    await launchUrl(tgUri);
-                  } else {
-                    await launchUrl(webUri, mode: LaunchMode.externalApplication);
-                  }
-                },
-              ),
-            ],
-          ),
-          const SizedBox(height: 18),
-          _SettingsSection(
             title: 'App',
             children: [
               _SettingsInfoTile(
@@ -274,6 +252,7 @@ class _SettingsTile extends StatelessWidget {
     );
   }
 }
+
 
 class _SettingsInfoTile extends StatelessWidget {
   final IconData icon;

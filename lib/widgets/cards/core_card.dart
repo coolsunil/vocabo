@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../models/word_model.dart';
 import '../../utils/app_colors.dart';
+import '../pyq_chip_row.dart';
 
 class CoreCard extends StatelessWidget {
   final Word word;
@@ -10,6 +11,7 @@ class CoreCard extends StatelessWidget {
   final int index;
   final int total;
   final bool shareMode;
+  final List<Map<String, dynamic>> pyqMatches;
 
   const CoreCard({
     super.key,
@@ -20,6 +22,7 @@ class CoreCard extends StatelessWidget {
     required this.index,
     required this.total,
     this.shareMode = false,
+    this.pyqMatches = const [],
   });
 
   @override
@@ -54,6 +57,9 @@ class CoreCard extends StatelessWidget {
 
           Center(
             child: Container(
+              constraints: BoxConstraints(
+                maxWidth: MediaQuery.of(context).size.width - 88,
+              ),
               padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
               decoration: BoxDecoration(
                 color: context.isDark
@@ -61,15 +67,21 @@ class CoreCard extends StatelessWidget {
                     : const Color(0xFF22C55E).withValues(alpha: 0.12),
                 borderRadius: BorderRadius.circular(14),
               ),
-              child: Text(
-                word.word,
-                style: const TextStyle(
-                  fontSize: 36,
-                  fontWeight: FontWeight.bold,
+              child: FittedBox(
+                fit: BoxFit.scaleDown,
+                child: Text(
+                  word.word,
+                  maxLines: 1,
+                  style: const TextStyle(
+                    fontSize: 36,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
             ),
           ),
+          if (!shareMode && pyqMatches.isNotEmpty)
+            PyqChipRow(matches: pyqMatches),
           const SizedBox(height: 24),
 
           _title(context, "Hindi Meaning"),

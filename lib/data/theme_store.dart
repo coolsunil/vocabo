@@ -11,7 +11,9 @@ Future<void> loadThemeStore() async {
   } else if (saved == 'dark') {
     themeNotifier.value = ThemeMode.dark;
   } else {
-    themeNotifier.value = ThemeMode.system;
+    // First launch — default to dark and persist so it sticks
+    themeNotifier.value = ThemeMode.dark;
+    await prefs.setString('theme_mode', 'dark');
   }
 }
 

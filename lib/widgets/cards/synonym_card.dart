@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../models/word_model.dart';
 import '../../utils/app_colors.dart';
+import '../pyq_chip_row.dart';
 
 class SynonymCard extends StatelessWidget {
   final Word word;
@@ -10,6 +11,7 @@ class SynonymCard extends StatelessWidget {
   final int index;
   final int total;
   final bool shareMode;
+  final List<Map<String, dynamic>> pyqMatches;
 
   const SynonymCard({
     super.key,
@@ -20,6 +22,7 @@ class SynonymCard extends StatelessWidget {
     required this.index,
     required this.total,
     this.shareMode = false,
+    this.pyqMatches = const [],
   });
 
   @override
@@ -65,8 +68,36 @@ class SynonymCard extends StatelessWidget {
               ),
             ),
           ),
+          if (!shareMode && pyqMatches.isNotEmpty)
+            PyqChipRow(matches: pyqMatches),
 
-          const SizedBox(height: 24),
+          const SizedBox(height: 16),
+
+          if (word.meaningEn.isNotEmpty)
+            Text(
+              word.meaningEn,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 19,
+                color: isDark ? const Color(0xFFD1D5DB) : const Color(0xFF374151),
+                fontWeight: FontWeight.w500,
+                height: 1.4,
+              ),
+            ),
+          if (word.meaningHi.isNotEmpty) ...[
+            const SizedBox(height: 4),
+            Text(
+              word.meaningHi,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 18,
+                color: isDark ? const Color(0xFF9CA3AF) : const Color(0xFF6B7280),
+                height: 1.4,
+              ),
+            ),
+          ],
+
+          const SizedBox(height: 20),
 
           if (word.synonyms.isNotEmpty) ...[
             _sectionLabel('Synonyms', isDark ? const Color(0xFF4ADE80) : const Color(0xFF16A34A), Icons.check_circle_outline),

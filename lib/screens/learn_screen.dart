@@ -71,6 +71,9 @@ class _LearnScreenState extends State<LearnScreen>
   List<Word> words = [];
   Set<int> bookmarkedIndices = {};
 
+  // PYQ evidence index: word_lower → [{exam, year, file, idx}]
+  Map<String, List<Map<String, dynamic>>> _pyqIndex = {};
+
   double _dragOffset = 0.0;
   bool _isThrowing = false;
   bool _isSnapBack = false;
@@ -87,6 +90,7 @@ class _LearnScreenState extends State<LearnScreen>
     _throwController = AnimationController(vsync: this);
     _throwAnim = Tween<double>(begin: 0, end: 0).animate(_throwController);
     loadWords();
+    _loadPyqIndex();
   }
 
   @override
@@ -226,14 +230,29 @@ class _LearnScreenState extends State<LearnScreen>
               minHeight: constraints.maxHeight,
               minWidth: constraints.maxWidth,
             ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [_buildCard(w, indexOverride: idx)],
-            ),
+            child: _buildCard(w, indexOverride: idx),
           ),
         );
       },
     );
+  }
+
+  Future<void> _loadPyqIndex() async {
+    try {
+      final raw = await rootBundle.loadString('assets/data/pyq_word_index.json');
+      final decoded = json.decode(raw) as Map<String, dynamic>;
+      if (mounted) {
+        setState(() {
+          _pyqIndex = decoded.map(
+            (k, v) => MapEntry(k, (v as List).cast<Map<String, dynamic>>()),
+          );
+        });
+      }
+    } catch (_) {}
+  }
+
+  List<Map<String, dynamic>> _pyqMatches(String word) {
+    return _pyqIndex[word.toLowerCase()] ?? [];
   }
 
   Future<void> loadWords() async {
@@ -762,6 +781,7 @@ class _LearnScreenState extends State<LearnScreen>
           onShare: _shareCurrentCard,
           index: idx + 1,
           total: words.length,
+          pyqMatches: _pyqMatches(word.word),
         );
       case 'idioms':
         return IdiomCard(
@@ -771,6 +791,7 @@ class _LearnScreenState extends State<LearnScreen>
           onShare: _shareCurrentCard,
           index: idx + 1,
           total: words.length,
+          pyqMatches: _pyqMatches(word.word),
         );
       case 'confusing':
         final pairWord = _findConfusingPair(word);
@@ -801,6 +822,7 @@ class _LearnScreenState extends State<LearnScreen>
           onShare: _shareCurrentCard,
           index: idx + 1,
           total: words.length,
+          pyqMatches: _pyqMatches(word.word),
         );
       case 'fixed_prepositions':
         return FixedPrepositionCard(
@@ -855,6 +877,7 @@ class _LearnScreenState extends State<LearnScreen>
           onShare: _shareCurrentCard,
           index: idx + 1,
           total: words.length,
+          pyqMatches: _pyqMatches(word.word),
         );
       case 'narration':
         return NarrationCard(
@@ -864,6 +887,7 @@ class _LearnScreenState extends State<LearnScreen>
           onShare: _shareCurrentCard,
           index: idx + 1,
           total: words.length,
+          pyqMatches: _pyqMatches(word.word),
         );
       default:
         return CoreCard(
@@ -873,6 +897,7 @@ class _LearnScreenState extends State<LearnScreen>
           onShare: _shareCurrentCard,
           index: idx + 1,
           total: words.length,
+          pyqMatches: _pyqMatches(word.word),
         );
     }
   }

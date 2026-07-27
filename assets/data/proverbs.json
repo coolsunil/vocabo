@@ -1,9 +1,36 @@
 [
   {
+    "word": "A bad workman blames his tools",
+    "meaning_hi": "अकुशल व्यक्ति अपने साधनों को दोष देता है",
+    "meaning_en": "an incompetent person blames external factors rather than their own lack of skill",
+    "example": "He blamed the software for his poor report, but everyone knew it was a bad workman blaming his tools.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
     "word": "A friend in need is a friend indeed",
     "meaning_hi": "संकट में साथ देने वाला ही सच्चा मित्र होता है",
     "meaning_en": "a true friend helps when you are in trouble",
     "example": "When everyone else walked away, it was Suresh who stood by him — a friend in need is a friend indeed.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
+    "word": "A little knowledge is a dangerous thing",
+    "meaning_hi": "अधूरा ज्ञान खतरनाक होता है",
+    "meaning_en": "having only partial knowledge of a subject can lead to serious mistakes",
+    "example": "He attempted the electrical repair after watching one video — a little knowledge is a dangerous thing.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
+    "word": "A penny saved is a penny earned",
+    "meaning_hi": "बचाया हुआ पैसा कमाए हुए के बराबर है",
+    "meaning_en": "saving money is as worthwhile as earning it",
+    "example": "She avoided unnecessary expenses and built a substantial fund — a penny saved is a penny earned.",
     "synonyms": [],
     "antonyms": [],
     "category": "proverbs"
@@ -198,10 +225,37 @@
     "category": "proverbs"
   },
   {
+    "word": "Diamond cuts diamond",
+    "meaning_hi": "हीरे को हीरा ही काटता है",
+    "meaning_en": "only someone equally capable or cunning can overcome another who is very able",
+    "example": "The new prosecutor matched the crafty defence lawyer argument for argument — diamond cuts diamond.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
     "word": "Discretion is the better part of valour",
     "meaning_hi": "समझदारी असली वीरता है",
     "meaning_en": "it is sometimes wiser to avoid unnecessary danger than to face it recklessly",
     "example": "He chose not to confront the armed gang alone — discretion is the better part of valour.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
+    "word": "Do not bite off more than you can chew",
+    "meaning_hi": "अपनी क्षमता से अधिक काम मत उठाओ",
+    "meaning_en": "do not take on more work or responsibility than you can handle",
+    "example": "He accepted five projects simultaneously and delivered none on time — do not bite off more than you can chew.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
+    "word": "Do not bite the hand that feeds you",
+    "meaning_hi": "जो तुम्हारा पालन-पोषण करे उसे तकलीफ मत दो",
+    "meaning_en": "do not act against the interests of those who support or help you",
+    "example": "He publicly criticised the sponsor who had funded his research — he had bitten the hand that fed him.",
     "synonyms": [],
     "antonyms": [],
     "category": "proverbs"
@@ -270,6 +324,15 @@
     "category": "proverbs"
   },
   {
+    "word": "Every man is the architect of his own fortune",
+    "meaning_hi": "हर व्यक्ति अपने भाग्य का निर्माता है",
+    "meaning_en": "a person's success or failure is determined by their own efforts and choices",
+    "example": "Born in poverty, he built a business empire through relentless effort — every man is the architect of his own fortune.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
     "word": "Experience is the best teacher",
     "meaning_hi": "अनुभव सबसे बड़ा शिक्षक है",
     "meaning_en": "people learn best through actual experience rather than theory",
@@ -288,10 +351,28 @@
     "category": "proverbs"
   },
   {
+    "word": "Familiarity breeds contempt",
+    "meaning_hi": "अत्यधिक परिचय अनादर पैदा करता है",
+    "meaning_en": "knowing someone too well may cause one to lose respect for them",
+    "example": "The celebrity's constant media appearances diminished his mystique — familiarity breeds contempt.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
     "word": "First come, first served",
     "meaning_hi": "पहले आओ, पहले पाओ",
     "meaning_en": "those who arrive earliest receive priority",
     "example": "Seats were limited and distributed on a first come, first served basis.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
+    "word": "First deserve, then desire",
+    "meaning_hi": "पहले योग्यता अर्जित करो, फिर इच्छा रखो",
+    "meaning_en": "earn the right to something before expecting to receive it",
+    "example": "He spent years building expertise before applying for the senior role — first deserve, then desire.",
     "synonyms": [],
     "antonyms": [],
     "category": "proverbs"
@@ -423,6 +504,15 @@
     "category": "proverbs"
   },
   {
+    "word": "If wishes were horses, beggars would ride",
+    "meaning_hi": "केवल इच्छाओं से काम नहीं चलता",
+    "meaning_en": "it is useless to wish for things without taking action",
+    "example": "He kept dreaming of becoming an IAS officer but never opened a book — if wishes were horses, beggars would ride.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
     "word": "Ignorance is bliss",
     "meaning_hi": "अज्ञान कभी-कभी सुखद होता है",
     "meaning_en": "not knowing the full truth can sometimes prevent unnecessary anxiety",
@@ -432,10 +522,28 @@
     "category": "proverbs"
   },
   {
+    "word": "In the country of the blind, the one-eyed man is king",
+    "meaning_hi": "अंधों में काना राजा",
+    "meaning_en": "even a person of limited ability appears superior among those with no ability at all",
+    "example": "His basic accounting knowledge made him indispensable among the entirely untrained staff — in the country of the blind, the one-eyed man is king.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
     "word": "It is no use crying over spilt milk",
     "meaning_hi": "बीती बात पर पछताना व्यर्थ है",
     "meaning_en": "there is no point in being upset about something that cannot be changed",
     "example": "The deal was lost; there is no use crying over spilt milk — focus on the next opportunity.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
+    "word": "It is the last straw that breaks the camel's back",
+    "meaning_hi": "छोटी सी बात भी बर्दाश्त की सीमा पार करा देती है",
+    "meaning_en": "a final small addition to an already heavy burden causes a complete breakdown",
+    "example": "After months of overwork, one more demand from management was the last straw that broke the camel's back.",
     "synonyms": [],
     "antonyms": [],
     "category": "proverbs"
@@ -477,6 +585,15 @@
     "category": "proverbs"
   },
   {
+    "word": "Laughter is the best medicine",
+    "meaning_hi": "हँसी सबसे अच्छी दवा है",
+    "meaning_en": "humour and cheerfulness improve one's health and wellbeing",
+    "example": "The comedian's show lifted the spirits of patients in the ward — laughter is the best medicine.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
     "word": "Let bygones be bygones",
     "meaning_hi": "पुरानी बातों को भूल जाओ",
     "meaning_en": "forget past quarrels and move forward",
@@ -508,6 +625,15 @@
     "meaning_hi": "एक ही व्यक्ति पर एक जैसी दुर्घटना दुबारा नहीं होती",
     "meaning_en": "the same misfortune rarely happens to the same person twice",
     "example": "He was the victim of two frauds in a year, proving that lightning never strikes twice is not always true.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
+    "word": "Like father, like son",
+    "meaning_hi": "जैसा बाप वैसा बेटा",
+    "meaning_en": "a son's character and behaviour often resembles his father's",
+    "example": "Both were passionate reformers who entered public service — like father, like son.",
     "synonyms": [],
     "antonyms": [],
     "category": "proverbs"
@@ -603,6 +729,15 @@
     "category": "proverbs"
   },
   {
+    "word": "No news is good news",
+    "meaning_hi": "कोई खबर न आए तो सब ठीक है",
+    "meaning_en": "if you have heard nothing, you may assume everything is going well",
+    "example": "He had heard nothing from the interview panel for two weeks — no news is good news, he told himself.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
     "word": "No pain, no gain",
     "meaning_hi": "मेहनत के बिना सफलता नहीं मिलती",
     "meaning_en": "success requires hard work and sacrifice",
@@ -652,6 +787,15 @@
     "meaning_hi": "एक के लिए अच्छी बात दूसरे के लिए बुरी हो सकती है",
     "meaning_en": "what is good or beneficial for one person may be harmful to another",
     "example": "City life delights him but overwhelms her — one man's meat is another man's poison.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
+    "word": "One swallow does not make a summer",
+    "meaning_hi": "एक घटना से कोई निष्कर्ष नहीं निकाला जा सकता",
+    "meaning_en": "a single encouraging event does not guarantee that good times have come",
+    "example": "One positive quarter does not mean the recession is over — one swallow does not make a summer.",
     "synonyms": [],
     "antonyms": [],
     "category": "proverbs"
@@ -783,6 +927,15 @@
     "category": "proverbs"
   },
   {
+    "word": "Spare the rod and spoil the child",
+    "meaning_hi": "बच्चे को अनुशासन न सिखाओ तो बिगड़ जाएगा",
+    "meaning_en": "children need discipline to develop properly",
+    "example": "The school's strict code of conduct was defended on the principle of spare the rod and spoil the child.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
     "word": "Speech is silver, silence is golden",
     "meaning_hi": "बोलना चाँदी है, चुप रहना सोना है",
     "meaning_en": "silence is often more valuable than speaking",
@@ -805,6 +958,15 @@
     "meaning_hi": "सही समय पर कार्य करना चाहिए",
     "meaning_en": "take action at the right moment before the opportunity passes",
     "example": "When the investor showed interest, she presented her proposal the same day — strike while the iron is hot.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
+    "word": "The devil finds work for idle hands",
+    "meaning_hi": "खाली दिमाग शैतान का घर होता है",
+    "meaning_en": "people who have nothing to do are more likely to get into trouble",
+    "example": "Unemployed youth turned to petty crime — the devil finds work for idle hands.",
     "synonyms": [],
     "antonyms": [],
     "category": "proverbs"
@@ -846,6 +1008,15 @@
     "category": "proverbs"
   },
   {
+    "word": "The more, the merrier",
+    "meaning_hi": "जितने अधिक, उतना अच्छा",
+    "meaning_en": "a larger number of people makes things more enjoyable",
+    "example": "He invited everyone on the floor to the celebration — the more, the merrier.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
     "word": "The pen is mightier than the sword",
     "meaning_hi": "कलम तलवार से अधिक शक्तिशाली है",
     "meaning_en": "writing and ideas have more lasting power than violence",
@@ -882,10 +1053,37 @@
     "category": "proverbs"
   },
   {
+    "word": "Those who cannot remember the past are condemned to repeat it",
+    "meaning_hi": "जो इतिहास से नहीं सीखते वे उसे दोहराते हैं",
+    "meaning_en": "ignorance of history leads to the same mistakes being made again",
+    "example": "The same fiscal policies that triggered the 1991 crisis were being repeated — those who cannot remember the past are condemned to repeat it.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
     "word": "Time and tide wait for none",
     "meaning_hi": "समय किसी का इंतजार नहीं करता",
     "meaning_en": "time moves on regardless of anyone's circumstances",
     "example": "He wasted weeks in indecision and missed the application deadline — time and tide wait for none.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
+    "word": "Time is money",
+    "meaning_hi": "समय ही धन है",
+    "meaning_en": "time is a valuable resource that should not be wasted",
+    "example": "The consultant billed by the hour and kept every meeting strictly on schedule — time is money.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
+    "word": "To err is human, to forgive divine",
+    "meaning_hi": "गलती करना इंसानी है, माफ करना ईश्वरीय",
+    "meaning_en": "making mistakes is natural; forgiving them is the highest virtue",
+    "example": "He chose to forgive the colleague who had betrayed him — to err is human, to forgive divine.",
     "synonyms": [],
     "antonyms": [],
     "category": "proverbs"
@@ -913,6 +1111,24 @@
     "meaning_hi": "सच्चाई कल्पना से अधिक विचित्र होती है",
     "meaning_en": "real events are sometimes more surprising than anything imagined",
     "example": "The story of the lost twin brothers reuniting after sixty years proved that truth is stranger than fiction.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
+    "word": "Two heads are better than one",
+    "meaning_hi": "दो मस्तिष्क एक से बेहतर होते हैं",
+    "meaning_en": "collaborating with another person improves the quality of decisions",
+    "example": "The joint research produced breakthroughs that neither scientist could have achieved alone — two heads are better than one.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
+    "word": "Uneasy lies the head that wears a crown",
+    "meaning_hi": "सत्ता में रहने वाले को चैन नहीं मिलता",
+    "meaning_en": "those in positions of power or authority have many worries and cannot rest easily",
+    "example": "The prime minister's sleepless nights amid the crisis showed that uneasy lies the head that wears a crown.",
     "synonyms": [],
     "antonyms": [],
     "category": "proverbs"
@@ -981,10 +1197,28 @@
     "category": "proverbs"
   },
   {
+    "word": "What cannot be cured must be endured",
+    "meaning_hi": "जो बदला नहीं जा सकता उसे सहना पड़ता है",
+    "meaning_en": "if a situation cannot be changed, one must accept it with patience",
+    "example": "Caught in the delay, she made the most of her time — what cannot be cured must be endured.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
     "word": "When in Rome, do as the Romans do",
     "meaning_hi": "जहाँ जाओ वहाँ के रीति-रिवाज अपनाओ",
     "meaning_en": "adapt to the customs and culture of wherever you are",
     "example": "He learnt the local language and followed local customs — when in Rome, do as the Romans do.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
+    "word": "When poverty comes in at the door, love flies out of the window",
+    "meaning_hi": "जब घर में गरीबी आती है, प्रेम चला जाता है",
+    "meaning_en": "financial hardship strains even loving relationships",
+    "example": "After losing his business, the couple's quarrels multiplied — when poverty comes in at the door, love flies out of the window.",
     "synonyms": [],
     "antonyms": [],
     "category": "proverbs"
@@ -1044,19 +1278,40 @@
     "category": "proverbs"
   },
   {
-    "word": "You reap what you sow",
-    "meaning_hi": "जैसा बोओगे वैसा काटोगे",
-    "meaning_en": "your actions and choices determine your future results",
-    "example": "He neglected his health for years and now suffers the consequences — you reap what you sow.",
+    "word": "Zeal without knowledge is fire without light",
+    "meaning_hi": "ज्ञान के बिना उत्साह अंधकार में आग है",
+    "meaning_en": "enthusiasm without proper understanding causes more harm than good",
+    "example": "The overzealous policy was implemented without research and failed — zeal without knowledge is fire without light.",
     "synonyms": [],
     "antonyms": [],
     "category": "proverbs"
   },
   {
-    "word": "Zeal without knowledge is fire without light",
-    "meaning_hi": "ज्ञान के बिना उत्साह अंधकार में आग है",
-    "meaning_en": "enthusiasm without proper understanding causes more harm than good",
-    "example": "The overzealous policy was implemented without research and failed — zeal without knowledge is fire without light.",
+    "word": "Don't bite the hand that feeds you.",
+    "meaning_en": "One should not harm or be ungrateful to someone who supports or helps them.",
+    "meaning_hi": "जो आपकी मदद करता है उसे नुकसान मत पहुँचाओ या उसके प्रति कृतघ्न मत बनो।",
+    "example": "He insulted his own mentor who had got him the job — a classic case of biting the hand that feeds you.",
+    "options": [
+      "One should not harm or be ungrateful to someone who supports or helps them.",
+      "One should always offer food before asking for a favour.",
+      "Animals can sense when they are in danger.",
+      "Helping others always comes with risks."
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "category": "proverbs"
+  },
+  {
+    "word": "A man is known by the company he keeps.",
+    "meaning_en": "A person's character is judged by the kind of people they associate with.",
+    "meaning_hi": "व्यक्ति की पहचान उसके साथियों से होती है — संगति ही चरित्र का दर्पण होती है।",
+    "example": "His parents warned him about his new friends, reminding him that a man is known by the company he keeps.",
+    "options": [
+      "A person's character is judged by the kind of people they associate with.",
+      "A successful man is one who has many friends and business contacts.",
+      "One should keep records of all business partners.",
+      "The more friends a person has, the better their reputation."
+    ],
     "synonyms": [],
     "antonyms": [],
     "category": "proverbs"
