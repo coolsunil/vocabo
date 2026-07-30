@@ -76,5 +76,9 @@
         </intent>
         <package android:name="org.telegram.messenger" />
         <package android:name="org.telegram.messenger.web" />
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="upi" />
+        </intent>
     </queries>
 </manifest>
