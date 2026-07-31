@@ -222,13 +222,27 @@ class _DonationScreenState extends State<DonationScreen> {
   }
 
   Future<void> _donateViaUpi(int amount) async {
-    final uri = Uri.parse(
-      'upi://pay?pa=$_kUpiId&pn=Vocabo&am=$amount&cu=INR&tn=Support+Vocabo',
+    final uri = Uri(
+      scheme: 'upi',
+      host: 'pay',
+      queryParameters: {
+        'pa': _kUpiId,
+        'pn': 'Vocabo',
+        'am': '$amount',
+        'cu': 'INR',
+        'tn': 'Support Vocabo',
+      },
     );
-    if (await canLaunchUrl(uri)) {
-      await launchUrl(uri);
-    } else {
-      _showSnackBar('No UPI app found on this device.');
+    try {
+      var launched = await launchUrl(uri, mode: LaunchMode.externalApplication);
+      if (!launched) {
+        launched = await launchUrl(uri);
+      }
+      if (!launched && mounted) {
+        _showSnackBar('No UPI app found on this device.');
+      }
+    } catch (_) {
+      if (mounted) _showSnackBar('No UPI app found on this device.');
     }
   }
 
