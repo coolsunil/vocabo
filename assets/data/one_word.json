@@ -1436,7 +1436,7 @@
     "phrase": "One who kills their own race or people",
     "word": "Ethnic cleanser",
     "meaning_hi": "जातिसंहारी",
-    "meaning_en": "Person who commits ethnic cleansing against their own group",
+    "meaning_en": "Person who carries out systematic elimination of an ethnic group from a region.",
     "category": "oneword",
     "example": "The international court indicted the ethnic cleanser for crimes against humanity."
   },
@@ -2234,7 +2234,7 @@
     "phrase": "Choose the correct one-word substitution for: 'A government or state in which those in power exploit national resources and steal'.",
     "word": "Kleptocracy",
     "meaning_hi": "चोरों / भ्रष्टाचारियों का शासन",
-    "meaning_en": "A government or state in which those in power exploit national resources and steal",
+    "meaning_en": "A government in which those in power exploit national resources and steal public funds.",
     "category": "oneword",
     "example": "The country kleptocracy drained its natural wealth for decades."
   },
@@ -2824,7 +2824,7 @@
   },
   {
     "word": "Omnivorous",
-    "meaning_en": "Give single word for \"One who eats everything\"",
+    "meaning_en": "Eating both plant and animal food; consuming a very wide variety of food.",
     "meaning_hi": "सर्वभक्षी / सब कुछ खाने वाला",
     "example": "Humans are omnivorous creatures who eat both plants and meat.",
     "synonyms": [],
@@ -3278,7 +3278,7 @@
   },
   {
     "word": "Providence",
-    "meaning_en": "\"A divine force that some people believe controls our lives and in a way protects us is called ________\"",
+    "meaning_en": "A divine force believed to control and protect human lives; divine guidance or care.",
     "meaning_hi": "ईश्वरीय कृपा / भाग्य",
     "example": "He attributed his miraculous recovery entirely to providence rather than to medical skill.",
     "synonyms": [],
@@ -3475,7 +3475,7 @@
     "phrase": "An act of violating or showing disrespect towards something sacred or holy is called–",
     "word": "Sacrilege",
     "meaning_hi": "पवित्र स्थान/वस्तु का अपमान",
-    "meaning_en": "An act of violating or showing disrespect towards something sacred or holy is called–",
+    "meaning_en": "An act of violating or showing disrespect towards something considered sacred or holy.",
     "category": "oneword",
     "example": "Defacing the temple walls was considered an unforgivable act of sacrilege."
   },
@@ -3703,7 +3703,7 @@
     "meaning_hi": "आत्मघाती",
     "meaning_en": "Person who takes their own life",
     "category": "oneword",
-    "example": "The community was deeply shaken when the young student took his own life."
+    "example": "The suicide of the talented young student left the entire community in shock."
   },
   {
     "phrase": "One who seeks favour by flattering those in power",

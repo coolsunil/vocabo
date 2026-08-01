@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../models/word_model.dart';
 import '../../utils/app_colors.dart';
+import '../../utils/underline_example.dart';
 
 class SpellingCard extends StatelessWidget {
   final Word word;
@@ -121,7 +122,10 @@ class SpellingCard extends StatelessWidget {
             const Divider(),
             const SizedBox(height: 20),
             _title(context, 'Example'),
-            Text(word.example, style: const TextStyle(fontSize: 17)),
+            buildUnderlinedExample(
+              context, word.example, [word.word],
+              baseStyle: const TextStyle(fontSize: 17),
+            ),
           ],
 
           if (!shareMode) ...[

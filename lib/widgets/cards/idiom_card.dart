@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../models/word_model.dart';
 import '../../utils/app_colors.dart';
+import '../../utils/underline_example.dart';
 import '../pyq_chip_row.dart';
 
 class IdiomCard extends StatelessWidget {
@@ -99,9 +100,9 @@ class IdiomCard extends StatelessWidget {
             const SizedBox(height: 24),
             _title(context, "Example"),
             const SizedBox(height: 8),
-            Text(
-              word.example,
-              style: const TextStyle(fontSize: 17, fontStyle: FontStyle.italic),
+            buildUnderlinedExample(
+              context, word.example, [word.word],
+              baseStyle: const TextStyle(fontSize: 17, fontStyle: FontStyle.italic),
             ),
           ],
           if (!shareMode) ...[

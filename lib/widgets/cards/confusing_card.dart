@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../models/word_model.dart';
 import '../../utils/app_colors.dart';
+import '../../utils/underline_example.dart';
 
 class ConfusingCard extends StatelessWidget {
   final Word word;
@@ -175,7 +176,7 @@ class ConfusingCard extends StatelessWidget {
           const SizedBox(height: 22),
           _label('Example', context.isDark ? const Color(0xFFFBBF24) : const Color(0xFFB45309)),
           const SizedBox(height: 8),
-          _exampleBlock(context, word.example),
+          _exampleBlock(context, word.example, _underlineWords(word)),
         ],
         const SizedBox(height: 4),
       ],
@@ -280,7 +281,7 @@ class ConfusingCard extends StatelessWidget {
           ),
           if (item.example.isNotEmpty) ...[
             const SizedBox(height: 12),
-            _exampleBlock(context, item.example),
+            _exampleBlock(context, item.example, _underlineWords(item)),
           ],
         ],
       ),
@@ -324,7 +325,19 @@ class ConfusingCard extends StatelessWidget {
     );
   }
 
-  Widget _exampleBlock(BuildContext context, String example) {
+  List<String> _underlineWords(Word item) {
+    if (item.confusionWith.isNotEmpty) return item.confusionWith;
+    final parts = item.word.split(' / ');
+    return parts.length > 1 ? parts.map((p) => p.trim()).toList() : [item.word];
+  }
+
+  Widget _exampleBlock(BuildContext context, String example, List<String> underlineWords) {
+    final style = TextStyle(
+      fontSize: 16,
+      fontStyle: FontStyle.italic,
+      color: context.textSecondary,
+      height: 1.5,
+    );
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
@@ -333,14 +346,9 @@ class ConfusingCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(10),
         border: Border.all(color: context.borderSubtle),
       ),
-      child: Text(
-        '"$example"',
-        style: TextStyle(
-          fontSize: 16,
-          fontStyle: FontStyle.italic,
-          color: context.textSecondary,
-          height: 1.5,
-        ),
+      child: buildUnderlinedExample(
+        context, '"$example"', underlineWords,
+        baseStyle: style,
       ),
     );
   }

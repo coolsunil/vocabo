@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../models/word_model.dart';
 import '../../utils/app_colors.dart';
+import '../../utils/underline_example.dart';
 import '../pyq_chip_row.dart';
 
 class CoreCard extends StatelessWidget {
@@ -102,7 +103,10 @@ class CoreCard extends StatelessWidget {
             const Divider(),
             const SizedBox(height: 20),
             _title(context, "Example"),
-            Text(word.example, style: const TextStyle(fontSize: 17)),
+            buildUnderlinedExample(
+              context, word.example, [word.word],
+              baseStyle: const TextStyle(fontSize: 17),
+            ),
           ],
 
           if (word.synonyms.isNotEmpty) ...[
