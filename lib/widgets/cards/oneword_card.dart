@@ -30,8 +30,8 @@ class OneWordCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final phrase = word.example.isNotEmpty ? word.example : word.meaningEn;
-    final hasEnglishMeaning = word.meaningEn.isNotEmpty && word.meaningEn != phrase;
+    final hasExample = word.example.isNotEmpty;
+    final phrase = hasExample ? word.example : word.meaningEn;
 
     return Container(
       width: double.infinity,
@@ -66,7 +66,7 @@ class OneWordCard extends StatelessWidget {
               ],
             ),
           const SizedBox(height: 8),
-          _label('Phrase / Definition', _orange),
+          _label(hasExample ? 'Example Sentence' : 'Definition', _orange),
           const SizedBox(height: 8),
           Center(
             child: Container(
@@ -76,16 +76,18 @@ class OneWordCard extends StatelessWidget {
                 borderRadius: BorderRadius.circular(14),
                 border: Border.all(color: _orange.withValues(alpha: 0.25), width: 1.5),
               ),
-              child: Text(
-                phrase,
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.w600,
-                  color: context.textPrimary,
-                  height: 1.45,
-                ),
-              ),
+              child: hasExample
+                  ? _buildExampleText(phrase, word.word, context)
+                  : Text(
+                      phrase,
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontSize: 17,
+                        fontWeight: FontWeight.w600,
+                        color: context.textPrimary,
+                        height: 1.45,
+                      ),
+                    ),
             ),
           ),
           Padding(
@@ -163,7 +165,7 @@ class OneWordCard extends StatelessWidget {
             ),
             const SizedBox(height: 14),
           ],
-          if (hasEnglishMeaning) ...[
+          if (word.meaningEn.isNotEmpty) ...[
             _label('English Meaning', context.isDark ? const Color(0xFF2DD4BF) : const Color(0xFF0F766E)),
             const SizedBox(height: 8),
             Text(
@@ -224,6 +226,39 @@ class OneWordCard extends StatelessWidget {
               ],
             ),
           ],
+        ],
+      ),
+    );
+  }
+
+  Widget _buildExampleText(String sentence, String wordToUnderline, BuildContext context) {
+    final base = TextStyle(
+      fontSize: 17,
+      fontWeight: FontWeight.w600,
+      color: context.textPrimary,
+      height: 1.5,
+    );
+    final lower = sentence.toLowerCase();
+    final idx = lower.indexOf(wordToUnderline.toLowerCase());
+    if (idx == -1) {
+      return Text(sentence, textAlign: TextAlign.center, style: base);
+    }
+    final end = idx + wordToUnderline.length;
+    return RichText(
+      textAlign: TextAlign.center,
+      text: TextSpan(
+        style: base,
+        children: [
+          TextSpan(text: sentence.substring(0, idx)),
+          TextSpan(
+            text: sentence.substring(idx, end),
+            style: base.copyWith(
+              decoration: TextDecoration.underline,
+              decorationThickness: 2,
+              fontWeight: FontWeight.w800,
+            ),
+          ),
+          TextSpan(text: sentence.substring(end)),
         ],
       ),
     );
