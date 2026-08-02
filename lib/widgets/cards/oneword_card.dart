@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../models/word_model.dart';
 import '../../utils/app_colors.dart';
+import '../../utils/underline_example.dart';
 import '../pyq_chip_row.dart';
 
 class OneWordCard extends StatelessWidget {
@@ -30,9 +31,6 @@ class OneWordCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final hasExample = word.example.isNotEmpty;
-    final phrase = hasExample ? word.example : word.meaningEn;
-
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(20, 14, 20, 20),
@@ -66,7 +64,7 @@ class OneWordCard extends StatelessWidget {
               ],
             ),
           const SizedBox(height: 8),
-          _label(hasExample ? 'Example Sentence' : 'Definition', _orange),
+          _label('Definition', _orange),
           const SizedBox(height: 8),
           Center(
             child: Container(
@@ -76,18 +74,16 @@ class OneWordCard extends StatelessWidget {
                 borderRadius: BorderRadius.circular(14),
                 border: Border.all(color: _orange.withValues(alpha: 0.25), width: 1.5),
               ),
-              child: hasExample
-                  ? _buildExampleText(phrase, word.word, context)
-                  : Text(
-                      phrase,
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        fontSize: 17,
-                        fontWeight: FontWeight.w600,
-                        color: context.textPrimary,
-                        height: 1.45,
-                      ),
-                    ),
+              child: Text(
+                word.meaningEn,
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: 17,
+                  fontWeight: FontWeight.w600,
+                  color: context.textPrimary,
+                  height: 1.45,
+                ),
+              ),
             ),
           ),
           Padding(
@@ -165,16 +161,15 @@ class OneWordCard extends StatelessWidget {
             ),
             const SizedBox(height: 14),
           ],
-          if (word.meaningEn.isNotEmpty) ...[
-            _label('English Meaning', context.isDark ? const Color(0xFF2DD4BF) : const Color(0xFF0F766E)),
+          if (word.example.isNotEmpty) ...[
+            _label('Example Sentence', context.isDark ? const Color(0xFF2DD4BF) : const Color(0xFF0F766E)),
             const SizedBox(height: 8),
-            Text(
-              word.meaningEn,
-              style: TextStyle(
-                fontSize: 16,
-                color: context.textSecondary,
-                height: 1.5,
-              ),
+            buildUnderlinedExample(
+              context,
+              word.example,
+              [word.word],
+              baseStyle: TextStyle(fontSize: 16, color: context.textSecondary, height: 1.5),
+              textAlign: TextAlign.center,
             ),
           ],
           if (!shareMode) ...[
@@ -226,39 +221,6 @@ class OneWordCard extends StatelessWidget {
               ],
             ),
           ],
-        ],
-      ),
-    );
-  }
-
-  Widget _buildExampleText(String sentence, String wordToUnderline, BuildContext context) {
-    final base = TextStyle(
-      fontSize: 17,
-      fontWeight: FontWeight.w600,
-      color: context.textPrimary,
-      height: 1.5,
-    );
-    final lower = sentence.toLowerCase();
-    final idx = lower.indexOf(wordToUnderline.toLowerCase());
-    if (idx == -1) {
-      return Text(sentence, textAlign: TextAlign.center, style: base);
-    }
-    final end = idx + wordToUnderline.length;
-    return RichText(
-      textAlign: TextAlign.center,
-      text: TextSpan(
-        style: base,
-        children: [
-          TextSpan(text: sentence.substring(0, idx)),
-          TextSpan(
-            text: sentence.substring(idx, end),
-            style: base.copyWith(
-              decoration: TextDecoration.underline,
-              decorationThickness: 2,
-              fontWeight: FontWeight.w800,
-            ),
-          ),
-          TextSpan(text: sentence.substring(end)),
         ],
       ),
     );
