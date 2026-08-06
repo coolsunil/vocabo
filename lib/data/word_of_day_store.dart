@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:math';
 import 'package:flutter/services.dart';
 import 'package:home_widget/home_widget.dart';
 import '../models/word_model.dart';
@@ -21,8 +22,14 @@ Future<void> loadWordOfDay() async {
     if (list.isEmpty) return;
 
     final now = DateTime.now();
-    final seed = now.year * 10000 + now.month * 100 + now.day;
-    wordOfDayIndex = seed % list.length;
+    // Shuffle the full list once per year using the year as seed,
+    // then pick by day-of-year — gives scrambled, non-repeating order.
+    final rng = Random(now.year * 1000003 + 7);
+    final indices = List.generate(list.length, (i) => i)..shuffle(rng);
+    final dayOfYear = DateTime(now.year, now.month, now.day)
+        .difference(DateTime(now.year, 1, 1))
+        .inDays;
+    wordOfDayIndex = indices[dayOfYear % list.length];
     wordOfDay = Word.fromJson(list[wordOfDayIndex]);
     _wordOfDayDate = _todayKey();
 
