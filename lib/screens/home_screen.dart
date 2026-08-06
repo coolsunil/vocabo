@@ -307,7 +307,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                       crossAxisCount: 2,
                       crossAxisSpacing: 12,
                       mainAxisSpacing: 12,
-                      childAspectRatio: 1.02,
+                      childAspectRatio: 0.88,
                       shrinkWrap: true,
                       physics: const NeverScrollableScrollPhysics(),
                       children: [
@@ -1195,7 +1195,9 @@ class _ModernCategoryTile extends StatelessWidget {
         : iconColor.withValues(alpha: 0.16);
     final iconFg = hasGradient ? Colors.white : iconColor;
 
-    return InteractivePressable(
+    return MediaQuery(
+      data: MediaQuery.of(context).copyWith(textScaler: TextScaler.noScaling),
+      child: InteractivePressable(
       borderRadius: BorderRadius.circular(18),
       onTap: onTap,
       overlayColor: hasGradient ? Colors.white : iconColor,
@@ -1322,6 +1324,7 @@ class _ModernCategoryTile extends StatelessWidget {
           ],
         ),
       ),
+    ),
     );
   }
 }
