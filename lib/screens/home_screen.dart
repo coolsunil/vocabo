@@ -183,15 +183,18 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                     color: Color(0xFFF59E0B),
                   ),
                   const SizedBox(width: 8),
-                  Text(
-                    'Hello, Learner',
-                    style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.w400,
-                      color: context.textPrimary,
+                  Flexible(
+                    child: Text(
+                      'Hello, Learner',
+                      overflow: TextOverflow.ellipsis,
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.w400,
+                        color: context.textPrimary,
+                      ),
                     ),
                   ),
-                  const Spacer(),
+                  const SizedBox(width: 8),
                   if (currentStreak > 0) ...[
                     GestureDetector(
                       onTap: () => _showStreakSheet(),
@@ -221,21 +224,25 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                         ),
                       ),
                     ),
-                    const SizedBox(width: 8),
+                    const SizedBox(width: 4),
                   ],
                   ValueListenableBuilder<ThemeMode>(
                     valueListenable: themeNotifier,
                     builder: (_, mode, child) => IconButton(
                       tooltip: mode == ThemeMode.dark ? 'Light mode' : 'Dark mode',
                       onPressed: toggleTheme,
+                      padding: const EdgeInsets.all(6),
+                      constraints: const BoxConstraints(),
                       icon: Icon(
                         mode == ThemeMode.dark
                             ? Icons.light_mode_rounded
                             : Icons.dark_mode_rounded,
                         color: context.textSecondary,
+                        size: 22,
                       ),
                     ),
                   ),
+                  const SizedBox(width: 4),
                   IconButton(
                     tooltip: 'Search',
                     onPressed: () {
@@ -244,11 +251,15 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                         MaterialPageRoute(builder: (_) => const SearchScreen()),
                       );
                     },
+                    padding: const EdgeInsets.all(6),
+                    constraints: const BoxConstraints(),
                     icon: Icon(
                       Icons.search_rounded,
                       color: context.textSecondary,
+                      size: 22,
                     ),
                   ),
+                  const SizedBox(width: 4),
                   IconButton(
                     tooltip: 'Settings',
                     onPressed: () {
@@ -264,9 +275,12 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                         }
                       });
                     },
+                    padding: const EdgeInsets.all(6),
+                    constraints: const BoxConstraints(),
                     icon: Icon(
                       Icons.settings_rounded,
                       color: context.textSecondary,
+                      size: 22,
                     ),
                   ),
                 ],
@@ -307,7 +321,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                       crossAxisCount: 2,
                       crossAxisSpacing: 12,
                       mainAxisSpacing: 12,
-                      childAspectRatio: 0.88,
+                      childAspectRatio: 1.02,
                       shrinkWrap: true,
                       physics: const NeverScrollableScrollPhysics(),
                       children: [
