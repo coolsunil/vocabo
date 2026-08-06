@@ -8,6 +8,8 @@ import '../data/premium_store.dart';
 import '../data/progress_store.dart';
 import '../data/streak_store.dart';
 import '../data/word_of_day_store.dart';
+import '../data/article_store.dart';
+import 'article_screen.dart';
 import '../services/notification_service.dart';
 import '../data/theme_store.dart';
 import '../utils/app_colors.dart';
@@ -37,6 +39,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
     _loadPremiumMeta();
+    loadTodayArticle().then((_) { if (mounted) setState(() {}); });
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _checkOnboarding();
       Future.delayed(const Duration(seconds: 2), initNotifications);
@@ -302,6 +305,22 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                                 category: 'core',
                                 initialIndex: wordOfDayIndex,
                               ),
+                            ),
+                          ).then((_) {
+                            if (mounted) setState(() {});
+                          });
+                        },
+                      ),
+                      const SizedBox(height: 16),
+                    ],
+                    if (todayArticle != null) ...[
+                      _TodayReadingCard(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (_) =>
+                                  ArticleScreen(article: todayArticle!),
                             ),
                           ).then((_) {
                             if (mounted) setState(() {});
@@ -1561,6 +1580,163 @@ class _WordOfDayCard extends StatelessWidget {
             ],
           ],
         ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+// ── Today's Reading Card ──────────────────────────────────────────────────────
+
+class _TodayReadingCard extends StatelessWidget {
+  final VoidCallback onTap;
+
+  const _TodayReadingCard({required this.onTap});
+
+  @override
+  Widget build(BuildContext context) {
+    final article = todayArticle!;
+    final isRead = articleReadToday;
+
+    return InteractivePressable(
+      borderRadius: BorderRadius.circular(20),
+      onTap: onTap,
+      overlayColor: const Color(0xFF4F46E5),
+      child: Container(
+        padding: const EdgeInsets.all(20),
+        clipBehavior: Clip.hardEdge,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          gradient: const LinearGradient(
+            colors: [Color(0xFF312E81), Color(0xFF4F46E5)],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+          boxShadow: [
+            BoxShadow(
+              color: const Color(0xFF4F46E5).withValues(alpha: 0.35),
+              blurRadius: 16,
+              offset: const Offset(0, 8),
+            ),
+          ],
+        ),
+        child: Stack(
+          children: [
+            Positioned(
+              right: -20,
+              bottom: -20,
+              child: Icon(
+                Icons.menu_book_rounded,
+                size: 110,
+                color: Colors.white.withValues(alpha: 0.08),
+              ),
+            ),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    const Icon(Icons.article_rounded,
+                        color: Colors.white, size: 15),
+                    const SizedBox(width: 6),
+                    const Text(
+                      "Today's Reading",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 13,
+                        fontWeight: FontWeight.w700,
+                        letterSpacing: 0.5,
+                      ),
+                    ),
+                    const Spacer(),
+                    if (isRead)
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 10, vertical: 4),
+                        decoration: BoxDecoration(
+                          color: Colors.white.withValues(alpha: 0.25),
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: const Text(
+                          'Read ✓',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 12,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      )
+                    else
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 10, vertical: 4),
+                        decoration: BoxDecoration(
+                          color: Colors.white.withValues(alpha: 0.25),
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: const Text(
+                          'Read →',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 12,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      ),
+                  ],
+                ),
+                const SizedBox(height: 12),
+                Text(
+                  article.title,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 20,
+                    fontWeight: FontWeight.w800,
+                    height: 1.25,
+                  ),
+                ),
+                const SizedBox(height: 10),
+                Row(
+                  children: [
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 8, vertical: 3),
+                      decoration: BoxDecoration(
+                        color: Colors.white.withValues(alpha: 0.15),
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text(
+                        article.topic,
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 11,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                    const Icon(Icons.schedule_rounded,
+                        color: Colors.white60, size: 12),
+                    const SizedBox(width: 3),
+                    Text(
+                      '${article.readTime} min read',
+                      style: const TextStyle(
+                          color: Colors.white60, fontSize: 12),
+                    ),
+                    const SizedBox(width: 8),
+                    const Icon(Icons.school_rounded,
+                        color: Colors.white60, size: 12),
+                    const SizedBox(width: 3),
+                    Text(
+                      '${article.highlightedWords.length} words',
+                      style: const TextStyle(
+                          color: Colors.white60, fontSize: 12),
+                    ),
+                  ],
+                ),
+              ],
+            ),
           ],
         ),
       ),
