@@ -1602,20 +1602,20 @@ class _TodayReadingCard extends StatelessWidget {
     return InteractivePressable(
       borderRadius: BorderRadius.circular(20),
       onTap: onTap,
-      overlayColor: const Color(0xFF4F46E5),
+      overlayColor: const Color(0xFF0891B2),
       child: Container(
         padding: const EdgeInsets.all(20),
         clipBehavior: Clip.hardEdge,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
           gradient: const LinearGradient(
-            colors: [Color(0xFF312E81), Color(0xFF4F46E5)],
+            colors: [Color(0xFF164E63), Color(0xFF0891B2)],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
           boxShadow: [
             BoxShadow(
-              color: const Color(0xFF4F46E5).withValues(alpha: 0.35),
+              color: const Color(0xFF0891B2).withValues(alpha: 0.35),
               blurRadius: 16,
               offset: const Offset(0, 8),
             ),

@@ -19,7 +19,7 @@ class _ArticleScreenState extends State<ArticleScreen> {
   bool _hasFinishedReading = false;
   double _readProgress = 0;
 
-  static const _highlightColor = Color(0xFF6366F1);
+  static const _highlightColor = Color(0xFF0891B2);
 
   @override
   void initState() {
@@ -123,13 +123,13 @@ class _ArticleScreenState extends State<ArticleScreen> {
           Container(
             decoration: BoxDecoration(
               gradient: const LinearGradient(
-                colors: [Color(0xFF312E81), Color(0xFF4F46E5)],
+                colors: [Color(0xFF164E63), Color(0xFF0891B2)],
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
               ),
               boxShadow: [
                 BoxShadow(
-                  color: const Color(0xFF4F46E5).withValues(alpha: 0.3),
+                  color: const Color(0xFF0891B2).withValues(alpha: 0.3),
                   blurRadius: 12,
                   offset: const Offset(0, 4),
                 ),
@@ -312,7 +312,7 @@ class _ArticleScreenState extends State<ArticleScreen> {
                       }
                     : null,
                 style: FilledButton.styleFrom(
-                  backgroundColor: _highlightColor,
+                  backgroundColor: const Color(0xFF0891B2),
                   disabledBackgroundColor:
                       context.borderSubtle,
                   padding: const EdgeInsets.symmetric(vertical: 14),
@@ -381,7 +381,7 @@ class _WordSheet extends StatelessWidget {
             style: const TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.w800,
-              color: Color(0xFF6366F1),
+              color: Color(0xFF0891B2),
             ),
           ),
           const SizedBox(height: 10),
@@ -406,7 +406,7 @@ class _WordSheet extends StatelessWidget {
           Container(
             padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
-              color: const Color(0xFF6366F1).withValues(alpha: 0.07),
+              color: const Color(0xFF0891B2).withValues(alpha: 0.07),
               borderRadius: BorderRadius.circular(10),
             ),
             child: Text(
@@ -442,7 +442,7 @@ class _VocabReviewScreenState extends State<_VocabReviewScreen> {
   int _current = 0;
 
   static const _gradient = LinearGradient(
-    colors: [Color(0xFF312E81), Color(0xFF4F46E5)],
+    colors: [Color(0xFF164E63), Color(0xFF0891B2)],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
@@ -519,7 +519,7 @@ class _VocabReviewScreenState extends State<_VocabReviewScreen> {
                   minHeight: 5,
                   backgroundColor: context.borderSubtle,
                   valueColor:
-                      const AlwaysStoppedAnimation(Color(0xFF6366F1)),
+                      const AlwaysStoppedAnimation(Color(0xFF0891B2)),
                 ),
               ),
             ),
@@ -542,7 +542,7 @@ class _VocabReviewScreenState extends State<_VocabReviewScreen> {
                 child: FilledButton(
                   onPressed: _next,
                   style: FilledButton.styleFrom(
-                    backgroundColor: const Color(0xFF6366F1),
+                    backgroundColor: const Color(0xFF0891B2),
                     padding: const EdgeInsets.symmetric(vertical: 14),
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(14)),
@@ -582,7 +582,7 @@ class _WordCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(24),
           boxShadow: [
             BoxShadow(
-              color: const Color(0xFF4F46E5).withValues(alpha: 0.3),
+              color: const Color(0xFF0891B2).withValues(alpha: 0.3),
               blurRadius: 20,
               offset: const Offset(0, 8),
             ),
