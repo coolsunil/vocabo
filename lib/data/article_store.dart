@@ -5,6 +5,14 @@ import '../models/article_model.dart';
 
 Article? todayArticle;
 bool articleReadToday = false;
+String _articleDate = '';
+
+String _todayKey() {
+  final now = DateTime.now();
+  return '${now.year}-${now.month}-${now.day}';
+}
+
+bool get articleIsStale => _articleDate != _todayKey();
 
 Future<void> loadTodayArticle() async {
   try {
@@ -21,5 +29,7 @@ Future<void> loadTodayArticle() async {
         .inDays;
     final idx = indices[dayOfYear % list.length];
     todayArticle = Article.fromJson(list[idx] as Map<String, dynamic>);
+    articleReadToday = false;
+    _articleDate = _todayKey();
   } catch (_) {}
 }

@@ -54,10 +54,13 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
 
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
-    if (state == AppLifecycleState.resumed && wordOfDayIsStale) {
-      loadWordOfDay().then((_) {
-        if (mounted) setState(() {});
-      });
+    if (state == AppLifecycleState.resumed) {
+      if (wordOfDayIsStale) {
+        loadWordOfDay().then((_) { if (mounted) setState(() {}); });
+      }
+      if (articleIsStale) {
+        loadTodayArticle().then((_) { if (mounted) setState(() {}); });
+      }
     }
   }
 

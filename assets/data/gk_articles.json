@@ -253,5 +253,1280 @@
         "example": "The emancipation of bonded labourers was one of the key goals of post-independence land reform."
       }
     ]
+  },
+  {
+    "id": "article_006",
+    "title": "Directive Principles of State Policy",
+    "topic": "Polity",
+    "read_time": 3,
+    "article": "The Directive Principles of State Policy, enshrined in Part IV of the Indian Constitution (Articles 36 to 51), represent the nation's socio-economic aspirations. Unlike Fundamental Rights, they are non-justiciable — meaning a citizen cannot approach a court to enforce them. Yet they are indispensable guides for governance, directing the state towards the amelioration of poverty, inequality, and social injustice.\n\nThe framers of the Constitution drew inspiration for the Directive Principles from the Irish Constitution of 1937, which itself borrowed from Spain. Dr B.R. Ambedkar described them as a novel feature that placed an affirmative obligation on the state to pursue equitable goals even when immediate enforcement was not possible.\n\nThe Directives are wide in scope. Article 39 enjoins the state to secure an adequate means of livelihood for all citizens and to ensure that the ownership of material resources is distributed to best serve the common good. Article 44 calls for a Uniform Civil Code — a provision that remains one of the most contentious and debated in India's constitutional history. Article 45 originally mandated free and compulsory education for children, a goal later elevated to a Fundamental Right through the 86th Amendment in 2002.\n\nCourts have, over time, bridged the gap between Fundamental Rights and Directive Principles. The Supreme Court in Minerva Mills v. Union of India (1980) held that neither should be given absolute primacy — they must be read harmoniously. This judicious interpretation has allowed Directive Principles to gain real traction in shaping legislation on land reforms, minimum wages, and environmental protection.\n\nIn essence, the Directive Principles serve as a constitutional conscience — a set of goals that, though not enforceable in a court of law, enumerate the vision of a just and compassionate society that the state is expected to strive towards.",
+    "highlighted_words": [
+      {
+        "word": "non-justiciable",
+        "meaning_en": "Not enforceable by a court of law",
+        "meaning_hi": "न्यायालय द्वारा लागू न होने योग्य",
+        "example": "Directive Principles are non-justiciable but still guide legislative policy in India."
+      },
+      {
+        "word": "amelioration",
+        "meaning_en": "The act of making something bad or unsatisfactory better; improvement",
+        "meaning_hi": "सुधार / उन्नति",
+        "example": "The scheme aimed at the amelioration of living conditions in flood-prone rural areas."
+      },
+      {
+        "word": "affirmative",
+        "meaning_en": "Asserting that something is true; expressing agreement or support for a cause",
+        "meaning_hi": "सकारात्मक / स्वीकारात्मक",
+        "example": "Affirmative action policies aim to correct historical discrimination against marginalised communities."
+      },
+      {
+        "word": "equitable",
+        "meaning_en": "Fair and impartial; treating all parties justly",
+        "meaning_hi": "न्यायसंगत / समान",
+        "example": "The tribunal sought an equitable distribution of river water between the two riparian states."
+      },
+      {
+        "word": "contentious",
+        "meaning_en": "Causing or likely to cause argument or controversy",
+        "meaning_hi": "विवादास्पद",
+        "example": "The contentious bill on land acquisition was referred to a parliamentary standing committee."
+      },
+      {
+        "word": "judicious",
+        "meaning_en": "Having or showing good judgment; sensible and wise",
+        "meaning_hi": "विवेकपूर्ण / बुद्धिमत्तापूर्ण",
+        "example": "A judicious use of public funds requires both transparency and long-term planning."
+      },
+      {
+        "word": "enumerate",
+        "meaning_en": "To mention a number of things one by one; to list",
+        "meaning_hi": "गिनाना / सूचीबद्ध करना",
+        "example": "The report enumerates twelve key factors that contributed to the decline in groundwater levels."
+      }
+    ]
+  },
+  {
+    "id": "article_007",
+    "title": "The Indian Parliament — Structure and Function",
+    "topic": "Polity",
+    "read_time": 3,
+    "article": "The Indian Parliament, established under Part V of the Constitution, is the supreme legislative body of the republic. It is bicameral in nature, comprising two houses: the Lok Sabha (House of the People) and the Rajya Sabha (Council of States). Together, they form the legislature that debates, scrutinises, and enacts laws that govern every aspect of national life.\n\nThe Lok Sabha is the lower house, directly elected by citizens through universal adult franchise. It has a maximum strength of 552 members and a term of five years, though it may be dissolved earlier by the President on the advice of the Prime Minister. The Rajya Sabha, the upper house, is a permanent body that cannot be dissolved. Its 250 members are elected by state legislative assemblies and serve staggered terms of six years, with one-third retiring every two years.\n\nThe powers of Parliament are extensive. Ordinary bills may originate in either house, but Money Bills — those dealing with taxation and government expenditure — can only be introduced in the Lok Sabha. The Rajya Sabha may suggest amendments but cannot reject or indefinitely delay a Money Bill. Constitutional Amendment Bills, however, require a special majority in both houses, ensuring that fundamental changes to the Constitution are not made hastily.\n\nParliamentary procedure is governed by elaborate rules of deliberation. Question Hour, Zero Hour, and various committee systems ensure that the executive remains accountable to the legislature. The Public Accounts Committee and the Estimates Committee are among the most important parliamentary committees that exercise financial oversight.\n\nParliament also serves as a forum for national debate, where elected representatives articulate the concerns of their constituencies. The prorogation of a session by the President ends parliamentary proceedings without dissolving the house, while an adjournment sine die simply marks the conclusion of business for that sitting.",
+    "highlighted_words": [
+      {
+        "word": "bicameral",
+        "meaning_en": "Having two legislative chambers or houses",
+        "meaning_hi": "द्विसदनीय",
+        "example": "Most large democracies adopt a bicameral legislature to balance representation with stability."
+      },
+      {
+        "word": "legislature",
+        "meaning_en": "The body of people in a country or state with the power to make and change laws",
+        "meaning_hi": "विधायिका",
+        "example": "The state legislature passed the bill after three days of heated debate."
+      },
+      {
+        "word": "franchise",
+        "meaning_en": "The right to vote in public elections",
+        "meaning_hi": "मताधिकार",
+        "example": "Universal adult franchise means every citizen above 18 has the right to vote regardless of income or education."
+      },
+      {
+        "word": "scrutinises",
+        "meaning_en": "Examines or inspects closely and thoroughly",
+        "meaning_hi": "बारीकी से जांच करना",
+        "example": "The parliamentary committee scrutinises every clause of the bill before it proceeds to the floor."
+      },
+      {
+        "word": "deliberation",
+        "meaning_en": "Long and careful consideration or discussion",
+        "meaning_hi": "विचार-विमर्श / मंथन",
+        "example": "After weeks of deliberation, the cabinet approved the revised national education policy."
+      },
+      {
+        "word": "prorogation",
+        "meaning_en": "The discontinuation of a parliamentary session without dissolving it",
+        "meaning_hi": "सत्रावसान",
+        "example": "Prorogation of Parliament ended the monsoon session before several pending bills could be passed."
+      },
+      {
+        "word": "accountability",
+        "meaning_en": "The fact or condition of being responsible to others; answerability",
+        "meaning_hi": "जवाबदेही",
+        "example": "The Right to Information Act strengthened accountability by making government records accessible to citizens."
+      }
+    ]
+  },
+  {
+    "id": "article_008",
+    "title": "The Quit India Movement of 1942",
+    "topic": "History",
+    "read_time": 3,
+    "article": "The Quit India Movement, launched by the Indian National Congress on 8 August 1942, was one of the most audacious and spontaneous mass uprisings in the history of India's independence struggle. Mahatma Gandhi's clarion call — 'Do or Die' — galvanised millions across the subcontinent into open defiance of British authority at a time when the Second World War was at its most precarious phase.\n\nThe movement arose from a sense of deep disillusionment following the failure of the Cripps Mission in March 1942. The British Government had sent Sir Stafford Cripps to India with proposals for post-war dominion status, but the Congress rejected them as inadequate. The prevailing sentiment was that India's cooperation in the war effort was being taken for granted without any concrete commitment to independence.\n\nThe British response was swift and ruthless. Within hours of the Bombay resolution, the entire top leadership of the Congress — Gandhi, Nehru, Patel — was incarcerated. The movement, deprived of its central leadership, became decentralised and often spontaneous. Underground networks flourished; clandestine newspapers circulated; telegraph lines were cut, and railway tracks were disrupted.\n\nThe insurrection was suppressed with considerable force — over 100,000 people were arrested, thousands were killed in police firing, and martial law was imposed in several districts. The colonial administration deployed the army and conducted mass floggings. Yet the sheer scale of popular participation underscored the irreversible momentum towards independence.\n\nThe Quit India Movement demonstrated that colonial rule could no longer count on the acquiescence of ordinary Indians. While it did not achieve immediate independence, it made the British acutely aware that holding India by force alone was neither sustainable nor morally tenable in the post-war world.",
+    "highlighted_words": [
+      {
+        "word": "spontaneous",
+        "meaning_en": "Happening or arising without external cause; occurring naturally",
+        "meaning_hi": "स्वतःस्फूर्त / अपने आप",
+        "example": "The spontaneous protests across the country caught the administration completely off guard."
+      },
+      {
+        "word": "audacious",
+        "meaning_en": "Showing a willingness to take bold risks; daringly brave",
+        "meaning_hi": "साहसी / दुस्साहसी",
+        "example": "The audacious plan to blockade the port required months of covert preparation."
+      },
+      {
+        "word": "disillusionment",
+        "meaning_en": "A feeling of disappointment resulting from the discovery that something is not as good as one believed",
+        "meaning_hi": "मोहभंग",
+        "example": "Public disillusionment with empty promises led to a sharp fall in voter turnout."
+      },
+      {
+        "word": "incarcerated",
+        "meaning_en": "Imprisoned; confined in a jail or prison",
+        "meaning_hi": "कारागार में बंद",
+        "example": "The activist was incarcerated for three years without a formal trial."
+      },
+      {
+        "word": "clandestine",
+        "meaning_en": "Kept secret or done secretively, especially because illicit",
+        "meaning_hi": "गुप्त / छिपकर किया गया",
+        "example": "The resistance group operated a clandestine radio station to communicate with allied forces."
+      },
+      {
+        "word": "insurrection",
+        "meaning_en": "A violent uprising against an authority or government",
+        "meaning_hi": "विद्रोह / बगावत",
+        "example": "The colonial government declared the peasant insurrection a threat to law and order."
+      },
+      {
+        "word": "acquiescence",
+        "meaning_en": "The reluctant acceptance of something without protest",
+        "meaning_hi": "मौन सहमति / स्वीकृति",
+        "example": "The government interpreted the public's silence as acquiescence rather than approval."
+      }
+    ]
+  },
+  {
+    "id": "article_009",
+    "title": "The Revolt of 1857 — A Turning Point",
+    "topic": "History",
+    "read_time": 3,
+    "article": "The Revolt of 1857, variously described as the Sepoy Mutiny, the First War of Independence, or the Great Rebellion, remains one of the most debated events in Indian history. What began as a mutiny among Indian sepoys of the East India Company's Bengal Army rapidly escalated into a widespread uprising that shook British colonial rule to its foundations.\n\nThe immediate trigger was the introduction of the Enfield rifle, whose cartridges were reportedly greased with cow and pig fat. Soldiers were required to bite off the tip of the cartridge before loading — an act that was seen as a grave religious transgression by both Hindu and Muslim sepoys alike. This grievance, real or perceived, served as the catalyst for an explosion of discontent that had been building for decades.\n\nUnderlying the mutiny were deeper resentments: the policy of annexation pursued under the Doctrine of Lapse, which allowed the British to annex princely states that lacked a natural heir; the displacement of the old aristocracy; and the introduction of laws and customs that were seen as threatening indigenous religious and social practices.\n\nThe rebellion spread rapidly across northern and central India. Delhi became the symbolic epicentre, with the rebels rallying around the last Mughal emperor, Bahadur Shah Zafar. Lucknow, Kanpur, and Jhansi witnessed fierce resistance, with figures such as Rani Lakshmibai becoming enduring symbols of patriotic valour.\n\nThe British eventually suppressed the rebellion with overwhelming force, and the aftermath was brutal. The East India Company was dissolved, and direct Crown rule was established through the Government of India Act, 1858. The patronage of Indian princes was secured by guaranteeing their territories, and the Indian Army was comprehensively reorganised to prevent future large-scale uprisings.",
+    "highlighted_words": [
+      {
+        "word": "mutiny",
+        "meaning_en": "An open rebellion against the authority of a commander or leader, especially by soldiers",
+        "meaning_hi": "विद्रोह / बगावत (सैन्य)",
+        "example": "The naval mutiny of 1946 rattled British confidence in their ability to maintain control over India."
+      },
+      {
+        "word": "transgression",
+        "meaning_en": "An act that goes against a law, rule, or code of conduct; an offence",
+        "meaning_hi": "उल्लंघन / अपराध",
+        "example": "The court held that any transgression of environmental norms would attract strict penalties."
+      },
+      {
+        "word": "annexation",
+        "meaning_en": "The action of adding territory to one's own, typically by force",
+        "meaning_hi": "अधिग्रहण / हड़प लेना",
+        "example": "The annexation of Awadh under the Doctrine of Lapse caused widespread resentment among Indian princes."
+      },
+      {
+        "word": "aristocracy",
+        "meaning_en": "The highest class in certain societies, typically comprising people of noble birth",
+        "meaning_hi": "कुलीन वर्ग / अभिजात वर्ग",
+        "example": "The land reforms dismantled the old aristocracy's hold over vast agricultural estates."
+      },
+      {
+        "word": "indigenous",
+        "meaning_en": "Originating or occurring naturally in a particular place; native",
+        "meaning_hi": "स्वदेशी / मूल निवासी",
+        "example": "The legislation sought to protect indigenous communities' rights over forest land."
+      },
+      {
+        "word": "patronage",
+        "meaning_en": "Support given by a patron; power to control appointments or privileges",
+        "meaning_hi": "संरक्षण / आश्रय",
+        "example": "The arts flourished under royal patronage during the Mughal period."
+      },
+      {
+        "word": "valour",
+        "meaning_en": "Great courage in the face of danger, especially in battle",
+        "meaning_hi": "वीरता / शौर्य",
+        "example": "The soldiers were awarded medals for their extraordinary valour during the border conflict."
+      }
+    ]
+  },
+  {
+    "id": "article_010",
+    "title": "GST — One Nation, One Tax",
+    "topic": "Economy",
+    "read_time": 3,
+    "article": "The Goods and Services Tax, commonly known as GST, is one of India's most transformative fiscal reforms since independence. Implemented on 1 July 2017, it replaced a complex web of over 17 central and state indirect taxes — including excise duty, service tax, and value-added tax — with a single, unified tax structure applicable across the country.\n\nAt its core, GST is a destination-based, multi-stage tax levied on the value added at each stage of the supply chain. The cascading effect of the old tax regime — where taxes were levied on top of taxes — inflated the cost of goods and rendered Indian products less competitive in global markets. GST eliminated this cascading by allowing businesses to claim input tax credits, meaning tax paid at one stage can be offset against the liability at the next.\n\nIndia's GST follows a dual structure: both the Centre and the states simultaneously levy taxes on goods and services. Central GST (CGST) is collected by the Union, while State GST (SGST) goes to the states. For inter-state transactions, an Integrated GST (IGST) is collected by the Centre and apportioned between the states.\n\nThe harmonisation of tax rates into four main slabs — 5%, 12%, 18%, and 28% — simplified compliance for businesses operating across multiple states. A threshold exemption for small businesses with turnover below a certain limit shielded micro-enterprises from the compliance burden.\n\nDespite its merits, the initial rollout was marked by technical glitches on the GSTN portal and confusion among small traders. Over time, however, GST collections have become a reliable indicator of economic buoyancy, with monthly collections regularly exceeding one lakh crore rupees, signalling the formalisation of the Indian economy and greater tax transparency.",
+    "highlighted_words": [
+      {
+        "word": "fiscal",
+        "meaning_en": "Relating to government revenue, especially taxes",
+        "meaning_hi": "राजकोषीय / वित्तीय",
+        "example": "The finance minister announced a cautious fiscal policy to contain the deficit during the slowdown."
+      },
+      {
+        "word": "indirect",
+        "meaning_en": "Not directly caused by or resulting from something; in taxation, levied on goods and services rather than income",
+        "meaning_hi": "अप्रत्यक्ष",
+        "example": "GST subsumed most indirect taxes, reducing the compliance burden on businesses."
+      },
+      {
+        "word": "cascading",
+        "meaning_en": "Falling or flowing in a series of stages; in taxation, tax levied on tax",
+        "meaning_hi": "श्रृंखलाबद्ध / एक के ऊपर एक",
+        "example": "The cascading effect of taxes under the old regime made Indian manufactured goods expensive."
+      },
+      {
+        "word": "harmonisation",
+        "meaning_en": "The process of making different things similar or compatible; standardisation",
+        "meaning_hi": "एकरूपता / सामंजस्य",
+        "example": "Harmonisation of tax rates under GST reduced the scope for tax arbitrage between states."
+      },
+      {
+        "word": "compliance",
+        "meaning_en": "The action or fact of following rules, regulations, or requirements",
+        "meaning_hi": "अनुपालन",
+        "example": "Small businesses welcomed the simplified compliance procedures under the GST composition scheme."
+      },
+      {
+        "word": "apportioned",
+        "meaning_en": "Divided and allocated appropriately among parties",
+        "meaning_hi": "विभाजित / आवंटित",
+        "example": "Tax revenues are apportioned between the Centre and states based on the Finance Commission's recommendations."
+      },
+      {
+        "word": "formalisation",
+        "meaning_en": "The process of making something official or bringing it into a regulated framework",
+        "meaning_hi": "औपचारिकीकरण",
+        "example": "Demonetisation accelerated the formalisation of the economy by pushing transactions towards digital channels."
+      }
+    ]
+  },
+  {
+    "id": "article_011",
+    "title": "The Union Budget — India's Financial Blueprint",
+    "topic": "Economy",
+    "read_time": 3,
+    "article": "The Union Budget of India, presented annually in Parliament by the Finance Minister, is the government's most comprehensive statement of its financial plans for the coming year. It outlines the projected revenue receipts, the proposed expenditure across ministries, and the extent of the fiscal deficit — the gap between what the government earns and what it spends.\n\nThe Budget is presented in two main parts: the Revenue Budget and the Capital Budget. The Revenue Budget deals with day-to-day income and expenditure — salaries, subsidies, interest payments — while the Capital Budget covers long-term investments such as infrastructure creation, defence procurement, and loans extended to states.\n\nA central preoccupation of every Union Budget is the management of the fiscal deficit. A high deficit, financed by government borrowing, can crowd out private investment and fuel inflationary pressures. The Fiscal Responsibility and Budget Management Act of 2003 mandated the government to progressively reduce its deficit, though the pandemic necessitated a temporary deviation from these targets.\n\nThe Budget also contains the Finance Bill, which proposes changes to taxation — both direct taxes such as income tax and indirect taxes. Disinvestment, the process of the government selling its stake in public-sector enterprises, is another important revenue stream outlined in the Budget. Proceeds from disinvestment are typically earmarked for capital expenditure.\n\nBeyond numbers, the Budget signals policy priorities. Increased allocation to rural infrastructure, healthcare, or education reflects the government's developmental agenda. In recent years, the simultaneous presentation of the Railway Budget with the Union Budget has consolidated financial planning. The Economic Survey, tabled a day before the Budget, provides the analytical backdrop against which the government's financial decisions can be evaluated.",
+    "highlighted_words": [
+      {
+        "word": "expenditure",
+        "meaning_en": "The action of spending funds; the amount of money spent",
+        "meaning_hi": "व्यय / खर्च",
+        "example": "The government increased capital expenditure on highways and ports to boost economic activity."
+      },
+      {
+        "word": "deficit",
+        "meaning_en": "The amount by which something falls short; the excess of expenditure over revenue",
+        "meaning_hi": "घाटा",
+        "example": "A rising fiscal deficit put pressure on the government to rationalise subsidies."
+      },
+      {
+        "word": "inflationary",
+        "meaning_en": "Tending to cause inflation; relating to a general rise in prices",
+        "meaning_hi": "मुद्रास्फीतिकारी",
+        "example": "Excessive money supply can have inflationary consequences that erode purchasing power."
+      },
+      {
+        "word": "disinvestment",
+        "meaning_en": "The process of selling government stakes in public-sector companies",
+        "meaning_hi": "विनिवेश",
+        "example": "The government met its disinvestment target by selling a minority stake in a state-run bank."
+      },
+      {
+        "word": "allocation",
+        "meaning_en": "The amount of a resource assigned to a particular purpose or recipient",
+        "meaning_hi": "आवंटन",
+        "example": "The budget increased allocation for primary education by fifteen percent over the previous year."
+      },
+      {
+        "word": "consolidated",
+        "meaning_en": "Combined into a single more effective or coherent whole",
+        "meaning_hi": "समेकित / एकीकृत",
+        "example": "The two ministries were consolidated to improve coordination and reduce administrative duplication."
+      },
+      {
+        "word": "analytical",
+        "meaning_en": "Relating to or using analysis; examining something in detail",
+        "meaning_hi": "विश्लेषणात्मक",
+        "example": "The Economic Survey provides an analytical review of macroeconomic trends before the Budget is presented."
+      }
+    ]
+  },
+  {
+    "id": "article_012",
+    "title": "The Himalayan River System",
+    "topic": "Geography",
+    "read_time": 3,
+    "article": "The rivers that originate in the Himalayas constitute one of the world's most important freshwater systems. Unlike rivers of peninsular India, which depend entirely on seasonal rainfall, Himalayan rivers are perennial — fed not only by the monsoon but also by glacial melt throughout the year. This twin source of water makes them invaluable lifelines for hundreds of millions of people across the Indian subcontinent.\n\nThe three great river systems of the Himalayas are the Indus, the Ganga, and the Brahmaputra. The Indus, originating near Lake Mansarovar in Tibet, flows northwestward before entering Pakistan. The Ganga, rising from the Gangotri glacier, flows eastward across the Indo-Gangetic Plain and forms one of the world's most extensive alluvial deposits before debouching into the Bay of Bengal. The Brahmaputra, known as the Tsangpo in Tibet, makes a dramatic hairpin bend around the Namcha Barwa peak before entering Assam.\n\nHimalayan rivers are antecedent streams — they are older than the mountains themselves. As the Himalayas rose through tectonic uplift, these rivers maintained their course by cutting gorges through the rising rock. This explains why rivers like the Indus and Brahmaputra have some of the deepest gorges on Earth.\n\nSedimentation is a defining characteristic of Himalayan rivers. They carry enormous quantities of silt from the mountains, depositing it as they slow down on the plains. This has created the highly fertile alluvial soil of the Indo-Gangetic Plain over millions of years. However, excessive sedimentation also leads to the silting up of reservoirs, reducing the lifespan of hydroelectric projects.\n\nClimate change poses a growing threat to Himalayan rivers. Glacial retreat is accelerating, and while rivers may initially swell as glaciers melt, the long-term prognosis is a reduction in the dry-season flow that millions of farmers depend on for irrigation.",
+    "highlighted_words": [
+      {
+        "word": "glacial",
+        "meaning_en": "Relating to glaciers or ice ages; extremely slow",
+        "meaning_hi": "हिमनद संबंधी",
+        "example": "The glacial lake outburst caused a flash flood that devastated villages downstream."
+      },
+      {
+        "word": "alluvial",
+        "meaning_en": "Relating to sediment deposited by flowing water",
+        "meaning_hi": "जलोढ़ / नदी द्वारा जमा मिट्टी",
+        "example": "The alluvial plains of the Ganga support some of the most intensive agriculture in the world."
+      },
+      {
+        "word": "antecedent",
+        "meaning_en": "Preceding in time; a thing that existed before another",
+        "meaning_hi": "पूर्ववर्ती",
+        "example": "Antecedent rivers like the Indus predate the mountains through which they now flow."
+      },
+      {
+        "word": "tectonic",
+        "meaning_en": "Relating to the structure of the earth's crust and large-scale processes shaping it",
+        "meaning_hi": "विवर्तनिक / भूगर्भीय",
+        "example": "Tectonic movement along the plate boundary continues to make the Himalayan region seismically active."
+      },
+      {
+        "word": "sedimentation",
+        "meaning_en": "The process by which material settles to the bottom of a liquid; deposition of sediment",
+        "meaning_hi": "अवसादन / तलछट जमाव",
+        "example": "Rapid sedimentation in the reservoir reduced its storage capacity by thirty percent within two decades."
+      },
+      {
+        "word": "tributary",
+        "meaning_en": "A river or stream flowing into a larger river or lake",
+        "meaning_hi": "सहायक नदी",
+        "example": "The Yamuna is the largest tributary of the Ganga and flows through Delhi and Agra."
+      },
+      {
+        "word": "prognosis",
+        "meaning_en": "A forecast of the likely outcome of a situation",
+        "meaning_hi": "पूर्वानुमान / भविष्यवाणी",
+        "example": "The hydrologist's prognosis for water availability in the basin over the next fifty years is alarming."
+      }
+    ]
+  },
+  {
+    "id": "article_013",
+    "title": "Biodiversity and Conservation in India",
+    "topic": "Environment",
+    "read_time": 3,
+    "article": "India is one of the world's seventeen megadiverse countries, harbouring an extraordinary variety of life in its forests, wetlands, coral reefs, and grasslands. Although India accounts for only 2.4 percent of the world's land area, it is home to over 7 to 8 percent of all recorded plant and animal species — a testament to the richness of its ecosystems and the variety of its climate zones.\n\nThe country's biodiversity is partly a result of its unique biogeographical position. India lies at the junction of three major biogeographic realms — the Indo-Malayan, the Afrotropical, and the Palearctic — making it a transition zone where species from different parts of the world coexist. The Western Ghats and the Eastern Himalayas are recognised as two of the world's thirty-six biodiversity hotspots — regions that harbour exceptional concentrations of endemic species facing significant habitat loss.\n\nEndemic species — those found nowhere else on Earth — are particularly vulnerable to extinction. India is home to iconic endemic species such as the lion-tailed macaque, the Nilgiri tahr, and the purple frog discovered in Kerala in 2003. The Bengal tiger, the one-horned rhinoceros, and the Asiatic lion are among species that have been brought back from the brink through conservation efforts.\n\nProject Tiger, launched in 1973, is India's most celebrated conservation programme. The number of tigers has risen from approximately 1,800 at the programme's inception to over 3,000 today — a remarkable recovery. However, habitat fragmentation caused by linear infrastructure such as highways and railways continues to threaten the viability of wildlife corridors between forest patches.\n\nIndia is a signatory to the Convention on Biological Diversity and has enacted the Biological Diversity Act of 2002 to regulate access to biological resources and protect traditional knowledge associated with them. Sustaining biodiversity is not merely an ecological imperative — it underpins ecosystem services such as pollination, water purification, and climate regulation that human civilisation fundamentally depends on.",
+    "highlighted_words": [
+      {
+        "word": "megadiverse",
+        "meaning_en": "Describing one of the countries that contain the majority of the world's species",
+        "meaning_hi": "महाविविध / अत्यधिक जैव विविधता वाला",
+        "example": "As a megadiverse country, Brazil hosts more species of plants and animals than almost any other nation."
+      },
+      {
+        "word": "endemic",
+        "meaning_en": "Native and restricted to a certain place; found only in a specific region",
+        "meaning_hi": "स्थानिक / किसी विशेष क्षेत्र में पाया जाने वाला",
+        "example": "The great Indian bustard is an endemic bird species facing extinction due to habitat loss."
+      },
+      {
+        "word": "ecosystem",
+        "meaning_en": "A biological community of interacting organisms and their physical environment",
+        "meaning_hi": "पारितंत्र / जैव तंत्र",
+        "example": "Mangrove forests form a vital ecosystem that protects coastlines and supports marine biodiversity."
+      },
+      {
+        "word": "habitat",
+        "meaning_en": "The natural environment in which a species lives",
+        "meaning_hi": "आवास / प्राकृतिक वास",
+        "example": "Deforestation is destroying the natural habitat of elephants, pushing them into human settlements."
+      },
+      {
+        "word": "fragmentation",
+        "meaning_en": "The process of breaking or being broken into fragments; division into isolated sections",
+        "meaning_hi": "विखंडन / टुकड़ों में विभाजन",
+        "example": "Habitat fragmentation due to road construction disrupts wildlife corridors and reduces genetic diversity."
+      },
+      {
+        "word": "signatory",
+        "meaning_en": "A party that has signed an agreement, especially a country that has signed a treaty",
+        "meaning_hi": "हस्ताक्षरकर्ता",
+        "example": "All signatory nations to the Paris Agreement are expected to submit updated climate action plans."
+      },
+      {
+        "word": "imperative",
+        "meaning_en": "An essential or urgent thing; absolutely necessary",
+        "meaning_hi": "अनिवार्य / परमावश्यक",
+        "example": "Reducing carbon emissions is not merely an environmental goal but a strategic imperative for national security."
+      }
+    ]
+  },
+  {
+    "id": "article_014",
+    "title": "India's Space Programme — The ISRO Story",
+    "topic": "Science",
+    "read_time": 3,
+    "article": "The Indian Space Research Organisation, commonly known as ISRO, has transformed India into one of the world's leading spacefaring nations through indigenous technology, frugal engineering, and a steadfast commitment to self-reliance. Founded in 1969 by the visionary scientist Dr Vikram Sarabhai, ISRO was established with the conviction that space technology could serve the developmental needs of a newly independent nation.\n\nIndia's first satellite, Aryabhata, was launched in 1975 with Soviet assistance. The real watershed, however, came with the development of the Satellite Launch Vehicle and subsequently the Polar Satellite Launch Vehicle, which became ISRO's most reliable workhorse. The PSLV has launched over 400 satellites for more than 34 countries, establishing India as a competitive and cost-effective provider of launch services.\n\nIndia's Mars Orbiter Mission of 2014 — popularly known as Mangalyaan — captured global attention by becoming the first Asian mission to reach Mars and doing so on its very first attempt. With a budget of approximately Rs 450 crore, it was the most economical interplanetary mission ever executed, demonstrating that propulsion technology and mission management of the highest order could be achieved at a fraction of the cost incurred by other space agencies.\n\nThe Chandrayaan missions represent India's ambition in lunar exploration. Chandrayaan-1 in 2008 confirmed the presence of water molecules on the Moon's surface — a landmark discovery. Chandrayaan-3, launched in July 2023, successfully executed a soft landing near the lunar south pole, making India the first country in the world to achieve this feat and the fourth overall to land on the Moon.\n\nISRO's commercial arm, NewSpace India Limited, has accelerated the agency's engagement with the global satellite market. India's future space agenda includes the Gaganyaan human spaceflight mission, lunar sample return missions, and an indigenous space station — ambitions that reflect a confident extrapolation of the country's proven capabilities.",
+    "highlighted_words": [
+      {
+        "word": "indigenous",
+        "meaning_en": "Originating or produced within a country; native; not imported",
+        "meaning_hi": "स्वदेशी / देशज",
+        "example": "The Tejas fighter jet is India's first indigenous combat aircraft developed entirely by domestic engineers."
+      },
+      {
+        "word": "frugal",
+        "meaning_en": "Economical with resources; achieving results without wasteful expenditure",
+        "meaning_hi": "किफायती / मितव्ययी",
+        "example": "India's frugal approach to space missions has made it a preferred partner for satellite launches worldwide."
+      },
+      {
+        "word": "propulsion",
+        "meaning_en": "The action of driving or pushing forward; the force that moves a vehicle",
+        "meaning_hi": "प्रणोदन / आगे धकेलने की शक्ति",
+        "example": "The development of a cryogenic propulsion system was a major breakthrough for ISRO's heavy-lift rockets."
+      },
+      {
+        "word": "interplanetary",
+        "meaning_en": "Situated or travelling between planets",
+        "meaning_hi": "अंतर्ग्रहीय",
+        "example": "The interplanetary probe was designed to withstand extreme radiation and temperature variations during its journey."
+      },
+      {
+        "word": "landmark",
+        "meaning_en": "An event, discovery, or change marking an important stage in development",
+        "meaning_hi": "ऐतिहासिक / मील का पत्थर",
+        "example": "The landmark Supreme Court ruling changed the interpretation of the right to privacy in India."
+      },
+      {
+        "word": "extrapolation",
+        "meaning_en": "The extension of a method or conclusion into an area not directly experienced; projection",
+        "meaning_hi": "बहिर्वेशन / अनुमान विस्तार",
+        "example": "An extrapolation of current trends suggests that India will become the world's largest economy by 2075."
+      },
+      {
+        "word": "lunar",
+        "meaning_en": "Relating to the Moon",
+        "meaning_hi": "चंद्र / चंद्रमा संबंधी",
+        "example": "The lunar south pole is of interest to scientists because of evidence of water ice in permanently shadowed craters."
+      }
+    ]
+  },
+  {
+    "id": "article_015",
+    "title": "The Mughal Empire — Rise and Decline",
+    "topic": "History",
+    "read_time": 3,
+    "article": "The Mughal Empire, which dominated the Indian subcontinent for nearly three centuries, stands as one of the greatest imperial powers in world history. Founded by Babur after his decisive victory at the First Battle of Panipat in 1526, the empire reached its zenith under Aurangzeb in the late seventeenth century, when it encompassed most of the subcontinent and generated revenues that dwarfed those of contemporary European powers.\n\nThe Mughal emperors were remarkable patrons of art, architecture, and learning. Akbar, widely considered the greatest Mughal ruler, was a proponent of religious syncretism — the blending of different religious traditions. His policy of sulh-i-kul, meaning universal peace, treated all faiths with equal respect and integrated Rajput chieftains into the imperial administration through matrimonial alliances and military service.\n\nThe consolidation of Mughal power rested on an efficient administrative structure. The mansabdari system ranked nobles by the number of cavalry they were required to maintain. Revenue collection was standardised through the Todar Mal system of land measurement and assessment. Persian became the language of the court and administration, fostering a distinctive Indo-Persian cultural synthesis.\n\nThe decline of the Mughal Empire is attributable to multiple factors. Aurangzeb's prolonged and costly Deccan campaigns drained the treasury and overstretched military resources. His policy of reimposing the jizya tax on non-Muslims alienated powerful Rajput allies. The rise of the Maratha confederacy, Sikh power in the Punjab, and the invasions of Nadir Shah and Ahmad Shah Abdali all eroded Mughal territorial control.\n\nBy the mid-eighteenth century, the emperor in Delhi had become a largely ceremonial figurehead, with real power fragmented among regional successors. The British, exploiting this decentralisation, gradually absorbed the successor states, and the last Mughal emperor, Bahadur Shah Zafar, was exiled to Rangoon after the Revolt of 1857.",
+    "highlighted_words": [
+      {
+        "word": "zenith",
+        "meaning_en": "The highest point reached by a celestial body; the peak of something",
+        "meaning_hi": "शिखर / उच्चतम बिन्दु",
+        "example": "The Mauryan Empire reached its zenith under Ashoka, stretching across most of the subcontinent."
+      },
+      {
+        "word": "syncretism",
+        "meaning_en": "The combination of different religions, cultures, or schools of thought",
+        "meaning_hi": "समन्वयवाद / विभिन्न मतों का मेल",
+        "example": "The Sufi tradition embodied a form of religious syncretism that drew from both Islamic and Hindu thought."
+      },
+      {
+        "word": "consolidation",
+        "meaning_en": "The action of making something stronger or more solid; merging of groups",
+        "meaning_hi": "सुदृढ़ीकरण / एकत्रीकरण",
+        "example": "The consolidation of power by the new government was achieved through strategic alliances with regional parties."
+      },
+      {
+        "word": "matrimonial",
+        "meaning_en": "Relating to marriage",
+        "meaning_hi": "वैवाहिक",
+        "example": "Matrimonial alliances between Rajput clans and Mughal royalty helped extend imperial authority across Rajputana."
+      },
+      {
+        "word": "synthesis",
+        "meaning_en": "The combination of elements to form a connected whole; a mixture",
+        "meaning_hi": "संश्लेषण / समन्वय",
+        "example": "The architecture of the Taj Mahal represents a synthesis of Persian, Indian, and Islamic styles."
+      },
+      {
+        "word": "attributable",
+        "meaning_en": "Regarded as caused by a specified thing; ascribable",
+        "meaning_hi": "कारण के रूप में माना जाने वाला",
+        "example": "The steep rise in food prices was attributable to the failure of the south-west monsoon."
+      },
+      {
+        "word": "decentralisation",
+        "meaning_en": "The transfer of control from central authority to local bodies",
+        "meaning_hi": "विकेंद्रीकरण",
+        "example": "The 73rd Constitutional Amendment accelerated decentralisation by strengthening panchayati raj institutions."
+      }
+    ]
+  },
+  {
+    "id": "article_016",
+    "title": "Foreign Direct Investment in India",
+    "topic": "Economy",
+    "read_time": 3,
+    "article": "Foreign Direct Investment, or FDI, refers to capital invested by entities in one country into business operations or assets in another country with the intent of establishing lasting interest and control. Unlike portfolio investment, which involves purchasing shares in a foreign company without seeking management control, FDI typically involves setting up manufacturing units, acquiring companies, or building infrastructure — activities with long-term economic consequences.\n\nIndia's approach to FDI has evolved dramatically since the liberalisation of the economy in 1991. Before liberalisation, a rigid licensing regime and restrictions on foreign ownership severely constrained inflows. The reforms opened multiple sectors to foreign investment, and subsequent decades saw progressive relaxation of ownership limits across industries including retail, defence, insurance, and aviation.\n\nThe government has established two routes for FDI entry: the automatic route, which does not require prior government approval, and the government route, which mandates scrutiny for sensitive sectors. Greenfield FDI — investment in entirely new projects — is generally preferred over brownfield FDI — investment in existing enterprises — because it creates new jobs and expands productive capacity.\n\nIndia has become one of the world's top FDI destinations, attracting over USD 85 billion in the financial year 2021-22. The manufacturing sector has benefited from production-linked incentive schemes designed to attract global supply chain investment. The digital and services sectors have been particularly vibrant, with significant inflows into technology, e-commerce, and financial services.\n\nConcerns remain, however, about reciprocity and regulatory predictability. Investors seek a stable, transparent regulatory environment that protects intellectual property and enforces contracts efficiently. The easing of retrospective taxation and the rationalisation of labour laws have been welcomed by the investment community as steps towards a more conducive business ecosystem.",
+    "highlighted_words": [
+      {
+        "word": "liberalisation",
+        "meaning_en": "The removal or relaxation of restrictions in economic or social policy",
+        "meaning_hi": "उदारीकरण",
+        "example": "Economic liberalisation in 1991 opened India's markets to foreign competition and investment."
+      },
+      {
+        "word": "inflows",
+        "meaning_en": "Money, people, or goods coming into a place or economy",
+        "meaning_hi": "प्रवाह / आवक",
+        "example": "Strong FDI inflows into the manufacturing sector are a sign of growing investor confidence."
+      },
+      {
+        "word": "greenfield",
+        "meaning_en": "Relating to investment in a new facility or project built from scratch",
+        "meaning_hi": "नए सिरे से निर्माण",
+        "example": "The company announced a greenfield investment of five billion dollars to build a semiconductor plant in India."
+      },
+      {
+        "word": "brownfield",
+        "meaning_en": "Relating to investment in an existing facility or enterprise",
+        "meaning_hi": "पुराने ढांचे में निवेश",
+        "example": "Brownfield acquisitions allow companies to quickly gain market share without waiting for new infrastructure."
+      },
+      {
+        "word": "reciprocity",
+        "meaning_en": "The practice of exchanging things with others for mutual benefit; equal treatment",
+        "meaning_hi": "पारस्परिकता / बदले में समान व्यवहार",
+        "example": "Trade negotiations stalled over the issue of reciprocity in tariff reductions between the two countries."
+      },
+      {
+        "word": "retrospective",
+        "meaning_en": "Looking back on or dealing with past events; taking effect from a past date",
+        "meaning_hi": "पूर्वव्यापी / भूतलक्षी",
+        "example": "The retrospective tax amendment caused uncertainty among foreign investors and led to international arbitration."
+      },
+      {
+        "word": "conducive",
+        "meaning_en": "Contributing to or helping bring about a particular outcome; favourable",
+        "meaning_hi": "अनुकूल / सहायक",
+        "example": "Stable governance and rule of law are conducive to long-term foreign investment."
+      }
+    ]
+  },
+  {
+    "id": "article_017",
+    "title": "The Right to Information Act, 2005",
+    "topic": "Polity",
+    "read_time": 3,
+    "article": "The Right to Information Act, enacted in 2005, is widely regarded as one of the most empowering pieces of legislation in post-independence India. It grants every citizen the statutory right to request information from public authorities — a right that fundamentally shifts the relationship between the state and its citizens from one of paternalism to one of accountability.\n\nBefore the RTI Act, the Official Secrets Act of 1923 formed the cornerstone of India's culture of governmental secrecy. Information was the state's prerogative to withhold, and citizens had little recourse. The RTI Act broke this tradition by placing the burden of proof firmly on the state: public authorities must provide information within thirty days, or within forty-eight hours where life and liberty are at stake.\n\nThe Act created a tiered system of oversight. Citizens who are denied information or receive unsatisfactory responses may appeal first to a senior officer within the same authority, and then to an independent Information Commissioner. The Central Information Commission and State Information Commissions serve as the apex appellate bodies and have the power to impose penalties on errant public officials.\n\nThe RTI has been used with remarkable effect to expose corruption, track the utilisation of public funds, and scrutinise welfare scheme implementation. From revealing inflated infrastructure costs to uncovering ghost beneficiaries in food security programmes, RTI applications have become a potent tool of civic activism and investigative journalism.\n\nHowever, the Act's transformative potential has been constrained by the slow disposal of appeals and the weakening of the Information Commission's independence through amendments in 2019 that brought commissioners' service conditions under government control. Defenders of transparency argue that proactive disclosure — the voluntary publication of all non-sensitive government information — would reduce the RTI burden and deepen democratic governance.",
+    "highlighted_words": [
+      {
+        "word": "statutory",
+        "meaning_en": "Required, permitted, or enacted by statute; fixed by law",
+        "meaning_hi": "वैधानिक / क़ानूनी",
+        "example": "Every worker is entitled to statutory minimum wages as prescribed by the state government."
+      },
+      {
+        "word": "paternalism",
+        "meaning_en": "The practice of limiting someone's freedom for their own good, like a father over children",
+        "meaning_hi": "पितृवाद / सरकारी अभिभावकत्व",
+        "example": "Critics accused the policy of paternalism, arguing it treated adult citizens as incapable of making their own choices."
+      },
+      {
+        "word": "prerogative",
+        "meaning_en": "A right or privilege exclusive to a particular person or group",
+        "meaning_hi": "विशेषाधिकार",
+        "example": "Granting pardons is the constitutional prerogative of the President of India."
+      },
+      {
+        "word": "appellate",
+        "meaning_en": "Relating to the review of decisions made by a lower court or authority",
+        "meaning_hi": "अपीलीय",
+        "example": "The High Court, in its appellate jurisdiction, overturned the lower court's conviction."
+      },
+      {
+        "word": "errant",
+        "meaning_en": "Behaving in an incorrect or undesirable way; straying from the proper course",
+        "meaning_hi": "अनुचित व्यवहार करने वाला",
+        "example": "The commission imposed a fine on the errant official for denying information without valid grounds."
+      },
+      {
+        "word": "potent",
+        "meaning_en": "Having great power, influence, or effect",
+        "meaning_hi": "शक्तिशाली / प्रभावशाली",
+        "example": "Social media has proved to be a potent tool for mobilising public opinion on governance issues."
+      },
+      {
+        "word": "proactive",
+        "meaning_en": "Creating or controlling a situation rather than just responding to it",
+        "meaning_hi": "अग्रसक्रिय / पहल करने वाला",
+        "example": "A proactive disclosure policy would make government records publicly available without citizens having to file RTI applications."
+      }
+    ]
+  },
+  {
+    "id": "article_018",
+    "title": "The Swadeshi Movement and Partition of Bengal",
+    "topic": "History",
+    "read_time": 3,
+    "article": "The Partition of Bengal in 1905, ordered by Viceroy Lord Curzon, proved to be one of the most consequential and catalytic events in the history of India's nationalist movement. Ostensibly undertaken for administrative efficiency, the partition divided the province into two units: a Muslim-majority East Bengal and Assam, and a Hindu-majority West Bengal. Indian nationalists immediately perceived it as a deliberate attempt to weaken Bengali nationalism and pursue a policy of divide and rule.\n\nThe response was the Swadeshi Movement — one of the earliest mass protest movements in colonial India. Swadeshi, meaning 'of one's own country,' called for the boycott of British manufactured goods and the revival of indigenous industries. Bonfires of British cloth became a common sight in cities and towns, while homespun textiles and locally produced goods were promoted as symbols of economic self-reliance.\n\nThe movement went beyond economic agitation. It gave birth to a vibrant cultural renaissance in Bengal — new schools were established to promote vernacular education, national literature flourished, and revolutionary organisations began to take shape. Moderate leaders like Gopal Krishna Gokhale favoured constitutional methods of petitioning, while radicals led by Bal Gangadhar Tilak and Bipin Chandra Pal advocated more aggressive forms of resistance.\n\nThe partition was annulled in 1911, a tacit acknowledgement of the government's miscalculation. However, the movement's legacy was profound. It galvanised a new generation of nationalists, demonstrated the potency of economic boycott as a political weapon, and gave Gandhi the conceptual foundation for his later Satyagraha campaigns that would deploy similar principles on a national scale.\n\nThe Swadeshi Movement also revealed the limitations of a politics based purely on elite agitation and underscored the need to mobilise the peasantry and working class — lessons that would shape the Congress strategy in the following decades.",
+    "highlighted_words": [
+      {
+        "word": "catalytic",
+        "meaning_en": "Relating to or acting as a catalyst; causing or accelerating a reaction or change",
+        "meaning_hi": "उत्प्रेरक / परिवर्तन लाने वाला",
+        "example": "The farmers' protests had a catalytic effect on the government's decision to repeal the controversial laws."
+      },
+      {
+        "word": "ostensibly",
+        "meaning_en": "Apparently or purportedly, but perhaps not actually; seemingly",
+        "meaning_hi": "ऊपर से / देखने में",
+        "example": "The operation was ostensibly a routine inspection but was widely suspected to be politically motivated."
+      },
+      {
+        "word": "boycott",
+        "meaning_en": "Withdraw from commercial or social relations as a punishment or protest",
+        "meaning_hi": "बहिष्कार",
+        "example": "The trade union called for a boycott of goods produced by companies that violated labour laws."
+      },
+      {
+        "word": "vernacular",
+        "meaning_en": "The language or dialect spoken by the ordinary people in a particular region",
+        "meaning_hi": "देशी भाषा / स्थानीय भाषा",
+        "example": "Tagore championed vernacular education, arguing that children learn best in their mother tongue."
+      },
+      {
+        "word": "renaissance",
+        "meaning_en": "A revival of or renewed interest in something; a period of new growth or activity",
+        "meaning_hi": "पुनर्जागरण",
+        "example": "The Bengal renaissance of the 19th century produced remarkable figures in literature, science, and social reform."
+      },
+      {
+        "word": "annulled",
+        "meaning_en": "Declared invalid; officially cancelled or made void",
+        "meaning_hi": "रद्द किया गया / अमान्य घोषित",
+        "example": "The election result was annulled by the High Court after evidence of widespread booth capturing was produced."
+      },
+      {
+        "word": "agitation",
+        "meaning_en": "A campaign to arouse public concern about an issue; a state of anxiety",
+        "meaning_hi": "आंदोलन / उत्तेजना",
+        "example": "The agitation for separate statehood continued for over two decades before the state was finally bifurcated."
+      }
+    ]
+  },
+  {
+    "id": "article_019",
+    "title": "Climate Change and India's Response",
+    "topic": "Environment",
+    "read_time": 3,
+    "article": "India faces a paradox at the heart of the global climate debate: as a developing nation responsible for only a modest share of historical greenhouse gas emissions, it nonetheless suffers disproportionately from climate impacts — extreme heat events, erratic monsoons, glacial retreat, and rising sea levels that threaten its coastal population of hundreds of millions.\n\nIndia's vulnerability to climate change is compounded by its large agrarian population and its dependence on natural resource-based livelihoods. Studies suggest that unchecked warming could reduce India's agricultural productivity by up to 25 percent by mid-century, with wheat and rice yields particularly at risk. Heatwaves of increasing frequency and severity already pose a serious occupational hazard for outdoor workers.\n\nIndia's response has been framed through the Nationally Determined Contributions submitted to the United Nations Framework Convention on Climate Change. India has committed to sourcing fifty percent of its electricity from non-fossil fuel sources by 2030, reducing the emissions intensity of its GDP by forty-five percent over 2005 levels, and creating an additional carbon sink through afforestation and reforestation.\n\nThe transition to renewable energy is the centrepiece of India's mitigation strategy. India has made remarkable strides in solar power, achieving costs that are now among the lowest in the world. The International Solar Alliance, co-founded by India and France at the Paris Climate Conference in 2015, mobilises investment in solar energy across developing nations.\n\nAdaptation to unavoidable climate impacts is equally critical. The government's National Adaptation Fund supports state-level projects on climate-resilient agriculture, coastal protection, and water conservation. India has argued consistently in international forums that developed nations must honour their commitment to provide climate finance and technology transfer to developing countries — a matter of climate equity that remains deeply contentious in global negotiations.",
+    "highlighted_words": [
+      {
+        "word": "disproportionately",
+        "meaning_en": "To a degree that is too large or too small in relation to something else",
+        "meaning_hi": "असमान रूप से / अनुपात से अधिक",
+        "example": "Poor households are disproportionately affected by inflation because food and fuel form a larger share of their spending."
+      },
+      {
+        "word": "vulnerability",
+        "meaning_en": "The quality or state of being exposed to the possibility of harm or attack",
+        "meaning_hi": "भेद्यता / असुरक्षा",
+        "example": "Coastal communities face high vulnerability to cyclones and storm surges intensified by climate change."
+      },
+      {
+        "word": "mitigation",
+        "meaning_en": "The action of reducing the severity or seriousness of something",
+        "meaning_hi": "शमन / कम करना",
+        "example": "Carbon capture technology is being explored as a mitigation tool to reduce industrial emissions."
+      },
+      {
+        "word": "afforestation",
+        "meaning_en": "The establishment of a forest or stand of trees in an area where there was no previous tree cover",
+        "meaning_hi": "वनरोपण / नए वन लगाना",
+        "example": "The state government launched an afforestation drive planting fifty million trees along highway corridors."
+      },
+      {
+        "word": "centrepiece",
+        "meaning_en": "The most important or attractive part of something; the focus",
+        "meaning_hi": "केन्द्रबिन्दु / मुख्य आकर्षण",
+        "example": "Healthcare reform was the centrepiece of the party's election manifesto."
+      },
+      {
+        "word": "contentious",
+        "meaning_en": "Causing or likely to cause disagreement or controversy",
+        "meaning_hi": "विवादास्पद",
+        "example": "The question of who bears responsibility for historical emissions remains highly contentious in climate negotiations."
+      },
+      {
+        "word": "equity",
+        "meaning_en": "Fairness and justice in the distribution of wealth or opportunities",
+        "meaning_hi": "न्यायसंगतता / समता",
+        "example": "Climate equity demands that wealthier nations take on greater responsibility for emission reductions."
+      }
+    ]
+  },
+  {
+    "id": "article_020",
+    "title": "The Indo-Gangetic Plain — Heartland of India",
+    "topic": "Geography",
+    "read_time": 3,
+    "article": "The Indo-Gangetic Plain, also known as the Great Northern Plain, is one of the most extensively cultivated and densely populated regions on Earth. Stretching from the Indus basin in Pakistan through northern India into Bangladesh, this vast depositional plain has been formed over millions of years by the alluvial sediments carried down from the Himalayas by the Indus, Ganga, and Brahmaputra river systems.\n\nThe plain can be broadly divided into three sub-regions. The Upper Doab between the Ganga and Yamuna is characterised by fertile loam soils highly suitable for wheat cultivation. The Middle Ganga Plain, encompassing Uttar Pradesh and Bihar, is the most densely populated zone and forms the agricultural heartland of India. The Lower Ganga Plain transitions into the delta region of West Bengal and Bangladesh — one of the world's largest and most fertile deltas, known for its subterranean waterways and mangrove forests.\n\nThe plain owes its agricultural richness to the continuous replenishment of soil nutrients through periodic inundation and the deposition of fresh alluvium. The water table in much of the plain is relatively shallow, making tube well irrigation feasible and widespread. Successive Green Revolutions have transformed the region's agriculture, with Punjab and Haryana achieving yields comparable to developed nations.\n\nUrbanisation is rapidly reshaping the plain. Cities like Delhi, Lucknow, Patna, and Kolkata are experiencing explosive growth, placing enormous pressure on land, water, and infrastructure. The region also faces serious environmental challenges — air pollution from crop stubble burning, groundwater depletion from over-irrigation, and the contamination of rivers by industrial effluents and untreated sewage.\n\nHistorically, the Indo-Gangetic Plain has been the seat of India's greatest empires — the Mauryas, the Guptas, the Delhi Sultanate, and the Mughals all ruled from cities located on or near this plain. Its combination of navigable rivers, fertile soils, and strategic depth has made it the theatre of India's civilisational story for over five thousand years.",
+    "highlighted_words": [
+      {
+        "word": "depositional",
+        "meaning_en": "Relating to the process of depositing sediment or material",
+        "meaning_hi": "निक्षेपण संबंधी / जमाव से संबंधित",
+        "example": "The depositional activity of the Ganga has built up a vast delta over thousands of years."
+      },
+      {
+        "word": "loam",
+        "meaning_en": "A fertile soil composed of clay, sand, and organic matter",
+        "meaning_hi": "दोमट मिट्टी",
+        "example": "Wheat thrives in loam soil, which retains moisture while also providing good drainage."
+      },
+      {
+        "word": "replenishment",
+        "meaning_en": "The action of restoring a stock or supply to its former level",
+        "meaning_hi": "पुनर्भरण / फिर से भरना",
+        "example": "The annual replenishment of soil nutrients by monsoon floods is what makes the Nile delta so fertile."
+      },
+      {
+        "word": "subterranean",
+        "meaning_en": "Existing, occurring, or done under the earth's surface",
+        "meaning_hi": "भूमिगत / भूगर्भीय",
+        "example": "Excessive extraction of subterranean water has caused the water table to fall alarmingly in parts of Punjab."
+      },
+      {
+        "word": "effluents",
+        "meaning_en": "Liquid waste or sewage discharged into a river or the sea",
+        "meaning_hi": "प्रवाह / औद्योगिक अपशिष्ट",
+        "example": "Untreated industrial effluents discharged into the Yamuna have severely degraded water quality."
+      },
+      {
+        "word": "navigable",
+        "meaning_en": "Wide and deep enough to allow boats or ships to pass",
+        "meaning_hi": "नौगम्य / नाव चलाने योग्य",
+        "example": "The Brahmaputra remains navigable throughout the year, enabling cheap transport of goods across Assam."
+      },
+      {
+        "word": "civilisational",
+        "meaning_en": "Relating to a civilisation or its development over time",
+        "meaning_hi": "सभ्यतागत / सांस्कृतिक",
+        "example": "The discovery of Harappan seals at multiple sites reveals the civilisational extent of the Indus Valley culture."
+      }
+    ]
+  },
+  {
+    "id": "article_021",
+    "title": "Emergency Provisions in the Indian Constitution",
+    "topic": "Polity",
+    "read_time": 3,
+    "article": "The Indian Constitution contains elaborate provisions for the declaration of Emergency, enabling the central government to assume extraordinary powers during exceptional circumstances. Part XVIII of the Constitution (Articles 352 to 360) provides for three distinct types of emergency — national, state (President's Rule), and financial — each with different triggers, consequences, and constitutional safeguards.\n\nA National Emergency under Article 352 can be proclaimed by the President on the advice of the Cabinet when the security of India or any part thereof is threatened by war, external aggression, or armed rebellion. Once proclaimed, the Union Parliament acquires the power to legislate on subjects in the State List, and Fundamental Rights under Article 19 — including the rights to freedom of speech, assembly, and movement — stand suspended. The 44th Amendment of 1978, however, provided that Articles 20 and 21 — protecting life and personal liberty — cannot be suspended even during Emergency.\n\nThe Emergency of 1975, declared by Prime Minister Indira Gandhi on grounds of internal disturbance, remains the most controversial invocation of these powers in India's constitutional history. Civil liberties were suspended, political opponents were incarcerated without trial, press censorship was imposed, and elections were postponed. The period between 1975 and 1977 is widely regarded as a dark chapter that tested the resilience of Indian democracy.\n\nArticle 356 — Presidents Rule — allows the Centre to assume governance of a state when constitutional machinery has broken down. Its frequent and partisan misuse to dismiss opposition state governments prompted the Supreme Court, in the S.R. Bommai case of 1994, to rule that the proclamation was subject to judicial review — a landmark check on executive overreach.\n\nThe emergency provisions embody a tension inherent in all constitutional democracies: the need to confer extraordinary power to meet existential threats while preventing the abuse of that power to subvert the very democracy it is meant to protect.",
+    "highlighted_words": [
+      {
+        "word": "proclaimed",
+        "meaning_en": "Announced officially or publicly; declared",
+        "meaning_hi": "घोषित किया गया",
+        "example": "The National Emergency was proclaimed by the President after the Cabinet's written recommendation."
+      },
+      {
+        "word": "invocation",
+        "meaning_en": "The action of invoking something, especially a law or rule",
+        "meaning_hi": "आह्वान / प्रयोग / लागू करना",
+        "example": "The invocation of Article 356 to dismiss a state government was challenged before the Supreme Court."
+      },
+      {
+        "word": "censorship",
+        "meaning_en": "The practice of officially examining and suppressing unacceptable parts of communication",
+        "meaning_hi": "सेंसरशिप / प्रतिबंध",
+        "example": "Wartime censorship prevented newspapers from publishing information that could aid the enemy."
+      },
+      {
+        "word": "resilience",
+        "meaning_en": "The capacity to recover quickly from difficulties; toughness",
+        "meaning_hi": "लचीलापन / सहनशीलता",
+        "example": "The resilience of democratic institutions was tested but ultimately upheld during the Emergency period."
+      },
+      {
+        "word": "partisan",
+        "meaning_en": "Prejudiced in favour of a particular cause or group; one-sided",
+        "meaning_hi": "पक्षपातपूर्ण",
+        "example": "Opposition leaders accused the governor of acting in a partisan manner in inviting the majority party to form the government."
+      },
+      {
+        "word": "subvert",
+        "meaning_en": "Undermine the power and authority of an established system",
+        "meaning_hi": "नष्ट करना / कमजोर करना",
+        "example": "Attempts to subvert judicial independence are a warning sign in any democratic system."
+      },
+      {
+        "word": "inherent",
+        "meaning_en": "Existing as a natural or permanent quality of something",
+        "meaning_hi": "अंतर्निहित / स्वाभाविक",
+        "example": "There is an inherent tension between national security requirements and the protection of civil liberties."
+      }
+    ]
+  },
+  {
+    "id": "article_022",
+    "title": "India's Neighbourhood Policy — Neighbours First",
+    "topic": "International Relations",
+    "read_time": 3,
+    "article": "India's foreign policy towards its immediate neighbours is guided by the principle of 'Neighbourhood First' — a strategic doctrine that prioritises engagement with South Asian nations as the foundation of a broader geopolitical vision. Announced by Prime Minister Narendra Modi at his 2014 inauguration, where all SAARC heads of state were invited, the doctrine reflects the recognition that India's rise is inextricably linked to the stability and prosperity of its neighbourhood.\n\nIndia shares borders with eight countries: Pakistan, China, Bangladesh, Nepal, Bhutan, Myanmar, Sri Lanka, and Afghanistan. The diversity of these bilateral relationships ranges from close cultural and developmental partnerships with Bhutan and Nepal to deeply fraught and adversarial ties with Pakistan. Managing this complex neighbourhood requires deft diplomacy, economic leverage, and strategic patience.\n\nConnectivity is central to the Neighbourhood First agenda. India has invested heavily in infrastructure linking it to Nepal, Bhutan, and Bangladesh — including roads, railways, electricity grids, and petroleum pipelines. These tangible links serve the dual purpose of deepening economic integration and projecting India as a benign and capable development partner, countering China's growing influence through the Belt and Road Initiative.\n\nThe Indian Ocean region has emerged as a critical theatre of geopolitical competition. China's growing naval presence in the Indian Ocean, its development of ports in Sri Lanka, Pakistan, and Myanmar through the String of Pearls strategy, has sharpened India's focus on maritime security. India has responded with the SAGAR doctrine — Security and Growth for All in the Region — emphasising multilateral cooperation in maritime surveillance, disaster response, and anti-piracy operations.\n\nIndia's credibility as a neighbourhood leader has been challenged at various points — the economic blockade of Nepal in 2015, the delayed response to the Sri Lankan constitutional crisis in 2018, and the persistent tension with the Maldives during certain administrations. Yet India's sheer size, democratic credentials, and development capacity give it enduring advantages in the regional geopolitical contest.",
+    "highlighted_words": [
+      {
+        "word": "geopolitical",
+        "meaning_en": "Relating to politics, especially international relations, as influenced by geography",
+        "meaning_hi": "भूराजनीतिक",
+        "example": "The geopolitical rivalry between India and China is increasingly playing out in the Indo-Pacific region."
+      },
+      {
+        "word": "bilateral",
+        "meaning_en": "Involving two parties, especially countries",
+        "meaning_hi": "द्विपक्षीय",
+        "example": "Bilateral trade between India and Bangladesh has grown significantly following improved connectivity."
+      },
+      {
+        "word": "adversarial",
+        "meaning_en": "Involving or characterised by conflict or opposition",
+        "meaning_hi": "विरोधात्मक / प्रतिकूल",
+        "example": "The adversarial relationship between the two nuclear-armed neighbours poses a threat to regional stability."
+      },
+      {
+        "word": "benign",
+        "meaning_en": "Gentle and kindly; not harmful; favourable",
+        "meaning_hi": "सौम्य / हानिरहित",
+        "example": "India aims to project itself as a benign hegemon that supports rather than dominates its smaller neighbours."
+      },
+      {
+        "word": "multilateral",
+        "meaning_en": "Agreed upon or participated in by three or more parties",
+        "meaning_hi": "बहुपक्षीय",
+        "example": "Multilateral forums like SAARC and BIMSTEC provide platforms for regional cooperation on shared challenges."
+      },
+      {
+        "word": "maritime",
+        "meaning_en": "Relating to the sea, shipping, or navigation",
+        "meaning_hi": "समुद्री / नौवहन संबंधी",
+        "example": "India's maritime security strategy focuses on safeguarding its exclusive economic zone and vital sea lanes."
+      },
+      {
+        "word": "credibility",
+        "meaning_en": "The quality of being trusted and believed in",
+        "meaning_hi": "विश्वसनीयता",
+        "example": "India's credibility as a development partner depends on its ability to deliver projects on time and on budget."
+      }
+    ]
+  },
+  {
+    "id": "article_023",
+    "title": "Soil Types in India and Their Importance",
+    "topic": "Geography",
+    "read_time": 3,
+    "article": "Soil is the foundation of agriculture and, by extension, of food security. India's diverse climate, topography, and parent rock have given rise to a remarkable variety of soil types, each with distinct characteristics and suitability for different crops. The Indian Council of Agricultural Research classifies Indian soils into eight major categories, of which alluvial, black, red, and laterite soils are the most significant.\n\nAlluvial soils, the most widespread, cover the entire Indo-Gangetic Plain and parts of the coastal plains. They are formed by the deposition of material carried by rivers and are highly fertile because of their rich mineral content and good moisture retention. Alluvial soils support the cultivation of wheat, rice, sugarcane, and pulses, making them the backbone of Indian food production.\n\nBlack soils, also known as regur, are found predominantly in the Deccan Plateau — particularly in Maharashtra, Gujarat, and parts of Madhya Pradesh. They are derived from basaltic rock and have a high clay content, which gives them the unique property of retaining moisture for extended periods. This makes them ideal for rain-fed cotton cultivation. Black soils develop deep cracks during the dry season, which helps in natural aeration.\n\nRed soils, found in parts of Tamil Nadu, Karnataka, and Odisha, are characterised by a reddish tint from iron oxide compounds. They are generally less fertile than alluvial or black soils but can sustain cultivation of millets, groundnuts, and tobacco with adequate fertilisation and irrigation.\n\nLaterite soils, formed through intensive leaching under conditions of high temperature and rainfall, are found in the Western Ghats, Odisha, and parts of the northeast. They are highly acidic and deficient in humus and fertility, making them unsuitable for most crops without substantial amendment. However, they support the growth of tea and coffee in hilly regions.",
+    "highlighted_words": [
+      {
+        "word": "topography",
+        "meaning_en": "The arrangement of the natural and artificial physical features of an area",
+        "meaning_hi": "भूआकृति / स्थलाकृति",
+        "example": "The complex topography of the Western Ghats creates distinct microclimates on its windward and leeward slopes."
+      },
+      {
+        "word": "basaltic",
+        "meaning_en": "Relating to or consisting of basalt, a dark fine-grained volcanic rock",
+        "meaning_hi": "बेसाल्टिक / ज्वालामुखीय चट्टान से बना",
+        "example": "The Deccan Traps were formed by massive basaltic lava flows that occurred around 66 million years ago."
+      },
+      {
+        "word": "aeration",
+        "meaning_en": "The process of exposing something to air, especially to improve quality",
+        "meaning_hi": "वायु संचरण / हवादार बनाना",
+        "example": "Regular tilling of soil improves aeration and allows roots to penetrate deeper."
+      },
+      {
+        "word": "leaching",
+        "meaning_en": "The draining away of soluble substances from soil by water moving through it",
+        "meaning_hi": "निक्षालन / पोषक तत्वों का धुलना",
+        "example": "Heavy rainfall causes leaching of nutrients from laterite soils, making them increasingly infertile over time."
+      },
+      {
+        "word": "humus",
+        "meaning_en": "The organic component of soil, formed by decomposition of leaves and plant material",
+        "meaning_hi": "ह्यूमस / कार्बनिक खाद",
+        "example": "Forest soils are rich in humus because of the constant accumulation of decaying plant matter."
+      },
+      {
+        "word": "acidic",
+        "meaning_en": "Having a low pH; containing acid",
+        "meaning_hi": "अम्लीय",
+        "example": "Tea bushes prefer acidic soil conditions with good drainage, which is why Darjeeling hills are ideal for tea cultivation."
+      },
+      {
+        "word": "amendment",
+        "meaning_en": "A change or addition made to improve something; in agriculture, material added to improve soil",
+        "meaning_hi": "संशोधन / सुधार",
+        "example": "The addition of lime is a common soil amendment to neutralise acidity in laterite soils."
+      }
+    ]
+  },
+  {
+    "id": "article_024",
+    "title": "The Five-Year Plans of India",
+    "topic": "Economy",
+    "read_time": 3,
+    "article": "India's Five-Year Plans, formulated and overseen by the Planning Commission from 1951 to 2014, represented one of the most ambitious experiments in state-directed economic development in the post-colonial world. Drawing on the Soviet model of centralised planning while adapting it to a democratic and mixed economy, India used these plans to set national priorities, allocate resources across sectors, and monitor developmental progress.\n\nThe First Plan (1951-56), shaped by Prime Minister Jawaharlal Nehru and economist P.C. Mahalanobis, prioritised agriculture and flood control to address the food shortages left by partition. The Second Plan shifted emphasis dramatically towards heavy industry and capital goods manufacturing — steel, coal, and machine tools — on the reasoning that a strong industrial base was indispensable for long-term development. This Nehru-Mahalanobis model set the template for India's industrial policy for the next three decades.\n\nSubsequent plans grappled with persistent challenges: foreign exchange crises, droughts, wars with Pakistan and China, and the recurring tension between growth and equity. The Sixth Plan (1980-85) introduced the concept of alleviation of poverty as an explicit and central objective, while the Eighth Plan (1992-97), formulated after the liberalisation of 1991, sought to reconcile planning with market forces.\n\nThe Planning Commission was replaced in 2014 by NITI Aayog — the National Institution for Transforming India — which abandoned the top-down planning model in favour of a decentralised, consultative approach that accommodates the fiscal autonomy of states. NITI Aayog functions as a think tank and policy advisory body rather than an allocating authority.\n\nThe Five-Year Plans bequeathed India significant infrastructure — steel plants, dams, scientific institutions, and a vast public sector — alongside the critique that their bureaucratic approach stifled entrepreneurship and created inefficiencies that took decades to dismantle.",
+    "highlighted_words": [
+      {
+        "word": "centralised",
+        "meaning_en": "Concentrated under a single authority; controlled from one centre",
+        "meaning_hi": "केंद्रीकृत",
+        "example": "Critics argued that the centralised planning model left little room for regional priorities and local innovation."
+      },
+      {
+        "word": "indispensable",
+        "meaning_en": "Absolutely necessary; essential",
+        "meaning_hi": "अपरिहार्य / आवश्यक",
+        "example": "A reliable electricity supply is indispensable for the success of any industrialisation programme."
+      },
+      {
+        "word": "alleviation",
+        "meaning_en": "The action of making suffering or a problem less severe; reduction",
+        "meaning_hi": "निवारण / कम करना",
+        "example": "The scheme focuses on the alleviation of rural poverty through guaranteed employment and skill development."
+      },
+      {
+        "word": "reconcile",
+        "meaning_en": "Make compatible; find a way to make two opposing things consistent",
+        "meaning_hi": "मेल-मिलाप / सामंजस्य बिठाना",
+        "example": "It is difficult to reconcile high growth ambitions with the requirement to contain fiscal deficit."
+      },
+      {
+        "word": "consultative",
+        "meaning_en": "Relating to or involving consultation; seeking advice or feedback",
+        "meaning_hi": "परामर्शदायी",
+        "example": "The consultative process involved state governments, industry bodies, and civil society before finalising the policy."
+      },
+      {
+        "word": "bequeathed",
+        "meaning_en": "Left or handed down to someone after one's death or the end of something",
+        "meaning_hi": "विरासत में दिया / छोड़ा",
+        "example": "The colonial administration bequeathed India a railway network that remains its logistical backbone."
+      },
+      {
+        "word": "entrepreneurship",
+        "meaning_en": "The activity of setting up and running a business or businesses, taking financial risks",
+        "meaning_hi": "उद्यमिता",
+        "example": "Startup India was launched to foster entrepreneurship and reduce regulatory barriers for new businesses."
+      }
+    ]
+  },
+  {
+    "id": "article_025",
+    "title": "The Jallianwala Bagh Massacre — A Turning Point",
+    "topic": "History",
+    "read_time": 3,
+    "article": "On 13 April 1919, the city of Amritsar witnessed one of the most horrific acts of state violence in the annals of British colonialism. Brigadier-General Reginald Dyer ordered his troops to open fire on a peaceful assembly of unarmed civilians gathered at Jallianwala Bagh — a walled garden with few exits — without warning and without giving the crowd any opportunity to disperse.\n\nThe gathering had assembled in defiance of prohibitory orders imposed under the repressive Rowlatt Act of 1919 — legislation that allowed the British to arrest and detain Indians without trial on suspicion of sedition. The Rowlatt Act had already provoked widespread indignation across India, and protests had been building for days. On the day of the massacre, people had also gathered to celebrate the Sikh festival of Baisakhi.\n\nThe carnage was devastating. Official British estimates placed the death toll at 379, while Indian National Congress investigations suggested the figure exceeded one thousand. Hundreds more were wounded. The walled enclosure left no avenue for escape, and some civilians jumped into a well within the Bagh to avoid the bullets — the well became a grim memorial to the atrocity.\n\nThe Hunter Commission, constituted by the British to investigate the massacre, censured Dyer for his actions and he was relieved of his command. However, the British Parliament was deeply divided, with the House of Lords passing a resolution in Dyer's favour. The incident was condemned as unconscionable by Indian leaders across the political spectrum, galvanising the nationalist movement in ways that the British had not anticipated.\n\nFor Gandhi, the Jallianwala Bagh massacre was the definitive moment of disillusionment with British justice. He returned the Kaiser-i-Hind medal he had been awarded and resolved to dedicate his life to the cause of Indian independence through the weapon of non-violent non-cooperation.",
+    "highlighted_words": [
+      {
+        "word": "sedition",
+        "meaning_en": "Conduct or speech inciting rebellion against the authority of the state",
+        "meaning_hi": "राजद्रोह",
+        "example": "Several journalists were charged with sedition for publishing articles critical of the government's military policies."
+      },
+      {
+        "word": "indignation",
+        "meaning_en": "Anger or annoyance provoked by what is perceived as unfair treatment",
+        "meaning_hi": "आक्रोश / क्रोध",
+        "example": "Public indignation over the acquittal of the accused led to widespread protests outside the courthouse."
+      },
+      {
+        "word": "carnage",
+        "meaning_en": "The killing of a large number of people; great slaughter",
+        "meaning_hi": "नरसंहार / भीषण हत्याकांड",
+        "example": "The carnage of the First World War left an entire generation of European men dead or permanently disabled."
+      },
+      {
+        "word": "atrocity",
+        "meaning_en": "An extremely wicked or cruel act, especially one involving physical violence or injury",
+        "meaning_hi": "अत्याचार / निर्दयतापूर्ण कार्य",
+        "example": "International human rights organisations documented atrocities committed against civilians in the conflict zone."
+      },
+      {
+        "word": "censured",
+        "meaning_en": "Expressed severe disapproval of someone officially",
+        "meaning_hi": "निंदा की गई",
+        "example": "The minister was censured by the parliamentary committee for misleading the House."
+      },
+      {
+        "word": "unconscionable",
+        "meaning_en": "Not right or reasonable; going beyond what is acceptable",
+        "meaning_hi": "अनुचित / अंतरात्मा के विरुद्ध",
+        "example": "The court described the delay of over a decade in deciding the petitioner's case as unconscionable."
+      },
+      {
+        "word": "galvanising",
+        "meaning_en": "Shocking or exciting someone into taking action; stimulating",
+        "meaning_hi": "प्रेरित करना / उत्साहित करना",
+        "example": "The documentary had a galvanising effect on young voters who had previously shown little interest in politics."
+      }
+    ]
+  },
+  {
+    "id": "article_026",
+    "title": "The Constituent Assembly and Framing of the Constitution",
+    "topic": "Polity",
+    "read_time": 3,
+    "article": "The Constituent Assembly of India, which convened between December 1946 and November 1949, was one of the most remarkable deliberative bodies in constitutional history. Comprising 299 members who represented the diversity of a vast and newly partitioned nation, the Assembly produced a constitutional document of extraordinary scope — a constitution that governs the world's largest democracy to this day.\n\nThe Assembly was constituted through elections from the provincial legislative assemblies under the Cabinet Mission Plan of 1946. Initially intended to frame constitutions for both India and Pakistan, partition made it the exclusive constituent body for India. Dr B.R. Ambedkar was elected Chairman of the Drafting Committee — a body of seven that undertook the actual task of preparing the draft constitution based on extensive deliberations and comparative study of constitutions worldwide.\n\nThe Assembly held eleven sessions spanning 165 days of actual debate. Members examined clause by clause a document that drew from the Government of India Act 1935, the Irish Constitution, the American Bill of Rights, and the British parliamentary tradition, among others. The founders sought to synthesise the best elements of diverse constitutional traditions into a framework tailored to India's unique social fabric.\n\nThe debates were often profound and occasionally acrimonious — on issues such as the official language, the protection of minority rights, the abolition of untouchability, and the nature of centre-state relations. These deliberations are preserved in the twelve volumes of the Constituent Assembly Debates, which remain an invaluable repository of constitutional intent.\n\nThe Constitution was adopted on 26 November 1949 — now celebrated as Constitution Day — and came into force on 26 January 1950, chosen to commemorate Purna Swaraj Day of 1930, when the Congress had pledged complete independence. The preamble's declaration of India as a sovereign democratic republic encapsulated the aspirations of a nation emerging from centuries of colonial subjugation.",
+    "highlighted_words": [
+      {
+        "word": "deliberative",
+        "meaning_en": "Relating to or intended for deliberation or debate",
+        "meaning_hi": "विचार-विमर्शात्मक",
+        "example": "A deliberative democracy values reasoned debate and informed public participation over mere majority rule."
+      },
+      {
+        "word": "constituent",
+        "meaning_en": "Being a part of a whole; a member of a group that elects a representative",
+        "meaning_hi": "घटक / निर्वाचक",
+        "example": "The constituent units of a federation retain powers not explicitly delegated to the central government."
+      },
+      {
+        "word": "acrimonious",
+        "meaning_en": "Angry and bitter in manner or speech",
+        "meaning_hi": "कटु / तीखा",
+        "example": "The divorce proceedings became increasingly acrimonious as both parties disputed custody of the children."
+      },
+      {
+        "word": "repository",
+        "meaning_en": "A place where things are stored; a rich source of something",
+        "meaning_hi": "भंडार / संग्रह स्थान",
+        "example": "The National Archives is a repository of historical documents dating back to the Mughal period."
+      },
+      {
+        "word": "encapsulated",
+        "meaning_en": "Expressed in a brief and clear form; summarised",
+        "meaning_hi": "संक्षेप में प्रस्तुत किया",
+        "example": "The minister's speech encapsulated the government's vision for economic reform in just three broad themes."
+      },
+      {
+        "word": "subjugation",
+        "meaning_en": "The action of bringing someone under domination or control",
+        "meaning_hi": "अधीनता / दमन",
+        "example": "The subjugation of indigenous peoples under colonial rule left deep scars that persist to this day."
+      },
+      {
+        "word": "synthesise",
+        "meaning_en": "Combine different elements to form a coherent whole",
+        "meaning_hi": "संश्लेषण करना / मिलाकर तैयार करना",
+        "example": "A good economist can synthesise data from multiple sources to arrive at a coherent policy recommendation."
+      }
+    ]
+  },
+  {
+    "id": "article_027",
+    "title": "Nuclear Energy — India's Strategic and Civilian Programme",
+    "topic": "Science",
+    "read_time": 3,
+    "article": "India's nuclear programme is one of the few in the world to have developed entirely on the basis of indigenous capability, driven by necessity — for India was largely excluded from the global nuclear supply chain after its Peaceful Nuclear Explosion of 1974. Today, it encompasses both a civilian power generation programme and a strategic deterrent that has fundamentally altered the security calculus of South Asia.\n\nIndia's civilian nuclear programme is built around a unique three-stage strategy conceived by Dr Homi J. Bhabha. The first stage uses natural uranium fuel in Pressurised Heavy Water Reactors to produce plutonium. The second stage uses the plutonium in Fast Breeder Reactors to generate more fissile material than is consumed, while also producing electricity. The third stage will use thorium — in which India holds the world's largest reserves — as fuel, offering the prospect of near-unlimited energy independence.\n\nThe Indo-US Civil Nuclear Agreement of 2008 was a watershed in India's nuclear history. It granted India access to civilian nuclear technology and fuel from the global market without requiring it to sign the Non-Proliferation Treaty. Critics argued the agreement rewarded India for remaining outside the NPT regime, while supporters maintained it brought India into the mainstream of responsible nuclear conduct.\n\nIndia's strategic nuclear posture is guided by a credible minimum deterrence doctrine and a commitment to No First Use — meaning India will not be the first to deploy nuclear weapons in a conflict. The doctrine also envisages massive retaliation in response to a nuclear attack. Whether this posture remains tenable in the context of evolving threats from both Pakistan and China is a subject of ongoing strategic debate.\n\nDomestically, the expansion of nuclear power is central to India's clean energy ambitions. The government has approved the construction of ten indigenous reactors and is in advanced negotiations for imported reactors from France, Russia, and the United States. Nuclear energy currently contributes only about three percent to India's electricity mix, but the government aims to raise this substantially by 2047.",
+    "highlighted_words": [
+      {
+        "word": "indigenous",
+        "meaning_en": "Originating or produced within a country; not imported",
+        "meaning_hi": "स्वदेशी / देशज",
+        "example": "India's three-stage nuclear programme was developed entirely on the basis of indigenous scientific capability."
+      },
+      {
+        "word": "fissile",
+        "meaning_en": "Capable of undergoing nuclear fission; able to sustain a chain reaction",
+        "meaning_hi": "विखंडनीय / परमाणु विभाजन योग्य",
+        "example": "Uranium-235 and plutonium-239 are the primary fissile materials used in nuclear reactors and weapons."
+      },
+      {
+        "word": "deterrent",
+        "meaning_en": "A thing that discourages or prevents action; especially a nuclear weapon that prevents war",
+        "meaning_hi": "निवारक / प्रतिरोधक",
+        "example": "A credible nuclear deterrent requires both survivable second-strike capability and clear communication of intent."
+      },
+      {
+        "word": "proliferation",
+        "meaning_en": "The rapid spread of nuclear weapons among nations; growth in number",
+        "meaning_hi": "प्रसार / फैलाव",
+        "example": "The Non-Proliferation Treaty aims to prevent the spread of nuclear weapons while allowing civilian nuclear energy."
+      },
+      {
+        "word": "watershed",
+        "meaning_en": "An event or period marking a major change; a turning point",
+        "meaning_hi": "निर्णायक मोड़ / महत्वपूर्ण परिवर्तन",
+        "example": "The 1991 economic reforms were a watershed moment that transformed India from a closed to an open economy."
+      },
+      {
+        "word": "tenable",
+        "meaning_en": "Able to be maintained or defended against attack or objection; defensible",
+        "meaning_hi": "टिकाऊ / तर्कसंगत",
+        "example": "Analysts questioned whether India's No First Use pledge remained tenable given Pakistan's tactical nuclear posture."
+      },
+      {
+        "word": "calculus",
+        "meaning_en": "A system of calculation; a set of factors considered in making a decision",
+        "meaning_hi": "गणना / विश्लेषण पद्धति",
+        "example": "India's nuclear tests of 1998 fundamentally altered the strategic calculus of the entire South Asian region."
+      }
+    ]
+  },
+  {
+    "id": "article_028",
+    "title": "The Deccan Plateau — Geological and Geographic Character",
+    "topic": "Geography",
+    "read_time": 3,
+    "article": "The Deccan Plateau, one of the world's oldest and most geologically stable landmasses, covers most of the Indian peninsula south of the Narmada and Tapti rivers. With an average elevation of 600 metres above sea level and an area of roughly 1.9 million square kilometres, it forms the physical backbone of peninsular India, flanked by the Eastern and Western Ghats and sloping gently eastward towards the Bay of Bengal.\n\nThe plateau owes its characteristic undulating terrain to millions of years of weathering and erosion of its basaltic volcanic rock. The Deccan Traps — a vast province of layered basalt formed by massive volcanic eruptions approximately 66 million years ago — cover much of the western and central Deccan. These eruptions, among the largest in geological history, may have contributed to the mass extinction event that wiped out the dinosaurs, though debate on this point continues.\n\nThe Deccan is dissected by numerous rivers that flow from west to east — the Godavari, Krishna, Kaveri, and Mahanadi — draining into the Bay of Bengal. These rivers have formed fertile deltaic plains at their mouths, supporting dense agricultural populations. The terrain of the plateau itself is semi-arid in much of its interior, particularly in the rain shadow regions of Maharashtra, Karnataka, and Andhra Pradesh, where agriculture depends heavily on tanks, wells, and irrigation projects.\n\nThe plateau's geology also makes it rich in mineral resources. It harbours significant deposits of iron ore, coal, manganese, and bauxite, making it India's industrial heartland. Cities like Hyderabad, Bengaluru, and Pune — all located on the Deccan Plateau — have transformed into major centres of technology, defence manufacturing, and pharmaceutical research, reflecting the region's transition from an agrarian to a knowledge economy.\n\nThe Deccan's impervious rock strata and limited surface water have historically made drought a recurring challenge, particularly in regions far from major river systems. Comprehensive watershed management and inter-linking of rivers remain contested policy options for addressing this perennial water deficit.",
+    "highlighted_words": [
+      {
+        "word": "undulating",
+        "meaning_en": "Having a smoothly rising and falling form; gently hilly",
+        "meaning_hi": "लहरदार / ऊपर-नीचे वाला",
+        "example": "The undulating terrain of the Deccan Plateau makes large-scale mechanised farming challenging in many areas."
+      },
+      {
+        "word": "basaltic",
+        "meaning_en": "Consisting of or relating to basalt, a dark volcanic rock",
+        "meaning_hi": "बेसाल्ट से बना",
+        "example": "The black cotton soils of the Deccan are derived from the weathering of basaltic rock."
+      },
+      {
+        "word": "dissected",
+        "meaning_en": "Cut into or divided by natural features such as rivers or valleys",
+        "meaning_hi": "कटा-विभाजित",
+        "example": "The plateau is heavily dissected by river valleys that have created isolated mesas and ridges."
+      },
+      {
+        "word": "deltaic",
+        "meaning_en": "Relating to or characteristic of a river delta",
+        "meaning_hi": "डेल्टाई / डेल्टा संबंधी",
+        "example": "The deltaic plains of the Godavari support some of the most productive rice cultivation in India."
+      },
+      {
+        "word": "impervious",
+        "meaning_en": "Not allowing fluid to pass through; unaffected by something",
+        "meaning_hi": "अभेद्य / प्रभावित न होने वाला",
+        "example": "The impervious rock layer prevents rainwater from percolating into the ground, causing rapid surface runoff."
+      },
+      {
+        "word": "pharmaceutical",
+        "meaning_en": "Relating to the manufacture and sale of medicines",
+        "meaning_hi": "औषधीय / दवा उद्योग संबंधी",
+        "example": "India is the world's largest supplier of generic pharmaceutical products, serving markets in over 200 countries."
+      },
+      {
+        "word": "perennial",
+        "meaning_en": "Lasting for a long time; occurring repeatedly",
+        "meaning_hi": "चिरस्थायी / बारहमासी",
+        "example": "Water scarcity remains a perennial problem in the semi-arid interiors of the Deccan Plateau."
+      }
+    ]
+  },
+  {
+    "id": "article_029",
+    "title": "BRICS — Rising Economies Reshaping Global Order",
+    "topic": "International Relations",
+    "read_time": 3,
+    "article": "BRICS — an acronym for Brazil, Russia, India, China, and South Africa — is one of the most influential groupings of emerging economies in the contemporary world order. The term was originally coined by Goldman Sachs economist Jim O'Neill in 2001 to describe the economies he predicted would dominate global growth in the twenty-first century. What began as an economic concept evolved into a formal geopolitical forum when the first BRICS summit was held in Yekaterinburg, Russia, in 2009.\n\nThe five founding members represent a formidable aggregate of economic and human power. Together they account for roughly forty-two percent of the world's population, about twenty-three percent of global GDP, and a significant share of the world's natural resources. This collective weight has given BRICS the platform to advocate for a reformed international order — one that better reflects the economic realities of the twenty-first century and reduces the dominance of Western-led institutions.\n\nThe New Development Bank, established by BRICS in 2015, represents the grouping's most tangible institutional achievement. Headquartered in Shanghai with a focus on infrastructure and sustainable development lending, the bank offers an alternative to the World Bank and the International Monetary Fund — institutions whose voting structures have long been criticised as disproportionately favouring Western shareholders.\n\nBRICS expanded significantly in 2024, with Egypt, Ethiopia, Iran, Saudi Arabia, and the United Arab Emirates joining as new members, reflecting a growing convergence among the Global South on the need for multipolarity in international governance. The enlarged grouping now encompasses an even larger share of global energy production and trade.\n\nFor India, BRICS presents both opportunities and complications. Deeper engagement with the grouping advances India's interests in reforming global institutions and fostering South-South cooperation. However, the strategic rivalry with China, which dominates the group economically and often sets its agenda, requires India to navigate BRICS with careful diplomacy to ensure its own interests and voice are not subsumed.",
+    "highlighted_words": [
+      {
+        "word": "acronym",
+        "meaning_en": "An abbreviation formed from the initial letters of words",
+        "meaning_hi": "संक्षिप्त नाम / आद्याक्षर शब्द",
+        "example": "NATO is an acronym for the North Atlantic Treaty Organisation."
+      },
+      {
+        "word": "aggregate",
+        "meaning_en": "A whole formed by combining several elements; a total",
+        "meaning_hi": "कुल / समग्र",
+        "example": "The aggregate GDP of the BRICS nations exceeds that of the G7 when measured in purchasing power parity."
+      },
+      {
+        "word": "multipolarity",
+        "meaning_en": "A world order in which power is distributed among multiple countries rather than one or two",
+        "meaning_hi": "बहुध्रुवीयता",
+        "example": "India's foreign policy actively supports multipolarity to prevent any single nation from dominating global affairs."
+      },
+      {
+        "word": "convergence",
+        "meaning_en": "The process of coming together or becoming similar; agreement among different parties",
+        "meaning_hi": "अभिसरण / समानता का बिन्दु",
+        "example": "There is growing convergence among developing nations on the need to reform the United Nations Security Council."
+      },
+      {
+        "word": "disproportionately",
+        "meaning_en": "Too large or too small in relation to something; not in correct proportion",
+        "meaning_hi": "असमान रूप से",
+        "example": "Developed countries disproportionately control the voting rights in the International Monetary Fund."
+      },
+      {
+        "word": "subsumed",
+        "meaning_en": "Included or absorbed within something larger or more comprehensive",
+        "meaning_hi": "समाहित / शामिल किया गया",
+        "example": "India is wary of its strategic interests being subsumed under China's broader agenda within BRICS."
+      },
+      {
+        "word": "diplomacy",
+        "meaning_en": "The profession of managing international relations; skill in handling affairs without offending",
+        "meaning_hi": "कूटनीति / राजनय",
+        "example": "India's vaccine diplomacy during the pandemic enhanced its standing among developing nations."
+      }
+    ]
+  },
+  {
+    "id": "article_030",
+    "title": "Fundamental Duties — The Citizen's Obligation",
+    "topic": "Polity",
+    "read_time": 3,
+    "article": "The Fundamental Duties of Indian citizens, inserted into the Constitution by the 42nd Amendment Act of 1976, represent an important counterpart to the Fundamental Rights enshrined in Part III. Originally absent from the Constitution — reflecting the framers' emphasis on rights over obligations in a newly independent democracy — the duties were added at the recommendation of the Swaran Singh Committee, drawing inspiration from the Soviet Constitution.\n\nPart IVA of the Constitution (Article 51A) enumerates eleven Fundamental Duties. These include the duty to abide by the Constitution and respect its ideals, to uphold national sovereignty and integrity, to promote harmony and the spirit of brotherhood, to safeguard public property, to protect the environment and natural ecosystems, and to develop scientific temper and the spirit of inquiry.\n\nThe duties are non-justiciable — like the Directive Principles, they cannot be enforced by a court of law. However, they are not merely symbolic. Courts have used them to interpret legislation and uphold laws that promote or enforce the objectives listed in Article 51A. The Supreme Court has held that the duties are an aid to interpretation — when a law seeks to enforce a fundamental duty, it may be presumed reasonable and constitutionally valid.\n\nThe eleventh duty — to provide opportunities for education to children between 6 and 14 years — was added by the 86th Constitutional Amendment in 2002, complementing the insertion of Article 21A, which made education a fundamental right for this age group. This convergence of duty and right is a microcosm of the interdependence that exists between the different parts of the constitutional framework.\n\nCritics point to the inherent paradox in making obligations non-enforceable, arguing that duties without sanctions are exhortative at best and ineffective at worst. Proponents counter that duties cultivate civic virtue and moral responsibility — qualities that, in the long run, are more sustaining of democratic culture than mere legal compulsion.",
+    "highlighted_words": [
+      {
+        "word": "counterpart",
+        "meaning_en": "A person or thing that corresponds to or has the same function as another",
+        "meaning_hi": "समकक्ष / प्रतिरूप",
+        "example": "The Finance Minister met his counterpart from Japan to discuss bilateral investment opportunities."
+      },
+      {
+        "word": "enumerates",
+        "meaning_en": "Mentions a number of things one by one; lists",
+        "meaning_hi": "गिनाता है / सूचीबद्ध करता है",
+        "example": "Article 51A enumerates the fundamental duties that every citizen of India is expected to observe."
+      },
+      {
+        "word": "temper",
+        "meaning_en": "A person's characteristic tendencies; in scientific temper, a rational and evidence-based approach",
+        "meaning_hi": "स्वभाव / वैज्ञानिक सोच",
+        "example": "Promoting scientific temper means encouraging citizens to question superstitions and embrace rational thinking."
+      },
+      {
+        "word": "complementing",
+        "meaning_en": "Adding something that enhances or improves; making complete",
+        "meaning_hi": "पूरक / सहायक",
+        "example": "The skill development scheme complementing the employment guarantee programme helped workers find productive jobs."
+      },
+      {
+        "word": "microcosm",
+        "meaning_en": "A community or situation regarded as encapsulating the characteristics of something larger",
+        "meaning_hi": "लघु प्रतिरूप / सूक्ष्म जगत",
+        "example": "The village panchayat is a microcosm of democratic governance, reflecting all its strengths and weaknesses."
+      },
+      {
+        "word": "exhortative",
+        "meaning_en": "Intended to strongly encourage or urge someone to do something",
+        "meaning_hi": "प्रोत्साहनपूर्ण / उपदेशात्मक",
+        "example": "Many provisions in the Directive Principles are exhortative, expressing ideals rather than binding legal obligations."
+      },
+      {
+        "word": "compulsion",
+        "meaning_en": "The action of forcing or obliging someone to do something",
+        "meaning_hi": "बाध्यता / विवशता",
+        "example": "Education up to the age of fourteen is a matter of legal compulsion under the Right to Education Act."
+      }
+    ]
   }
 ]
