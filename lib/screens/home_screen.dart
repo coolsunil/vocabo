@@ -651,11 +651,11 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                         _ModernCategoryTile(
                           title: 'Active / Passive Voice',
                           icon: Icons.swap_horiz_rounded,
-                          iconColor: const Color(0xFF0891B2),
+                          iconColor: const Color(0xFF059669),
                           backgroundColor: const Color(0xFFECFEFF),
                           borderColor: const Color(0xFF67E8F9),
                           gradient: const LinearGradient(
-                            colors: [Color(0xFF164E63), Color(0xFF0891B2)],
+                            colors: [Color(0xFF064E3B), Color(0xFF059669)],
                             begin: Alignment.topLeft,
                             end: Alignment.bottomRight,
                           ),
@@ -1602,20 +1602,20 @@ class _TodayReadingCard extends StatelessWidget {
     return InteractivePressable(
       borderRadius: BorderRadius.circular(20),
       onTap: onTap,
-      overlayColor: const Color(0xFF0891B2),
+      overlayColor: const Color(0xFF059669),
       child: Container(
         padding: const EdgeInsets.all(20),
         clipBehavior: Clip.hardEdge,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
           gradient: const LinearGradient(
-            colors: [Color(0xFF164E63), Color(0xFF0891B2)],
+            colors: [Color(0xFF064E3B), Color(0xFF059669)],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
           boxShadow: [
             BoxShadow(
-              color: const Color(0xFF0891B2).withValues(alpha: 0.35),
+              color: const Color(0xFF059669).withValues(alpha: 0.35),
               blurRadius: 16,
               offset: const Offset(0, 8),
             ),
