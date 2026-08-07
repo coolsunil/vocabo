@@ -22,11 +22,12 @@ Future<void> loadTodayArticle() async {
 
     // Same shuffle strategy as word-of-day: stable per year, scrambled order.
     final now = DateTime.now();
-    final rng = Random(now.year * 999983 + 13);
-    final indices = List.generate(list.length, (i) => i)..shuffle(rng);
     final dayOfYear = DateTime(now.year, now.month, now.day)
         .difference(DateTime(now.year, 1, 1))
         .inDays;
+    final cycle = dayOfYear ~/ list.length;
+    final rng = Random(now.year * 999983 + cycle * 31337 + 13);
+    final indices = List.generate(list.length, (i) => i)..shuffle(rng);
     final idx = indices[dayOfYear % list.length];
     todayArticle = Article.fromJson(list[idx] as Map<String, dynamic>);
     articleReadToday = false;
