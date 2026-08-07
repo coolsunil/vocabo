@@ -400,8 +400,10 @@ class _PracticeScreenState extends State<PracticeScreen> {
     final qs = <_PracticeQuestion>[];
     for (final word in words) {
       if (word.word.trim().isEmpty) continue;
-      final phrase = word.example.isNotEmpty ? word.example : word.meaningEn;
-      if (phrase.trim().isEmpty) continue;
+      // Always use the definition as the prompt — never the example sentence,
+      // which contains the answer word and makes the question trivial.
+      final phrase = word.meaningEn.trim();
+      if (phrase.isEmpty) continue;
       final options = _buildOptions(word.word.trim(), pool);
       if (options.length < 4) continue;
       qs.add(_PracticeQuestion(prompt: 'Select the one-word substitution:\n$phrase', options: options, correctAnswer: word.word.trim()));
