@@ -93,39 +93,20 @@ class CoreCard extends StatelessWidget {
 
           _title(context, "English Meaning"),
           const SizedBox(height: 6),
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              if (word.partOfSpeech.isNotEmpty) ...[
-                Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
-                  decoration: BoxDecoration(
-                    color: context.isDark
-                        ? const Color(0xFF0F766E).withValues(alpha: 0.3)
-                        : const Color(0xFFCCFBF1),
-                    borderRadius: BorderRadius.circular(6),
-                  ),
-                  child: Text(
-                    word.partOfSpeech,
-                    style: TextStyle(
-                      fontSize: 12,
-                      fontWeight: FontWeight.w600,
-                      color: context.isDark
-                          ? const Color(0xFF2DD4BF)
-                          : const Color(0xFF0F766E),
-                    ),
-                  ),
-                ),
-                const SizedBox(width: 10),
-              ],
-              Expanded(
-                child: Text(
-                  word.meaningEn,
-                  style: const TextStyle(fontSize: 18),
-                ),
-              ),
-            ],
+          Text(
+            word.meaningEn,
+            style: const TextStyle(fontSize: 18),
           ),
+
+          if (word.partOfSpeech.isNotEmpty) ...[
+            const SizedBox(height: 20),
+            _title(context, "Category"),
+            const SizedBox(height: 6),
+            Text(
+              word.partOfSpeech,
+              style: const TextStyle(fontSize: 18),
+            ),
+          ],
 
           if (word.example.isNotEmpty) ...[
             const SizedBox(height: 20),
@@ -219,6 +200,7 @@ class CoreCard extends StatelessWidget {
     switch (title) {
       case 'Hindi Meaning':   return dark ? const Color(0xFF818CF8) : const Color(0xFF4338CA);
       case 'English Meaning': return dark ? const Color(0xFF2DD4BF) : const Color(0xFF0F766E);
+      case 'Category':        return dark ? const Color(0xFFA78BFA) : const Color(0xFF7C3AED);
       case 'Example':         return dark ? const Color(0xFFFBBF24) : const Color(0xFFB45309);
       case 'Synonyms':        return dark ? const Color(0xFF60A5FA) : const Color(0xFF1D4ED8);
       case 'Antonyms':        return dark ? const Color(0xFFF87171) : const Color(0xFFB91C1C);
