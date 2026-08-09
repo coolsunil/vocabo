@@ -12,7 +12,8 @@
       "Activity",
       "Continuation"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Abnegate",
@@ -32,7 +33,8 @@
       "Keep"
     ],
     "example": "He abnegated all personal desires for the cause.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Abominable",
@@ -47,7 +49,8 @@
       "Admirable",
       "Pleasant"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Abscond",
@@ -67,7 +70,8 @@
       "Surrender",
       "Submit"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Abyss",
@@ -87,7 +91,8 @@
       "Summit"
     ],
     "example": "The country stared into the abyss of civil war.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Accretion",
@@ -102,7 +107,8 @@
       "Erosion",
       "Reduction"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Acedia",
@@ -117,7 +123,8 @@
       "Zeal",
       "Enthusiasm"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Acrimonious",
@@ -137,7 +144,8 @@
       "Harmonious"
     ],
     "example": "The divorce proceedings were acrimonious.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Acrimony",
@@ -157,7 +165,8 @@
       "Cordiality",
       "Benevolence"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Acumen",
@@ -172,7 +181,8 @@
       "Stupidity",
       "Ignorance"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Adamant",
@@ -187,7 +197,8 @@
       "Flexible",
       "Yielding"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Adamantine",
@@ -207,7 +218,8 @@
       "Compliant"
     ],
     "example": "His adamantine will could not be broken.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Adroit",
@@ -227,7 +239,8 @@
       "Incompetent"
     ],
     "example": "She was adroit at handling difficult negotiations.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Adumbrate",
@@ -242,7 +255,8 @@
       "Conceal",
       "Elaborate"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Aegis",
@@ -257,7 +271,8 @@
       "Abandonment",
       "Opposition"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Affectation",
@@ -277,7 +292,8 @@
       "Simplicity"
     ],
     "example": "His posh accent was pure affectation.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Aggrandize",
@@ -292,7 +308,8 @@
       "Diminish",
       "Belittle"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Agnostic",
@@ -312,7 +329,8 @@
       "Theist"
     ],
     "example": "He was agnostic about the existence of god.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Alacrity",
@@ -333,7 +351,8 @@
       "Apathy",
       "Indifference"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Amalgamate",
@@ -353,7 +372,8 @@
       "Disintegrate"
     ],
     "example": "The two companies amalgamated last year.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Ambivalence",
@@ -368,7 +388,8 @@
       "Certainty",
       "Conviction"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Ameliorate",
@@ -388,7 +409,8 @@
       "Deteriorate",
       "Exacerbate"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Anachronism",
@@ -403,7 +425,8 @@
       "Modernity",
       "Currency"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Anaemia",
@@ -423,7 +446,8 @@
       "Robustness"
     ],
     "example": "Anaemia caused her constant fatigue.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Anathema",
@@ -438,7 +462,8 @@
       "Blessing",
       "Approval"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Animus",
@@ -453,7 +478,8 @@
       "Goodwill",
       "Amity"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Anomalous",
@@ -468,7 +494,8 @@
       "Normal",
       "Regular"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Antipodal",
@@ -483,7 +510,8 @@
       "Similar",
       "Identical"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Antithesis",
@@ -503,7 +531,8 @@
       "Likeness"
     ],
     "example": "Her calm manner was the antithesis of his temper.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Apocryphal",
@@ -518,7 +547,8 @@
       "Authentic",
       "Verified"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Apogee",
@@ -538,7 +568,8 @@
       "Lowest point"
     ],
     "example": "The empire reached its apogee in the 18th century.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Apostasy",
@@ -553,7 +584,8 @@
       "Loyalty",
       "Devotion"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Apostate",
@@ -573,7 +605,8 @@
       "Faithful"
     ],
     "example": "The apostate was shunned by his community.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Apposite",
@@ -593,7 +626,8 @@
       "Inapt"
     ],
     "example": "Her apposite remark ended the debate.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Apprehensive",
@@ -613,7 +647,8 @@
       "Assured"
     ],
     "example": "She was apprehensive about her results.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Approbation",
@@ -628,7 +663,8 @@
       "Condemnation",
       "Disapproval"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Arcane",
@@ -643,7 +679,8 @@
       "Common",
       "Simple"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Archaic",
@@ -663,7 +700,8 @@
       "New"
     ],
     "example": "The archaic law was finally repealed.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Ardor",
@@ -678,7 +716,8 @@
       "Apathy",
       "Indifference"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Ardour",
@@ -698,7 +737,8 @@
       "Disinterest"
     ],
     "example": "His ardour for justice was inspiring.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Arrogate",
@@ -718,7 +758,8 @@
       "Renounce"
     ],
     "example": "He arrogated powers that did not belong to him.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Artifice",
@@ -733,7 +774,8 @@
       "Honesty",
       "Candor"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Asperity",
@@ -748,7 +790,8 @@
       "Mildness",
       "Gentleness"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Asperse",
@@ -768,7 +811,8 @@
       "Glorify"
     ],
     "example": "He aspersed his colleague's good name.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Assiduous",
@@ -783,7 +827,8 @@
       "Lazy",
       "Negligent"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Atavism",
@@ -798,7 +843,8 @@
       "Progress",
       "Evolution"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Atone",
@@ -818,7 +864,8 @@
       "Harm"
     ],
     "example": "He tried to atone for his mistakes.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Atrophy",
@@ -838,7 +885,8 @@
       "Flourish"
     ],
     "example": "Muscles atrophy without regular exercise.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Attrition",
@@ -853,7 +901,8 @@
       "Build-up",
       "Reinforcement"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Audacity",
@@ -868,7 +917,8 @@
       "Timidity",
       "Cowardice"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Auspice",
@@ -883,7 +933,8 @@
       "Ill omen",
       "Adversity"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Autocrat",
@@ -898,7 +949,8 @@
       "Democrat",
       "Servant"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Axiom",
@@ -913,7 +965,8 @@
       "Absurdity",
       "Fallacy"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Baleful",
@@ -928,7 +981,8 @@
       "Benign",
       "Friendly"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Banal",
@@ -948,7 +1002,8 @@
       "Creative"
     ],
     "example": "The speech was full of banal platitudes.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Beatitude",
@@ -963,7 +1018,8 @@
       "Misery",
       "Despair"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Beguile",
@@ -978,7 +1034,8 @@
       "Repel",
       "Enlighten"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Bellicose",
@@ -993,7 +1050,8 @@
       "Peaceful",
       "Pacifist"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Beneficent",
@@ -1008,7 +1066,8 @@
       "Malevolent",
       "Selfish"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Benighted",
@@ -1023,7 +1082,8 @@
       "Enlightened",
       "Educated"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Bequeath",
@@ -1043,7 +1103,8 @@
       "Take"
     ],
     "example": "She bequeathed her estate to charity.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Bibliophile",
@@ -1061,7 +1122,8 @@
       "Non-reader"
     ],
     "example": "A bibliophile, she owned thousands of rare books.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Blandish",
@@ -1076,7 +1138,8 @@
       "Criticize",
       "Rebuke"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Blight",
@@ -1091,7 +1154,8 @@
       "Blessing",
       "Benefit"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Bombastic",
@@ -1106,7 +1170,8 @@
       "Modest",
       "Understated"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Boorish",
@@ -1121,7 +1186,8 @@
       "Polite",
       "Refined"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Brazen",
@@ -1136,7 +1202,8 @@
       "Modest",
       "Ashamed"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Byzantine",
@@ -1151,7 +1218,8 @@
       "Simple",
       "Straightforward"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Cacophony",
@@ -1166,7 +1234,8 @@
       "Harmony",
       "Melody"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Cadaverous",
@@ -1186,7 +1255,8 @@
       "Vigorous"
     ],
     "example": "After the illness, his cadaverous appearance shocked everyone.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Callousness",
@@ -1206,7 +1276,8 @@
       "Kindness"
     ],
     "example": "His callousness shocked the committee.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Calumny",
@@ -1226,7 +1297,8 @@
       "Endorsement"
     ],
     "example": "His calumny damaged her good name.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Candour",
@@ -1246,7 +1318,8 @@
       "Secrecy"
     ],
     "example": "She spoke with disarming candour.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Capricious",
@@ -1267,7 +1340,8 @@
       "Resolute",
       "Stable"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Captious",
@@ -1287,7 +1361,8 @@
       "Complimentary"
     ],
     "example": "His captious reviews discouraged writers.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Castigate",
@@ -1302,7 +1377,8 @@
       "Praise",
       "Commend"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Catharsis",
@@ -1317,7 +1393,8 @@
       "Repression",
       "Suppression"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Caustic",
@@ -1332,7 +1409,8 @@
       "Mild",
       "Gentle"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Caveat",
@@ -1347,7 +1425,8 @@
       "Assurance",
       "Guarantee"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Chagrin",
@@ -1362,7 +1441,8 @@
       "Pleasure",
       "Delight"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Charlatan",
@@ -1377,7 +1457,8 @@
       "Expert",
       "Genuine"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Chauvinism",
@@ -1392,7 +1473,8 @@
       "Tolerance",
       "Impartiality"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Chicanery",
@@ -1407,7 +1489,8 @@
       "Honesty",
       "Integrity"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Chronicle",
@@ -1427,7 +1510,8 @@
       "Suppress"
     ],
     "example": "The journalist chronicled the events of the war.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Circumlocution",
@@ -1442,7 +1526,8 @@
       "Directness",
       "Brevity"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Circumspect",
@@ -1457,7 +1542,8 @@
       "Reckless",
       "Impulsive"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Circumvent",
@@ -1477,7 +1563,8 @@
       "Follow"
     ],
     "example": "He circumvented the rules with a loophole.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Clamor",
@@ -1492,7 +1579,8 @@
       "Silence",
       "Calm"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Clemency",
@@ -1507,7 +1595,8 @@
       "Harshness",
       "Cruelty"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Coalesce",
@@ -1522,7 +1611,8 @@
       "Separate",
       "Divide"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Cogent",
@@ -1543,7 +1633,8 @@
       "Nebulous",
       "Vague"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Cogitate",
@@ -1558,7 +1649,8 @@
       "Ignore",
       "Dismiss"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Cogitation",
@@ -1577,7 +1669,8 @@
       "Rashness"
     ],
     "example": "After much cogitation he reached his decision.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Collusion",
@@ -1592,7 +1685,8 @@
       "Transparency",
       "Integrity"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Commensurate",
@@ -1612,7 +1706,8 @@
       "Excessive"
     ],
     "example": "Salary should be commensurate with experience.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Complaisant",
@@ -1627,7 +1722,8 @@
       "Stubborn",
       "Defiant"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Compunction",
@@ -1642,7 +1738,8 @@
       "Indifference",
       "Shamelessness"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Conciliatory",
@@ -1657,7 +1754,8 @@
       "Hostile",
       "Provocative"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Concomitant",
@@ -1677,7 +1775,8 @@
       "Isolated"
     ],
     "example": "Stress is often concomitant with high-pressure jobs.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Condescend",
@@ -1692,7 +1791,8 @@
       "Respect",
       "Honor"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Conflagration",
@@ -1707,7 +1807,8 @@
       "Extinguishment",
       "Peace"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Connive",
@@ -1727,7 +1828,8 @@
       "Expose"
     ],
     "example": "Officials connived with contractors to inflate bills.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Contentious",
@@ -1747,7 +1849,8 @@
       "Uncontroversial"
     ],
     "example": "Tax policy is always a contentious issue.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Contumacious",
@@ -1767,7 +1870,8 @@
       "Respectful"
     ],
     "example": "The contumacious defendant ignored court orders.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Conundrum",
@@ -1787,7 +1891,8 @@
       "Clarity",
       "Certainty"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Convoluted",
@@ -1802,7 +1907,8 @@
       "Simple",
       "Clear"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Corpulent",
@@ -1822,7 +1928,8 @@
       "Slender"
     ],
     "example": "The corpulent man struggled to climb the stairs.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Corroborate",
@@ -1837,7 +1944,8 @@
       "Contradict",
       "Refute"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Coruscate",
@@ -1857,7 +1965,8 @@
       "Dim"
     ],
     "example": "Diamonds coruscate brilliantly in sunlight.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Countenance",
@@ -1872,7 +1981,8 @@
       "Oppose",
       "Forbid"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Covet",
@@ -1892,7 +2002,8 @@
       "Ignore"
     ],
     "example": "He coveted his neighbour's success.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Craven",
@@ -1912,7 +2023,8 @@
       "Fearless"
     ],
     "example": "The craven soldier fled at the first sign of danger.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Credence",
@@ -1932,7 +2044,8 @@
       "Distrust"
     ],
     "example": "The story gained credence after evidence emerged.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Cupidity",
@@ -1947,7 +2060,8 @@
       "Generosity",
       "Contentment"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Cursory",
@@ -1967,7 +2081,8 @@
       "Exhaustive"
     ],
     "example": "He gave the report only a cursory glance.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Dastardly",
@@ -1987,7 +2102,8 @@
       "Courageous"
     ],
     "example": "It was a dastardly act of deception.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adverb"
   },
   {
     "word": "Dauntless",
@@ -2002,7 +2118,8 @@
       "Timid",
       "Cowardly"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Decadence",
@@ -2022,7 +2139,8 @@
       "Virtue"
     ],
     "example": "Critics blamed media for cultural decadence.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Decorum",
@@ -2037,7 +2155,8 @@
       "Impropriety",
       "Rudeness"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Deference",
@@ -2052,7 +2171,8 @@
       "Defiance",
       "Disrespect"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Deleterious",
@@ -2072,7 +2192,8 @@
       "Salutary"
     ],
     "example": "Smoking has deleterious effects on health.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Demagogue",
@@ -2087,7 +2208,8 @@
       "Statesman",
       "Leader"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Demeaning",
@@ -2107,7 +2229,8 @@
       "Respecting"
     ],
     "example": "The demeaning task upset the employees.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Demeanor",
@@ -2122,7 +2245,8 @@
       "Misbehavior",
       "Rudeness"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Demur",
@@ -2142,7 +2266,8 @@
       "Consent"
     ],
     "example": "She demurred at the proposal without giving a reason.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Demystify",
@@ -2162,7 +2287,8 @@
       "Confuse"
     ],
     "example": "The book demystifies complex economic ideas.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Denigrate",
@@ -2177,7 +2303,8 @@
       "Praise",
       "Honor"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Denote",
@@ -2197,7 +2324,8 @@
       "Obscure"
     ],
     "example": "A red light denotes danger.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Denouement",
@@ -2217,7 +2345,8 @@
       "Opening"
     ],
     "example": "The denouement surprised all the readers.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Depravity",
@@ -2232,7 +2361,8 @@
       "Virtue",
       "Morality"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Derision",
@@ -2247,7 +2377,8 @@
       "Respect",
       "Praise"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Derisive",
@@ -2267,7 +2398,8 @@
       "Complimentary"
     ],
     "example": "His derisive laughter was deeply hurtful.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Derogatory",
@@ -2287,7 +2419,8 @@
       "Praising"
     ],
     "example": "Derogatory remarks are not acceptable.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Desecrate",
@@ -2302,7 +2435,8 @@
       "Sanctify",
       "Honor"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Despondent",
@@ -2317,7 +2451,8 @@
       "Hopeful",
       "Cheerful"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Desultory",
@@ -2337,7 +2472,8 @@
       "Focused"
     ],
     "example": "His desultory efforts achieved nothing.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Devious",
@@ -2357,7 +2493,8 @@
       "Frank"
     ],
     "example": "He used devious means to win.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Dichotomy",
@@ -2377,7 +2514,8 @@
       "Harmony"
     ],
     "example": "There is a dichotomy between theory and practice.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Didactic",
@@ -2392,7 +2530,8 @@
       "Frivolous",
       "Uninstructive"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Didacticism",
@@ -2410,7 +2549,8 @@
       "Frivolity"
     ],
     "example": "His didacticism made his novels tedious.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Diffidence",
@@ -2425,7 +2565,8 @@
       "Confidence",
       "Boldness"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Diffident",
@@ -2445,7 +2586,8 @@
       "Outgoing"
     ],
     "example": "The diffident student rarely spoke in class.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Diffuse",
@@ -2465,7 +2607,8 @@
       "Collect"
     ],
     "example": "Light diffuses through the curtains.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Dilapidated",
@@ -2485,7 +2628,8 @@
       "New"
     ],
     "example": "The dilapidated building was demolished.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adverb"
   },
   {
     "word": "Dilatory",
@@ -2505,7 +2649,8 @@
       "Expeditious"
     ],
     "example": "His dilatory tactics frustrated the negotiators.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Dilettante",
@@ -2520,7 +2665,8 @@
       "Expert",
       "Professional"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Dilettantism",
@@ -2539,7 +2685,8 @@
       "Dedication"
     ],
     "example": "He was accused of dilettantism in his pursuits.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Discomfit",
@@ -2559,7 +2706,8 @@
       "Please"
     ],
     "example": "Her direct question discomfited the minister.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Disconcert",
@@ -2574,7 +2722,8 @@
       "Reassure",
       "Comfort"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Discordant",
@@ -2594,7 +2743,8 @@
       "Agreeable"
     ],
     "example": "His discordant views divided the group.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Discretion",
@@ -2614,7 +2764,8 @@
       "Tactlessness"
     ],
     "example": "The matter was handled with great discretion.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Disinterested",
@@ -2634,7 +2785,8 @@
       "Partial"
     ],
     "example": "A disinterested party should resolve the dispute.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Disparate",
@@ -2654,7 +2806,8 @@
       "Related"
     ],
     "example": "The two countries have disparate cultures.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Dispassionate",
@@ -2669,7 +2822,8 @@
       "Biased",
       "Emotional"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Dissemble",
@@ -2684,7 +2838,8 @@
       "Reveal",
       "Disclose"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Dissimulate",
@@ -2704,7 +2859,8 @@
       "Disclose"
     ],
     "example": "She was unable to dissimulate her disappointment.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Dissipate",
@@ -2724,7 +2880,8 @@
       "Preserve"
     ],
     "example": "He dissipated his fortune on gambling.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Dissolution",
@@ -2739,7 +2896,8 @@
       "Formation",
       "Unity"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Divergent",
@@ -2759,7 +2917,8 @@
       "Consistent"
     ],
     "example": "Their divergent views led to conflict.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Divulge",
@@ -2774,7 +2933,8 @@
       "Conceal",
       "Suppress"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Dogma",
@@ -2789,7 +2949,8 @@
       "Doubt",
       "Flexibility"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Dolorous",
@@ -2804,7 +2965,8 @@
       "Joyful",
       "Cheerful"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Domineering",
@@ -2819,7 +2981,8 @@
       "Submissive",
       "Humble"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Dormancy",
@@ -2839,7 +3002,8 @@
       "Operation"
     ],
     "example": "The volcano emerged from dormancy.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Draconian",
@@ -2854,7 +3018,8 @@
       "Lenient",
       "Mild"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Ebullient",
@@ -2869,7 +3034,8 @@
       "Gloomy",
       "Subdued"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Effervescent",
@@ -2889,7 +3055,8 @@
       "Lethargic"
     ],
     "example": "Her effervescent personality lit up the room.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Effrontery",
@@ -2904,7 +3071,8 @@
       "Timidity",
       "Respect"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Egregious",
@@ -2919,7 +3087,8 @@
       "Minor",
       "Unnoticeable"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Elegy",
@@ -2934,7 +3103,8 @@
       "Celebration",
       "Ode"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Elusive",
@@ -2954,7 +3124,8 @@
       "Clear"
     ],
     "example": "The solution remained elusive.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Embroil",
@@ -2969,7 +3140,8 @@
       "Disengage",
       "Extricate"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Empiricism",
@@ -2988,7 +3160,8 @@
       "Dogmatism"
     ],
     "example": "Empiricism underpins modern scientific method.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Emulate",
@@ -3003,7 +3176,8 @@
       "Ignore",
       "Shun"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Encomium",
@@ -3023,7 +3197,8 @@
       "Reproach"
     ],
     "example": "The retiring professor received many encomiums.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Encroach",
@@ -3043,7 +3218,8 @@
       "Honour"
     ],
     "example": "The construction encroached on public land.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Encumber",
@@ -3058,7 +3234,8 @@
       "Aid",
       "Facilitate"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Enervate",
@@ -3073,7 +3250,8 @@
       "Strengthen",
       "Energize"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Enervation",
@@ -3093,7 +3271,8 @@
       "Invigoration"
     ],
     "example": "The summer heat caused general enervation.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Enigmatic",
@@ -3108,7 +3287,8 @@
       "Clear",
       "Obvious"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Ennui",
@@ -3123,7 +3303,8 @@
       "Excitement",
       "Enthusiasm"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Ephemeral",
@@ -3138,7 +3319,8 @@
       "Permanent",
       "Enduring"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Epistemic",
@@ -3156,7 +3338,8 @@
       "Emotional"
     ],
     "example": "The debate raised epistemic questions about evidence.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Equivocal",
@@ -3171,7 +3354,8 @@
       "Clear",
       "Definite"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Equivocate",
@@ -3186,7 +3370,8 @@
       "Assert",
       "State clearly"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Equivocation",
@@ -3206,7 +3391,8 @@
       "Transparency"
     ],
     "example": "His equivocation on the issue was noted by all.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Eradicate",
@@ -3221,7 +3407,8 @@
       "Preserve",
       "Create"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Erode",
@@ -3236,7 +3423,8 @@
       "Build",
       "Strengthen"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Errant",
@@ -3256,7 +3444,8 @@
       "Righteous"
     ],
     "example": "The errant knight roamed without purpose.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Espousal",
@@ -3276,7 +3465,8 @@
       "Criticism"
     ],
     "example": "His espousal of the cause won him many followers.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Eulogy",
@@ -3296,7 +3486,8 @@
       "Diatribe"
     ],
     "example": "He delivered a moving eulogy at the funeral.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Euphemism",
@@ -3314,7 +3505,8 @@
       "Directness"
     ],
     "example": "'Passed away' is a euphemism for 'died'.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Evanescent",
@@ -3329,7 +3521,8 @@
       "Lasting",
       "Permanent"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Evasive",
@@ -3349,7 +3542,8 @@
       "Transparent"
     ],
     "example": "His evasive answers raised suspicion.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Evince",
@@ -3364,7 +3558,8 @@
       "Conceal",
       "Hide"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Excoriate",
@@ -3379,7 +3574,8 @@
       "Praise",
       "Commend"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Execrable",
@@ -3399,7 +3595,8 @@
       "Superb"
     ],
     "example": "The food at the restaurant was execrable.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Execrate",
@@ -3414,7 +3611,8 @@
       "Admire",
       "Praise"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Exigent",
@@ -3429,7 +3627,8 @@
       "Trivial",
       "Unimportant"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Exiguous",
@@ -3449,7 +3648,8 @@
       "Generous"
     ],
     "example": "The refugees had only exiguous food supplies.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Expatiate",
@@ -3464,7 +3664,8 @@
       "Summarize",
       "Condense"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Expedient",
@@ -3479,7 +3680,8 @@
       "Impractical",
       "Principled"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Expiate",
@@ -3494,7 +3696,8 @@
       "Offend",
       "Harm"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Expostulate",
@@ -3514,7 +3717,8 @@
       "Endorse"
     ],
     "example": "She expostulated with her manager over the decision.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Expunge",
@@ -3529,7 +3733,8 @@
       "Preserve",
       "Restore"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Expurgate",
@@ -3549,7 +3754,8 @@
       "Uncut"
     ],
     "example": "The film was expurgated before release.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Extenuate",
@@ -3569,7 +3775,8 @@
       "Exacerbate"
     ],
     "example": "Nothing can extenuate such behaviour.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Extirpate",
@@ -3584,7 +3791,8 @@
       "Cultivate",
       "Preserve"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Extraneous",
@@ -3599,7 +3807,8 @@
       "Relevant",
       "Essential"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Facetious",
@@ -3614,7 +3823,8 @@
       "Serious",
       "Earnest"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Factious",
@@ -3634,7 +3844,8 @@
       "Loyal"
     ],
     "example": "Factious politics weakened the party.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Fallacious",
@@ -3649,7 +3860,8 @@
       "Sound",
       "Valid"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Fallibility",
@@ -3668,7 +3880,8 @@
       "Reliability"
     ],
     "example": "Human fallibility requires checks and balances.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Fastidious",
@@ -3683,7 +3896,8 @@
       "Careless",
       "Negligent"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Fatuous",
@@ -3698,7 +3912,8 @@
       "Sensible",
       "Wise"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Fawn",
@@ -3713,7 +3928,8 @@
       "Criticize",
       "Confront"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Ferocious",
@@ -3728,7 +3944,8 @@
       "Gentle",
       "Tame"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Fervid",
@@ -3748,7 +3965,8 @@
       "Unenthusiastic"
     ],
     "example": "He was a fervid supporter of the cause.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Fervor",
@@ -3763,7 +3981,8 @@
       "Apathy",
       "Indifference"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Flagging",
@@ -3783,7 +4002,8 @@
       "Growing"
     ],
     "example": "His flagging spirits needed encouragement.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Flagrant",
@@ -3798,7 +4018,8 @@
       "Subtle",
       "Minor"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Fledgling",
@@ -3813,7 +4034,8 @@
       "Veteran",
       "Established"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Flout",
@@ -3833,7 +4055,8 @@
       "Observe"
     ],
     "example": "He flouted traffic rules regularly.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Foment",
@@ -3848,7 +4071,8 @@
       "Suppress",
       "Calm"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Forbearance",
@@ -3863,7 +4087,8 @@
       "Impatience",
       "Intolerance"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Foreboding",
@@ -3883,7 +4108,8 @@
       "Assurance"
     ],
     "example": "She felt a sense of foreboding all day.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Forestall",
@@ -3898,7 +4124,8 @@
       "Allow",
       "Encourage"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Forswear",
@@ -3918,7 +4145,8 @@
       "Affirm"
     ],
     "example": "He forswore all claims to the throne.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Fortitude",
@@ -3933,7 +4161,8 @@
       "Cowardice",
       "Weakness"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Fortuitous",
@@ -3953,7 +4182,8 @@
       "Predictable"
     ],
     "example": "Their meeting was entirely fortuitous.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Fractious",
@@ -3968,7 +4198,8 @@
       "Calm",
       "Agreeable"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Fulminate",
@@ -3988,7 +4219,8 @@
       "Endorse",
       "Applaud"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Fulsome",
@@ -4008,7 +4240,8 @@
       "Moderate"
     ],
     "example": "His fulsome praise seemed rehearsed and hollow.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Furtive",
@@ -4023,7 +4256,8 @@
       "Open",
       "Conspicuous"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Garish",
@@ -4038,7 +4272,8 @@
       "Subtle",
       "Tasteful"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Gaunt",
@@ -4053,7 +4288,8 @@
       "Plump",
       "Healthy"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Genial",
@@ -4068,7 +4304,8 @@
       "Unfriendly",
       "Cold"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Glib",
@@ -4083,7 +4320,8 @@
       "Sincere",
       "Thoughtful"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Glower",
@@ -4098,7 +4336,8 @@
       "Smile",
       "Beam"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Gourmand",
@@ -4117,7 +4356,8 @@
       "Moderate eater"
     ],
     "example": "As a gourmand, he never missed a new restaurant opening.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Grandiloquent",
@@ -4132,7 +4372,8 @@
       "Simple",
       "Modest"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Gregarious",
@@ -4147,7 +4388,8 @@
       "Solitary",
       "Introverted"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Gregariousness",
@@ -4165,7 +4407,8 @@
       "Solitude"
     ],
     "example": "Her gregariousness made her popular.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Hedonism",
@@ -4184,7 +4427,8 @@
       "Stoicism"
     ],
     "example": "His hedonism led him to neglect responsibility.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Iconoclast",
@@ -4199,7 +4443,8 @@
       "Traditionalist",
       "Conformist"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Idiosyncrasy",
@@ -4219,7 +4464,8 @@
       "Regularity"
     ],
     "example": "One of his idiosyncrasies was speaking to himself.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Idiosyncratic",
@@ -4234,7 +4480,8 @@
       "Conventional",
       "Normal"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Ignominious",
@@ -4249,7 +4496,8 @@
       "Honorable",
       "Glorious"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Ignominy",
@@ -4269,7 +4517,8 @@
       "Fame"
     ],
     "example": "His corruption brought ignominy to the family.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Illusory",
@@ -4289,7 +4538,8 @@
       "True"
     ],
     "example": "The apparent profit was illusory.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Imbue",
@@ -4304,7 +4554,8 @@
       "Drain",
       "Deplete"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Immutable",
@@ -4319,7 +4570,8 @@
       "Mutable",
       "Changeable"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Impassioned",
@@ -4339,7 +4591,8 @@
       "Unemotional"
     ],
     "example": "She made an impassioned appeal for justice.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Impassive",
@@ -4354,7 +4607,8 @@
       "Emotional",
       "Expressive"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Impeccable",
@@ -4369,7 +4623,8 @@
       "Flawed",
       "Imperfect"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Impecunious",
@@ -4389,7 +4644,8 @@
       "Prosperous"
     ],
     "example": "The impecunious student struggled to pay fees.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Imperious",
@@ -4409,7 +4665,8 @@
       "Meek"
     ],
     "example": "His imperious manner intimidated junior staff.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Impervious",
@@ -4424,7 +4681,8 @@
       "Vulnerable",
       "Sensitive"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Impetuous",
@@ -4445,7 +4703,8 @@
       "Considered",
       "Prudent"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Impinge",
@@ -4465,7 +4724,8 @@
       "Leave alone"
     ],
     "example": "New regulations impinge on business freedom.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Implacable",
@@ -4480,7 +4740,8 @@
       "Forgiving",
       "Flexible"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Impugn",
@@ -4495,7 +4756,8 @@
       "Support",
       "Affirm"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Incandescent",
@@ -4515,7 +4777,8 @@
       "Faded"
     ],
     "example": "The incandescent light flooded the room.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Incendiary",
@@ -4535,7 +4798,8 @@
       "Moderate"
     ],
     "example": "His incendiary speech fuelled the protests.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Inchoate",
@@ -4550,7 +4814,8 @@
       "Complete",
       "Developed"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Incisive",
@@ -4565,7 +4830,8 @@
       "Vague",
       "Dull"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Incognito",
@@ -4585,7 +4851,8 @@
       "Open"
     ],
     "example": "The celebrity travelled incognito.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Incongruous",
@@ -4605,7 +4872,8 @@
       "Fitting"
     ],
     "example": "A tuxedo at the beach looked incongruous.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Incorrigible",
@@ -4620,7 +4888,8 @@
       "Reformable",
       "Corrigible"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Inculcate",
@@ -4640,7 +4909,8 @@
       "Discourage"
     ],
     "example": "Schools should inculcate good values.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Indolence",
@@ -4660,7 +4930,8 @@
       "Hardwork"
     ],
     "example": "Indolence led to his failure.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Indolent",
@@ -4675,7 +4946,8 @@
       "Industrious",
       "Diligent"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Indomitable",
@@ -4695,7 +4967,8 @@
       "Timid"
     ],
     "example": "Her indomitable spirit inspired everyone.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Ineffable",
@@ -4710,7 +4983,8 @@
       "Expressible",
       "Ordinary"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Inexorable",
@@ -4725,7 +4999,8 @@
       "Yielding",
       "Stoppable"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Inexplicable",
@@ -4745,7 +5020,8 @@
       "Obvious"
     ],
     "example": "His behaviour was inexplicable.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Infamy",
@@ -4760,7 +5036,8 @@
       "Honor",
       "Reputation"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Inimical",
@@ -4775,7 +5052,8 @@
       "Friendly",
       "Beneficial"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Inimitable",
@@ -4795,7 +5073,8 @@
       "Mediocre"
     ],
     "example": "She danced with inimitable grace.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Iniquity",
@@ -4810,7 +5089,8 @@
       "Justice",
       "Virtue"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Inscrutable",
@@ -4825,7 +5105,8 @@
       "Transparent",
       "Obvious"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Insidious",
@@ -4840,7 +5121,8 @@
       "Open",
       "Harmless"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Insolence",
@@ -4855,7 +5137,8 @@
       "Respect",
       "Politeness"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Insouciance",
@@ -4875,7 +5158,8 @@
       "Worry"
     ],
     "example": "He approached the crisis with surprising insouciance.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Insular",
@@ -4895,7 +5179,8 @@
       "Global"
     ],
     "example": "His insular views limited his opportunities.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Interpolate",
@@ -4915,7 +5200,8 @@
       "Extract"
     ],
     "example": "The editor interpolated a note into the text.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Intractable",
@@ -4930,7 +5216,8 @@
       "Manageable",
       "Compliant"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Intransigent",
@@ -4950,7 +5237,8 @@
       "Agreeable"
     ],
     "example": "The intransigent negotiator blocked all progress.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Intrepid",
@@ -4970,7 +5258,8 @@
       "Cautious"
     ],
     "example": "The intrepid journalist covered war zones.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Introspective",
@@ -4990,7 +5279,8 @@
       "Unreflective"
     ],
     "example": "The poem is deeply introspective.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Invective",
@@ -5005,7 +5295,8 @@
       "Praise",
       "Compliment"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Inveterate",
@@ -5020,7 +5311,8 @@
       "Occasional",
       "Reformed"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Invidious",
@@ -5040,7 +5332,8 @@
       "Just"
     ],
     "example": "An invidious comparison was drawn between the two.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Irascible",
@@ -5055,7 +5348,8 @@
       "Calm",
       "Placid"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Irrefutable",
@@ -5075,7 +5369,8 @@
       "Questionable"
     ],
     "example": "The evidence was irrefutable.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Irreverent",
@@ -5090,7 +5385,8 @@
       "Reverent",
       "Respectful"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Itinerant",
@@ -5105,7 +5401,8 @@
       "Settled",
       "Stationary"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Lachrymose",
@@ -5120,7 +5417,8 @@
       "Cheerful",
       "Joyful"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Lacuna",
@@ -5140,7 +5438,8 @@
       "Surplus"
     ],
     "example": "There is a lacuna in the historical record.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Lambaste",
@@ -5155,7 +5454,8 @@
       "Praise",
       "Commend"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Lassitude",
@@ -5170,7 +5470,8 @@
       "Energy",
       "Vigor"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Laudable",
@@ -5190,7 +5491,8 @@
       "Contemptible"
     ],
     "example": "His commitment to charity is laudable.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Lethargic",
@@ -5205,7 +5507,8 @@
       "Energetic",
       "Active"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Levity",
@@ -5220,7 +5523,8 @@
       "Seriousness",
       "Gravity"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Limpid",
@@ -5240,7 +5544,8 @@
       "Opaque"
     ],
     "example": "The limpid stream reflected the sky.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Litigious",
@@ -5255,7 +5560,8 @@
       "Peaceful",
       "Cooperative"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Loquacious",
@@ -5270,7 +5576,8 @@
       "Taciturn",
       "Silent"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Loquacity",
@@ -5289,7 +5596,8 @@
       "Reticence"
     ],
     "example": "His loquacity at meetings frustrated everyone.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Lugubrious",
@@ -5304,7 +5612,8 @@
       "Cheerful",
       "Lively"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Macabre",
@@ -5324,7 +5633,8 @@
       "Delightful"
     ],
     "example": "The movie's macabre scenes disturbed viewers.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Machination",
@@ -5339,7 +5649,8 @@
       "Honesty",
       "Transparency"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Maladroit",
@@ -5359,7 +5670,8 @@
       "Deft"
     ],
     "example": "His maladroit comment offended everyone.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Malediction",
@@ -5374,7 +5686,8 @@
       "Blessing",
       "Benediction"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Malevolence",
@@ -5389,7 +5702,8 @@
       "Benevolence",
       "Goodwill"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Malfeasance",
@@ -5409,7 +5723,8 @@
       "Probity",
       "Rectitude"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Malign",
@@ -5424,7 +5739,8 @@
       "Praise",
       "Honor"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Maverick",
@@ -5444,7 +5760,8 @@
       "Conservative"
     ],
     "example": "She was a maverick who challenged conventions.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Melee",
@@ -5464,7 +5781,8 @@
       "Quiet"
     ],
     "example": "Police intervened in the melee.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Mendacious",
@@ -5479,7 +5797,8 @@
       "Truthful",
       "Honest"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Mendacity",
@@ -5499,7 +5818,8 @@
       "Candour"
     ],
     "example": "His mendacity undermined his credibility.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Mendicant",
@@ -5514,7 +5834,8 @@
       "Benefactor",
       "Donor"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Meretricious",
@@ -5529,7 +5850,8 @@
       "Genuine",
       "Sincere"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Metamorphosis",
@@ -5549,7 +5871,8 @@
       "Uniformity"
     ],
     "example": "The city underwent a dramatic metamorphosis.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Mettlesome",
@@ -5569,7 +5892,8 @@
       "Spineless"
     ],
     "example": "The mettlesome soldier fought bravely.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Misanthrope",
@@ -5584,7 +5908,8 @@
       "Philanthropist",
       "Humanist"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Misnomer",
@@ -5602,7 +5927,8 @@
       "Proper term"
     ],
     "example": "Calling it a peanut is a misnomer — it is a legume.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Modicum",
@@ -5622,7 +5948,8 @@
       "Surplus"
     ],
     "example": "He showed a modicum of remorse.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Mordant",
@@ -5642,7 +5969,8 @@
       "Complimentary"
     ],
     "example": "His mordant humour was both funny and cruel.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Moribund",
@@ -5662,7 +5990,8 @@
       "Vigorous"
     ],
     "example": "The moribund industry needed urgent reform.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Morose",
@@ -5677,7 +6006,8 @@
       "Cheerful",
       "Jovial"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Munificent",
@@ -5692,7 +6022,8 @@
       "Stingy",
       "Miserly"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Nadir",
@@ -5712,7 +6043,8 @@
       "Summit"
     ],
     "example": "His career hit a nadir after the scandal.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Narcissism",
@@ -5732,7 +6064,8 @@
       "Self-denial"
     ],
     "example": "His narcissism prevented meaningful relationships.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Nebulous",
@@ -5752,7 +6085,8 @@
       "Distinct"
     ],
     "example": "His plans for the future were still nebulous.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Nefarious",
@@ -5767,7 +6101,8 @@
       "Virtuous",
       "Honorable"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Neophyte",
@@ -5782,7 +6117,8 @@
       "Veteran",
       "Expert"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Nihilism",
@@ -5797,7 +6133,8 @@
       "Idealism",
       "Faith"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Nonchalance",
@@ -5812,7 +6149,8 @@
       "Anxiety",
       "Concern"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Oblivion",
@@ -5832,7 +6170,8 @@
       "Consciousness"
     ],
     "example": "Many great artists died in oblivion.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Obsequious",
@@ -5847,7 +6186,8 @@
       "Assertive",
       "Independent"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Obsequy",
@@ -5865,7 +6205,8 @@
       "Christening"
     ],
     "example": "The obsequies were attended by thousands.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Obstreperous",
@@ -5880,7 +6221,8 @@
       "Quiet",
       "Compliant"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Obtuse",
@@ -5895,7 +6237,8 @@
       "Sharp",
       "Perceptive"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Odium",
@@ -5915,7 +6258,8 @@
       "Esteem"
     ],
     "example": "His cowardice brought odium on his family.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Officious",
@@ -5930,7 +6274,8 @@
       "Unobtrusive",
       "Helpful"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Oligarchy",
@@ -5945,7 +6290,8 @@
       "Democracy",
       "Equality"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Omniscient",
@@ -5960,7 +6306,8 @@
       "Ignorant",
       "Uninformed"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Onerous",
@@ -5975,7 +6322,8 @@
       "Easy",
       "Light"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Opprobrious",
@@ -5995,7 +6343,8 @@
       "Respectable"
     ],
     "example": "His opprobrious conduct shocked the court.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Opprobrium",
@@ -6010,7 +6359,8 @@
       "Praise",
       "Honor"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Oppugn",
@@ -6030,7 +6380,8 @@
       "Confirm"
     ],
     "example": "The lawyer oppugned the witness's testimony.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Oscillate",
@@ -6050,7 +6401,8 @@
       "Settle"
     ],
     "example": "His mood oscillated between joy and despair.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Ostentation",
@@ -6070,7 +6422,8 @@
       "Humility"
     ],
     "example": "His ostentation masked his insecurity.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Ostracize",
@@ -6085,7 +6438,8 @@
       "Accept",
       "Include"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Overweening",
@@ -6100,7 +6454,8 @@
       "Humble",
       "Modest"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Palliate",
@@ -6115,7 +6470,8 @@
       "Aggravate",
       "Worsen"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Panache",
@@ -6130,7 +6486,8 @@
       "Dullness",
       "Awkwardness"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Panegyric",
@@ -6150,7 +6507,8 @@
       "Censure"
     ],
     "example": "The general delivered a panegyric at the ceremony.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Paradigm",
@@ -6165,7 +6523,8 @@
       "Anomaly",
       "Exception"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Paragon",
@@ -6185,7 +6544,8 @@
       "Inferior"
     ],
     "example": "She is a paragon of honesty and integrity.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Pariah",
@@ -6200,7 +6560,8 @@
       "Celebrity",
       "Insider"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Parity",
@@ -6220,7 +6581,8 @@
       "Difference"
     ],
     "example": "Pay parity between genders is essential.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Parochial",
@@ -6235,7 +6597,8 @@
       "Broad-minded",
       "Cosmopolitan"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Parsimony",
@@ -6250,7 +6613,8 @@
       "Generosity",
       "Liberality"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Pathological",
@@ -6270,7 +6634,8 @@
       "Sane"
     ],
     "example": "He was a pathological liar.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Pejorative",
@@ -6285,7 +6650,8 @@
       "Complimentary",
       "Flattering"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Pellucid",
@@ -6305,7 +6671,8 @@
       "Turbid"
     ],
     "example": "The pellucid water revealed the fish below.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Penury",
@@ -6320,7 +6687,8 @@
       "Wealth",
       "Affluence"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Peremptory",
@@ -6340,7 +6708,8 @@
       "Accommodating",
       "Deferential"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Perfidious",
@@ -6361,7 +6730,8 @@
       "Dependable",
       "Steadfast"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Perfidy",
@@ -6376,7 +6746,8 @@
       "Loyalty",
       "Faithfulness"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Pernicious",
@@ -6391,7 +6762,8 @@
       "Beneficial",
       "Harmless"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Perspicacious",
@@ -6406,7 +6778,8 @@
       "Obtuse",
       "Dull"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Perspicacity",
@@ -6426,7 +6799,8 @@
       "Blindness"
     ],
     "example": "His perspicacity helped him spot the flaw immediately.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Pertinacious",
@@ -6441,7 +6815,8 @@
       "Yielding",
       "Compliant"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Petulant",
@@ -6456,7 +6831,8 @@
       "Calm",
       "Patient"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Phlegmatic",
@@ -6471,7 +6847,8 @@
       "Emotional",
       "Excitable"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Piety",
@@ -6491,7 +6868,8 @@
       "Godlessness"
     ],
     "example": "Her piety was evident in her daily prayers.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Piquant",
@@ -6511,7 +6889,8 @@
       "Tasteless"
     ],
     "example": "The dish had a piquant flavour that lingered.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Pithy",
@@ -6531,7 +6910,8 @@
       "Rambling"
     ],
     "example": "The president's pithy speech was widely quoted.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Placatory",
@@ -6551,7 +6931,8 @@
       "Agitating"
     ],
     "example": "His placatory tone diffused the tension.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Plagiarize",
@@ -6571,7 +6952,8 @@
       "Acknowledge"
     ],
     "example": "The student was caught plagiarizing an essay.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Platitude",
@@ -6586,7 +6968,8 @@
       "Originality",
       "Insight"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Plaudits",
@@ -6606,7 +6989,8 @@
       "Censure"
     ],
     "example": "The surgeon received plaudits for the complex operation.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Polemical",
@@ -6621,7 +7005,8 @@
       "Agreeable",
       "Neutral"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Pomposity",
@@ -6641,7 +7026,8 @@
       "Unpretentiousness"
     ],
     "example": "His pomposity alienated his colleagues.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Ponderous",
@@ -6661,7 +7047,8 @@
       "Lively"
     ],
     "example": "His ponderous speech put the audience to sleep.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Pontificate",
@@ -6676,7 +7063,8 @@
       "Listen",
       "Be humble"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Portentous",
@@ -6691,7 +7079,8 @@
       "Trivial",
       "Unimportant"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Precipitate",
@@ -6706,7 +7095,8 @@
       "Delay",
       "Prevent"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Predilection",
@@ -6726,7 +7116,8 @@
       "Repugnance"
     ],
     "example": "He had a predilection for classical music.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Preeminent",
@@ -6746,7 +7137,8 @@
       "Ordinary"
     ],
     "example": "She is the preeminent expert in her field.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Preposterous",
@@ -6766,7 +7158,8 @@
       "Logical"
     ],
     "example": "The claim was preposterous.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Prescient",
@@ -6781,7 +7174,8 @@
       "Shortsighted",
       "Ignorant"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Presumptuous",
@@ -6796,7 +7190,8 @@
       "Humble",
       "Modest"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Prevaricate",
@@ -6811,7 +7206,8 @@
       "Affirm",
       "Confess"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Probity",
@@ -6831,7 +7227,8 @@
       "Wickedness"
     ],
     "example": "His probity made him ideal for the role.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Proclivity",
@@ -6851,7 +7248,8 @@
       "Dislike"
     ],
     "example": "She had a proclivity for solving puzzles.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Proclivous",
@@ -6871,7 +7269,8 @@
       "Opposed"
     ],
     "example": "She was proclivous toward taking risks.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Prodigal",
@@ -6886,7 +7285,8 @@
       "Frugal",
       "Thrifty"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Profane",
@@ -6906,7 +7306,8 @@
       "Pious"
     ],
     "example": "His profane language shocked the congregation.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Profligate",
@@ -6921,7 +7322,8 @@
       "Frugal",
       "Economical"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Propitiate",
@@ -6936,7 +7338,8 @@
       "Antagonize",
       "Provoke"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Propitious",
@@ -6956,7 +7359,8 @@
       "Unfortunate"
     ],
     "example": "The weather was propitious for the harvest.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Propound",
@@ -6976,7 +7380,8 @@
       "Reject"
     ],
     "example": "He propounded a new theory of evolution.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Proscribe",
@@ -6991,7 +7396,8 @@
       "Permit",
       "Allow"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Protract",
@@ -7006,7 +7412,8 @@
       "Shorten",
       "Curtail"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Provenance",
@@ -7026,7 +7433,8 @@
       "Effect"
     ],
     "example": "The provenance of the painting was disputed.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Provident",
@@ -7041,7 +7449,8 @@
       "Improvident",
       "Wasteful"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Prudish",
@@ -7056,7 +7465,8 @@
       "Open-minded",
       "Liberal"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Pugnacious",
@@ -7071,7 +7481,8 @@
       "Peaceful",
       "Pacifist"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Puissant",
@@ -7091,7 +7502,8 @@
       "Impotent"
     ],
     "example": "A puissant nation commands global respect.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Pulchritude",
@@ -7110,7 +7522,8 @@
       "Plainness"
     ],
     "example": "Her pulchritude was admired by all.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Punctilious",
@@ -7125,7 +7538,8 @@
       "Careless",
       "Negligent"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Quandary",
@@ -7140,7 +7554,8 @@
       "Certainty",
       "Solution"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Querulous",
@@ -7161,7 +7576,8 @@
       "Cheerful",
       "Placid"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Rancour",
@@ -7181,7 +7597,8 @@
       "Forgiveness"
     ],
     "example": "Years of rancour between the families continued.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Rapacious",
@@ -7196,7 +7613,8 @@
       "Generous",
       "Content"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Recalcitrant",
@@ -7211,7 +7629,8 @@
       "Compliant",
       "Obedient"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Recondite",
@@ -7226,7 +7645,8 @@
       "Common",
       "Familiar"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Rectitude",
@@ -7246,7 +7666,8 @@
       "Immorality"
     ],
     "example": "His rectitude earned him universal respect.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Redoubtable",
@@ -7261,7 +7682,8 @@
       "Weak",
       "Timid"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Refractory",
@@ -7281,7 +7703,8 @@
       "Amenable"
     ],
     "example": "The refractory prisoner refused to cooperate.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Refulgent",
@@ -7301,7 +7724,8 @@
       "Faded"
     ],
     "example": "The refulgent sun made the snow dazzle.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Remonstrate",
@@ -7316,7 +7740,8 @@
       "Acquiesce",
       "Agree"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Renegade",
@@ -7331,7 +7756,8 @@
       "Loyalist",
       "Faithful"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Reprehensible",
@@ -7346,7 +7772,8 @@
       "Admirable",
       "Praiseworthy"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Reprieve",
@@ -7366,7 +7793,8 @@
       "Condemnation"
     ],
     "example": "The prisoner received a last-minute reprieve.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Reprobate",
@@ -7381,7 +7809,8 @@
       "Saint",
       "Virtuous"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Rescind",
@@ -7396,7 +7825,8 @@
       "Enforce",
       "Uphold"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Reticence",
@@ -7416,7 +7846,8 @@
       "Loquacity"
     ],
     "example": "Her reticence on the matter was noted.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Retribution",
@@ -7431,7 +7862,8 @@
       "Forgiveness",
       "Mercy"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Revile",
@@ -7446,7 +7878,8 @@
       "Praise",
       "Compliment"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Revulsion",
@@ -7466,7 +7899,8 @@
       "Delight"
     ],
     "example": "The graphic scene caused revulsion.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Ribald",
@@ -7481,7 +7915,8 @@
       "Refined",
       "Decent"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Saccharine",
@@ -7496,7 +7931,8 @@
       "Sour",
       "Sincere"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Sagacious",
@@ -7511,7 +7947,8 @@
       "Foolish",
       "Ignorant"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Salubrious",
@@ -7526,7 +7963,8 @@
       "Unhealthy",
       "Noxious"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Salutary",
@@ -7546,7 +7984,8 @@
       "Deleterious"
     ],
     "example": "The defeat had a salutary effect on the team.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Sanctimonious",
@@ -7561,7 +8000,8 @@
       "Sincere",
       "Humble"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Sanguinary",
@@ -7581,7 +8021,8 @@
       "Nonviolent"
     ],
     "example": "The sanguinary battle lasted three days.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Sanguine",
@@ -7602,7 +8043,8 @@
       "Cynical",
       "Doubtful"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Sartorial",
@@ -7617,7 +8059,8 @@
     ],
     "antonyms": [],
     "example": "His sartorial elegance was widely admired.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Saturnine",
@@ -7632,7 +8075,8 @@
       "Cheerful",
       "Lively"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Scrupulous",
@@ -7647,7 +8091,8 @@
       "Unscrupulous",
       "Dishonest"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Sedulity",
@@ -7662,7 +8107,8 @@
       "Laziness",
       "Negligence"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Sequester",
@@ -7677,7 +8123,8 @@
       "Release",
       "Integrate"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Shibboleth",
@@ -7692,7 +8139,8 @@
       "Common ground",
       "Universal"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Sinister",
@@ -7707,7 +8155,8 @@
       "Benign",
       "Innocent"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Skulduggery",
@@ -7722,7 +8171,8 @@
       "Honesty",
       "Transparency"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Solipsism",
@@ -7737,7 +8187,8 @@
       "Altruism",
       "Empathy"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Sophomoric",
@@ -7757,7 +8208,8 @@
       "Seasoned"
     ],
     "example": "His sophomoric arguments failed to convince anyone.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Soporific",
@@ -7772,7 +8224,8 @@
       "Stimulating",
       "Exciting"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Specious",
@@ -7787,7 +8240,8 @@
       "Valid",
       "Genuine"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Staid",
@@ -7802,7 +8256,8 @@
       "Exciting",
       "Unconventional"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Stolid",
@@ -7817,7 +8272,8 @@
       "Excitable",
       "Expressive"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Strident",
@@ -7832,7 +8288,8 @@
       "Soft",
       "Gentle"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Stymie",
@@ -7847,7 +8304,8 @@
       "Assist",
       "Facilitate"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Subjugate",
@@ -7862,7 +8320,8 @@
       "Liberate",
       "Free"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Subsume",
@@ -7882,7 +8341,8 @@
       "Remove"
     ],
     "example": "All exceptions are subsumed under this rule.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Subterfuge",
@@ -7897,7 +8357,8 @@
       "Honesty",
       "Openness"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Succumb",
@@ -7912,7 +8373,8 @@
       "Resist",
       "Overcome"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Supercilious",
@@ -7927,7 +8389,8 @@
       "Humble",
       "Respectful"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Supine",
@@ -7942,7 +8405,8 @@
       "Active",
       "Assertive"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Surreptitious",
@@ -7957,7 +8421,8 @@
       "Open",
       "Overt"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Sycophancy",
@@ -7977,7 +8442,8 @@
       "Independence"
     ],
     "example": "The boardroom was full of sycophancy.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Sycophant",
@@ -7992,7 +8458,8 @@
       "Critic",
       "Opponent"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Sycophantic",
@@ -8012,7 +8479,8 @@
       "Genuine"
     ],
     "example": "His sycophantic behaviour was transparent.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Tacit",
@@ -8032,7 +8500,8 @@
       "Direct"
     ],
     "example": "There was a tacit understanding between them.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Taciturn",
@@ -8047,7 +8516,8 @@
       "Talkative",
       "Loquacious"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Temerity",
@@ -8062,7 +8532,8 @@
       "Timidity",
       "Caution"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Temporal",
@@ -8082,7 +8553,8 @@
       "Eternal"
     ],
     "example": "The king held both temporal and spiritual power.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Tenacious",
@@ -8103,7 +8575,8 @@
       "Vacillating",
       "Fickle"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Tenuous",
@@ -8118,7 +8591,8 @@
       "Strong",
       "Firm"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Timorous",
@@ -8133,7 +8607,8 @@
       "Brave",
       "Confident"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Tirade",
@@ -8148,7 +8623,8 @@
       "Praise",
       "Compliment"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Toady",
@@ -8163,7 +8639,8 @@
       "Critic",
       "Opponent"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Torpid",
@@ -8183,7 +8660,8 @@
       "Vigorous"
     ],
     "example": "The heat left the workers torpid by afternoon.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Torpor",
@@ -8198,7 +8676,8 @@
       "Energy",
       "Vitality"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Tortuous",
@@ -8213,7 +8692,8 @@
       "Straight",
       "Direct"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Transgress",
@@ -8228,7 +8708,8 @@
       "Obey",
       "Comply"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Travesty",
@@ -8243,7 +8724,8 @@
       "Genuine",
       "Justice"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Treacherous",
@@ -8258,7 +8740,8 @@
       "Loyal",
       "Faithful"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Trepidation",
@@ -8273,7 +8756,8 @@
       "Confidence",
       "Courage"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Truculent",
@@ -8288,7 +8772,8 @@
       "Peaceful",
       "Gentle"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Turbid",
@@ -8303,7 +8788,8 @@
       "Clear",
       "Transparent"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Turgid",
@@ -8323,7 +8809,8 @@
       "Restrained"
     ],
     "example": "His turgid writing style bored the readers.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Turpitude",
@@ -8338,7 +8825,8 @@
       "Virtue",
       "Decency"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Unconscionable",
@@ -8353,7 +8841,8 @@
       "Fair",
       "Reasonable"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Unctuous",
@@ -8368,7 +8857,8 @@
       "Sincere",
       "Direct"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Undulate",
@@ -8383,7 +8873,8 @@
       "Stillness",
       "Steadiness"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Unflinching",
@@ -8398,7 +8889,8 @@
       "Hesitant",
       "Wavering"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Unrelenting",
@@ -8413,7 +8905,8 @@
       "Yielding",
       "Lenient"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Upbraid",
@@ -8433,7 +8926,8 @@
       "Approve"
     ],
     "example": "She upbraided him for his carelessness.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Vacillate",
@@ -8448,7 +8942,8 @@
       "Decide",
       "Commit"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Vacillation",
@@ -8468,7 +8963,8 @@
       "Certainty"
     ],
     "example": "His vacillation on the issue frustrated the team.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Venal",
@@ -8483,7 +8979,8 @@
       "Honest",
       "Incorruptible"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Venial",
@@ -8498,7 +8995,8 @@
       "Mortal",
       "Grave"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Veracious",
@@ -8518,7 +9016,8 @@
       "False"
     ],
     "example": "She gave a veracious account of the accident.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Verbatim",
@@ -8538,7 +9037,8 @@
       "Condensed"
     ],
     "example": "He quoted the passage verbatim.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Vernacular",
@@ -8558,7 +9058,8 @@
       "Literary"
     ],
     "example": "The poem was written in the local vernacular.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Vestige",
@@ -8578,7 +9079,8 @@
       "Plenty"
     ],
     "example": "There was not a vestige of truth in his claim.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Vicarious",
@@ -8593,7 +9095,8 @@
       "Direct",
       "First-hand"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Vilify",
@@ -8608,7 +9111,8 @@
       "Praise",
       "Honor"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Vindictive",
@@ -8623,7 +9127,8 @@
       "Forgiving",
       "Merciful"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Vitiate",
@@ -8638,7 +9143,8 @@
       "Purify",
       "Improve"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Vitriolic",
@@ -8653,7 +9159,8 @@
       "Mild",
       "Gentle"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Vituperate",
@@ -8673,7 +9180,8 @@
       "Honour"
     ],
     "example": "He vituperated his critics publicly.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Verb"
   },
   {
     "word": "Vociferous",
@@ -8688,7 +9196,8 @@
       "Quiet",
       "Silent"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Waive",
@@ -8708,7 +9217,8 @@
       "Maintain"
     ],
     "example": "The fee was waived for eligible candidates.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Wanton",
@@ -8723,7 +9233,8 @@
       "Justified",
       "Careful"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Wayward",
@@ -8738,7 +9249,8 @@
       "Obedient",
       "Disciplined"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Winsome",
@@ -8753,7 +9265,8 @@
       "Repulsive",
       "Unattractive"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Adjective"
   },
   {
     "word": "Zany",
@@ -8773,7 +9286,8 @@
       "Ordinary"
     ],
     "example": "His zany humour made everyone laugh.",
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   },
   {
     "word": "Zealotry",
@@ -8788,6 +9302,7 @@
       "Moderation",
       "Tolerance"
     ],
-    "category": "advanced"
+    "category": "advanced",
+    "part_of_speech": "Noun"
   }
 ]
