@@ -181,53 +181,26 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Row 1: greeting + settings
               Row(
                 children: [
                   const Icon(
                     Icons.waving_hand_rounded,
-                    size: 20,
+                    size: 18,
                     color: Color(0xFFF59E0B),
                   ),
-                  const SizedBox(width: 8),
-                  const Expanded(
+                  const SizedBox(width: 6),
+                  Flexible(
                     child: Text(
                       'Hello, Learner',
+                      overflow: TextOverflow.ellipsis,
                       style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w400,
+                        fontSize: 16,
+                        fontWeight: FontWeight.w500,
+                        color: context.textPrimary,
                       ),
                     ),
                   ),
-                  IconButton(
-                    tooltip: 'Settings',
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (_) => const SettingsScreen(),
-                        ),
-                      ).then((_) {
-                        if (mounted) {
-                          setState(() {});
-                          _loadPremiumMeta();
-                        }
-                      });
-                    },
-                    padding: const EdgeInsets.all(6),
-                    constraints: const BoxConstraints(),
-                    icon: Icon(
-                      Icons.settings_rounded,
-                      color: context.textSecondary,
-                      size: 22,
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 6),
-              // Row 2: streak + theme + search
-              Row(
-                children: [
+                  const SizedBox(width: 6),
                   if (currentStreak > 0) ...[
                     GestureDetector(
                       onTap: () => _showStreakSheet(),
@@ -259,7 +232,6 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                     ),
                     const SizedBox(width: 4),
                   ],
-                  const Spacer(),
                   ValueListenableBuilder<ThemeMode>(
                     valueListenable: themeNotifier,
                     builder: (_, mode, child) => IconButton(
@@ -289,6 +261,30 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                     constraints: const BoxConstraints(),
                     icon: Icon(
                       Icons.search_rounded,
+                      color: context.textSecondary,
+                      size: 22,
+                    ),
+                  ),
+                  const SizedBox(width: 4),
+                  IconButton(
+                    tooltip: 'Settings',
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) => const SettingsScreen(),
+                        ),
+                      ).then((_) {
+                        if (mounted) {
+                          setState(() {});
+                          _loadPremiumMeta();
+                        }
+                      });
+                    },
+                    padding: const EdgeInsets.all(6),
+                    constraints: const BoxConstraints(),
+                    icon: Icon(
+                      Icons.settings_rounded,
                       color: context.textSecondary,
                       size: 22,
                     ),
