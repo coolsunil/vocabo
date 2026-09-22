@@ -1348,5 +1348,302 @@
     "synonyms": [],
     "antonyms": [],
     "category": "sentence_improvement"
+  },
+  {
+    "question": "He was accused for the theft.",
+    "correct": "He was accused of the theft.",
+    "explanation_hi": "'Accused' के साथ preposition 'of' आता है।",
+    "explanation_en": "The correct phrase is 'accused of'; do not use 'for'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He died from cancer last year.",
+    "correct": "He died of cancer last year.",
+    "explanation_hi": "Disease/illness के कारण मृत्यु पर 'die of' प्रयोग होता है।",
+    "explanation_en": "Use 'die of' for disease or illness; 'die from' is used for injuries or external causes.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She is different than her sister.",
+    "correct": "She is different from her sister.",
+    "explanation_hi": "'Different' के साथ 'from' प्रयोग होता है, 'than' नहीं।",
+    "explanation_en": "Use 'different from'; 'different than' is non-standard in formal English.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She cannot cope up with the pressure.",
+    "correct": "She cannot cope with the pressure.",
+    "explanation_hi": "'Cope with' सही phrase है; 'cope up with' गलत है।",
+    "explanation_en": "The correct phrase is 'cope with'; 'cope up with' is an error.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She was angry on me for no reason.",
+    "correct": "She was angry with me for no reason.",
+    "explanation_hi": "किसी व्यक्ति पर गुस्से के लिए 'angry with' आता है।",
+    "explanation_en": "Use 'angry with' for a person; 'angry at' for a situation or thing.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is devoid from any sympathy.",
+    "correct": "He is devoid of any sympathy.",
+    "explanation_hi": "'Devoid' के साथ 'of' प्रयोग होता है।",
+    "explanation_en": "The correct phrase is 'devoid of'; do not use 'from'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She is conscious for her responsibilities.",
+    "correct": "She is conscious of her responsibilities.",
+    "explanation_hi": "'Conscious' के साथ 'of' प्रयोग होता है।",
+    "explanation_en": "The correct phrase is 'conscious of'; do not use 'for'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is ignorant about the rules.",
+    "correct": "He is ignorant of the rules.",
+    "explanation_hi": "'Ignorant' के साथ 'of' प्रयोग होता है।",
+    "explanation_en": "The correct phrase is 'ignorant of'; do not use 'about'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He was acquitted from all charges.",
+    "correct": "He was acquitted of all charges.",
+    "explanation_hi": "'Acquitted' के साथ 'of' प्रयोग होता है।",
+    "explanation_en": "The correct phrase is 'acquitted of'; do not use 'from'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He was convicted for murder.",
+    "correct": "He was convicted of murder.",
+    "explanation_hi": "'Convicted' के साथ 'of' प्रयोग होता है।",
+    "explanation_en": "The correct phrase is 'convicted of'; do not use 'for'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She objected his proposal strongly.",
+    "correct": "She objected to his proposal strongly.",
+    "explanation_hi": "'Object' के बाद 'to' आता है; direct object नहीं लेता।",
+    "explanation_en": "'Object' takes 'to'; it is not followed directly by an object.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is accustomed with working long hours.",
+    "correct": "He is accustomed to working long hours.",
+    "explanation_hi": "'Accustomed' के साथ 'to + gerund' आता है।",
+    "explanation_en": "Use 'accustomed to + gerund'; do not use 'with'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She is interested for classical music.",
+    "correct": "She is interested in classical music.",
+    "explanation_hi": "'Interested' के साथ 'in' प्रयोग होता है।",
+    "explanation_en": "The correct phrase is 'interested in'; do not use 'for'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is responsible of the entire project.",
+    "correct": "He is responsible for the entire project.",
+    "explanation_hi": "'Responsible' के साथ 'for' प्रयोग होता है।",
+    "explanation_en": "The correct phrase is 'responsible for'; do not use 'of'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The officer is pleased from your performance.",
+    "correct": "The officer is pleased with your performance.",
+    "explanation_hi": "'Pleased' के साथ 'with' प्रयोग होता है।",
+    "explanation_en": "The correct phrase is 'pleased with'; do not use 'from'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She is grateful for me for the help.",
+    "correct": "She is grateful to me for the help.",
+    "explanation_hi": "'Grateful to' (व्यक्ति के लिए) और 'grateful for' (कारण के लिए) — दोनों अलग हैं।",
+    "explanation_en": "Use 'grateful to someone for something'; not 'grateful for someone'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He is annoyed from the constant noise.",
+    "correct": "He is annoyed at the constant noise.",
+    "explanation_hi": "किसी बात पर गुस्से के लिए 'annoyed at/with' आता है, 'from' नहीं।",
+    "explanation_en": "Use 'annoyed at' for a situation or thing; 'annoyed with' for a person.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She complied to the new regulations.",
+    "correct": "She complied with the new regulations.",
+    "explanation_hi": "'Comply' के साथ 'with' प्रयोग होता है।",
+    "explanation_en": "The correct phrase is 'comply with'; do not use 'to'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "I sympathise for your loss.",
+    "correct": "I sympathise with you on your loss.",
+    "explanation_hi": "'Sympathise' के साथ 'with' (व्यक्ति) आता है।",
+    "explanation_en": "Use 'sympathise with someone'; not 'sympathise for'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Beware from strangers in this area.",
+    "correct": "Beware of strangers in this area.",
+    "explanation_hi": "'Beware' के साथ 'of' प्रयोग होता है।",
+    "explanation_en": "The correct phrase is 'beware of'; do not use 'from'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Him and his friend went to the market.",
+    "correct": "He and his friend went to the market.",
+    "explanation_hi": "Compound subject में subjective pronoun (He) आता है।",
+    "explanation_en": "Use subjective pronoun 'he' as part of a compound subject.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The book which I borrowed it is very useful.",
+    "correct": "The book which I borrowed is very useful.",
+    "explanation_hi": "Relative clause में extra pronoun (it) नहीं जोड़ते।",
+    "explanation_en": "Do not repeat the noun with a pronoun inside a relative clause.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The man which came here is my uncle.",
+    "correct": "The man who came here is my uncle.",
+    "explanation_hi": "Persons के लिए relative pronoun 'who' आता है, 'which' नहीं।",
+    "explanation_en": "Use 'who' for people, not 'which'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "This is a new innovation in science.",
+    "correct": "This is an innovation in science.",
+    "explanation_hi": "'Innovation' का अर्थ ही नया होता है; 'new' अनावश्यक है।",
+    "explanation_en": "'Innovation' already implies newness; 'new' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The past history of the region is fascinating.",
+    "correct": "The history of the region is fascinating.",
+    "explanation_hi": "'History' पहले से past को refer करता है; 'past' अनावश्यक है।",
+    "explanation_en": "'History' already refers to the past; 'past history' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Please repeat again what you said.",
+    "correct": "Please repeat what you said.",
+    "explanation_hi": "'Repeat' में दोबारा करने का अर्थ पहले से होता है; 'again' अनावश्यक है।",
+    "explanation_en": "'Repeat' already means to do again; 'again' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Please reduce down the volume of the music.",
+    "correct": "Please reduce the volume of the music.",
+    "explanation_hi": "'Reduce' में कम करने का अर्थ पहले से है; 'down' अनावश्यक है।",
+    "explanation_en": "'Reduce' already means to bring down; 'down' is redundant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "He seldom never comes late.",
+    "correct": "He seldom comes late.",
+    "explanation_hi": "'Seldom' और 'never' दोनों negative हैं; double negative गलत है।",
+    "explanation_en": "'Seldom' is already negative; adding 'never' creates an incorrect double negative.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Can you borrow me your pen for a minute?",
+    "correct": "Can you lend me your pen for a minute?",
+    "explanation_hi": "'Lend' = देना; 'borrow' = लेना। यहाँ देने की बात है; 'lend' सही है।",
+    "explanation_en": "'Lend' means to give temporarily; 'borrow' means to take. Use 'lend' when asking someone to give.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "The committee was comprised of ten members.",
+    "correct": "The committee comprised ten members.",
+    "explanation_hi": "'Comprise' का अर्थ है 'include करना'; 'comprised of' गलत है।",
+    "explanation_en": "'Comprise' means to consist of; say 'comprises' not 'is comprised of'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "She was so absorbed at her work that she forgot to eat.",
+    "correct": "She was so absorbed in her work that she forgot to eat.",
+    "explanation_hi": "'Absorbed' के साथ preposition 'in' आता है।",
+    "explanation_en": "The correct phrase is 'absorbed in'; do not use 'at'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Despite of the heavy rain, they continued the match.",
+    "correct": "Despite the heavy rain, they continued the match.",
+    "explanation_hi": "'Despite' के बाद 'of' नहीं आता। 'Despite' preposition है और directly noun/gerund लेता है।",
+    "explanation_en": "'Despite' is a preposition and is never followed by 'of'. 'In spite of' takes 'of', but 'despite' does not.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
+  },
+  {
+    "question": "Neither of the two candidates were selected for the post.",
+    "correct": "Neither of the two candidates was selected for the post.",
+    "explanation_hi": "'Neither' के साथ singular verb आती है — 'were' गलत, 'was' सही है।",
+    "explanation_en": "'Neither' is singular and always takes a singular verb. 'Were' is incorrect here; use 'was'.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "sentence_improvement"
   }
 ]

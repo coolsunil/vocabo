@@ -10,7 +10,9 @@ import 'package:share_plus/share_plus.dart';
 
 import '../data/bookmark_store.dart';
 import '../data/category_sources.dart';
+import '../data/daily_goal_store.dart';
 import '../data/premium_store.dart';
+import '../utils/app_colors.dart';
 import '../data/progress_store.dart';
 import '../models/word_model.dart';
 import '../widgets/cards/cloze_test_card.dart';
@@ -19,16 +21,19 @@ import '../widgets/cards/confusing_card.dart';
 import '../widgets/cards/core_card.dart';
 import '../widgets/cards/fixed_preposition_card.dart';
 import '../widgets/cards/idiom_card.dart';
+import '../widgets/cards/narration_card.dart';
 import '../widgets/cards/oneword_card.dart';
 import '../widgets/cards/sentence_improvement_card.dart';
 import '../widgets/cards/spelling_card.dart';
 import '../widgets/cards/synonym_card.dart';
+import '../widgets/cards/voices_card.dart';
 
 class LearnScreen extends StatefulWidget {
   final String category;
   final int? initialIndex;
+  final bool trackProgress;
 
-  const LearnScreen({super.key, required this.category, this.initialIndex});
+  const LearnScreen({super.key, required this.category, this.initialIndex, this.trackProgress = true});
 
   @override
   State<LearnScreen> createState() => _LearnScreenState();
@@ -39,6 +44,8 @@ class _LearnScreenState extends State<LearnScreen>
   static const Map<String, String> _learnTitles = {
     'core': 'Core Words',
     'synonyms': 'Synonyms & Antonyms',
+    'antonyms': 'Synonyms & Antonyms',
+    'synonyms_antonyms': 'Synonyms & Antonyms',
     'idioms': 'Idioms & Phrases',
     'confusing': 'Confusing Pairs',
     'oneword': 'One-word Substitutions',
@@ -53,6 +60,8 @@ class _LearnScreenState extends State<LearnScreen>
     'proverbs': 'Proverbs',
     'sentence_improvement': 'Sentence Improvement',
     'cloze_test': 'Cloze Test',
+    'voices': 'Active / Passive Voice',
+    'narration': 'Direct & Indirect Speech',
   };
 
   final ScreenshotController _screenshotController = ScreenshotController();
@@ -61,6 +70,9 @@ class _LearnScreenState extends State<LearnScreen>
   bool isLoading = true;
   List<Word> words = [];
   Set<int> bookmarkedIndices = {};
+
+  // PYQ evidence index: word_lower → [{exam, year, file, idx}]
+  Map<String, List<Map<String, dynamic>>> _pyqIndex = {};
 
   double _dragOffset = 0.0;
   bool _isThrowing = false;
@@ -78,6 +90,7 @@ class _LearnScreenState extends State<LearnScreen>
     _throwController = AnimationController(vsync: this);
     _throwAnim = Tween<double>(begin: 0, end: 0).animate(_throwController);
     loadWords();
+    _loadPyqIndex();
   }
 
   @override
@@ -122,7 +135,7 @@ class _LearnScreenState extends State<LearnScreen>
               width: 40,
               height: 4,
               decoration: BoxDecoration(
-                color: const Color(0xFFE2E8F0),
+                color: context.borderSubtle,
                 borderRadius: BorderRadius.circular(2),
               ),
             ),
@@ -138,21 +151,21 @@ class _LearnScreenState extends State<LearnScreen>
                   color: Color(0xFF059669), size: 40),
             ),
             const SizedBox(height: 16),
-            const Text(
+            Text(
               'Category complete!',
               style: TextStyle(
                 fontSize: 22,
                 fontWeight: FontWeight.w800,
-                color: Color(0xFF0F172A),
+                color: context.textPrimary,
               ),
             ),
             const SizedBox(height: 8),
             Text(
               'You\'ve gone through all ${words.length} words in $title.',
               textAlign: TextAlign.center,
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 15,
-                color: Color(0xFF64748B),
+                color: context.textSecondary,
                 height: 1.5,
               ),
             ),
@@ -217,14 +230,29 @@ class _LearnScreenState extends State<LearnScreen>
               minHeight: constraints.maxHeight,
               minWidth: constraints.maxWidth,
             ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [_buildCard(w, indexOverride: idx)],
-            ),
+            child: _buildCard(w, indexOverride: idx),
           ),
         );
       },
     );
+  }
+
+  Future<void> _loadPyqIndex() async {
+    try {
+      final raw = await rootBundle.loadString('assets/data/pyq_word_index.json');
+      final decoded = json.decode(raw) as Map<String, dynamic>;
+      if (mounted) {
+        setState(() {
+          _pyqIndex = decoded.map(
+            (k, v) => MapEntry(k, (v as List).cast<Map<String, dynamic>>()),
+          );
+        });
+      }
+    } catch (_) {}
+  }
+
+  List<Map<String, dynamic>> _pyqMatches(String word) {
+    return _pyqIndex[word.toLowerCase()] ?? [];
   }
 
   Future<void> loadWords() async {
@@ -300,16 +328,16 @@ class _LearnScreenState extends State<LearnScreen>
     }
     if (words.isEmpty) {
       return Scaffold(
-        backgroundColor: const Color(0xFFF5F7FA),
+        backgroundColor: context.scaffoldBg,
         appBar: AppBar(
           backgroundColor: const Color(0xFF1F3C6D),
           foregroundColor: Colors.white,
           title: Text(screenTitle),
         ),
-        body: const Center(
+        body: Center(
           child: Text(
             'No words found for this category yet.',
-            style: TextStyle(color: Color(0xFF475569)),
+            style: TextStyle(color: context.textSecondary),
           ),
         ),
       );
@@ -318,7 +346,7 @@ class _LearnScreenState extends State<LearnScreen>
     final word = words[currentIndex];
 
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F7FA),
+      backgroundColor: context.scaffoldBg,
       appBar: AppBar(
         backgroundColor: const Color(0xFF1F3C6D),
         foregroundColor: Colors.white,
@@ -442,6 +470,8 @@ class _LearnScreenState extends State<LearnScreen>
   Widget _buildShareCard(Word word) {
     switch (widget.category) {
       case 'synonyms':
+      case 'antonyms':
+      case 'synonyms_antonyms':
         return SynonymCard(
           word: word, isBookmarked: false,
           onBookmarkToggle: () {}, onShare: () {},
@@ -456,6 +486,12 @@ class _LearnScreenState extends State<LearnScreen>
       case 'confusing':
         return ConfusingCard(
           word: word, pairWord: _findConfusingPair(word),
+          isBookmarked: false, onBookmarkToggle: () {}, onShare: () {},
+          index: currentIndex + 1, total: words.length, shareMode: true,
+        );
+      case 'homophones':
+        return ConfusingCard(
+          word: word, pairWord: null,
           isBookmarked: false, onBookmarkToggle: () {}, onShare: () {},
           index: currentIndex + 1, total: words.length, shareMode: true,
         );
@@ -495,6 +531,18 @@ class _LearnScreenState extends State<LearnScreen>
           onBookmarkToggle: () {}, onShare: () {},
           index: currentIndex + 1, total: words.length, shareMode: true,
         );
+      case 'voices':
+        return VoicesCard(
+          word: word, isBookmarked: false,
+          onBookmarkToggle: () {}, onShare: () {},
+          index: currentIndex + 1, total: words.length, shareMode: true,
+        );
+      case 'narration':
+        return NarrationCard(
+          word: word, isBookmarked: false,
+          onBookmarkToggle: () {}, onShare: () {},
+          index: currentIndex + 1, total: words.length, shareMode: true,
+        );
       default:
         return CoreCard(
           word: word, isBookmarked: false,
@@ -505,11 +553,16 @@ class _LearnScreenState extends State<LearnScreen>
   }
 
   void _updateProgress() {
+    if (!widget.trackProgress) return;
+    final stored = progressStore[widget.category] ?? 0;
+    if (currentIndex > stored + 1) return;
+    final isNew = currentIndex + 1 > stored;
     updateProgressIfHigher(
       widget.category,
       currentIndex + 1,
       total: words.length,
     );
+    if (isNew) incrementDailyWords();
   }
 
   Future<void> _showJumpDialog() async {
@@ -641,9 +694,6 @@ class _LearnScreenState extends State<LearnScreen>
     setState(() {
       currentIndex = targetIndex;
     });
-    if (targetIndex + 1 > (progressStore[widget.category] ?? 0)) {
-      _updateProgress();
-    }
   }
 
   int? _findWordIndexByQuery(String query) {
@@ -722,13 +772,16 @@ class _LearnScreenState extends State<LearnScreen>
     final isBookmarked = bookmarkedIndices.contains(idx);
     switch (widget.category) {
       case 'synonyms':
+      case 'antonyms':
+      case 'synonyms_antonyms':
         return SynonymCard(
           word: word,
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
+          pyqMatches: _pyqMatches(word.word),
         );
       case 'idioms':
         return IdiomCard(
@@ -736,8 +789,9 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
+          pyqMatches: _pyqMatches(word.word),
         );
       case 'confusing':
         final pairWord = _findConfusingPair(word);
@@ -747,7 +801,17 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
+          total: words.length,
+        );
+      case 'homophones':
+        return ConfusingCard(
+          word: word,
+          pairWord: null,
+          isBookmarked: isBookmarked,
+          onBookmarkToggle: _toggleCurrentBookmark,
+          onShare: _shareCurrentCard,
+          index: idx + 1,
           total: words.length,
         );
       case 'oneword':
@@ -756,8 +820,9 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
+          pyqMatches: _pyqMatches(word.word),
         );
       case 'fixed_prepositions':
         return FixedPrepositionCard(
@@ -765,7 +830,7 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
         );
       case 'common_errors':
@@ -774,7 +839,7 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
         );
       case 'spellings':
@@ -783,7 +848,7 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
         );
       case 'sentence_improvement':
@@ -792,7 +857,7 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
         );
       case 'cloze_test':
@@ -801,8 +866,28 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
+        );
+      case 'voices':
+        return VoicesCard(
+          word: word,
+          isBookmarked: isBookmarked,
+          onBookmarkToggle: _toggleCurrentBookmark,
+          onShare: _shareCurrentCard,
+          index: idx + 1,
+          total: words.length,
+          pyqMatches: _pyqMatches(word.word),
+        );
+      case 'narration':
+        return NarrationCard(
+          word: word,
+          isBookmarked: isBookmarked,
+          onBookmarkToggle: _toggleCurrentBookmark,
+          onShare: _shareCurrentCard,
+          index: idx + 1,
+          total: words.length,
+          pyqMatches: _pyqMatches(word.word),
         );
       default:
         return CoreCard(
@@ -810,8 +895,9 @@ class _LearnScreenState extends State<LearnScreen>
           isBookmarked: isBookmarked,
           onBookmarkToggle: _toggleCurrentBookmark,
           onShare: _shareCurrentCard,
-          index: currentIndex + 1,
+          index: idx + 1,
           total: words.length,
+          pyqMatches: _pyqMatches(word.word),
         );
     }
   }

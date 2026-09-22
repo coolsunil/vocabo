@@ -36,6 +36,15 @@
     "category": "root_words"
   },
   {
+    "word": "aesth",
+    "meaning_hi": "अनुभूति / सौंदर्यबोध",
+    "meaning_en": "feeling or perception",
+    "example": "Aesthetic sense refers to the appreciation of beauty and artistic feeling.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
     "word": "agog",
     "meaning_hi": "नेता / मार्गदर्शक",
     "meaning_en": "leader or guide",
@@ -49,6 +58,15 @@
     "meaning_hi": "खेत",
     "meaning_en": "field",
     "example": "Agriculture is the science of cultivating fields.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "alb",
+    "meaning_hi": "सफ़ेद",
+    "meaning_en": "white",
+    "example": "An albino is a person born without pigment, resulting in white skin and hair.",
     "synonyms": [],
     "antonyms": [],
     "category": "root_words"
@@ -81,10 +99,28 @@
     "category": "root_words"
   },
   {
+    "word": "ambul",
+    "meaning_hi": "चलना",
+    "meaning_en": "walk",
+    "example": "An ambulance is a vehicle that walks the injured to medical care quickly.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
     "word": "amphi",
     "meaning_hi": "दोनों ओर",
     "meaning_en": "both sides",
     "example": "An amphibian lives on both land and in water.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "andr",
+    "meaning_hi": "पुरुष / नर",
+    "meaning_en": "man or male",
+    "example": "An android is a robot designed to resemble a human male in appearance.",
     "synonyms": [],
     "antonyms": [],
     "category": "root_words"
@@ -315,6 +351,15 @@
     "category": "root_words"
   },
   {
+    "word": "calc",
+    "meaning_hi": "पत्थर / चूना",
+    "meaning_en": "stone or limestone",
+    "example": "Calcium is a mineral derived from limestone found in bones and teeth.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
     "word": "cand",
     "meaning_hi": "चमकना",
     "meaning_en": "glow",
@@ -436,6 +481,15 @@
     "meaning_hi": "रसायन",
     "meaning_en": "chemical",
     "example": "Chemistry is the branch of science that studies chemical substances.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "chloro",
+    "meaning_hi": "हरा",
+    "meaning_en": "green",
+    "example": "Chlorophyll is the green pigment in plants responsible for photosynthesis.",
     "synonyms": [],
     "antonyms": [],
     "category": "root_words"
@@ -747,6 +801,15 @@
     "category": "root_words"
   },
   {
+    "word": "dextr",
+    "meaning_hi": "दायाँ / कुशल",
+    "meaning_en": "right hand or skilled",
+    "example": "An ambidextrous person is equally skilled with both the right and left hand.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
     "word": "dict",
     "meaning_hi": "कहना",
     "meaning_en": "to say",
@@ -882,6 +945,15 @@
     "category": "root_words"
   },
   {
+    "word": "eu",
+    "meaning_hi": "अच्छा / सुंदर",
+    "meaning_en": "good or well",
+    "example": "Euphoria is an intense feeling of great happiness and well-being.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
     "word": "ex",
     "meaning_hi": "बाहर / पूर्व",
     "meaning_en": "out or former",
@@ -994,6 +1066,15 @@
     "meaning_hi": "मोड़ना",
     "meaning_en": "bend",
     "example": "A flexible material is one that bends easily without breaking.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "flor",
+    "meaning_hi": "फूल",
+    "meaning_en": "flower",
+    "example": "Floral patterns are designs inspired by the shapes and colours of flowers.",
     "synonyms": [],
     "antonyms": [],
     "category": "root_words"
@@ -1152,7 +1233,7 @@
     "category": "root_words"
   },
   {
-    "word": "grad2",
+    "word": "grad",
     "meaning_hi": "उपाधि",
     "meaning_en": "degree or rank",
     "example": "Graduation marks the completion of a degree at a university.",
@@ -1206,7 +1287,7 @@
     "category": "root_words"
   },
   {
-    "word": "greg2",
+    "word": "greg",
     "meaning_hi": "सामाजिक",
     "meaning_en": "group",
     "example": "An egregious error is one that stands out badly from the group.",
@@ -1228,6 +1309,15 @@
     "meaning_hi": "रहना",
     "meaning_en": "live",
     "example": "A habitat is the natural environment where an animal lives.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "hedon",
+    "meaning_hi": "सुख / आनंद",
+    "meaning_en": "pleasure",
+    "example": "Hedonism is the belief that the pursuit of pleasure is the highest good.",
     "synonyms": [],
     "antonyms": [],
     "category": "root_words"
@@ -1422,6 +1512,15 @@
     "category": "root_words"
   },
   {
+    "word": "juxt",
+    "meaning_hi": "पास-पास / बगल में",
+    "meaning_en": "next to or beside",
+    "example": "To juxtapose two ideas means to place them next to each other for comparison.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
     "word": "kilo",
     "meaning_hi": "हजार",
     "meaning_en": "thousand",
@@ -1449,6 +1548,15 @@
     "category": "root_words"
   },
   {
+    "word": "laps",
+    "meaning_hi": "फिसलना / खिसकना",
+    "meaning_en": "slip or slide",
+    "example": "A relapse occurs when a patient who was recovering slips back into illness.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
     "word": "laryng",
     "meaning_hi": "कंठ",
     "meaning_en": "throat or larynx",
@@ -1462,6 +1570,15 @@
     "meaning_hi": "ले जाना",
     "meaning_en": "carry or bring",
     "example": "To translate means to carry meaning across from one language to another.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "laud",
+    "meaning_hi": "प्रशंसा करना",
+    "meaning_en": "praise",
+    "example": "Laudable behaviour deserves praise and recognition from others.",
     "synonyms": [],
     "antonyms": [],
     "category": "root_words"
@@ -1543,6 +1660,15 @@
     "meaning_hi": "अक्षर",
     "meaning_en": "letter",
     "example": "Literature consists of written works composed of letters.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "lith",
+    "meaning_hi": "पत्थर",
+    "meaning_en": "stone",
+    "example": "A monolith is a single large block of stone used as a monument or pillar.",
     "synonyms": [],
     "antonyms": [],
     "category": "root_words"
@@ -1719,7 +1845,7 @@
     "category": "root_words"
   },
   {
-    "word": "mar2",
+    "word": "mar",
     "meaning_hi": "समुद्र",
     "meaning_en": "sea",
     "example": "Submarine originally meant something beneath the sea.",
@@ -2187,7 +2313,7 @@
     "category": "root_words"
   },
   {
-    "word": "onym2",
+    "word": "onym",
     "meaning_hi": "नाम",
     "meaning_en": "name",
     "example": "An anonymous writer is one whose name is not known.",
@@ -2322,7 +2448,7 @@
     "category": "root_words"
   },
   {
-    "word": "pater2",
+    "word": "pater",
     "meaning_hi": "पिता",
     "meaning_en": "father",
     "example": "Paternity leave is given to a father after the birth of a child.",
@@ -2430,6 +2556,15 @@
     "category": "root_words"
   },
   {
+    "word": "petr",
+    "meaning_hi": "चट्टान / पत्थर",
+    "meaning_en": "rock or stone",
+    "example": "Petroleum is oil extracted from rock layers deep beneath the earth's surface.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
     "word": "phil",
     "meaning_hi": "प्रेम",
     "meaning_en": "love",
@@ -2475,10 +2610,28 @@
     "category": "root_words"
   },
   {
+    "word": "plac",
+    "meaning_hi": "शांत करना / प्रसन्न करना",
+    "meaning_en": "please or calm",
+    "example": "Placid describes a person or place that is calm and undisturbed.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
     "word": "plas",
     "meaning_hi": "आकार देना",
     "meaning_en": "form or mould",
     "example": "Plastic is a material that can be moulded into any form.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "plaud",
+    "meaning_hi": "ताली बजाना / सराहना",
+    "meaning_en": "clap or approve",
+    "example": "To applaud means to clap hands as a sign of approval and appreciation.",
     "synonyms": [],
     "antonyms": [],
     "category": "root_words"
@@ -2583,6 +2736,15 @@
     "category": "root_words"
   },
   {
+    "word": "pot",
+    "meaning_hi": "शक्ति / सामर्थ्य",
+    "meaning_en": "power or ability",
+    "example": "Omnipotent means having unlimited power or authority over everything.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
     "word": "pre",
     "meaning_hi": "पहले",
     "meaning_en": "before",
@@ -2628,7 +2790,7 @@
     "category": "root_words"
   },
   {
-    "word": "prim2",
+    "word": "prim",
     "meaning_hi": "प्रथम",
     "meaning_en": "first",
     "example": "A primate is the first or highest order of mammals.",
@@ -2925,7 +3087,7 @@
     "category": "root_words"
   },
   {
-    "word": "rog2",
+    "word": "rog",
     "meaning_hi": "पूछना",
     "meaning_en": "ask",
     "example": "To arrogate means to claim or ask for more than one deserves.",
@@ -2961,7 +3123,7 @@
     "category": "root_words"
   },
   {
-    "word": "rupt2",
+    "word": "rupt",
     "meaning_hi": "टूटना",
     "meaning_en": "break",
     "example": "Erupt means to break out suddenly with force.",
@@ -3019,6 +3181,15 @@
     "meaning_hi": "चढ़ना",
     "meaning_en": "climb",
     "example": "To ascend means to climb steadily upward.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "schiz",
+    "meaning_hi": "विभाजन / दरार",
+    "meaning_en": "split or divide",
+    "example": "Schizophrenia is a disorder involving a split between thought and reality.",
     "synonyms": [],
     "antonyms": [],
     "category": "root_words"
@@ -3159,7 +3330,7 @@
     "category": "root_words"
   },
   {
-    "word": "simul2",
+    "word": "simul",
     "meaning_hi": "नकल",
     "meaning_en": "imitate",
     "example": "To simulate means to imitate the conditions of a real situation.",
@@ -3258,7 +3429,7 @@
     "category": "root_words"
   },
   {
-    "word": "spec2",
+    "word": "spec",
     "meaning_hi": "देखना",
     "meaning_en": "look",
     "example": "A spectator is someone who looks on at an event or performance.",
@@ -3438,7 +3609,7 @@
     "category": "root_words"
   },
   {
-    "word": "tact2",
+    "word": "tact",
     "meaning_hi": "स्पर्श",
     "meaning_en": "touch",
     "example": "Contact means the act of physically touching something.",
@@ -3577,6 +3748,15 @@
     "meaning_hi": "ऊष्मा",
     "meaning_en": "heat",
     "example": "A thermostat automatically regulates the heat in a room.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "tort",
+    "meaning_hi": "मोड़ना / तड़पाना",
+    "meaning_en": "twist",
+    "example": "To distort means to twist something out of its natural or true shape.",
     "synonyms": [],
     "antonyms": [],
     "category": "root_words"
@@ -3879,6 +4059,15 @@
     "category": "root_words"
   },
   {
+    "word": "volunt",
+    "meaning_hi": "इच्छा / स्वेच्छा",
+    "meaning_en": "will or choice",
+    "example": "A volunteer is someone who chooses of their own free will to help others.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
     "word": "volv",
     "meaning_hi": "घुमाना",
     "meaning_en": "roll or turn",
@@ -3901,6 +4090,15 @@
     "meaning_hi": "साधारण / अश्लील",
     "meaning_en": "common or crude",
     "example": "Vulgar language is coarse and socially unacceptable in nature.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "root_words"
+  },
+  {
+    "word": "vulner",
+    "meaning_hi": "घाव / आहत",
+    "meaning_en": "wound",
+    "example": "Vulnerable people are those who are easily wounded or hurt, physically or emotionally.",
     "synonyms": [],
     "antonyms": [],
     "category": "root_words"

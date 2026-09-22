@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 
 import '../data/category_sources.dart';
 import '../models/word_model.dart';
+import '../utils/app_colors.dart';
 import 'learn_screen.dart';
 
 class SearchScreen extends StatefulWidget {
@@ -120,22 +121,22 @@ class _SearchScreenState extends State<SearchScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F7FA),
+      backgroundColor: context.scaffoldBg,
       appBar: AppBar(
-        backgroundColor: Colors.white,
-        foregroundColor: const Color(0xFF0F172A),
+        backgroundColor: context.cardBg,
+        foregroundColor: context.textPrimary,
         elevation: 0,
         scrolledUnderElevation: 1,
         title: TextField(
           controller: _controller,
           autofocus: true,
           textInputAction: TextInputAction.search,
-          decoration: const InputDecoration(
+          decoration: InputDecoration(
             hintText: 'Search words, meanings…',
             border: InputBorder.none,
-            hintStyle: TextStyle(color: Color(0xFF94A3B8)),
+            hintStyle: TextStyle(color: context.textSecondary),
           ),
-          style: const TextStyle(fontSize: 16, color: Color(0xFF0F172A)),
+          style: TextStyle(fontSize: 16, color: context.textPrimary),
         ),
         actions: [
           if (_controller.text.isNotEmpty)
@@ -148,24 +149,24 @@ class _SearchScreenState extends State<SearchScreen> {
       body: _loading
           ? const Center(child: CircularProgressIndicator())
           : _controller.text.trim().isEmpty
-              ? const Center(
+              ? Center(
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(Icons.search_rounded, size: 48, color: Color(0xFFCBD5E1)),
-                      SizedBox(height: 12),
+                      Icon(Icons.search_rounded, size: 48, color: context.borderMedium),
+                      const SizedBox(height: 12),
                       Text(
                         'Search across all categories',
-                        style: TextStyle(color: Color(0xFF94A3B8), fontSize: 15),
+                        style: TextStyle(color: context.textSecondary, fontSize: 15),
                       ),
                     ],
                   ),
                 )
               : _results.isEmpty
-                  ? const Center(
+                  ? Center(
                       child: Text(
                         'No results found',
-                        style: TextStyle(color: Color(0xFF94A3B8), fontSize: 15),
+                        style: TextStyle(color: context.textSecondary, fontSize: 15),
                       ),
                     )
                   : ListView.separated(
@@ -221,9 +222,9 @@ class _ResultTile extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: context.cardBg,
           borderRadius: BorderRadius.circular(14),
-          border: Border.all(color: const Color(0xFFE2E8F0)),
+          border: Border.all(color: context.borderSubtle),
         ),
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -234,19 +235,19 @@ class _ResultTile extends StatelessWidget {
                 children: [
                   Text(
                     result.word.word,
-                    style: const TextStyle(
+                    style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.w700,
-                      color: Color(0xFF0F172A),
+                      color: context.textPrimary,
                     ),
                   ),
                   if (brief.isNotEmpty) ...[
                     const SizedBox(height: 4),
                     Text(
                       brief,
-                      style: const TextStyle(
+                      style: TextStyle(
                         fontSize: 13,
-                        color: Color(0xFF64748B),
+                        color: context.textSecondary,
                         height: 1.4,
                       ),
                     ),

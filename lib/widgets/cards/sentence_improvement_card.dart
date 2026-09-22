@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../models/word_model.dart';
+import '../../utils/app_colors.dart';
 
 class SentenceImprovementCard extends StatelessWidget {
   final Word word;
@@ -25,10 +26,12 @@ class SentenceImprovementCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isDark = context.isDark;
+
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.all(24),
-      decoration: _decor(),
+      decoration: _decor(context),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -36,14 +39,13 @@ class SentenceImprovementCard extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                IconButton(
-                  icon: Icon(Icons.share_rounded, color: _accent),
-                  onPressed: onShare,
-                ),
+                IconButton(icon: Icon(Icons.share_rounded, color: context.textSecondary), onPressed: onShare),
                 IconButton(
                   icon: Icon(
                     isBookmarked ? Icons.bookmark : Icons.bookmark_border,
-                    color: _accent,
+                    color: isBookmarked
+                        ? (isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D))
+                        : context.textSecondary,
                   ),
                   onPressed: onBookmarkToggle,
                 ),
@@ -55,9 +57,9 @@ class SentenceImprovementCard extends StatelessWidget {
           const SizedBox(height: 8),
           _sentenceBox(
             word.word,
-            background: const Color(0xFFFFFBEB),
+            background: isDark ? const Color(0xFFD97706).withValues(alpha: 0.12) : const Color(0xFFFFFBEB),
             border: const Color(0xFFFCD34D),
-            textColor: const Color(0xFF92400E),
+            textColor: isDark ? const Color(0xFFFCD34D) : const Color(0xFF92400E),
           ),
 
           const SizedBox(height: 20),
@@ -66,22 +68,22 @@ class SentenceImprovementCard extends StatelessWidget {
           const SizedBox(height: 8),
           _sentenceBox(
             word.example,
-            background: const Color(0xFFF0FDF4),
+            background: isDark ? const Color(0xFF16A34A).withValues(alpha: 0.12) : const Color(0xFFF0FDF4),
             border: const Color(0xFF86EFAC),
-            textColor: const Color(0xFF166534),
+            textColor: isDark ? const Color(0xFF4ADE80) : const Color(0xFF166534),
           ),
 
           const SizedBox(height: 24),
           const Divider(),
           const SizedBox(height: 16),
 
-          _title('Explanation (Hindi)'),
+          _title(context, 'Explanation (Hindi)'),
           const SizedBox(height: 6),
-          _explanationBox(word.meaningHi),
+          _explanationBox(context, word.meaningHi),
 
           const SizedBox(height: 16),
 
-          _title('Explanation (English)'),
+          _title(context, 'Explanation (English)'),
           const SizedBox(height: 6),
           Text(word.meaningEn, style: const TextStyle(fontSize: 16)),
 
@@ -93,22 +95,19 @@ class SentenceImprovementCard extends StatelessWidget {
               value: total == 0 ? 0.0 : index / total,
               minHeight: 8,
               borderRadius: BorderRadius.circular(999),
-              backgroundColor: const Color(0xFFE2E8F0),
-              color: _accent,
+              backgroundColor: context.borderSubtle,
+              color: isDark ? context.textSecondary : _accent,
             ),
             const SizedBox(height: 10),
             Center(
               child: Text(
                 '$index/$total',
-                style: const TextStyle(
-                  color: Color(0xFF334155),
-                  fontWeight: FontWeight.w600,
-                ),
+                style: TextStyle(color: context.textSecondary, fontWeight: FontWeight.w600),
               ),
             ),
           ] else ...[
             const SizedBox(height: 20),
-            const Divider(color: Color(0xFFE2E8F0)),
+            Divider(color: context.borderSubtle),
             const SizedBox(height: 12),
             Row(
               children: [
@@ -117,19 +116,9 @@ class SentenceImprovementCard extends StatelessWidget {
                   child: Image.asset('assets/images/app_icon.png', width: 20, height: 20, fit: BoxFit.cover),
                 ),
                 const SizedBox(width: 6),
-                const Text(
-                  'Vocabo',
-                  style: TextStyle(
-                    color: Color(0xFF1F3C6D),
-                    fontWeight: FontWeight.w800,
-                    fontSize: 15,
-                  ),
-                ),
+                const Text('Vocabo', style: TextStyle(color: Color(0xFF1F3C6D), fontWeight: FontWeight.w800, fontSize: 15)),
                 const Spacer(),
-                const Text(
-                  'Build your vocabulary every day',
-                  style: TextStyle(color: Color(0xFF94A3B8), fontSize: 11),
-                ),
+                const Text('Build your vocabulary every day', style: TextStyle(color: Color(0xFF94A3B8), fontSize: 11)),
               ],
             ),
           ],
@@ -142,71 +131,42 @@ class SentenceImprovementCard extends StatelessWidget {
     children: [
       Icon(icon, color: color, size: 18),
       const SizedBox(width: 6),
-      Text(
-        label,
-        style: TextStyle(
-          fontSize: 15,
-          fontWeight: FontWeight.w700,
-          color: color,
-        ),
-      ),
+      Text(label, style: TextStyle(fontSize: 15, fontWeight: FontWeight.w700, color: color)),
     ],
   );
 
-  Widget _sentenceBox(
-    String text, {
-    required Color background,
-    required Color border,
-    required Color textColor,
-  }) => Container(
-    width: double.infinity,
-    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-    decoration: BoxDecoration(
-      color: background,
-      borderRadius: BorderRadius.circular(12),
-      border: Border.all(color: border, width: 1.2),
-    ),
-    child: Text(
-      text,
-      style: TextStyle(
-        fontSize: 18,
-        fontWeight: FontWeight.w600,
-        color: textColor,
+  Widget _sentenceBox(String text, {required Color background, required Color border, required Color textColor}) =>
+    Container(
+      width: double.infinity,
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+      decoration: BoxDecoration(
+        color: background,
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: border, width: 1.2),
       ),
-    ),
-  );
+      child: Text(text, style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600, color: textColor)),
+    );
 
-  Widget _title(String t) => Text(
+  Widget _title(BuildContext context, String t) => Text(
     t,
-    style: const TextStyle(
-      fontSize: 15,
-      fontWeight: FontWeight.w600,
-      color: Color(0xFF475569),
-    ),
+    style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600, color: context.textSecondary),
   );
 
-  Widget _explanationBox(String text) => Container(
+  Widget _explanationBox(BuildContext context, String text) => Container(
     padding: const EdgeInsets.all(12),
     decoration: BoxDecoration(
-      color: const Color(0xFFF8FAFC),
+      color: context.surfaceMuted,
       borderRadius: BorderRadius.circular(10),
-      border: Border.all(color: const Color(0xFFE2E8F0)),
+      border: Border.all(color: context.borderSubtle),
     ),
-    child: Text(
-      text,
-      style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
-    ),
+    child: Text(text, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w500)),
   );
 
-  BoxDecoration _decor() => BoxDecoration(
-    color: Colors.white,
+  BoxDecoration _decor(BuildContext context) => BoxDecoration(
+    color: context.cardBg,
     borderRadius: BorderRadius.circular(20),
     boxShadow: [
-      BoxShadow(
-        color: Colors.black.withValues(alpha: 0.06),
-        blurRadius: 15,
-        offset: const Offset(0, 8),
-      ),
+      BoxShadow(color: Colors.black.withValues(alpha: 0.06), blurRadius: 15, offset: const Offset(0, 8)),
     ],
   );
 }

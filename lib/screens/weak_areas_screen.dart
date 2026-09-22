@@ -1,8 +1,10 @@
 ﻿import 'package:flutter/material.dart';
 
 import '../data/premium_store.dart';
+import '../utils/app_colors.dart';
 import '../data/weak_areas_store.dart';
 import '../models/weak_attempt.dart';
+import 'practice_screen.dart';
 
 class WeakAreasScreen extends StatefulWidget {
   final String category;
@@ -81,11 +83,11 @@ class _WeakAreasScreenState extends State<WeakAreasScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F7FA),
+      backgroundColor: context.scaffoldBg,
       appBar: AppBar(
         backgroundColor: const Color(0xFF1F3C6D),
         foregroundColor: Colors.white,
-        title: Text('${widget.title} - Weak Areas'),
+        title: Text('${widget.title} — Weak Areas'),
         actions: attempts.isEmpty || isLocked
             ? null
             : [
@@ -99,99 +101,98 @@ class _WeakAreasScreenState extends State<WeakAreasScreen> {
       body: isLoading
           ? const Center(child: CircularProgressIndicator())
           : isLocked
-          ? _PremiumLockedWeakAreas(onRefresh: _loadAttempts)
-          : attempts.isEmpty
-          ? Center(
-              child: Padding(
-                padding: const EdgeInsets.all(24),
-                child: Container(
-                  padding: const EdgeInsets.all(24),
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(20),
-                    border: Border.all(color: const Color(0xFFE2E8F0)),
-                  ),
-                  child: const Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Icon(
-                        Icons.track_changes_rounded,
-                        size: 40,
-                        color: Color(0xFF1F3C6D),
-                      ),
-                      SizedBox(height: 14),
-                      Text(
-                        'No weak areas yet',
-                        style: TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w700,
-                          color: Color(0xFF0F172A),
+              ? _PremiumLockedWeakAreas(onRefresh: _loadAttempts)
+              : attempts.isEmpty
+                  ? Center(
+                      child: Padding(
+                        padding: const EdgeInsets.all(24),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            Icon(Icons.track_changes_rounded, size: 40, color: context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D)),
+                            SizedBox(height: 14),
+                            Text('No weak areas yet', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700, color: context.textPrimary)),
+                            SizedBox(height: 8),
+                            Text(
+                              'Wrong answers from Practice will appear here for focused revision.',
+                              textAlign: TextAlign.center,
+                              style: TextStyle(color: context.textSecondary, height: 1.45),
+                            ),
+                          ],
                         ),
                       ),
-                      SizedBox(height: 8),
-                      Text(
-                        'Wrong answers from Practice will appear here for focused revision.',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          color: Color(0xFF64748B),
-                          height: 1.45,
+                    )
+                  : Column(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.fromLTRB(16, 14, 16, 4),
+                          child: SizedBox(
+                            width: double.infinity,
+                            child: ElevatedButton.icon(
+                              onPressed: () => Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (_) => PracticeScreen(
+                                    category: widget.category,
+                                    title: widget.title,
+                                    weakAttempts: attempts,
+                                  ),
+                                ),
+                              ).then((_) => _loadAttempts()),
+                              icon: const Icon(Icons.play_arrow_rounded, size: 20),
+                              label: Text('Practice ${attempts.length} Weak Area${attempts.length == 1 ? '' : 's'}'),
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: const Color(0xFF1F3C6D),
+                                foregroundColor: Colors.white,
+                                padding: const EdgeInsets.symmetric(vertical: 14),
+                                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                              ),
+                            ),
+                          ),
                         ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            )
-          : ListView.builder(
-              padding: const EdgeInsets.all(16),
-              itemCount: attempts.length,
-              itemBuilder: (context, index) {
-                final attempt = attempts[index];
-                return Container(
-                  margin: const EdgeInsets.only(bottom: 12),
-                  padding: const EdgeInsets.all(16),
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(16),
-                    border: Border.all(color: const Color(0xFFE2E8F0)),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black.withValues(alpha: 0.04),
-                        blurRadius: 10,
-                        offset: const Offset(0, 4),
-                      ),
-                    ],
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        attempt.prompt,
-                        style: const TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.w700,
-                          color: Color(0xFF0F172A),
+                        Expanded(
+                          child: ListView.builder(
+                            padding: const EdgeInsets.all(16),
+                            itemCount: attempts.length,
+                            itemBuilder: (context, index) {
+                              final attempt = attempts[index];
+                              return Container(
+                                margin: const EdgeInsets.only(bottom: 12),
+                                padding: const EdgeInsets.all(16),
+                                decoration: BoxDecoration(
+                                  color: context.cardBg,
+                                  borderRadius: BorderRadius.circular(16),
+                                  border: Border.all(color: context.borderSubtle),
+                                  boxShadow: [
+                                    BoxShadow(color: Colors.black.withValues(alpha: 0.04), blurRadius: 10, offset: const Offset(0, 4)),
+                                  ],
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(attempt.prompt, style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700, color: context.textPrimary)),
+                                    const SizedBox(height: 12),
+                                    _AnswerChip(
+                                      label: 'Your answer',
+                                      value: attempt.selectedAnswer,
+                                      backgroundColor: context.isDark ? const Color(0xFFB91C1C).withValues(alpha: 0.15) : const Color(0xFFFEF2F2),
+                                      valueColor: const Color(0xFFB91C1C),
+                                    ),
+                                    const SizedBox(height: 8),
+                                    _AnswerChip(
+                                      label: 'Correct answer',
+                                      value: attempt.correctAnswer,
+                                      backgroundColor: context.isDark ? const Color(0xFF166534).withValues(alpha: 0.18) : const Color(0xFFF0FDF4),
+                                      valueColor: const Color(0xFF166534),
+                                    ),
+                                  ],
+                                ),
+                              );
+                            },
+                          ),
                         ),
-                      ),
-                      const SizedBox(height: 12),
-                      _AnswerChip(
-                        label: 'Your answer',
-                        value: attempt.selectedAnswer,
-                        backgroundColor: const Color(0xFFFEF2F2),
-                        valueColor: const Color(0xFFB91C1C),
-                      ),
-                      const SizedBox(height: 8),
-                      _AnswerChip(
-                        label: 'Correct answer',
-                        value: attempt.correctAnswer,
-                        backgroundColor: const Color(0xFFF0FDF4),
-                        valueColor: const Color(0xFF166534),
-                      ),
-                    ],
-                  ),
-                );
-              },
-            ),
+                      ],
+                    ),
     );
   }
 }
@@ -209,9 +210,9 @@ class _PremiumLockedWeakAreas extends StatelessWidget {
         child: Container(
           padding: const EdgeInsets.all(24),
           decoration: BoxDecoration(
-            color: Colors.white,
+            color: context.cardBg,
             borderRadius: BorderRadius.circular(20),
-            border: Border.all(color: const Color(0xFFE2E8F0)),
+            border: Border.all(color: context.borderSubtle),
           ),
           child: Column(
             mainAxisSize: MainAxisSize.min,
@@ -230,21 +231,21 @@ class _PremiumLockedWeakAreas extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 16),
-              const Text(
+              Text(
                 'Weak Areas is a premium feature',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.w700,
-                  color: Color(0xFF0F172A),
+                  color: context.textPrimary,
                 ),
               ),
               const SizedBox(height: 8),
-              const Text(
+              Text(
                 'Unlock focused mistake review so you can revisit wrong answers after practice.',
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  color: Color(0xFF64748B),
+                  color: context.textSecondary,
                   height: 1.45,
                 ),
               ),
@@ -295,10 +296,10 @@ class _AnswerChip extends StatelessWidget {
         children: [
           Text(
             label,
-            style: const TextStyle(
+            style: TextStyle(
               fontSize: 12,
               fontWeight: FontWeight.w700,
-              color: Color(0xFF64748B),
+              color: context.textSecondary,
             ),
           ),
           const SizedBox(height: 4),

@@ -120,6 +120,16 @@
     "origin": "Latin"
   },
   {
+    "word": "aficionado",
+    "meaning_hi": "शौकीन / उत्साही प्रशंसक",
+    "meaning_en": "a person who is enthusiastic about a particular activity or subject",
+    "example": "He is a passionate aficionado of classical Hindustani music.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Spanish"
+  },
+  {
     "word": "alchemy",
     "meaning_hi": "कीमिया / रूपांतरण की विद्या",
     "meaning_en": "an ancient precursor to chemistry; any mysterious transformation",
@@ -238,6 +248,16 @@
     "antonyms": [],
     "category": "foreign_words",
     "origin": "Arabic"
+  },
+  {
+    "word": "au courant",
+    "meaning_hi": "अद्यतन / नई जानकारी रखने वाला",
+    "meaning_en": "fully informed about current events and trends",
+    "example": "A good civil servant must remain au courant with policy developments.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "French"
   },
   {
     "word": "au fait",
@@ -460,6 +480,16 @@
     "origin": "French"
   },
   {
+    "word": "cognoscenti",
+    "meaning_hi": "विशेषज्ञ जन / पारखी वर्ग",
+    "meaning_en": "people with superior knowledge or understanding of a subject",
+    "example": "The cognoscenti recognised the forgery immediately, though the public was deceived.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Italian"
+  },
+  {
     "word": "communiqué",
     "meaning_hi": "आधिकारिक संदेश",
     "meaning_en": "an official communication or statement",
@@ -474,6 +504,26 @@
     "meaning_hi": "विशेषज्ञ / पारखी",
     "meaning_en": "an expert judge in matters of taste",
     "example": "He was a connoisseur of classical music and rare manuscripts.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "French"
+  },
+  {
+    "word": "consensus ad idem",
+    "meaning_hi": "मनों का मिलन / एकमत",
+    "meaning_en": "a meeting of minds; mutual agreement on the same thing (essential for a valid contract)",
+    "example": "The court held there was no consensus ad idem and therefore no binding contract.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Latin"
+  },
+  {
+    "word": "contretemps",
+    "meaning_hi": "अप्रिय घटना / मामूली विवाद",
+    "meaning_en": "a minor dispute or embarrassing mishap",
+    "example": "A diplomatic contretemps over protocol delayed the formal signing ceremony.",
     "synonyms": [],
     "antonyms": [],
     "category": "foreign_words",
@@ -570,6 +620,16 @@
     "origin": "Latin"
   },
   {
+    "word": "dharma",
+    "meaning_hi": "धर्म / कर्तव्य / नैतिक व्यवस्था",
+    "meaning_en": "moral duty, cosmic order and righteous conduct in Hindu and Buddhist philosophy",
+    "example": "Arjuna's crisis in the Gita is essentially a conflict between personal grief and dharma.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Sanskrit"
+  },
+  {
     "word": "doppelganger",
     "meaning_hi": "हमशक्ल / परछाईं",
     "meaning_en": "a person who looks exactly like another",
@@ -604,6 +664,26 @@
     "meaning_hi": "पहले अनुभव की भावना",
     "meaning_en": "an uncanny feeling of having experienced something before",
     "example": "Walking through the old town gave her a strong sense of déjà vu.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "French"
+  },
+  {
+    "word": "dénouement",
+    "meaning_hi": "कथा का अंतिम समाधान",
+    "meaning_en": "the final resolution or unravelling of a plot in a narrative",
+    "example": "The dénouement of the novel revealed that the narrator was the true culprit.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "French"
+  },
+  {
+    "word": "détente",
+    "meaning_hi": "तनाव में कमी / मैत्री",
+    "meaning_en": "the relaxation of strained relations between nations",
+    "example": "The Cold War era witnessed periods of détente between the superpowers.",
     "synonyms": [],
     "antonyms": [],
     "category": "foreign_words",
@@ -678,6 +758,16 @@
     "antonyms": [],
     "category": "foreign_words",
     "origin": "Greek"
+  },
+  {
+    "word": "entente",
+    "meaning_hi": "सहमति / मैत्री-सन्धि",
+    "meaning_en": "a friendly understanding or informal alliance between states",
+    "example": "The Triple Entente of 1907 reshaped the balance of power in Europe.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "French"
   },
   {
     "word": "entrepreneur",
@@ -810,6 +900,16 @@
     "origin": "French"
   },
   {
+    "word": "fatwa",
+    "meaning_hi": "फतवा / धार्मिक आदेश",
+    "meaning_en": "a formal ruling on a point of Islamic law issued by a recognised religious authority",
+    "example": "A fatwa on the matter was issued by the religious council after deliberation.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Arabic"
+  },
+  {
     "word": "faux pas",
     "meaning_hi": "सामाजिक गलती",
     "meaning_en": "an embarrassing social blunder",
@@ -840,6 +940,16 @@
     "origin": "Spanish"
   },
   {
+    "word": "gauche",
+    "meaning_hi": "अशिष्ट / सामाजिक दृष्टि से अकुशल",
+    "meaning_en": "lacking social grace or tact; awkward in behaviour",
+    "example": "His gauche remark at the dinner table embarrassed everyone present.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "French"
+  },
+  {
     "word": "genre",
     "meaning_hi": "शैली / विधा",
     "meaning_en": "a category of artistic composition characterised by style",
@@ -858,6 +968,16 @@
     "antonyms": [],
     "category": "foreign_words",
     "origin": "German"
+  },
+  {
+    "word": "glasnost",
+    "meaning_hi": "खुलेपन की नीति",
+    "meaning_en": "the Soviet policy of openness and transparency introduced by Gorbachev",
+    "example": "Glasnost allowed Soviet citizens to openly criticise government policies for the first time.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Russian"
   },
   {
     "word": "graffiti",
@@ -1080,6 +1200,16 @@
     "origin": "Italian"
   },
   {
+    "word": "incommunicado",
+    "meaning_hi": "संपर्क से कटा हुआ",
+    "meaning_en": "without means of communication; held without contact with others",
+    "example": "The suspect was held incommunicado for forty-eight hours after arrest.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Spanish"
+  },
+  {
     "word": "influenza",
     "meaning_hi": "इन्फ्लूएंजा / फ्लू",
     "meaning_en": "a contagious respiratory illness caused by influenza viruses",
@@ -1090,10 +1220,30 @@
     "origin": "Italian"
   },
   {
+    "word": "intelligentsia",
+    "meaning_hi": "बुद्धिजीवी वर्ग",
+    "meaning_en": "the intellectuals and educated class of a society, especially those with political influence",
+    "example": "The intelligentsia played a decisive role in shaping the independence movement.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Russian"
+  },
+  {
     "word": "inter alia",
     "meaning_hi": "अन्य बातों के अलावा",
     "meaning_en": "among other things",
     "example": "The report covered, inter alia, issues of taxation and unemployment.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Latin"
+  },
+  {
+    "word": "inter se",
+    "meaning_hi": "आपस में / एक-दूसरे के बीच",
+    "meaning_en": "among themselves; between or amongst the parties themselves",
+    "example": "The rights of the partners inter se are governed by the partnership deed.",
     "synonyms": [],
     "antonyms": [],
     "category": "foreign_words",
@@ -1128,6 +1278,16 @@
     "antonyms": [],
     "category": "foreign_words",
     "origin": "French"
+  },
+  {
+    "word": "jihad",
+    "meaning_hi": "जिहाद / संघर्ष",
+    "meaning_en": "a spiritual struggle or holy effort; also used to mean armed struggle in defence of Islam",
+    "example": "Many scholars argue that jihad primarily refers to an inner moral struggle.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Arabic"
   },
   {
     "word": "joie de vivre",
@@ -1240,6 +1400,16 @@
     "origin": "French"
   },
   {
+    "word": "lebensraum",
+    "meaning_hi": "जीवन-स्थान / विस्तारवाद",
+    "meaning_en": "living space claimed by a state for its expanding population; used in Nazi expansionist ideology",
+    "example": "Hitler's demand for lebensraum was a driving force behind German aggression in the 1930s.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "German"
+  },
+  {
     "word": "leitmotif",
     "meaning_hi": "आवर्ती विषय / मुख्य धुन",
     "meaning_en": "a recurring theme associated with a person or idea",
@@ -1264,6 +1434,16 @@
     "meaning_hi": "संपर्क भाषा",
     "meaning_en": "a language adopted for communication between speakers of different languages",
     "example": "English serves as the global lingua franca of science and commerce.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Latin"
+  },
+  {
+    "word": "locus classicus",
+    "meaning_hi": "प्रामाणिक उद्धरण / मानक स्थान",
+    "meaning_en": "the best-known or most authoritative passage on a subject",
+    "example": "The Supreme Court judgment is the locus classicus on the right to equality.",
     "synonyms": [],
     "antonyms": [],
     "category": "foreign_words",
@@ -1370,6 +1550,16 @@
     "origin": "Latin"
   },
   {
+    "word": "milieu",
+    "meaning_hi": "सामाजिक परिवेश",
+    "meaning_en": "a person's social environment or surroundings",
+    "example": "The writer drew on the milieu of rural India for his most celebrated novels.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "French"
+  },
+  {
     "word": "modus operandi",
     "meaning_hi": "कार्य-प्रणाली / तरीका",
     "meaning_en": "the particular way in which something operates or is done",
@@ -1470,6 +1660,26 @@
     "origin": "Latin"
   },
   {
+    "word": "noblesse oblige",
+    "meaning_hi": "कुलीनता का दायित्व",
+    "meaning_en": "the principle that privilege entails responsibility towards those less fortunate",
+    "example": "Acting on noblesse oblige, the industrialist funded a hundred village schools.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "French"
+  },
+  {
+    "word": "nom de guerre",
+    "meaning_hi": "संघर्ष में प्रयुक्त उपनाम",
+    "meaning_en": "an assumed name used in public activities, activism or combat",
+    "example": "The rebel commander was known only by his nom de guerre.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "French"
+  },
+  {
     "word": "nom de plume",
     "meaning_hi": "उपनाम (लेखक का)",
     "meaning_en": "a pen name adopted by a writer",
@@ -1512,18 +1722,8 @@
   {
     "word": "nota bene",
     "meaning_hi": "ध्यान दें",
-    "meaning_en": "note carefully; used to draw attention to something important",
+    "meaning_en": "note carefully (abbreviated N.B.); used to draw attention to something important",
     "example": "Nota bene: all applications submitted after the deadline will be rejected.",
-    "synonyms": [],
-    "antonyms": [],
-    "category": "foreign_words",
-    "origin": "Latin"
-  },
-  {
-    "word": "nota bene (N.B.)",
-    "meaning_hi": "ध्यान दीजिए",
-    "meaning_en": "note well; used to direct special attention",
-    "example": "N.B.: All candidates must carry their original identity proof.",
     "synonyms": [],
     "antonyms": [],
     "category": "foreign_words",
@@ -1640,6 +1840,16 @@
     "origin": "Latin"
   },
   {
+    "word": "perestroika",
+    "meaning_hi": "पुनर्गठन की नीति",
+    "meaning_en": "the Soviet policy of economic and political restructuring introduced by Gorbachev",
+    "example": "Perestroika aimed to modernise the Soviet economy through limited market reforms.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Russian"
+  },
+  {
     "word": "persona",
     "meaning_hi": "व्यक्तित्व / छवि",
     "meaning_en": "the aspect of one's character presented to the public",
@@ -1720,6 +1930,16 @@
     "origin": "Latin"
   },
   {
+    "word": "prima donna",
+    "meaning_hi": "मुख्य गायिका / अहंकारी व्यक्ति",
+    "meaning_en": "the chief female singer in an opera; informally, a self-important temperamental person",
+    "example": "Despite her talent, her prima donna behaviour alienated the entire team.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Italian"
+  },
+  {
     "word": "prima facie",
     "meaning_hi": "प्रथम दृष्टया",
     "meaning_en": "based on the first impression; accepted until disproved",
@@ -1754,6 +1974,16 @@
     "meaning_hi": "अनुपात के अनुसार",
     "meaning_en": "proportional to a particular factor",
     "example": "Employees who joined mid-year received a pro rata share of the annual bonus.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Latin"
+  },
+  {
+    "word": "pro tempore",
+    "meaning_hi": "अस्थायी रूप से / इस समय के लिए",
+    "meaning_en": "for the time being; temporarily serving in a capacity",
+    "example": "The senior minister presided over the session as Speaker pro tempore.",
     "synonyms": [],
     "antonyms": [],
     "category": "foreign_words",
@@ -1800,6 +2030,16 @@
     "origin": "Latin"
   },
   {
+    "word": "quo warranto",
+    "meaning_hi": "किस अधिकार से",
+    "meaning_en": "a writ requiring a person to show the authority by which they hold a public office",
+    "example": "The High Court issued a writ of quo warranto to question the irregular appointment.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Latin"
+  },
+  {
     "word": "quorum",
     "meaning_hi": "कोरम / न्यूनतम सदस्य संख्या",
     "meaning_en": "the minimum number of members required for a valid meeting",
@@ -1808,6 +2048,16 @@
     "antonyms": [],
     "category": "foreign_words",
     "origin": "Latin"
+  },
+  {
+    "word": "raconteur",
+    "meaning_hi": "कहानीकार / किस्सागो",
+    "meaning_en": "a person who tells anecdotes in a skilful and entertaining way",
+    "example": "A gifted raconteur, he could hold any audience with his tales of adventure.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "French"
   },
   {
     "word": "raison d'être",
@@ -1938,6 +2188,16 @@
     "antonyms": [],
     "category": "foreign_words",
     "origin": "Arabic"
+  },
+  {
+    "word": "samurai",
+    "meaning_hi": "समुराई / जापानी योद्धा",
+    "meaning_en": "a member of the Japanese feudal warrior class bound by a strict code of honour",
+    "example": "The samurai code of bushido emphasised loyalty, honour and martial skill.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Japanese"
   },
   {
     "word": "savoir faire",
@@ -2114,6 +2374,26 @@
     "meaning_hi": "अपनी तरह का अनोखा",
     "meaning_en": "unique; constituting a class of its own",
     "example": "The court held that the case was sui generis and required special consideration.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Latin"
+  },
+  {
+    "word": "sui juris",
+    "meaning_hi": "पूर्ण कानूनी अधिकार सम्पन्न",
+    "meaning_en": "of full legal capacity; able to manage one's own affairs",
+    "example": "Only a person who is sui juris can enter into a binding contract.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Latin"
+  },
+  {
+    "word": "summum bonum",
+    "meaning_hi": "परम भलाई",
+    "meaning_en": "the highest good or ultimate aim of human conduct",
+    "example": "Philosophers have long debated whether happiness or virtue is the summum bonum.",
     "synonyms": [],
     "antonyms": [],
     "category": "foreign_words",
@@ -2338,6 +2618,16 @@
     "antonyms": [],
     "category": "foreign_words",
     "origin": "Italian"
+  },
+  {
+    "word": "vis major",
+    "meaning_hi": "अप्रतिरोध्य शक्ति / प्राकृतिक आपदा",
+    "meaning_en": "a superior force beyond human control; an act of God that excuses non-performance",
+    "example": "The contractor invoked vis major after the earthquake destroyed the site.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "foreign_words",
+    "origin": "Latin"
   },
   {
     "word": "vis-à-vis",

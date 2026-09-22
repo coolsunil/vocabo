@@ -10,6 +10,7 @@ class Word {
   final String spellingTip;
   final List<String> options;
   final String origin;
+  final String partOfSpeech;
 
   Word({
     required this.word,
@@ -23,6 +24,7 @@ class Word {
     this.spellingTip = '',
     this.options = const [],
     this.origin = '',
+    this.partOfSpeech = '',
   });
 
   factory Word.fromJson(Map<String, dynamic> json) {
@@ -34,7 +36,7 @@ class Word {
       // common_errors / sentence_improvement → "explanation_en"
       meaningEn: json['meaning_en'] ?? json['explanation_en'] ?? '',
       // common_errors / sentence_improvement → "correct", cloze_test → "answer"
-      example: json['example'] ?? json['correct'] ?? json['answer'] ?? '',
+      example: json['example'] ?? json['correct'] ?? json['answer'] ?? json['phrase'] ?? '',
       synonyms: json['synonyms'] != null
           ? List<String>.from(json['synonyms'])
           : <String>[],
@@ -50,6 +52,7 @@ class Word {
           ? List<String>.from(json['options'])
           : <String>[],
       origin: json['origin'] ?? '',
+      partOfSpeech: json['part_of_speech'] ?? '',
     );
   }
 }

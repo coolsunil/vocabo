@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../models/word_model.dart';
+import '../../utils/app_colors.dart';
+import '../../utils/underline_example.dart';
 
 class FixedPrepositionCard extends StatelessWidget {
   final Word word;
@@ -21,7 +23,8 @@ class FixedPrepositionCard extends StatelessWidget {
     this.shareMode = false,
   });
 
-  static const _accent = Color(0xFF0F766E);
+  static const _accentDark  = Color(0xFF2DD4BF); // teal-300 — readable on dark bg
+  static const _accentLight = Color(0xFF0F766E); // teal-700
 
   static const _prepositions = {
     'of', 'to', 'for', 'with', 'on', 'at', 'from', 'by', 'about', 'in',
@@ -30,7 +33,6 @@ class FixedPrepositionCard extends StatelessWidget {
     'toward', 'towards', 'under', 'upon', 'within', 'without', 'near',
   };
 
-  // Returns [base, preposition]. Splits at the first preposition token.
   List<String> _splitWord() {
     final parts = word.word.split(' ');
     for (int i = 0; i < parts.length; i++) {
@@ -49,11 +51,12 @@ class FixedPrepositionCard extends StatelessWidget {
     final split = _splitWord();
     final base = split[0];
     final prep = split[1];
+    final accent = context.isDark ? _accentDark : _accentLight;
 
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.all(24),
-      decoration: _decor(),
+      decoration: _decor(context),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -62,13 +65,15 @@ class FixedPrepositionCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 IconButton(
-                  icon: Icon(Icons.share_rounded, color: _accent),
+                  icon: Icon(Icons.share_rounded, color: context.textSecondary),
                   onPressed: onShare,
                 ),
                 IconButton(
                   icon: Icon(
                     isBookmarked ? Icons.bookmark : Icons.bookmark_border,
-                    color: _accent,
+                    color: isBookmarked
+                        ? (context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D))
+                        : context.textSecondary,
                   ),
                   onPressed: onBookmarkToggle,
                 ),
@@ -83,56 +88,34 @@ class FixedPrepositionCard extends StatelessWidget {
               spacing: 8,
               children: [
                 if (base.isNotEmpty)
-                  Text(
-                    base,
-                    style: const TextStyle(
-                      fontSize: 34,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
+                  Text(base, style: const TextStyle(fontSize: 34, fontWeight: FontWeight.bold)),
                 if (prep.isNotEmpty)
                   Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 10,
-                      vertical: 4,
-                    ),
+                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
                     decoration: BoxDecoration(
-                      color: _accent.withValues(alpha: 0.13),
+                      color: accent.withValues(alpha: 0.13),
                       borderRadius: BorderRadius.circular(8),
-                      border: Border.all(
-                        color: _accent.withValues(alpha: 0.35),
-                        width: 1.2,
-                      ),
+                      border: Border.all(color: accent.withValues(alpha: 0.35), width: 1.2),
                     ),
                     child: Text(
                       prep,
-                      style: const TextStyle(
-                        fontSize: 34,
-                        fontWeight: FontWeight.bold,
-                        color: _accent,
-                      ),
+                      style: TextStyle(fontSize: 34, fontWeight: FontWeight.bold, color: accent),
                     ),
                   ),
                 if (base.isEmpty && prep.isEmpty)
-                  Text(
-                    word.word,
-                    style: const TextStyle(
-                      fontSize: 34,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
+                  Text(word.word, style: const TextStyle(fontSize: 34, fontWeight: FontWeight.bold)),
               ],
             ),
           ),
           const SizedBox(height: 24),
 
-          _title("Hindi Meaning"),
+          _title(context, "Hindi Meaning"),
           const SizedBox(height: 6),
-          _highlight(word.meaningHi),
+          _highlight(context, word.meaningHi, accent),
 
           const SizedBox(height: 20),
 
-          _title("English Meaning"),
+          _title(context, "English Meaning"),
           const SizedBox(height: 6),
           Text(word.meaningEn, style: const TextStyle(fontSize: 18)),
 
@@ -140,28 +123,25 @@ class FixedPrepositionCard extends StatelessWidget {
             const SizedBox(height: 20),
             const Divider(),
             const SizedBox(height: 20),
-            _title("Example"),
-            Text(word.example, style: const TextStyle(fontSize: 17)),
+            _title(context, "Example"),
+            buildUnderlinedExample(
+              context, word.example, [word.word],
+              baseStyle: const TextStyle(fontSize: 17),
+            ),
           ],
 
           if (word.synonyms.isNotEmpty) ...[
             const SizedBox(height: 20),
             const Divider(),
             const SizedBox(height: 20),
-            _title("Synonyms"),
-            Text(
-              word.synonyms.join(', '),
-              style: const TextStyle(fontSize: 17),
-            ),
+            _title(context, "Synonyms"),
+            Text(word.synonyms.join(', '), style: const TextStyle(fontSize: 17)),
           ],
 
           if (word.antonyms.isNotEmpty) ...[
             const SizedBox(height: 16),
-            _title("Antonyms"),
-            Text(
-              word.antonyms.join(', '),
-              style: const TextStyle(fontSize: 17),
-            ),
+            _title(context, "Antonyms"),
+            Text(word.antonyms.join(', '), style: const TextStyle(fontSize: 17)),
           ],
 
           if (!shareMode) ...[
@@ -172,22 +152,22 @@ class FixedPrepositionCard extends StatelessWidget {
               value: total == 0 ? 0.0 : index / total,
               minHeight: 8,
               borderRadius: BorderRadius.circular(999),
-              backgroundColor: const Color(0xFFE2E8F0),
-              color: _accent,
+              backgroundColor: context.borderSubtle,
+              color: accent,
             ),
             const SizedBox(height: 10),
             Center(
               child: Text(
                 '$index/$total',
-                style: const TextStyle(
-                  color: Color(0xFF334155),
+                style: TextStyle(
+                  color: context.textSecondary,
                   fontWeight: FontWeight.w600,
                 ),
               ),
             ),
           ] else ...[
             const SizedBox(height: 20),
-            const Divider(color: Color(0xFFE2E8F0)),
+            Divider(color: context.borderSubtle),
             const SizedBox(height: 12),
             Row(
               children: [
@@ -217,46 +197,41 @@ class FixedPrepositionCard extends StatelessWidget {
     );
   }
 
-  Widget _title(String t) => Text(
+  Widget _title(BuildContext context, String t) => Text(
     t,
     style: TextStyle(
       fontSize: 16,
       fontWeight: FontWeight.w600,
-      color: _headingColor(t),
+      color: _headingColor(context, t),
     ),
   );
 
-  Color _headingColor(String title) {
+  Color _headingColor(BuildContext context, String title) {
+    final dark = context.isDark;
     switch (title) {
-      case 'Hindi Meaning':
-        return const Color(0xFF4338CA);
-      case 'English Meaning':
-        return _accent;
-      case 'Example':
-        return const Color(0xFFB45309);
-      case 'Synonyms':
-        return const Color(0xFF1D4ED8);
-      case 'Antonyms':
-        return const Color(0xFFB91C1C);
-      default:
-        return Colors.grey.shade600;
+      case 'Hindi Meaning':   return dark ? const Color(0xFF818CF8) : const Color(0xFF4338CA);
+      case 'English Meaning': return dark ? const Color(0xFF2DD4BF) : _accentLight;
+      case 'Example':         return dark ? const Color(0xFFFBBF24) : const Color(0xFFB45309);
+      case 'Synonyms':        return dark ? const Color(0xFF60A5FA) : const Color(0xFF1D4ED8);
+      case 'Antonyms':        return dark ? const Color(0xFFF87171) : const Color(0xFFB91C1C);
+      default:                return dark ? const Color(0xFF94A3B8) : Colors.grey.shade600;
     }
   }
 
-  Widget _highlight(String text) => Container(
+  Widget _highlight(BuildContext context, String text, Color accent) => Container(
     padding: const EdgeInsets.all(12),
     decoration: BoxDecoration(
-      color: _accent.withValues(alpha: 0.07),
+      color: accent.withValues(alpha: context.isDark ? 0.22 : 0.07),
       borderRadius: BorderRadius.circular(12),
     ),
     child: Text(
       text,
-      style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w600),
+      style: TextStyle(fontSize: 24, fontWeight: FontWeight.w600, color: context.textPrimary),
     ),
   );
 
-  BoxDecoration _decor() => BoxDecoration(
-    color: Colors.white,
+  BoxDecoration _decor(BuildContext context) => BoxDecoration(
+    color: context.cardBg,
     borderRadius: BorderRadius.circular(20),
     boxShadow: [
       BoxShadow(

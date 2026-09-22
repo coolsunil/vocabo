@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../models/word_model.dart';
+import '../../utils/app_colors.dart';
+import '../../utils/underline_example.dart';
 
 class SpellingCard extends StatelessWidget {
   final Word word;
@@ -28,7 +30,7 @@ class SpellingCard extends StatelessWidget {
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.all(24),
-      decoration: _decor(),
+      decoration: _decor(context),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -37,13 +39,15 @@ class SpellingCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 IconButton(
-                  icon: Icon(Icons.share_rounded, color: _accent),
+                  icon: Icon(Icons.share_rounded, color: context.textSecondary),
                   onPressed: onShare,
                 ),
                 IconButton(
                   icon: Icon(
                     isBookmarked ? Icons.bookmark : Icons.bookmark_border,
-                    color: _accent,
+                    color: isBookmarked
+                        ? (context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D))
+                        : context.textSecondary,
                   ),
                   onPressed: onBookmarkToggle,
                 ),
@@ -52,19 +56,27 @@ class SpellingCard extends StatelessWidget {
           const SizedBox(height: 8),
 
           Center(
-            child: Text(
-              word.word,
-              textAlign: TextAlign.center,
-              style: const TextStyle(
-                fontSize: 34,
-                fontWeight: FontWeight.bold,
-                color: Color(0xFF0F172A),
+            child: Container(
+              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+              decoration: BoxDecoration(
+                color: context.isDark
+                    ? const Color(0xFF22C55E).withValues(alpha: 0.22)
+                    : const Color(0xFF22C55E).withValues(alpha: 0.12),
+                borderRadius: BorderRadius.circular(14),
+              ),
+              child: Text(
+                word.word,
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: 34,
+                  fontWeight: FontWeight.bold,
+                  color: context.textPrimary,
+                ),
               ),
             ),
           ),
           const SizedBox(height: 20),
 
-          // Spelling tip — the key feature of this card
           if (word.spellingTip.isNotEmpty) ...[
             Container(
               width: double.infinity,
@@ -77,11 +89,7 @@ class SpellingCard extends StatelessWidget {
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Icon(
-                    Icons.lightbulb_rounded,
-                    color: Color(0xFFD97706),
-                    size: 20,
-                  ),
+                  const Icon(Icons.lightbulb_rounded, color: Color(0xFFD97706), size: 20),
                   const SizedBox(width: 8),
                   Expanded(
                     child: Text(
@@ -99,13 +107,13 @@ class SpellingCard extends StatelessWidget {
             const SizedBox(height: 20),
           ],
 
-          _title('Hindi Meaning'),
+          _title(context, 'Hindi Meaning'),
           const SizedBox(height: 6),
-          _highlight(word.meaningHi),
+          _highlight(context, word.meaningHi),
 
           const SizedBox(height: 20),
 
-          _title('English Meaning'),
+          _title(context, 'English Meaning'),
           const SizedBox(height: 6),
           Text(word.meaningEn, style: const TextStyle(fontSize: 18)),
 
@@ -113,8 +121,11 @@ class SpellingCard extends StatelessWidget {
             const SizedBox(height: 20),
             const Divider(),
             const SizedBox(height: 20),
-            _title('Example'),
-            Text(word.example, style: const TextStyle(fontSize: 17)),
+            _title(context, 'Example'),
+            buildUnderlinedExample(
+              context, word.example, [word.word],
+              baseStyle: const TextStyle(fontSize: 17),
+            ),
           ],
 
           if (!shareMode) ...[
@@ -125,22 +136,22 @@ class SpellingCard extends StatelessWidget {
               value: total == 0 ? 0.0 : index / total,
               minHeight: 8,
               borderRadius: BorderRadius.circular(999),
-              backgroundColor: const Color(0xFFE2E8F0),
+              backgroundColor: context.borderSubtle,
               color: _accent,
             ),
             const SizedBox(height: 10),
             Center(
               child: Text(
                 '$index/$total',
-                style: const TextStyle(
-                  color: Color(0xFF334155),
+                style: TextStyle(
+                  color: context.textSecondary,
                   fontWeight: FontWeight.w600,
                 ),
               ),
             ),
           ] else ...[
             const SizedBox(height: 20),
-            const Divider(color: Color(0xFFE2E8F0)),
+            Divider(color: context.borderSubtle),
             const SizedBox(height: 12),
             Row(
               children: [
@@ -170,42 +181,39 @@ class SpellingCard extends StatelessWidget {
     );
   }
 
-  Widget _title(String t) => Text(
+  Widget _title(BuildContext context, String t) => Text(
     t,
     style: TextStyle(
       fontSize: 15,
       fontWeight: FontWeight.w600,
-      color: _headingColor(t),
+      color: _headingColor(context, t),
     ),
   );
 
-  Color _headingColor(String title) {
+  Color _headingColor(BuildContext context, String title) {
+    final dark = context.isDark;
     switch (title) {
-      case 'Hindi Meaning':
-        return const Color(0xFF4338CA);
-      case 'English Meaning':
-        return _accent;
-      case 'Example':
-        return const Color(0xFFB45309);
-      default:
-        return Colors.grey.shade600;
+      case 'Hindi Meaning':   return dark ? const Color(0xFF818CF8) : const Color(0xFF4338CA);
+      case 'English Meaning': return dark ? const Color(0xFF22D3EE) : _accent;
+      case 'Example':         return dark ? const Color(0xFFFBBF24) : const Color(0xFFB45309);
+      default:                return dark ? const Color(0xFF94A3B8) : Colors.grey.shade600;
     }
   }
 
-  Widget _highlight(String text) => Container(
+  Widget _highlight(BuildContext context, String text) => Container(
     padding: const EdgeInsets.all(12),
     decoration: BoxDecoration(
-      color: _accent.withValues(alpha: 0.07),
+      color: _accent.withValues(alpha: context.isDark ? 0.22 : 0.07),
       borderRadius: BorderRadius.circular(12),
     ),
     child: Text(
       text,
-      style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w600),
+      style: TextStyle(fontSize: 22, fontWeight: FontWeight.w600, color: context.textPrimary),
     ),
   );
 
-  BoxDecoration _decor() => BoxDecoration(
-    color: Colors.white,
+  BoxDecoration _decor(BuildContext context) => BoxDecoration(
+    color: context.cardBg,
     borderRadius: BorderRadius.circular(20),
     boxShadow: [
       BoxShadow(
