@@ -7,6 +7,16 @@ const List<String> progressCategories = [
   'confusing',
   'oneword',
   'advanced',
+  'fixed_prepositions',
+  'phrasal_verbs',
+  'root_words',
+  'common_errors',
+  'homophones',
+  'spellings',
+  'foreign_words',
+  'proverbs',
+  'sentence_improvement',
+  'cloze_test',
 ];
 
 final Map<String, int> progressStore = {

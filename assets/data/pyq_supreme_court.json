@@ -1,0 +1,2402 @@
+[
+  {
+    "passage": "",
+    "question": "Choose the pair which is closest to the similar in meaning.",
+    "options": [
+      "Plaintiff - Defendant",
+      "Lawsuit - Litigation",
+      "Judge - Jury",
+      "Contract - Breach"
+    ],
+    "correct_answer": "Lawsuit - Litigation",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Synonym",
+    "difficulty": "Medium",
+    "explanation": "A lawsuit and litigation both refer to the process of taking legal action in court, so they are synonymous. The other pairs are opposites or unrelated legal roles."
+  },
+  {
+    "passage": "",
+    "question": "Choose the pair closest to the similar in meaning.",
+    "options": [
+      "Guilty - Innocent",
+      "Libelous - Slanderous",
+      "Prosecutor - Defense",
+      "Evidence - Testimony"
+    ],
+    "correct_answer": "Libelous - Slanderous",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Synonym",
+    "difficulty": "Medium",
+    "explanation": "Libelous (written defamation) and slanderous (spoken defamation) both mean defamatory, making them the closest synonyms. Guilty-Innocent and Prosecutor-Defense are antonyms; Evidence-Testimony are related but not synonyms."
+  },
+  {
+    "passage": "",
+    "question": "Choose the pair, closest to the similar in meaning.",
+    "options": [
+      "Conviction - Acquittal",
+      "Sentence - Pardon",
+      "Appeal - Trial",
+      "Mitigating - Extenuating"
+    ],
+    "correct_answer": "Mitigating - Extenuating",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Synonym",
+    "difficulty": "Medium",
+    "explanation": "Mitigating and extenuating both describe circumstances that lessen the seriousness of an offence, so they are synonyms. Conviction-Acquittal and Sentence-Pardon are opposites."
+  },
+  {
+    "passage": "",
+    "question": "Select the pair which is closest to the similar in meaning.",
+    "options": [
+      "Damages - Compensation",
+      "Negligence - Cautious",
+      "Crime - Wrong",
+      "Liability - Immunity"
+    ],
+    "correct_answer": "Damages - Compensation",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Synonym",
+    "difficulty": "Medium",
+    "explanation": "Damages are the monetary compensation awarded for loss or injury, so the two words are synonymous. Negligence-Cautious and Liability-Immunity are opposites."
+  },
+  {
+    "passage": "",
+    "question": "Select the pair closest to the similar in meaning.",
+    "options": [
+      "Testament - Will",
+      "Inheritance - Legacy",
+      "Beneficiary - Executor",
+      "Probate - Estate"
+    ],
+    "correct_answer": "Testament - Will",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Synonym",
+    "difficulty": "Medium",
+    "explanation": "A testament and a will are the same legal document expressing how a person's property is to be distributed after death. Note: Inheritance-Legacy (option B) are also close synonyms, but the official key marks Testament-Will as the intended answer."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which can be substituted for given words/sentence: A person who speaks many languages fluently?",
+    "options": [
+      "Translator",
+      "Polyglot",
+      "Grammarian",
+      "Linguist"
+    ],
+    "correct_answer": "Polyglot",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "One Word Substitution",
+    "difficulty": "Easy",
+    "explanation": "A polyglot is a person who knows and can use several languages. A linguist studies language academically but need not speak many fluently."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which can be substituted for given words/sentence: A person who deliberately sets fire to property?",
+    "options": [
+      "Vandal",
+      "Arsonist",
+      "Saboteur",
+      "Pyromaniac"
+    ],
+    "correct_answer": "Arsonist",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "One Word Substitution",
+    "difficulty": "Medium",
+    "explanation": "An arsonist deliberately and criminally sets fire to property. A pyromaniac has a compulsive urge to start fires (a psychological condition), which is not the intended 'deliberately sets fire' definition here."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which can be substituted for given words/sentence: The philosophical study of the nature of being, reality, and existence?",
+    "options": [
+      "Epistemology",
+      "Ontology",
+      "Metaphysics",
+      "Hermeneutics"
+    ],
+    "correct_answer": "Ontology",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "One Word Substitution",
+    "difficulty": "Hard",
+    "explanation": "Ontology is the branch of philosophy dealing specifically with being and existence. Epistemology studies knowledge, and hermeneutics studies interpretation."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which can be substituted for given words/sentence: A speech in which a person talks to themselves, often used in drama?",
+    "options": [
+      "Monologue",
+      "Dialogue",
+      "Soliloquy",
+      "Oration"
+    ],
+    "correct_answer": "Soliloquy",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "One Word Substitution",
+    "difficulty": "Medium",
+    "explanation": "A soliloquy is a dramatic speech in which a character speaks their thoughts aloud while alone. A monologue is addressed to others, not to oneself."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which can be substituted for given words/sentence: The process by which something, especially a word or phrase, is adapted into a new cultural or social context?",
+    "options": [
+      "Assimilation",
+      "Integration",
+      "Culturalization",
+      "Naturalization"
+    ],
+    "correct_answer": "Assimilation",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "One Word Substitution",
+    "difficulty": "Medium",
+    "explanation": "Assimilation is the process of absorbing and adapting something into a new cultural or social context. Naturalization refers specifically to acquiring citizenship."
+  },
+  {
+    "passage": "",
+    "question": "Identify that part of the given sentence which is not acceptable in standard written English: The new employee, who's name is John, is very friendly.",
+    "options": [
+      "The new employee",
+      "who's name is John",
+      "is very friendly",
+      "NO ERROR"
+    ],
+    "correct_answer": "who's name is John",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Error Spotting",
+    "difficulty": "Easy",
+    "explanation": "'Who's' is a contraction of 'who is'. The possessive form 'whose' is required, so it should read 'whose name is John'."
+  },
+  {
+    "passage": "",
+    "question": "Identify that part of the given sentence which is not acceptable in standard written English: The new policy will effect all employees starting next month.",
+    "options": [
+      "The new policy will",
+      "effect",
+      "all employees",
+      "starting next month"
+    ],
+    "correct_answer": "effect",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Error Spotting",
+    "difficulty": "Medium",
+    "explanation": "The verb 'affect' (to influence) is needed here, not the noun 'effect'. It should read 'will affect all employees'."
+  },
+  {
+    "passage": "",
+    "question": "Identify that part of the given sentence which is not acceptable in standard written English: The new employee is very friendly and helpful, but he dont know much about the company.",
+    "options": [
+      "The new employee is",
+      "very friendly and helpful",
+      "but he",
+      "dont know much about the company"
+    ],
+    "correct_answer": "dont know much about the company",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Error Spotting",
+    "difficulty": "Easy",
+    "explanation": "The third-person singular subject 'he' requires 'doesn't', not 'dont'. It should read 'he doesn't know much about the company'."
+  },
+  {
+    "passage": "",
+    "question": "Identify that part of the given sentence which is not acceptable in standard written English: The company will hire hundreds of new employees in the next few month.",
+    "options": [
+      "The company will",
+      "hire",
+      "hundreds of new employees",
+      "in the next few month"
+    ],
+    "correct_answer": "in the next few month",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Error Spotting",
+    "difficulty": "Easy",
+    "explanation": "'Few' takes a plural noun, so 'month' must be 'months'. It should read 'in the next few months'."
+  },
+  {
+    "passage": "",
+    "question": "Identify that part of the given sentence which is not acceptable in standard written English: I feel so week after running a marathon, but I will be back to my normal self by next day.",
+    "options": [
+      "I feel so week",
+      "after running a marathon",
+      "but I will be back to",
+      "my normal self by next day"
+    ],
+    "correct_answer": "I feel so week",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Error Spotting",
+    "difficulty": "Easy",
+    "explanation": "'Week' (a period of seven days) is a spelling confusion for 'weak' (lacking strength). It should read 'I feel so weak'."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which best expresses the meaning of the Idiom/phrase: She decided \"to bite the bullet\" and start her own business despite the risks.",
+    "options": [
+      "Ignore the problem",
+      "Face a difficult situation bravely",
+      "Avoid confrontation",
+      "Chew gum while working"
+    ],
+    "correct_answer": "Face a difficult situation bravely",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Easy",
+    "explanation": "'To bite the bullet' means to force oneself to endure or face a difficult or unpleasant situation with courage."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which best expresses the meaning of the Idiom/phrase: He tried to \"throw his weight around\" to get the team to follow his orders.",
+    "options": [
+      "Use influence or authority in an overbearing way",
+      "Carry heavy objects",
+      "Lose weight through exercise",
+      "Act generously and kindly"
+    ],
+    "correct_answer": "Use influence or authority in an overbearing way",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Easy",
+    "explanation": "'To throw one's weight around' means to use one's power or authority in an aggressive, domineering manner."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which best expresses the meaning of the Idiom/phrase: The manager's promises turned out to be a \"red herring\".",
+    "options": [
+      "A deliberate distraction from the main issue",
+      "A symbol of good luck",
+      "A factual and important point",
+      "A type of fish"
+    ],
+    "correct_answer": "A deliberate distraction from the main issue",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Medium",
+    "explanation": "A 'red herring' is something that misleads or distracts attention away from the real or important issue."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which best expresses the meaning of the Idiom/phrase: He was determined to \"hit the ground running\" on the new project.",
+    "options": [
+      "Start something with enthusiasm and energy",
+      "Take a slow and cautious approach",
+      "Abandon a project midway",
+      "Avoid hard work altogether"
+    ],
+    "correct_answer": "Start something with enthusiasm and energy",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Easy",
+    "explanation": "'To hit the ground running' means to begin an activity energetically and effectively from the very start."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which best expresses the meaning of the Idiom/phrase: The plan worked, but it was a \"Pyrrhic victory\" for the company.",
+    "options": [
+      "A loss disguised as a win",
+      "A victory achieved at great cost, almost to the point of being a loss",
+      "A symbolic and irrelevant success",
+      "A flawless and effortless win"
+    ],
+    "correct_answer": "A victory achieved at great cost, almost to the point of being a loss",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Hard",
+    "explanation": "A 'Pyrrhic victory' is a success won at such a devastating cost that it is almost as bad as a defeat."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blanks: The government is determined to put an end to the illegal practices that have been going on ___ the radar and bring the perpetrators to ___.",
+    "options": [
+      "Over, happiness",
+      "Under, justice",
+      "On, trial",
+      "Below, shame"
+    ],
+    "correct_answer": "Under, justice",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Medium",
+    "explanation": "The collocation 'under the radar' means going unnoticed, and 'bring to justice' means to punish for wrongdoing. Both fit the sentence."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blanks: The witness's statement added ___ to the investigation and ultimately helped to ___ the mystery surrounding the case.",
+    "options": [
+      "Confusion, deepen",
+      "Clarity, solve",
+      "Ambiguity, escalate",
+      "Evidence, delay"
+    ],
+    "correct_answer": "Clarity, solve",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Medium",
+    "explanation": "A helpful statement adds 'clarity' and helps to 'solve' a mystery. The other pairs create contradictions with 'helped'."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blanks: When the storm hit, the people took ___ in the shelters and waited for the situation to ___.",
+    "options": [
+      "Charge, intensify",
+      "Risks, worsen",
+      "Shelter, calm",
+      "Refuge, subside"
+    ],
+    "correct_answer": "Refuge, subside",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Medium",
+    "explanation": "'Took refuge' means to seek safety, and 'subside' means to become less intense, both fitting a storm context. 'Took shelter' with 'calm' is weaker and grammatically awkward."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blanks: The scientist's groundbreaking discovery opened ___ to new possibilities and set ___ for further research.",
+    "options": [
+      "Windows, restrictions",
+      "Doors, trends",
+      "Pathways, barriers",
+      "Valves, rules"
+    ],
+    "correct_answer": "Doors, trends",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Medium",
+    "explanation": "'Opened doors to new possibilities' and 'set trends for further research' are natural, positive collocations. The other options include negative words (restrictions, barriers) that contradict a groundbreaking discovery."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blanks: Despite being criticized, the athlete managed to keep her ___ held high and rose ___ the occasion in the final match.",
+    "options": [
+      "Head, to",
+      "Spirits, against",
+      "Confidence, with",
+      "Standards, over"
+    ],
+    "correct_answer": "Head, to",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Medium",
+    "explanation": "'Keep her head held high' and 'rose to the occasion' are fixed expressions that fit perfectly."
+  },
+  {
+    "passage": "",
+    "question": "Choose the paragraph which has the most logical order of sentences.",
+    "options": [
+      "The new policy was implemented to reduce traffic congestion. The policy restricted traffic in the city center during peak hours. The number of accidents de-escalated after the policy was implemented.",
+      "The policy restricted traffic in the city center during peak hours. The new policy was implemented to reduce traffic congestion. The number of accidents de-escalated after the policy was implemented.",
+      "The number of accidents de-escalated after the policy was implemented. The new policy was implemented to reduce traffic congestion. The policy restricted traffic in the city center during peak hours.",
+      "The new policy was implemented to reduce traffic congestion. The number of accidents de-escalated after the policy was implemented. The policy restricted traffic in the city center during peak hours."
+    ],
+    "correct_answer": "The new policy was implemented to reduce traffic congestion. The policy restricted traffic in the city center during peak hours. The number of accidents de-escalated after the policy was implemented.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Sentence Rearrangement",
+    "difficulty": "Medium",
+    "explanation": "The logical flow is: the policy was introduced (purpose), then what it did (restricted traffic), then the result (accidents fell). Option A follows this cause-effect sequence correctly."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blanks: French people love cooking, ___ the English don't seem very interested.",
+    "options": [
+      "when",
+      "whenever",
+      "where",
+      "whereas"
+    ],
+    "correct_answer": "whereas",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Easy",
+    "explanation": "'Whereas' is a contrast conjunction, correctly linking the opposing attitudes of the French and the English."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blanks: A ___ is a unit of sound.",
+    "options": [
+      "syllable",
+      "letter",
+      "spelling",
+      "stress"
+    ],
+    "correct_answer": "syllable",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Easy",
+    "explanation": "A syllable is a unit of pronunciation forming a single sound. A letter is a unit of writing, not of sound."
+  },
+  {
+    "passage": "",
+    "question": "Select the most appropriate meaning of the word: TRUCE",
+    "options": [
+      "Skirmish",
+      "Cessation of hostilities",
+      "Onslaught",
+      "Contention"
+    ],
+    "correct_answer": "Cessation of hostilities",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Vocabulary",
+    "difficulty": "Medium",
+    "explanation": "A truce is an agreement to stop fighting, i.e., a cessation of hostilities. Skirmish, onslaught and contention all denote conflict, the opposite."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blanks: At one point, it looked as if an area of agreement would ___ specially over the issue of productivity linked wages.",
+    "options": [
+      "grow",
+      "create",
+      "develop",
+      "emerge"
+    ],
+    "correct_answer": "emerge",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Medium",
+    "explanation": "'Emerge' best conveys an area of agreement coming into existence. 'Create' is transitive and needs an object; 'grow' and 'develop' are weaker fits for an abstract 'area of agreement'."
+  },
+  {
+    "passage": "",
+    "question": "Select the word with the incorrect spelling.",
+    "options": [
+      "Incriminating",
+      "Cancellation",
+      "Unpretensious",
+      "Embodiment"
+    ],
+    "correct_answer": "Unpretensious",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Spelling",
+    "difficulty": "Medium",
+    "explanation": "The correct spelling is 'Unpretentious' (with 't', not 's'). The other three words are spelled correctly."
+  },
+  {
+    "passage": "",
+    "question": "Select the word with incorrect spelling.",
+    "options": [
+      "Pedestrain",
+      "Plaintiff",
+      "Potatoes",
+      "Potassium"
+    ],
+    "correct_answer": "Pedestrain",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Spelling",
+    "difficulty": "Easy",
+    "explanation": "The correct spelling is 'Pedestrian'. The letters 'ai' have been transposed in the given word."
+  },
+  {
+    "passage": "",
+    "question": "Select the word having incorrect spelling.",
+    "options": [
+      "Fabulous",
+      "Gorgeous",
+      "Heterogeneous",
+      "Inocuous"
+    ],
+    "correct_answer": "Inocuous",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Spelling",
+    "difficulty": "Medium",
+    "explanation": "The correct spelling is 'Innocuous' (double 'n'). The other three words are correctly spelled."
+  },
+  {
+    "passage": "",
+    "question": "Choose the correct antonym of word \"generosity\".",
+    "options": [
+      "altruism",
+      "general",
+      "largesse",
+      "malevolence"
+    ],
+    "correct_answer": "malevolence",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Antonym",
+    "difficulty": "Hard",
+    "explanation": "By elimination, 'malevolence' (ill will, malice) is the opposite of generosity's benevolent spirit. Altruism and largesse are synonyms of generosity, and 'general' is unrelated."
+  },
+  {
+    "passage": "",
+    "question": "Choose the antonym of word \"analogue\".",
+    "options": [
+      "correlate",
+      "cognate",
+      "dialogue",
+      "difference"
+    ],
+    "correct_answer": "difference",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Antonym",
+    "difficulty": "Medium",
+    "explanation": "An analogue is something similar or comparable, so 'difference' is its antonym. Correlate and cognate imply similarity or relatedness."
+  },
+  {
+    "passage": "",
+    "question": "Choose the antonym of \"amusement\".",
+    "options": [
+      "mischief",
+      "naughty",
+      "melancholy",
+      "hilarit"
+    ],
+    "correct_answer": "melancholy",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Antonym",
+    "difficulty": "Medium",
+    "explanation": "Amusement is a state of enjoyment; 'melancholy' (deep sadness) is its opposite. The other options do not express the contrasting emotion."
+  },
+  {
+    "passage": "",
+    "question": "Choose the word which is correctly spelt.",
+    "options": [
+      "Exenerate",
+      "Exonerate",
+      "Exanrate",
+      "Exonarate"
+    ],
+    "correct_answer": "Exonerate",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Spelling",
+    "difficulty": "Medium",
+    "explanation": "'Exonerate' (to absolve from blame) is the correctly spelled word; the other three are misspellings."
+  },
+  {
+    "passage": "",
+    "question": "Choose the correct meaning of the Idiom \"to take someone for a ride\".",
+    "options": [
+      "to give a ride to someone",
+      "to deceive someone",
+      "to be indifferent",
+      "to disclose a secret"
+    ],
+    "correct_answer": "to deceive someone",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Easy",
+    "explanation": "'To take someone for a ride' means to cheat, trick or deceive someone."
+  },
+  {
+    "passage": "",
+    "question": "Choose correct meaning of the Idiom \"to move heaven and earth\".",
+    "options": [
+      "to cause an earthquake",
+      "to try everything possible",
+      "to be indifferent",
+      "to travel in a rocket"
+    ],
+    "correct_answer": "to try everything possible",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Easy",
+    "explanation": "'To move heaven and earth' means to make every possible effort to achieve something."
+  },
+  {
+    "passage": "",
+    "question": "Give single word for \"One who eats everything\".",
+    "options": [
+      "Omnivorous",
+      "Omniscient",
+      "Omnipresent",
+      "Omnipotent"
+    ],
+    "correct_answer": "Omnivorous",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "One Word Substitution",
+    "difficulty": "Easy",
+    "explanation": "Omnivorous means feeding on both plant and animal matter, i.e., eating everything. Omniscient (all-knowing), omnipresent (present everywhere) and omnipotent (all-powerful) relate to knowledge, presence and power."
+  },
+  {
+    "passage": "",
+    "question": "Choose the alternative which gives best meaning of the word \"compensate\".",
+    "options": [
+      "compile",
+      "make up for",
+      "result in",
+      "transparent"
+    ],
+    "correct_answer": "make up for",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Vocabulary",
+    "difficulty": "Easy",
+    "explanation": "To compensate means to make up for or offset a loss or deficiency."
+  },
+  {
+    "passage": "",
+    "question": "Identify the sentence with correct punctuation.",
+    "options": [
+      "I love eating cake.",
+      "I love eating, cake.",
+      "I love, eating cake.",
+      "I love, eating, cake."
+    ],
+    "correct_answer": "I love eating cake.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Grammar",
+    "difficulty": "Easy",
+    "explanation": "The sentence needs no internal commas, as there is no clause break or list. 'I love eating cake.' is correctly punctuated."
+  },
+  {
+    "passage": "Mohan works in a restaurant in the centre of New Delhi. He goes to work at 5pm, but yesterday at 5pm, he wasn't on the bus, he was in a taxi going to the hospital. He was very sick! Usually, he works in the kitchen all evening, but yesterday he wasn't in the kitchen. He was in the X-ray department of the hospital because the doctors were worried about his stomach pains. Normally, at 11pm, Mohan takes a bus to go home after finishing at the restaurant, but yesterday at 11pm, he was still in the hospital and he was still unhappy and sick. He was in a bed and he was very hot - 102 degrees! Was he worried? Yes, he was! In the morning, he was better and the doctors were pleased. What was the problem? It was bad food - from his restaurant!",
+    "question": "Mohan was in the restaurant yesterday afternoon.",
+    "options": [
+      "Yes",
+      "No",
+      "Both Yes and No",
+      "Neither Yes or No"
+    ],
+    "correct_answer": "No",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Easy",
+    "explanation": "Yesterday at 5pm Mohan was in a taxi going to the hospital, not at the restaurant, so the statement is false."
+  },
+  {
+    "passage": "Mohan works in a restaurant in the centre of New Delhi. He goes to work at 5pm, but yesterday at 5pm, he wasn't on the bus, he was in a taxi going to the hospital. He was very sick! Usually, he works in the kitchen all evening, but yesterday he wasn't in the kitchen. He was in the X-ray department of the hospital because the doctors were worried about his stomach pains. Normally, at 11pm, Mohan takes a bus to go home after finishing at the restaurant, but yesterday at 11pm, he was still in the hospital and he was still unhappy and sick. He was in a bed and he was very hot - 102 degrees! Was he worried? Yes, he was! In the morning, he was better and the doctors were pleased. What was the problem? It was bad food - from his restaurant!",
+    "question": "He goes to work in the restaurant by bus.",
+    "options": [
+      "Yes",
+      "No",
+      "Both Yes and No",
+      "Neither Yes or No"
+    ],
+    "correct_answer": "Yes",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Easy",
+    "explanation": "The passage states he normally takes a bus (he wasn't on the bus only yesterday), so ordinarily he goes to work by bus."
+  },
+  {
+    "passage": "Mohan works in a restaurant in the centre of New Delhi. He goes to work at 5pm, but yesterday at 5pm, he wasn't on the bus, he was in a taxi going to the hospital. He was very sick! Usually, he works in the kitchen all evening, but yesterday he wasn't in the kitchen. He was in the X-ray department of the hospital because the doctors were worried about his stomach pains. Normally, at 11pm, Mohan takes a bus to go home after finishing at the restaurant, but yesterday at 11pm, he was still in the hospital and he was still unhappy and sick. He was in a bed and he was very hot - 102 degrees! Was he worried? Yes, he was! In the morning, he was better and the doctors were pleased. What was the problem? It was bad food - from his restaurant!",
+    "question": "Yesterday, he was in a bus going to the hospital.",
+    "options": [
+      "Yes",
+      "No",
+      "Both Yes and No",
+      "Neither Yes or No"
+    ],
+    "correct_answer": "No",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Easy",
+    "explanation": "He went to the hospital in a taxi, not a bus, so the statement is false."
+  },
+  {
+    "passage": "Mohan works in a restaurant in the centre of New Delhi. He goes to work at 5pm, but yesterday at 5pm, he wasn't on the bus, he was in a taxi going to the hospital. He was very sick! Usually, he works in the kitchen all evening, but yesterday he wasn't in the kitchen. He was in the X-ray department of the hospital because the doctors were worried about his stomach pains. Normally, at 11pm, Mohan takes a bus to go home after finishing at the restaurant, but yesterday at 11pm, he was still in the hospital and he was still unhappy and sick. He was in a bed and he was very hot - 102 degrees! Was he worried? Yes, he was! In the morning, he was better and the doctors were pleased. What was the problem? It was bad food - from his restaurant!",
+    "question": "He was in the hospital because of his head.",
+    "options": [
+      "Yes",
+      "No",
+      "Both Yes and No",
+      "Neither Yes or No"
+    ],
+    "correct_answer": "No",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Easy",
+    "explanation": "The doctors were worried about his stomach pains, not his head, so the statement is false."
+  },
+  {
+    "passage": "Mohan works in a restaurant in the centre of New Delhi. He goes to work at 5pm, but yesterday at 5pm, he wasn't on the bus, he was in a taxi going to the hospital. He was very sick! Usually, he works in the kitchen all evening, but yesterday he wasn't in the kitchen. He was in the X-ray department of the hospital because the doctors were worried about his stomach pains. Normally, at 11pm, Mohan takes a bus to go home after finishing at the restaurant, but yesterday at 11pm, he was still in the hospital and he was still unhappy and sick. He was in a bed and he was very hot - 102 degrees! Was he worried? Yes, he was! In the morning, he was better and the doctors were pleased. What was the problem? It was bad food - from his restaurant!",
+    "question": "He was in the X-ray department of the hospital.",
+    "options": [
+      "Yes",
+      "No",
+      "Both Yes and No",
+      "Neither Yes or No"
+    ],
+    "correct_answer": "Yes",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Easy",
+    "explanation": "The passage explicitly states he was in the X-ray department of the hospital, so the statement is true."
+  },
+  {
+    "passage": "Mohan works in a restaurant in the centre of New Delhi. He goes to work at 5pm, but yesterday at 5pm, he wasn't on the bus, he was in a taxi going to the hospital. He was very sick! Usually, he works in the kitchen all evening, but yesterday he wasn't in the kitchen. He was in the X-ray department of the hospital because the doctors were worried about his stomach pains. Normally, at 11pm, Mohan takes a bus to go home after finishing at the restaurant, but yesterday at 11pm, he was still in the hospital and he was still unhappy and sick. He was in a bed and he was very hot - 102 degrees! Was he worried? Yes, he was! In the morning, he was better and the doctors were pleased. What was the problem? It was bad food - from his restaurant!",
+    "question": "He was in the hospital until 11 pm.",
+    "options": [
+      "Yes",
+      "No",
+      "Both Yes and No",
+      "Neither Yes or No"
+    ],
+    "correct_answer": "No",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Medium",
+    "explanation": "At 11pm he was still in the hospital and remained there beyond that time, so 'until 11pm' (implying he left by then) is false."
+  },
+  {
+    "passage": "Mohan works in a restaurant in the centre of New Delhi. He goes to work at 5pm, but yesterday at 5pm, he wasn't on the bus, he was in a taxi going to the hospital. He was very sick! Usually, he works in the kitchen all evening, but yesterday he wasn't in the kitchen. He was in the X-ray department of the hospital because the doctors were worried about his stomach pains. Normally, at 11pm, Mohan takes a bus to go home after finishing at the restaurant, but yesterday at 11pm, he was still in the hospital and he was still unhappy and sick. He was in a bed and he was very hot - 102 degrees! Was he worried? Yes, he was! In the morning, he was better and the doctors were pleased. What was the problem? It was bad food - from his restaurant!",
+    "question": "The doctors were very worried about him the next morning.",
+    "options": [
+      "Yes",
+      "No",
+      "Both Yes and No",
+      "Neither Yes or No"
+    ],
+    "correct_answer": "No",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Easy",
+    "explanation": "In the morning he was better and the doctors were pleased, not worried, so the statement is false."
+  },
+  {
+    "passage": "Mohan works in a restaurant in the centre of New Delhi. He goes to work at 5pm, but yesterday at 5pm, he wasn't on the bus, he was in a taxi going to the hospital. He was very sick! Usually, he works in the kitchen all evening, but yesterday he wasn't in the kitchen. He was in the X-ray department of the hospital because the doctors were worried about his stomach pains. Normally, at 11pm, Mohan takes a bus to go home after finishing at the restaurant, but yesterday at 11pm, he was still in the hospital and he was still unhappy and sick. He was in a bed and he was very hot - 102 degrees! Was he worried? Yes, he was! In the morning, he was better and the doctors were pleased. What was the problem? It was bad food - from his restaurant!",
+    "question": "The problem was food from his restaurant.",
+    "options": [
+      "Yes",
+      "No",
+      "Both Yes and No",
+      "Neither Yes or No"
+    ],
+    "correct_answer": "Yes",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2025",
+    "topic": "Reading Comprehension",
+    "difficulty": "Easy",
+    "explanation": "The passage concludes that the problem was bad food from his restaurant, so the statement is true."
+  },
+  {
+    "passage": "The roots of sustainable development can be traced back to the 1972 Stockholm Conference, where development was for the first time linked to environment, emphasising the need for efforts at the international level. Sustainability is the ability of the earth's various systems including human cultural systems and economics, to survive and adapt to changing environmental conditions. Sustainable development implies a change in all aspects of life in a way that causes little damage to the environment. It is meeting the needs of the present without compromising the ability of future generations to meet their own needs. The chief cause of unsustainability is the exponential growth of human population and overexploitation of natural resources. In developing countries, resource exploitation occurs chiefly to meet the needs of every increasing human population for food, fuel, fodder and shelter. Various human activities like agriculture, deforestation, over-fishing, overuse of fresh water, etc. result in environmental degradation and social disintegration. We have used technology to alter much of the rest of nature to meet our growing needs, like we have reduced biodiversity by destroying wildlife habitats. Some populations of pest species and disease causing bacteria have been strengthened through indiscriminate use of pesticides and antibiotics. Renewable resources have been used faster than they can be regenerated thus turning grasslands into deserts. Sustainable development is further threatened by poverty, political instability, population growth, undernourishment and high consumption of natural resources. We need to act quickly to avoid disasters in the near future.",
+    "question": "Sustainable development implies",
+    "options": [
+      "a form of growth that does not meet the current human needs.",
+      "a form of development that overexploits natural resources.",
+      "a change in all aspects of life that causes little damage to the environment.",
+      "a form of growth that is meeting the needs of the present generation."
+    ],
+    "correct_answer": "a change in all aspects of life that causes little damage to the environment.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Reading Comprehension",
+    "difficulty": "Easy",
+    "explanation": "The passage directly states: 'Sustainable development implies a change in all aspects of life in a way that causes little damage to the environment.'"
+  },
+  {
+    "passage": "The roots of sustainable development can be traced back to the 1972 Stockholm Conference, where development was for the first time linked to environment, emphasising the need for efforts at the international level. Sustainability is the ability of the earth's various systems including human cultural systems and economics, to survive and adapt to changing environmental conditions. Sustainable development implies a change in all aspects of life in a way that causes little damage to the environment. It is meeting the needs of the present without compromising the ability of future generations to meet their own needs. The chief cause of unsustainability is the exponential growth of human population and overexploitation of natural resources. In developing countries, resource exploitation occurs chiefly to meet the needs of every increasing human population for food, fuel, fodder and shelter. Various human activities like agriculture, deforestation, over-fishing, overuse of fresh water, etc. result in environmental degradation and social disintegration. We have used technology to alter much of the rest of nature to meet our growing needs, like we have reduced biodiversity by destroying wildlife habitats. Some populations of pest species and disease causing bacteria have been strengthened through indiscriminate use of pesticides and antibiotics. Renewable resources have been used faster than they can be regenerated thus turning grasslands into deserts. Sustainable development is further threatened by poverty, political instability, population growth, undernourishment and high consumption of natural resources. We need to act quickly to avoid disasters in the near future.",
+    "question": "Sustainable development is threatened by",
+    "options": [
+      "political stability",
+      "affluence",
+      "decrease in population",
+      "ozone depletion"
+    ],
+    "correct_answer": "affluence",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Reading Comprehension",
+    "difficulty": "Hard",
+    "explanation": "JUDGMENT CALL (no official key; only candidate's own marked response was available in the source). The passage lists 'poverty, political instability, population growth, undernourishment and high consumption of natural resources' as threats. Note the option reads 'political stability' (opposite of the passage's 'political instability'), and 'decrease in population' is the reverse of the passage's 'population growth' — both options directly contradict the text. 'Affluence' best corresponds to the passage's 'high consumption of natural resources', a well-known driver of unsustainability (as in the Population-Affluence-Technology/IPAT framework), making it the best-supported choice among the four."
+  },
+  {
+    "passage": "The roots of sustainable development can be traced back to the 1972 Stockholm Conference, where development was for the first time linked to environment, emphasising the need for efforts at the international level. Sustainability is the ability of the earth's various systems including human cultural systems and economics, to survive and adapt to changing environmental conditions. Sustainable development implies a change in all aspects of life in a way that causes little damage to the environment. It is meeting the needs of the present without compromising the ability of future generations to meet their own needs. The chief cause of unsustainability is the exponential growth of human population and overexploitation of natural resources. In developing countries, resource exploitation occurs chiefly to meet the needs of every increasing human population for food, fuel, fodder and shelter. Various human activities like agriculture, deforestation, over-fishing, overuse of fresh water, etc. result in environmental degradation and social disintegration. We have used technology to alter much of the rest of nature to meet our growing needs, like we have reduced biodiversity by destroying wildlife habitats. Some populations of pest species and disease causing bacteria have been strengthened through indiscriminate use of pesticides and antibiotics. Renewable resources have been used faster than they can be regenerated thus turning grasslands into deserts. Sustainable development is further threatened by poverty, political instability, population growth, undernourishment and high consumption of natural resources. We need to act quickly to avoid disasters in the near future.",
+    "question": "Among the following, which one is not related to the use of technology to alter nature?",
+    "options": [
+      "reduced biodiversity by destroying wildlife habitats",
+      "some populations of pest species and disease causing bacteria strengthened through use of pesticides and antibiotics",
+      "renewable resources have been used faster than they can be regenerated",
+      "developed high consumerism and political instability"
+    ],
+    "correct_answer": "developed high consumerism and political instability",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Reading Comprehension",
+    "difficulty": "Medium",
+    "explanation": "The first three options are all directly listed in the passage as consequences of technology altering nature (reduced biodiversity, strengthened pest/bacteria populations, overuse of renewable resources). 'High consumerism and political instability' belongs to a separate list of general threats to sustainable development mentioned later in the passage, unrelated to technology's alteration of nature."
+  },
+  {
+    "passage": "The roots of sustainable development can be traced back to the 1972 Stockholm Conference, where development was for the first time linked to environment, emphasising the need for efforts at the international level. Sustainability is the ability of the earth's various systems including human cultural systems and economics, to survive and adapt to changing environmental conditions. Sustainable development implies a change in all aspects of life in a way that causes little damage to the environment. It is meeting the needs of the present without compromising the ability of future generations to meet their own needs. The chief cause of unsustainability is the exponential growth of human population and overexploitation of natural resources. In developing countries, resource exploitation occurs chiefly to meet the needs of every increasing human population for food, fuel, fodder and shelter. Various human activities like agriculture, deforestation, over-fishing, overuse of fresh water, etc. result in environmental degradation and social disintegration. We have used technology to alter much of the rest of nature to meet our growing needs, like we have reduced biodiversity by destroying wildlife habitats. Some populations of pest species and disease causing bacteria have been strengthened through indiscriminate use of pesticides and antibiotics. Renewable resources have been used faster than they can be regenerated thus turning grasslands into deserts. Sustainable development is further threatened by poverty, political instability, population growth, undernourishment and high consumption of natural resources. We need to act quickly to avoid disasters in the near future.",
+    "question": "Choose the pair of words from the following which means the same as 'exponential' and 'indiscriminate', respectively.",
+    "options": [
+      "sharp increase; random",
+      "decrease; careful",
+      "rise; systematic",
+      "reduce; confused"
+    ],
+    "correct_answer": "sharp increase; random",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Reading Comprehension",
+    "difficulty": "Medium",
+    "explanation": "'Exponential' means a sharp/rapid increase, and 'indiscriminate' means done randomly or without careful selection. 'Systematic' (option 3) is essentially the opposite of indiscriminate, ruling that option out."
+  },
+  {
+    "passage": "The roots of sustainable development can be traced back to the 1972 Stockholm Conference, where development was for the first time linked to environment, emphasising the need for efforts at the international level. Sustainability is the ability of the earth's various systems including human cultural systems and economics, to survive and adapt to changing environmental conditions. Sustainable development implies a change in all aspects of life in a way that causes little damage to the environment. It is meeting the needs of the present without compromising the ability of future generations to meet their own needs. The chief cause of unsustainability is the exponential growth of human population and overexploitation of natural resources. In developing countries, resource exploitation occurs chiefly to meet the needs of every increasing human population for food, fuel, fodder and shelter. Various human activities like agriculture, deforestation, over-fishing, overuse of fresh water, etc. result in environmental degradation and social disintegration. We have used technology to alter much of the rest of nature to meet our growing needs, like we have reduced biodiversity by destroying wildlife habitats. Some populations of pest species and disease causing bacteria have been strengthened through indiscriminate use of pesticides and antibiotics. Renewable resources have been used faster than they can be regenerated thus turning grasslands into deserts. Sustainable development is further threatened by poverty, political instability, population growth, undernourishment and high consumption of natural resources. We need to act quickly to avoid disasters in the near future.",
+    "question": "Environmental degradation and social disintegration are the result of",
+    "options": [
+      "land clearing for urbanisation and industrialisation.",
+      "afforestation.",
+      "scarcity of water.",
+      "fall in agricultural activity."
+    ],
+    "correct_answer": "land clearing for urbanisation and industrialisation.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Reading Comprehension",
+    "difficulty": "Hard",
+    "explanation": "JUDGMENT CALL (no official key available). The passage attributes degradation to 'agriculture, deforestation, over-fishing, overuse of fresh water' — activities involving land clearing for expanding human use. 'Land clearing for urbanisation and industrialisation' best matches this cause. 'Afforestation' (planting trees) is actually beneficial to the environment and contradicts the passage's causes, and 'fall in agricultural activity' is the reverse of what the passage describes."
+  },
+  {
+    "passage": "Planet, People, Profit: The 3Ps of the triple bottom line approach, which form the core of sustainable business operations, are more intertwined and inseparable today than they ever have been in the past. Natural calamities, global warming and governance issues are impacting reputations and businesses, along with heightened shareholder and consumer activism, and increased regulatory scrutiny. As a result, enterprises are compelled to take a hard look at the way they conduct their businesses and make sweeping changes in a bid to future-proof themselves. An example of the way in which the landscape is changing can be found in the Indian banking system. The Reserve Bank of India, recently proposed integrating climate-related risks into its practice of monitoring the stability of the financial system and modelling climate risk scenarios to identify vulnerabilities. This could imply that banks and financial institutions would need to chalk out new frameworks, imbibe climate change-related concerns into their credit decisions and risk management functions. Globally, communities and corporations are re-evaluating priorities and redefining purpose at individual and collective levels. There has been a conscious crossover to a value addition approach, which goes beyond profits and pay cheques. Champions of climate change, software engineers going back to their villages to start organic farming, start-up founders obsessed with leveraging technology to solve the problem of access to financial services, and teachers imparting education to underprivileged students are the real-life heroes of today. To them, 'why we do' matters as much as 'what we do'. Consequently, ESG (environmental awareness, social responsibility and good governance) have become the focal points of the lens through which governments, corporates and individuals are looking at their day-to-day jobs and decision-making.",
+    "question": "The central idea of the passage is",
+    "options": [
+      "about sustainable business operations.",
+      "sustainable development.",
+      "change in the Indian banking system.",
+      "integrating climate-related risks with the financial system."
+    ],
+    "correct_answer": "about sustainable business operations.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Reading Comprehension",
+    "difficulty": "Medium",
+    "explanation": "The passage opens with and repeatedly returns to the triple bottom line ('Planet, People, Profit') as the 'core of sustainable business operations', using the RBI and ESG as supporting examples rather than as the main theme themselves."
+  },
+  {
+    "passage": "Planet, People, Profit: The 3Ps of the triple bottom line approach, which form the core of sustainable business operations, are more intertwined and inseparable today than they ever have been in the past. Natural calamities, global warming and governance issues are impacting reputations and businesses, along with heightened shareholder and consumer activism, and increased regulatory scrutiny. As a result, enterprises are compelled to take a hard look at the way they conduct their businesses and make sweeping changes in a bid to future-proof themselves. An example of the way in which the landscape is changing can be found in the Indian banking system. The Reserve Bank of India, recently proposed integrating climate-related risks into its practice of monitoring the stability of the financial system and modelling climate risk scenarios to identify vulnerabilities. This could imply that banks and financial institutions would need to chalk out new frameworks, imbibe climate change-related concerns into their credit decisions and risk management functions. Globally, communities and corporations are re-evaluating priorities and redefining purpose at individual and collective levels. There has been a conscious crossover to a value addition approach, which goes beyond profits and pay cheques. Champions of climate change, software engineers going back to their villages to start organic farming, start-up founders obsessed with leveraging technology to solve the problem of access to financial services, and teachers imparting education to underprivileged students are the real-life heroes of today. To them, 'why we do' matters as much as 'what we do'. Consequently, ESG (environmental awareness, social responsibility and good governance) have become the focal points of the lens through which governments, corporates and individuals are looking at their day-to-day jobs and decision-making.",
+    "question": "Among the following, which one is NOT true about the 'value-addition approach'?",
+    "options": [
+      "Corporates go beyond profits and pay cheques.",
+      "Many corporate workers are going back to their villages to start organic farming.",
+      "Some teachers are going to villages and imparting education to the underprivileged students.",
+      "Start up founders are obsessed with technology."
+    ],
+    "correct_answer": "Some teachers are going to villages and imparting education to the underprivileged students.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Reading Comprehension",
+    "difficulty": "Hard",
+    "explanation": "JUDGMENT CALL (no official key available). The passage says teachers are 'imparting education to underprivileged students' but never mentions them specifically 'going to villages' — that detail is only attributed to software engineers taking up organic farming. The other three options are directly supported by the passage's wording."
+  },
+  {
+    "passage": "Planet, People, Profit: The 3Ps of the triple bottom line approach, which form the core of sustainable business operations, are more intertwined and inseparable today than they ever have been in the past. Natural calamities, global warming and governance issues are impacting reputations and businesses, along with heightened shareholder and consumer activism, and increased regulatory scrutiny. As a result, enterprises are compelled to take a hard look at the way they conduct their businesses and make sweeping changes in a bid to future-proof themselves. An example of the way in which the landscape is changing can be found in the Indian banking system. The Reserve Bank of India, recently proposed integrating climate-related risks into its practice of monitoring the stability of the financial system and modelling climate risk scenarios to identify vulnerabilities. This could imply that banks and financial institutions would need to chalk out new frameworks, imbibe climate change-related concerns into their credit decisions and risk management functions. Globally, communities and corporations are re-evaluating priorities and redefining purpose at individual and collective levels. There has been a conscious crossover to a value addition approach, which goes beyond profits and pay cheques. Champions of climate change, software engineers going back to their villages to start organic farming, start-up founders obsessed with leveraging technology to solve the problem of access to financial services, and teachers imparting education to underprivileged students are the real-life heroes of today. To them, 'why we do' matters as much as 'what we do'. Consequently, ESG (environmental awareness, social responsibility and good governance) have become the focal points of the lens through which governments, corporates and individuals are looking at their day-to-day jobs and decision-making.",
+    "question": "Choose the pair of words from the following which means the same as 'imbibe' and 'leverage', respectively.",
+    "options": [
+      "impact; receive",
+      "internalise; utilise",
+      "accept; lift up",
+      "influence; relaxation"
+    ],
+    "correct_answer": "internalise; utilise",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Reading Comprehension",
+    "difficulty": "Medium",
+    "explanation": "'Imbibe' means to absorb or internalise (as in 'imbibe climate change-related concerns'), and 'leverage' means to use something to maximum advantage, i.e., 'utilise'."
+  },
+  {
+    "passage": "Planet, People, Profit: The 3Ps of the triple bottom line approach, which form the core of sustainable business operations, are more intertwined and inseparable today than they ever have been in the past. Natural calamities, global warming and governance issues are impacting reputations and businesses, along with heightened shareholder and consumer activism, and increased regulatory scrutiny. As a result, enterprises are compelled to take a hard look at the way they conduct their businesses and make sweeping changes in a bid to future-proof themselves. An example of the way in which the landscape is changing can be found in the Indian banking system. The Reserve Bank of India, recently proposed integrating climate-related risks into its practice of monitoring the stability of the financial system and modelling climate risk scenarios to identify vulnerabilities. This could imply that banks and financial institutions would need to chalk out new frameworks, imbibe climate change-related concerns into their credit decisions and risk management functions. Globally, communities and corporations are re-evaluating priorities and redefining purpose at individual and collective levels. There has been a conscious crossover to a value addition approach, which goes beyond profits and pay cheques. Champions of climate change, software engineers going back to their villages to start organic farming, start-up founders obsessed with leveraging technology to solve the problem of access to financial services, and teachers imparting education to underprivileged students are the real-life heroes of today. To them, 'why we do' matters as much as 'what we do'. Consequently, ESG (environmental awareness, social responsibility and good governance) have become the focal points of the lens through which governments, corporates and individuals are looking at their day-to-day jobs and decision-making.",
+    "question": "Which of the following is closer to the meaning of 'vulnerability'?",
+    "options": [
+      "exposed to problems",
+      "strangeness",
+      "negative impacts",
+      "the poor and the weak"
+    ],
+    "correct_answer": "exposed to problems",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Reading Comprehension",
+    "difficulty": "Medium",
+    "explanation": "'Vulnerability' refers to susceptibility to harm — being exposed to risk or problems — rather than the negative impacts themselves, which are the consequence of vulnerability, not its meaning."
+  },
+  {
+    "passage": "Planet, People, Profit: The 3Ps of the triple bottom line approach, which form the core of sustainable business operations, are more intertwined and inseparable today than they ever have been in the past. Natural calamities, global warming and governance issues are impacting reputations and businesses, along with heightened shareholder and consumer activism, and increased regulatory scrutiny. As a result, enterprises are compelled to take a hard look at the way they conduct their businesses and make sweeping changes in a bid to future-proof themselves. An example of the way in which the landscape is changing can be found in the Indian banking system. The Reserve Bank of India, recently proposed integrating climate-related risks into its practice of monitoring the stability of the financial system and modelling climate risk scenarios to identify vulnerabilities. This could imply that banks and financial institutions would need to chalk out new frameworks, imbibe climate change-related concerns into their credit decisions and risk management functions. Globally, communities and corporations are re-evaluating priorities and redefining purpose at individual and collective levels. There has been a conscious crossover to a value addition approach, which goes beyond profits and pay cheques. Champions of climate change, software engineers going back to their villages to start organic farming, start-up founders obsessed with leveraging technology to solve the problem of access to financial services, and teachers imparting education to underprivileged students are the real-life heroes of today. To them, 'why we do' matters as much as 'what we do'. Consequently, ESG (environmental awareness, social responsibility and good governance) have become the focal points of the lens through which governments, corporates and individuals are looking at their day-to-day jobs and decision-making.",
+    "question": "The Reserve Bank of India did NOT do which one of the following?",
+    "options": [
+      "It proposed integrating climate-related risks into its practice of monitoring the stability of the financial system.",
+      "It proposed chalking out new frameworks to imbibe climate change-related concerns.",
+      "It has implemented the triple bottom line approach.",
+      "It is trying to identify vulnerabilities of climate change related concerns."
+    ],
+    "correct_answer": "It has implemented the triple bottom line approach.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Reading Comprehension",
+    "difficulty": "Medium",
+    "explanation": "The 'triple bottom line approach' is introduced as a general business concept at the start of the passage, not something the RBI itself is said to have implemented. The other three actions are directly attributed to the RBI in the passage."
+  },
+  {
+    "passage": "",
+    "question": "Of the four given options, choose the most appropriate one.",
+    "options": [
+      "His knowledge of Indian vernaculars are far superior to that of the common man.",
+      "His knowledge of Indian vernaculars is far superior to that of the common man.",
+      "His knowledges of Indian vernaculars are far superior to that of the common man.",
+      "His knowledge of Indian vernaculars has far superior to that of the common man's."
+    ],
+    "correct_answer": "His knowledge of Indian vernaculars is far superior to that of the common man.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Error Spotting",
+    "difficulty": "Easy",
+    "explanation": "'Knowledge' is an uncountable noun and takes a singular verb ('is'), and cannot be pluralised as 'knowledges'."
+  },
+  {
+    "passage": "",
+    "question": "Choose the alternative which can replace the underlined word without changing the meaning of the sentence.\nThe rapacious plunderers did not spare even the people living in the slums.",
+    "options": [
+      "barbarous",
+      "avaricious",
+      "nomadic",
+      "warlike"
+    ],
+    "correct_answer": "avaricious",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Synonym",
+    "difficulty": "Hard",
+    "explanation": "'Rapacious' means excessively greedy or grasping, which is closest in meaning to 'avaricious'."
+  },
+  {
+    "passage": "",
+    "question": "This question consists of a sentence which is divided into four parts numbered (1) to (4). Only one part of the sentence is not acceptable in standard written English. Identify that part which contains an error.\n1. We had in this village\n2. a boy whom I well remember\n3. whom from his childhood\n4. showed a strong liking for bees.",
+    "options": [
+      "We had in this village",
+      "a boy whom I well remember",
+      "whom from his childhood",
+      "showed a strong liking for bees."
+    ],
+    "correct_answer": "whom from his childhood",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Error Spotting",
+    "difficulty": "Hard",
+    "explanation": "The relative pronoun 'whom' has already been used in part 2 ('a boy whom I well remember'). Repeating 'whom' in part 3 is redundant and grammatically incorrect — the clause should continue directly as 'from his childhood showed...'."
+  },
+  {
+    "passage": "",
+    "question": "Of the four given options, choose the most appropriate one.\n1. The news of his father's demise has broken him.\n2. The news of his father's demise have broken him.\n3. The news of his father's demise has broke him.\n4. The news of his father's demise has been broken him.",
+    "options": [
+      "The news of his father's demise has broken him.",
+      "The news of his father's demise have broken him.",
+      "The news of his father's demise has broke him.",
+      "The news of his father's demise has been broken him."
+    ],
+    "correct_answer": "The news of his father's demise has broken him.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Error Spotting",
+    "difficulty": "Medium",
+    "explanation": "'News' is treated as singular and takes 'has'. The correct past participle of 'break' is 'broken' (not 'broke'), and the passive construction in option 4 is grammatically malformed."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which can be substituted for the given words/sentence.\nan office for which no salary is paid",
+    "options": [
+      "gratis",
+      "honorary",
+      "free",
+      "hospitable"
+    ],
+    "correct_answer": "honorary",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "One Word Substitution",
+    "difficulty": "Medium",
+    "explanation": "An unpaid position or office is called 'honorary'. 'Gratis' refers to goods or services given free of charge, not specifically to an office."
+  },
+  {
+    "passage": "",
+    "question": "Choose the most logical order of sentences from among the four choices to construct a coherent paragraph.\nA. In most of the advanced countries this feature has taken the shape of big retail channels and shopping malls which are now catching on in the bigger Indian cities.\nB. Some of the traditional outlets in villages and small towns are one-stop shops.\nC. By going to one place, one can get almost any item of domestic consumption.\nD. Though options may be limited they can meet a range of requirements.\nChoose the correct answer from the options given below:",
+    "options": [
+      "A, C, B, D",
+      "D, C, A, B",
+      "B, D, A, C",
+      "C, A, B, D"
+    ],
+    "correct_answer": "B, D, A, C",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Para Jumbles",
+    "difficulty": "Hard",
+    "explanation": "B introduces traditional one-stop shops; D adds that despite limited options they meet a range of requirements; A extends the idea to how this concept has evolved into big retail/malls in advanced countries and Indian cities; C rounds off by describing the core convenience of getting any item in one place."
+  },
+  {
+    "passage": "",
+    "question": "Of the four given options, choose the most appropriate one.\n1. My sister is the poet and the philosopher.\n2. My sister is a poet and philosopher.\n3. My sister is a poet and the philosopher.\n4. My sister is poet and philosopher.",
+    "options": [
+      "My sister is the poet and the philosopher.",
+      "My sister is a poet and philosopher.",
+      "My sister is a poet and the philosopher.",
+      "My sister is poet and philosopher."
+    ],
+    "correct_answer": "My sister is a poet and philosopher.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Grammar",
+    "difficulty": "Medium",
+    "explanation": "When two roles/qualities belong to the same person, only a single article is used before the first noun: 'a poet and philosopher'."
+  },
+  {
+    "passage": "",
+    "question": "Choose the alternative which can replace the underlined word without changing the meaning of the sentence.\nArun was able to see the futility of his work after 20 years.",
+    "options": [
+      "fruitfulness",
+      "results",
+      "worthlessness",
+      "benefits"
+    ],
+    "correct_answer": "worthlessness",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Synonym",
+    "difficulty": "Easy",
+    "explanation": "'Futility' means uselessness or worthlessness."
+  },
+  {
+    "passage": "",
+    "question": "Choose the alternative which can replace the underlined word without changing the meaning of the sentence.\nThe need of the hour is to initiate the renaissance of moral conscience and halt the rampant corruption for it could even hasten the end of our civilisation.",
+    "options": [
+      "rise",
+      "introduction",
+      "significance",
+      "revival"
+    ],
+    "correct_answer": "revival",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Synonym",
+    "difficulty": "Medium",
+    "explanation": "'Renaissance' literally means 'rebirth' and is used here to mean a 'revival' of moral conscience."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blanks:\nThere is no glory in war _______ the blood it _____.",
+    "options": [
+      "considering; sheds",
+      "comparing; spills",
+      "worth; costs",
+      "thinking; demands"
+    ],
+    "correct_answer": "worth; costs",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Medium",
+    "explanation": "The idiomatic sense intended is that war is not 'worth' the blood it 'costs' — i.e., the price paid in bloodshed outweighs any glory gained."
+  },
+  {
+    "passage": "",
+    "question": "Choose the most logical order of sentences from among the four choices to construct a coherent paragraph.\nA. The man who is perpetually hesitating over which of the two things he will do first, will do neither.\nB. He fluctuates from opinion to opinion and veers like a weather-cock.\nC. Instead of being progressive in anything, he will be at best stationary and most probably regress in all.\nD. It is only the man who first consults wisely, then resolves firmly, that can advance to eminence in any time.\nChoose the correct answer from the options given below:",
+    "options": [
+      "A, B, D, C",
+      "B, A, C, D",
+      "A, B, C, D",
+      "C, D, A, B"
+    ],
+    "correct_answer": "A, B, C, D",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Para Jumbles",
+    "difficulty": "Medium",
+    "explanation": "A introduces the hesitant man; B describes his fluctuating opinions; C describes the resulting stagnation/regression; D closes with a contrasting statement about the man who consults wisely and advances."
+  },
+  {
+    "passage": "",
+    "question": "Choose the alternative which is closest to the opposite in meaning of the underlined word in the sentence.\nYou will have to conform to the rules if you want to stay here.",
+    "options": [
+      "adjust",
+      "observe",
+      "disobey",
+      "comply"
+    ],
+    "correct_answer": "disobey",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Antonym",
+    "difficulty": "Easy",
+    "explanation": "'Conform' means to comply with rules; its opposite is 'disobey'."
+  },
+  {
+    "passage": "",
+    "question": "Choose the most logical order of sentences from among the four choices to construct a coherent paragraph.\nA. Nature seems to have taken particular care to disseminate her blessings among the different regions of the world.\nB. Therefore, the natives of several parts of the globe have a kind of dependence upon one another.\nC. The infusion of a china plant is sweetened by the pith of an Indian cane.\nD. The food often grows in one country and sauce is prepared in another.\nChoose the correct answer from the options given below:",
+    "options": [
+      "A, D, C, B",
+      "A, C, D, B",
+      "A, B, D, C",
+      "A, D, B, C"
+    ],
+    "correct_answer": "A, D, C, B",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Para Jumbles",
+    "difficulty": "Hard",
+    "explanation": "A states the general idea that nature disperses its blessings globally; D and C give two concrete examples (food/sauce, then tea/sugarcane); B, beginning with 'Therefore', is the concluding statement and must follow both examples."
+  },
+  {
+    "passage": "",
+    "question": "Choose the most logical order of sentences from among the four choices to construct a coherent paragraph.\nA. Such a place is called Oasis.\nB. A great part of Arabia is desert.\nC. The sand is so hot that you cannot walk over it with your bare feet in the day time.\nD. However, springs of water here and there come up from under the ground that enable vegetation to grow.\nChoose the correct answer from the options given below:",
+    "options": [
+      "A, C, D, B",
+      "B, C, A, D",
+      "B, C, D, A",
+      "C, D, B, A"
+    ],
+    "correct_answer": "B, C, D, A",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Para Jumbles",
+    "difficulty": "Medium",
+    "explanation": "B introduces Arabia as mostly desert; C describes the hot sand; D contrasts this with springs enabling vegetation; A concludes by naming such a vegetated place an 'Oasis'."
+  },
+  {
+    "passage": "",
+    "question": "Choose the alternative which is closest to the opposite in meaning of the underlined word in the sentence.\nDo not run after the momentary pleasures of this transient world.",
+    "options": [
+      "brief",
+      "ephemeral",
+      "passing",
+      "permanent"
+    ],
+    "correct_answer": "permanent",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Antonym",
+    "difficulty": "Medium",
+    "explanation": "'Transient' means temporary or short-lived; its opposite is 'permanent'. 'Brief', 'ephemeral', and 'passing' are all synonyms of transient, not antonyms."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which can be substituted for the given words/sentence.\na record of one's life written by somebody else",
+    "options": [
+      "bibliography",
+      "biography",
+      "topography",
+      "autobiography"
+    ],
+    "correct_answer": "biography",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "One Word Substitution",
+    "difficulty": "Easy",
+    "explanation": "A 'biography' is an account of someone's life written by another person, as opposed to an 'autobiography', which is written by oneself."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blanks:\nThose who live in _______ houses should not throw _______ at others.",
+    "options": [
+      "big, abuse",
+      "own, challenges",
+      "stone, bricks",
+      "glass, stones"
+    ],
+    "correct_answer": "glass, stones",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Easy",
+    "explanation": "This is the well-known proverb: 'People who live in glass houses should not throw stones', meaning one should not criticise others for faults one has oneself."
+  },
+  {
+    "passage": "",
+    "question": "Choose the alternative which is closest to the opposite in meaning of the underlined word in the sentence.\nWe should not belittle others' achievements.",
+    "options": [
+      "encourage",
+      "criticise",
+      "inspire",
+      "praise"
+    ],
+    "correct_answer": "praise",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Antonym",
+    "difficulty": "Medium",
+    "explanation": "'Belittle' means to make something seem less important or impressive than it is. Its most direct opposite, specifically in the context of achievements, is to 'praise' them."
+  },
+  {
+    "passage": "",
+    "question": "Of the four given options, choose the most appropriate one.\n1. Neither of them were invited to the party.\n2. Neither of them was invited to the party.\n3. Neither of them invited to the party.\n4. Neither of them have invited to the party.",
+    "options": [
+      "Neither of them were invited to the party.",
+      "Neither of them was invited to the party.",
+      "Neither of them invited to the party.",
+      "Neither of them have invited to the party."
+    ],
+    "correct_answer": "Neither of them was invited to the party.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Grammar",
+    "difficulty": "Medium",
+    "explanation": "'Neither' is grammatically singular and takes a singular verb: 'was invited'."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which can be substituted for the given words/sentence.\nthat which is bound to happen",
+    "options": [
+      "wavering",
+      "opaque",
+      "inevitable",
+      "doubtful"
+    ],
+    "correct_answer": "inevitable",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "One Word Substitution",
+    "difficulty": "Easy",
+    "explanation": "Something 'bound to happen' — unavoidable — is described as 'inevitable'."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blanks:\nThe relations between two friends are so _______ that no misunderstandings can _______ them.",
+    "options": [
+      "fragile; cement",
+      "strong; break",
+      "sensitive; embitter",
+      "close; unite"
+    ],
+    "correct_answer": "strong; break",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Medium",
+    "explanation": "'So strong that no misunderstandings can break them' makes logical sense — the relationship's strength is what allows it to withstand misunderstandings."
+  },
+  {
+    "passage": "",
+    "question": "Choose the most logical order of sentences from among the four choices to construct a coherent paragraph.\nA. Dog is known for its faithfulness.\nB. It stands by humans in the time of prosperity and also in adversity.\nC. It will sleep on the cold ground, if only it may be by the master's side.\nD. And it will kiss the land that has no food to offer yet not betray its master.\nChoose the correct answer from the options given below:",
+    "options": [
+      "A, C, B, D",
+      "A, B, C, D",
+      "A, D, C, B",
+      "B, C, A, D"
+    ],
+    "correct_answer": "A, B, C, D",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Para Jumbles",
+    "difficulty": "Medium",
+    "explanation": "A introduces the dog's faithfulness; B makes the general claim that it stands by humans in prosperity and adversity; C and D give escalating specific examples (sleeping on cold ground, kissing barren land) of that devotion."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blanks:\n_______ politicians alone can survive in politics where _______ rules the roost.",
+    "options": [
+      "Clever; practical",
+      "Why; treacherous",
+      "Wily; treachery",
+      "Ideal; prestigious"
+    ],
+    "correct_answer": "Wily; treachery",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Medium",
+    "explanation": "'Wily politicians alone can survive in politics where treachery rules the roost' — 'wily' (cunning) fits a political environment dominated by 'treachery'."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blanks:\nHe appears to be liberal in his views, but in actual life he is less _______ and is _______ narrow-minded than many others in the organisation.",
+    "options": [
+      "tolerant; more",
+      "sympathetic; thoroughly",
+      "acceptable; hardly",
+      "understanding; most"
+    ],
+    "correct_answer": "tolerant; more",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Medium",
+    "explanation": "The sentence contrasts his apparent liberalism with reality: 'he is less tolerant and is more narrow-minded than many others' — a coherent contrast."
+  },
+  {
+    "passage": "",
+    "question": "Choose the alternative which can replace the underlined word without changing the meaning of the sentence.\nHe would have been successful, but for his lack of temerity.",
+    "options": [
+      "audacity",
+      "confidence",
+      "sincerity",
+      "strength"
+    ],
+    "correct_answer": "audacity",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Synonym",
+    "difficulty": "Hard",
+    "explanation": "'Temerity' means excessive confidence or boldness, bordering on recklessness — most precisely matched by 'audacity'."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which best expresses the meaning of the idiom/phrase underlined in the sentence.\nThe thief was caught red-handed and apprehended by the police.",
+    "options": [
+      "with the hands smeared with blood",
+      "in the act of committing the crime",
+      "after the crime",
+      "was caught wrongly"
+    ],
+    "correct_answer": "in the act of committing the crime",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Easy",
+    "explanation": "'Caught red-handed' means caught in the very act of committing a crime or wrongdoing."
+  },
+  {
+    "passage": "",
+    "question": "This question consists of a sentence which is divided into four parts numbered (1) to (4). Only one part of the sentence is not acceptable in standard written English. Identify that part which contains an error.\n1. I had a partial father\n2. who give me a better education\n3. than his broken fortune\n4. would have allowed.",
+    "options": [
+      "I had a partial father",
+      "who give me a better education",
+      "than his broken fortune",
+      "would have allowed."
+    ],
+    "correct_answer": "who give me a better education",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Error Spotting",
+    "difficulty": "Medium",
+    "explanation": "The verb 'give' does not agree with the past-tense narration ('I had... would have allowed'); it should be 'gave'."
+  },
+  {
+    "passage": "",
+    "question": "Choose the alternative which can replace the underlined word without changing the meaning of the sentence.\nMost of the staff is restive under the new manager.",
+    "options": [
+      "discontented",
+      "relaxed",
+      "easy",
+      "friendly"
+    ],
+    "correct_answer": "discontented",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Synonym",
+    "difficulty": "Easy",
+    "explanation": "'Restive' means restless, impatient, or discontented, especially under control or restriction."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which best expresses the meaning of the idiom/phrase underlined in the sentence.\nWhat egged you on to become a social worker?",
+    "options": [
+      "urged",
+      "discouraged",
+      "hindered",
+      "inspired"
+    ],
+    "correct_answer": "urged",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Medium",
+    "explanation": "'Egged on' means to urge or incite someone to do something; 'urged' is the closest dictionary match, though 'inspired' is a plausible near-alternative."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which best expresses the meaning of the idiom/phrase underlined in the sentence.\nIt was he who put a spoke in my wheel.",
+    "options": [
+      "tried to cause an accident",
+      "helped in the execution of the plan",
+      "thwarted the execution of the plan",
+      "destroyed the plan"
+    ],
+    "correct_answer": "thwarted the execution of the plan",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Medium",
+    "explanation": "'Put a spoke in someone's wheel' means to deliberately hinder or obstruct someone's plan — it does not necessarily mean destroying it outright."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which can be substituted for the given words/sentence.\nallowance paid by a husband to his wife on legal separation",
+    "options": [
+      "compensation",
+      "wage",
+      "alimony",
+      "debt"
+    ],
+    "correct_answer": "alimony",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "One Word Substitution",
+    "difficulty": "Easy",
+    "explanation": "'Alimony' is precisely the allowance a spouse pays to the other after legal separation or divorce."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which best expresses the meaning of the idiom/phrase underlined in the sentence.\nWhen he tells stories about himself he is inspired to draw the long bow.",
+    "options": [
+      "get excited",
+      "exaggerate",
+      "get emotional",
+      "underrate"
+    ],
+    "correct_answer": "exaggerate",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Medium",
+    "explanation": "'Draw the long bow' means to exaggerate or stretch the truth."
+  },
+  {
+    "passage": "",
+    "question": "This question consists of a sentence which is divided into four parts numbered (1) to (4). Only one part of the sentence is not acceptable in standard written English. Identify that part which contains an error.\n1. This majestic mahogany table\n2. which had one leg missing\n3. belongs to an old prince\n4. who is now impoverished.",
+    "options": [
+      "This majestic mahogany table",
+      "which had one leg missing",
+      "belongs to an old prince",
+      "who is now impoverished."
+    ],
+    "correct_answer": "which had one leg missing",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Error Spotting",
+    "difficulty": "Hard",
+    "explanation": "The sentence describes a present, ongoing state ('belongs...is now'), so the descriptive clause about the table should also be in the present tense: 'which has one leg missing', not 'had'."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which best expresses the meaning of the idiom/phrase underlined in the sentence.\nMy father strained every nerve to enable me to get settled in life.",
+    "options": [
+      "worked very hard",
+      "spent a large amount of money",
+      "tried all tricks",
+      "bribed several persons"
+    ],
+    "correct_answer": "worked very hard",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Medium",
+    "explanation": "'Strain every nerve' means to make the greatest possible effort, i.e., to work very hard, not specifically to use tricks or money."
+  },
+  {
+    "passage": "",
+    "question": "This question consists of a sentence which is divided into four parts numbered (1) to (4). Only one part of the sentence is not acceptable in standard written English. Identify that part which contains an error.\n1. It is to be\n2. the last expedition\n3. before the school examinations,\n4. which start on 12 December 2022.",
+    "options": [
+      "It is to be",
+      "the last expedition",
+      "before the school examinations,",
+      "which start on 12 December 2022."
+    ],
+    "correct_answer": "which start on 12 December 2022.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Error Spotting",
+    "difficulty": "Hard",
+    "explanation": "No official key was available for this candidate response sheet, and this sentence is grammatically ambiguous — each part reads as acceptable on its own. Flagged for manual review; treating the candidate's marked part as tentatively correct given the lack of a clearer error elsewhere in the sentence."
+  },
+  {
+    "passage": "",
+    "question": "Of the four given options, choose the most appropriate one.\n1. No sooner had he returned than he left again.\n2. No sooner he had returned than he left again.\n3. No sooner had he returned but he left again.\n4. No sooner had he returned when he left again.",
+    "options": [
+      "No sooner had he returned than he left again.",
+      "No sooner he had returned than he left again.",
+      "No sooner had he returned but he left again.",
+      "No sooner had he returned when he left again."
+    ],
+    "correct_answer": "No sooner had he returned than he left again.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Error Spotting",
+    "difficulty": "Medium",
+    "explanation": "'No sooner' requires subject-auxiliary inversion ('had he returned') and is correctly paired with 'than', not 'but' or 'when'."
+  },
+  {
+    "passage": "",
+    "question": "Choose the option which can be substituted for the given words/sentence.\na person who is always dissatisfied",
+    "options": [
+      "heretic",
+      "malefactor",
+      "avaricious",
+      "malcontent"
+    ],
+    "correct_answer": "malcontent",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "One Word Substitution",
+    "difficulty": "Medium",
+    "explanation": "A 'malcontent' is a person who is chronically dissatisfied or discontented. 'Avaricious' means greedy, which is a different quality."
+  },
+  {
+    "passage": "",
+    "question": "Choose the alternative which is closest to the opposite in meaning of the underlined word in the sentence.\nQuite a few of the listeners complained that the speaker's speech was not comprehensible.",
+    "options": [
+      "intelligible",
+      "unclear",
+      "lucid",
+      "understandable"
+    ],
+    "correct_answer": "unclear",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Antonym",
+    "difficulty": "Medium",
+    "explanation": "'Comprehensible' means understandable; its opposite is 'unclear'. 'Intelligible', 'lucid', and 'understandable' are all synonyms of comprehensible, not antonyms."
+  },
+  {
+    "passage": "",
+    "question": "This question consists of a sentence which is divided into four parts numbered (1) to (4). Only one part of the sentence is not acceptable in standard written English. Identify that part which contains an error.\n1. Shifts in regional climate\n2. will also impact\n3. national parks, wild reserves\n4. and mountain tops with high altitude.",
+    "options": [
+      "Shifts in regional climate",
+      "will also impact",
+      "national parks, wild reserves",
+      "and mountain tops with high altitude."
+    ],
+    "correct_answer": "national parks, wild reserves",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Error Spotting",
+    "difficulty": "Hard",
+    "explanation": "'Wild reserves' is non-standard phrasing; the conventional term is 'wildlife reserves' or 'game reserves', making this the part with the error."
+  },
+  {
+    "passage": "",
+    "question": "Choose the alternative which is closest to the opposite in meaning of the underlined word in the sentence.\nThe Chairman initiated the proceedings with a brief speech.",
+    "options": [
+      "started",
+      "confused",
+      "complicated",
+      "concluded"
+    ],
+    "correct_answer": "concluded",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2022",
+    "topic": "Antonym",
+    "difficulty": "Easy",
+    "explanation": "'Initiated' means began or started; its opposite is 'concluded' (ended)."
+  },
+  {
+    "passage": "I was standing on the edge of a bungee platform, peering down from the height of a 22-storey (83 m) building at a sliver of a stream meandering through a deep valley. I could hear the jump master faintly over the strong wind. \"Do not look down. Here we go... one, two, three... jump!\" The next thing I knew, I was in a free fall, hurtling down, heading straight towards the boulders. The wind drowned out my scream and just when it felt like a never-ending descent, there was a sharp pull at my body harness and my fall was broken. As I swung, suspended head down, I let the gurgling stream and the tranquil hills calm me. I had taken my leap of faith. This is what I had met only a few minutes earlier. Back at the platform, loud cheers greeted me, even from those I had met just a few minutes earlier. This is what an adventure trip does – strengthens old bonds, creates new ones and helps you challenge yourself! Considered an extreme adventure sport, it requires you to free fall from a high structure with an elastic cord attached to your ankles. There are just a handful of activities or sports that can match the thrill of walking to the edge of a precipice and throwing yourself to the winds, but it is essential that you bungee jump only with a certified professional who meets all standard safety regulations. Says ex-army captain and managing director of Jumpin Heights in Rishikesh, \"The biggest challenge of setting up a bungee jumping platform in India is the apprehension that people have about safety\". Where bungee-jumping thrills you with a free fall journey through space, spelunking leads you to the mystical expanse within, and sometimes even under terra firma! An adventure sport that can double up as a means of scientific and archaeological research, spelunking can transport you to a world within a world, with prehistoric rock formations, hidden streams and waterfalls, and more. Also known as caving, the sport is relatively new to India. Essential equipment includes nylon ropes, climbing harness, ascenders and descenders, ladder, scaling pole and hard hat/helmet with a chinstrap. Contrary to common perception, spelunking can be fairly low-risk, depending on the cave you choose. It is always best to go caving in a group of three or more and not alone, and people with respiratory and/or orthopaedic issues are advised to avoid the sport altogether. It is important to remember that there are various forms of life in a cave – from spiders and bats to rare plants and fish species – and you must be careful not to hamper their natural habitat during your sojourn. One of the most popular adventure sports in the world, scuba diving is all about discovering a new habitat and giving in to the spirit of wonder. It is important to note, however, that scuba certification involves a lot of classroom work and in-water practice. A basic understanding of the equipment, diving safety, air and air pressure, and the physics of the activity is essential. Once you exit the bubble of basic scuba training, a world of different types of diving opens up to you – your next tryst with the sport could see you diving from a dive boat, shore diving from a sandy beach or even an inland lake. There are fixed entry and exit methods for different kinds of diving too – the giant stride entry, controlled seated entry or backward roll entry for boat diving; surf exit and rocky surface exit for shore diving, and so on.",
+    "question": "Which one of the following is true of the narrator's (bungee jumper) 'leap of faith'?",
+    "options": [
+      "He had no fear as he went down.",
+      "His scream was subdued by the wind.",
+      "Suspended head down, he could touch the gurgling water.",
+      "His fall was towards the plain terrain."
+    ],
+    "correct_answer": "Suspended head down, he could touch the gurgling water.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Reading Comprehension",
+    "difficulty": "Medium",
+    "explanation": "The passage states he swung 'suspended head down' and let the gurgling stream and tranquil hills calm him, matching this option most closely among the four."
+  },
+  {
+    "passage": "I was standing on the edge of a bungee platform, peering down from the height of a 22-storey (83 m) building at a sliver of a stream meandering through a deep valley. I could hear the jump master faintly over the strong wind. \"Do not look down. Here we go... one, two, three... jump!\" The next thing I knew, I was in a free fall, hurtling down, heading straight towards the boulders. The wind drowned out my scream and just when it felt like a never-ending descent, there was a sharp pull at my body harness and my fall was broken. As I swung, suspended head down, I let the gurgling stream and the tranquil hills calm me. I had taken my leap of faith. Back at the platform, loud cheers greeted me, even from those I had met just a few minutes earlier. This is what an adventure trip does – strengthens old bonds, creates new ones and helps you challenge yourself! Considered an extreme adventure sport, it requires you to free fall from a high structure with an elastic cord attached to your ankles. There are just a handful of activities or sports that can match the thrill of walking to the edge of a precipice and throwing yourself to the winds, but it is essential that you bungee jump only with a certified professional who meets all standard safety regulations. Says ex-army captain and managing director of Jumpin Heights in Rishikesh, \"The biggest challenge of setting up a bungee jumping platform in India is the apprehension that people have about safety\". Where bungee-jumping thrills you with a free fall journey through space, spelunking leads you to the mystical expanse within, and sometimes even under terra firma! An adventure sport that can double up as a means of scientific and archaeological research, spelunking can transport you to a world within a world, with prehistoric rock formations, hidden streams and waterfalls, and more. Also known as caving, the sport is relatively new to India. Essential equipment includes nylon ropes, climbing harness, ascenders and descenders, ladder, scaling pole and hard hat/helmet with a chinstrap. Contrary to common perception, spelunking can be fairly low-risk, depending on the cave you choose. It is always best to go caving in a group of three or more and not alone, and people with respiratory and/or orthopaedic issues are advised to avoid the sport altogether. It is important to remember that there are various forms of life in a cave – from spiders and bats to rare plants and fish species – and you must be careful not to hamper their natural habitat during your sojourn. One of the most popular adventure sports in the world, scuba diving is all about discovering a new habitat and giving in to the spirit of wonder. It is important to note, however, that scuba certification involves a lot of classroom work and in-water practice. A basic understanding of the equipment, diving safety, air and air pressure, and the physics of the activity is essential. Once you exit the bubble of basic scuba training, a world of different types of diving opens up to you – your next tryst with the sport could see you diving from a dive boat, shore diving from a sandy beach or even an inland lake. There are fixed entry and exit methods for different kinds of diving too – the giant stride entry, controlled seated entry or backward roll entry for boat diving; surf exit and rocky surface exit for shore diving, and so on.",
+    "question": "Which of the following pair of words are nearest in meaning to 'short stay' and 'peaceful', respectively?",
+    "options": [
+      "Sojourn, tryst",
+      "Expanse, tranquil",
+      "Terrafirma, calm",
+      "Sojourn, tranquil"
+    ],
+    "correct_answer": "Sojourn, tranquil",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Reading Comprehension",
+    "difficulty": "Medium",
+    "explanation": "'Sojourn' means a temporary/short stay, and 'tranquil' means peaceful — both words appear in the passage in these senses."
+  },
+  {
+    "passage": "I was standing on the edge of a bungee platform, peering down from the height of a 22-storey (83 m) building at a sliver of a stream meandering through a deep valley. I could hear the jump master faintly over the strong wind. \"Do not look down. Here we go... one, two, three... jump!\" The next thing I knew, I was in a free fall, hurtling down, heading straight towards the boulders. The wind drowned out my scream and just when it felt like a never-ending descent, there was a sharp pull at my body harness and my fall was broken. As I swung, suspended head down, I let the gurgling stream and the tranquil hills calm me. I had taken my leap of faith. Back at the platform, loud cheers greeted me, even from those I had met just a few minutes earlier. This is what an adventure trip does – strengthens old bonds, creates new ones and helps you challenge yourself! Considered an extreme adventure sport, it requires you to free fall from a high structure with an elastic cord attached to your ankles. There are just a handful of activities or sports that can match the thrill of walking to the edge of a precipice and throwing yourself to the winds, but it is essential that you bungee jump only with a certified professional who meets all standard safety regulations. Says ex-army captain and managing director of Jumpin Heights in Rishikesh, \"The biggest challenge of setting up a bungee jumping platform in India is the apprehension that people have about safety\". Where bungee-jumping thrills you with a free fall journey through space, spelunking leads you to the mystical expanse within, and sometimes even under terra firma! An adventure sport that can double up as a means of scientific and archaeological research, spelunking can transport you to a world within a world, with prehistoric rock formations, hidden streams and waterfalls, and more. Also known as caving, the sport is relatively new to India. Essential equipment includes nylon ropes, climbing harness, ascenders and descenders, ladder, scaling pole and hard hat/helmet with a chinstrap. Contrary to common perception, spelunking can be fairly low-risk, depending on the cave you choose. It is always best to go caving in a group of three or more and not alone, and people with respiratory and/or orthopaedic issues are advised to avoid the sport altogether. It is important to remember that there are various forms of life in a cave – from spiders and bats to rare plants and fish species – and you must be careful not to hamper their natural habitat during your sojourn. One of the most popular adventure sports in the world, scuba diving is all about discovering a new habitat and giving in to the spirit of wonder. It is important to note, however, that scuba certification involves a lot of classroom work and in-water practice. A basic understanding of the equipment, diving safety, air and air pressure, and the physics of the activity is essential. Once you exit the bubble of basic scuba training, a world of different types of diving opens up to you – your next tryst with the sport could see you diving from a dive boat, shore diving from a sandy beach or even an inland lake. There are fixed entry and exit methods for different kinds of diving too – the giant stride entry, controlled seated entry or backward roll entry for boat diving; surf exit and rocky surface exit for shore diving, and so on.",
+    "question": "Bungee jumping is considered an 'extreme adventure sport' because",
+    "options": [
+      "it is very thrilling and exciting.",
+      "one needs to be a fitness freak.",
+      "there is a lot of apprehension about safety.",
+      "it involves high degree of risk."
+    ],
+    "correct_answer": "it involves high degree of risk.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Reading Comprehension",
+    "difficulty": "Medium",
+    "explanation": "The passage describes bungee jumping as requiring a 'free fall from a high structure with an elastic cord attached to your ankles' — the inherent high risk of this free fall is what makes it an 'extreme' sport, more precisely than the general trait of being 'thrilling'."
+  },
+  {
+    "passage": "I was standing on the edge of a bungee platform, peering down from the height of a 22-storey (83 m) building at a sliver of a stream meandering through a deep valley. I could hear the jump master faintly over the strong wind. \"Do not look down. Here we go... one, two, three... jump!\" The next thing I knew, I was in a free fall, hurtling down, heading straight towards the boulders. The wind drowned out my scream and just when it felt like a never-ending descent, there was a sharp pull at my body harness and my fall was broken. As I swung, suspended head down, I let the gurgling stream and the tranquil hills calm me. I had taken my leap of faith. Back at the platform, loud cheers greeted me, even from those I had met just a few minutes earlier. This is what an adventure trip does – strengthens old bonds, creates new ones and helps you challenge yourself! Considered an extreme adventure sport, it requires you to free fall from a high structure with an elastic cord attached to your ankles. There are just a handful of activities or sports that can match the thrill of walking to the edge of a precipice and throwing yourself to the winds, but it is essential that you bungee jump only with a certified professional who meets all standard safety regulations. Says ex-army captain and managing director of Jumpin Heights in Rishikesh, \"The biggest challenge of setting up a bungee jumping platform in India is the apprehension that people have about safety\". Where bungee-jumping thrills you with a free fall journey through space, spelunking leads you to the mystical expanse within, and sometimes even under terra firma! An adventure sport that can double up as a means of scientific and archaeological research, spelunking can transport you to a world within a world, with prehistoric rock formations, hidden streams and waterfalls, and more. Also known as caving, the sport is relatively new to India. Essential equipment includes nylon ropes, climbing harness, ascenders and descenders, ladder, scaling pole and hard hat/helmet with a chinstrap. Contrary to common perception, spelunking can be fairly low-risk, depending on the cave you choose. It is always best to go caving in a group of three or more and not alone, and people with respiratory and/or orthopaedic issues are advised to avoid the sport altogether. It is important to remember that there are various forms of life in a cave – from spiders and bats to rare plants and fish species – and you must be careful not to hamper their natural habitat during your sojourn. One of the most popular adventure sports in the world, scuba diving is all about discovering a new habitat and giving in to the spirit of wonder. It is important to note, however, that scuba certification involves a lot of classroom work and in-water practice. A basic understanding of the equipment, diving safety, air and air pressure, and the physics of the activity is essential. Once you exit the bubble of basic scuba training, a world of different types of diving opens up to you – your next tryst with the sport could see you diving from a dive boat, shore diving from a sandy beach or even an inland lake. There are fixed entry and exit methods for different kinds of diving too – the giant stride entry, controlled seated entry or backward roll entry for boat diving; surf exit and rocky surface exit for shore diving, and so on.",
+    "question": "Which one of the following is not true of 'spelunking'?",
+    "options": [
+      "The sport can sometimes lead one to underground terrains.",
+      "It offers a tryst with rocks, streams and waterfalls.",
+      "It has great scope for scientific and archeological research.",
+      "Since it is a low-risk sport even people with respiratory issues can indulge in this sport."
+    ],
+    "correct_answer": "Since it is a low-risk sport even people with respiratory issues can indulge in this sport.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Reading Comprehension",
+    "difficulty": "Medium",
+    "explanation": "The passage explicitly states that people with respiratory and/or orthopaedic issues are advised to avoid spelunking altogether, directly contradicting this option."
+  },
+  {
+    "passage": "I was standing on the edge of a bungee platform, peering down from the height of a 22-storey (83 m) building at a sliver of a stream meandering through a deep valley. I could hear the jump master faintly over the strong wind. \"Do not look down. Here we go... one, two, three... jump!\" The next thing I knew, I was in a free fall, hurtling down, heading straight towards the boulders. The wind drowned out my scream and just when it felt like a never-ending descent, there was a sharp pull at my body harness and my fall was broken. As I swung, suspended head down, I let the gurgling stream and the tranquil hills calm me. I had taken my leap of faith. Back at the platform, loud cheers greeted me, even from those I had met just a few minutes earlier. This is what an adventure trip does – strengthens old bonds, creates new ones and helps you challenge yourself! Considered an extreme adventure sport, it requires you to free fall from a high structure with an elastic cord attached to your ankles. There are just a handful of activities or sports that can match the thrill of walking to the edge of a precipice and throwing yourself to the winds, but it is essential that you bungee jump only with a certified professional who meets all standard safety regulations. Says ex-army captain and managing director of Jumpin Heights in Rishikesh, \"The biggest challenge of setting up a bungee jumping platform in India is the apprehension that people have about safety\". Where bungee-jumping thrills you with a free fall journey through space, spelunking leads you to the mystical expanse within, and sometimes even under terra firma! An adventure sport that can double up as a means of scientific and archaeological research, spelunking can transport you to a world within a world, with prehistoric rock formations, hidden streams and waterfalls, and more. Also known as caving, the sport is relatively new to India. Essential equipment includes nylon ropes, climbing harness, ascenders and descenders, ladder, scaling pole and hard hat/helmet with a chinstrap. Contrary to common perception, spelunking can be fairly low-risk, depending on the cave you choose. It is always best to go caving in a group of three or more and not alone, and people with respiratory and/or orthopaedic issues are advised to avoid the sport altogether. It is important to remember that there are various forms of life in a cave – from spiders and bats to rare plants and fish species – and you must be careful not to hamper their natural habitat during your sojourn. One of the most popular adventure sports in the world, scuba diving is all about discovering a new habitat and giving in to the spirit of wonder. It is important to note, however, that scuba certification involves a lot of classroom work and in-water practice. A basic understanding of the equipment, diving safety, air and air pressure, and the physics of the activity is essential. Once you exit the bubble of basic scuba training, a world of different types of diving opens up to you – your next tryst with the sport could see you diving from a dive boat, shore diving from a sandy beach or even an inland lake. There are fixed entry and exit methods for different kinds of diving too – the giant stride entry, controlled seated entry or backward roll entry for boat diving; surf exit and rocky surface exit for shore diving, and so on.",
+    "question": "Which of the following is not a basic requirement for scuba diving?",
+    "options": [
+      "Classroom work and in-water practice.",
+      "Spirit of wonder to explore and discover new habitats.",
+      "Diving equipment with map.",
+      "Physics of diving"
+    ],
+    "correct_answer": "Spirit of wonder to explore and discover new habitats.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Reading Comprehension",
+    "difficulty": "Medium",
+    "explanation": "The passage describes 'giving in to the spirit of wonder' as the appeal/motivation of scuba diving, not a technical requirement like classroom training, equipment, or understanding the physics of diving, which are explicitly listed as essential requirements."
+  },
+  {
+    "passage": "A strange culture of criticism pervades life these days, where everyone is a critic setting-sights on errors and indiscretions, more than on achievements and triumphs. Time was when you waited for that one movie or restaurant review from an established media reviewer. Today, thanks to social media, self-appointed critics deluge you with opinions and ratings. Everyone has a view on where the PM is going wrong and what his next step should be. A minister or godman just has to open his mouth before media pounces and makes it a matter of national debate, involving wilting insults and shattering downers. With eyes trained on indiscretions, we ignore achievements and recognition. We have become a nation that loves having an opinion, preferably negative; and likes nothing better than sharing it. And so, slowly the limelight has shifted from achievement and proud moments to the side of us best kept under wraps. It is indeed a voyeuristic, sadistic generation that takes pleasure in the downfall and public disgrace of others. In a terrible about-turn of the phrase 'no-news-is-good-news', today, we have come to a stage when 'good-news-is-no-news'. Media leads the charge, each TV channel watching out for 'Breaking News' moments – mostly censoring or condemning a perceived wrong move, a misdirected word or action, a wardrobe malfunction or the mouthing of a dirty word on the cricket field. People invariably tweet negative stuff, easily adopting moral grandstands, because that is what catches attention. Egged on by a trigger-happy audio-visual media, which shoots down and ridicules public figures for the slightest gaffe, we are stepping into a well-established culture of the Tall Poppy Syndrome! (A social phenomenon where those with more merit or success are disparaged and pulled down). It is all very well for children to pull each other down under the keen pressure of performance, dismissing achievers as 'nerds' and 'losers'. It is even understandable when professionals do so in a dog-eat-dog world, where pulling down one may spell success for another. But when the habit of condemnation and fault-finding becomes a national pastime, we need to sound the danger bells. Children today tune into news channels not for information, but to guffaw at people pulling each other down. This is a veritable street fight delivered to you through television; and viewers love it! The haranguing newsman, delivering cutting sarcasm and debilitating criticism, has replaced the stereotypical fisherwoman. And we all love the vicarious moral grandstanding. The more vitriolic the content, the higher the TRPs a programme delivers. Forgetting to praise the good work done, bosses pounce on little mistakes. Spouses and friends don't hold back judgment; parents lay it on thick. Experience tells us that positive strokes work far better than ridicule, especially public ridicule. Today, we have the power to make and break people through exposés and sting operations. But we also still retain the power to motivate and galvanise the good amongst us. And in order to indulge one, we must not give up the other! When we criticise, let us also stay attuned to the good in those we deride. A senior colleague said to me one day, \"Whenever anyone comes to me with a complaint, I insist on first hearing something good about the person they wish to criticize. For, everyone must have some good in them too.\"",
+    "question": "Why does the author say 'a strange culture of criticism has pervaded...'?",
+    "options": [
+      "Criticism is done through the social media which is a new channel of communication.",
+      "The author is averse to criticism and hence calls it 'strange'.",
+      "Ours has been a different culture in the world for centuries and centuries.",
+      "Not long ago we used to appreciate many good things and achievements that happened around us; now it is not so."
+    ],
+    "correct_answer": "Not long ago we used to appreciate many good things and achievements that happened around us; now it is not so.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Reading Comprehension",
+    "difficulty": "Medium",
+    "explanation": "The passage's 'strangeness' comes from the described shift — 'the limelight has shifted from achievement and proud moments' to fault-finding and negativity — not merely from the existence of a new communication channel."
+  },
+  {
+    "passage": "A strange culture of criticism pervades life these days, where everyone is a critic setting-sights on errors and indiscretions, more than on achievements and triumphs. Time was when you waited for that one movie or restaurant review from an established media reviewer. Today, thanks to social media, self-appointed critics deluge you with opinions and ratings. Everyone has a view on where the PM is going wrong and what his next step should be. A minister or godman just has to open his mouth before media pounces and makes it a matter of national debate, involving wilting insults and shattering downers. With eyes trained on indiscretions, we ignore achievements and recognition. We have become a nation that loves having an opinion, preferably negative; and likes nothing better than sharing it. And so, slowly the limelight has shifted from achievement and proud moments to the side of us best kept under wraps. It is indeed a voyeuristic, sadistic generation that takes pleasure in the downfall and public disgrace of others. In a terrible about-turn of the phrase 'no-news-is-good-news', today, we have come to a stage when 'good-news-is-no-news'. Media leads the charge, each TV channel watching out for 'Breaking News' moments – mostly censoring or condemning a perceived wrong move, a misdirected word or action, a wardrobe malfunction or the mouthing of a dirty word on the cricket field. People invariably tweet negative stuff, easily adopting moral grandstands, because that is what catches attention. Egged on by a trigger-happy audio-visual media, which shoots down and ridicules public figures for the slightest gaffe, we are stepping into a well-established culture of the Tall Poppy Syndrome! (A social phenomenon where those with more merit or success are disparaged and pulled down). It is all very well for children to pull each other down under the keen pressure of performance, dismissing achievers as 'nerds' and 'losers'. It is even understandable when professionals do so in a dog-eat-dog world, where pulling down one may spell success for another. But when the habit of condemnation and fault-finding becomes a national pastime, we need to sound the danger bells. Children today tune into news channels not for information, but to guffaw at people pulling each other down. This is a veritable street fight delivered to you through television; and viewers love it! The haranguing newsman, delivering cutting sarcasm and debilitating criticism, has replaced the stereotypical fisherwoman. And we all love the vicarious moral grandstanding. The more vitriolic the content, the higher the TRPs a programme delivers. Forgetting to praise the good work done, bosses pounce on little mistakes. Spouses and friends don't hold back judgment; parents lay it on thick. Experience tells us that positive strokes work far better than ridicule, especially public ridicule. Today, we have the power to make and break people through exposés and sting operations. But we also still retain the power to motivate and galvanise the good amongst us. And in order to indulge one, we must not give up the other! When we criticise, let us also stay attuned to the good in those we deride. A senior colleague said to me one day, \"Whenever anyone comes to me with a complaint, I insist on first hearing something good about the person they wish to criticize. For, everyone must have some good in them too.\"",
+    "question": "Choose the pair of words from the following which mean the same as 'overwhelm' and 'abusive', respectively.",
+    "options": [
+      "deluge, criticise",
+      "galvanise, condemn",
+      "deluge, vitriolic",
+      "expose, invective"
+    ],
+    "correct_answer": "deluge, vitriolic",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Reading Comprehension",
+    "difficulty": "Hard",
+    "explanation": "'Deluge' (as in 'critics deluge you with opinions') means to overwhelm with an excessive quantity, and 'vitriolic' (as in 'the more vitriolic the content') means bitterly abusive or scathing. 'Galvanise' means to stimulate into action, not overwhelm, ruling out option 2."
+  },
+  {
+    "passage": "A strange culture of criticism pervades life these days, where everyone is a critic setting-sights on errors and indiscretions, more than on achievements and triumphs. Time was when you waited for that one movie or restaurant review from an established media reviewer. Today, thanks to social media, self-appointed critics deluge you with opinions and ratings. Everyone has a view on where the PM is going wrong and what his next step should be. A minister or godman just has to open his mouth before media pounces and makes it a matter of national debate, involving wilting insults and shattering downers. With eyes trained on indiscretions, we ignore achievements and recognition. We have become a nation that loves having an opinion, preferably negative; and likes nothing better than sharing it. And so, slowly the limelight has shifted from achievement and proud moments to the side of us best kept under wraps. It is indeed a voyeuristic, sadistic generation that takes pleasure in the downfall and public disgrace of others. In a terrible about-turn of the phrase 'no-news-is-good-news', today, we have come to a stage when 'good-news-is-no-news'. Media leads the charge, each TV channel watching out for 'Breaking News' moments – mostly censoring or condemning a perceived wrong move, a misdirected word or action, a wardrobe malfunction or the mouthing of a dirty word on the cricket field. People invariably tweet negative stuff, easily adopting moral grandstands, because that is what catches attention. Egged on by a trigger-happy audio-visual media, which shoots down and ridicules public figures for the slightest gaffe, we are stepping into a well-established culture of the Tall Poppy Syndrome! (A social phenomenon where those with more merit or success are disparaged and pulled down). It is all very well for children to pull each other down under the keen pressure of performance, dismissing achievers as 'nerds' and 'losers'. It is even understandable when professionals do so in a dog-eat-dog world, where pulling down one may spell success for another. But when the habit of condemnation and fault-finding becomes a national pastime, we need to sound the danger bells. Children today tune into news channels not for information, but to guffaw at people pulling each other down. This is a veritable street fight delivered to you through television; and viewers love it! The haranguing newsman, delivering cutting sarcasm and debilitating criticism, has replaced the stereotypical fisherwoman. And we all love the vicarious moral grandstanding. The more vitriolic the content, the higher the TRPs a programme delivers. Forgetting to praise the good work done, bosses pounce on little mistakes. Spouses and friends don't hold back judgment; parents lay it on thick. Experience tells us that positive strokes work far better than ridicule, especially public ridicule. Today, we have the power to make and break people through exposés and sting operations. But we also still retain the power to motivate and galvanise the good amongst us. And in order to indulge one, we must not give up the other! When we criticise, let us also stay attuned to the good in those we deride. A senior colleague said to me one day, \"Whenever anyone comes to me with a complaint, I insist on first hearing something good about the person they wish to criticize. For, everyone must have some good in them too.\"",
+    "question": "The move from \"no news is good news\" to \"good news is no news\" is led by",
+    "options": [
+      "Tall poppy syndrome",
+      "The media",
+      "Diminishing number of achievements",
+      "Negative tweets"
+    ],
+    "correct_answer": "The media",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Reading Comprehension",
+    "difficulty": "Easy",
+    "explanation": "The passage explicitly states: 'Media leads the charge, each TV channel watching out for Breaking News moments...'"
+  },
+  {
+    "passage": "A strange culture of criticism pervades life these days, where everyone is a critic setting-sights on errors and indiscretions, more than on achievements and triumphs. Time was when you waited for that one movie or restaurant review from an established media reviewer. Today, thanks to social media, self-appointed critics deluge you with opinions and ratings. Everyone has a view on where the PM is going wrong and what his next step should be. A minister or godman just has to open his mouth before media pounces and makes it a matter of national debate, involving wilting insults and shattering downers. With eyes trained on indiscretions, we ignore achievements and recognition. We have become a nation that loves having an opinion, preferably negative; and likes nothing better than sharing it. And so, slowly the limelight has shifted from achievement and proud moments to the side of us best kept under wraps. It is indeed a voyeuristic, sadistic generation that takes pleasure in the downfall and public disgrace of others. In a terrible about-turn of the phrase 'no-news-is-good-news', today, we have come to a stage when 'good-news-is-no-news'. Media leads the charge, each TV channel watching out for 'Breaking News' moments – mostly censoring or condemning a perceived wrong move, a misdirected word or action, a wardrobe malfunction or the mouthing of a dirty word on the cricket field. People invariably tweet negative stuff, easily adopting moral grandstands, because that is what catches attention. Egged on by a trigger-happy audio-visual media, which shoots down and ridicules public figures for the slightest gaffe, we are stepping into a well-established culture of the Tall Poppy Syndrome! (A social phenomenon where those with more merit or success are disparaged and pulled down). It is all very well for children to pull each other down under the keen pressure of performance, dismissing achievers as 'nerds' and 'losers'. It is even understandable when professionals do so in a dog-eat-dog world, where pulling down one may spell success for another. But when the habit of condemnation and fault-finding becomes a national pastime, we need to sound the danger bells. Children today tune into news channels not for information, but to guffaw at people pulling each other down. This is a veritable street fight delivered to you through television; and viewers love it! The haranguing newsman, delivering cutting sarcasm and debilitating criticism, has replaced the stereotypical fisherwoman. And we all love the vicarious moral grandstanding. The more vitriolic the content, the higher the TRPs a programme delivers. Forgetting to praise the good work done, bosses pounce on little mistakes. Spouses and friends don't hold back judgment; parents lay it on thick. Experience tells us that positive strokes work far better than ridicule, especially public ridicule. Today, we have the power to make and break people through exposés and sting operations. But we also still retain the power to motivate and galvanise the good amongst us. And in order to indulge one, we must not give up the other! When we criticise, let us also stay attuned to the good in those we deride. A senior colleague said to me one day, \"Whenever anyone comes to me with a complaint, I insist on first hearing something good about the person they wish to criticize. For, everyone must have some good in them too.\"",
+    "question": "According to the author, why do we \"need to sound the danger bells\" now?",
+    "options": [
+      "Criticising has created rivalry among the media channels hungry for TRPs.",
+      "The habit of fault finding or ignoring the achievements has become a national hobby.",
+      "In future records will not be set or broken.",
+      "Exposés and sting operations should stop."
+    ],
+    "correct_answer": "The habit of fault finding or ignoring the achievements has become a national hobby.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Reading Comprehension",
+    "difficulty": "Medium",
+    "explanation": "The passage states directly: 'when the habit of condemnation and fault-finding becomes a national pastime, we need to sound the danger bells' — 'national pastime' is paraphrased here as 'national hobby'."
+  },
+  {
+    "passage": "A strange culture of criticism pervades life these days, where everyone is a critic setting-sights on errors and indiscretions, more than on achievements and triumphs. Time was when you waited for that one movie or restaurant review from an established media reviewer. Today, thanks to social media, self-appointed critics deluge you with opinions and ratings. Everyone has a view on where the PM is going wrong and what his next step should be. A minister or godman just has to open his mouth before media pounces and makes it a matter of national debate, involving wilting insults and shattering downers. With eyes trained on indiscretions, we ignore achievements and recognition. We have become a nation that loves having an opinion, preferably negative; and likes nothing better than sharing it. And so, slowly the limelight has shifted from achievement and proud moments to the side of us best kept under wraps. It is indeed a voyeuristic, sadistic generation that takes pleasure in the downfall and public disgrace of others. In a terrible about-turn of the phrase 'no-news-is-good-news', today, we have come to a stage when 'good-news-is-no-news'. Media leads the charge, each TV channel watching out for 'Breaking News' moments – mostly censoring or condemning a perceived wrong move, a misdirected word or action, a wardrobe malfunction or the mouthing of a dirty word on the cricket field. People invariably tweet negative stuff, easily adopting moral grandstands, because that is what catches attention. Egged on by a trigger-happy audio-visual media, which shoots down and ridicules public figures for the slightest gaffe, we are stepping into a well-established culture of the Tall Poppy Syndrome! (A social phenomenon where those with more merit or success are disparaged and pulled down). It is all very well for children to pull each other down under the keen pressure of performance, dismissing achievers as 'nerds' and 'losers'. It is even understandable when professionals do so in a dog-eat-dog world, where pulling down one may spell success for another. But when the habit of condemnation and fault-finding becomes a national pastime, we need to sound the danger bells. Children today tune into news channels not for information, but to guffaw at people pulling each other down. This is a veritable street fight delivered to you through television; and viewers love it! The haranguing newsman, delivering cutting sarcasm and debilitating criticism, has replaced the stereotypical fisherwoman. And we all love the vicarious moral grandstanding. The more vitriolic the content, the higher the TRPs a programme delivers. Forgetting to praise the good work done, bosses pounce on little mistakes. Spouses and friends don't hold back judgment; parents lay it on thick. Experience tells us that positive strokes work far better than ridicule, especially public ridicule. Today, we have the power to make and break people through exposés and sting operations. But we also still retain the power to motivate and galvanise the good amongst us. And in order to indulge one, we must not give up the other! When we criticise, let us also stay attuned to the good in those we deride. A senior colleague said to me one day, \"Whenever anyone comes to me with a complaint, I insist on first hearing something good about the person they wish to criticize. For, everyone must have some good in them too.\"",
+    "question": "Among the following which one is not the reason for people using the social media to criticize?",
+    "options": [
+      "It is powerful since it reaches many people very quickly.",
+      "For the new generation is the most popular among the channels of communication.",
+      "It is based on technology and is changeless.",
+      "Anyone can use it from anywhere."
+    ],
+    "correct_answer": "It is based on technology and is changeless.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Reading Comprehension",
+    "difficulty": "Medium",
+    "explanation": "The passage does not describe social media as 'changeless' — it is technology-based and constantly evolving; being unchanging is not cited anywhere as a reason people use it to criticise."
+  },
+  {
+    "passage": "",
+    "question": "In each of these questions, choose the option which best expresses the meaning of the idiom/phrase underlined in the sentence.\nIt was he who put a spoke in the wheel.",
+    "options": [
+      "helped in the execution of the plan",
+      "thwarted the plan",
+      "tried to cause an accident",
+      "tried to cause pain"
+    ],
+    "correct_answer": "thwarted the plan",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Medium",
+    "explanation": "'Put a spoke in someone's wheel' means to deliberately hinder or obstruct their plan."
+  },
+  {
+    "passage": "",
+    "question": "The new Chief Minister stuck his neck out today and promised 10 kg free wheat a month for all rural families.",
+    "options": [
+      "caused embarrassment",
+      "extended help",
+      "took a risk",
+      "took an oath"
+    ],
+    "correct_answer": "took a risk",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Easy",
+    "explanation": "'Stick one's neck out' means to take a risk or make oneself vulnerable by taking a bold stance."
+  },
+  {
+    "passage": "",
+    "question": "The old man was cut to the quick when his rich son refused to recognise him.",
+    "options": [
+      "hurt intensely",
+      "surprised",
+      "annoyed",
+      "irritated"
+    ],
+    "correct_answer": "hurt intensely",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Easy",
+    "explanation": "'Cut to the quick' means deeply hurt or offended emotionally."
+  },
+  {
+    "passage": "",
+    "question": "Mohan thanked Ramesh for helping him financially and not leaving him in the lurch.",
+    "options": [
+      "to leave one in difficulty",
+      "to be supportive",
+      "to compromise one's position",
+      "to make fun of"
+    ],
+    "correct_answer": "to leave one in difficulty",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Easy",
+    "explanation": "'Leave someone in the lurch' means to abandon them in a difficult situation without help."
+  },
+  {
+    "passage": "",
+    "question": "All my houseplants are in sorry shape; it is clear that I do not have a green thumb.",
+    "options": [
+      "have the ability to grow plants well",
+      "have a green tattoo on the thumb",
+      "have one's nails painted green",
+      "have artistic mind"
+    ],
+    "correct_answer": "have the ability to grow plants well",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Idioms & Phrases",
+    "difficulty": "Easy",
+    "explanation": "'Having a green thumb' is a well-known idiom meaning having a natural ability to grow plants successfully."
+  },
+  {
+    "passage": "",
+    "question": "Choose the most logical order of sentences from among the four given choices to construct a coherent paragraph.\nA. Even a farmer can be a knowledge worker despite being illiterate if he understands the soil that he sows in and the nutrients he adds to it.\nB. If he has the benefit of weather forecast, he is using knowledge and he becomes a knowledge worker.\nC. I want to distinguish between being just literate and being knowledgeable.\nD. Essentially, the when and why of it.",
+    "options": [
+      "ABCD",
+      "ACDB",
+      "CADB",
+      "CDBA"
+    ],
+    "correct_answer": "ABCD",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Para Jumbles",
+    "difficulty": "Medium",
+    "explanation": "A introduces the farmer example; B extends it with the weather-forecast condition making him a knowledge worker; C then pivots to the author's underlying point of distinguishing literacy from being knowledgeable; D closes by summarising the essence of that distinction ('the when and why of it')."
+  },
+  {
+    "passage": "",
+    "question": "Choose the most logical order of sentences from among the four given choices to construct a coherent paragraph.\nA. Lymphoma can easily spread throughout the body, so patients whose disease appears to be confined to one or a few lymph nodes may have collections of cancerous cells elsewhere in the body that are not big enough to be detected by the tests used in staging the disease.\nB. Treatment of lymphoma is tailored to each individual patient, depending on the type of lymphoma present, how fast it grows, and how far it has spread.\nC. In general, lymphomas that derive from 'T' cells are more difficult to treat than 'B' cell lymphomas, and patients aged over 60 are less likely to be cured than younger patients.\nD. For this reason, the treatment of choice for lymphoma is usually chemotherapy – drugs given by mouth or through the veins to destroy the rapidly proliferating cancer cells throughout the body.",
+    "options": [
+      "CBDA",
+      "BCAD",
+      "BACD",
+      "CDAB"
+    ],
+    "correct_answer": "BCAD",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Para Jumbles",
+    "difficulty": "Hard",
+    "explanation": "B introduces that treatment depends on type/spread; C adds detail on how type and age affect treatability; A explains that lymphoma can spread undetected beyond visible nodes; D concludes ('for this reason') that chemotherapy — a systemic treatment — is preferred because of that potential hidden spread."
+  },
+  {
+    "passage": "",
+    "question": "Choose the most logical order of sentences from among the four given choices to construct a coherent paragraph.\nA. Official records show that the gross enrolment rate in higher education is only 11 per cent while the National Knowledge Commission says that only seven per cent of the population between the age group of 18-24 enters higher education.\nB. Experts acknowledge that the present higher education system in India is not equipped to address the problem of shortage of skilled manpower and requires some changes in the basic structure.\nC. Even those who have access are not ensured of quality.\nD. The shortage of skilled manpower is a cause for concern in most sectors in India.",
+    "options": [
+      "CDBA",
+      "ADBC",
+      "BCAD",
+      "DBAC"
+    ],
+    "correct_answer": "DBAC",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Para Jumbles",
+    "difficulty": "Medium",
+    "explanation": "D introduces the topic (shortage of skilled manpower); B notes experts say the current system can't address this and needs structural change; A supports this with enrolment statistics; C closes by noting even those with access lack quality."
+  },
+  {
+    "passage": "",
+    "question": "Choose the most logical order of sentences from among the four given choices to construct a coherent paragraph.\nA. One of the main reasons for industrial sickness in our country has been the fact that business and industrial managers have not been able to look beyond the immediate future.\nB. The planning horizon has hardly ever exceeded five years.\nC. A leading Indian industrialist in an article on ways to strengthen India's economy has drawn attention to the problems of inflation and industrial sickness among other things.\nD. They have been too preoccupied with their attempts to report favourable results for the current year - higher profits and larger dividends to the shareholders.",
+    "options": [
+      "ABCD",
+      "CADB",
+      "ACBD",
+      "CDAB"
+    ],
+    "correct_answer": "CADB",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Para Jumbles",
+    "difficulty": "Medium",
+    "explanation": "C introduces the industrialist's article on industrial sickness; A gives one main reason (short-term thinking by managers); D elaborates on this preoccupation with immediate results; B further specifies the limited planning horizon."
+  },
+  {
+    "passage": "",
+    "question": "Choose the most logical order of sentences from among the four given choices to construct a coherent paragraph.\nA. A Standing Committee in the Department of Industrial Policy and Promotion (DIPP) will oversee the implementation of this order and will further make recommendations to nodal ministries and procuring entities.\nB. The new policy will boost domestic manufacturing and service provision, and enhance income and employment.\nC. The policy aims to maintain the balance between promoting 'Make in India' and ensuring timely supply of good quality and value-for-money products to the procuring government entities.\nD. The Union Cabinet chaired by the Prime Minister has given its approval for a national procurement policy that gives preference to 'Make in India' in government procurements.",
+    "options": [
+      "BCAD",
+      "DABC",
+      "DCBA",
+      "ABDC"
+    ],
+    "correct_answer": "DCBA",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Para Jumbles",
+    "difficulty": "Medium",
+    "explanation": "D introduces the Cabinet's approval of the policy; C explains the policy's balancing aim; B describes the resulting benefits; A closes with the implementation/oversight mechanism."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blanks:\nWith more and more uncommon policies, you can insure anything from your _______ to your _______.",
+    "options": [
+      "life, house",
+      "vehicle, house",
+      "pet, toe",
+      "house, car"
+    ],
+    "correct_answer": "pet, toe",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Medium",
+    "explanation": "The sentence emphasises 'uncommon' insurance policies; 'life' and 'house' are very ordinary things to insure, whereas insuring a 'pet' or a 'toe' exemplifies the unusual, novelty insurance policies the sentence is describing."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blanks:\nThe _______ of the job made him do his work _______.",
+    "options": [
+      "boredom, surreptitiously",
+      "nature, ambiguously",
+      "monotony, perfunctorily",
+      "place, indignantly"
+    ],
+    "correct_answer": "monotony, perfunctorily",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Medium",
+    "explanation": "'The monotony of the job made him do his work perfunctorily' is a natural cause-effect pairing: a repetitive, tedious job leads to mechanical, careless work — a common collocation in such vocabulary questions."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blanks:\nThe retired judge was too _______ to be taken in by the spurious excuses presented by the _______ crook.",
+    "options": [
+      "perspicacious, petty",
+      "sagacious, ingenious",
+      "astute, belligerent",
+      "obtuse, paltry"
+    ],
+    "correct_answer": "sagacious, ingenious",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Hard",
+    "explanation": "'Sagacious' (wise, shrewd) fits the judge who cannot be fooled, and 'ingenious' (cleverly inventive) fits the crook devising excuses."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blanks:\nThe spirit of sportsmanship is, in fact, the _______ of all maladies that _______ the world today.",
+    "options": [
+      "remedy, bother",
+      "solution, trouble",
+      "medicament, persecute",
+      "panacea, afflict"
+    ],
+    "correct_answer": "panacea, afflict",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Hard",
+    "explanation": "'Panacea' specifically means a universal cure for all ills/problems, forming a well-known collocation with 'panacea for all maladies', and 'afflict' (to cause suffering) is the standard verb used with 'maladies', unlike the weaker 'bother'."
+  },
+  {
+    "passage": "",
+    "question": "Fill in the blanks:\nIn today's public _______, scientists are highly respected but not nearly as influential as they should be; their voices are mostly _______ in the arena of public policy.",
+    "options": [
+      "sphere, absolute",
+      "times, peripheral",
+      "domain, marginalised",
+      "democracy, superficial"
+    ],
+    "correct_answer": "domain, marginalised",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Fill in the Blanks",
+    "difficulty": "Medium",
+    "explanation": "'Public domain' is the natural collocation, and 'marginalised' correctly conveys that scientists' voices are pushed to the sidelines in policy-making despite being respected."
+  },
+  {
+    "passage": "",
+    "question": "Identify the best way of writing the sentence ensuring that the message being conveyed remains the same.",
+    "options": [
+      "Said to be on the verge of extinction, a great deal of attention is attracted by Olive Ridley turtle from conservationists and the media.",
+      "Said to be on the verge of extinction, the conservationists and the media are giving a great deal of attention to Olive Ridley turtle.",
+      "Said to be on the verge of extinction, the Olive Ridley turtle is attracting the conservationists and the media to a great deal of attention.",
+      "Said to be on the verge of extinction, the Olive Ridley turtle attracts a great deal of attention from conservationists and the media."
+    ],
+    "correct_answer": "Said to be on the verge of extinction, the Olive Ridley turtle attracts a great deal of attention from conservationists and the media.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Error Spotting",
+    "difficulty": "Medium",
+    "explanation": "The introductory participial phrase 'Said to be on the verge of extinction' must modify the subject immediately following it — the Olive Ridley turtle. Only this option places the turtle correctly as the grammatical subject."
+  },
+  {
+    "passage": "",
+    "question": "Identify the best way of writing the sentence ensuring that the message being conveyed remains the same.",
+    "options": [
+      "The recent change in the Quarterly's book-review is short-sighted and self-defeating.",
+      "The change of late in the Quarterly's book-review is short-sighted and self-defeating.",
+      "The recent change in the Quarterly's book-review is short-sighted and also is self-deprecating.",
+      "The change that has been made recently in the Quarterly's book-review is short-sighted and self-defeating."
+    ],
+    "correct_answer": "The recent change in the Quarterly's book-review is short-sighted and self-defeating.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Error Spotting",
+    "difficulty": "Medium",
+    "explanation": "This option conveys the meaning most concisely and correctly. Option 4 says the same thing with unnecessary wordiness ('the change that has been made recently' vs. 'the recent change'), and option 3 changes the meaning to 'self-deprecating' rather than 'self-defeating'."
+  },
+  {
+    "passage": "",
+    "question": "Identify the best way of writing the sentence ensuring that the message being conveyed remains the same.",
+    "options": [
+      "Whoever leaves the room last is requested for locking the door after him.",
+      "Whomever leaves the room last is requested to lock the door after him.",
+      "Whoever leaves the room last is requested to lock the door after him.",
+      "Whomever leaves the room last is requested for locking the door after him."
+    ],
+    "correct_answer": "Whoever leaves the room last is requested to lock the door after him.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Error Spotting",
+    "difficulty": "Medium",
+    "explanation": "'Whoever' (subject case) is correct since it is the subject of 'leaves', and 'is requested to lock' uses the correct infinitive construction rather than 'requested for locking'."
+  },
+  {
+    "passage": "",
+    "question": "Identify the best way of writing the sentence ensuring that the message being conveyed remains the same.",
+    "options": [
+      "His son carried off his business after his demise.",
+      "His son carried on his business after his demise.",
+      "His son carried out his business after his demise.",
+      "His son carried away his business after his demise."
+    ],
+    "correct_answer": "His son carried on his business after his demise.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Error Spotting",
+    "difficulty": "Medium",
+    "explanation": "'Carried on' means continued, the intended meaning here — the son continued running the business after his father's death."
+  },
+  {
+    "passage": "",
+    "question": "Identify the best way of writing the sentence ensuring that the message being conveyed remains the same.",
+    "options": [
+      "He will not pay unless he is compelled to.",
+      "He will not pay unless he will be compelled.",
+      "He will not pay unless he is not compelled to.",
+      "He will not pay till he is compelled to."
+    ],
+    "correct_answer": "He will not pay unless he is compelled to.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Error Spotting",
+    "difficulty": "Medium",
+    "explanation": "'Unless' clauses use the simple present even when referring to a future condition ('unless he is compelled to'), and should not carry a double negative as in option 3."
+  },
+  {
+    "passage": "",
+    "question": "Each of these questions consists of a sentence which is divided into four parts numbered (1) to (4). Only one part in each sentence is not acceptable in standard written English. Identify that part which contains an error.\n1. He was able to\n2. complete the book\n3. by planning carefully\n4. and worked diligently.",
+    "options": [
+      "He was able to",
+      "complete the book",
+      "by planning carefully",
+      "and worked diligently."
+    ],
+    "correct_answer": "and worked diligently.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Error Spotting",
+    "difficulty": "Hard",
+    "explanation": "After the preposition 'by', the sentence requires parallel gerund structure: 'by planning carefully and working diligently', not the past-tense 'worked'."
+  },
+  {
+    "passage": "",
+    "question": "Each of these questions consists of a sentence which is divided into four parts numbered (1) to (4). Only one part in each sentence is not acceptable in standard written English. Identify that part which contains an error.\n1. When the rudder\n2. broke off from the boat,\n3. the sailor jumped in the bay\n4. and swam to the shore.",
+    "options": [
+      "When the rudder",
+      "broke off from the boat,",
+      "the sailor jumped in the bay",
+      "and swam to the shore."
+    ],
+    "correct_answer": "the sailor jumped in the bay",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Error Spotting",
+    "difficulty": "Medium",
+    "explanation": "The correct preposition for motion into water is 'into', not 'in' — it should read 'jumped into the bay'."
+  },
+  {
+    "passage": "",
+    "question": "Each of these questions consists of a sentence which is divided into four parts numbered (1) to (4). Only one part in each sentence is not acceptable in standard written English. Identify that part which contains an error.\n1. The current edition\n2. of the encyclopaedia,\n3. which I saw yesterday,\n4. said that cloning is possible.",
+    "options": [
+      "The current edition",
+      "of the encyclopaedia,",
+      "which I saw yesterday,",
+      "said that cloning is possible."
+    ],
+    "correct_answer": "said that cloning is possible.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Error Spotting",
+    "difficulty": "Hard",
+    "explanation": "Since this refers to the 'current' (present) edition, its content should be described in present tense — 'says that cloning is possible' — not the past tense 'said'."
+  },
+  {
+    "passage": "",
+    "question": "Each of these questions consists of a sentence which is divided into four parts numbered (1) to (4). Only one part in each sentence is not acceptable in standard written English. Identify that part which contains an error.\n1. The loss of three friends\n2. and a job\n3. were the price Patel had to pay\n4. for his ill tempered outbursts.",
+    "options": [
+      "The loss of three friends",
+      "and a job",
+      "were the price Patel had to pay",
+      "for his ill tempered outbursts."
+    ],
+    "correct_answer": "were the price Patel had to pay",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Error Spotting",
+    "difficulty": "Medium",
+    "explanation": "The grammatical subject is 'The loss' (singular), so the verb should be 'was', not 'were', despite the plural objects following 'of'."
+  },
+  {
+    "passage": "",
+    "question": "Each of these questions consists of a sentence which is divided into four parts numbered (1) to (4). Only one part in each sentence is not acceptable in standard written English. Identify that part which contains an error.\n1. In the new school,\n2. the teachers\n3. were more friendly\n4. than my old school.",
+    "options": [
+      "In the new school,",
+      "the teachers",
+      "were more friendly",
+      "than my old school."
+    ],
+    "correct_answer": "than my old school.",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Error Spotting",
+    "difficulty": "Medium",
+    "explanation": "This is a faulty comparison — comparing 'the teachers' (people) to 'my old school' (a place). It should compare like with like, e.g., 'than those in my old school'."
+  },
+  {
+    "passage": "",
+    "question": "In each of these questions, choose the alternative which is closest to opposite in meaning of the underlined word in the sentence.\nHarold was an excellent husband-tender, thoughtful, proud and affectionate; he was irreproachable.",
+    "options": [
+      "impeachable",
+      "unstable",
+      "inaccessible",
+      "inconsistent"
+    ],
+    "correct_answer": "impeachable",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Antonym",
+    "difficulty": "Hard",
+    "explanation": "'Irreproachable' means blameless, beyond criticism; its direct opposite is 'impeachable' — able to be called into question or blamed."
+  },
+  {
+    "passage": "",
+    "question": "In each of these questions, choose the alternative which is closest to opposite in meaning of the underlined word in the sentence.\nBoozy, brawling and bold; he is excoriated by the right wing for his opposition to the Vietnam War.",
+    "options": [
+      "favoured",
+      "reviled",
+      "revered",
+      "commended"
+    ],
+    "correct_answer": "commended",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Antonym",
+    "difficulty": "Hard",
+    "explanation": "'Excoriated' means harshly criticised or condemned. 'Reviled' is actually a synonym (also meaning harshly criticised), not an antonym; the true opposite is 'commended' (praised)."
+  },
+  {
+    "passage": "",
+    "question": "In each of these questions, choose the alternative which is closest to opposite in meaning of the underlined word in the sentence.\nThe boy jumped up and down with alacrity as he inched closer to the candy store.",
+    "options": [
+      "apathy",
+      "courtesy",
+      "ardour",
+      "zeal"
+    ],
+    "correct_answer": "apathy",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Antonym",
+    "difficulty": "Medium",
+    "explanation": "'Alacrity' means cheerful eagerness or readiness; its opposite is 'apathy' (indifference/lack of enthusiasm)."
+  },
+  {
+    "passage": "",
+    "question": "In each of these questions, choose the alternative which is closest to opposite in meaning of the underlined word in the sentence.\nShe had been ready with a flow of wrathful expostulation, but suddenly she burst into tears.",
+    "options": [
+      "kind",
+      "persuasive",
+      "calm",
+      "naive"
+    ],
+    "correct_answer": "calm",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Antonym",
+    "difficulty": "Medium",
+    "explanation": "'Wrathful' means full of intense anger; its opposite is 'calm'."
+  },
+  {
+    "passage": "",
+    "question": "In each of these questions, choose the alternative which is closest to opposite in meaning of the underlined word in the sentence.\nYet this ungainly exterior sheltered a tender, romantic and idealistic soul.",
+    "options": [
+      "unassuming",
+      "placid",
+      "attractive",
+      "graceful"
+    ],
+    "correct_answer": "graceful",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Antonym",
+    "difficulty": "Medium",
+    "explanation": "'Ungainly' means clumsy or lacking grace in movement or form; its most direct opposite is 'graceful'."
+  },
+  {
+    "passage": "",
+    "question": "In each of these questions, choose the alternative which can replace the underlined word without changing the meaning of the sentence.\nThe Puritan elders tried to ban levity of all sorts from the community meetings.",
+    "options": [
+      "youngsters",
+      "frivolity",
+      "illiterates",
+      "superstition"
+    ],
+    "correct_answer": "frivolity",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Synonym",
+    "difficulty": "Medium",
+    "explanation": "'Levity' means frivolity or inappropriate lightheartedness, especially in serious contexts."
+  },
+  {
+    "passage": "",
+    "question": "In each of these questions, choose the alternative which can replace the underlined word without changing the meaning of the sentence.\nI have my fingers in too many pies, I am completely frazzled.",
+    "options": [
+      "exhausted",
+      "satiated",
+      "annoyed",
+      "satisfied"
+    ],
+    "correct_answer": "exhausted",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Synonym",
+    "difficulty": "Easy",
+    "explanation": "'Frazzled' means exhausted or worn out, typically from being overworked or overstretched."
+  },
+  {
+    "passage": "",
+    "question": "In each of these questions, choose the alternative which can replace the underlined word without changing the meaning of the sentence.\nIt is hard to locate the roots of peripatetic gypsies and their borrowed traditions.",
+    "options": [
+      "colourful",
+      "static",
+      "resident",
+      "itinerant"
+    ],
+    "correct_answer": "itinerant",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Synonym",
+    "difficulty": "Hard",
+    "explanation": "'Peripatetic' means travelling from place to place, synonymous with 'itinerant'."
+  },
+  {
+    "passage": "",
+    "question": "In each of these questions, choose the alternative which can replace the underlined word without changing the meaning of the sentence.\nThe audience had no problem understanding the presenter's perspicuous speech.",
+    "options": [
+      "baneful",
+      "sagacious",
+      "avaricious",
+      "lucid"
+    ],
+    "correct_answer": "lucid",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Synonym",
+    "difficulty": "Hard",
+    "explanation": "'Perspicuous' means clearly expressed and easily understood, matching 'lucid'."
+  },
+  {
+    "passage": "",
+    "question": "In each of these questions, choose the alternative which can replace the underlined word without changing the meaning of the sentence.\nHe acquiesced to his son's decision to go out without an umbrella despite the prediction of rain.",
+    "options": [
+      "submitted",
+      "disagreed",
+      "rejoiced",
+      "basked"
+    ],
+    "correct_answer": "submitted",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "Synonym",
+    "difficulty": "Medium",
+    "explanation": "'Acquiesced' means accepted or complied without protest, matching 'submitted' (to a decision)."
+  },
+  {
+    "passage": "",
+    "question": "In each of these questions, choose the option which can be substituted for the given words/sentence.\nAn extremely confused or complicated situation",
+    "options": [
+      "Sodality",
+      "Oppugn",
+      "Imbroglio",
+      "Tiff"
+    ],
+    "correct_answer": "Imbroglio",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "One Word Substitution",
+    "difficulty": "Hard",
+    "explanation": "'Imbroglio' precisely means an extremely confused, complicated, or embarrassing situation."
+  },
+  {
+    "passage": "",
+    "question": "In each of these questions, choose the option which can be substituted for the given words/sentence.\nA formal resignation and renunciation of powers",
+    "options": [
+      "Fauna",
+      "Regalia",
+      "Axiom",
+      "Abdication"
+    ],
+    "correct_answer": "Abdication",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "One Word Substitution",
+    "difficulty": "Easy",
+    "explanation": "'Abdication' is the formal renunciation of a throne, office, or powers."
+  },
+  {
+    "passage": "",
+    "question": "In each of these questions, choose the option which can be substituted for the given words/sentence.\nA person who hates reason or discussion",
+    "options": [
+      "Misogynist",
+      "Misologist",
+      "Misanthropist",
+      "Bibliophile"
+    ],
+    "correct_answer": "Misologist",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "One Word Substitution",
+    "difficulty": "Hard",
+    "explanation": "A 'misologist' is one who hates reasoning, argument, or discussion. 'Misanthropist' means one who hates mankind in general, a different concept."
+  },
+  {
+    "passage": "",
+    "question": "In each of these questions, choose the option which can be substituted for the given words/sentence.\nA child who stays away from school without leave or explanation",
+    "options": [
+      "Truant",
+      "Cynic",
+      "Martinet",
+      "Acquiescent"
+    ],
+    "correct_answer": "Truant",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "One Word Substitution",
+    "difficulty": "Easy",
+    "explanation": "A 'truant' is exactly a child who stays away from school without permission or explanation."
+  },
+  {
+    "passage": "",
+    "question": "In each of these questions, choose the option which can be substituted for the given words/sentence.\nTo express vehement protest",
+    "options": [
+      "Invigorate",
+      "Fulminate",
+      "Exaltation",
+      "Languish"
+    ],
+    "correct_answer": "Fulminate",
+    "exam": "SCI Junior Court Assistant",
+    "year": "2017",
+    "topic": "One Word Substitution",
+    "difficulty": "Hard",
+    "explanation": "'Fulminate' means to express loud, vehement protest or criticism. 'Exaltation' is a noun meaning elation/glorification, unrelated to protest."
+  }
+]

@@ -1,1017 +1,4072 @@
 [
   {
+    "word": "Abdication",
+    "meaning_en": "A formal resignation and renunciation of powers",
+    "meaning_hi": "राजगद्दी त्याग / पद-त्याग",
+    "example": "The king's abdication shocked the entire nation.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "word": "Abeyance",
+    "meaning_en": "A state of temporary disuse or suspension",
+    "meaning_hi": "अस्थायी निलंबन / स्थगन",
+    "example": "The project was kept in abeyance until the funds arrived.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'To leave suddenly and hurriedly'.",
+    "word": "Abscond",
+    "meaning_hi": "गुप्त रूप से भाग जाना / फरार होना",
+    "meaning_en": "To leave suddenly and hurriedly",
+    "category": "oneword",
+    "example": "The treasurer absconded with the company's funds."
+  },
+  {
+    "phrase": "for: 'A deep and seemingly bottomless chasm'.",
+    "word": "Abyss",
+    "meaning_hi": "अथाह गहराई / गर्त",
+    "meaning_en": "A deep and seemingly bottomless chasm",
+    "category": "oneword",
+    "example": "The climbers stared into the dark abyss below."
+  },
+  {
+    "phrase": "One who helps another commit a crime",
+    "word": "Accomplice",
+    "meaning_hi": "सह-अपराधी",
+    "meaning_en": "Person who assists another in committing a crime",
+    "category": "oneword",
+    "example": "The thief was arrested along with his accomplice."
+  },
+  {
     "phrase": "One skilled in keeping financial accounts",
     "word": "Accountant",
     "meaning_hi": "लेखाकार",
     "meaning_en": "Financial record keeper",
-    "category": "oneword"
+    "category": "oneword",
+    "example": "The firm hired a new accountant to manage their finances."
+  },
+  {
+    "phrase": "One who has a fear of heights",
+    "word": "Acrophobe",
+    "meaning_hi": "ऊँचाई से डरने वाला",
+    "meaning_en": "Person with an extreme fear of heights",
+    "category": "oneword",
+    "example": "Being an acrophobe, she refused to climb the tower."
+  },
+  {
+    "phrase": "One who predicts events using statistical data",
+    "word": "Actuary",
+    "meaning_hi": "बीमांकक",
+    "meaning_en": "Person who compiles and analyses statistics for insurance",
+    "category": "oneword",
+    "example": "The actuary calculated the insurance risk for the company."
   },
   {
     "phrase": "One who speaks in favour of another",
     "word": "Advocate",
     "meaning_hi": "अधिवक्ता",
-    "meaning_en": "Supporter or pleader",
+    "meaning_en": "Supporter or pleader in court",
+    "category": "oneword",
+    "example": "She hired an experienced advocate to fight her case."
+  },
+  {
+    "word": "Aesthete",
+    "meaning_en": "A person who is a lover of fine arts",
+    "meaning_hi": "सौंदर्यप्रेमी / ललित कला का प्रेमी",
+    "example": "As a true aesthete, he spent hours in the art gallery.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
+  },
+  {
+    "phrase": "One who stirs up public feeling for a cause",
+    "word": "Agitator",
+    "meaning_hi": "आंदोलनकारी",
+    "meaning_en": "Person who stirs up public feeling, often for political change",
+    "category": "oneword",
+    "example": "The agitator was arrested for inciting the crowd."
   },
   {
     "phrase": "One who is unsure about the existence of God",
     "word": "Agnostic",
     "meaning_hi": "अज्ञेयवादी",
     "meaning_en": "One uncertain about God's existence",
-    "category": "oneword"
+    "category": "oneword",
+    "example": "As an agnostic, he neither confirmed nor denied God's existence."
+  },
+  {
+    "phrase": "One who has an excessive fear of open spaces",
+    "word": "Agoraphobe",
+    "meaning_hi": "खुली जगह से डरने वाला",
+    "meaning_en": "Person with an irrational fear of open or public spaces",
+    "category": "oneword",
+    "example": "The agoraphobe rarely ventured out of their home."
+  },
+  {
+    "word": "Alimony",
+    "meaning_en": "allowance paid by a husband to his wife on legal separation",
+    "meaning_hi": "गुज़ारा भत्ता",
+    "example": "The court ordered him to pay alimony to his wife.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword",
+    "phrase": "Financial allowance paid to a spouse after legal separation or divorce"
   },
   {
     "phrase": "One who is selflessly devoted to others' welfare",
     "word": "Altruist",
     "meaning_hi": "परोपकारी",
-    "meaning_en": "Selfless person",
-    "category": "oneword"
+    "meaning_en": "Selfless person who helps others without personal gain",
+    "category": "oneword",
+    "example": "A true altruist, she donated her entire savings to charity."
   },
   {
-    "phrase": "One who is against established government",
+    "phrase": "One who represents a country abroad",
+    "word": "Ambassador",
+    "meaning_hi": "राजदूत",
+    "meaning_en": "Senior diplomat who represents their country in another nation",
+    "category": "oneword",
+    "example": "India's ambassador to France attended the peace summit."
+  },
+  {
+    "phrase": "One who uses both hands with equal skill",
+    "word": "Ambidextrous",
+    "meaning_hi": "दोनों हाथों से काम करने वाला",
+    "meaning_en": "Person equally skilled with both hands",
+    "category": "oneword",
+    "example": "The ambidextrous player used both hands with equal skill."
+  },
+  {
+    "phrase": "A person who has both introvert and extrovert qualities.",
+    "word": "Ambivert",
+    "meaning_hi": "अंतर्मुखी और बहिर्मुखी के बीच का व्यक्ति",
+    "meaning_en": "A person who has both introvert and extrovert qualities.",
+    "category": "oneword",
+    "example": "As an ambivert, she enjoyed both parties and quiet evenings."
+  },
+  {
+    "word": "Amnesia",
+    "phrase": "A condition in which a person loses their memory partially or completely",
+    "meaning_en": "Partial or total loss of memory",
+    "meaning_hi": "स्मृतिभ्रंश / भूलने की बीमारी",
+    "category": "oneword",
+    "example": "The accident left him with total amnesia."
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'A general pardon granted by a government'.",
+    "word": "Amnesty",
+    "meaning_hi": "आम माफी / सामान्य क्षमा",
+    "meaning_en": "A general pardon granted by a government",
+    "category": "oneword",
+    "example": "The government declared an amnesty for all political prisoners."
+  },
+  {
+    "word": "Amputee",
+    "phrase": "A person who has had a limb removed by surgery or accident",
+    "meaning_en": "One who has undergone amputation of a limb",
+    "meaning_hi": "अंगभंग व्यक्ति",
+    "category": "oneword",
+    "example": "The soldier became an amputee after the landmine explosion."
+  },
+  {
+    "phrase": "One who is against all established government",
     "word": "Anarchist",
     "meaning_hi": "अराजकतावादी",
-    "meaning_en": "Opponent of all government",
-    "category": "oneword"
+    "meaning_en": "Opponent of all organised government",
+    "category": "oneword",
+    "example": "The anarchist believed no government had the right to rule."
+  },
+  {
+    "phrase": "One who studies the structure of the human body",
+    "word": "Anatomist",
+    "meaning_hi": "शरीर-रचना विज्ञानी",
+    "meaning_en": "Scientist who studies the structure of the body",
+    "category": "oneword",
+    "example": "The anatomist carefully studied the structure of the human body."
+  },
+  {
+    "phrase": "A short interesting story about a real person or event",
+    "word": "Anecdote",
+    "meaning_hi": "छोटी रोचक कहानी / प्रसंग",
+    "meaning_en": "A short interesting story about a real person or event",
+    "category": "oneword",
+    "example": "She shared a funny anecdote about her first day at work."
+  },
+  {
+    "phrase": "for: 'Extremely old-fashioned; belonging to a time before the biblical flood'.",
+    "word": "Antediluvian",
+    "meaning_hi": "अत्यंत पुराना / बाढ़-पूर्व युग का",
+    "meaning_en": "Extremely old-fashioned; belonging to a time before the biblical flood",
+    "category": "oneword",
+    "example": "His antediluvian views on women's rights shocked everyone."
+  },
+  {
+    "word": "Anthology",
+    "phrase": "A collection of selected literary works by various authors",
+    "meaning_en": "A published collection of poems or writings",
+    "meaning_hi": "संकलन / साहित्य-संग्रह",
+    "category": "oneword",
+    "example": "The teacher assigned an anthology of modern poetry."
+  },
+  {
+    "phrase": "One who studies the physical and cultural development of humans",
+    "word": "Anthropologist",
+    "meaning_hi": "नृविज्ञानी",
+    "meaning_en": "Scientist who studies human beings and their societies",
+    "category": "oneword",
+    "example": "The anthropologist spent years studying the tribe's customs."
   },
   {
     "phrase": "One who collects and studies antiques",
     "word": "Antiquarian",
     "meaning_hi": "पुरावस्तु संग्राहक",
-    "meaning_en": "Collector of antiques",
+    "meaning_en": "Collector and scholar of antiques",
+    "category": "oneword",
+    "example": "The antiquarian discovered a rare manuscript in the attic."
+  },
+  {
+    "word": "Apiary",
+    "meaning_en": "'A place where bees are kept'",
+    "meaning_hi": "मधुमक्खी पालन केंद्र",
+    "example": "The beekeeper maintained a large apiary on his farm.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
     "phrase": "One who abandons religious faith",
     "word": "Apostate",
     "meaning_hi": "धर्म त्यागने वाला",
-    "meaning_en": "Person who renounces religion",
+    "meaning_en": "Person who renounces their religion or beliefs",
+    "category": "oneword",
+    "example": "The apostate was banished from the religious community."
+  },
+  {
+    "phrase": "One who prepares and sells medicines (old usage)",
+    "word": "Apothecary",
+    "meaning_hi": "औषधि विक्रेता",
+    "meaning_en": "Historical term for a pharmacist",
+    "category": "oneword",
+    "example": "In earlier times, people consulted the apothecary for medicines."
+  },
+  {
+    "word": "Apprentice",
+    "meaning_en": "A person who is learning a trade from a skilled employer.",
+    "meaning_hi": "प्रशिक्षु / शागिर्द",
+    "example": "The young apprentice learned quickly under the master craftsman.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who is skilled in the art of healing",
-    "word": "Apothecary",
-    "meaning_hi": "औषधि विक्रेता",
-    "meaning_en": "Old-fashioned pharmacist",
+    "word": "Aquatic",
+    "meaning_en": "Living or growing in or near water.",
+    "meaning_hi": "जलीय / जल में रहने वाला",
+    "example": "Dolphins are aquatic mammals that live in the ocean.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
+  },
+  {
+    "phrase": "One who has an excessive fear of spiders",
+    "word": "Arachnophobe",
+    "meaning_hi": "मकड़ी से डरने वाला",
+    "meaning_en": "Person with an extreme fear of spiders",
+    "category": "oneword",
+    "example": "The arachnophobe screamed at the sight of the tiny spider."
+  },
+  {
+    "word": "Arbitrator",
+    "phrase": "An independent person appointed to settle a dispute",
+    "meaning_en": "One who settles disputes between parties",
+    "meaning_hi": "मध्यस्थ / पंच",
+    "category": "oneword",
+    "example": "Both parties agreed to settle the dispute through an arbitrator."
+  },
+  {
+    "phrase": "One who studies ancient human civilisations and artefacts",
+    "word": "Archaeologist",
+    "meaning_hi": "पुरातत्त्ववेत्ता",
+    "meaning_en": "Scientist who excavates and studies ancient remains",
+    "category": "oneword",
+    "example": "The archaeologist uncovered ancient coins at the excavation site."
   },
   {
     "phrase": "One who designs buildings",
     "word": "Architect",
     "meaning_hi": "वास्तुकार",
-    "meaning_en": "Building designer",
+    "meaning_en": "Professional building designer",
+    "category": "oneword",
+    "example": "The architect designed the award-winning city library."
+  },
+  {
+    "word": "Archive",
+    "meaning_en": "A place where records and documents are stored",
+    "meaning_hi": "अभिलेखागार / पुराने दस्तावेज़ों का संग्रह",
+    "example": "The archive holds records dating back three centuries.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
     "phrase": "One who keeps and manages public records",
     "word": "Archivist",
     "meaning_hi": "अभिलेखागार रक्षक",
-    "meaning_en": "Custodian of historical records",
-    "category": "oneword"
+    "meaning_en": "Custodian of historical documents and records",
+    "category": "oneword",
+    "example": "The archivist carefully preserved the old government documents."
+  },
+  {
+    "phrase": "for: 'Excessive self-importance or over-confidence.'",
+    "word": "Arrogance",
+    "meaning_hi": "अहंकार / घमंड",
+    "meaning_en": "Excessive self-importance or over-confidence.",
+    "category": "oneword",
+    "example": "His arrogance made it difficult for others to work with him."
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'An act of intentionally setting fire to property'.",
+    "word": "Arson",
+    "meaning_hi": "जान-बूझकर आग लगाना / आगजनी",
+    "meaning_en": "An act of intentionally setting fire to property",
+    "category": "oneword",
+    "example": "The building was deliberately destroyed in an act of arson."
   },
   {
     "phrase": "One who deliberately sets fire to property",
     "word": "Arsonist",
     "meaning_hi": "आगजनी करने वाला",
-    "meaning_en": "One who commits arson",
-    "category": "oneword"
+    "meaning_en": "One who commits the crime of arson",
+    "category": "oneword",
+    "example": "The arsonist was caught on CCTV setting fire to the warehouse."
   },
   {
     "phrase": "One who is skilled in handicrafts",
     "word": "Artisan",
     "meaning_hi": "दस्तकार",
-    "meaning_en": "Skilled craftsperson",
-    "category": "oneword"
+    "meaning_en": "Skilled craftsperson who makes things by hand",
+    "category": "oneword",
+    "example": "The artisan crafted a beautiful wooden chair by hand."
   },
   {
-    "phrase": "One who practises severe self-discipline",
+    "phrase": "One who practises severe self-discipline and avoids luxury",
     "word": "Ascetic",
     "meaning_hi": "संन्यासी",
-    "meaning_en": "Person living life of self-denial",
+    "meaning_en": "Person living a life of self-denial",
+    "category": "oneword",
+    "example": "The ascetic monk gave up all worldly comforts."
+  },
+  {
+    "word": "Assimilation",
+    "meaning_en": "The process of absorbing ideas or culture into a wider society.",
+    "meaning_hi": "आत्मसात करना / अवशोषण",
+    "example": "The assimilation of immigrants into the new culture takes time.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who studies the stars",
+    "phrase": "One who studies celestial bodies to make predictions",
     "word": "Astrologer",
     "meaning_hi": "ज्योतिषी",
-    "meaning_en": "One who studies celestial bodies for predictions",
-    "category": "oneword"
+    "meaning_en": "One who predicts events from positions of stars",
+    "category": "oneword",
+    "example": "She visited an astrologer to know about her future."
   },
   {
-    "phrase": "One who studies the stars and planets",
+    "phrase": "One who scientifically studies stars and planets",
     "word": "Astronomer",
     "meaning_hi": "खगोलशास्त्री",
     "meaning_en": "Scientist who studies celestial bodies",
-    "category": "oneword"
+    "category": "oneword",
+    "example": "The astronomer discovered a new star using the telescope."
+  },
+  {
+    "phrase": "One who studies the stars using scientific instruments",
+    "word": "Astrophysicist",
+    "meaning_hi": "खगोल भौतिकीविद",
+    "meaning_en": "Scientist who studies the physical properties of stars",
+    "category": "oneword",
+    "example": "The astrophysicist studied the properties of distant galaxies."
+  },
+  {
+    "phrase": "Hospital for people with mental illnesses",
+    "word": "Asylum",
+    "meaning_hi": "शरण स्थान / मानसिक चिकित्सालय",
+    "meaning_en": "Hospital for people with mental illnesses",
+    "category": "oneword",
+    "example": "He sought asylum in a foreign country to escape persecution."
   },
   {
     "phrase": "One who does not believe in God",
     "word": "Atheist",
     "meaning_hi": "नास्तिक",
-    "meaning_en": "Non-believer in God",
-    "category": "oneword"
+    "meaning_en": "Person who denies the existence of God",
+    "category": "oneword",
+    "example": "As an atheist, he did not believe in the existence of God."
   },
   {
-    "phrase": "One who writes the life story of oneself",
+    "phrase": "One who checks and verifies accounts officially",
+    "word": "Auditor",
+    "meaning_hi": "लेखा परीक्षक",
+    "meaning_en": "Person who officially examines financial accounts",
+    "category": "oneword",
+    "example": "The auditor found several discrepancies in the company accounts."
+  },
+  {
+    "phrase": "One who writes the story of their own life",
     "word": "Autobiographer",
     "meaning_hi": "आत्मकथाकार",
-    "meaning_en": "Self-life story writer",
+    "meaning_en": "Person who writes their own life story",
+    "category": "oneword",
+    "example": "As an autobiographer, she wrote honestly about her struggles."
+  },
+  {
+    "word": "Autocracy",
+    "phrase": "A system of government in which one person has absolute power",
+    "meaning_en": "Government by a single person with unlimited power",
+    "meaning_hi": "निरंकुशतंत्र / तानाशाही",
+    "category": "oneword",
+    "example": "The country suffered under years of brutal autocracy."
+  },
+  {
+    "phrase": "One who is self-taught without formal education",
+    "word": "Autodidact",
+    "meaning_hi": "स्वयंशिक्षित",
+    "meaning_en": "Person who is self-taught",
+    "category": "oneword",
+    "example": "Although he had no formal education, he was a remarkable autodidact."
+  },
+  {
+    "phrase": "One who collects autographs",
+    "word": "Autograph collector",
+    "meaning_hi": "हस्ताक्षर संग्राहक",
+    "meaning_en": "Person who collects famous people's signatures",
+    "category": "oneword",
+    "example": "The autograph collector had signatures from over two hundred celebrities."
+  },
+  {
+    "word": "Autopsy",
+    "phrase": "A post-mortem examination to determine the cause of death",
+    "meaning_en": "Medical examination of a dead body",
+    "meaning_hi": "शव-परीक्षण / पोस्टमार्टम",
+    "category": "oneword",
+    "example": "The autopsy revealed the cause of death was poisoning."
+  },
+  {
+    "phrase": "One who is skilled in navigating and flying aircraft",
+    "word": "Aviator",
+    "meaning_hi": "हवाबाज़",
+    "meaning_en": "Person who flies aircraft",
+    "category": "oneword",
+    "example": "The aviator completed a solo flight across the Atlantic."
+  },
+  {
+    "word": "Bachelor",
+    "meaning_en": "A person who has never been married.",
+    "meaning_hi": "अविवाहित पुरुष",
+    "example": "He remained a bachelor well into his forties.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who cannot pay debts",
+    "phrase": "One who studies bacteria",
+    "word": "Bacteriologist",
+    "meaning_hi": "जीवाणु वैज्ञानिक",
+    "meaning_en": "Scientist who studies bacteria",
+    "category": "oneword",
+    "example": "The bacteriologist identified the new strain of bacteria."
+  },
+  {
+    "phrase": "One who makes and sells bread and cakes",
+    "word": "Baker",
+    "meaning_hi": "बेकर",
+    "meaning_en": "Person who bakes and sells bread",
+    "category": "oneword",
+    "example": "The baker woke at four in the morning to prepare fresh bread."
+  },
+  {
+    "phrase": "One who is unable to pay debts",
     "word": "Bankrupt",
     "meaning_hi": "दिवालिया",
-    "meaning_en": "Unable to pay debts",
-    "category": "oneword"
+    "meaning_en": "Person who is legally declared unable to pay debts",
+    "category": "oneword",
+    "example": "After the business failed, he was declared bankrupt."
   },
   {
-    "phrase": "One who cuts hair",
+    "phrase": "One who cuts and styles hair",
     "word": "Barber",
     "meaning_hi": "नाई",
-    "meaning_en": "Hair cutter",
+    "meaning_en": "Person who cuts hair professionally",
+    "category": "oneword",
+    "example": "The barber gave him a neat haircut before the interview."
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'One who writes traditional poems'.",
+    "word": "Bard",
+    "meaning_hi": "कवि / चारण",
+    "meaning_en": "One who writes traditional poems",
+    "category": "oneword",
+    "example": "Shakespeare is considered the greatest bard of the English language."
+  },
+  {
+    "word": "Barracks",
+    "meaning_en": "A place where soldiers are stationed",
+    "meaning_hi": "सैनिक छावनी / सेना-आवास",
+    "example": "The soldiers rested in the barracks after the long march.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who is fond of going to war",
+    "phrase": "One who is eager to fight or go to war",
     "word": "Belligerent",
     "meaning_hi": "युद्धप्रिय",
-    "meaning_en": "War-loving person",
-    "category": "oneword"
+    "meaning_en": "Aggressive, war-loving person",
+    "category": "oneword",
+    "example": "The belligerent nation threatened its neighbours with war."
   },
   {
-    "phrase": "One who loves books",
+    "phrase": "One who collects and studies old books and manuscripts",
+    "word": "Bibliographer",
+    "meaning_hi": "ग्रंथ-विशेषज्ञ",
+    "meaning_en": "Person who studies or collects rare books",
+    "category": "oneword",
+    "example": "The bibliographer catalogued thousands of rare historical texts."
+  },
+  {
+    "phrase": "One who loves and collects books",
     "word": "Bibliophile",
     "meaning_hi": "पुस्तक प्रेमी",
-    "meaning_en": "Book lover",
-    "category": "oneword"
+    "meaning_en": "Book lover and collector",
+    "category": "oneword",
+    "example": "As a bibliophile, she had an entire room filled with books."
   },
   {
-    "phrase": "One who is intolerant of others' beliefs",
+    "phrase": "One who is intolerant of others' beliefs or opinions",
     "word": "Bigot",
     "meaning_hi": "कट्टरपंथी",
-    "meaning_en": "Intolerant and narrow-minded person",
-    "category": "oneword"
+    "meaning_en": "Narrow-minded, intolerant person",
+    "category": "oneword",
+    "example": "The bigot refused to accept people of different faiths."
   },
   {
-    "phrase": "One who is skilled in two languages",
+    "phrase": "One who is fluent in two languages",
     "word": "Bilingual",
     "meaning_hi": "द्विभाषी",
-    "meaning_en": "Proficient in two languages",
-    "category": "oneword"
+    "meaning_en": "Person proficient in two languages",
+    "category": "oneword",
+    "example": "Growing up bilingual, she spoke both Hindi and English fluently."
   },
   {
-    "phrase": "One who writes the life of another",
+    "phrase": "One who writes the life story of another person",
     "word": "Biographer",
     "meaning_hi": "जीवनी लेखक",
-    "meaning_en": "Life story writer",
-    "category": "oneword"
+    "meaning_en": "Writer of another person's life story",
+    "category": "oneword",
+    "example": "The biographer spent five years researching the leader's life."
+  },
+  {
+    "word": "Biography",
+    "meaning_en": "a record of one's life written by somebody else",
+    "meaning_hi": "जीवनी",
+    "example": "She read the biography of Mahatma Gandhi from cover to cover.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword",
+    "phrase": "A written account of a person's life written by someone else"
   },
   {
     "phrase": "One who studies living organisms",
     "word": "Biologist",
     "meaning_hi": "जीवविज्ञानी",
-    "meaning_en": "Life scientist",
+    "meaning_en": "Scientist who studies life and living organisms",
+    "category": "oneword",
+    "example": "The biologist studied the behaviour of migratory birds."
+  },
+  {
+    "phrase": "One who causes harm by deliberately spreading disease",
+    "word": "Bioterrorist",
+    "meaning_hi": "जैव आतंकवादी",
+    "meaning_en": "Person who uses biological agents to cause harm",
+    "category": "oneword",
+    "example": "The bioterrorist was arrested before releasing the pathogen."
+  },
+  {
+    "phrase": "One who works with metal using a forge",
+    "word": "Blacksmith",
+    "meaning_hi": "लोहार",
+    "meaning_en": "Person who forges and shapes metal",
+    "category": "oneword",
+    "example": "The blacksmith forged a strong iron gate for the palace."
+  },
+  {
+    "word": "Blasphemy",
+    "phrase": "The act of speaking with contempt about God or sacred things",
+    "meaning_en": "Irreverent speech about God or sacred things",
+    "meaning_hi": "ईश-निंदा / धर्म-अपमान",
+    "category": "oneword",
+    "example": "Mocking a religious text was considered an act of blasphemy."
+  },
+  {
+    "phrase": "One who cannot see",
+    "word": "Blind",
+    "meaning_hi": "अंधा",
+    "meaning_en": "Person lacking the sense of sight",
+    "category": "oneword",
+    "example": "The blind musician played the piano flawlessly from memory."
+  },
+  {
+    "word": "Blot",
+    "meaning_en": "A stain caused by a discoloring substance",
+    "meaning_hi": "धब्बा / दाग",
+    "example": "There was a blot of ink on the important letter.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
+  },
+  {
+    "phrase": "One who keeps a record of financial transactions",
+    "word": "Bookkeeper",
+    "meaning_hi": "बहीखाता रखने वाला",
+    "meaning_en": "Person who records financial transactions systematically",
+    "category": "oneword",
+    "example": "The bookkeeper recorded every transaction with great accuracy."
   },
   {
     "phrase": "One who studies plants",
     "word": "Botanist",
     "meaning_hi": "वनस्पति वैज्ञानिक",
-    "meaning_en": "Plant scientist",
+    "meaning_en": "Scientist specialising in plant study",
+    "category": "oneword",
+    "example": "The botanist discovered a new species of plant in the forest."
+  },
+  {
+    "phrase": "A government by the officials",
+    "word": "Bureaucracy",
+    "meaning_hi": "नौकरशाही",
+    "meaning_en": "A government by the officials",
+    "category": "oneword",
+    "example": "The red tape of bureaucracy delayed the project by months."
+  },
+  {
+    "phrase": "One who works in a government office or administration",
+    "word": "Bureaucrat",
+    "meaning_hi": "नौकरशाह",
+    "meaning_en": "Official in a government department",
+    "category": "oneword",
+    "example": "The bureaucrat processed hundreds of files every single day."
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'A loud and confused noise'.",
+    "word": "Cacophony",
+    "meaning_hi": "कर्णकटु ध्वनि / कोलाहल",
+    "meaning_en": "A loud and confused noise",
+    "category": "oneword",
+    "example": "The cacophony of city traffic made it impossible to sleep."
+  },
+  {
+    "phrase": "One who practises the art of beautiful handwriting",
+    "word": "Calligrapher",
+    "meaning_hi": "सुलेखक",
+    "meaning_en": "Person skilled in the art of beautiful handwriting",
+    "category": "oneword",
+    "example": "The calligrapher inscribed the wedding invitation beautifully."
+  },
+  {
+    "word": "Calligraphy",
+    "meaning_en": "The art of beautiful handwriting",
+    "meaning_hi": "सुंदर लिखावट / सुलेख",
+    "example": "She practised calligraphy every morning before school.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who draws maps",
+    "word": "Cannibal",
+    "phrase": "One who eats human flesh",
+    "meaning_en": "A person who eats the flesh of other humans",
+    "meaning_hi": "नरभक्षी",
+    "category": "oneword",
+    "example": "The documentary explored the rituals of the cannibal tribe."
+  },
+  {
+    "word": "Captain",
+    "meaning_en": "A person who is in charge of a ship",
+    "meaning_hi": "कप्तान / सेनापति",
+    "example": "The captain steered the ship safely through the fierce storm.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "phrase": "given. Unit of weight for precious stones",
+    "word": "Carat",
+    "meaning_hi": "सोने-हीरे की शुद्धता / भार की इकाई",
+    "meaning_en": "A unit of weight for precious stones, equal to 200 milligrams.",
+    "category": "oneword",
+    "example": "The jeweller confirmed the ring was set in twenty-two carat gold."
+  },
+  {
+    "phrase": "One who specialises in the heart and its diseases",
+    "word": "Cardiologist",
+    "meaning_hi": "हृदय रोग विशेषज्ञ",
+    "meaning_en": "Doctor who specialises in heart diseases",
+    "category": "oneword",
+    "example": "The cardiologist advised him to reduce stress for his heart."
+  },
+  {
+    "phrase": "One who draws or creates humorous or political pictures",
+    "word": "Caricaturist",
+    "meaning_hi": "व्यंग्यचित्रकार",
+    "meaning_en": "Person who draws exaggerated or humorous caricatures",
+    "category": "oneword",
+    "example": "The caricaturist sketched the politician with an exaggerated nose."
+  },
+  {
+    "phrase": "One who eats only flesh or meat",
+    "word": "Carnivore",
+    "meaning_hi": "मांसाहारी",
+    "meaning_en": "Creature that feeds only on flesh",
+    "category": "oneword",
+    "example": "The lion is a carnivore that hunts its prey on the open plains."
+  },
+  {
+    "phrase": "One who works with wood to make furniture",
+    "word": "Carpenter",
+    "meaning_hi": "बढ़ई",
+    "meaning_en": "Person who makes things from wood",
+    "category": "oneword",
+    "example": "The carpenter built a sturdy bookshelf for the study room."
+  },
+  {
+    "phrase": "One who draws or makes maps",
     "word": "Cartographer",
     "meaning_hi": "मानचित्रकार",
-    "meaning_en": "Map maker",
+    "meaning_en": "Person who makes maps",
+    "category": "oneword",
+    "example": "The cartographer drew detailed maps of the entire coastline."
+  },
+  {
+    "phrase": "One who collects maps as a hobby",
+    "word": "Cartophilist",
+    "meaning_hi": "मानचित्र संग्राहक",
+    "meaning_en": "Person who collects old maps",
+    "category": "oneword",
+    "example": "The cartophilist proudly displayed his collection of antique maps on the wall."
+  },
+  {
+    "word": "Cataclysm",
+    "meaning_en": "A sudden and violent event causing great destruction",
+    "meaning_hi": "भयंकर प्रलय / विनाश",
+    "example": "The earthquake was a cataclysm that destroyed entire cities.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who pretends to be what he is not",
+    "word": "Catharsis",
+    "phrase": "The process of releasing strong emotions through art, especially drama",
+    "meaning_en": "A release of emotional tension through art",
+    "meaning_hi": "भावनात्मक शुद्धि / कैथार्सिस",
+    "category": "oneword",
+    "example": "Watching the tragedy gave him a powerful sense of catharsis."
+  },
+  {
+    "phrase": "One who seeks public attention and fame excessively",
+    "word": "Celebrity-seeker",
+    "meaning_hi": "प्रसिद्धि-लोभी",
+    "meaning_en": "Person obsessed with achieving fame",
+    "category": "oneword",
+    "example": "The celebrity-seeker camped outside the awards show hoping to spot famous faces."
+  },
+  {
+    "word": "Celibate",
+    "phrase": "One who voluntarily abstains from marriage and sexual relations",
+    "meaning_en": "A person who abstains from marriage",
+    "meaning_hi": "ब्रह्मचारी / विवाहमुक्त",
+    "category": "oneword",
+    "example": "The monk chose to remain celibate throughout his devoted life."
+  },
+  {
+    "word": "Censure",
+    "meaning_en": "An official reprimand or strong criticism",
+    "meaning_hi": "निंदा / भर्त्सना",
+    "example": "The committee passed a formal motion of censure against the minister.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who pretends to have skills or knowledge they lack",
     "word": "Charlatan",
     "meaning_hi": "ढोंगी",
-    "meaning_en": "A fraud or imposter",
-    "category": "oneword"
+    "meaning_en": "Fraud or imposter who deceives others",
+    "category": "oneword",
+    "example": "The charlatan sold fake medicines to unsuspecting patients."
   },
   {
-    "phrase": "One who has narrow and prejudiced views",
+    "phrase": "One who has extreme or prejudiced patriotic views",
     "word": "Chauvinist",
     "meaning_hi": "अंधराष्ट्रवादी",
-    "meaning_en": "Extreme patriot or male supremacist",
-    "category": "oneword"
+    "meaning_en": "Person with extreme and biased patriotism",
+    "category": "oneword",
+    "example": "The chauvinist believed his nation was superior to all others."
   },
   {
-    "phrase": "One who compiles a dictionary",
+    "phrase": "One who studies the composition and properties of substances",
+    "word": "Chemist",
+    "meaning_hi": "रसायनशास्त्री",
+    "meaning_en": "Scientist who studies chemistry",
+    "category": "oneword",
+    "example": "The chemist developed a new compound for treating infections."
+  },
+  {
+    "phrase": "One who performs and choreographs dances",
+    "word": "Choreographer",
+    "meaning_hi": "नृत्य-निर्देशक",
+    "meaning_en": "Person who composes and arranges dance sequences",
+    "category": "oneword",
+    "example": "The choreographer created a stunning routine for the grand finale."
+  },
+  {
+    "phrase": "for: 'A secret or disguised way of writing'.",
+    "word": "Cipher",
+    "meaning_hi": "शून्य / गुप्त लिपि",
+    "meaning_en": "A secret or disguised way of writing",
+    "category": "oneword",
+    "example": "The spy wrote his message in a cipher only he could decode."
+  },
+  {
+    "word": "Circumlocution",
+    "phrase": "The use of many words where fewer would do; indirect expression",
+    "meaning_en": "Using more words than necessary to express an idea",
+    "meaning_hi": "वक्रोक्ति / घुमा-फिरा कर कहना",
+    "category": "oneword",
+    "example": "His answer was full of circumlocution, never reaching the point."
+  },
+  {
+    "word": "Clairvoyant",
+    "phrase": "One who claims to have the ability to perceive future events",
+    "meaning_en": "A person with supposed psychic powers",
+    "meaning_hi": "भविष्यदृष्टा / दिव्यदर्शी",
+    "category": "oneword",
+    "example": "The clairvoyant claimed she could predict future events accurately."
+  },
+  {
+    "phrase": "One who has an excessive and irrational fear of enclosed spaces",
+    "word": "Claustrophobe",
+    "meaning_hi": "बंद जगह से डरने वाला",
+    "meaning_en": "Person with an irrational fear of enclosed spaces",
+    "category": "oneword",
+    "example": "The claustrophobe refused to enter the narrow underground tunnel."
+  },
+  {
+    "phrase": "Fear of closed spaces",
+    "word": "Claustrophobia",
+    "meaning_hi": "बंद स्थानों का भय",
+    "meaning_en": "Fear of closed spaces",
+    "category": "oneword",
+    "example": "Her claustrophobia made using the underground metro unbearable."
+  },
+  {
+    "phrase": "One who studies the earth's climate over long periods",
+    "word": "Climatologist",
+    "meaning_hi": "जलवायु वैज्ञानिक",
+    "meaning_en": "Scientist who studies long-term climate patterns",
+    "category": "oneword",
+    "example": "The climatologist warned of severe droughts in the coming decade."
+  },
+  {
+    "phrase": "A small group of people who spend their time together and do not welcome other people into that group",
+    "word": "Clique",
+    "meaning_hi": "गुट / छोटा अंतरंग समूह",
+    "meaning_en": "A small group of people who spend their time together and do not welcome other people into that group",
+    "category": "oneword",
+    "example": "The clique of popular students completely ignored the new arrivals."
+  },
+  {
+    "phrase": "One who makes and repairs shoes",
+    "word": "Cobbler",
+    "meaning_hi": "मोची",
+    "meaning_en": "Person who makes or mends shoes",
+    "category": "oneword",
+    "example": "The cobbler repaired the old leather shoes in a few minutes."
+  },
+  {
+    "phrase": "One who writes a column or regular piece for a newspaper",
+    "word": "Columnist",
+    "meaning_hi": "स्तंभ लेखक",
+    "meaning_en": "Journalist who writes a regular column",
+    "category": "oneword",
+    "example": "The columnist wrote a sharp piece on the new education policy."
+  },
+  {
+    "phrase": "One who collects and arranges material into a publication",
     "word": "Compiler",
     "meaning_hi": "संकलक",
-    "meaning_en": "One who collects and arranges material",
-    "category": "oneword"
+    "meaning_en": "One who gathers and arranges material",
+    "category": "oneword",
+    "example": "The compiler gathered research from dozens of sources to create the encyclopedia."
   },
   {
-    "phrase": "One who is an expert in a particular subject",
+    "phrase": "One who collects and studies shells",
+    "word": "Conchologist",
+    "meaning_hi": "शंख-विशेषज्ञ",
+    "meaning_en": "Person who collects and studies shells",
+    "category": "oneword",
+    "example": "The conchologist identified the rare shell as belonging to a deep-sea species."
+  },
+  {
+    "phrase": "One who is an expert judge of art, food or taste",
     "word": "Connoisseur",
     "meaning_hi": "विशेषज्ञ",
-    "meaning_en": "Expert judge of taste or art",
-    "category": "oneword"
+    "meaning_en": "Expert judge of taste, art or quality",
+    "category": "oneword",
+    "example": "A true connoisseur of art, she could identify any painting by period."
   },
   {
-    "phrase": "One who is skilled in a craft",
+    "phrase": "One who opposes change and favours traditional values",
+    "word": "Conservative",
+    "meaning_hi": "रूढ़िवादी",
+    "meaning_en": "Person who dislikes change and favours traditional values",
+    "category": "oneword",
+    "example": "The conservative opposed the new policy, preferring to keep the old traditions intact."
+  },
+  {
+    "phrase": "A person who likes to argue about anything",
+    "word": "Contentious",
+    "meaning_hi": "विवादास्पद / झगड़ालू",
+    "meaning_en": "A person who likes to argue about anything",
+    "category": "oneword",
+    "example": "He was always contentious, picking arguments wherever he went."
+  },
+  {
+    "word": "Convalescent",
+    "phrase": "A person recovering slowly from an illness or medical treatment",
+    "meaning_en": "One who is recovering from sickness",
+    "meaning_hi": "स्वास्थ्यलाभ कर रहा व्यक्ति",
+    "category": "oneword",
+    "example": "The convalescent needed weeks of rest before returning to work."
+  },
+  {
+    "phrase": "One who is skilled in a particular craft",
     "word": "Craftsman",
     "meaning_hi": "कारीगर",
-    "meaning_en": "Skilled maker",
-    "category": "oneword"
+    "meaning_en": "Person skilled in making things by hand",
+    "category": "oneword",
+    "example": "The craftsman spent three weeks carving the intricate wooden furniture by hand."
   },
   {
-    "phrase": "One who is cowardly",
+    "phrase": "One who is excessively timid and cowardly",
     "word": "Craven",
     "meaning_hi": "कायर",
-    "meaning_en": "Cowardly person",
-    "category": "oneword"
+    "meaning_en": "Contemptibly cowardly person",
+    "category": "oneword",
+    "example": "The craven soldier fled the battlefield, abandoning his comrades in danger."
   },
   {
-    "phrase": "One who easily believes others",
+    "phrase": "One who is too ready to believe without evidence",
     "word": "Credulous",
     "meaning_hi": "भोला विश्वास करने वाला",
-    "meaning_en": "Gullible person",
+    "meaning_en": "Gullible person who believes too easily",
+    "category": "oneword",
+    "example": "The credulous child believed everything the stranger told him."
+  },
+  {
+    "word": "Crew",
+    "meaning_en": "A group of persons working together on a ship, aircraft, or vehicle.",
+    "meaning_hi": "दल / चालक-दल",
+    "example": "The crew of the aircraft ensured a safe and comfortable journey.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who criticizes literary or artistic works",
+    "phrase": "One who evaluates and judges literary or artistic works",
     "word": "Critic",
     "meaning_hi": "आलोचक",
-    "meaning_en": "One who judges and reviews",
-    "category": "oneword"
+    "meaning_en": "Person who judges and reviews creative works",
+    "category": "oneword",
+    "example": "The film critic gave the movie a scathing two-star review."
   },
   {
-    "phrase": "One who is in charge of a museum",
+    "phrase": "One who is an expert in decoding secret messages",
+    "word": "Cryptanalyst",
+    "meaning_hi": "संकेत-विश्लेषक",
+    "meaning_en": "Expert in breaking coded or encrypted messages",
+    "category": "oneword",
+    "example": "The cryptanalyst worked tirelessly to decode the enemy's secret messages."
+  },
+  {
+    "phrase": "One who writes secret messages in code",
+    "word": "Cryptographer",
+    "meaning_hi": "संकेत-लेखक",
+    "meaning_en": "Person who writes or deciphers coded messages",
+    "category": "oneword",
+    "example": "The cryptographer designed an encryption system that no hacker could break."
+  },
+  {
+    "phrase": "One who is in charge of a museum or gallery",
     "word": "Curator",
     "meaning_hi": "संग्रहालयाध्यक्ष",
-    "meaning_en": "Museum administrator",
+    "meaning_en": "Museum or gallery administrator",
+    "category": "oneword",
+    "example": "The curator arranged the new exhibit with great care."
+  },
+  {
+    "phrase": "An order of law requiring people to remain indoors",
+    "word": "Curfew",
+    "meaning_hi": "कर्फ्यू / रात्रि-निषेधाज्ञा",
+    "meaning_en": "An order of law requiring people to remain indoors",
+    "category": "oneword",
+    "example": "The government imposed a strict curfew after the riots broke out."
+  },
+  {
+    "phrase": "One who distrusts human motives and is always critical",
+    "word": "Cynic",
+    "meaning_hi": "निंदक",
+    "meaning_en": "Person who believes people act only from selfish motives",
+    "category": "oneword",
+    "example": "The cynic dismissed every act of kindness as pure self-interest."
+  },
+  {
+    "word": "Daze",
+    "meaning_en": "A state of stunned confusion",
+    "meaning_hi": "चक्कर / भ्रम की स्थिति",
+    "example": "After the accident, she walked around in a complete daze.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who is devoted to sensual pleasure",
+    "phrase": "One who cannot hear",
+    "word": "Deaf",
+    "meaning_hi": "बहरा",
+    "meaning_en": "Person lacking the sense of hearing",
+    "category": "oneword",
+    "example": "The deaf student communicated fluently through sign language."
+  },
+  {
+    "phrase": "One who is devoted to sensual pleasure and excess",
     "word": "Debauchee",
     "meaning_hi": "भोगी व्यक्ति",
-    "meaning_en": "Sensual or immoral person",
-    "category": "oneword"
+    "meaning_en": "Person who indulges excessively in sensual pleasure",
+    "category": "oneword",
+    "example": "The debauchee spent his entire inheritance on parties and gambling."
   },
   {
-    "phrase": "One who deserts his principles or party",
+    "word": "Debut",
+    "phrase": "The first public appearance of a performer or performance",
+    "meaning_en": "A first public performance or appearance",
+    "meaning_hi": "पहली प्रस्तुति / शुरुआत",
+    "category": "oneword",
+    "example": "The young singer's debut at the concert hall left the audience mesmerised."
+  },
+  {
+    "phrase": "One who borrows money and fails to repay",
+    "word": "Defaulter",
+    "meaning_hi": "चूककर्ता",
+    "meaning_en": "Person who fails to fulfil a financial obligation",
+    "category": "oneword",
+    "example": "The bank took legal action against the loan defaulter."
+  },
+  {
+    "phrase": "One who deserts their own principles or political party",
     "word": "Defector",
     "meaning_hi": "दलबदलू",
-    "meaning_en": "One who abandons a cause",
+    "meaning_en": "One who abandons a cause or allegiance",
+    "category": "oneword",
+    "example": "The defector revealed top secret military plans to the enemy."
+  },
+  {
+    "phrase": "One who defends an accused person in court",
+    "word": "Defence counsel",
+    "meaning_hi": "बचाव पक्ष का वकील",
+    "meaning_en": "Lawyer who defends the accused in a legal case",
+    "category": "oneword",
+    "example": "The defence counsel argued that his client had a solid alibi for the night of the crime."
+  },
+  {
+    "phrase": "One who believes God exists but does not intervene in the world",
+    "word": "Deist",
+    "meaning_hi": "देववादी",
+    "meaning_en": "Person who believes in a creator God who does not interfere",
+    "category": "oneword",
+    "example": "The deist believed that God created the universe but does not interfere in human affairs."
+  },
+  {
+    "phrase": "One who exploits popular prejudices to gain power",
+    "word": "Demagogue",
+    "meaning_hi": "जनमत भड़काने वाला नेता",
+    "meaning_en": "Political leader who exploits public prejudices",
+    "category": "oneword",
+    "example": "The demagogue won votes by exploiting the people's deepest fears."
+  },
+  {
+    "word": "Democracy",
+    "meaning_en": "'A government run by the people'",
+    "meaning_hi": "जनतंत्र / लोकतंत्र",
+    "example": "India is recognised as the world's largest democracy.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who rules without sharing power",
+    "phrase": "One who advocates the rights and interests of the people",
+    "word": "Democrat",
+    "meaning_hi": "लोकतंत्रवादी",
+    "meaning_en": "Person who supports democratic principles and governance",
+    "category": "oneword",
+    "example": "The democrat argued that every citizen should have an equal say in governance."
+  },
+  {
+    "phrase": "One who studies the population and its statistics",
+    "word": "Demographer",
+    "meaning_hi": "जनसंख्या विशेषज्ञ",
+    "meaning_en": "Scientist who studies population statistics",
+    "category": "oneword",
+    "example": "The demographer analysed census data to predict population trends over the next decade."
+  },
+  {
+    "phrase": "One who specialises in the study and treatment of teeth",
+    "word": "Dentist",
+    "meaning_hi": "दंत चिकित्सक",
+    "meaning_en": "Medical professional who treats teeth and gums",
+    "category": "oneword",
+    "example": "The dentist advised her patient to brush twice daily and floss regularly."
+  },
+  {
+    "phrase": "One who specialises in diseases of the skin",
+    "word": "Dermatologist",
+    "meaning_hi": "त्वचा रोग विशेषज्ञ",
+    "meaning_en": "Doctor who treats skin conditions",
+    "category": "oneword",
+    "example": "The dermatologist prescribed a cream to treat the patient's persistent skin rash."
+  },
+  {
+    "phrase": "One who designs and sews clothes professionally",
+    "word": "Designer",
+    "meaning_hi": "परिधान डिज़ाइनर",
+    "meaning_en": "Person who creates clothing or fashion designs",
+    "category": "oneword",
+    "example": "The designer unveiled a stunning collection inspired by traditional Indian textiles."
+  },
+  {
+    "phrase": "One who rules with total power and cruelty",
     "word": "Despot",
     "meaning_hi": "तानाशाह",
-    "meaning_en": "Tyrant",
+    "meaning_en": "Tyrant who rules without sharing power",
+    "category": "oneword",
+    "example": "The despot imprisoned anyone who dared to question his authority."
+  },
+  {
+    "word": "Desuetude",
+    "meaning_en": "A state of disuse or inactivity",
+    "meaning_hi": "अप्रयोग की अवस्था / निष्प्रयोग",
+    "example": "The old law fell into complete desuetude and was never enforced.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who does a thing for pleasure not as a profession",
+    "phrase": "One who believes all events are caused and determined",
+    "word": "Determinist",
+    "meaning_hi": "नियतिवादी",
+    "meaning_en": "Person who believes all events are determined by prior causes",
+    "category": "oneword",
+    "example": "The determinist argued that free will is an illusion since every action has a prior cause."
+  },
+  {
+    "phrase": "One who studies the development of language",
+    "word": "Dialectologist",
+    "meaning_hi": "भाषा-भेद विशेषज्ञ",
+    "meaning_en": "Scholar who studies dialects and regional language variations",
+    "category": "oneword",
+    "example": "The dialectologist studied how the dialect spoken in rural villages differed from urban speech."
+  },
+  {
+    "phrase": "One who rules a country alone with absolute power",
+    "word": "Dictator",
+    "meaning_hi": "तानाशाह",
+    "meaning_en": "Ruler with absolute and often oppressive power",
+    "category": "oneword",
+    "example": "The dictator controlled every aspect of life in the country."
+  },
+  {
+    "phrase": "given. Choice between two unsatisfactory alternatives",
+    "word": "Dilemma",
+    "meaning_hi": "दुविधा / असमंजस",
+    "meaning_en": "A situation in which a choice must be made between two unsatisfactory alternatives.",
+    "category": "oneword",
+    "example": "She faced a difficult dilemma between the two job offers."
+  },
+  {
+    "phrase": "One who does something for pleasure and not professionally",
     "word": "Dilettante",
     "meaning_hi": "शौकिया व्यक्ति",
-    "meaning_en": "Amateur",
-    "category": "oneword"
+    "meaning_en": "Amateur who engages in an activity superficially",
+    "category": "oneword",
+    "example": "He was a dilettante who dabbled in painting but never mastered it."
   },
   {
-    "phrase": "One who speaks fluently and expressively",
-    "word": "Eloquent",
-    "meaning_hi": "प्रभावी वक्ता",
-    "meaning_en": "Persuasive and expressive speaker",
-    "category": "oneword"
+    "phrase": "One who represents their country in diplomatic negotiations",
+    "word": "Diplomat",
+    "meaning_hi": "राजनयिक",
+    "meaning_en": "Person skilled in managing international relations",
+    "category": "oneword",
+    "example": "The skilled diplomat negotiated a lasting peace between the two nations."
   },
   {
-    "phrase": "One who leaves one's country to settle in another",
+    "phrase": "Morbid compulsion to consume alcohol continuously",
+    "word": "Dipsomania",
+    "meaning_hi": "मद्यपान की तीव्र इच्छा / शराब की लत",
+    "meaning_en": "Morbid compulsion to consume alcohol continuously",
+    "category": "oneword",
+    "example": "His dipsomania ruined both his health and his entire career."
+  },
+  {
+    "phrase": "One who has an uncontrollable craving for alcohol",
+    "word": "Dipsomaniac",
+    "meaning_hi": "शराब की लत वाला",
+    "meaning_en": "Person with an uncontrollable craving for alcohol",
+    "category": "oneword",
+    "example": "The dipsomaniac found it impossible to stop drinking despite repeated attempts at rehabilitation."
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'A person who opposes official policy'.",
+    "word": "Dissident",
+    "meaning_hi": "असहमतिकर्ता / विरोधी",
+    "meaning_en": "A person who opposes official policy",
+    "category": "oneword",
+    "example": "The dissident was jailed for speaking out against the regime."
+  },
+  {
+    "phrase": "One who writes plays and dramas",
+    "word": "Dramatist",
+    "meaning_hi": "नाटककार",
+    "meaning_en": "Person who writes plays or stage performances",
+    "category": "oneword",
+    "example": "The dramatist wrote a compelling play about the partition era."
+  },
+  {
+    "phrase": "One who studies the environment and ecosystems",
+    "word": "Ecologist",
+    "meaning_hi": "पारिस्थितिकीविद",
+    "meaning_en": "Scientist who studies organisms and their environment",
+    "category": "oneword",
+    "example": "The ecologist warned that deforestation was destroying the habitats of endangered species."
+  },
+  {
+    "phrase": "One who studies and reports on economic matters",
+    "word": "Economist",
+    "meaning_hi": "अर्थशास्त्री",
+    "meaning_en": "Expert who studies the production and distribution of wealth",
+    "category": "oneword",
+    "example": "The economist predicted a sharp rise in inflation following the new budget."
+  },
+  {
+    "phrase": "One who collects and processes news for media",
+    "word": "Editor",
+    "meaning_hi": "संपादक",
+    "meaning_en": "Person who prepares content for publication",
+    "category": "oneword",
+    "example": "The editor spent hours revising the manuscript before sending it to the publisher."
+  },
+  {
+    "phrase": "One who believes in equal rights for all races",
+    "word": "Egalitarian",
+    "meaning_hi": "समतावादी",
+    "meaning_en": "Person who believes in equality for all people",
+    "category": "oneword",
+    "example": "The egalitarian campaigned for a society where wealth and opportunity were equally distributed."
+  },
+  {
+    "phrase": "One who is excessively concerned with their own importance",
+    "word": "Egoist",
+    "meaning_hi": "अहंकारी",
+    "meaning_en": "Person who is self-centred and self-important",
+    "category": "oneword",
+    "example": "The egoist cared only about his own reputation and comfort."
+  },
+  {
+    "word": "Elegy",
+    "phrase": "A poem of lamentation, especially for one who is dead",
+    "meaning_en": "A mournful or sad poem",
+    "meaning_hi": "शोकगीत / मर्सिया",
+    "category": "oneword",
+    "example": "He wrote a deeply moving elegy for his late mother."
+  },
+  {
+    "phrase": "One who uses public funds dishonestly for personal gain",
+    "word": "Embezzler",
+    "meaning_hi": "गबनकर्ता",
+    "meaning_en": "Person who steals money entrusted to their care",
+    "category": "oneword",
+    "example": "The embezzler siphoned crores from the company over five years."
+  },
+  {
+    "phrase": "One who leaves their own country to settle in another",
     "word": "Emigrant",
     "meaning_hi": "प्रवासी",
-    "meaning_en": "One who leaves their country",
+    "meaning_en": "One who leaves their homeland to live elsewhere",
+    "category": "oneword",
+    "example": "The emigrant sent money home regularly to support her family."
+  },
+  {
+    "phrase": "One who believes knowledge comes only from sensory experience",
+    "word": "Empiricist",
+    "meaning_hi": "अनुभववादी",
+    "meaning_en": "Person who believes knowledge is based on experience",
+    "category": "oneword",
+    "example": "The empiricist insisted that all knowledge must be grounded in direct observation and experiment."
+  },
+  {
+    "word": "Encomium",
+    "meaning_en": "A speech or piece of writing that praises someone highly",
+    "meaning_hi": "उच्च प्रशंसा / प्रशस्ति",
+    "example": "The principal delivered an encomium praising the outgoing head boy.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who is highly educated and knowledgeable",
+    "phrase": "One who designs and oversees construction of large structures",
+    "word": "Engineer",
+    "meaning_hi": "अभियंता",
+    "meaning_en": "Person who designs and builds engineering projects",
+    "category": "oneword",
+    "example": "The engineer designed a bridge that could withstand the region's heaviest monsoon floods."
+  },
+  {
+    "phrase": "for: 'A state of mental weariness and lack of enthusiasm'.",
+    "word": "Ennui",
+    "meaning_hi": "ऊब / उदासीनता",
+    "meaning_en": "A state of mental weariness and lack of enthusiasm",
+    "category": "oneword",
+    "example": "After months at home, she was overcome by a deep sense of ennui."
+  },
+  {
+    "phrase": "One who collects and studies insects",
+    "word": "Entomologist",
+    "meaning_hi": "कीट विज्ञानी",
+    "meaning_en": "Scientist who studies insects",
+    "category": "oneword",
+    "example": "The entomologist discovered a new species of beetle in the Amazon rainforest."
+  },
+  {
+    "phrase": "One who is sent by a government to represent it in another country",
+    "word": "Envoy",
+    "meaning_hi": "दूत",
+    "meaning_en": "Official messenger or representative of a government",
+    "category": "oneword",
+    "example": "The envoy was dispatched to negotiate a ceasefire between the two warring nations."
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'One who lives entirely for pleasure'.",
+    "word": "Epicure",
+    "meaning_hi": "भोजन का विशेष शौकीन",
+    "meaning_en": "One who lives entirely for pleasure",
+    "category": "oneword",
+    "example": "As an epicure, he visited only the finest restaurants in the city."
+  },
+  {
+    "phrase": "One who seeks sensual and intellectual pleasure",
+    "word": "Epicurean",
+    "meaning_hi": "सुखवादी",
+    "meaning_en": "Person devoted to refined sensual enjoyment",
+    "category": "oneword",
+    "example": "The epicurean spent his weekend sampling rare wines and gourmet cheeses."
+  },
+  {
+    "word": "Epigram",
+    "phrase": "A short, witty saying expressing a clever observation",
+    "meaning_en": "A pithy, often paradoxical saying",
+    "meaning_hi": "व्यंग्योक्ति / सूक्ति",
+    "category": "oneword",
+    "example": "The teacher quoted an epigram that perfectly captured the lesson's central idea."
+  },
+  {
+    "word": "Epilogue",
+    "phrase": "A concluding section added to a literary work",
+    "meaning_en": "A final section that comes after the main text",
+    "meaning_hi": "उपसंहार",
+    "category": "oneword",
+    "example": "The epilogue revealed what happened to the characters ten years after the main story ended."
+  },
+  {
+    "word": "Epitaph",
+    "meaning_en": "'Words written on a tomb'",
+    "meaning_hi": "समाधि-लेख",
+    "example": "The epitaph on his gravestone read: He served with honour.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "word": "Epitome",
+    "phrase": "A person or thing that is a perfect example of a quality or type",
+    "meaning_en": "The most perfect example of something",
+    "meaning_hi": "सर्वोत्तम उदाहरण / प्रतिरूप",
+    "category": "oneword",
+    "example": "She was the epitome of grace and composure throughout the entire crisis."
+  },
+  {
+    "phrase": "One who is highly learned and scholarly",
     "word": "Erudite",
     "meaning_hi": "विद्वान",
-    "meaning_en": "Highly learned person",
-    "category": "oneword"
+    "meaning_en": "Person with great depth of knowledge",
+    "category": "oneword",
+    "example": "The erudite professor could discuss philosophy, history, and science with equal authority."
   },
   {
-    "phrase": "One who is banished from one's own country",
+    "phrase": "One who writes essays on various topics",
+    "word": "Essayist",
+    "meaning_hi": "निबंधकार",
+    "meaning_en": "Writer who specialises in writing essays",
+    "category": "oneword",
+    "example": "The essayist published a witty piece criticising the absurdities of modern politics."
+  },
+  {
+    "phrase": "One who kills their own race or people",
+    "word": "Ethnic cleanser",
+    "meaning_hi": "जातिसंहारी",
+    "meaning_en": "Person who carries out systematic elimination of an ethnic group from a region.",
+    "category": "oneword",
+    "example": "The international court indicted the ethnic cleanser for crimes against humanity."
+  },
+  {
+    "phrase": "One who studies the origin and history of words",
+    "word": "Etymologist",
+    "meaning_hi": "व्युत्पत्तिशास्त्री",
+    "meaning_en": "Scholar who studies the origin and history of words",
+    "category": "oneword",
+    "example": "The etymologist traced the word 'salary' back to the Latin word for salt."
+  },
+  {
+    "word": "Euthanasia",
+    "phrase": "The practice of intentionally ending a life to relieve pain and suffering",
+    "meaning_en": "Deliberately ending a life to relieve incurable suffering",
+    "meaning_hi": "दयामृत्यु / इच्छामृत्यु",
+    "category": "oneword",
+    "example": "The debate over euthanasia centres on whether individuals have the right to end their suffering."
+  },
+  {
+    "phrase": "One who is banished from their own country",
     "word": "Exile",
     "meaning_hi": "देशनिर्वासित",
-    "meaning_en": "Person expelled from homeland",
+    "meaning_en": "Person expelled from their homeland",
+    "category": "oneword",
+    "example": "The exile spent thirty years longing for the homeland he was forbidden to return to."
+  },
+  {
+    "word": "Exodus",
+    "meaning_en": "A large-scale departure of people from one place",
+    "meaning_hi": "सामूहिक पलायन",
+    "example": "There was a mass exodus of people after the devastating floods.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who kills for religious reasons",
+    "word": "Expert",
+    "meaning_en": "A person who is highly educated or skilled in a particular field.",
+    "meaning_hi": "विशेषज्ञ / माहिर",
+    "example": "The court called an expert witness to testify on the technical matter.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who speaks without preparation",
+    "word": "Extempore speaker",
+    "meaning_hi": "तत्काल वक्ता",
+    "meaning_en": "Person who speaks without prior preparation",
+    "category": "oneword",
+    "example": "The extempore speaker delivered a compelling ten-minute address with no preparation at all."
+  },
+  {
+    "phrase": "One who steals from others using threats or force",
+    "word": "Extortionist",
+    "meaning_hi": "जबरन वसूली करने वाला",
+    "meaning_en": "Person who uses threats to obtain money or favours",
+    "category": "oneword",
+    "example": "The extortionist threatened to leak sensitive information unless the company paid up."
+  },
+  {
+    "phrase": "One who holds an extreme right-wing or left-wing political view",
+    "word": "Extremist",
+    "meaning_hi": "चरमपंथी",
+    "meaning_en": "Person who holds extreme political or religious views",
+    "category": "oneword",
+    "example": "The extremist justified violence as the only path to political change."
+  },
+  {
+    "phrase": "One who is cheerful, sociable and enjoys the company of others",
+    "word": "Extrovert",
+    "meaning_hi": "बहिर्मुखी",
+    "meaning_en": "Person who is outgoing and energised by being with others",
+    "category": "oneword",
+    "example": "As an extrovert, she energised a room the moment she walked in."
+  },
+  {
+    "phrase": "One who is fanatically devoted to a cause and acts violently",
     "word": "Fanatic",
-    "meaning_hi": "धर्मांध हत्यारा",
-    "meaning_en": "Religious extremist",
-    "category": "oneword"
+    "meaning_hi": "कट्टरपंथी",
+    "meaning_en": "Extremist with obsessive devotion to a cause",
+    "category": "oneword",
+    "example": "The fanatic refused to consider any view other than his own."
   },
   {
-    "phrase": "One who is difficult to please",
+    "phrase": "One who fasts frequently for religious or health reasons",
+    "word": "Faster",
+    "meaning_hi": "उपवासी",
+    "meaning_en": "Person who regularly abstains from food",
+    "category": "oneword",
+    "example": "The faster completed his forty-day fast as an act of spiritual devotion."
+  },
+  {
+    "phrase": "One who is excessively hard to please",
     "word": "Fastidious",
-    "meaning_hi": "नखरीला",
-    "meaning_en": "Hard to satisfy",
-    "category": "oneword"
+    "meaning_hi": "नखरेबाज",
+    "meaning_en": "Person who is very particular and hard to satisfy",
+    "category": "oneword",
+    "example": "The fastidious inspector rejected the report because a single comma was misplaced."
   },
   {
-    "phrase": "One who believes in fate",
+    "phrase": "One who believes that all events are predetermined by fate",
     "word": "Fatalist",
     "meaning_hi": "भाग्यवादी",
-    "meaning_en": "Believer in destiny",
+    "meaning_en": "Person who believes everything is destined",
+    "category": "oneword",
+    "example": "As a fatalist, she believed whatever happened was already destined."
+  },
+  {
+    "word": "Fauna",
+    "phrase": "The animals of a particular region, habitat, or geological period",
+    "meaning_en": "The animal life of a particular area",
+    "meaning_hi": "जीव-जंतु / प्राणी-जगत",
+    "category": "oneword",
+    "example": "The documentary explored the rich fauna of the Western Ghats, including tigers and leopards."
+  },
+  {
+    "phrase": "One who commits a crime against the state",
+    "word": "Felon",
+    "meaning_hi": "अपराधी",
+    "meaning_en": "Person convicted of a serious crime",
+    "category": "oneword",
+    "example": "The felon was sentenced to five years in prison for armed robbery."
+  },
+  {
+    "phrase": "One who believes in equality between men and women",
+    "word": "Feminist",
+    "meaning_hi": "नारीवादी",
+    "meaning_en": "Person who advocates equality of the sexes",
+    "category": "oneword",
+    "example": "The feminist delivered a powerful speech on equal pay and reproductive rights."
+  },
+  {
+    "phrase": "One who kills a member of their own family",
+    "word": "Filicide",
+    "meaning_hi": "स्वजन हत्यारा",
+    "meaning_en": "Person who kills their own child or family member",
+    "category": "oneword",
+    "example": "The court was shocked by the case of filicide in which a mother had harmed her own child."
+  },
+  {
+    "phrase": "One who commits a crime for the first time",
+    "word": "First offender",
+    "meaning_hi": "पहली बार अपराध करने वाला",
+    "meaning_en": "Person who commits a crime for the first time",
+    "category": "oneword",
+    "example": "The judge showed leniency to the first offender, sentencing him to community service."
+  },
+  {
+    "word": "Flora",
+    "phrase": "The plants of a particular region, habitat, or geological period",
+    "meaning_en": "The plant life of a particular area",
+    "meaning_hi": "वनस्पति-जगत / पेड़-पौधे",
+    "category": "oneword",
+    "example": "The Western Ghats are celebrated for their spectacular flora."
+  },
+  {
+    "phrase": "A person who sells and arranges cut flowers.",
+    "word": "Florist",
+    "meaning_hi": "फूलों का व्यापारी",
+    "meaning_en": "A person who sells and arranges cut flowers.",
+    "category": "oneword",
+    "example": "The florist arranged a stunning bouquet of red roses for the wedding."
+  },
+  {
+    "word": "Foeticide",
+    "meaning_en": "The killing of a foetus; destruction of an unborn baby.",
+    "meaning_hi": "भ्रूण-हत्या",
+    "example": "Foeticide is a serious crime that carries heavy legal penalties.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who kills one's own brother",
+    "phrase": "a short section (as of a book) that leads to or explains the main part.",
+    "word": "Foreword",
+    "meaning_hi": "भूमिका / प्रस्तावना",
+    "meaning_en": "a short section (as of a book) that leads to or explains the main part.",
+    "category": "oneword",
+    "example": "The foreword was written by a Nobel Prize-winning author."
+  },
+  {
+    "phrase": "One who makes or uses counterfeit money or documents",
+    "word": "Forger",
+    "meaning_hi": "जाली दस्तावेज़ बनाने वाला",
+    "meaning_en": "Person who fakes documents, currency or signatures",
+    "category": "oneword",
+    "example": "The forger was arrested when experts identified brushstroke inconsistencies in the painting."
+  },
+  {
+    "phrase": "One who collects and studies fossils",
+    "word": "Fossil collector",
+    "meaning_hi": "जीवाश्म संग्राहक",
+    "meaning_en": "Person who collects and studies fossilised remains",
+    "category": "oneword",
+    "example": "The fossil collector unearthed a perfectly preserved dinosaur tooth in the riverbed."
+  },
+  {
+    "phrase": "One who kills their own brother",
     "word": "Fratricide",
     "meaning_hi": "भ्रातृहत्या करने वाला",
-    "meaning_en": "Killer of a brother",
-    "category": "oneword"
+    "meaning_en": "Killer of one's own brother",
+    "category": "oneword",
+    "example": "The historical drama depicted the fratricide that tore apart the royal family."
   },
   {
-    "phrase": "One who runs away from justice",
+    "phrase": "One who eats and drinks at another's expense",
+    "word": "Freeloader",
+    "meaning_hi": "मुफ्तखोर",
+    "meaning_en": "Person who takes advantage of others' generosity",
+    "category": "oneword",
+    "example": "The freeloader always arrived at parties uninvited and left without contributing anything."
+  },
+  {
+    "phrase": "One who escapes from custody or flees from the law",
     "word": "Fugitive",
     "meaning_hi": "भगोड़ा",
-    "meaning_en": "Person fleeing law",
+    "meaning_en": "Person fleeing from justice or the law",
+    "category": "oneword",
+    "example": "The fugitive was on the run for three years before being caught."
+  },
+  {
+    "word": "Fulminate",
+    "meaning_en": "To express vehement protest",
+    "meaning_hi": "तीव्र निंदा करना / गरजना",
+    "example": "The minister began to fulminate against the opposition new policy.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who studies rocks and minerals",
+    "phrase": "One who talks excessively and at great length",
+    "word": "Garrulous",
+    "meaning_hi": "बातूनी",
+    "meaning_en": "Person who talks too much about trivial things",
+    "category": "oneword",
+    "example": "The garrulous neighbour talked for an hour without letting anyone else speak."
+  },
+  {
+    "word": "Gemologist",
+    "meaning_en": "A person who works with gemstones",
+    "meaning_hi": "रत्न-विशेषज्ञ",
+    "example": "The gemologist confirmed that the stone was a genuine ruby.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "word": "Genealogist",
+    "phrase": "One who traces the history and descent of families",
+    "meaning_en": "A person who studies family lineages",
+    "meaning_hi": "वंशावली विशेषज्ञ",
+    "category": "oneword",
+    "example": "The genealogist traced the family tree back seven generations to a small village in Punjab."
+  },
+  {
+    "phrase": "One who studies heredity and genes",
+    "word": "Geneticist",
+    "meaning_hi": "आनुवंशिकीविद",
+    "meaning_en": "Scientist who studies genes and heredity",
+    "category": "oneword",
+    "example": "The geneticist identified the mutation responsible for the rare hereditary disease."
+  },
+  {
+    "phrase": "One who kills a large number of people of a particular group",
+    "word": "Genocide",
+    "meaning_hi": "नरसंहार करने वाला",
+    "meaning_en": "Killing of a large group of people, especially an ethnic group",
+    "category": "oneword",
+    "example": "The genocide left millions dead and an entire culture destroyed."
+  },
+  {
+    "word": "Geocentrism",
+    "meaning_en": "A belief that the Earth is the center of the universe",
+    "meaning_hi": "पृथ्वी-केंद्रीय सिद्धांत",
+    "example": "Geocentrism was the accepted theory before Copernicus proved otherwise.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who studies rocks, minerals and the earth",
     "word": "Geologist",
     "meaning_hi": "भूविज्ञानी",
-    "meaning_en": "Earth scientist",
-    "category": "oneword"
+    "meaning_en": "Scientist who studies the earth's structure",
+    "category": "oneword",
+    "example": "The geologist studied the rock formation to determine that it was millions of years old."
   },
   {
-    "phrase": "One who eats too much",
+    "phrase": "The fear of aging",
+    "word": "Gerascophobia",
+    "meaning_hi": "बुढ़ापे का भय",
+    "meaning_en": "The fear of aging",
+    "category": "oneword",
+    "example": "Her gerascophobia made her deeply anxious about every birthday."
+  },
+  {
+    "phrase": "One who specialises in care of the elderly",
+    "word": "Geriatrician",
+    "meaning_hi": "वृद्धावस्था रोग विशेषज्ञ",
+    "meaning_en": "Doctor who specialises in elderly care",
+    "category": "oneword",
+    "example": "The geriatrician specialised in the treatment of age-related diseases like Alzheimer's."
+  },
+  {
+    "phrase": "for: 'Fear of public speaking.'",
+    "word": "Glossophobia",
+    "meaning_hi": "सार्वजनिक बोलने का भय",
+    "meaning_en": "Fear of public speaking.",
+    "category": "oneword",
+    "example": "His glossophobia made presenting in class extremely difficult."
+  },
+  {
+    "phrase": "One who eats too much and excessively",
     "word": "Glutton",
     "meaning_hi": "पेटू",
-    "meaning_en": "Excessive eater",
-    "category": "oneword"
+    "meaning_en": "Person who overindulges in food",
+    "category": "oneword",
+    "example": "The glutton emptied the entire dessert tray at the party."
   },
   {
-    "phrase": "One who looks after the interests of another",
+    "phrase": "One who is fond of and skilled at cooking",
+    "word": "Gourmet",
+    "meaning_hi": "पाक-प्रेमी",
+    "meaning_en": "Person with a refined taste for food and cooking",
+    "category": "oneword",
+    "example": "The gourmet could identify the spice blend in a dish just by its aroma."
+  },
+  {
+    "phrase": "One who studies handwriting to analyse character",
+    "word": "Graphologist",
+    "meaning_hi": "हस्तलेख विशेषज्ञ",
+    "meaning_en": "Expert who analyses character through handwriting",
+    "category": "oneword",
+    "example": "The graphologist analysed the ransom note and concluded it was written under extreme stress."
+  },
+  {
+    "phrase": "One who looks after the interests and welfare of another",
     "word": "Guardian",
     "meaning_hi": "संरक्षक",
     "meaning_en": "Protector or caretaker",
-    "category": "oneword"
+    "category": "oneword",
+    "example": "The guardian ensured that the orphaned children received proper education and care."
   },
   {
-    "phrase": "One who is devoted to pleasure",
+    "phrase": "One who hacks into computer systems without permission",
+    "word": "Hacker",
+    "meaning_hi": "हैकर",
+    "meaning_en": "Person who illegally accesses computer systems",
+    "category": "oneword",
+    "example": "The hacker broke into the government's database and exposed thousands of private records."
+  },
+  {
+    "word": "Hallucination",
+    "phrase": "Perception of something that is not actually present",
+    "meaning_en": "Seeing or hearing things that do not exist",
+    "meaning_hi": "मतिभ्रम / भ्रमजन्य अनुभव",
+    "category": "oneword",
+    "example": "After three days without sleep, he began to experience hallucination and saw figures in the dark."
+  },
+  {
+    "phrase": "A long and tedious speech",
+    "word": "Harangue",
+    "meaning_hi": "लंबा उत्तेजक भाषण",
+    "meaning_en": "A long and tedious speech",
+    "category": "oneword",
+    "example": "The manager delivered a long harangue about punctuality at work."
+  },
+  {
+    "phrase": "One who is devoted to seeking pleasure above all",
     "word": "Hedonist",
     "meaning_hi": "भोगवादी",
-    "meaning_en": "Pleasure seeker",
-    "category": "oneword"
+    "meaning_en": "Person who lives for pleasure",
+    "category": "oneword",
+    "example": "The hedonist believed that life's purpose was to maximise pleasure and avoid all pain."
   },
   {
-    "phrase": "One who lives apart from society",
+    "phrase": "One who eats only plant-based food",
+    "word": "Herbivore",
+    "meaning_hi": "शाकाहारी",
+    "meaning_en": "Creature that feeds only on plants",
+    "category": "oneword",
+    "example": "The cow is a herbivore that feeds only on grass and plant matter."
+  },
+  {
+    "phrase": "for: 'A belief or opinion that goes against the established doctrine, especially in religion or ideology'.",
+    "word": "Heresy",
+    "meaning_hi": "धर्म-विरोधी मत / पाखंड",
+    "meaning_en": "A belief or opinion that goes against the established doctrine, especially in religion or ideology",
+    "category": "oneword",
+    "example": "In medieval times, heresy was punishable by death."
+  },
+  {
+    "phrase": "One who lives alone, away from society",
     "word": "Hermit",
     "meaning_hi": "एकांतवासी",
-    "meaning_en": "Person living in seclusion",
-    "category": "oneword"
+    "meaning_en": "Person living in seclusion away from others",
+    "category": "oneword",
+    "example": "The hermit lived alone in the mountains, seeing no one for months at a time."
   },
   {
-    "phrase": "One who studies the history of mankind",
+    "phrase": "One who studies snakes",
+    "word": "Herpetologist",
+    "meaning_hi": "सरीसृप वैज्ञानिक",
+    "meaning_en": "Scientist who studies reptiles and amphibians",
+    "category": "oneword",
+    "example": "The herpetologist carefully picked up the rare cobra to study it before releasing it."
+  },
+  {
+    "phrase": "One who studies and records past events",
     "word": "Historian",
     "meaning_hi": "इतिहासकार",
-    "meaning_en": "Scholar of history",
+    "meaning_en": "Scholar who studies and writes about history",
+    "category": "oneword",
+    "example": "The historian spent a decade in archives to write a definitive account of the Mughal era."
+  },
+  {
+    "phrase": "One who kills for money without personal motive",
+    "word": "Hitman",
+    "meaning_hi": "किराए का हत्यारा",
+    "meaning_en": "Person hired to kill another person",
+    "category": "oneword",
+    "example": "The police uncovered a plot in which a hitman had been hired to eliminate the witness."
+  },
+  {
+    "phrase": "One who secretly stores goods beyond what is needed",
+    "word": "Hoarder",
+    "meaning_hi": "जमाखोर",
+    "meaning_en": "Person who hoards goods, often during scarcity",
+    "category": "oneword",
+    "example": "The hoarder's house was so full of newspapers and boxes that there was barely room to walk."
+  },
+  {
+    "phrase": "One who commits the act of killing a human being",
+    "word": "Homicide",
+    "meaning_hi": "मानवहत्या करने वाला",
+    "meaning_en": "Person who kills another human being",
+    "category": "oneword",
+    "example": "The detective investigated the homicide that had shocked the quiet town."
+  },
+  {
+    "word": "Honorary",
+    "meaning_en": "an office for which no salary is paid",
+    "meaning_hi": "मानद / अवैतनिक",
+    "example": "She was awarded an honorary degree by the university for her contributions to literature.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword",
+    "phrase": "An office or title given without payment or professional qualification"
+  },
+  {
+    "phrase": "One who promotes the welfare of all human beings",
+    "word": "Humanitarian",
+    "meaning_hi": "मानवतावादी",
+    "meaning_en": "Person devoted to improving human welfare",
+    "category": "oneword",
+    "example": "The humanitarian organisation provided food and shelter to refugees."
+  },
+  {
+    "phrase": "One who has a fear of water",
+    "word": "Hydrophobe",
+    "meaning_hi": "पानी से डरने वाला",
+    "meaning_en": "Person with an irrational fear of water",
+    "category": "oneword",
+    "example": "The hydrophobe refused to swim and panicked even near a shallow pool."
+  },
+  {
+    "word": "Hydrophobia",
+    "meaning_en": "'Fear of water'",
+    "meaning_hi": "पानी से डर / जलांतक",
+    "example": "His hydrophobia made even a simple shower a frightening ordeal.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who loves and promotes human welfare",
-    "word": "Humanitarian",
-    "meaning_hi": "मानवतावादी",
-    "meaning_en": "Lover of humanity",
-    "category": "oneword"
+    "phrase": "One who suffers from anxiety about their health",
+    "word": "Hypochondriac",
+    "meaning_hi": "रोग-भ्रमी",
+    "meaning_en": "Person who is excessively worried about their health",
+    "category": "oneword",
+    "example": "The hypochondriac visited the doctor every week, convinced he had a different illness each time."
+  },
+  {
+    "phrase": "One who pretends to be religious but is not sincere",
+    "word": "Hypocrite",
+    "meaning_hi": "पाखंडी",
+    "meaning_en": "Person who pretends to have virtues they do not possess",
+    "category": "oneword",
+    "example": "The hypocrite preached honesty but cheated openly in business."
+  },
+  {
+    "phrase": "One who studies fish",
+    "word": "Ichthyologist",
+    "meaning_hi": "मत्स्य विज्ञानी",
+    "meaning_en": "Scientist who studies fish",
+    "category": "oneword",
+    "example": "The ichthyologist published a study on the feeding habits of freshwater fish in the Ganges."
+  },
+  {
+    "word": "Iconoclast",
+    "phrase": "One who attacks and rejects traditional beliefs, customs, or institutions",
+    "meaning_en": "A person who challenges cherished beliefs",
+    "meaning_hi": "परम्परा-विरोधी / मूर्तिभंजक",
+    "category": "oneword",
+    "example": "As an iconoclast, she challenged every convention in the industry."
+  },
+  {
+    "phrase": "One who has an impractical and idealistic approach to life",
+    "word": "Idealist",
+    "meaning_hi": "आदर्शवादी",
+    "meaning_en": "Person with idealistic views, often impractical",
+    "category": "oneword",
+    "example": "The idealist believed that through education alone, poverty could be completely eradicated."
   },
   {
     "phrase": "One who worships idols",
     "word": "Idolater",
     "meaning_hi": "मूर्तिपूजक",
-    "meaning_en": "Idol worshipper",
-    "category": "oneword"
+    "meaning_en": "Person who worships idols or images",
+    "category": "oneword",
+    "example": "The ancient tribe was branded an idolater by missionaries who opposed their rituals."
   },
   {
-    "phrase": "One who does not care for art or literature",
+    "phrase": "One who is completely ignorant and uneducated",
     "word": "Ignoramus",
     "meaning_hi": "अज्ञानी",
-    "meaning_en": "Ignorant person",
-    "category": "oneword"
+    "meaning_en": "Thoroughly ignorant person",
+    "category": "oneword",
+    "example": "The ignoramus gave a confidently wrong answer and refused to accept the correction."
+  },
+  {
+    "phrase": "for: 'Something that is impossible to be read'.",
+    "word": "Illegible",
+    "meaning_hi": "अपठनीय / जो पढ़ा न जा सके",
+    "meaning_en": "Something that is impossible to be read",
+    "category": "oneword",
+    "example": "The doctor handwriting was completely illegible to the pharmacist."
   },
   {
     "phrase": "One who cannot read or write",
     "word": "Illiterate",
     "meaning_hi": "अनपढ़",
-    "meaning_en": "Unable to read or write",
+    "meaning_en": "Person without literacy skills",
+    "category": "oneword",
+    "example": "The programme aimed to make the illiterate adults in the village functionally literate within a year."
+  },
+  {
+    "word": "Imbroglio",
+    "meaning_en": "An extremely confused or complicated situation",
+    "meaning_hi": "उलझी हुई स्थिति / झमेला",
+    "example": "The political imbroglio kept parliament in total chaos for weeks.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who comes into a foreign country to settle",
+    "phrase": "One who comes into a foreign country to settle permanently",
     "word": "Immigrant",
     "meaning_hi": "अप्रवासी",
-    "meaning_en": "One who enters a new country",
-    "category": "oneword"
+    "meaning_en": "Person who enters a new country to live there",
+    "category": "oneword",
+    "example": "The immigrant worked hard to build a new life in the country."
   },
   {
-    "phrase": "One who is without money",
+    "phrase": "One who has little or no money",
     "word": "Impecunious",
     "meaning_hi": "निर्धन",
-    "meaning_en": "Very poor person",
+    "meaning_en": "Very poor or penniless person",
+    "category": "oneword",
+    "example": "The impecunious student survived on one meal a day throughout the academic year."
+  },
+  {
+    "phrase": "One who cannot be appeased or pacified",
+    "word": "Implacable",
+    "meaning_hi": "अडिग/अटल",
+    "meaning_en": "Person who cannot be calmed or made agreeable",
+    "category": "oneword",
+    "example": "The implacable judge refused all pleas for mercy and maintained his harsh sentence."
+  },
+  {
+    "word": "Importune",
+    "meaning_en": "Persistent harassment to do something",
+    "meaning_hi": "बार-बार अनुरोध करना",
+    "example": "He continued to importune his seniors daily for a promotion.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who cannot be corrected",
+    "phrase": "Choose the correct one-word substitution for: 'A person who pretends to be what he is not'.",
+    "word": "Impostor",
+    "meaning_hi": "धोखेबाज / ढोंगी",
+    "meaning_en": "A person who pretends to be what he is not",
+    "category": "oneword",
+    "example": "The impostor pretended to be a doctor and deceived patients for years."
+  },
+  {
+    "phrase": "One who manages and directs theatrical or musical productions",
+    "word": "Impresario",
+    "meaning_hi": "कार्यक्रम प्रबंधक",
+    "meaning_en": "Person who organises and promotes shows and performances",
+    "category": "oneword",
+    "example": "The impresario organised a national tour of the award-winning musical production."
+  },
+  {
+    "phrase": "One who cannot be corrected or reformed",
     "word": "Incorrigible",
     "meaning_hi": "असुधार्य",
-    "meaning_en": "Impossible to reform",
-    "category": "oneword"
+    "meaning_en": "Person impossible to reform or improve",
+    "category": "oneword",
+    "example": "The incorrigible student refused to follow any of the school rules."
   },
   {
-    "phrase": "One who is never wrong",
+    "word": "Incumbent",
+    "phrase": "The person currently holding a particular office or position",
+    "meaning_en": "The current holder of an office",
+    "meaning_hi": "पदधारी / वर्तमान पदाधिकारी",
+    "category": "oneword",
+    "example": "The incumbent minister faced strong opposition in the upcoming election."
+  },
+  {
+    "phrase": "A person who avoids work or effort",
+    "word": "Indolent",
+    "meaning_hi": "आलसी / सुस्त",
+    "meaning_en": "A person who avoids work or effort",
+    "category": "oneword",
+    "example": "The indolent student barely opened a book throughout the year."
+  },
+  {
+    "word": "Inevitable",
+    "meaning_en": "that which is bound to happen",
+    "meaning_hi": "अनिवार्य / अपरिहार्य",
+    "example": "The collapse of the company was inevitable once the debts spiralled out of control.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword",
+    "phrase": "That which is bound to happen and cannot be avoided"
+  },
+  {
+    "phrase": "One who is incapable of making mistakes",
     "word": "Infallible",
     "meaning_hi": "अचूक",
-    "meaning_en": "Incapable of error",
-    "category": "oneword"
+    "meaning_en": "Person or thing that is never wrong",
+    "category": "oneword",
+    "example": "No system is truly infallible; even the most reliable machines can fail unexpectedly."
   },
   {
-    "phrase": "One who kills one's own child",
+    "phrase": "One who kills an infant or their own child",
     "word": "Infanticide",
-    "meaning_hi": "बालहत्या करने वाला",
-    "meaning_en": "Killer of an infant",
+    "meaning_hi": "शिशुहत्या करने वाला",
+    "meaning_en": "Killer of an infant or young child",
+    "category": "oneword",
+    "example": "The reformer campaigned to end the practice of infanticide in rural communities."
+  },
+  {
+    "phrase": "One who secretly enters an organisation to gather information",
+    "word": "Infiltrator",
+    "meaning_hi": "घुसपैठिया",
+    "meaning_en": "Person who secretly enters a group to spy or undermine it",
+    "category": "oneword",
+    "example": "The infiltrator had been feeding the enemy intelligence for months before being exposed."
+  },
+  {
+    "word": "Insolvent",
+    "meaning_en": "'A person who is unable to pay his debts'",
+    "meaning_hi": "दिवालिया",
+    "example": "After losing his business, he was declared insolvent by the court.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who entertains people by joking and tricks",
+    "word": "Insomnia",
+    "phrase": "The condition of being habitually unable to sleep",
+    "meaning_en": "Chronic inability to fall asleep",
+    "meaning_hi": "अनिद्रा",
+    "category": "oneword",
+    "example": "Stress at work caused her to develop severe chronic insomnia."
+  },
+  {
+    "word": "Insomniac",
+    "phrase": "One who suffers from the inability to sleep",
+    "meaning_en": "A person who cannot sleep normally",
+    "meaning_hi": "अनिद्रा से पीड़ित व्यक्ति",
+    "category": "oneword",
+    "example": "The insomniac lay awake until 4 a.m. every night, unable to quiet his thoughts."
+  },
+  {
+    "phrase": "One who incites others to commit crimes or rebel",
+    "word": "Instigator",
+    "meaning_hi": "उकसावेबाज़",
+    "meaning_en": "Person who provokes others to commit crimes or acts",
+    "category": "oneword",
+    "example": "The police identified the instigator who had urged the crowd to turn violent."
+  },
+  {
+    "phrase": "One who opposes their own government or ruler",
+    "word": "Insurgent",
+    "meaning_hi": "विद्रोही",
+    "meaning_en": "Person who rises in armed resistance against a government",
+    "category": "oneword",
+    "example": "The insurgent led a small armed group that challenged the government's authority in the hills."
+  },
+  {
+    "phrase": "One who specialises in internal medicine",
+    "word": "Internist",
+    "meaning_hi": "आंतरिक रोग विशेषज्ञ",
+    "meaning_en": "Doctor who specialises in internal medicine",
+    "category": "oneword",
+    "example": "The internist reviewed all the test results before diagnosing the patient with a rare condition."
+  },
+  {
+    "phrase": "One who interprets and translates spoken language",
+    "word": "Interpreter",
+    "meaning_hi": "दुभाषिया",
+    "meaning_en": "Person who translates spoken language in real time",
+    "category": "oneword",
+    "example": "The interpreter translated the prime minister's speech into three languages simultaneously."
+  },
+  {
+    "phrase": "A person who is fearless and adventurous is called –",
+    "word": "Intrepid",
+    "meaning_hi": "निडर / साहसी",
+    "meaning_en": "A person who is fearless and adventurous is called –",
+    "category": "oneword",
+    "example": "The intrepid explorer crossed the Sahara desert entirely alone."
+  },
+  {
+    "phrase": "One who is reserved and finds energy in solitude",
+    "word": "Introvert",
+    "meaning_hi": "अंतर्मुखी",
+    "meaning_en": "Person who is reserved and prefers solitude",
+    "category": "oneword",
+    "example": "As an introvert, she found large social gatherings exhausting and preferred quiet evenings at home."
+  },
+  {
+    "word": "Itinerary",
+    "phrase": "A planned route or schedule of a journey",
+    "meaning_en": "A detailed plan of a journey or route",
+    "meaning_hi": "यात्रा-कार्यक्रम / मार्ग-विवरण",
+    "category": "oneword",
+    "example": "The travel agent prepared a detailed itinerary covering all major historical sites."
+  },
+  {
+    "phrase": "One who entertains people with jokes and tricks",
     "word": "Jester",
     "meaning_hi": "विदूषक",
-    "meaning_en": "Court entertainer or clown",
-    "category": "oneword"
+    "meaning_en": "Court entertainer or comedian",
+    "category": "oneword",
+    "example": "The jester entertained the king's court with riddles, songs, and acrobatic tricks."
   },
   {
-    "phrase": "One who keeps a journal or diary",
+    "phrase": "One who is excessively and sentimentally patriotic",
+    "word": "Jingoist",
+    "meaning_hi": "अंधराष्ट्रवादी",
+    "meaning_en": "Person with extreme and aggressive patriotism",
+    "category": "oneword",
+    "example": "The jingoist cheered every military action without pausing to question the cost in lives."
+  },
+  {
+    "phrase": "One who writes news reports for a publication",
     "word": "Journalist",
     "meaning_hi": "पत्रकार",
     "meaning_en": "News reporter or writer",
-    "category": "oneword"
+    "category": "oneword",
+    "example": "The journalist risked her life to report from the war-torn region."
   },
   {
-    "phrase": "One who administers justice",
+    "phrase": "One who administers the law and delivers verdicts",
     "word": "Judge",
     "meaning_hi": "न्यायाधीश",
-    "meaning_en": "One who gives legal verdicts",
-    "category": "oneword"
+    "meaning_en": "Person who gives legal verdicts in court",
+    "category": "oneword",
+    "example": "The judge reminded both parties to present only admissible evidence."
   },
   {
-    "phrase": "One who is knowledgeable about law",
+    "phrase": "One who analyses and interprets laws",
+    "word": "Jurisprudent",
+    "meaning_hi": "न्यायशास्त्री",
+    "meaning_en": "Expert who analyses and interprets legal principles",
+    "category": "oneword",
+    "example": "The jurisprudent wrote extensively on the conflict between natural law and statutory law."
+  },
+  {
+    "phrase": "One who is an expert in the law",
     "word": "Jurist",
     "meaning_hi": "कानूनी विशेषज्ञ",
-    "meaning_en": "Legal expert",
-    "category": "oneword"
+    "meaning_en": "Legal expert and scholar",
+    "category": "oneword",
+    "example": "The jurist's commentary on constitutional law is still considered essential reading."
   },
   {
-    "phrase": "One who kills his own kin",
-    "word": "Kin-slayer",
-    "meaning_hi": "स्वजन हत्यारा",
-    "meaning_en": "Killer of own family member",
-    "category": "oneword"
+    "phrase": "Choose the correct one-word substitution for: 'A government or state in which those in power exploit national resources and steal'.",
+    "word": "Kleptocracy",
+    "meaning_hi": "चोरों / भ्रष्टाचारियों का शासन",
+    "meaning_en": "A government in which those in power exploit national resources and steal public funds.",
+    "category": "oneword",
+    "example": "The country kleptocracy drained its natural wealth for decades."
   },
   {
-    "phrase": "One who makes a dictionary",
+    "phrase": "One who has an obsession with stealing",
+    "word": "Kleptomaniac",
+    "meaning_hi": "चोरी की पागल इच्छा वाला",
+    "meaning_en": "Person with an uncontrollable urge to steal",
+    "category": "oneword",
+    "example": "The kleptomaniac stole small objects compulsively, even when she had no use for them."
+  },
+  {
+    "word": "Landlocked",
+    "phrase": "A country or region entirely enclosed by land with no access to the sea",
+    "meaning_en": "Surrounded on all sides by land",
+    "meaning_hi": "स्थलावृत / चारों ओर से जमीन से घिरा",
+    "category": "oneword",
+    "example": "The landlocked country relied entirely on its neighbours for access to sea trade routes."
+  },
+  {
+    "phrase": "One who cuts and polishes precious stones",
+    "word": "Lapidary",
+    "meaning_hi": "रत्नकार",
+    "meaning_en": "Person who cuts and engraves precious stones",
+    "category": "oneword",
+    "example": "The lapidary spent hours polishing the sapphire before setting it in the ring."
+  },
+  {
+    "phrase": "One who is licensed to practise law in courts",
+    "word": "Lawyer",
+    "meaning_hi": "वकील",
+    "meaning_en": "Person qualified and licensed to practise law",
+    "category": "oneword",
+    "example": "The lawyer advised her client not to sign the agreement without making key amendments."
+  },
+  {
+    "word": "Layman",
+    "phrase": "One who does not belong to a particular profession or clergy",
+    "meaning_en": "A non-professional or non-expert",
+    "meaning_hi": "आम आदमी / अनिष्णात",
+    "category": "oneword",
+    "example": "Even a layman could follow the simple step-by-step instructions."
+  },
+  {
+    "phrase": "One who collects and studies butterflies and moths",
+    "word": "Lepidopterist",
+    "meaning_hi": "तितली विशेषज्ञ",
+    "meaning_en": "Person who studies butterflies and moths",
+    "category": "oneword",
+    "example": "The lepidopterist identified over fifty species of butterflies in the national park."
+  },
+  {
+    "phrase": "One who compiles and writes dictionaries",
     "word": "Lexicographer",
     "meaning_hi": "शब्दकोश निर्माता",
-    "meaning_en": "Dictionary maker",
-    "category": "oneword"
+    "meaning_en": "Person who writes or edits dictionaries",
+    "category": "oneword",
+    "example": "The lexicographer added hundreds of new words to the dictionary's latest edition."
   },
   {
-    "phrase": "One who speaks or writes in more than one language",
+    "phrase": "One who believes in individual freedom in political and social matters",
+    "word": "Liberal",
+    "meaning_hi": "उदारवादी",
+    "meaning_en": "Person who believes in freedom and tolerant values",
+    "category": "oneword",
+    "example": "The liberal championed the right to free speech even for views he personally disagreed with."
+  },
+  {
+    "phrase": "One who writes the words for a musical or opera",
+    "word": "Librettist",
+    "meaning_hi": "संगीत नाटक लेखक",
+    "meaning_en": "Writer who writes the lyrics or text for an opera",
+    "category": "oneword",
+    "example": "The librettist crafted the emotionally powerful text for the celebrated opera."
+  },
+  {
+    "phrase": "One who studies language and linguistics",
     "word": "Linguist",
     "meaning_hi": "भाषाशास्त्री",
-    "meaning_en": "Language expert",
-    "category": "oneword"
+    "meaning_en": "Expert in languages and linguistic science",
+    "category": "oneword",
+    "example": "The linguist could speak eight different languages fluently."
   },
   {
-    "phrase": "One who prefers to be alone",
+    "phrase": "One who prefers to be alone and avoids company",
     "word": "Loner",
     "meaning_hi": "एकांतप्रिय व्यक्ति",
     "meaning_en": "Person who prefers solitude",
-    "category": "oneword"
+    "category": "oneword",
+    "example": "The loner preferred spending weekends reading alone rather than attending social gatherings."
   },
   {
-    "phrase": "One who talks a great deal",
-    "word": "Loquacious",
-    "meaning_hi": "बहुत बोलने वाला",
-    "meaning_en": "Very talkative person",
-    "category": "oneword"
+    "phrase": "One who writes the words of songs",
+    "word": "Lyricist",
+    "meaning_hi": "गीतकार",
+    "meaning_en": "Person who writes lyrics for songs",
+    "category": "oneword",
+    "example": "The lyricist wrote the soul-stirring words that made the film's title track a nationwide hit."
   },
   {
-    "phrase": "One who is always afraid of losing",
-    "word": "Loser",
-    "meaning_hi": "हारने वाला",
-    "meaning_en": "Chronic failure",
-    "category": "oneword"
-  },
-  {
-    "phrase": "One who is an expert at something",
+    "phrase": "One who is an acknowledged master in a field, especially music",
     "word": "Maestro",
     "meaning_hi": "उस्ताद",
-    "meaning_en": "A master or expert",
-    "category": "oneword"
+    "meaning_en": "Recognised master or great expert in a field",
+    "category": "oneword",
+    "example": "The maestro took a bow as the audience rose to applaud his extraordinary performance."
   },
   {
-    "phrase": "One who performs tricks to entertain",
+    "phrase": "One who performs illusions and tricks to entertain",
     "word": "Magician",
     "meaning_hi": "जादूगर",
-    "meaning_en": "Illusionist or conjurer",
-    "category": "oneword"
+    "meaning_en": "Illusionist or conjurer who performs tricks",
+    "category": "oneword",
+    "example": "The magician made a coin disappear and reappear behind the child's ear."
   },
   {
-    "phrase": "One who kills one's own mother",
+    "word": "Malcontent",
+    "meaning_en": "a person who is always dissatisfied",
+    "meaning_hi": "असंतुष्ट / विद्रोही",
+    "example": "The malcontent complained about every policy regardless of its actual merits.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword",
+    "phrase": "A person who is always dissatisfied and rebellious"
+  },
+  {
+    "phrase": "One who pretends to be ill to avoid work",
+    "word": "Malingerer",
+    "meaning_hi": "नकली बीमार",
+    "meaning_en": "Person who fakes illness to avoid duty",
+    "category": "oneword",
+    "example": "The malingerer pretended to have a back injury to avoid returning to work."
+  },
+  {
+    "phrase": "One who kills their own husband",
+    "word": "Mariticide",
+    "meaning_hi": "पति की हत्या करने वाला",
+    "meaning_en": "Person who kills their own husband",
+    "category": "oneword",
+    "example": "The court heard the disturbing case of mariticide in which the wife had poisoned her husband."
+  },
+  {
+    "phrase": "One who is willing to fight and die for their beliefs",
+    "word": "Martyr",
+    "meaning_hi": "शहीद",
+    "meaning_en": "Person who suffers or dies for a cause or belief",
+    "category": "oneword",
+    "example": "The martyr gave his life fighting bravely for his country's freedom."
+  },
+  {
+    "phrase": "One who derives pleasure from their own suffering",
+    "word": "Masochist",
+    "meaning_hi": "स्वयं को तकलीफ देकर खुश होने वाला",
+    "meaning_en": "Person who derives pleasure from their own pain",
+    "category": "oneword",
+    "example": "Critics said the politician was a masochist who seemed to enjoy the public's harsh criticism."
+  },
+  {
+    "phrase": "One who kills their own mother",
     "word": "Matricide",
     "meaning_hi": "मातृहत्या करने वाला",
-    "meaning_en": "Killer of a mother",
+    "meaning_en": "Person who kills their own mother",
+    "category": "oneword",
+    "example": "The ancient tragedy depicted a son's guilt after committing matricide."
+  },
+  {
+    "word": "Mechanic",
+    "meaning_en": "A person who repairs and maintains machinery.",
+    "meaning_hi": "मशीन ठीक करने वाला / मैकेनिक",
+    "example": "The mechanic fixed the broken engine in less than an hour.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who is passionate about music",
+    "phrase": "One who has delusions of great power or importance",
+    "word": "Megalomaniac",
+    "meaning_hi": "महत्ता का भ्रम रखने वाला",
+    "meaning_en": "Person who has an obsession with power and importance",
+    "category": "oneword",
+    "example": "The megalomaniac believed he alone was capable of running the entire country."
+  },
+  {
+    "word": "Melodrama",
+    "meaning_en": "A style of writing characterized by exaggerated sentimentality",
+    "meaning_hi": "अतिभावुक नाटक",
+    "example": "The film was full of melodrama that felt completely overdone.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who has a passionate love for music",
     "word": "Melomaniac",
     "meaning_hi": "संगीत-प्रेमी",
-    "meaning_en": "Music lover",
-    "category": "oneword"
+    "meaning_en": "Person with intense love of music",
+    "category": "oneword",
+    "example": "The melomaniac attended every classical music concert in the city without fail."
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'A place where wild animals are kept'.",
+    "word": "Menagerie",
+    "meaning_hi": "जानवरों का संग्रह / चिड़ियाघर",
+    "meaning_en": "A place where wild animals are kept",
+    "category": "oneword",
+    "example": "The circus had a large menagerie of exotic animals on display."
   },
   {
     "phrase": "One who lives by begging",
     "word": "Mendicant",
     "meaning_hi": "भिखारी",
     "meaning_en": "Professional beggar",
+    "category": "oneword",
+    "example": "The mendicant sat at the temple gate every morning, surviving on the charity of pilgrims."
+  },
+  {
+    "phrase": "One who is hired to fight for any side that pays",
+    "word": "Mercenary",
+    "meaning_hi": "भाड़े का सैनिक",
+    "meaning_en": "Soldier hired to fight for a foreign country for money",
+    "category": "oneword",
+    "example": "The mercenary fought not for patriotism but for the generous fee offered by the highest bidder."
+  },
+  {
+    "word": "Meritocracy",
+    "phrase": "A system in which advancement is based on ability and talent",
+    "meaning_en": "Government or leadership by those most able",
+    "meaning_hi": "योग्यतातंत्र",
+    "category": "oneword",
+    "example": "The company prided itself on being a meritocracy where hard work, not connections, determined promotion."
+  },
+  {
+    "phrase": "One who claims to speak on behalf of God",
+    "word": "Messiah",
+    "meaning_hi": "मसीहा",
+    "meaning_en": "Person believed to be a saviour or liberator",
+    "category": "oneword",
+    "example": "The villagers began to see the young activist as a messiah who would end their suffering."
+  },
+  {
+    "word": "Metaphor",
+    "phrase": "A figure of speech that describes something as if it were something else",
+    "meaning_en": "A direct comparison without using 'like' or 'as'",
+    "meaning_hi": "रूपक / उपमा",
+    "category": "oneword",
+    "example": "The poet used the metaphor of a river to describe the passage of time."
+  },
+  {
+    "phrase": "One who studies the weather and atmosphere",
+    "word": "Meteorologist",
+    "meaning_hi": "मौसम वैज्ञानिक",
+    "meaning_en": "Scientist who studies and predicts weather",
+    "category": "oneword",
+    "example": "The meteorologist predicted heavy rainfall across the coastal districts over the next three days."
+  },
+  {
+    "word": "Mineralogist",
+    "meaning_en": "A person who studies rocks and minerals",
+    "meaning_hi": "खनिज-विशेषज्ञ",
+    "example": "The mineralogist identified a rare type of quartz that had never been recorded in the region.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who hates mankind",
+    "phrase": "One who has a strong dislike of men",
+    "word": "Misandrist",
+    "meaning_hi": "पुरुष-द्वेषी",
+    "meaning_en": "Person who dislikes or has a prejudice against men",
+    "category": "oneword",
+    "example": "The radical misandrist refused to engage with any organisation led by men."
+  },
+  {
+    "phrase": "One who hates or distrusts all people",
     "word": "Misanthrope",
     "meaning_hi": "मानवद्वेषी",
-    "meaning_en": "Hater of mankind",
-    "category": "oneword"
+    "meaning_en": "Person who hates or distrusts humanity",
+    "category": "oneword",
+    "example": "The misanthrope avoided all social gatherings and public events."
   },
   {
-    "phrase": "One who is obsessively greedy for money",
+    "phrase": "One who is excessively stingy and hoards money",
     "word": "Miser",
-    "meaning_hi": "कंजूस/लोभी",
-    "meaning_en": "Greedy hoarder of money",
-    "category": "oneword"
+    "meaning_hi": "कंजूस",
+    "meaning_en": "Greedy person who hoards wealth",
+    "category": "oneword",
+    "example": "The miser refused to spend even a rupee on his own comfort."
   },
   {
-    "phrase": "One who hates marriage",
+    "phrase": "One who hates or opposes marriage",
     "word": "Misogamist",
     "meaning_hi": "विवाह-विरोधी",
-    "meaning_en": "One who hates marriage",
-    "category": "oneword"
+    "meaning_en": "Person who hates or opposes the institution of marriage",
+    "category": "oneword",
+    "example": "The misogamist had never married and openly opposed the institution of marriage."
   },
   {
     "phrase": "One who hates women",
     "word": "Misogynist",
     "meaning_hi": "स्त्री-द्वेषी",
-    "meaning_en": "Hater of women",
+    "meaning_en": "Person who has a strong dislike or prejudice against women",
+    "category": "oneword",
+    "example": "The misogynist dismissed every suggestion made by his female colleagues."
+  },
+  {
+    "word": "Misologist",
+    "meaning_en": "A person who hates reason or discussion",
+    "meaning_hi": "तर्क-द्वेषी / बहस से घृणा करने वाला",
+    "example": "The misologist refused to engage in any form of logical debate.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
+  },
+  {
+    "word": "Moratorium",
+    "phrase": "A temporary suspension of an activity or law",
+    "meaning_en": "A legally authorised delay or suspension",
+    "meaning_hi": "स्थगन / अस्थायी रोक",
+    "category": "oneword",
+    "example": "The government declared a moratorium on new construction near the protected wetlands."
+  },
+  {
+    "word": "Morgue",
+    "meaning_en": "A place where dead bodies are kept for examination",
+    "meaning_hi": "शव-गृह",
+    "example": "The body was taken to the morgue for official identification.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'A building where dead bodies are kept temporarily'.",
+    "word": "Mortuary",
+    "meaning_hi": "शव-गृह / अंत्येष्टि-गृह",
+    "meaning_en": "A building where dead bodies are kept temporarily",
+    "category": "oneword",
+    "example": "The mortuary was located at the back of the hospital building."
+  },
+  {
+    "phrase": "She is proficient in speaking many languages.",
+    "word": "Multilingual",
+    "meaning_hi": "बहुभाषी / अनेक भाषाएँ जानने वाला",
+    "meaning_en": "She is proficient in speaking many languages.",
+    "category": "oneword",
+    "example": "The multilingual diplomat addressed the UN assembly in five languages."
+  },
+  {
+    "phrase": "One who cannot speak",
+    "word": "Mute",
+    "meaning_hi": "गूंगा",
+    "meaning_en": "Person who is unable to speak",
+    "category": "oneword",
+    "example": "The mute child communicated with remarkable expressiveness through sign language."
+  },
+  {
+    "phrase": "One who studies fungi",
+    "word": "Mycologist",
+    "meaning_hi": "फफूंद विज्ञानी",
+    "meaning_en": "Scientist who studies fungi",
+    "category": "oneword",
+    "example": "The mycologist identified the poisonous mushroom that had caused the illness."
+  },
+  {
+    "phrase": "One who is abnormally obsessed with cleanliness",
+    "word": "Mysophobe",
+    "meaning_hi": "सफाई की पागल चाहत वाला",
+    "meaning_en": "Person with an abnormal fear of dirt and germs",
+    "category": "oneword",
+    "example": "The mysophobe washed his hands dozens of times a day and refused to touch shared surfaces."
+  },
+  {
+    "phrase": "One who is obsessively in love with themselves",
+    "word": "Narcissist",
+    "meaning_hi": "आत्ममुग्ध व्यक्ति",
+    "meaning_en": "Person with excessive love and admiration for themselves",
+    "category": "oneword",
+    "example": "The narcissist spent hours admiring himself in the mirror."
+  },
+  {
+    "phrase": "One who tells a story in a book or film",
+    "word": "Narrator",
+    "meaning_hi": "कथावाचक",
+    "meaning_en": "Person who tells or narrates a story",
+    "category": "oneword",
+    "example": "The narrator's calm voice guided viewers through the dramatic events of the documentary."
+  },
+  {
+    "phrase": "One who has a great love of and respect for their country",
+    "word": "Nationalist",
+    "meaning_hi": "राष्ट्रवादी",
+    "meaning_en": "Person with strong feelings of pride and love for their nation",
+    "category": "oneword",
+    "example": "The nationalist rallied thousands of citizens with impassioned speeches about sovereignty."
+  },
+  {
+    "phrase": "One who operates or steers a ship",
+    "word": "Navigator",
+    "meaning_hi": "नाविक",
+    "meaning_en": "Person who directs the course of a ship or aircraft",
+    "category": "oneword",
+    "example": "The navigator used the stars to chart a course across the Pacific Ocean."
+  },
+  {
+    "word": "Necromancer",
+    "phrase": "One who claims to communicate with or raise the spirits of the dead",
+    "meaning_en": "A person who practises black magic using the dead",
+    "meaning_hi": "मृत-आत्मा-आह्वायक / काला जादूगर",
+    "category": "oneword",
+    "example": "In the tale, the necromancer raised the dead to fight on his behalf."
   },
   {
     "phrase": "One who is new to a profession or activity",
     "word": "Neophyte",
     "meaning_hi": "नवसिखिया",
-    "meaning_en": "Beginner or novice",
-    "category": "oneword"
+    "meaning_en": "Beginner or novice in a field",
+    "category": "oneword",
+    "example": "As a neophyte in the industry, she made mistakes but learnt quickly from every one."
+  },
+  {
+    "phrase": "One who specialises in the brain and nervous system",
+    "word": "Neurologist",
+    "meaning_hi": "तंत्रिका रोग विशेषज्ञ",
+    "meaning_en": "Doctor who treats disorders of the nervous system",
+    "category": "oneword",
+    "example": "The neurologist reviewed the brain scan and confirmed the patient had suffered a mild stroke."
   },
   {
     "phrase": "One who believes that life has no meaning or purpose",
     "word": "Nihilist",
-    "meaning_hi": "निरर्थकता में विश्वास करने वाला",
-    "meaning_en": "One who believes nothing has meaning",
-    "category": "oneword"
+    "meaning_hi": "शून्यवादी",
+    "meaning_en": "Person who believes nothing has value or meaning",
+    "category": "oneword",
+    "example": "The nihilist believed that nothing in life had any real meaning."
   },
   {
-    "phrase": "One who wanders from place to place",
+    "word": "Nocturnal",
+    "phrase": "Animals or activities that are active or occurring during the night",
+    "meaning_en": "Done or occurring at night",
+    "meaning_hi": "रात्रिचर / निशाचर",
+    "category": "oneword",
+    "example": "The nocturnal creature slept through the day and hunted only after sunset."
+  },
+  {
+    "phrase": "One who wanders from place to place without a fixed home",
     "word": "Nomad",
     "meaning_hi": "घुमक्कड़",
-    "meaning_en": "Wanderer without a fixed home",
-    "category": "oneword"
+    "meaning_en": "Person with no fixed home who moves constantly",
+    "category": "oneword",
+    "example": "The nomad moved from place to place following the seasonal rains."
   },
   {
-    "phrase": "One who does not follow conventional rules",
+    "phrase": "One who does not follow conventional rules or beliefs",
     "word": "Nonconformist",
     "meaning_hi": "परंपरा-विरोधी",
-    "meaning_en": "Rebel against norms",
+    "meaning_en": "Person who rebels against norms and conventions",
+    "category": "oneword",
+    "example": "The nonconformist refused to wear the uniform and insisted on expressing his individuality."
+  },
+  {
+    "word": "Nostalgia",
+    "meaning_en": "A longing for past times",
+    "meaning_hi": "पुराने समय की याद / विरह-स्मृति",
+    "example": "A wave of nostalgia washed over him when he heard the old song.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who is young and inexperienced",
+    "phrase": "One who writes fiction, especially novels",
+    "word": "Novelist",
+    "meaning_hi": "उपन्यासकार",
+    "meaning_en": "Person who writes novels",
+    "category": "oneword",
+    "example": "The novelist spent four years writing a sweeping saga set during India's freedom struggle."
+  },
+  {
+    "phrase": "One who is young and new to a job or situation",
     "word": "Novice",
     "meaning_hi": "नौसिखिया",
-    "meaning_en": "Beginner",
-    "category": "oneword"
+    "meaning_en": "Complete beginner with no experience",
+    "category": "oneword",
+    "example": "The novice struggled at first but improved rapidly with daily practice."
   },
   {
-    "phrase": "One who collects or studies coins",
+    "phrase": "One who collects and studies coins and currency",
     "word": "Numismatist",
     "meaning_hi": "सिक्का संग्राहक",
-    "meaning_en": "Coin collector",
-    "category": "oneword"
+    "meaning_en": "Collector and student of coins and currency",
+    "category": "oneword",
+    "example": "The numismatist valued the ancient coin at several lakhs of rupees."
   },
   {
-    "phrase": "One who tends the sick",
+    "phrase": "One who tends to and cares for the sick",
     "word": "Nurse",
     "meaning_hi": "परिचारिका",
-    "meaning_en": "Healthcare attendant",
-    "category": "oneword"
+    "meaning_en": "Healthcare professional who tends the sick",
+    "category": "oneword",
+    "example": "The nurse stayed by the patient's side throughout the night to monitor his condition."
+  },
+  {
+    "phrase": "One who can see only in the dark",
+    "word": "Nyctalope",
+    "meaning_hi": "रतौंधी वाला (विपरीत)",
+    "meaning_en": "Person who can see only in dim light or darkness",
+    "category": "oneword",
+    "example": "The nyctalope could navigate the dark forest path without a torch."
+  },
+  {
+    "word": "Obituary",
+    "phrase": "A notice of a person's death, usually with a brief biography",
+    "meaning_en": "A published announcement of someone's death",
+    "meaning_hi": "मृत्यु-लेख / श्रद्धांजलि",
+    "category": "oneword",
+    "example": "The newspaper published a long obituary for the retired general."
+  },
+  {
+    "phrase": "One who studies ocean and sea life",
+    "word": "Oceanographer",
+    "meaning_hi": "समुद्र विज्ञानी",
+    "meaning_en": "Scientist who studies the ocean and its contents",
+    "category": "oneword",
+    "example": "The oceanographer discovered an entirely new ecosystem near a deep-sea volcanic vent."
+  },
+  {
+    "phrase": "One who studies and prepares wines",
+    "word": "Oenologist",
+    "meaning_hi": "मद्य-विज्ञानी",
+    "meaning_en": "Expert in the science of wine and wine-making",
+    "category": "oneword",
+    "example": "The oenologist could detect the vineyard's soil quality from the wine's taste alone."
+  },
+  {
+    "phrase": "One who collects wine as a hobby",
+    "word": "Oenophile",
+    "meaning_hi": "शराब-प्रेमी",
+    "meaning_en": "Person who enjoys and collects wines",
+    "category": "oneword",
+    "example": "The oenophile had a personal cellar containing over three hundred carefully selected bottles."
+  },
+  {
+    "word": "Oligarchy",
+    "phrase": "A form of government in which power is held by a small group of people",
+    "meaning_en": "Government by a small privileged group",
+    "meaning_hi": "अल्पतंत्र / कुलीनतंत्र",
+    "category": "oneword",
+    "example": "The small nation was ruled by an oligarchy of wealthy families."
   },
   {
     "phrase": "One who is all-powerful",
     "word": "Omnipotent",
     "meaning_hi": "सर्वशक्तिमान",
-    "meaning_en": "All-powerful",
-    "category": "oneword"
+    "meaning_en": "Being with unlimited power",
+    "category": "oneword",
+    "example": "In many religions, God is described as omnipotent and all-knowing."
   },
   {
-    "phrase": "One who is present everywhere",
+    "word": "Omnipresence",
+    "phrase": "The quality of being present everywhere at the same time",
+    "meaning_en": "The state of being present everywhere simultaneously",
+    "meaning_hi": "सर्वव्यापकता",
+    "category": "oneword",
+    "example": "The omnipresence of social media means that news now spreads across the world within seconds."
+  },
+  {
+    "phrase": "One who is present everywhere at all times",
     "word": "Omnipresent",
     "meaning_hi": "सर्वव्यापी",
-    "meaning_en": "Present everywhere",
-    "category": "oneword"
+    "meaning_en": "Being present everywhere simultaneously",
+    "category": "oneword",
+    "example": "In the modern world, smartphones have become omnipresent."
   },
   {
     "phrase": "One who knows everything",
     "word": "Omniscient",
     "meaning_hi": "सर्वज्ञ",
-    "meaning_en": "All-knowing",
-    "category": "oneword"
+    "meaning_en": "Being with complete and infinite knowledge",
+    "category": "oneword",
+    "example": "The omniscient narrator knew the thoughts of every character in the novel."
   },
   {
-    "phrase": "One who is all-consuming or eats everything",
+    "phrase": "One who eats both plants and animals",
     "word": "Omnivore",
     "meaning_hi": "सर्वाहारी",
-    "meaning_en": "One who eats both plants and animals",
+    "meaning_en": "Creature that eats both plant and animal food",
+    "category": "oneword",
+    "example": "As an omnivore, the bear eats both fish and berries with ease."
+  },
+  {
+    "word": "Omnivorous",
+    "meaning_en": "Eating both plant and animal food; consuming a very wide variety of food.",
+    "meaning_hi": "सर्वभक्षी / सब कुछ खाने वाला",
+    "example": "Humans are omnivorous creatures who eat both plants and meat.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who studies the eyes",
+    "phrase": "One who specialises in treating cancer",
+    "word": "Oncologist",
+    "meaning_hi": "कैंसर रोग विशेषज्ञ",
+    "meaning_en": "Doctor who specialises in treating cancer",
+    "category": "oneword",
+    "example": "The oncologist recommended a combination of surgery and chemotherapy for the patient."
+  },
+  {
+    "word": "Ontology",
+    "meaning_en": "The philosophical study of the nature of being and existence.",
+    "meaning_hi": "तत्त्वमीमांसा / अस्तित्व का दर्शन",
+    "example": "Ontology explores the fundamental question of why anything exists at all.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "oneword"
+  },
+  {
+    "phrase": "One who is a specialist in eye diseases and disorders",
     "word": "Ophthalmologist",
     "meaning_hi": "नेत्र रोग विशेषज्ञ",
-    "meaning_en": "Eye doctor",
-    "category": "oneword"
+    "meaning_en": "Medical specialist in eye diseases",
+    "category": "oneword",
+    "example": "The ophthalmologist prescribed corrective lenses after a thorough examination of her eyes."
   },
   {
-    "phrase": "One who tends to look at the best side",
+    "phrase": "One who tends to look on the brighter side of things",
     "word": "Optimist",
     "meaning_hi": "आशावादी",
-    "meaning_en": "Positive outlook person",
+    "meaning_en": "Person who always expects good outcomes",
+    "category": "oneword",
+    "example": "As an optimist, she always found something positive in every setback."
+  },
+  {
+    "phrase": "One who is a skilled and powerful public speaker",
+    "word": "Orator",
+    "meaning_hi": "वक्ता",
+    "meaning_en": "A persuasive and eloquent public speaker",
+    "category": "oneword",
+    "example": "The great orator held the audience spellbound for over an hour."
+  },
+  {
+    "word": "Oratory",
+    "meaning_en": "'The art of speaking to a large audience'",
+    "meaning_hi": "वाग्मिता / सुवक्तृत्व",
+    "example": "His powerful oratory won thousands of voters during the campaign.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who believes war is wrong",
+    "phrase": "A place where fruit trees are grown",
+    "word": "Orchard",
+    "meaning_hi": "फलोद्यान / बगीचा",
+    "meaning_en": "A place where fruit trees are grown",
+    "category": "oneword",
+    "example": "The orchard was full of mango trees heavy with ripe fruit."
+  },
+  {
+    "phrase": "One who studies birds",
+    "word": "Ornithologist",
+    "meaning_hi": "पक्षी विज्ञानी",
+    "meaning_en": "Scientist who studies birds",
+    "category": "oneword",
+    "example": "The ornithologist set up a hide near the lake to observe the migratory birds undisturbed."
+  },
+  {
+    "phrase": "One who corrects irregular teeth using braces",
+    "word": "Orthodontist",
+    "meaning_hi": "दन्त-सीधाकर्ता",
+    "meaning_en": "Dental specialist who straightens teeth",
+    "category": "oneword",
+    "example": "The orthodontist fitted braces to correct the teenager's misaligned teeth."
+  },
+  {
+    "phrase": "One who specialises in bones and skeletal disorders",
+    "word": "Orthopaedist",
+    "meaning_hi": "हड्डी रोग विशेषज्ञ",
+    "meaning_en": "Doctor who treats bone and skeletal disorders",
+    "category": "oneword",
+    "example": "The orthopaedist recommended surgery after the fracture failed to heal with physiotherapy alone."
+  },
+  {
+    "phrase": "One who believes that war and violence are wrong",
     "word": "Pacifist",
     "meaning_hi": "शांतिवादी",
-    "meaning_en": "One opposed to war",
+    "meaning_en": "Person who opposes all war and violence",
+    "category": "oneword",
+    "example": "As a pacifist, he refused to support any form of armed conflict."
+  },
+  {
+    "phrase": "One who specialises in children's medicine",
+    "word": "Paediatrician",
+    "meaning_hi": "बाल रोग विशेषज्ञ",
+    "meaning_en": "Doctor who specialises in the health of children",
+    "category": "oneword",
+    "example": "The paediatrician reassured the worried parents that the child's fever was not dangerous."
+  },
+  {
+    "phrase": "One who studies the origin and history of mankind",
+    "word": "Palaeanthropologist",
+    "meaning_hi": "प्राचीन मानव विज्ञानी",
+    "meaning_en": "Scientist who studies ancient human evolution",
+    "category": "oneword",
+    "example": "The palaeanthropologist found skeletal remains that pushed back the date of human migration."
+  },
+  {
+    "phrase": "One who studies the past through written records",
+    "word": "Palaeographer",
+    "meaning_hi": "प्राचीन लिपि विशेषज्ञ",
+    "meaning_en": "Scholar who deciphers ancient manuscripts and inscriptions",
+    "category": "oneword",
+    "example": "The palaeographer spent months deciphering the faded script of the ancient manuscript."
+  },
+  {
+    "phrase": "One who studies fossil organisms",
+    "word": "Palaeontologist",
+    "meaning_hi": "जीवाश्म विज्ञानी",
+    "meaning_en": "Scientist who studies fossils of ancient organisms",
+    "category": "oneword",
+    "example": "The palaeontologist carefully brushed away layers of sediment to reveal the fossil."
+  },
+  {
+    "word": "Panacea",
+    "phrase": "A solution or remedy for all difficulties or diseases",
+    "meaning_en": "A supposed cure for all diseases or problems",
+    "meaning_hi": "सर्वरोगहर / रामबाण",
+    "category": "oneword",
+    "example": "The minister wrongly claimed that the new education policy would be a panacea for all social ills."
+  },
+  {
+    "word": "Pandemic",
+    "phrase": "A disease that spreads across a whole country or the entire world",
+    "meaning_en": "An epidemic occurring over a very wide area",
+    "meaning_hi": "महामारी / वैश्विक रोगफैलाव",
+    "category": "oneword",
+    "example": "The pandemic forced governments around the world to impose lockdowns."
+  },
+  {
+    "word": "Panegyric",
+    "meaning_en": "A speech or writing that praises someone excessively",
+    "meaning_hi": "प्रशंसा-भाषण / स्तुति",
+    "example": "The speaker delivered a warm panegyric honouring the retiring professor.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who is fond of children",
-    "word": "Paedophile",
-    "meaning_hi": "बाल-यौन शोषक",
-    "meaning_en": "One attracted to children",
+    "phrase": "One who believes God is present in all of nature",
+    "word": "Pantheist",
+    "meaning_hi": "सर्वेश्वरवादी",
+    "meaning_en": "Person who identifies God with the universe and nature",
+    "category": "oneword",
+    "example": "The pantheist saw God not as a separate being but as the universe itself."
+  },
+  {
+    "word": "Paradox",
+    "meaning_en": "A statement that appears self-contradictory yet may be true",
+    "meaning_hi": "विरोधाभास / अंतर्विरोध",
+    "example": "It is a paradox that the more choices we have, the less satisfied we feel.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who lives on another's earnings",
+    "phrase": "One who lives off another's work or resources",
     "word": "Parasite",
     "meaning_hi": "परजीवी",
-    "meaning_en": "One who exploits others for gain",
-    "category": "oneword"
+    "meaning_en": "Person who exploits others without contributing",
+    "category": "oneword",
+    "example": "The parasite feeds off others without ever contributing anything."
   },
   {
-    "phrase": "One who kills one's own father",
+    "phrase": "One who kills their own father or parent",
     "word": "Parricide",
     "meaning_hi": "पितृहत्या करने वाला",
-    "meaning_en": "Killer of a parent",
-    "category": "oneword"
+    "meaning_en": "Killer of one's own father or parent",
+    "category": "oneword",
+    "example": "The courtroom fell silent when the details of the parricide emerged."
   },
   {
-    "phrase": "One who studies the dead and conducts post-mortems",
+    "phrase": "One who belongs to and supports a particular political party",
+    "word": "Partisan",
+    "meaning_hi": "पक्षधर",
+    "meaning_en": "Committed and often biased supporter of a party or cause",
+    "category": "oneword",
+    "example": "The partisan reporter consistently favoured one side in every political debate."
+  },
+  {
+    "phrase": "One who studies the nature of diseases",
     "word": "Pathologist",
     "meaning_hi": "रोग-विज्ञानी",
-    "meaning_en": "Disease and death investigator",
-    "category": "oneword"
+    "meaning_en": "Medical specialist who diagnoses diseases through examination",
+    "category": "oneword",
+    "example": "The pathologist's autopsy report confirmed that the death was due to natural causes."
   },
   {
-    "phrase": "One who loves one's own country",
+    "phrase": "One who loves and defends their country",
     "word": "Patriot",
     "meaning_hi": "देशभक्त",
-    "meaning_en": "Country lover",
-    "category": "oneword"
+    "meaning_en": "Person with strong love and loyalty to their country",
+    "category": "oneword",
+    "example": "The brave patriot sacrificed his life for his country independence."
   },
   {
-    "phrase": "One who tends to look at the worst side",
+    "phrase": "Choose the correct one-word substitution for: 'A person who is excessively concerned with minor details'.",
+    "word": "Pedant",
+    "meaning_hi": "पांडित्यप्रदर्शनकर्ता / किताबी",
+    "meaning_en": "A person who is excessively concerned with minor details",
+    "category": "oneword",
+    "example": "The pedant corrected everyone grammar even in casual conversation."
+  },
+  {
+    "phrase": "One who travels from place to place selling goods",
+    "word": "Pedlar",
+    "meaning_hi": "फेरीवाला",
+    "meaning_en": "Person who travels selling small goods",
+    "category": "oneword",
+    "example": "The pedlar carried his wares in a basket and sold them from door to door."
+  },
+  {
+    "phrase": "One who gives false testimony under oath",
+    "word": "Perjurer",
+    "meaning_hi": "झूठी गवाही देने वाला",
+    "meaning_en": "Person who lies under oath in a legal proceeding",
+    "category": "oneword",
+    "example": "The perjurer was sentenced to prison for lying under oath during the murder trial."
+  },
+  {
+    "phrase": "One who always expects the worst outcome",
     "word": "Pessimist",
     "meaning_hi": "निराशावादी",
-    "meaning_en": "Negative outlook person",
-    "category": "oneword"
+    "meaning_en": "Person who sees the negative side of everything",
+    "category": "oneword",
+    "example": "The pessimist expected the project to fail from the very beginning."
   },
   {
-    "phrase": "One who sells and dispenses medicines",
+    "phrase": "One who prepares and dispenses medicines",
     "word": "Pharmacist",
     "meaning_hi": "फार्मासिस्ट",
-    "meaning_en": "Medicine dispenser",
-    "category": "oneword"
+    "meaning_en": "Trained professional who prepares and sells medicines",
+    "category": "oneword",
+    "example": "The pharmacist explained the correct dosage and potential side effects of the medicine."
   },
   {
-    "phrase": "One who is great giver of money to charity",
+    "phrase": "One who donates generously to charitable causes",
     "word": "Philanthropist",
     "meaning_hi": "परोपकारी",
-    "meaning_en": "Generous benefactor",
-    "category": "oneword"
+    "meaning_en": "Person who promotes human welfare through generous donations",
+    "category": "oneword",
+    "example": "The generous philanthropist donated a new wing to the city hospital."
   },
   {
-    "phrase": "One who collects stamps",
+    "phrase": "One who collects postage stamps as a hobby",
     "word": "Philatelist",
     "meaning_hi": "डाक टिकट संग्राहक",
-    "meaning_en": "Stamp collector",
-    "category": "oneword"
+    "meaning_en": "Person who collects and studies postage stamps",
+    "category": "oneword",
+    "example": "The philatelist owned rare stamps from more than seventy countries."
   },
   {
-    "phrase": "One who loves wisdom",
+    "phrase": "One who collects matchboxes and matchbox labels",
+    "word": "Phillumenist",
+    "meaning_hi": "माचिस संग्राहक",
+    "meaning_en": "Person who collects matchboxes and matchbox labels",
+    "category": "oneword",
+    "example": "The phillumenist had thousands of matchboxes from countries across the world."
+  },
+  {
+    "phrase": "One who studies the origin and history of words",
+    "word": "Philologist",
+    "meaning_hi": "भाषाशास्त्री",
+    "meaning_en": "Scholar who studies language and its historical development",
+    "category": "oneword",
+    "example": "The philologist traced how the word 'jungle' entered English from Sanskrit."
+  },
+  {
+    "phrase": "One who loves and pursues wisdom",
     "word": "Philosopher",
     "meaning_hi": "दार्शनिक",
-    "meaning_en": "Lover of wisdom",
-    "category": "oneword"
+    "meaning_en": "Seeker of wisdom and fundamental truths",
+    "category": "oneword",
+    "example": "The philosopher spent his life questioning assumptions that most people simply accepted as fact."
   },
   {
-    "phrase": "One who writes for another who gets credit",
+    "phrase": "One who is skilled in using a camera for photography",
+    "word": "Photographer",
+    "meaning_hi": "फोटोग्राफर",
+    "meaning_en": "Person skilled in taking photographs",
+    "category": "oneword",
+    "example": "The photographer captured the exact moment the athlete broke the world record."
+  },
+  {
+    "phrase": "One who studies the physical properties of matter",
+    "word": "Physicist",
+    "meaning_hi": "भौतिक वैज्ञानिक",
+    "meaning_en": "Scientist who studies matter, energy and their interactions",
+    "category": "oneword",
+    "example": "The physicist's equation accurately predicted the behaviour of particles at near-light speeds."
+  },
+  {
+    "phrase": "One who studies the human body and its functions",
+    "word": "Physiologist",
+    "meaning_hi": "शारीरिक क्रियाविद",
+    "meaning_en": "Scientist who studies the functions of living organisms",
+    "category": "oneword",
+    "example": "The physiologist explained how the body regulates temperature during extreme exercise."
+  },
+  {
+    "phrase": "One who takes goods from a place without permission",
+    "word": "Pilferer",
+    "meaning_hi": "मामूली चोर",
+    "meaning_en": "Person who steals small amounts or items",
+    "category": "oneword",
+    "example": "The pilferer was caught on camera slipping a pen into his pocket at the reception desk."
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'A harmless, inert substance or pill prescribed more for psychological benefit than for any physiological effect'.",
+    "word": "Placebo",
+    "meaning_hi": "मनोवैज्ञानिक उपचार / नकली दवा",
+    "meaning_en": "A harmless, inert substance or pill prescribed more for psychological benefit than for any physiological effect",
+    "category": "oneword",
+    "example": "The doctor gave the anxious patient a placebo to ease his fears."
+  },
+  {
+    "phrase": "One who steals and uses another's writing as their own",
     "word": "Plagiarist",
     "meaning_hi": "साहित्यिक चोर",
-    "meaning_en": "One who steals others' writing",
+    "meaning_en": "Person who copies and claims another's work as their own",
+    "category": "oneword",
+    "example": "The plagiarist copied the entire essay and submitted it as his own."
+  },
+  {
+    "word": "Plutocracy",
+    "meaning_en": "A political system based on the rule of the wealthy",
+    "meaning_hi": "धनिकतंत्र",
+    "example": "Under plutocracy, the poor had no real voice in political affairs.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who speaks many languages",
+    "phrase": "One who writes poetry",
+    "word": "Poet",
+    "meaning_hi": "कवि",
+    "meaning_en": "Person who writes poems",
+    "category": "oneword",
+    "example": "The poet read her verses about partition to a silent and visibly moved audience."
+  },
+  {
+    "word": "Polyandry",
+    "phrase": "The practice of a woman having more than one husband at the same time",
+    "meaning_en": "A woman having multiple husbands simultaneously",
+    "meaning_hi": "बहुपतित्व",
+    "category": "oneword",
+    "example": "Polyandry is practised in certain communities in the high-altitude regions of the Himalayas."
+  },
+  {
+    "word": "Polygamy",
+    "phrase": "The practice of having more than one spouse at the same time",
+    "meaning_en": "The custom of having more than one spouse simultaneously",
+    "meaning_hi": "बहुविवाह",
+    "category": "oneword",
+    "example": "Polygamy is illegal in many countries but still practised in some societies."
+  },
+  {
+    "phrase": "One who is fluent in many languages",
     "word": "Polyglot",
     "meaning_hi": "बहुभाषाविद",
-    "meaning_en": "Person fluent in many languages",
-    "category": "oneword"
+    "meaning_en": "Person who speaks many languages fluently",
+    "category": "oneword",
+    "example": "The polyglot impressed everyone by switching between six languages."
   },
   {
-    "phrase": "One who has an extraordinary skill or talent",
+    "phrase": "One who has knowledge in a wide range of subjects",
+    "word": "Polymath",
+    "meaning_hi": "बहुज्ञ",
+    "meaning_en": "Person with broad and extensive knowledge in many fields",
+    "category": "oneword",
+    "example": "Leonardo da Vinci was the ultimate polymath, excelling in painting, science, music, and engineering."
+  },
+  {
+    "word": "Posthumous",
+    "phrase": "Occurring or published after the death of the author or originator",
+    "meaning_en": "Coming or occurring after a person's death",
+    "meaning_hi": "मरणोपरांत / मृत्यु के बाद",
+    "category": "oneword",
+    "example": "The author received a posthumous award for her final novel."
+  },
+  {
+    "word": "Posthumously",
+    "phrase": "After the death of the originator; occurring or awarded after one's death",
+    "meaning_en": "After the person's death",
+    "meaning_hi": "मरणोपरांत",
+    "category": "oneword",
+    "example": "The soldier was awarded the highest military honour posthumously for his bravery."
+  },
+  {
+    "phrase": "Anything written in a letter after it is signed",
+    "word": "Postscript",
+    "meaning_hi": "पत्र के अंत में जोड़ा नोट (P.S.)",
+    "meaning_en": "Anything written in a letter after it is signed",
+    "category": "oneword",
+    "example": "She added a postscript to the letter after she had already signed it."
+  },
+  {
+    "phrase": "One who takes a practical rather than idealistic approach",
+    "word": "Pragmatist",
+    "meaning_hi": "व्यावहारिक विचारक",
+    "meaning_en": "Person who deals with things in a practical way",
+    "category": "oneword",
+    "example": "The pragmatist rejected the idealistic plan and proposed one that could actually be implemented."
+  },
+  {
+    "phrase": "One who shows exceptional talent from an early age",
     "word": "Prodigy",
-    "meaning_hi": "प्रतिभाशाली बालक",
-    "meaning_en": "Person with exceptional talent",
-    "category": "oneword"
+    "meaning_hi": "अलौकिक प्रतिभा वाला बालक",
+    "meaning_en": "Person with extraordinary talent, especially a gifted child",
+    "category": "oneword",
+    "example": "The young prodigy solved complex equations at the age of seven."
   },
   {
-    "phrase": "One who foretells events",
+    "phrase": "One who sells goods at excessively high prices",
+    "word": "Profiteer",
+    "meaning_hi": "मुनाफाखोर",
+    "meaning_en": "Person who makes excessive profit by exploiting shortages",
+    "category": "oneword",
+    "example": "The profiteer stockpiled medicines during the epidemic and sold them at exorbitant prices."
+  },
+  {
+    "phrase": "One who foretells future events",
     "word": "Prophet",
     "meaning_hi": "भविष्यवक्ता",
-    "meaning_en": "One who predicts the future",
+    "meaning_en": "Person who predicts or foretells future events",
+    "category": "oneword",
+    "example": "The prophet warned his followers that ignoring justice would lead to the nation's downfall."
+  },
+  {
+    "phrase": "One who accuses a person in court on behalf of the state",
+    "word": "Prosecutor",
+    "meaning_hi": "सरकारी वकील",
+    "meaning_en": "Lawyer who conducts the case against an accused person",
+    "category": "oneword",
+    "example": "The prosecutor presented overwhelming forensic evidence that placed the accused at the scene."
+  },
+  {
+    "word": "Providence",
+    "meaning_en": "A divine force believed to control and protect human lives; divine guidance or care.",
+    "meaning_hi": "ईश्वरीय कृपा / भाग्य",
+    "example": "He attributed his miraculous recovery entirely to providence rather than to medical skill.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who studies the human mind",
+    "phrase": "One who writes under a false name",
+    "word": "Pseudonymist",
+    "meaning_hi": "छद्म नाम लेखक",
+    "meaning_en": "Writer who uses a false name",
+    "category": "oneword",
+    "example": "The pseudonymist published three bestselling novels before revealing his true identity."
+  },
+  {
+    "phrase": "One who specialises in mental and emotional disorders",
+    "word": "Psychiatrist",
+    "meaning_hi": "मनोचिकित्सक",
+    "meaning_en": "Doctor who treats mental illnesses",
+    "category": "oneword",
+    "example": "The psychiatrist helped her manage her anxiety through therapy."
+  },
+  {
+    "phrase": "One who studies the human mind and behaviour",
     "word": "Psychologist",
     "meaning_hi": "मनोवैज्ञानिक",
-    "meaning_en": "Mind scientist",
+    "meaning_en": "Scientist who studies the human mind",
+    "category": "oneword",
+    "example": "The psychologist helped the patient understand the deep-rooted cause of her anxiety."
+  },
+  {
+    "word": "Psychology",
+    "meaning_en": "The study of the human mind and its functions",
+    "meaning_hi": "मनोविज्ञान",
+    "example": "She studied psychology to understand human behaviour better.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who claims medical skill without proper training",
+    "phrase": "One who is regarded as an expert and authority in a subject",
+    "word": "Pundit",
+    "meaning_hi": "पंडित",
+    "meaning_en": "Authoritative expert who is frequently consulted",
+    "category": "oneword",
+    "example": "The political pundit correctly predicted the election result weeks before voting day."
+  },
+  {
+    "phrase": "One who has a mania for setting fire to things",
+    "word": "Pyromaniac",
+    "meaning_hi": "आग लगाने की पागल इच्छा वाला",
+    "meaning_en": "Person with an obsessive compulsion to set fire to things",
+    "category": "oneword",
+    "example": "The pyromaniac was arrested after setting fire to three buildings."
+  },
+  {
+    "phrase": "One who falsely claims medical skill without proper training",
     "word": "Quack",
     "meaning_hi": "नीम-हकीम",
-    "meaning_en": "Fake doctor",
-    "category": "oneword"
+    "meaning_en": "Untrained person who pretends to be a doctor",
+    "category": "oneword",
+    "example": "The quack sold herbal cures that had no scientific backing to desperate patients."
   },
   {
-    "phrase": "One who is always questioning and doubting",
-    "word": "Questioner",
-    "meaning_hi": "प्रश्नकर्ता",
-    "meaning_en": "One who constantly questions",
-    "category": "oneword"
-  },
-  {
-    "phrase": "One who argues over trifles",
+    "phrase": "One who argues over petty and unimportant details",
     "word": "Quibbler",
     "meaning_hi": "तुच्छ बातों पर बहस करने वाला",
-    "meaning_en": "Petty arguer",
-    "category": "oneword"
+    "meaning_en": "Person who raises petty objections",
+    "category": "oneword",
+    "example": "The quibbler derailed every meeting by raising irrelevant objections at every step."
   },
   {
-    "phrase": "One who is skilled in telling stories",
+    "phrase": "One who is skilled at telling entertaining stories",
     "word": "Raconteur",
     "meaning_hi": "कुशल कथावाचक",
-    "meaning_en": "Skilled storyteller",
-    "category": "oneword"
+    "meaning_en": "Person who tells anecdotes in a skilful and amusing way",
+    "category": "oneword",
+    "example": "The raconteur held the entire dinner table spellbound with his tales of adventure in Africa."
   },
   {
-    "phrase": "One who lives in solitude",
+    "phrase": "One who holds extreme views in politics or religion",
+    "word": "Radical",
+    "meaning_hi": "उग्रवादी",
+    "meaning_en": "Person who advocates thorough and complete change",
+    "category": "oneword",
+    "example": "The radical called for an immediate dismantling of the existing economic system."
+  },
+  {
+    "phrase": "One who specialises in diagnosing diseases using imaging",
+    "word": "Radiologist",
+    "meaning_hi": "रेडियोलॉजिस्ट",
+    "meaning_en": "Doctor who uses imaging to diagnose diseases",
+    "category": "oneword",
+    "example": "The radiologist studied the X-ray and spotted a hairline fracture in the wrist bone."
+  },
+  {
+    "phrase": "One who believes in the power of reason over experience",
+    "word": "Rationalist",
+    "meaning_hi": "तर्कवादी",
+    "meaning_en": "Person who bases opinions on reason and knowledge",
+    "category": "oneword",
+    "example": "The rationalist rejected all claims that could not be supported by logic and evidence."
+  },
+  {
+    "phrase": "One who raises armed opposition against the government",
+    "word": "Rebel",
+    "meaning_hi": "विद्रोही",
+    "meaning_en": "Person who resists or fights against authority",
+    "category": "oneword",
+    "example": "The rebel refused to follow orders that she considered unjust or morally wrong."
+  },
+  {
+    "phrase": "One who lives alone and avoids all society",
     "word": "Recluse",
     "meaning_hi": "एकांतवासी",
-    "meaning_en": "Solitary person",
-    "category": "oneword"
+    "meaning_en": "Person who lives a solitary life away from others",
+    "category": "oneword",
+    "example": "After retiring, he became a recluse who rarely left his home."
+  },
+  {
+    "word": "Referendum",
+    "phrase": "A vote by the whole electorate on a specific political question",
+    "meaning_en": "A general vote by the public on an issue",
+    "meaning_hi": "जनमत-संग्रह",
+    "category": "oneword",
+    "example": "The government held a referendum to let citizens vote directly on the proposed constitutional change."
+  },
+  {
+    "phrase": "for: 'A person who supports change'.",
+    "word": "Reformer",
+    "meaning_hi": "सुधारक",
+    "meaning_en": "A person who supports change",
+    "category": "oneword",
+    "example": "The great social reformer fought against the caste system all his life."
+  },
+  {
+    "phrase": "One who rules in the name of another who is absent",
+    "word": "Regent",
+    "meaning_hi": "शासक-प्रतिनिधि",
+    "meaning_en": "Person who rules temporarily on behalf of a monarch",
+    "category": "oneword",
+    "example": "The regent governed with full authority while the young king was still a minor."
   },
   {
     "phrase": "One who kills a king",
     "word": "Regicide",
     "meaning_hi": "राजहत्या करने वाला",
-    "meaning_en": "Killer of a king",
-    "category": "oneword"
+    "meaning_en": "Person who kills a king or sovereign",
+    "category": "oneword",
+    "example": "The regicide shocked the entire kingdom and triggered a prolonged civil war."
   },
   {
-    "phrase": "One who gives up a belief or principle",
+    "phrase": "One who has knowledge of many subjects",
+    "word": "Renaissance man",
+    "meaning_hi": "बहुमुखी प्रतिभावान",
+    "meaning_en": "Person of wide knowledge and many accomplishments",
+    "category": "oneword",
+    "example": "He was a true renaissance man who wrote poetry, painted portraits, and practised medicine."
+  },
+  {
+    "phrase": "One who abandons their religion, cause or principles",
     "word": "Renegade",
-    "meaning_hi": "धर्मत्यागी/दलबदलू",
-    "meaning_en": "Deserter of a cause or belief",
+    "meaning_hi": "धर्मत्यागी",
+    "meaning_en": "Person who deserts a cause, religion or allegiance",
+    "category": "oneword",
+    "example": "The renegade soldier switched sides and began fighting for the enemy."
+  },
+  {
+    "phrase": "One who receives money without working for it",
+    "word": "Rentier",
+    "meaning_hi": "किराया जीवी",
+    "meaning_en": "Person who lives off income from investments or rents",
+    "category": "oneword",
+    "example": "The rentier lived comfortably without working, drawing income from his inherited properties."
+  },
+  {
+    "word": "Reverent",
+    "meaning_en": "Showing deep respect",
+    "meaning_hi": "श्रद्धालु / आदरयुक्त",
+    "example": "The pilgrims stood in reverent silence before the ancient shrine.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who is new to a job or situation",
+    "phrase": "One who is new to a job or activity",
     "word": "Rookie",
-    "meaning_hi": "नया खिलाड़ी/नवागंतुक",
-    "meaning_en": "Newcomer",
-    "category": "oneword"
+    "meaning_hi": "नया खिलाड़ी / नवागंतुक",
+    "meaning_en": "Person who is new and inexperienced",
+    "category": "oneword",
+    "example": "The rookie detective made several blunders but showed great instinct for the job."
   },
   {
-    "phrase": "One who doubts everything",
+    "phrase": "An act of violating or showing disrespect towards something sacred or holy is called–",
+    "word": "Sacrilege",
+    "meaning_hi": "पवित्र स्थान/वस्तु का अपमान",
+    "meaning_en": "An act of violating or showing disrespect towards something considered sacred or holy.",
+    "category": "oneword",
+    "example": "Defacing the temple walls was considered an unforgivable act of sacrilege."
+  },
+  {
+    "phrase": "One who takes pleasure in others' suffering",
+    "word": "Sadist",
+    "meaning_hi": "दूसरों को तकलीफ देकर खुश होने वाला",
+    "meaning_en": "Person who derives pleasure from cruelty",
+    "category": "oneword",
+    "example": "The sadist seemed to enjoy causing pain to those around him."
+  },
+  {
+    "phrase": "One who writes satirical works exposing folly or vice",
+    "word": "Satirist",
+    "meaning_hi": "व्यंग्यकार",
+    "meaning_en": "Writer who uses satire to criticise and mock",
+    "category": "oneword",
+    "example": "The satirist mocked the government's inefficiency so effectively that it became national news."
+  },
+  {
+    "phrase": "One who has exceptional knowledge of a specific subject",
+    "word": "Savant",
+    "meaning_hi": "विशेष प्रतिभाशाली",
+    "meaning_en": "Person with extraordinary knowledge in a particular field",
+    "category": "oneword",
+    "example": "The savant could solve complex mathematical equations in seconds but struggled with daily tasks."
+  },
+  {
+    "word": "Scapegoat",
+    "phrase": "One who is blamed and punished for the mistakes of others",
+    "meaning_en": "A person made to bear blame for others",
+    "meaning_hi": "बलि का बकरा",
+    "category": "oneword",
+    "example": "The junior employee was made the scapegoat for the manager mistake."
+  },
+  {
+    "phrase": "One who habitually doubts and questions accepted beliefs",
     "word": "Sceptic",
     "meaning_hi": "संशयवादी",
-    "meaning_en": "Habitual doubter",
+    "meaning_en": "Person who doubts the truth of claims",
+    "category": "oneword",
+    "example": "The sceptic demanded independent verification before accepting the extraordinary claims."
+  },
+  {
+    "phrase": "for: 'A formal split within a religious organization'.",
+    "word": "Schism",
+    "meaning_hi": "विभाजन / फूट (धार्मिक/राजनीतिक)",
+    "meaning_en": "A formal split within a religious organization",
+    "category": "oneword",
+    "example": "The bitter schism divided the religious community into two rival factions."
+  },
+  {
+    "phrase": "One who writes or copies documents by hand",
+    "word": "Scribe",
+    "meaning_hi": "लेखक / मुंशी",
+    "meaning_en": "Person who copies documents or writes by hand",
+    "category": "oneword",
+    "example": "The scribe copied sacred texts by hand for hours each day in the monastery."
+  },
+  {
+    "phrase": "One who carves and creates three-dimensional artworks",
+    "word": "Sculptor",
+    "meaning_hi": "मूर्तिकार",
+    "meaning_en": "Artist who creates sculptures",
+    "category": "oneword",
+    "example": "The sculptor chiselled away at the marble block for months to reveal the figure within."
+  },
+  {
+    "word": "Secularism",
+    "phrase": "The principle of separation of the state from religious institutions",
+    "meaning_en": "The doctrine that society should be free from religion",
+    "meaning_hi": "धर्मनिरपेक्षता",
+    "category": "oneword",
+    "example": "Secularism ensures that the state treats all religions equally and does not favour any one faith."
+  },
+  {
+    "word": "Sedative",
+    "meaning_en": "A medicine or other substance that has a calming or soothing effect",
+    "meaning_hi": "शामक दवा / नींद लाने वाली औषधि",
+    "example": "The doctor prescribed a mild sedative to help the patient sleep.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who studies society",
+    "phrase": "One who studies earthquakes",
+    "word": "Seismologist",
+    "meaning_hi": "भूकंप वैज्ञानिक",
+    "meaning_en": "Scientist who studies earthquakes and seismic activity",
+    "category": "oneword",
+    "example": "The seismologist detected tremors that indicated volcanic activity beneath the ocean floor."
+  },
+  {
+    "phrase": "One who steals petty items, usually from a shop",
+    "word": "Shoplifter",
+    "meaning_hi": "दुकान से चोरी करने वाला",
+    "meaning_en": "Person who steals goods from a shop",
+    "category": "oneword",
+    "example": "The shoplifter was apprehended by security after concealing items under her coat."
+  },
+  {
+    "phrase": "One who stealthily moves goods across borders illegally",
+    "word": "Smuggler",
+    "meaning_hi": "तस्कर",
+    "meaning_en": "Person who imports or exports goods illegally",
+    "category": "oneword",
+    "example": "The smuggler was caught at the border checkpoint with gold bars hidden inside his luggage."
+  },
+  {
+    "phrase": "One who studies human society and social behaviour",
     "word": "Sociologist",
     "meaning_hi": "समाजशास्त्री",
-    "meaning_en": "Student of society",
+    "meaning_en": "Scientist who studies human society",
+    "category": "oneword",
+    "example": "The sociologist conducted field research to understand why youth unemployment was rising."
+  },
+  {
+    "word": "Soliloquy",
+    "meaning_en": "An act of speaking one thoughts aloud when alone, especially in drama.",
+    "meaning_hi": "एकालाप / अपने आप से बात",
+    "example": "The actor delivered a powerful soliloquy on the empty stage.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who walks in sleep",
+    "phrase": "One who is an expert in identifying and selecting wines",
+    "word": "Sommelier",
+    "meaning_hi": "मद्य-विशेषज्ञ",
+    "meaning_en": "Wine expert who advises on wine selection",
+    "category": "oneword",
+    "example": "The sommelier recommended a bold red wine to complement the grilled lamb."
+  },
+  {
+    "phrase": "One who walks while asleep",
     "word": "Somnambulist",
     "meaning_hi": "नींद में चलने वाला",
-    "meaning_en": "Sleepwalker",
-    "category": "oneword"
+    "meaning_en": "Person who walks during sleep",
+    "category": "oneword",
+    "example": "The somnambulist was found wandering the street at two in the morning, still fast asleep."
   },
   {
-    "phrase": "One who speaks on behalf of others",
+    "word": "Somniloquist",
+    "phrase": "One who talks in their sleep",
+    "meaning_en": "A person who speaks while asleep",
+    "meaning_hi": "नींद में बात करने वाला",
+    "category": "oneword",
+    "example": "The somniloquist gave a full speech in her sleep, confusing her roommate completely."
+  },
+  {
+    "phrase": "One who kills their own sister",
+    "word": "Sororicide",
+    "meaning_hi": "बहन की हत्या करने वाला",
+    "meaning_en": "Person who kills their own sister",
+    "category": "oneword",
+    "example": "The play explored the theme of sororicide as a metaphor for rivalry between nations."
+  },
+  {
+    "word": "Souvenir",
+    "phrase": "A thing kept as a reminder of a person, place, or event",
+    "meaning_en": "A keepsake from a place visited",
+    "meaning_hi": "स्मृतिचिह्न / यादगार वस्तु",
+    "category": "oneword",
+    "example": "She bought a small souvenir from every country she visited to display on her shelf."
+  },
+  {
+    "phrase": "One who writes speeches for others to deliver",
+    "word": "Speechwriter",
+    "meaning_hi": "भाषण-लेखक",
+    "meaning_en": "Person who writes speeches on behalf of others",
+    "category": "oneword",
+    "example": "The speechwriter crafted the president's address to be both inspiring and concise."
+  },
+  {
+    "phrase": "One who spends money recklessly and wastefully",
+    "word": "Spendthrift",
+    "meaning_hi": "उड़ाऊ",
+    "meaning_en": "Person who spends money irresponsibly",
+    "category": "oneword",
+    "example": "The spendthrift ran through his entire inheritance within two years of receiving it."
+  },
+  {
+    "phrase": "One who speaks officially on behalf of others",
     "word": "Spokesperson",
     "meaning_hi": "प्रवक्ता",
-    "meaning_en": "Representative speaker",
-    "category": "oneword"
+    "meaning_en": "Person who speaks officially on behalf of a group",
+    "category": "oneword",
+    "example": "The spokesperson issued a statement on behalf of the company denying all allegations."
   },
   {
-    "phrase": "One who kills himself",
+    "phrase": "One who secretly gathers information for a foreign country",
+    "word": "Spy",
+    "meaning_hi": "जासूस",
+    "meaning_en": "Person who secretly collects information for an enemy",
+    "category": "oneword",
+    "example": "The spy photographed classified documents and passed them to a foreign intelligence agency."
+  },
+  {
+    "phrase": "One who writes shorthand or types at great speed",
+    "word": "Stenographer",
+    "meaning_hi": "आशुलिपिक",
+    "meaning_en": "Person who takes dictation in shorthand",
+    "category": "oneword",
+    "example": "The stenographer transcribed the entire court proceeding in shorthand at remarkable speed."
+  },
+  {
+    "phrase": "One who takes charge of and manages an estate",
+    "word": "Steward",
+    "meaning_hi": "प्रबंधक",
+    "meaning_en": "Person who manages property or an estate on behalf of another",
+    "category": "oneword",
+    "example": "The steward managed the landlord's vast estate and ensured that rents were collected on time."
+  },
+  {
+    "phrase": "One who endures pain and hardship without complaint",
+    "word": "Stoic",
+    "meaning_hi": "दृढ़मना",
+    "meaning_en": "Person who endures suffering calmly and without complaint",
+    "category": "oneword",
+    "example": "The stoic soldier endured extreme pain without a single complaint."
+  },
+  {
+    "phrase": "One who kills themselves",
     "word": "Suicide",
     "meaning_hi": "आत्मघाती",
-    "meaning_en": "Self-killer",
-    "category": "oneword"
+    "meaning_en": "Person who takes their own life",
+    "category": "oneword",
+    "example": "The suicide of the talented young student left the entire community in shock."
   },
   {
-    "phrase": "One who flatters for self-gain",
+    "phrase": "One who seeks favour by flattering those in power",
     "word": "Sycophant",
     "meaning_hi": "चापलूस",
-    "meaning_en": "Self-seeking flatterer",
+    "meaning_en": "Person who flatters and fawns to gain advantage",
+    "category": "oneword",
+    "example": "The sycophant praised every decision the manager made, no matter how poor it was."
+  },
+  {
+    "word": "Taboo",
+    "phrase": "A social or religious custom prohibiting or restricting a particular action",
+    "meaning_en": "A social prohibition on certain practices",
+    "meaning_hi": "वर्जित / निषिद्ध",
+    "category": "oneword",
+    "example": "Discussing death is still considered a taboo subject in many conservative families."
+  },
+  {
+    "phrase": "One who prepares and mounts animal specimens for display",
+    "word": "Taxidermist",
+    "meaning_hi": "पशु-संरक्षण विशेषज्ञ",
+    "meaning_en": "Person who preserves and mounts animal skins",
+    "category": "oneword",
+    "example": "The taxidermist skillfully mounted the tiger's skin so it looked lifelike in the museum."
+  },
+  {
+    "word": "Teetotaler",
+    "meaning_en": "A person who does not drink any alcohol.",
+    "meaning_hi": "पूर्ण मद्यत्यागी",
+    "example": "As a teetotaler, she never touched alcohol at any social gathering.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who makes wills",
+    "word": "Telepathy",
+    "phrase": "The supposed communication of thoughts or feelings between minds without speech",
+    "meaning_en": "Communication of thoughts directly from mind to mind",
+    "meaning_hi": "मनोसंचार / दूरमानस",
+    "category": "oneword",
+    "example": "The twins claimed to experience telepathy and could often sense each other's emotions from miles away."
+  },
+  {
+    "phrase": "One who makes and leaves a legal will",
     "word": "Testator",
     "meaning_hi": "वसीयतनामा लिखने वाला",
-    "meaning_en": "Person who makes a will",
-    "category": "oneword"
+    "meaning_en": "Person who makes a legally valid will",
+    "category": "oneword",
+    "example": "The testator's will left his entire estate to a charitable foundation for children's education."
+  },
+  {
+    "phrase": "One who studies texts in their original language",
+    "word": "Textual critic",
+    "meaning_hi": "पाठालोचक",
+    "meaning_en": "Person who analyses and studies original texts",
+    "category": "oneword",
+    "example": "The textual critic compared hundreds of ancient manuscripts to establish the most accurate version of the text."
+  },
+  {
+    "phrase": "One who believes in God or gods",
+    "word": "Theist",
+    "meaning_hi": "आस्तिक",
+    "meaning_en": "Person who believes in the existence of God or gods",
+    "category": "oneword",
+    "example": "The theist firmly believed that a divine creator was responsible for the universe's existence."
+  },
+  {
+    "phrase": "Choose the correct one-word substitution for: 'A system of government where priests rule in the name of God'.",
+    "word": "Theocracy",
+    "meaning_hi": "धर्मतंत्र / पुरोहित-शासन",
+    "meaning_en": "A system of government where priests rule in the name of God",
+    "category": "oneword",
+    "example": "Under a theocracy, religious leaders hold all political power."
   },
   {
     "phrase": "One who lives in a town",
     "word": "Townsman",
     "meaning_hi": "नगरवासी",
-    "meaning_en": "Town resident",
-    "category": "oneword"
+    "meaning_en": "Resident of a town",
+    "category": "oneword",
+    "example": "As a townsman born and raised in Shimla, he knew every lane and landmark by heart."
   },
   {
-    "phrase": "One who translates from one language to another",
+    "phrase": "One who collects model trains as a hobby",
+    "word": "Trainspotter",
+    "meaning_hi": "ट्रेन प्रेमी",
+    "meaning_en": "Person who collects or records train observations",
+    "category": "oneword",
+    "example": "The trainspotter travelled hundreds of miles to photograph a rare locomotive passing through the city."
+  },
+  {
+    "phrase": "One who betrays their country to an enemy",
+    "word": "Traitor",
+    "meaning_hi": "देशद्रोही",
+    "meaning_en": "Person who betrays their country or a trust",
+    "category": "oneword",
+    "example": "The traitor was sentenced to death for revealing classified state secrets."
+  },
+  {
+    "phrase": "One who converts writing from one language to another",
     "word": "Translator",
     "meaning_hi": "अनुवादक",
-    "meaning_en": "Language converter",
+    "meaning_en": "Person who converts text between languages",
+    "category": "oneword",
+    "example": "The translator converted the ancient Sanskrit text into modern Hindi with remarkable accuracy."
+  },
+  {
+    "word": "Trepidation",
+    "meaning_en": "A feeling of apprehension in tense situations",
+    "meaning_hi": "भय / घबराहट",
+    "example": "She entered the examination hall with great trepidation.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who is concerned with the wellbeing of all humanity",
-    "word": "Universalist",
-    "meaning_hi": "सार्वभौमिक विचारक",
-    "meaning_en": "Believer in universal welfare",
+    "word": "Truant",
+    "meaning_en": "A child who stays away from school without leave or explanation",
+    "meaning_hi": "बिना अनुमति गैरहाजिर रहने वाला",
+    "example": "The truant was caught roaming the market during school hours.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who has no prejudice",
-    "word": "Unprejudiced",
-    "meaning_hi": "निष्पक्ष",
-    "meaning_en": "Fair-minded person",
-    "category": "oneword"
+    "phrase": "One who teaches or trains someone in a subject",
+    "word": "Tutor",
+    "meaning_hi": "शिक्षक / गुरु",
+    "meaning_en": "Person who teaches a student individually",
+    "category": "oneword",
+    "example": "The tutor worked with the struggling student every evening until his grades improved significantly."
   },
   {
-    "phrase": "One who lives in a city",
-    "word": "Urbanite",
-    "meaning_hi": "शहरी निवासी",
-    "meaning_en": "City dweller",
-    "category": "oneword"
+    "phrase": "One who collects dead bodies for burial or cremation",
+    "word": "Undertaker",
+    "meaning_hi": "शव वाहक",
+    "meaning_en": "Person who manages funerals and prepares bodies for burial",
+    "category": "oneword",
+    "example": "The undertaker made all the funeral arrangements with quiet dignity and efficiency."
   },
   {
-    "phrase": "One who is fond of wife",
+    "phrase": "One who lends money at high interest",
+    "word": "Usurer",
+    "meaning_hi": "सूदखोर",
+    "meaning_en": "Person who lends money at excessively high interest",
+    "category": "oneword",
+    "example": "The usurer charged interest rates so high that the borrowers could never repay the debt."
+  },
+  {
+    "phrase": "An often-imaginary place or state of utter perfection and happiness",
+    "word": "Utopia",
+    "meaning_hi": "आदर्श कल्पना-राज्य / स्वप्नलोक",
+    "meaning_en": "An often-imaginary place or state of utter perfection and happiness",
+    "category": "oneword",
+    "example": "He dreamed of building a perfect utopia free from war and poverty."
+  },
+  {
+    "phrase": "One who kills their own wife",
+    "word": "Uxoricide",
+    "meaning_hi": "पत्नी की हत्या करने वाला",
+    "meaning_en": "Person who kills their own wife",
+    "category": "oneword",
+    "example": "The shocking case of uxoricide revealed years of domestic abuse that had gone unreported."
+  },
+  {
+    "phrase": "One who is excessively and submissively fond of their wife",
     "word": "Uxorious",
     "meaning_hi": "पत्नी की अत्यधिक आज्ञा मानने वाला",
-    "meaning_en": "Excessively fond of one's wife",
-    "category": "oneword"
+    "meaning_en": "Man who is excessively devoted to his wife",
+    "category": "oneword",
+    "example": "The uxorious husband consulted his wife before making even the smallest decision."
   },
   {
-    "phrase": "One who has no fixed home and wanders",
+    "phrase": "One who wanders aimlessly from place to place",
+    "word": "Vagabond",
+    "meaning_hi": "आवारागर्द",
+    "meaning_en": "Person who wanders without any settled home",
+    "category": "oneword",
+    "example": "The vagabond drifted from town to town, working odd jobs to survive."
+  },
+  {
+    "phrase": "One who has no fixed home and wanders aimlessly",
     "word": "Vagrant",
-    "meaning_hi": "आवारा/बेघर",
-    "meaning_en": "Homeless wanderer",
-    "category": "oneword"
+    "meaning_hi": "आवारा / बेघर",
+    "meaning_en": "Homeless person who wanders without purpose",
+    "category": "oneword",
+    "example": "The police moved the vagrant away from the park where he had been sleeping for weeks."
   },
   {
-    "phrase": "One who eats no meat",
+    "word": "Vandal",
+    "phrase": "One who deliberately destroys or damages works of art or public property",
+    "meaning_en": "A person who wilfully damages property",
+    "meaning_hi": "विध्वंसक / नाशकारी",
+    "category": "oneword",
+    "example": "The vandal spray-painted slogans all over the historic monument."
+  },
+  {
+    "phrase": "One who eats no animal products whatsoever",
+    "word": "Vegan",
+    "meaning_hi": "पूर्ण शाकाहारी",
+    "meaning_en": "Person who avoids all animal products",
+    "category": "oneword",
+    "example": "The vegan refused to consume any product derived from animals, including honey and leather."
+  },
+  {
+    "phrase": "One who eats no meat or fish",
     "word": "Vegetarian",
     "meaning_hi": "शाकाहारी",
-    "meaning_en": "Non-meat eater",
-    "category": "oneword"
+    "meaning_en": "Person who does not eat meat",
+    "category": "oneword",
+    "example": "The vegetarian chose a lentil curry while her colleagues ordered chicken."
   },
   {
     "phrase": "One who always speaks the truth",
     "word": "Veracious",
     "meaning_hi": "सत्यवादी",
-    "meaning_en": "Habitually truthful person",
-    "category": "oneword"
+    "meaning_en": "Habitually truthful and honest person",
+    "category": "oneword",
+    "example": "The veracious reporter published only what she could independently confirm with evidence."
   },
   {
-    "phrase": "One who looks after animals",
+    "phrase": "One who is trained to treat and care for animals",
     "word": "Veterinarian",
     "meaning_hi": "पशु चिकित्सक",
-    "meaning_en": "Animal doctor",
-    "category": "oneword"
+    "meaning_en": "Trained doctor for animals",
+    "category": "oneword",
+    "example": "The veterinarian examined the injured bird and determined that its wing could be saved."
   },
   {
-    "phrase": "One who offers services without pay",
+    "phrase": "One who rules a province on behalf of a monarch",
+    "word": "Viceroy",
+    "meaning_hi": "वायसराय",
+    "meaning_en": "Governor who rules a colony on behalf of a sovereign",
+    "category": "oneword",
+    "example": "The viceroy governed the colony on behalf of the British Crown for nearly a decade."
+  },
+  {
+    "phrase": "One who studies viruses",
+    "word": "Virologist",
+    "meaning_hi": "विषाणु वैज्ञानिक",
+    "meaning_en": "Scientist who studies viruses",
+    "category": "oneword",
+    "example": "The virologist identified the mutation in the virus that made it more transmissible."
+  },
+  {
+    "phrase": "One who is a highly skilled performer, especially in music",
+    "word": "Virtuoso",
+    "meaning_hi": "संगीत-निपुण",
+    "meaning_en": "Person with outstanding technical skill in music or art",
+    "category": "oneword",
+    "example": "The virtuoso played the entire violin concerto without a single mistake."
+  },
+  {
+    "word": "Vivisection",
+    "phrase": "The practice of performing experiments on living animals for scientific research",
+    "meaning_en": "Surgery on a living organism for research purposes",
+    "meaning_hi": "जीवित प्राणी पर प्रयोग / जीव-विच्छेदन",
+    "category": "oneword",
+    "example": "Animal rights activists protested outside the laboratory that conducted vivisection experiments."
+  },
+  {
+    "phrase": "One who offers services willingly without payment",
     "word": "Volunteer",
     "meaning_hi": "स्वयंसेवक",
-    "meaning_en": "Unpaid helper",
+    "meaning_en": "Person who works without pay out of goodwill",
+    "category": "oneword",
+    "example": "The volunteer spent every Saturday at the old-age home, reading to the residents."
+  },
+  {
+    "word": "Voyager",
+    "meaning_en": "A person who travels to distant or unknown lands, especially by sea.",
+    "meaning_hi": "लंबी यात्रा करने वाला / नाविक",
+    "example": "The brave voyager sailed across the Pacific in a small wooden boat.",
+    "synonyms": [],
+    "antonyms": [],
     "category": "oneword"
   },
   {
-    "phrase": "One who fights for his country in war",
+    "phrase": "One who has a strong desire to travel and explore the world",
+    "word": "Wanderlust",
+    "meaning_hi": "यात्रा-प्रेमी",
+    "meaning_en": "Person with a strong urge to wander and travel",
+    "category": "oneword",
+    "example": "His wanderlust drove him to quit his job and travel across Southeast Asia for a year."
+  },
+  {
+    "phrase": "One who fights bravely for their country",
     "word": "Warrior",
     "meaning_hi": "योद्धा",
-    "meaning_en": "Soldier or fighter",
-    "category": "oneword"
+    "meaning_en": "Brave fighter or soldier",
+    "category": "oneword",
+    "example": "The warrior fought bravely in every battle and became a legend in his own lifetime."
   },
   {
-    "phrase": "One who is a complete stranger",
+    "phrase": "One who keeps watch at night",
+    "word": "Watchman",
+    "meaning_hi": "रखवाला",
+    "meaning_en": "Person who guards a place during the night",
+    "category": "oneword",
+    "example": "The watchman patrolled the factory gates throughout the night to prevent theft."
+  },
+  {
+    "phrase": "One who works with wood and builds furniture",
+    "word": "Woodworker",
+    "meaning_hi": "लकड़ी का काम करने वाला",
+    "meaning_en": "Person who makes or repairs wooden objects",
+    "category": "oneword",
+    "example": "The woodworker crafted a beautifully carved cabinet that became the centrepiece of the room."
+  },
+  {
+    "phrase": "One who studies the distribution of plants and animals",
+    "word": "Xenobiologist",
+    "meaning_hi": "विदेशी जीव विज्ञानी",
+    "meaning_en": "Scientist who studies life forms in extreme environments",
+    "category": "oneword",
+    "example": "The xenobiologist theorised that extremophiles on Earth could hint at life on other planets."
+  },
+  {
+    "phrase": "One who fears and dislikes foreigners or strangers",
     "word": "Xenophobe",
     "meaning_hi": "विदेशी-द्वेषी",
-    "meaning_en": "One who fears strangers or foreigners",
-    "category": "oneword"
+    "meaning_en": "Person with extreme fear or dislike of foreigners",
+    "category": "oneword",
+    "example": "The xenophobe was openly hostile to all foreigners living in the city."
   },
   {
-    "phrase": "One who is young and new to a field",
-    "word": "Youngster",
-    "meaning_hi": "युवा/नवसिखिया",
-    "meaning_en": "Young beginner",
-    "category": "oneword"
-  },
-  {
-    "phrase": "One eager to learn new things",
-    "word": "Youthful",
+    "phrase": "One who is young and eager to learn",
+    "word": "Youth",
     "meaning_hi": "युवा जिज्ञासु",
-    "meaning_en": "Eager and energetic learner",
-    "category": "oneword"
+    "meaning_en": "Eager young person in the early stages of learning",
+    "category": "oneword",
+    "example": "The enthusiastic youth joined the social movement hoping to bring about real change."
   },
   {
-    "phrase": "One who is excessively enthusiastic about religion",
+    "phrase": "Strange or unusual in an amusing way",
+    "word": "Zany",
+    "meaning_hi": "विचित्र व हास्यास्पद / मसखरा",
+    "meaning_en": "Strange or unusual in an amusing way",
+    "category": "oneword",
+    "example": "The zany comedian had the audience laughing from the moment he walked on stage."
+  },
+  {
+    "phrase": "One who is excessively fanatical about religion or a cause",
     "word": "Zealot",
     "meaning_hi": "धर्मांध व्यक्ति",
-    "meaning_en": "Fanatical believer",
-    "category": "oneword"
+    "meaning_en": "Person who is fanatically devoted to a cause",
+    "category": "oneword",
+    "example": "The zealot refused to compromise on even the smallest point of doctrine."
   },
   {
-    "phrase": "One who is wildly enthusiastic",
-    "word": "Zealous",
-    "meaning_hi": "उत्साही",
-    "meaning_en": "Fervently devoted person",
-    "category": "oneword"
+    "phrase": "One who is excessively jealous of others' success",
+    "word": "Zealous rival",
+    "meaning_hi": "ईर्ष्यालु प्रतिद्वंद्वी",
+    "meaning_en": "Person driven by extreme jealousy of others",
+    "category": "oneword",
+    "example": "The zealous rival trained twice as hard after losing the championship, driven by envy."
   },
   {
-    "phrase": "One who studies animals",
+    "phrase": "One who studies animals and animal behaviour",
     "word": "Zoologist",
     "meaning_hi": "प्राणी विज्ञानी",
-    "meaning_en": "Animal scientist",
-    "category": "oneword"
+    "meaning_en": "Scientist who studies animals",
+    "category": "oneword",
+    "example": "The zoologist observed the lions in their natural habitat for months."
   }
 ]

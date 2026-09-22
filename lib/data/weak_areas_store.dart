@@ -27,6 +27,14 @@ Future<void> saveWeakAttempt(String category, WeakAttempt attempt) async {
   await prefs.setStringList(_weakAreasKey(category), payload);
 }
 
+Future<void> removeWeakAttempt(String category, String prompt) async {
+  final prefs = await SharedPreferences.getInstance();
+  final current = await loadWeakAttempts(category);
+  final filtered = current.where((e) => e.prompt != prompt).toList();
+  final payload = filtered.map((e) => jsonEncode(e.toJson())).toList(growable: false);
+  await prefs.setStringList(_weakAreasKey(category), payload);
+}
+
 Future<void> clearWeakAttempts(String category) async {
   final prefs = await SharedPreferences.getInstance();
   await prefs.remove(_weakAreasKey(category));

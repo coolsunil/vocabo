@@ -7,6 +7,10 @@ class Word {
   final List<String> antonyms;
   final List<String> confusionWith;
   final String category;
+  final String spellingTip;
+  final List<String> options;
+  final String origin;
+  final String partOfSpeech;
 
   Word({
     required this.word,
@@ -17,24 +21,38 @@ class Word {
     required this.antonyms,
     required this.confusionWith,
     required this.category,
+    this.spellingTip = '',
+    this.options = const [],
+    this.origin = '',
+    this.partOfSpeech = '',
   });
 
   factory Word.fromJson(Map<String, dynamic> json) {
     return Word(
-      word: json['word'] ?? '',
-      meaningHi: json['meaning_hi'] ?? '',
-      meaningEn: json['meaning_en'] ?? '',
-      example: json['example'] ?? '', // safe if missing
+      // common_errors → "wrong", sentence_improvement → "question", cloze_test → "sentence"
+      word: json['word'] ?? json['wrong'] ?? json['question'] ?? json['sentence'] ?? '',
+      // common_errors / sentence_improvement → "explanation_hi"
+      meaningHi: json['meaning_hi'] ?? json['explanation_hi'] ?? '',
+      // common_errors / sentence_improvement → "explanation_en"
+      meaningEn: json['meaning_en'] ?? json['explanation_en'] ?? '',
+      // common_errors / sentence_improvement → "correct", cloze_test → "answer"
+      example: json['example'] ?? json['correct'] ?? json['answer'] ?? json['phrase'] ?? '',
       synonyms: json['synonyms'] != null
           ? List<String>.from(json['synonyms'])
-          : <String>[], // safe if missing
+          : <String>[],
       antonyms: json['antonyms'] != null
           ? List<String>.from(json['antonyms'])
-          : <String>[], // safe if missing
+          : <String>[],
       confusionWith: json['confusion_with'] != null
           ? List<String>.from(json['confusion_with'])
           : <String>[],
       category: json['category'] ?? '',
+      spellingTip: json['spelling_tip'] ?? '',
+      options: json['options'] != null
+          ? List<String>.from(json['options'])
+          : <String>[],
+      origin: json['origin'] ?? '',
+      partOfSpeech: json['part_of_speech'] ?? '',
     );
   }
 }

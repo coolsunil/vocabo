@@ -1,0 +1,2502 @@
+[
+  {
+    "word": "abbreviation",
+    "meaning_hi": "संक्षेप",
+    "meaning_en": "a shortened form of a word or phrase",
+    "example": "SSC is an abbreviation for Staff Selection Commission.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "a + bb + reviation (double b)"
+  },
+  {
+    "word": "absence",
+    "meaning_hi": "अनुपस्थिति",
+    "meaning_en": "state of being away",
+    "example": "His absence from school was noted by the teacher.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "absent → absence (not absense)"
+  },
+  {
+    "word": "abundance",
+    "meaning_hi": "प्रचुरता",
+    "meaning_en": "very large quantity",
+    "example": "The region has an abundance of natural resources.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "abundant → abundance"
+  },
+  {
+    "word": "accelerate",
+    "meaning_hi": "गति बढ़ाना",
+    "meaning_en": "to increase speed or rate",
+    "example": "The government aims to accelerate economic growth.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "a + cc + elerate (double c, not acccelerate)"
+  },
+  {
+    "word": "acceptable",
+    "meaning_hi": "स्वीकार्य",
+    "meaning_en": "satisfactory or tolerable",
+    "example": "His behaviour was not acceptable in the workplace.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "accept + able"
+  },
+  {
+    "word": "accidentally",
+    "meaning_hi": "दुर्घटनावश",
+    "meaning_en": "by chance; unintentionally",
+    "example": "She accidentally deleted the important file.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "accident + ally (double l)"
+  },
+  {
+    "word": "accommodate",
+    "meaning_hi": "समायोजित करना",
+    "meaning_en": "to provide space or adjust",
+    "example": "The hall can accommodate five hundred guests.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "-cc- and -mm- both doubled"
+  },
+  {
+    "word": "acknowledgement",
+    "meaning_hi": "स्वीकृति",
+    "meaning_en": "formal recognition or thanks",
+    "example": "The letter of acknowledgement arrived within a week.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "acknowledge + ment"
+  },
+  {
+    "word": "acquaintance",
+    "meaning_hi": "परिचित",
+    "meaning_en": "a person one knows slightly",
+    "example": "She is a business acquaintance rather than a close friend.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "acqu- + aintance (silent c)"
+  },
+  {
+    "word": "acquire",
+    "meaning_hi": "प्राप्त करना",
+    "meaning_en": "to gain or obtain",
+    "example": "He worked hard to acquire the necessary skills.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "silent c: acqu-"
+  },
+  {
+    "word": "administration",
+    "meaning_hi": "प्रशासन",
+    "meaning_en": "management of an organisation",
+    "example": "The administration announced new examination rules.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "administer → administration"
+  },
+  {
+    "word": "adolescent",
+    "meaning_hi": "किशोर",
+    "meaning_en": "a young person in their teens",
+    "example": "Adolescent students need proper career guidance.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "-esc- in the middle"
+  },
+  {
+    "word": "aggressive",
+    "meaning_hi": "आक्रामक",
+    "meaning_en": "ready to attack; forceful",
+    "example": "The company adopted an aggressive marketing strategy.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "-gg- doubled g"
+  },
+  {
+    "word": "allegiance",
+    "meaning_hi": "निष्ठा / वफ़ादारी",
+    "meaning_en": "loyalty to a person, country or cause",
+    "example": "Soldiers pledge allegiance to the national flag.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "alleg + iance (double l)"
+  },
+  {
+    "word": "ambiguous",
+    "meaning_hi": "अस्पष्ट / द्विअर्थी",
+    "meaning_en": "having more than one possible meaning",
+    "example": "The instructions were ambiguous and caused confusion.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "ambigu + ous"
+  },
+  {
+    "word": "analysis",
+    "meaning_hi": "विश्लेषण",
+    "meaning_en": "detailed examination of something",
+    "example": "A thorough analysis of the data revealed clear trends.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "analy + sis (not -sis spelled -cis or -ses)"
+  },
+  {
+    "word": "annihilate",
+    "meaning_hi": "नष्ट करना / मिटाना",
+    "meaning_en": "to destroy utterly",
+    "example": "The invading force tried to annihilate all resistance.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "ann + i + hil + ate (double n, silent h)"
+  },
+  {
+    "word": "anonymous",
+    "meaning_hi": "अज्ञात / नामहीन",
+    "meaning_en": "not identified by name",
+    "example": "The complaint was submitted by an anonymous source.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "anonym + ous"
+  },
+  {
+    "word": "apparatus",
+    "meaning_hi": "उपकरण / यंत्र",
+    "meaning_en": "equipment or machinery for a specific purpose",
+    "example": "The laboratory was equipped with modern scientific apparatus.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "app + aratus (double p; ends -atus not -attus)"
+  },
+  {
+    "word": "apparently",
+    "meaning_hi": "स्पष्ट रूप से",
+    "meaning_en": "seemingly or obviously",
+    "example": "Apparently, the meeting has been postponed.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "apparent + ly"
+  },
+  {
+    "word": "appropriate",
+    "meaning_hi": "उचित / उपयुक्त",
+    "meaning_en": "suitable for the situation",
+    "example": "Please wear appropriate clothing to the ceremony.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "appro + priate (double p)"
+  },
+  {
+    "word": "approximately",
+    "meaning_hi": "लगभग",
+    "meaning_en": "close to but not exactly",
+    "example": "The project will cost approximately ten lakh rupees.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "approx + imately"
+  },
+  {
+    "word": "argument",
+    "meaning_hi": "तर्क",
+    "meaning_en": "a reason given in discussion",
+    "example": "His argument was well-structured and convincing.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "argu + ment (no e)"
+  },
+  {
+    "word": "artificial",
+    "meaning_hi": "कृत्रिम",
+    "meaning_en": "made by humans; not natural",
+    "example": "Artificial intelligence is transforming every industry.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "artific + ial"
+  },
+  {
+    "word": "assassination",
+    "meaning_hi": "हत्या (राजनीतिक)",
+    "meaning_en": "murder of a public figure",
+    "example": "The assassination of Archduke Franz Ferdinand triggered World War One.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "two sets of double letters: ss + ss"
+  },
+  {
+    "word": "assistance",
+    "meaning_hi": "सहायता",
+    "meaning_en": "help given to someone",
+    "example": "The flood victims received immediate financial assistance.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "assist + ance"
+  },
+  {
+    "word": "assistant",
+    "meaning_hi": "सहायक",
+    "meaning_en": "a person who helps",
+    "example": "The assistant arranged all the documents in order.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "assist + ant"
+  },
+  {
+    "word": "athlete",
+    "meaning_hi": "खिलाड़ी",
+    "meaning_en": "a person trained in sport",
+    "example": "The athlete trained for six hours every day.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "ath + lete (no h between t and l)"
+  },
+  {
+    "word": "attendance",
+    "meaning_hi": "उपस्थिति",
+    "meaning_en": "the act of being present",
+    "example": "His attendance record was perfect throughout the year.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "attend + ance"
+  },
+  {
+    "word": "beautiful",
+    "meaning_hi": "सुंदर",
+    "meaning_en": "pleasing to the senses",
+    "example": "The valley was covered in beautiful wildflowers.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "beau + tiful (eau)"
+  },
+  {
+    "word": "beginning",
+    "meaning_hi": "शुरुआत",
+    "meaning_en": "the start of something",
+    "example": "Every expert was once a beginner at the beginning.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "begin → beginning (double n)"
+  },
+  {
+    "word": "behaviour",
+    "meaning_hi": "व्यवहार",
+    "meaning_en": "the way one acts",
+    "example": "Good behaviour in public reflects one's upbringing.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "behave → behaviour (British spelling)"
+  },
+  {
+    "word": "believe",
+    "meaning_hi": "विश्वास करना",
+    "meaning_en": "to accept as true",
+    "example": "I believe that honesty is the best policy.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "i before e except after c"
+  },
+  {
+    "word": "beneficial",
+    "meaning_hi": "लाभकारी",
+    "meaning_en": "helpful or advantageous",
+    "example": "Regular exercise is beneficial for long-term health.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "benefic + ial"
+  },
+  {
+    "word": "boulevard",
+    "meaning_hi": "चौड़ी सड़क",
+    "meaning_en": "a wide tree-lined road",
+    "example": "The new boulevard was inaugurated by the Chief Minister.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "French origin: -oulevard"
+  },
+  {
+    "word": "brilliant",
+    "meaning_hi": "प्रतिभाशाली",
+    "meaning_en": "exceptionally clever or talented",
+    "example": "She delivered a brilliant performance in the debate.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "-ill- + iant"
+  },
+  {
+    "word": "bureaucracy",
+    "meaning_hi": "नौकरशाही",
+    "meaning_en": "a system of official rules",
+    "example": "The project was delayed due to bureaucracy.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "-eau- + cracy"
+  },
+  {
+    "word": "business",
+    "meaning_hi": "व्यवसाय",
+    "meaning_en": "commercial activity",
+    "example": "His online business grew rapidly in the first year.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "busi + ness (silent i)"
+  },
+  {
+    "word": "calendar",
+    "meaning_hi": "कैलेंडर",
+    "meaning_en": "a chart showing dates",
+    "example": "Check the calendar for upcoming holidays.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "calen + dar (not -er)"
+  },
+  {
+    "word": "catastrophe",
+    "meaning_hi": "भयंकर विपदा",
+    "meaning_en": "a sudden large-scale disaster",
+    "example": "The chemical leak was an environmental catastrophe.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "cata + s + trophe (ends -ophe, not -ophy)"
+  },
+  {
+    "word": "cemetery",
+    "meaning_hi": "कब्रिस्तान",
+    "meaning_en": "a burial ground",
+    "example": "The old cemetery is located outside the village.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "three e's: e-e-ery"
+  },
+  {
+    "word": "coincidence",
+    "meaning_hi": "संयोग",
+    "meaning_en": "remarkable chance occurrence",
+    "example": "Meeting him there was a complete coincidence.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "co + incidence"
+  },
+  {
+    "word": "colleague",
+    "meaning_hi": "सहकर्मी",
+    "meaning_en": "a fellow worker",
+    "example": "He introduced his colleague to the new client.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "collea + gue (silent ue)"
+  },
+  {
+    "word": "commemorate",
+    "meaning_hi": "स्मरण करना / स्मृति में मनाना",
+    "meaning_en": "to honour the memory of someone or something",
+    "example": "A ceremony was held to commemorate the fallen soldiers.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "comm + emorate (double m at start)"
+  },
+  {
+    "word": "commitment",
+    "meaning_hi": "प्रतिबद्धता",
+    "meaning_en": "dedication to a cause",
+    "example": "Her commitment to the project never wavered.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "commit → commitment (double t)"
+  },
+  {
+    "word": "committee",
+    "meaning_hi": "समिति",
+    "meaning_en": "a group formed for a purpose",
+    "example": "The selection committee reviewed all applications.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "-mm-tt- (double m and double t)"
+  },
+  {
+    "word": "comparative",
+    "meaning_hi": "तुलनात्मक",
+    "meaning_en": "relative; involving comparison",
+    "example": "The comparative analysis showed a clear advantage.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "compare → comparative"
+  },
+  {
+    "word": "competence",
+    "meaning_hi": "योग्यता",
+    "meaning_en": "ability to do something well",
+    "example": "The officer demonstrated high competence under pressure.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "compet + ence"
+  },
+  {
+    "word": "completely",
+    "meaning_hi": "पूरी तरह",
+    "meaning_en": "wholly; entirely",
+    "example": "The document was completely revised before submission.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "complet + ely"
+  },
+  {
+    "word": "comprehension",
+    "meaning_hi": "समझ",
+    "meaning_en": "understanding of something",
+    "example": "Reading comprehension is tested in all competitive exams.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "comprehen + sion"
+  },
+  {
+    "word": "conceive",
+    "meaning_hi": "कल्पना करना / गर्भधारण करना",
+    "meaning_en": "to form an idea; to become pregnant",
+    "example": "He could not conceive how the plan would succeed.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "c before ei (exception to i-before-e rule)"
+  },
+  {
+    "word": "condemn",
+    "meaning_hi": "निंदा करना",
+    "meaning_en": "to express strong disapproval",
+    "example": "The international community condemned the attack.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "silent n at end: cond + emn"
+  },
+  {
+    "word": "confidential",
+    "meaning_hi": "गोपनीय",
+    "meaning_en": "intended to be kept secret",
+    "example": "The medical report was marked confidential.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "confidenti + al"
+  },
+  {
+    "word": "conscience",
+    "meaning_hi": "अंतरात्मा",
+    "meaning_en": "moral sense of right and wrong",
+    "example": "His conscience would not allow him to tell a lie.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "science hidden inside con+science"
+  },
+  {
+    "word": "conscientious",
+    "meaning_hi": "कर्तव्यनिष्ठ / ईमानदारी से काम करने वाला",
+    "meaning_en": "careful and diligent in one's work",
+    "example": "A conscientious officer never ignores procedural rules.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "con + science + tious (conscience is hidden inside)"
+  },
+  {
+    "word": "conscious",
+    "meaning_hi": "सचेत / होश में",
+    "meaning_en": "aware and alert",
+    "example": "She remained conscious throughout the procedure.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "conscio + us"
+  },
+  {
+    "word": "controversy",
+    "meaning_hi": "विवाद",
+    "meaning_en": "disagreement or public debate",
+    "example": "The new policy sparked widespread controversy.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "contro + versy"
+  },
+  {
+    "word": "convenient",
+    "meaning_hi": "सुविधाजनक",
+    "meaning_en": "easy to use or do",
+    "example": "Online banking is very convenient for customers.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "conveni + ent"
+  },
+  {
+    "word": "correspondence",
+    "meaning_hi": "पत्र-व्यवहार",
+    "meaning_en": "exchange of letters or communication",
+    "example": "Keep all correspondence with the client on record.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "-rr- + espondence"
+  },
+  {
+    "word": "courageous",
+    "meaning_hi": "साहसी",
+    "meaning_en": "brave and determined",
+    "example": "The courageous soldier rescued three civilians.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "courage + ous"
+  },
+  {
+    "word": "criticism",
+    "meaning_hi": "आलोचना",
+    "meaning_en": "expression of disapproval",
+    "example": "The report faced sharp criticism from experts.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "critic + ism"
+  },
+  {
+    "word": "curiosity",
+    "meaning_hi": "जिज्ञासा",
+    "meaning_en": "desire to learn or know",
+    "example": "Curiosity drives scientific discovery.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "curious → curiosity (drop -ous, add -ity)"
+  },
+  {
+    "word": "deceive",
+    "meaning_hi": "धोखा देना",
+    "meaning_en": "to mislead someone deliberately",
+    "example": "Politicians who deceive voters lose public trust.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "cei: c before ei"
+  },
+  {
+    "word": "deferred",
+    "meaning_hi": "स्थगित",
+    "meaning_en": "postponed to a later time",
+    "example": "The examination was deferred to the following month.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "defer → deferred (double r)"
+  },
+  {
+    "word": "definitely",
+    "meaning_hi": "निश्चित रूप से",
+    "meaning_en": "without doubt; certainly",
+    "example": "I will definitely submit the report by Friday.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "definite + ly (not definitly)"
+  },
+  {
+    "word": "descendant",
+    "meaning_hi": "वंशज",
+    "meaning_en": "a person descended from a particular ancestor",
+    "example": "She is a descendant of the royal family.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "descend + ant (not -ent)"
+  },
+  {
+    "word": "desperate",
+    "meaning_hi": "बेताब / हताश",
+    "meaning_en": "feeling hopeless; very urgent",
+    "example": "The patient's family was desperate for good news.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "desper + ate (not desparate)"
+  },
+  {
+    "word": "deteriorate",
+    "meaning_hi": "बिगड़ना / खराब होना",
+    "meaning_en": "to become progressively worse",
+    "example": "His health began to deteriorate after the accident.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "deterior + ate (not deterioriate)"
+  },
+  {
+    "word": "development",
+    "meaning_hi": "विकास",
+    "meaning_en": "growth or progress",
+    "example": "Sustainable development is a global priority.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "develop + ment (no e before ment)"
+  },
+  {
+    "word": "dilemma",
+    "meaning_hi": "दुविधा",
+    "meaning_en": "a difficult choice between two options",
+    "example": "The government faced a real dilemma over the policy.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "-mm- doubled"
+  },
+  {
+    "word": "disappear",
+    "meaning_hi": "गायब होना",
+    "meaning_en": "to go out of sight",
+    "example": "The car disappeared into the fog on the highway.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "dis + appear (double p)"
+  },
+  {
+    "word": "disappoint",
+    "meaning_hi": "निराश करना",
+    "meaning_en": "to fail to fulfil expectations",
+    "example": "The result did not disappoint the coaching institute.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "dis + appoint (double p)"
+  },
+  {
+    "word": "disastrous",
+    "meaning_hi": "विनाशकारी",
+    "meaning_en": "causing great damage",
+    "example": "The earthquake had disastrous consequences for the region.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "disaster → disastrous (drop e)"
+  },
+  {
+    "word": "discipline",
+    "meaning_hi": "अनुशासन",
+    "meaning_en": "controlled behaviour; a subject of study",
+    "example": "Discipline is the foundation of academic success.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "disci + pline"
+  },
+  {
+    "word": "discrepancy",
+    "meaning_hi": "विसंगति",
+    "meaning_en": "a difference or inconsistency",
+    "example": "There was a discrepancy in the accounts of the two witnesses.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "discrep + ancy"
+  },
+  {
+    "word": "distinguish",
+    "meaning_hi": "भेद करना",
+    "meaning_en": "to recognise as different",
+    "example": "A good examiner must distinguish fact from opinion.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "dis + tinguish"
+  },
+  {
+    "word": "ecstasy",
+    "meaning_hi": "परमानंद",
+    "meaning_en": "overwhelming happiness",
+    "example": "The fans were in ecstasy after the victory.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "ecst + asy (not ecstasy with -esy)"
+  },
+  {
+    "word": "efficient",
+    "meaning_hi": "कुशल / प्रभावशाली",
+    "meaning_en": "performing tasks without wasting resources",
+    "example": "The new system was far more efficient than the old one.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "ef + fici + ent (double f)"
+  },
+  {
+    "word": "eligible",
+    "meaning_hi": "पात्र",
+    "meaning_en": "meeting the required conditions",
+    "example": "Only eligible candidates will be called for the interview.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "eligi + ble"
+  },
+  {
+    "word": "eloquent",
+    "meaning_hi": "वाक्पटु",
+    "meaning_en": "fluent and persuasive in speech",
+    "example": "The barrister delivered an eloquent closing argument.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "eloqu + ent"
+  },
+  {
+    "word": "embarrass",
+    "meaning_hi": "शर्मिंदा करना",
+    "meaning_en": "to cause awkwardness",
+    "example": "His mistake embarrassed the entire department.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "-rr- and -ss- (double r, double s)"
+  },
+  {
+    "word": "emergency",
+    "meaning_hi": "आपातकाल",
+    "meaning_en": "a sudden serious situation requiring action",
+    "example": "The hospital has a well-equipped emergency unit.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "emerg + ency"
+  },
+  {
+    "word": "emphasize",
+    "meaning_hi": "जोर देना",
+    "meaning_en": "to give special importance to",
+    "example": "The report emphasizes the need for immediate reform.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "emphasi + ze"
+  },
+  {
+    "word": "enthusiasm",
+    "meaning_hi": "उत्साह",
+    "meaning_en": "intense enjoyment or eagerness",
+    "example": "She brought great enthusiasm to the project.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "enthusi + asm (not -siasm or -ziasm)"
+  },
+  {
+    "word": "environment",
+    "meaning_hi": "पर्यावरण",
+    "meaning_en": "surrounding conditions",
+    "example": "We must protect the environment for future generations.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "environ + ment"
+  },
+  {
+    "word": "exaggerate",
+    "meaning_hi": "बढ़ा-चढ़ाकर कहना",
+    "meaning_en": "to overstate the truth",
+    "example": "Do not exaggerate your achievements in the interview.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "exagger + ate (double g)"
+  },
+  {
+    "word": "excellent",
+    "meaning_hi": "उत्कृष्ट",
+    "meaning_en": "exceptionally good",
+    "example": "She gave an excellent presentation before the board.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "excell + ent (double l)"
+  },
+  {
+    "word": "existence",
+    "meaning_hi": "अस्तित्व",
+    "meaning_en": "the state of being real",
+    "example": "The existence of life on other planets remains unproven.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "exist + ence"
+  },
+  {
+    "word": "exorbitant",
+    "meaning_hi": "अत्यधिक / बहुत महंगा",
+    "meaning_en": "unreasonably high",
+    "example": "The exorbitant prices drove customers away.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "exorbit + ant"
+  },
+  {
+    "word": "experience",
+    "meaning_hi": "अनुभव",
+    "meaning_en": "knowledge gained over time",
+    "example": "His years of experience made him the right candidate.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "experi + ence"
+  },
+  {
+    "word": "extraordinary",
+    "meaning_hi": "असाधारण",
+    "meaning_en": "very unusual or remarkable",
+    "example": "The athlete achieved an extraordinary world record.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "extra + ordinary"
+  },
+  {
+    "word": "familiar",
+    "meaning_hi": "परिचित",
+    "meaning_en": "well known to someone",
+    "example": "Her name sounded familiar to the investigator.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "famil + iar"
+  },
+  {
+    "word": "fascinate",
+    "meaning_hi": "मोहित करना",
+    "meaning_en": "to attract and hold attention",
+    "example": "The speaker's story fascinated the entire audience.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "fasci + nate (sc)"
+  },
+  {
+    "word": "February",
+    "meaning_hi": "फरवरी",
+    "meaning_en": "the second month of the year",
+    "example": "The national sports day falls in February.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "Feb + ru + ary (often the r is dropped in speech)"
+  },
+  {
+    "word": "flourish",
+    "meaning_hi": "फलना-फूलना",
+    "meaning_en": "to grow or develop vigorously",
+    "example": "Small businesses began to flourish under the new scheme.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "flour + ish"
+  },
+  {
+    "word": "fluorescent",
+    "meaning_hi": "प्रतिदीप्त",
+    "meaning_en": "very bright; emitting light",
+    "example": "The office was lit by fluorescent tubes.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "fluor + escent"
+  },
+  {
+    "word": "foreign",
+    "meaning_hi": "विदेशी",
+    "meaning_en": "belonging to another country",
+    "example": "The ministry oversees all foreign policy matters.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "for + eign (ei not ie)"
+  },
+  {
+    "word": "fortunately",
+    "meaning_hi": "सौभाग्य से",
+    "meaning_en": "luckily",
+    "example": "Fortunately, the patient recovered quickly.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "fortunate + ly"
+  },
+  {
+    "word": "fulfil",
+    "meaning_hi": "पूरा करना",
+    "meaning_en": "to carry out or achieve",
+    "example": "The officer worked hard to fulfil his responsibilities.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "ful + fil (British: one l; American: fulfill)"
+  },
+  {
+    "word": "glamorous",
+    "meaning_hi": "आकर्षक / मनमोहक",
+    "meaning_en": "exciting and attractive",
+    "example": "The award ceremony was a glamorous event.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "glamour → glamorous (drop u)"
+  },
+  {
+    "word": "government",
+    "meaning_hi": "सरकार",
+    "meaning_en": "ruling authority of a state",
+    "example": "The government introduced new social welfare schemes.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "govern + ment (silent n)"
+  },
+  {
+    "word": "grammar",
+    "meaning_hi": "व्याकरण",
+    "meaning_en": "rules of a language",
+    "example": "A strong command of grammar is essential for writing.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "gram + mar"
+  },
+  {
+    "word": "grateful",
+    "meaning_hi": "आभारी",
+    "meaning_en": "feeling or showing thanks",
+    "example": "She was deeply grateful for the scholarship.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "grate + ful (not greatful)"
+  },
+  {
+    "word": "grievous",
+    "meaning_hi": "गंभीर / दुखद",
+    "meaning_en": "very severe or serious",
+    "example": "The court convicted him of grievous bodily harm.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "grieve → grievous (drop e)"
+  },
+  {
+    "word": "guarantee",
+    "meaning_hi": "गारंटी",
+    "meaning_en": "a formal promise of quality",
+    "example": "The product comes with a one-year guarantee.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "guar + antee (not guarentee)"
+  },
+  {
+    "word": "gymnasium",
+    "meaning_hi": "व्यायामशाला",
+    "meaning_en": "a room for indoor sports",
+    "example": "The school built a new gymnasium for students.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "gymnas + ium"
+  },
+  {
+    "word": "hallucination",
+    "meaning_hi": "मतिभ्रम",
+    "meaning_en": "seeing things that are not there",
+    "example": "Extreme fatigue can cause hallucination.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "-ll- doubled"
+  },
+  {
+    "word": "harass",
+    "meaning_hi": "परेशान करना",
+    "meaning_en": "to trouble repeatedly",
+    "example": "Workplace policies must protect employees from harassment.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "har + ass (single r, double s)"
+  },
+  {
+    "word": "height",
+    "meaning_hi": "ऊँचाई",
+    "meaning_en": "measurement from base to top",
+    "example": "The height of the Himalayas is awe-inspiring.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "ei not ie: h-e-i-g-h-t"
+  },
+  {
+    "word": "heroes",
+    "meaning_hi": "नायक (बहुवचन)",
+    "meaning_en": "plural of hero",
+    "example": "The heroes of the freedom struggle are still revered.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "hero → heroes (add es, not heros)"
+  },
+  {
+    "word": "hierarchy",
+    "meaning_hi": "पदानुक्रम",
+    "meaning_en": "system of ranking",
+    "example": "The company maintains a clear hierarchy of command.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "hierarch + y"
+  },
+  {
+    "word": "honorary",
+    "meaning_hi": "मानद / मानसम्मान",
+    "meaning_en": "given as an honour, not earned regularly",
+    "example": "She received an honorary doctorate from the university.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "honor + ary"
+  },
+  {
+    "word": "humorous",
+    "meaning_hi": "हास्यपूर्ण",
+    "meaning_en": "funny and entertaining",
+    "example": "His humorous commentary kept the audience engaged.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "humour → humorous (drop u)"
+  },
+  {
+    "word": "hygiene",
+    "meaning_hi": "स्वच्छता / स्वास्थ्य रक्षा",
+    "meaning_en": "conditions and practices that maintain health",
+    "example": "Good hygiene prevents the spread of infectious diseases.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "hygi + ene (not hygeine)"
+  },
+  {
+    "word": "hypocrisy",
+    "meaning_hi": "पाखंड",
+    "meaning_en": "claiming beliefs one does not hold",
+    "example": "His hypocrisy was exposed when his private actions became public.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "hypocr + isy"
+  },
+  {
+    "word": "ignorance",
+    "meaning_hi": "अज्ञानता",
+    "meaning_en": "lack of knowledge",
+    "example": "Ignorance of the law is no excuse.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "ignor + ance"
+  },
+  {
+    "word": "imagination",
+    "meaning_hi": "कल्पना",
+    "meaning_en": "ability to form ideas mentally",
+    "example": "His imagination produced the most creative solutions.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "imagin + ation"
+  },
+  {
+    "word": "immediately",
+    "meaning_hi": "तुरंत",
+    "meaning_en": "without any delay",
+    "example": "Please report to the office immediately.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "immediate + ly"
+  },
+  {
+    "word": "immense",
+    "meaning_hi": "विशाल / असीमित",
+    "meaning_en": "extremely large",
+    "example": "The scale of the disaster was immense.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "im + mense (double m)"
+  },
+  {
+    "word": "inaccurate",
+    "meaning_hi": "गलत / अशुद्ध",
+    "meaning_en": "not accurate or correct",
+    "example": "The report contained several inaccurate figures.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "in + accurate"
+  },
+  {
+    "word": "incidentally",
+    "meaning_hi": "प्रसंगवश",
+    "meaning_en": "by the way; as a side note",
+    "example": "Incidentally, the report was filed three days late.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "incident + ally"
+  },
+  {
+    "word": "independent",
+    "meaning_hi": "स्वतंत्र",
+    "meaning_en": "not controlled by others",
+    "example": "India became independent on 15 August 1947.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "independ + ent"
+  },
+  {
+    "word": "indispensable",
+    "meaning_hi": "अपरिहार्य",
+    "meaning_en": "absolutely necessary",
+    "example": "Skilled workers are indispensable to any industry.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "indispen + sable (not -ible)"
+  },
+  {
+    "word": "inevitable",
+    "meaning_hi": "अनिवार्य / अपरिहार्य",
+    "meaning_en": "certain to happen; unavoidable",
+    "example": "Climate change and its consequences are inevitable.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "inevit + able"
+  },
+  {
+    "word": "innocence",
+    "meaning_hi": "निर्दोषिता",
+    "meaning_en": "freedom from guilt",
+    "example": "The judge accepted the plea of innocence.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "innoc + ence (double n)"
+  },
+  {
+    "word": "innocent",
+    "meaning_hi": "निर्दोष",
+    "meaning_en": "not guilty; free from wrongdoing",
+    "example": "The court declared the accused innocent of all charges.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "inn + ocent (double n at start)"
+  },
+  {
+    "word": "inoculate",
+    "meaning_hi": "टीका लगाना",
+    "meaning_en": "to vaccinate against disease",
+    "example": "Children should be inoculated against polio.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "in + ocu + late (single n)"
+  },
+  {
+    "word": "intelligence",
+    "meaning_hi": "बुद्धिमत्ता",
+    "meaning_en": "ability to learn and understand",
+    "example": "Emotional intelligence is as important as IQ.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "intellig + ence"
+  },
+  {
+    "word": "interference",
+    "meaning_hi": "हस्तक्षेप",
+    "meaning_en": "the act of interfering",
+    "example": "Political interference in judicial matters is unacceptable.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "interfere → interference"
+  },
+  {
+    "word": "irrelevant",
+    "meaning_hi": "असंगत / अप्रासंगिक",
+    "meaning_en": "not connected with the matter at hand",
+    "example": "The lawyer's objection was ruled irrelevant by the judge.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "irr + elevant (double r; note: also irrelevance)"
+  },
+  {
+    "word": "irresistible",
+    "meaning_hi": "अप्रतिरोध्य",
+    "meaning_en": "too attractive or powerful to resist",
+    "example": "The offer was irresistible for any young professional.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "irr + esistible (double r; ends -ible not -able)"
+  },
+  {
+    "word": "jealousy",
+    "meaning_hi": "ईर्ष्या",
+    "meaning_en": "fear of losing something to a rival",
+    "example": "Jealousy can destroy even the strongest relationships.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "jealous → jealousy"
+  },
+  {
+    "word": "jeopardize",
+    "meaning_hi": "खतरे में डालना",
+    "meaning_en": "to put in danger of loss or harm",
+    "example": "Corruption will jeopardize the country's development.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "je + o + pard + ize (not jeopordize or jeopardise in exam context)"
+  },
+  {
+    "word": "jewellery",
+    "meaning_hi": "आभूषण",
+    "meaning_en": "decorative items worn on the body",
+    "example": "She kept her jewellery in a locked box.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "jewel + lery (British: double l)"
+  },
+  {
+    "word": "judgment",
+    "meaning_hi": "निर्णय",
+    "meaning_en": "the ability to make considered decisions",
+    "example": "The judge's judgment was considered fair and well-reasoned.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "judge → judgment (drop e; both spellings valid)"
+  },
+  {
+    "word": "kerchief",
+    "meaning_hi": "रूमाल",
+    "meaning_en": "a piece of cloth used to cover the head",
+    "example": "She tied a kerchief around her head to keep warm.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "ker + chief (not hankerchief misspelled)"
+  },
+  {
+    "word": "knowledgeable",
+    "meaning_hi": "जानकार",
+    "meaning_en": "intelligent and well-informed",
+    "example": "The professor was highly knowledgeable on the topic.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "knowledge + able"
+  },
+  {
+    "word": "laboratory",
+    "meaning_hi": "प्रयोगशाला",
+    "meaning_en": "a room for scientific experiments",
+    "example": "Students conducted their chemistry experiments in the laboratory.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "laborat + ory (often mispronounced)"
+  },
+  {
+    "word": "legitimate",
+    "meaning_hi": "वैध / कानूनी",
+    "meaning_en": "lawful; conforming to rules",
+    "example": "His claim to the property was entirely legitimate.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "legitim + ate"
+  },
+  {
+    "word": "lieutenant",
+    "meaning_hi": "लेफ्टिनेंट",
+    "meaning_en": "a rank in the military or police",
+    "example": "The lieutenant led his unit through the difficult terrain.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "lieuten + ant (French origin; tricky vowel sequence: l-i-e-u-t-e-n-a-n-t)"
+  },
+  {
+    "word": "loneliness",
+    "meaning_hi": "अकेलापन",
+    "meaning_en": "sadness from being alone",
+    "example": "Loneliness among the elderly is a growing social concern.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "lonely → loneliness (y → i)"
+  },
+  {
+    "word": "maintenance",
+    "meaning_hi": "रखरखाव",
+    "meaning_en": "care and upkeep of something",
+    "example": "Regular maintenance of machinery prevents breakdowns.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "maint + enance"
+  },
+  {
+    "word": "manoeuvre",
+    "meaning_hi": "चाल / युद्धाभ्यास",
+    "meaning_en": "a skilled movement or tactic",
+    "example": "The general planned a complex military manoeuvre.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "British spelling: man + oeuvre"
+  },
+  {
+    "word": "marriage",
+    "meaning_hi": "विवाह",
+    "meaning_en": "the legal union of two people",
+    "example": "The marriage took place in a traditional ceremony.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "marri + age (double r)"
+  },
+  {
+    "word": "mathematics",
+    "meaning_hi": "गणित",
+    "meaning_en": "the study of numbers and equations",
+    "example": "Mathematics is a compulsory subject in the curriculum.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "mathemat + ics"
+  },
+  {
+    "word": "memento",
+    "meaning_hi": "यादगार वस्तु",
+    "meaning_en": "an object kept as a reminder",
+    "example": "She treasured every memento from her years of service.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "memento (not momento — from Latin memini, 'remember')"
+  },
+  {
+    "word": "millennium",
+    "meaning_hi": "सहस्राब्दि",
+    "meaning_en": "a period of one thousand years",
+    "example": "The new millennium brought rapid technological change.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "mill + ennium (double l, double n)"
+  },
+  {
+    "word": "miniature",
+    "meaning_hi": "लघु / छोटा",
+    "meaning_en": "extremely small in scale",
+    "example": "The exhibition featured miniature paintings from Rajasthan.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "mini + ature"
+  },
+  {
+    "word": "miscellaneous",
+    "meaning_hi": "विविध",
+    "meaning_en": "of various kinds",
+    "example": "The box contained miscellaneous items with no clear order.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "miscel + lan + eous"
+  },
+  {
+    "word": "mischievous",
+    "meaning_hi": "शरारती",
+    "meaning_en": "behaving badly in a playful way",
+    "example": "The mischievous student hid the teacher's chalk.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "mis + chiev + ous (not mischievious)"
+  },
+  {
+    "word": "misspell",
+    "meaning_hi": "गलत स्पेलिंग लिखना",
+    "meaning_en": "to spell a word incorrectly",
+    "example": "Even spell-checkers sometimes misspell technical words.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "mis + spell (double s)"
+  },
+  {
+    "word": "mortgage",
+    "meaning_hi": "गिरवी / बंधक",
+    "meaning_en": "a loan secured against a property",
+    "example": "He took a mortgage to buy his first house.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "mort + gage (silent t)"
+  },
+  {
+    "word": "mysterious",
+    "meaning_hi": "रहस्यमय",
+    "meaning_en": "difficult to understand",
+    "example": "The mysterious letter arrived without a sender's address.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "myster + ious"
+  },
+  {
+    "word": "necessary",
+    "meaning_hi": "आवश्यक",
+    "meaning_en": "needed or essential",
+    "example": "Hard work is necessary for success in competitive exams.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "one c, double s: neces + sary"
+  },
+  {
+    "word": "negotiate",
+    "meaning_hi": "वार्ता करना / बातचीत करना",
+    "meaning_en": "to discuss terms to reach an agreement",
+    "example": "Both parties agreed to negotiate a settlement.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "negoti + ate (not negociate)"
+  },
+  {
+    "word": "neighbour",
+    "meaning_hi": "पड़ोसी",
+    "meaning_en": "a person living nearby",
+    "example": "The neighbour helped during the flood rescue operation.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "ei not ie: neigh + bour"
+  },
+  {
+    "word": "niece",
+    "meaning_hi": "भतीजी / भांजी",
+    "meaning_en": "a daughter of one's sibling",
+    "example": "His niece won the district-level essay competition.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "ni + ece (i before e: n-i-e-c-e)"
+  },
+  {
+    "word": "ninth",
+    "meaning_hi": "नौवाँ",
+    "meaning_en": "ordinal of nine",
+    "example": "He finished in ninth place in the national championship.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "nine → ninth (drop the e)"
+  },
+  {
+    "word": "noticeable",
+    "meaning_hi": "ध्यान देने योग्य",
+    "meaning_en": "easy to see or observe",
+    "example": "There was a noticeable improvement in her performance.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "notice + able (keep the e)"
+  },
+  {
+    "word": "nuisance",
+    "meaning_hi": "उपद्रव / परेशानी",
+    "meaning_en": "a person or thing causing annoyance",
+    "example": "Constant traffic noise had become a real nuisance.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "nuis + ance"
+  },
+  {
+    "word": "occasionally",
+    "meaning_hi": "कभी-कभी",
+    "meaning_en": "sometimes but not often",
+    "example": "He occasionally visits his hometown on weekends.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "occasion + ally (double c, double l)"
+  },
+  {
+    "word": "occurrence",
+    "meaning_hi": "घटना",
+    "meaning_en": "something that happens",
+    "example": "Rain is a common occurrence during the monsoon season.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "occur → occurrence (double c, double r)"
+  },
+  {
+    "word": "omission",
+    "meaning_hi": "चूक / छोड़ना",
+    "meaning_en": "something left out",
+    "example": "The omission of key facts affected the report's credibility.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "omit → omission (double s)"
+  },
+  {
+    "word": "opportunity",
+    "meaning_hi": "अवसर",
+    "meaning_en": "a favourable time or set of circumstances",
+    "example": "Every challenge is also an opportunity in disguise.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "opportun + ity (double p)"
+  },
+  {
+    "word": "outrageous",
+    "meaning_hi": "क्रोधजनक / घोर",
+    "meaning_en": "shockingly bad or excessive",
+    "example": "The demands were considered outrageous by the committee.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "outrage + ous"
+  },
+  {
+    "word": "parallel",
+    "meaning_hi": "समानांतर",
+    "meaning_en": "side by side at equal distance",
+    "example": "The canal runs parallel to the main highway.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "-ll- at the end; one r"
+  },
+  {
+    "word": "parliament",
+    "meaning_hi": "संसद",
+    "meaning_en": "the supreme legislative body",
+    "example": "Parliament passed the bill with a clear majority.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "parliam + ent (silent a in i)"
+  },
+  {
+    "word": "particularly",
+    "meaning_hi": "विशेष रूप से",
+    "meaning_en": "especially or specifically",
+    "example": "He was particularly interested in environmental law.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "particular + ly"
+  },
+  {
+    "word": "peculiar",
+    "meaning_hi": "विचित्र",
+    "meaning_en": "strange or unusual",
+    "example": "The patient displayed peculiar symptoms.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "peculi + ar"
+  },
+  {
+    "word": "perceive",
+    "meaning_hi": "महसूस करना / समझना",
+    "meaning_en": "to become aware of through the senses",
+    "example": "He could perceive a change in the team's morale.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "per + ceive (c before ei)"
+  },
+  {
+    "word": "perseverance",
+    "meaning_hi": "लगन / दृढ़ता",
+    "meaning_en": "continued effort despite difficulty",
+    "example": "Her perseverance through three failed attempts led to success.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "persever + ance"
+  },
+  {
+    "word": "phenomenon",
+    "meaning_hi": "घटना / असाधारण बात",
+    "meaning_en": "an observable event or remarkable thing",
+    "example": "Climate change is a global phenomenon requiring urgent action.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "phenomen + on (not phenomena for singular)"
+  },
+  {
+    "word": "plagiarism",
+    "meaning_hi": "साहित्यिक चोरी",
+    "meaning_en": "using another's work as one's own",
+    "example": "The student was penalised for plagiarism in the assignment.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "plagi + arism"
+  },
+  {
+    "word": "pneumonia",
+    "meaning_hi": "निमोनिया",
+    "meaning_en": "a serious lung infection",
+    "example": "He was hospitalised with severe pneumonia.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "silent p: pneu + monia (Greek origin)"
+  },
+  {
+    "word": "possession",
+    "meaning_hi": "अधिकार / कब्जा",
+    "meaning_en": "something owned or controlled",
+    "example": "The court issued an order for possession of the property.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "possess → possession (double s twice)"
+  },
+  {
+    "word": "predecessor",
+    "meaning_hi": "पूर्ववर्ती",
+    "meaning_en": "the person who held a role before the present holder",
+    "example": "She improved on every initiative started by her predecessor.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "prede + cessor (not predicessor)"
+  },
+  {
+    "word": "prejudice",
+    "meaning_hi": "पूर्वाग्रह",
+    "meaning_en": "unreasonable dislike based on preconceptions",
+    "example": "Social prejudice prevents many capable people from advancing.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "pre + judice"
+  },
+  {
+    "word": "privilege",
+    "meaning_hi": "विशेषाधिकार",
+    "meaning_en": "a special right or advantage",
+    "example": "Access to education should not be a privilege but a right.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "privile + ge (not priviledge)"
+  },
+  {
+    "word": "procedure",
+    "meaning_hi": "प्रक्रिया",
+    "meaning_en": "a way of doing something",
+    "example": "Follow the correct procedure before submitting the form.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "proced + ure"
+  },
+  {
+    "word": "profession",
+    "meaning_hi": "पेशा",
+    "meaning_en": "a paid occupation requiring training",
+    "example": "Teaching is a noble profession that shapes future generations.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "profess + ion"
+  },
+  {
+    "word": "pronunciation",
+    "meaning_hi": "उच्चारण",
+    "meaning_en": "the way a word is spoken",
+    "example": "Correct pronunciation is important in public speaking.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "pronounce → pronunciation (note: no ounce)"
+  },
+  {
+    "word": "publicly",
+    "meaning_hi": "सार्वजनिक रूप से",
+    "meaning_en": "in a way that is visible to the public",
+    "example": "The minister publicly apologised for the error.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "public + ly (not publically)"
+  },
+  {
+    "word": "quarantine",
+    "meaning_hi": "संगरोध / एकांतवास",
+    "meaning_en": "isolate to prevent spread of disease",
+    "example": "The travellers were placed in quarantine for fourteen days.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "quarant + ine"
+  },
+  {
+    "word": "questionnaire",
+    "meaning_hi": "प्रश्नावली",
+    "meaning_en": "a set of printed questions for research",
+    "example": "All employees were asked to fill out a questionnaire.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "question + naire (double n)"
+  },
+  {
+    "word": "queue",
+    "meaning_hi": "कतार",
+    "meaning_en": "a line of people waiting",
+    "example": "There was a long queue outside the exam centre.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "qu + eue (silent ue)"
+  },
+  {
+    "word": "receipt",
+    "meaning_hi": "रसीद",
+    "meaning_en": "a written acknowledgement of payment",
+    "example": "Always keep the receipt after making a purchase.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "recei + pt (silent p)"
+  },
+  {
+    "word": "receive",
+    "meaning_hi": "प्राप्त करना",
+    "meaning_en": "to get or accept something",
+    "example": "He was surprised to receive an award from the President.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "c before ei: rec + eive"
+  },
+  {
+    "word": "recommend",
+    "meaning_hi": "अनुशंसा करना",
+    "meaning_en": "to suggest as suitable",
+    "example": "The doctor recommended complete bed rest for a week.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "re + com + mend (one c, double m)"
+  },
+  {
+    "word": "reconnaissance",
+    "meaning_hi": "टोह / सर्वेक्षण",
+    "meaning_en": "military or pre-mission observation of an area",
+    "example": "The unit was sent on a reconnaissance mission before the operation.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "re + conn + aiss + ance (double n, double s: French origin)"
+  },
+  {
+    "word": "referred",
+    "meaning_hi": "संदर्भित किया / भेजा",
+    "meaning_en": "directed to someone for further action",
+    "example": "The patient was referred to a specialist.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "refer → referred (double r: stress on second syllable)"
+  },
+  {
+    "word": "refrigerator",
+    "meaning_hi": "रेफ्रिजरेटर / फ्रिज",
+    "meaning_en": "an appliance for preserving food at low temperature",
+    "example": "Store all perishable items in the refrigerator.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "refrig + erator (not refridgerator)"
+  },
+  {
+    "word": "relevant",
+    "meaning_hi": "प्रासंगिक",
+    "meaning_en": "closely connected to the matter",
+    "example": "Please provide only relevant evidence in support.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "relev + ant"
+  },
+  {
+    "word": "relieved",
+    "meaning_hi": "राहत महसूस करना",
+    "meaning_en": "freed from anxiety or distress",
+    "example": "She was relieved to hear that the results were positive.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "relieve → relieved"
+  },
+  {
+    "word": "resistance",
+    "meaning_hi": "प्रतिरोध",
+    "meaning_en": "the refusal to accept something",
+    "example": "The public showed strong resistance to the new tax policy.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "resist + ance"
+  },
+  {
+    "word": "responsible",
+    "meaning_hi": "जिम्मेदार",
+    "meaning_en": "having a duty to deal with something",
+    "example": "Every citizen is responsible for protecting the environment.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "respons + ible"
+  },
+  {
+    "word": "rhyme",
+    "meaning_hi": "तुकबंदी",
+    "meaning_en": "correspondence of sound between words",
+    "example": "The poem's rhyme scheme was perfectly maintained.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "silent h: rh + yme"
+  },
+  {
+    "word": "rhythm",
+    "meaning_hi": "लय / ताल",
+    "meaning_en": "regular movement or pattern of sound",
+    "example": "The rhythm of the music made the audience sway.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "rh + ythm (silent h, no vowel between y and thm)"
+  },
+  {
+    "word": "ridiculous",
+    "meaning_hi": "हास्यास्पद",
+    "meaning_en": "extremely silly or unreasonable",
+    "example": "The claim was so ridiculous that no one took it seriously.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "ridicul + ous"
+  },
+  {
+    "word": "sacrifice",
+    "meaning_hi": "बलिदान",
+    "meaning_en": "giving up something important",
+    "example": "Soldiers make great sacrifices for the country.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "sacrif + ice"
+  },
+  {
+    "word": "satellite",
+    "meaning_hi": "उपग्रह",
+    "meaning_en": "an object orbiting a planet; also a dependent state",
+    "example": "India launched its first satellite Aryabhata in 1975.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "satel + lite (double l in the middle)"
+  },
+  {
+    "word": "schedule",
+    "meaning_hi": "कार्यसूची",
+    "meaning_en": "a plan showing events and times",
+    "example": "The schedule was revised due to the railway strike.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "sch + edule (British: shed-yool; American: sked-yool)"
+  },
+  {
+    "word": "scissors",
+    "meaning_hi": "कैंची",
+    "meaning_en": "a cutting tool with two blades",
+    "example": "She used a pair of scissors to cut the ribbon.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "sc + issors (silent c)"
+  },
+  {
+    "word": "secretary",
+    "meaning_hi": "सचिव",
+    "meaning_en": "an administrative officer or assistant",
+    "example": "The district Secretary coordinated the relief operation.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "secret + ary (not secretery)"
+  },
+  {
+    "word": "seize",
+    "meaning_hi": "पकड़ना / कब्जा करना",
+    "meaning_en": "to take hold of suddenly",
+    "example": "Police moved to seize the illegal contraband.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "ei not ie: s + eize (exception to i-before-e)"
+  },
+  {
+    "word": "separate",
+    "meaning_hi": "अलग / अलग करना",
+    "meaning_en": "to move apart; not joined",
+    "example": "Store the chemicals in separate containers.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "sep + ar + ate (not -er-)"
+  },
+  {
+    "word": "sergeant",
+    "meaning_hi": "हवलदार",
+    "meaning_en": "a non-commissioned military or police officer",
+    "example": "The sergeant led the patrol through the difficult terrain.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "ser + geant (silent g + ea)"
+  },
+  {
+    "word": "significant",
+    "meaning_hi": "महत्त्वपूर्ण",
+    "meaning_en": "having great meaning or importance",
+    "example": "The discovery had a significant impact on medical science.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "signific + ant"
+  },
+  {
+    "word": "simultaneous",
+    "meaning_hi": "एक साथ / एककालिक",
+    "meaning_en": "occurring at the same time",
+    "example": "The simultaneous launch of two satellites was a milestone.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "simultan + eous"
+  },
+  {
+    "word": "sincerely",
+    "meaning_hi": "ईमानदारी से",
+    "meaning_en": "in a genuine and honest way",
+    "example": "I sincerely hope the situation improves soon.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "sincere → sincerely (drop e)"
+  },
+  {
+    "word": "skilful",
+    "meaning_hi": "कुशल",
+    "meaning_en": "having great ability",
+    "example": "She was a skilful negotiator who resolved disputes peacefully.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "skil + ful (British: one l; American: skillful)"
+  },
+  {
+    "word": "souvenir",
+    "meaning_hi": "यादगार चीज़",
+    "meaning_en": "an item kept as a reminder of a place",
+    "example": "He bought a souvenir from every country he visited.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "souven + ir (French origin)"
+  },
+  {
+    "word": "specimen",
+    "meaning_hi": "नमूना",
+    "meaning_en": "a sample used for analysis",
+    "example": "The doctor collected a specimen for laboratory testing.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "speci + men"
+  },
+  {
+    "word": "strength",
+    "meaning_hi": "शक्ति",
+    "meaning_en": "physical or mental power",
+    "example": "Her greatest strength was her ability to stay calm.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "streng + th"
+  },
+  {
+    "word": "sufficient",
+    "meaning_hi": "पर्याप्त",
+    "meaning_en": "enough for a purpose",
+    "example": "The budget was not sufficient to cover all the expenses.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "suffici + ent (double f)"
+  },
+  {
+    "word": "supersede",
+    "meaning_hi": "बदल देना / हटाना",
+    "meaning_en": "to take the place of something old",
+    "example": "Digital records will supersede paper files in most departments.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "super + sede (not -cede or -cess)"
+  },
+  {
+    "word": "surveillance",
+    "meaning_hi": "निगरानी",
+    "meaning_en": "close observation of a person or place",
+    "example": "The city installed surveillance cameras at all major junctions.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "surveill + ance (double l)"
+  },
+  {
+    "word": "suspicious",
+    "meaning_hi": "संदिग्ध",
+    "meaning_en": "causing suspicion; distrustful",
+    "example": "The officer became suspicious of the unusual transaction.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "suspici + ous"
+  },
+  {
+    "word": "syllable",
+    "meaning_hi": "अक्षर",
+    "meaning_en": "a unit of sound in a word",
+    "example": "The word 'beautiful' has three syllables.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "syl + la + ble"
+  },
+  {
+    "word": "symmetry",
+    "meaning_hi": "सममिति",
+    "meaning_en": "exact correspondence of form",
+    "example": "The Taj Mahal is famous for its perfect symmetry.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "symm + etry (double m)"
+  },
+  {
+    "word": "technical",
+    "meaning_hi": "तकनीकी",
+    "meaning_en": "relating to a particular subject or craft",
+    "example": "The report contained several technical errors.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "technic + al"
+  },
+  {
+    "word": "temperament",
+    "meaning_hi": "स्वभाव / प्रकृति",
+    "meaning_en": "a person's natural character and disposition",
+    "example": "Her calm temperament made her ideal for crisis management.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "temper + a + ment (not temperment — the 'a' is often swallowed)"
+  },
+  {
+    "word": "temperature",
+    "meaning_hi": "तापमान",
+    "meaning_en": "degree of heat or cold",
+    "example": "The temperature dropped sharply in December.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "temper + ature (not -ture)"
+  },
+  {
+    "word": "temporary",
+    "meaning_hi": "अस्थायी",
+    "meaning_en": "lasting only a short time",
+    "example": "The post is temporary and will be reviewed after six months.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "tempor + ary"
+  },
+  {
+    "word": "thorough",
+    "meaning_hi": "पूर्ण / गहन",
+    "meaning_en": "complete and careful",
+    "example": "The inspector carried out a thorough examination.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "th + orough (not through)"
+  },
+  {
+    "word": "threshold",
+    "meaning_hi": "दहलीज / सीमा",
+    "meaning_en": "the point at which something starts",
+    "example": "She had reached the threshold of her patience.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "thresh + hold"
+  },
+  {
+    "word": "throughout",
+    "meaning_hi": "सारे / पूरे समय",
+    "meaning_en": "in every part; all the time",
+    "example": "He maintained his composure throughout the ordeal.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "through + out"
+  },
+  {
+    "word": "tomorrow",
+    "meaning_hi": "कल (आने वाला)",
+    "meaning_en": "the day after today",
+    "example": "The results will be declared tomorrow morning.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "tom + or + row (double r)"
+  },
+  {
+    "word": "tragedy",
+    "meaning_hi": "त्रासदी",
+    "meaning_en": "a very sad event",
+    "example": "The earthquake was a national tragedy.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "trage + dy"
+  },
+  {
+    "word": "transferred",
+    "meaning_hi": "स्थानांतरित",
+    "meaning_en": "moved to a different place",
+    "example": "He was transferred to the northern division.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "transfer → transferred (double r)"
+  },
+  {
+    "word": "unconscious",
+    "meaning_hi": "बेहोश",
+    "meaning_en": "not aware of surroundings",
+    "example": "The accident victim was found unconscious at the scene.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "un + conscious"
+  },
+  {
+    "word": "unfortunately",
+    "meaning_hi": "दुर्भाग्यवश",
+    "meaning_en": "sadly; unluckily",
+    "example": "Unfortunately, the application was rejected.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "unfortunate + ly"
+  },
+  {
+    "word": "unnecessary",
+    "meaning_hi": "अनावश्यक",
+    "meaning_en": "not needed",
+    "example": "Unnecessary delays increased the cost of the project.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "un + necessary (double n)"
+  },
+  {
+    "word": "unusual",
+    "meaning_hi": "असाधारण",
+    "meaning_en": "not typical or common",
+    "example": "The doctor noted an unusual pattern in the test results.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "un + usual"
+  },
+  {
+    "word": "vacuum",
+    "meaning_hi": "निर्वात / खालीपन",
+    "meaning_en": "a space devoid of matter",
+    "example": "The flask was sealed in a vacuum to preserve the contents.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "vacu + um (double u)"
+  },
+  {
+    "word": "vengeance",
+    "meaning_hi": "प्रतिशोध",
+    "meaning_en": "the desire to harm in retaliation",
+    "example": "The victim's family sought vengeance against the attacker.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "venge + ance"
+  },
+  {
+    "word": "veterinarian",
+    "meaning_hi": "पशु चिकित्सक",
+    "meaning_en": "a doctor who treats animals",
+    "example": "The veterinarian examined the injured elephant.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "veterin + arian"
+  },
+  {
+    "word": "villain",
+    "meaning_hi": "खलनायक",
+    "meaning_en": "a wicked person in a story",
+    "example": "The villain was finally brought to justice at the end.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "vill + ain (double l)"
+  },
+  {
+    "word": "virtually",
+    "meaning_hi": "व्यावहारिक रूप से",
+    "meaning_en": "nearly; almost",
+    "example": "The two proposals were virtually identical.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "virtual + ly"
+  },
+  {
+    "word": "Wednesday",
+    "meaning_hi": "बुधवार",
+    "meaning_en": "the fourth day of the week",
+    "example": "The committee meets every Wednesday afternoon.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "Wednes + day (silent d)"
+  },
+  {
+    "word": "weird",
+    "meaning_hi": "अजीब / अनोखा",
+    "meaning_en": "strange or unusual",
+    "example": "The results showed a weird pattern no one had expected.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "ei not ie: w + eird (exception)"
+  },
+  {
+    "word": "welfare",
+    "meaning_hi": "कल्याण",
+    "meaning_en": "health, happiness and wellbeing",
+    "example": "The government introduced new welfare schemes.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "wel + fare"
+  },
+  {
+    "word": "withhold",
+    "meaning_hi": "रोकना",
+    "meaning_en": "to refuse to give something",
+    "example": "He decided to withhold the information from the press.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "with + hold (double h)"
+  },
+  {
+    "word": "wretched",
+    "meaning_hi": "बहुत बुरा / दयनीय",
+    "meaning_en": "miserable; of very poor quality",
+    "example": "The wretched conditions in the prison were exposed.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "wretch + ed (silent w)"
+  },
+  {
+    "word": "xenophobia",
+    "meaning_hi": "विदेशी-विरोध",
+    "meaning_en": "intense fear or dislike of foreigners",
+    "example": "Rising xenophobia undermines social cohesion.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "xeno + phobia"
+  },
+  {
+    "word": "yacht",
+    "meaning_hi": "नौका / यट",
+    "meaning_en": "a medium-sized sailing boat",
+    "example": "The business tycoon owned a luxury yacht.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "silent ch: y + acht"
+  },
+  {
+    "word": "yearning",
+    "meaning_hi": "तीव्र इच्छा",
+    "meaning_en": "a feeling of intense longing",
+    "example": "There was a yearning in his voice as he spoke of home.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "yearn + ing"
+  },
+  {
+    "word": "yield",
+    "meaning_hi": "उत्पन्न करना / झुकना",
+    "meaning_en": "to produce or give way",
+    "example": "Fertile land can yield a great harvest.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "y + ield (ei)"
+  },
+  {
+    "word": "zeal",
+    "meaning_hi": "उत्साह",
+    "meaning_en": "great enthusiasm for a cause",
+    "example": "She pursued the project with remarkable zeal.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "one word, easy: z + eal"
+  },
+  {
+    "word": "zealous",
+    "meaning_hi": "उत्साही",
+    "meaning_en": "showing great enthusiasm",
+    "example": "The zealous officer worked sixteen hours a day.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "zeal + ous"
+  },
+  {
+    "word": "zodiac",
+    "meaning_hi": "राशि चक्र",
+    "meaning_en": "a belt of the sky divided into twelve signs",
+    "example": "She studies Western astrology and the zodiac signs.",
+    "synonyms": [],
+    "antonyms": [],
+    "category": "spellings",
+    "spelling_tip": "zodi + ac"
+  }
+]

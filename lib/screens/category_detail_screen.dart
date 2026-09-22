@@ -1,8 +1,8 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import '../data/bookmark_store.dart';
 import '../data/premium_store.dart';
-import '../data/practice_stats_store.dart';
 import '../data/progress_store.dart';
+import '../utils/app_colors.dart';
 import '../widgets/interactive_pressable.dart';
 import 'learn_screen.dart';
 import 'practice_screen.dart';
@@ -26,17 +26,73 @@ class CategoryDetailScreen extends StatefulWidget {
 }
 
 class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
-  static const Map<String, Color> _categoryAccents = {
-    'core': Color(0xFF1F3C6D),
-    'synonyms': Color(0xFF3B82F6),
-    'oneword': Color(0xFF10B981),
-    'confusing': Color(0xFFF59E0B),
-    'idioms': Color(0xFF8B5CF6),
-    'advanced': Color(0xFFC26A2D),
+  static const Map<String, (String, String)> _learnLabels = {
+    'core':                 ('Learn Words',           'Swipe through vocabulary'),
+    'synonyms':             ('Learn Words',           'Swipe through vocabulary'),
+    'idioms':               ('Learn Idioms',          'Swipe through idioms & phrases'),
+    'confusing':            ('Learn Pairs',           'Swipe through confusing pairs'),
+    'oneword':              ('Learn Substitutions',   'Swipe through one-word substitutions'),
+    'advanced':             ('Learn Words',           'Swipe through vocabulary'),
+    'fixed_prepositions':   ('Learn Prepositions',    'Swipe through fixed prepositions'),
+    'phrasal_verbs':        ('Learn Phrasal Verbs',   'Swipe through phrasal verbs'),
+    'root_words':           ('Learn Root Words',      'Swipe through root words'),
+    'common_errors':        ('Study Errors',          'Learn to spot common mistakes'),
+    'homophones':           ('Learn Homophones',      'Swipe through sound-alike words'),
+    'spellings':            ('Learn Spellings',       'Swipe through spelling rules'),
+    'foreign_words':        ('Learn Foreign Words',   'Swipe through foreign expressions'),
+    'proverbs':             ('Learn Proverbs',        'Swipe through proverbs'),
+    'sentence_improvement': ('Study Sentences',       'Learn to improve sentences'),
+    'cloze_test':           ('Study Fill-in-Blanks',  'Swipe through cloze questions'),
+    'voices':               ('Study Voice Rules',     'Active & Passive with rules'),
+    'narration':            ('Study Narration Rules', 'Direct & Indirect with rules'),
   };
 
-  int _bestScore = 0;
-  int _bestAccuracy = 0;
+  static const Map<String, Color> _categoryAccents = {
+    'core':                 Color(0xFF2563EB),
+    'synonyms':             Color(0xFF059669),
+    'antonyms':             Color(0xFF059669),
+    'synonyms_antonyms':    Color(0xFF059669),
+    'oneword':              Color(0xFFEA580C),
+    'confusing':            Color(0xFF7C3AED),
+    'idioms':               Color(0xFFDC2626),
+    'advanced':             Color(0xFF0D9488),
+    'fixed_prepositions':   Color(0xFFD97706),
+    'phrasal_verbs':        Color(0xFFEC4899),
+    'root_words':           Color(0xFF65A30D),
+    'common_errors':        Color(0xFF6366F1),
+    'homophones':           Color(0xFFC026D3),
+    'spellings':            Color(0xFFF97316),
+    'foreign_words':        Color(0xFF0284C7),
+    'proverbs':             Color(0xFFDB2777),
+    'sentence_improvement': Color(0xFF8B5CF6),
+    'cloze_test':           Color(0xFFCA8A04),
+    'voices':               Color(0xFF0891B2),
+    'narration':            Color(0xFFD97706),
+  };
+
+  static const Map<String, List<Color>> _categoryGradientColors = {
+    'core':                 [Color(0xFF1F3C6D), Color(0xFF2563EB)],
+    'synonyms':             [Color(0xFF064E3B), Color(0xFF059669)],
+    'antonyms':             [Color(0xFF064E3B), Color(0xFF059669)],
+    'synonyms_antonyms':    [Color(0xFF064E3B), Color(0xFF059669)],
+    'oneword':              [Color(0xFF9A3412), Color(0xFFEA580C)],
+    'confusing':            [Color(0xFF4C1D95), Color(0xFF7C3AED)],
+    'idioms':               [Color(0xFF7F1D1D), Color(0xFFDC2626)],
+    'advanced':             [Color(0xFF134E4A), Color(0xFF0D9488)],
+    'fixed_prepositions':   [Color(0xFF92400E), Color(0xFFD97706)],
+    'phrasal_verbs':        [Color(0xFF9D174D), Color(0xFFEC4899)],
+    'root_words':           [Color(0xFF365314), Color(0xFF65A30D)],
+    'common_errors':        [Color(0xFF1E1B4B), Color(0xFF6366F1)],
+    'homophones':           [Color(0xFF701A75), Color(0xFFC026D3)],
+    'spellings':            [Color(0xFF7C2D12), Color(0xFFF97316)],
+    'foreign_words':        [Color(0xFF0C4A6E), Color(0xFF0284C7)],
+    'proverbs':             [Color(0xFF831843), Color(0xFFDB2777)],
+    'sentence_improvement': [Color(0xFF2E1065), Color(0xFF8B5CF6)],
+    'cloze_test':           [Color(0xFF713F12), Color(0xFFCA8A04)],
+    'voices':               [Color(0xFF164E63), Color(0xFF0891B2)],
+    'narration':            [Color(0xFF78350F), Color(0xFFD97706)],
+  };
+
   int _remainingPracticeSessions = 0;
   int _bookmarkCount = 0;
   bool _premiumLoaded = false;
@@ -44,17 +100,7 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
   @override
   void initState() {
     super.initState();
-    _loadPracticeStats();
     _loadPremiumMeta();
-  }
-
-  Future<void> _loadPracticeStats() async {
-    await loadPracticeStatsStore([widget.categoryKey]);
-    if (!mounted) return;
-    setState(() {
-      _bestScore = getStoredBestScore(widget.categoryKey);
-      _bestAccuracy = getStoredBestAccuracy(widget.categoryKey);
-    });
   }
 
   Future<void> _loadPremiumMeta() async {
@@ -74,19 +120,13 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
   Widget build(BuildContext context) {
     final learned = progressStore[widget.categoryKey] ?? 0;
     final progressValue = widget.total == 0 ? 0.0 : learned / widget.total;
-    final accent =
-        _categoryAccents[widget.categoryKey] ?? const Color(0xFF1F3C6D);
+    final accent = _categoryAccents[widget.categoryKey] ?? const Color(0xFF2563EB);
+    final gradientColors = _categoryGradientColors[widget.categoryKey] ??
+        [const Color(0xFF1F3C6D), const Color(0xFF2563EB)];
 
     return Scaffold(
-      body: Container(
-        decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            colors: [Color(0xFFF4F7FC), Color(0xFFEAF0F9)],
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-          ),
-        ),
-        child: SafeArea(
+      backgroundColor: context.scaffoldBg,
+      body: SafeArea(
           child: ListView(
             padding: const EdgeInsets.all(16),
             children: [
@@ -100,10 +140,10 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
               const SizedBox(height: 8),
               Text(
                 widget.title,
-                style: const TextStyle(
+                style: TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.w800,
-                  color: Color(0xFF0F172A),
+                  color: context.textPrimary,
                 ),
               ),
               const SizedBox(height: 16),
@@ -112,7 +152,7 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(18),
                   gradient: LinearGradient(
-                    colors: [accent, accent.withValues(alpha: 0.85)],
+                    colors: gradientColors,
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                   ),
@@ -165,82 +205,19 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
                 ),
               ),
               const SizedBox(height: 24),
-              if (_bestScore > 0 || _bestAccuracy > 0) ...[
-                Container(
-                  padding: const EdgeInsets.all(16),
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(16),
-                    border: Border.all(color: const Color(0xFFE2E8F0)),
-                  ),
-                  child: Row(
-                    children: [
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            const Text(
-                              'Best Score',
-                              style: TextStyle(
-                                color: Color(0xFF64748B),
-                                fontSize: 13,
-                                fontWeight: FontWeight.w600,
-                              ),
-                            ),
-                            const SizedBox(height: 4),
-                            Text(
-                              '$_bestScore/10',
-                              style: const TextStyle(
-                                fontSize: 18,
-                                fontWeight: FontWeight.w700,
-                                color: Color(0xFF0F172A),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            const Text(
-                              'Best Accuracy',
-                              style: TextStyle(
-                                color: Color(0xFF64748B),
-                                fontSize: 13,
-                                fontWeight: FontWeight.w600,
-                              ),
-                            ),
-                            const SizedBox(height: 4),
-                            Text(
-                              '$_bestAccuracy%',
-                              style: TextStyle(
-                                fontSize: 18,
-                                fontWeight: FontWeight.w700,
-                                color: accent,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                const SizedBox(height: 24),
-              ],
-              const Text(
+              Text(
                 'Start Learning',
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
-                  color: Color(0xFF0F172A),
+                  color: context.textPrimary,
                 ),
               ),
               const SizedBox(height: 14),
               _ModernActionTile(
                 icon: Icons.swipe_rounded,
-                title: 'Learn Words',
-                subtitle: 'Swipe through vocabulary',
+                title: _learnLabels[widget.categoryKey]?.$1 ?? 'Learn Words',
+                subtitle: _learnLabels[widget.categoryKey]?.$2 ?? 'Swipe through vocabulary',
                 accent: accent,
                 onTap: () {
                   Navigator.push(
@@ -275,7 +252,6 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
                       ),
                     ),
                   ).then((_) {
-                    _loadPracticeStats();
                     _loadPremiumMeta();
                   });
                 },
@@ -323,7 +299,6 @@ class _CategoryDetailScreenState extends State<CategoryDetailScreen> {
             ],
           ),
         ),
-      ),
     );
   }
 }
@@ -354,9 +329,9 @@ class _ModernActionTile extends StatelessWidget {
         child: Container(
           padding: const EdgeInsets.all(18),
           decoration: BoxDecoration(
-            color: Colors.white,
+            color: context.cardBg,
             borderRadius: BorderRadius.circular(16),
-            border: Border.all(color: const Color(0xFFE2E8F0)),
+            border: Border.all(color: context.borderSubtle),
             boxShadow: [
               BoxShadow(
                 color: Colors.black.withValues(alpha: 0.04),
@@ -383,18 +358,19 @@ class _ModernActionTile extends StatelessWidget {
                   children: [
                     Text(
                       title,
-                      style: const TextStyle(
+                      style: TextStyle(
                         fontSize: 16,
                         fontWeight: FontWeight.bold,
+                        color: context.textPrimary,
                       ),
                     ),
                     const SizedBox(height: 4),
-                    Text(subtitle, style: const TextStyle(color: Colors.grey)),
+                    Text(subtitle, style: TextStyle(color: context.textSecondary)),
                   ],
                 ),
               ),
 
-              const Icon(Icons.arrow_forward_ios, size: 16),
+              Icon(Icons.arrow_forward_ios, size: 16, color: context.textSecondary),
             ],
           ),
         ),
@@ -402,4 +378,3 @@ class _ModernActionTile extends StatelessWidget {
     );
   }
 }
-
