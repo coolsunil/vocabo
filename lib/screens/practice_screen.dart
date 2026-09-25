@@ -14,6 +14,38 @@ import '../data/weak_areas_store.dart';
 import '../models/weak_attempt.dart';
 import '../models/word_model.dart';
 
+List<Map<String, dynamic>> buildGrammarQuestionSpecsForCategory(
+  List<Word> words,
+  Random random,
+) {
+  final questions = <Map<String, dynamic>>[];
+
+  for (final word in words) {
+    final rawSentence = word.word.trim();
+    final correctAnswer = word.example.trim();
+    if (rawSentence.isEmpty || correctAnswer.isEmpty) continue;
+
+    final options = <String>{}
+      ..addAll(
+        word.options
+            .map((option) => option.trim())
+            .where((option) => option.isNotEmpty),
+      )
+      ..add(correctAnswer);
+
+    if (options.length < 2) continue;
+
+    final shuffled = options.toList()..shuffle(random);
+    questions.add({
+      'prompt': 'Choose the correct transformation:\n$rawSentence',
+      'options': shuffled,
+      'correctAnswer': correctAnswer,
+    });
+  }
+
+  return questions;
+}
+
 class PracticeScreen extends StatefulWidget {
   final String category;
   final String title;
@@ -76,7 +108,9 @@ class _PracticeScreenState extends State<PracticeScreen> {
     super.initState();
     _initializePractice();
     loadQuizSettings().then((_) {
-      if (mounted) setState(() => _negativeMarkingEnabled = negativeMarkingEnabled);
+      if (mounted) {
+        setState(() => _negativeMarkingEnabled = negativeMarkingEnabled);
+      }
     });
   }
 
@@ -92,7 +126,10 @@ class _PracticeScreenState extends State<PracticeScreen> {
     _overallTimer?.cancel();
     if (mounted) setState(() => _timeLeft = _timerDuration);
     _overallTimer = Timer.periodic(const Duration(seconds: 1), (t) {
-      if (!mounted) { t.cancel(); return; }
+      if (!mounted) {
+        t.cancel();
+        return;
+      }
       setState(() => _timeLeft--);
       if (_timeLeft <= 0) {
         t.cancel();
@@ -148,8 +185,14 @@ class _PracticeScreenState extends State<PracticeScreen> {
       return;
     }
 
-    final allowed = await consumePracticeSession(widget.category, mixed: _isMixedQuiz);
-    final remaining = await getRemainingPracticeSessions(widget.category, mixed: _isMixedQuiz);
+    final allowed = await consumePracticeSession(
+      widget.category,
+      mixed: _isMixedQuiz,
+    );
+    final remaining = await getRemainingPracticeSessions(
+      widget.category,
+      mixed: _isMixedQuiz,
+    );
 
     if (!mounted) return;
 
@@ -187,7 +230,11 @@ class _PracticeScreenState extends State<PracticeScreen> {
     final attempts = widget.weakAttempts!;
     if (attempts.isEmpty) {
       if (!mounted) return;
-      setState(() { allQuestions = []; questions = []; isLoading = false; });
+      setState(() {
+        allQuestions = [];
+        questions = [];
+        isLoading = false;
+      });
       return;
     }
 
@@ -206,18 +253,21 @@ class _PracticeScreenState extends State<PracticeScreen> {
       }
 
       // Fill up to 4 options with random correct answers from other questions
-      final others = correctPool.where((a) => !optionSet.contains(a)).toList()..shuffle(_random);
+      final others = correctPool.where((a) => !optionSet.contains(a)).toList()
+        ..shuffle(_random);
       for (final o in others) {
         if (optionSet.length >= 4) break;
         optionSet.add(o);
       }
 
       if (optionSet.length < 2) continue; // skip if can't form a valid question
-      generated.add(_PracticeQuestion(
-        prompt: attempt.prompt,
-        options: optionSet.toList()..shuffle(_random),
-        correctAnswer: attempt.correctAnswer,
-      ));
+      generated.add(
+        _PracticeQuestion(
+          prompt: attempt.prompt,
+          options: optionSet.toList()..shuffle(_random),
+          correctAnswer: attempt.correctAnswer,
+        ),
+      );
     }
 
     generated.shuffle(_random);
@@ -276,6 +326,9 @@ class _PracticeScreenState extends State<PracticeScreen> {
         return _buildClozeTestQuestions(words);
       case 'spellings':
         return _buildSpellingQuestions(words);
+      case 'voices':
+      case 'narration':
+        return _buildGrammarQuestions(words);
       case 'fixed_prepositions':
       case 'phrasal_verbs':
       case 'root_words':
@@ -283,7 +336,9 @@ class _PracticeScreenState extends State<PracticeScreen> {
       case 'advanced':
       case 'core':
       default:
-        return _isMixedQuiz ? _buildMixedQuestions(words) : _buildMeaningToWordQuestions(words);
+        return _isMixedQuiz
+            ? _buildMixedQuestions(words)
+            : _buildMeaningToWordQuestions(words);
     }
   }
 
@@ -294,39 +349,82 @@ class _PracticeScreenState extends State<PracticeScreen> {
     }
     final mixed = <_PracticeQuestion>[];
     mixed.addAll(_buildMeaningToWordQuestions(byCategory['core'] ?? const []));
-    mixed.addAll(_buildMeaningToWordQuestions(byCategory['advanced'] ?? const []));
+    mixed.addAll(
+      _buildMeaningToWordQuestions(byCategory['advanced'] ?? const []),
+    );
     mixed.addAll(_buildSynonymQuestions(byCategory['synonyms'] ?? const []));
     mixed.addAll(_buildAntonymQuestions(byCategory['antonyms'] ?? const []));
     mixed.addAll(_buildIdiomQuestions(byCategory['idioms'] ?? const []));
     mixed.addAll(_buildOneWordQuestions(byCategory['oneword'] ?? const []));
     mixed.addAll(_buildConfusingQuestions(byCategory['confusing'] ?? const []));
-    mixed.addAll(_buildMeaningToWordQuestions(byCategory['fixed_prepositions'] ?? const []));
-    mixed.addAll(_buildMeaningToWordQuestions(byCategory['phrasal_verbs'] ?? const []));
-    mixed.addAll(_buildMeaningToWordQuestions(byCategory['root_words'] ?? const []));
-    mixed.addAll(_buildSentenceCorrectionQuestions(byCategory['common_errors'] ?? const []));
-    mixed.addAll(_buildConfusingQuestions(byCategory['homophones'] ?? const []));
-    mixed.addAll(_buildMeaningToWordQuestions(byCategory['spellings'] ?? const []));
-    mixed.addAll(_buildMeaningToWordQuestions(byCategory['foreign_words'] ?? const []));
+    mixed.addAll(
+      _buildMeaningToWordQuestions(
+        byCategory['fixed_prepositions'] ?? const [],
+      ),
+    );
+    mixed.addAll(
+      _buildMeaningToWordQuestions(byCategory['phrasal_verbs'] ?? const []),
+    );
+    mixed.addAll(
+      _buildMeaningToWordQuestions(byCategory['root_words'] ?? const []),
+    );
+    mixed.addAll(
+      _buildSentenceCorrectionQuestions(
+        byCategory['common_errors'] ?? const [],
+      ),
+    );
+    mixed.addAll(
+      _buildConfusingQuestions(byCategory['homophones'] ?? const []),
+    );
+    mixed.addAll(
+      _buildMeaningToWordQuestions(byCategory['spellings'] ?? const []),
+    );
+    mixed.addAll(
+      _buildMeaningToWordQuestions(byCategory['foreign_words'] ?? const []),
+    );
     mixed.addAll(_buildIdiomQuestions(byCategory['proverbs'] ?? const []));
-    mixed.addAll(_buildSentenceCorrectionQuestions(byCategory['sentence_improvement'] ?? const []));
-    mixed.addAll(_buildClozeTestQuestions(byCategory['cloze_test'] ?? const []));
+    mixed.addAll(
+      _buildSentenceCorrectionQuestions(
+        byCategory['sentence_improvement'] ?? const [],
+      ),
+    );
+    mixed.addAll(_buildGrammarQuestions(byCategory['voices'] ?? const []));
+    mixed.addAll(_buildGrammarQuestions(byCategory['narration'] ?? const []));
+    mixed.addAll(
+      _buildClozeTestQuestions(byCategory['cloze_test'] ?? const []),
+    );
     return mixed;
   }
 
   List<_PracticeQuestion> _buildMeaningToWordQuestions(List<Word> words) {
-    final wordPool = words.map((w) => w.word.trim()).where((w) => w.isNotEmpty).toSet().toList();
+    final wordPool = words
+        .map((w) => w.word.trim())
+        .where((w) => w.isNotEmpty)
+        .toSet()
+        .toList();
     final qs = <_PracticeQuestion>[];
     for (final word in words) {
       if (word.meaningEn.trim().isEmpty || word.word.trim().isEmpty) continue;
       final options = _buildOptions(word.word.trim(), wordPool);
       if (options.length < 4) continue;
-      qs.add(_PracticeQuestion(prompt: 'Choose the correct word:\n${word.meaningEn}', options: options, correctAnswer: word.word.trim()));
+      qs.add(
+        _PracticeQuestion(
+          prompt: 'Choose the correct word:\n${word.meaningEn}',
+          options: options,
+          correctAnswer: word.word.trim(),
+        ),
+      );
     }
     return qs;
   }
 
   List<_PracticeQuestion> _buildSynonymQuestions(List<Word> words) {
-    final synonymPool = words.expand((w) => w.synonyms).map((s) => s.trim()).where((s) => s.isNotEmpty).toSet().toList();
+    final synonymPool = words
+        .expand((w) => w.synonyms)
+        .map((s) => s.trim())
+        .where((s) => s.isNotEmpty)
+        .toSet()
+        .toList();
     final qs = <_PracticeQuestion>[];
     for (final word in words) {
       if (word.word.trim().isEmpty || word.synonyms.isEmpty) continue;
@@ -334,13 +432,24 @@ class _PracticeScreenState extends State<PracticeScreen> {
       if (correct.isEmpty) continue;
       final options = _buildOptions(correct, synonymPool);
       if (options.length < 4) continue;
-      qs.add(_PracticeQuestion(prompt: 'Select the best synonym for:\n${word.word}', options: options, correctAnswer: correct));
+      qs.add(
+        _PracticeQuestion(
+          prompt: 'Select the best synonym for:\n${word.word}',
+          options: options,
+          correctAnswer: correct,
+        ),
+      );
     }
     return qs;
   }
 
   List<_PracticeQuestion> _buildAntonymQuestions(List<Word> words) {
-    final antonymPool = words.expand((w) => w.antonyms).map((a) => a.trim()).where((a) => a.isNotEmpty).toSet().toList();
+    final antonymPool = words
+        .expand((w) => w.antonyms)
+        .map((a) => a.trim())
+        .where((a) => a.isNotEmpty)
+        .toSet()
+        .toList();
     final qs = <_PracticeQuestion>[];
     for (final word in words) {
       if (word.word.trim().isEmpty || word.antonyms.isEmpty) continue;
@@ -348,14 +457,30 @@ class _PracticeScreenState extends State<PracticeScreen> {
       if (correct.isEmpty) continue;
       final options = _buildOptions(correct, antonymPool);
       if (options.length < 4) continue;
-      qs.add(_PracticeQuestion(prompt: 'Select the best antonym for:\n${word.word}', options: options, correctAnswer: correct));
+      qs.add(
+        _PracticeQuestion(
+          prompt: 'Select the best antonym for:\n${word.word}',
+          options: options,
+          correctAnswer: correct,
+        ),
+      );
     }
     return qs;
   }
 
   List<_PracticeQuestion> _buildSynonymsAndAntonymsQuestions(List<Word> words) {
-    final synonymPool = words.expand((w) => w.synonyms).map((s) => s.trim()).where((s) => s.isNotEmpty).toSet().toList();
-    final antonymPool = words.expand((w) => w.antonyms).map((a) => a.trim()).where((a) => a.isNotEmpty).toSet().toList();
+    final synonymPool = words
+        .expand((w) => w.synonyms)
+        .map((s) => s.trim())
+        .where((s) => s.isNotEmpty)
+        .toSet()
+        .toList();
+    final antonymPool = words
+        .expand((w) => w.antonyms)
+        .map((a) => a.trim())
+        .where((a) => a.isNotEmpty)
+        .toSet()
+        .toList();
     final qs = <_PracticeQuestion>[];
     for (final word in words) {
       if (word.word.trim().isEmpty) continue;
@@ -365,7 +490,13 @@ class _PracticeScreenState extends State<PracticeScreen> {
         if (correct.isNotEmpty) {
           final options = _buildOptions(correct, synonymPool);
           if (options.length >= 4) {
-            qs.add(_PracticeQuestion(prompt: 'Select the best synonym for:\n${word.word}', options: options, correctAnswer: correct));
+            qs.add(
+              _PracticeQuestion(
+                prompt: 'Select the best synonym for:\n${word.word}',
+                options: options,
+                correctAnswer: correct,
+              ),
+            );
           }
         }
       }
@@ -375,7 +506,13 @@ class _PracticeScreenState extends State<PracticeScreen> {
         if (correct.isNotEmpty) {
           final options = _buildOptions(correct, antonymPool);
           if (options.length >= 4) {
-            qs.add(_PracticeQuestion(prompt: 'Select the best antonym for:\n${word.word}', options: options, correctAnswer: correct));
+            qs.add(
+              _PracticeQuestion(
+                prompt: 'Select the best antonym for:\n${word.word}',
+                options: options,
+                correctAnswer: correct,
+              ),
+            );
           }
         }
       }
@@ -384,19 +521,33 @@ class _PracticeScreenState extends State<PracticeScreen> {
   }
 
   List<_PracticeQuestion> _buildIdiomQuestions(List<Word> words) {
-    final meaningPool = words.map((w) => w.meaningEn.trim()).where((m) => m.isNotEmpty).toSet().toList();
+    final meaningPool = words
+        .map((w) => w.meaningEn.trim())
+        .where((m) => m.isNotEmpty)
+        .toSet()
+        .toList();
     final qs = <_PracticeQuestion>[];
     for (final word in words) {
       if (word.word.trim().isEmpty || word.meaningEn.trim().isEmpty) continue;
       final options = _buildOptions(word.meaningEn.trim(), meaningPool);
       if (options.length < 4) continue;
-      qs.add(_PracticeQuestion(prompt: 'What does this idiom mean?\n${word.word}', options: options, correctAnswer: word.meaningEn.trim()));
+      qs.add(
+        _PracticeQuestion(
+          prompt: 'What does this idiom mean?\n${word.word}',
+          options: options,
+          correctAnswer: word.meaningEn.trim(),
+        ),
+      );
     }
     return qs;
   }
 
   List<_PracticeQuestion> _buildOneWordQuestions(List<Word> words) {
-    final pool = words.map((w) => w.word.trim()).where((w) => w.isNotEmpty).toSet().toList();
+    final pool = words
+        .map((w) => w.word.trim())
+        .where((w) => w.isNotEmpty)
+        .toSet()
+        .toList();
     final qs = <_PracticeQuestion>[];
     for (final word in words) {
       if (word.word.trim().isEmpty) continue;
@@ -406,7 +557,13 @@ class _PracticeScreenState extends State<PracticeScreen> {
       if (phrase.isEmpty) continue;
       final options = _buildOptions(word.word.trim(), pool);
       if (options.length < 4) continue;
-      qs.add(_PracticeQuestion(prompt: 'Select the one-word substitution:\n$phrase', options: options, correctAnswer: word.word.trim()));
+      qs.add(
+        _PracticeQuestion(
+          prompt: 'Select the one-word substitution:\n$phrase',
+          options: options,
+          correctAnswer: word.word.trim(),
+        ),
+      );
     }
     return qs;
   }
@@ -449,17 +606,27 @@ class _PracticeScreenState extends State<PracticeScreen> {
           .toList();
       final options = _buildOptions(correct, matchingPool);
       if (options.length < 4) continue;
-      qs.add(_PracticeQuestion(
-        prompt: 'Choose the correct meaning for:\n${word.word}',
-        options: options,
-        correctAnswer: correct,
-      ));
+      qs.add(
+        _PracticeQuestion(
+          prompt: 'Choose the correct meaning for:\n${word.word}',
+          options: options,
+          correctAnswer: correct,
+        ),
+      );
     }
     return qs;
   }
 
   List<_PracticeQuestion> _buildSentenceCorrectionQuestions(List<Word> words) {
-    final diffs = <({String wrong, String correct, String wrongPhrase, String correctPhrase})>[];
+    final diffs =
+        <
+          ({
+            String wrong,
+            String correct,
+            String wrongPhrase,
+            String correctPhrase,
+          })
+        >[];
     for (final word in words) {
       final orig = word.word.trim();
       final corr = word.example.trim();
@@ -488,7 +655,21 @@ class _PracticeScreenState extends State<PracticeScreen> {
       {'can', 'could', 'may', 'might', 'must'},
       {'a', 'an', 'the'},
       // prepositions + directional particles together so "on/off/up/down" are siblings
-      {'in', 'on', 'off', 'at', 'by', 'for', 'up', 'down', 'out', 'over', 'into', 'onto', 'from'},
+      {
+        'in',
+        'on',
+        'off',
+        'at',
+        'by',
+        'for',
+        'up',
+        'down',
+        'out',
+        'over',
+        'into',
+        'onto',
+        'from',
+      },
       {'less', 'fewer', 'little', 'few'},
       {'much', 'many', 'more', 'most'},
       {'this', 'that', 'these', 'those'},
@@ -573,27 +754,46 @@ class _PracticeScreenState extends State<PracticeScreen> {
 
       // ── Type 1: sentence has an error — pick the correct replacement ──
       // Options: correctPhrase + 2 tweaks of correctPhrase + "No improvement"
-      final quotedWrong = _substitute(d.wrong, d.wrongPhrase, '"${d.wrongPhrase}"');
+      final quotedWrong = _substitute(
+        d.wrong,
+        d.wrongPhrase,
+        '"${d.wrongPhrase}"',
+      );
       if (quotedWrong != null && tweaks.length >= 2) {
-        final distractors = (List<String>.from(tweaks)..shuffle(_random)).take(2).toList();
-        qs.add(_PracticeQuestion(
-          prompt: 'Choose the best alternative for the part in quotes:\n$quotedWrong',
-          options: [d.correctPhrase, ...distractors, noImprovement]..shuffle(_random),
-          correctAnswer: d.correctPhrase,
-        ));
+        final distractors = (List<String>.from(
+          tweaks,
+        )..shuffle(_random)).take(2).toList();
+        qs.add(
+          _PracticeQuestion(
+            prompt:
+                'Choose the best alternative for the part in quotes:\n$quotedWrong',
+            options: [d.correctPhrase, ...distractors, noImprovement]
+              ..shuffle(_random),
+            correctAnswer: d.correctPhrase,
+          ),
+        );
       }
 
       // ── Type 2 (every 3rd entry): correct sentence — answer is "No improvement" ──
       // Options: 3 tweaks of correctPhrase + "No improvement"
       if (idx % 3 == 2) {
-        final quotedCorrect = _substitute(d.correct, d.correctPhrase, '"${d.correctPhrase}"');
+        final quotedCorrect = _substitute(
+          d.correct,
+          d.correctPhrase,
+          '"${d.correctPhrase}"',
+        );
         if (quotedCorrect != null && tweaks.length >= 3) {
-          final wrongOpts = (List<String>.from(tweaks)..shuffle(_random)).take(3).toList();
-          qs.add(_PracticeQuestion(
-            prompt: 'Choose the best alternative for the part in quotes:\n$quotedCorrect',
-            options: [...wrongOpts, noImprovement]..shuffle(_random),
-            correctAnswer: noImprovement,
-          ));
+          final wrongOpts = (List<String>.from(
+            tweaks,
+          )..shuffle(_random)).take(3).toList();
+          qs.add(
+            _PracticeQuestion(
+              prompt:
+                  'Choose the best alternative for the part in quotes:\n$quotedCorrect',
+              options: [...wrongOpts, noImprovement]..shuffle(_random),
+              correctAnswer: noImprovement,
+            ),
+          );
         }
       }
     }
@@ -604,7 +804,15 @@ class _PracticeScreenState extends State<PracticeScreen> {
   // SSC-style Spotting Errors: sentence is split into labelled parts, user picks
   // which part contains the grammatical error (or "No Error").
   List<_PracticeQuestion> _buildSpottingErrorsQuestions(List<Word> words) {
-    final diffs = <({String wrong, String correct, String wrongPhrase, String correctPhrase})>[];
+    final diffs =
+        <
+          ({
+            String wrong,
+            String correct,
+            String wrongPhrase,
+            String correctPhrase,
+          })
+        >[];
     for (final word in words) {
       final orig = word.word.trim();
       final corr = word.example.trim();
@@ -619,7 +827,8 @@ class _PracticeScreenState extends State<PracticeScreen> {
       if (chunks == null || chunks.length < 2) continue;
 
       // Find which chunk contains the error phrase.
-      String norm(String w) => w.replaceAll(RegExp(r'[^\w\s]'), '').toLowerCase().trim();
+      String norm(String w) =>
+          w.replaceAll(RegExp(r'[^\w\s]'), '').toLowerCase().trim();
       final errorChunk = chunks.firstWhere(
         (c) => norm(c).contains(norm(d.wrongPhrase)),
         orElse: () => '',
@@ -628,11 +837,14 @@ class _PracticeScreenState extends State<PracticeScreen> {
 
       // Options: all chunks + "No Error" (shuffled), user picks the error chunk.
       final options = [...chunks, 'No Error']..shuffle(_random);
-      qs.add(_PracticeQuestion(
-        prompt: 'Find the part with the grammatical error:\n${chunks.join(' / ')}',
-        options: options,
-        correctAnswer: errorChunk,
-      ));
+      qs.add(
+        _PracticeQuestion(
+          prompt:
+              'Find the part with the grammatical error:\n${chunks.join(' / ')}',
+          options: options,
+          correctAnswer: errorChunk,
+        ),
+      );
     }
     return qs;
   }
@@ -649,9 +861,15 @@ class _PracticeScreenState extends State<PracticeScreen> {
       for (int i = 0; i <= words.length - pw.length; i++) {
         bool match = true;
         for (int j = 0; j < pw.length; j++) {
-          if (norm(words[i + j]) != norm(pw[j])) { match = false; break; }
+          if (norm(words[i + j]) != norm(pw[j])) {
+            match = false;
+            break;
+          }
         }
-        if (match) { errorStart = i; break; }
+        if (match) {
+          errorStart = i;
+          break;
+        }
       }
       if (errorStart == -1) return null;
       final errorEnd = errorStart + pw.length;
@@ -695,25 +913,39 @@ class _PracticeScreenState extends State<PracticeScreen> {
     //    occasion → occassion, absence → absense (via suffix below)
     for (int i = 1; i < word.length - 1; i++) {
       final c = word[i];
-      if ('bcdfghjklmnpqrstvwxyz'.contains(c) && word[i - 1] != c && word[i + 1] != c) {
+      if ('bcdfghjklmnpqrstvwxyz'.contains(c) &&
+          word[i - 1] != c &&
+          word[i + 1] != c) {
         variants.add(word.substring(0, i + 1) + c + word.substring(i + 1));
       }
     }
 
     // 3. Suffix swaps — the classic SSC traps
     const suffixPairs = [
-      ('ance', 'ence'), ('ance', 'anse'),
-      ('ence', 'ance'), ('ence', 'ense'),
-      ('ible', 'able'), ('able', 'ible'),
-      ('ar',   'er'),   ('er',   'ar'),
-      ('or',   'er'),   ('or',   'ar'),
-      ('ary',  'ery'),  ('ery',  'ary'),
-      ('ant',  'ent'),  ('ent',  'ant'),
-      ('tion', 'sion'), ('sion', 'tion'),
-      ('ment', 'mant'), ('ment', 'mente'),
-      ('ful',  'full'), ('lly',  'ly'),
-      ('ite',  'ight'), ('ight', 'ite'),
-      ('ate',  'ait'),  ('ate',  'ete'),
+      ('ance', 'ence'),
+      ('ance', 'anse'),
+      ('ence', 'ance'),
+      ('ence', 'ense'),
+      ('ible', 'able'),
+      ('able', 'ible'),
+      ('ar', 'er'),
+      ('er', 'ar'),
+      ('or', 'er'),
+      ('or', 'ar'),
+      ('ary', 'ery'),
+      ('ery', 'ary'),
+      ('ant', 'ent'),
+      ('ent', 'ant'),
+      ('tion', 'sion'),
+      ('sion', 'tion'),
+      ('ment', 'mant'),
+      ('ment', 'mente'),
+      ('ful', 'full'),
+      ('lly', 'ly'),
+      ('ite', 'ight'),
+      ('ight', 'ite'),
+      ('ate', 'ait'),
+      ('ate', 'ete'),
     ];
     for (final (from, to) in suffixPairs) {
       if (word.endsWith(from)) {
@@ -728,13 +960,20 @@ class _PracticeScreenState extends State<PracticeScreen> {
     // 5. Vowel substitutions at non-initial positions
     //    separate → seperate (a→e), definite → defenite (i→e)
     const vowelSubs = [
-      ('a', 'e'), ('e', 'a'), ('i', 'e'), ('e', 'i'),
-      ('ou', 'o'), ('ea', 'ee'), ('ee', 'ea'),
+      ('a', 'e'),
+      ('e', 'a'),
+      ('i', 'e'),
+      ('e', 'i'),
+      ('ou', 'o'),
+      ('ea', 'ee'),
+      ('ee', 'ea'),
     ];
     for (final (from, to) in vowelSubs) {
       final idx = word.indexOf(from, 1); // skip first char
       if (idx > 0 && idx < word.length - from.length) {
-        variants.add(word.substring(0, idx) + to + word.substring(idx + from.length));
+        variants.add(
+          word.substring(0, idx) + to + word.substring(idx + from.length),
+        );
       }
     }
 
@@ -743,7 +982,11 @@ class _PracticeScreenState extends State<PracticeScreen> {
 
     // Sort by closeness to original length — subtle variants first
     final sorted = variants.toList()
-      ..sort((a, b) => (a.length - word.length).abs().compareTo((b.length - word.length).abs()));
+      ..sort(
+        (a, b) => (a.length - word.length).abs().compareTo(
+          (b.length - word.length).abs(),
+        ),
+      );
     return sorted;
   }
 
@@ -751,7 +994,10 @@ class _PracticeScreenState extends State<PracticeScreen> {
     final validWords = words.where((w) => w.word.trim().isNotEmpty).toList();
     if (validWords.isEmpty) return [];
 
-    final allCorrect = validWords.map((w) => w.word.trim().toLowerCase()).toSet().toList();
+    final allCorrect = validWords
+        .map((w) => w.word.trim().toLowerCase())
+        .toSet()
+        .toList();
     final qs = <_PracticeQuestion>[];
 
     for (final word in validWords) {
@@ -761,21 +1007,27 @@ class _PracticeScreenState extends State<PracticeScreen> {
 
       // Type A — "Select the correctly spelt word" (1 correct + 3 misspellings)
       final optionsA = [correct, ...misspellings.take(3)]..shuffle(_random);
-      qs.add(_PracticeQuestion(
-        prompt: 'Select the correctly spelt word:',
-        options: optionsA,
-        correctAnswer: correct,
-      ));
+      qs.add(
+        _PracticeQuestion(
+          prompt: 'Select the correctly spelt word:',
+          options: optionsA,
+          correctAnswer: correct,
+        ),
+      );
 
       // Type B — "Find the incorrectly spelt word" (1 misspelling + 3 correct others)
-      final others = allCorrect.where((w) => w != correct).toList()..shuffle(_random);
+      final others = allCorrect.where((w) => w != correct).toList()
+        ..shuffle(_random);
       if (others.length >= 3) {
-        final optionsB = [misspellings.first, ...others.take(3)]..shuffle(_random);
-        qs.add(_PracticeQuestion(
-          prompt: 'Find the incorrectly spelt word:',
-          options: optionsB,
-          correctAnswer: misspellings.first,
-        ));
+        final optionsB = [misspellings.first, ...others.take(3)]
+          ..shuffle(_random);
+        qs.add(
+          _PracticeQuestion(
+            prompt: 'Find the incorrectly spelt word:',
+            options: optionsB,
+            correctAnswer: misspellings.first,
+          ),
+        );
       }
     }
 
@@ -783,26 +1035,43 @@ class _PracticeScreenState extends State<PracticeScreen> {
   }
 
   // Word-level diff: extracts the changed fragments between [wrong] and [correct].
-  ({String wrong, String correct, String wrongPhrase, String correctPhrase})? _diffEntry(
-      String wrong, String correct) {
+  ({String wrong, String correct, String wrongPhrase, String correctPhrase})?
+  _diffEntry(String wrong, String correct) {
     final ww = wrong.split(RegExp(r'\s+'));
     final cw = correct.split(RegExp(r'\s+'));
     String norm(String w) => w.replaceAll(RegExp(r'[^\w]'), '').toLowerCase();
 
     int pre = 0;
-    while (pre < ww.length && pre < cw.length && norm(ww[pre]) == norm(cw[pre])) { pre++; }
+    while (pre < ww.length &&
+        pre < cw.length &&
+        norm(ww[pre]) == norm(cw[pre])) {
+      pre++;
+    }
     int suf = 0;
     while (suf < ww.length - pre &&
         suf < cw.length - pre &&
-        norm(ww[ww.length - 1 - suf]) == norm(cw[cw.length - 1 - suf])) { suf++; }
+        norm(ww[ww.length - 1 - suf]) == norm(cw[cw.length - 1 - suf])) {
+      suf++;
+    }
 
     final wrongPhrase = ww.sublist(pre, ww.length - suf).join(' ');
     final correctPhrase = cw.sublist(pre, cw.length - suf).join(' ');
 
-    if (wrongPhrase.isEmpty || correctPhrase.isEmpty || wrongPhrase == correctPhrase) return null;
-    if (correctPhrase.split(' ').length > 5) return null;
+    if (wrongPhrase.isEmpty ||
+        correctPhrase.isEmpty ||
+        wrongPhrase == correctPhrase) {
+      return null;
+    }
+    if (correctPhrase.split(' ').length > 5) {
+      return null;
+    }
 
-    return (wrong: wrong, correct: correct, wrongPhrase: wrongPhrase, correctPhrase: correctPhrase);
+    return (
+      wrong: wrong,
+      correct: correct,
+      wrongPhrase: wrongPhrase,
+      correctPhrase: correctPhrase,
+    );
   }
 
   // For multi-word phrase pairs of equal length, generates all combinations of
@@ -817,10 +1086,17 @@ class _PracticeScreenState extends State<PracticeScreen> {
     for (int i = 0; i <= sw.length - tw.length; i++) {
       bool match = true;
       for (int j = 0; j < tw.length; j++) {
-        if (norm(sw[i + j]) != norm(tw[j])) { match = false; break; }
+        if (norm(sw[i + j]) != norm(tw[j])) {
+          match = false;
+          break;
+        }
       }
       if (match) {
-        return [...sw.take(i), replacement, ...sw.skip(i + tw.length)].join(' ');
+        return [
+          ...sw.take(i),
+          replacement,
+          ...sw.skip(i + tw.length),
+        ].join(' ');
       }
     }
     return null;
@@ -829,16 +1105,40 @@ class _PracticeScreenState extends State<PracticeScreen> {
   List<_PracticeQuestion> _buildClozeTestQuestions(List<Word> words) {
     final qs = <_PracticeQuestion>[];
     for (final word in words) {
-      if (word.word.trim().isEmpty || word.example.trim().isEmpty || word.options.length < 2) continue;
+      if (word.word.trim().isEmpty ||
+          word.example.trim().isEmpty ||
+          word.options.length < 2) {
+        continue;
+      }
       final shuffled = List<String>.from(word.options)..shuffle(_random);
-      qs.add(_PracticeQuestion(prompt: 'Fill in the blank:\n${word.word}', options: shuffled, correctAnswer: word.example.trim()));
+      qs.add(
+        _PracticeQuestion(
+          prompt: 'Fill in the blank:\n${word.word}',
+          options: shuffled,
+          correctAnswer: word.example.trim(),
+        ),
+      );
     }
     return qs;
   }
 
+  List<_PracticeQuestion> _buildGrammarQuestions(List<Word> words) {
+    final specs = buildGrammarQuestionSpecsForCategory(words, _random);
+    return specs
+        .map(
+          (spec) => _PracticeQuestion(
+            prompt: spec['prompt'] as String,
+            options: List<String>.from(spec['options'] as List),
+            correctAnswer: spec['correctAnswer'] as String,
+          ),
+        )
+        .toList();
+  }
+
   List<String> _buildOptions(String correct, List<String> pool) {
     final options = <String>{correct};
-    final candidates = pool.where((item) => item != correct).toList()..shuffle(_random);
+    final candidates = pool.where((item) => item != correct).toList()
+      ..shuffle(_random);
     for (final candidate in candidates) {
       if (options.length >= 4) break;
       options.add(candidate);
@@ -876,7 +1176,9 @@ class _PracticeScreenState extends State<PracticeScreen> {
     showModalBottomSheet(
       context: context,
       isScrollControlled: true,
-      shape: const RoundedRectangleBorder(borderRadius: BorderRadius.vertical(top: Radius.circular(20))),
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
       builder: (_) => _QuestionGridSheet(
         total: questions.length,
         currentIndex: currentIndex,
@@ -901,9 +1203,15 @@ class _PracticeScreenState extends State<PracticeScreen> {
             '$unanswered question${unanswered == 1 ? '' : 's'} left unanswered. Submit anyway?',
           ),
           actions: [
-            TextButton(onPressed: () => Navigator.pop(ctx), child: const Text('Go Back')),
+            TextButton(
+              onPressed: () => Navigator.pop(ctx),
+              child: const Text('Go Back'),
+            ),
             ElevatedButton(
-              style: ElevatedButton.styleFrom(backgroundColor: const Color(0xFF1F3C6D), foregroundColor: Colors.white),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: const Color(0xFF1F3C6D),
+                foregroundColor: Colors.white,
+              ),
               onPressed: () {
                 Navigator.pop(ctx);
                 _cancelTimer();
@@ -937,11 +1245,21 @@ class _PracticeScreenState extends State<PracticeScreen> {
     setState(() => isProcessingNewSet = true);
 
     if (!premiumUnlocked) {
-      final allowed = await consumePracticeSession(widget.category, mixed: _isMixedQuiz);
-      final remaining = await getRemainingPracticeSessions(widget.category, mixed: _isMixedQuiz);
+      final allowed = await consumePracticeSession(
+        widget.category,
+        mixed: _isMixedQuiz,
+      );
+      final remaining = await getRemainingPracticeSessions(
+        widget.category,
+        mixed: _isMixedQuiz,
+      );
       if (!mounted) return;
       if (!allowed) {
-        setState(() { remainingSessions = remaining; isLocked = true; isProcessingNewSet = false; });
+        setState(() {
+          remainingSessions = remaining;
+          isLocked = true;
+          isProcessingNewSet = false;
+        });
         return;
       }
       setState(() => remainingSessions = remaining);
@@ -993,13 +1311,16 @@ class _PracticeScreenState extends State<PracticeScreen> {
       final selectedAnswer = isAnswered ? q.options[sel] : '(No answer)';
       final isCorrect = isAnswered && q.options[sel] == q.correctAnswer;
       if (!isCorrect) {
-        saveWeakAttempt(widget.category, WeakAttempt(
-          prompt: q.prompt,
-          correctAnswer: q.correctAnswer,
-          selectedAnswer: selectedAnswer,
-          category: widget.category,
-          updatedAt: DateTime.now(),
-        ));
+        saveWeakAttempt(
+          widget.category,
+          WeakAttempt(
+            prompt: q.prompt,
+            correctAnswer: q.correctAnswer,
+            selectedAnswer: selectedAnswer,
+            category: widget.category,
+            updatedAt: DateTime.now(),
+          ),
+        );
       }
     }
   }
@@ -1023,7 +1344,9 @@ class _PracticeScreenState extends State<PracticeScreen> {
     if (_isWeakAreasMode) {
       for (int i = 0; i < questions.length; i++) {
         final sel = _userSelections[i];
-        if (sel == null || sel < 0 || sel >= questions[i].options.length) continue;
+        if (sel == null || sel < 0 || sel >= questions[i].options.length) {
+          continue;
+        }
         if (questions[i].options[sel] == questions[i].correctAnswer) {
           await removeWeakAttempt(widget.category, questions[i].prompt);
           clearedCount++;
@@ -1031,10 +1354,16 @@ class _PracticeScreenState extends State<PracticeScreen> {
       }
     } else {
       _saveWeakAttempts();
-      await updateBestPracticeStats(widget.category, score: netScore.round(), accuracy: percent);
+      await updateBestPracticeStats(
+        widget.category,
+        score: netScore.round(),
+        accuracy: percent,
+      );
     }
 
-    if (!mounted) return;
+    if (!mounted) {
+      return;
+    }
     setState(() {
       if (!_isWeakAreasMode) {
         bestScore = getStoredBestScore(widget.category);
@@ -1043,7 +1372,10 @@ class _PracticeScreenState extends State<PracticeScreen> {
         averageScore = getStoredAverageScore(widget.category);
       }
       _prevBestScore = prevBest;
-      _isNewPersonalBest = hadPreviousAttempt && !_isWeakAreasMode && netScore.round() > prevBest;
+      _isNewPersonalBest =
+          hadPreviousAttempt &&
+          !_isWeakAreasMode &&
+          netScore.round() > prevBest;
       _lastCorrectCount = correctCount;
       _lastNetScore = netScore;
       _lastTotal = total;
@@ -1061,7 +1393,9 @@ class _PracticeScreenState extends State<PracticeScreen> {
     final pool = List<_PracticeQuestion>.from(allQuestions);
     if (excludeCurrentSet && questions.isNotEmpty) {
       final currentPrompts = questions.map((q) => q.prompt).toSet();
-      final filtered = pool.where((q) => !currentPrompts.contains(q.prompt)).toList();
+      final filtered = pool
+          .where((q) => !currentPrompts.contains(q.prompt))
+          .toList();
       if (filtered.length >= practiceQuestionLimit) {
         filtered.shuffle(_random);
         return filtered.take(practiceQuestionLimit).toList();
@@ -1074,7 +1408,8 @@ class _PracticeScreenState extends State<PracticeScreen> {
   // ── Completion view ───────────────────────────────────────────────────────
 
   Widget _buildCompletionView() {
-    final skippedCount = _lastTotal - _reviewSelections.where((s) => s != null).length;
+    final skippedCount =
+        _lastTotal - _reviewSelections.where((s) => s != null).length;
     final wrongCount = _lastTotal - _lastCorrectCount - skippedCount;
     final penalty = wrongCount * 0.25;
 
@@ -1083,7 +1418,11 @@ class _PracticeScreenState extends State<PracticeScreen> {
       appBar: AppBar(
         backgroundColor: const Color(0xFF1F3C6D),
         foregroundColor: Colors.white,
-        title: Text(_isWeakAreasMode ? '${widget.title} — Weak Areas' : '${widget.title} Practice'),
+        title: Text(
+          _isWeakAreasMode
+              ? '${widget.title} — Weak Areas'
+              : '${widget.title} Practice',
+        ),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16),
@@ -1093,23 +1432,43 @@ class _PracticeScreenState extends State<PracticeScreen> {
             // Personal best banner
             if (_isNewPersonalBest) ...[
               Container(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 16,
+                  vertical: 14,
+                ),
                 decoration: BoxDecoration(
-                  gradient: const LinearGradient(colors: [Color(0xFF1F3C6D), Color(0xFF2563EB)]),
+                  gradient: const LinearGradient(
+                    colors: [Color(0xFF1F3C6D), Color(0xFF2563EB)],
+                  ),
                   borderRadius: BorderRadius.circular(16),
                 ),
                 child: Row(
                   children: [
-                    const Icon(Icons.emoji_events_rounded, color: Color(0xFFFBBF24), size: 30),
+                    const Icon(
+                      Icons.emoji_events_rounded,
+                      color: Color(0xFFFBBF24),
+                      size: 30,
+                    ),
                     const SizedBox(width: 12),
                     Expanded(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          const Text('New Personal Best!', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 16)),
+                          const Text(
+                            'New Personal Best!',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.w800,
+                              fontSize: 16,
+                            ),
+                          ),
                           Text(
                             'Previous best: $_prevBestScore/$_lastTotal. You\'re improving!',
-                            style: const TextStyle(color: Colors.white70, fontSize: 13, height: 1.3),
+                            style: const TextStyle(
+                              color: Colors.white70,
+                              fontSize: 13,
+                              height: 1.3,
+                            ),
                           ),
                         ],
                       ),
@@ -1129,51 +1488,107 @@ class _PracticeScreenState extends State<PracticeScreen> {
               ),
               child: Column(
                 children: [
-                  const Icon(Icons.check_circle_rounded, color: Color(0xFF22C55E), size: 52),
+                  const Icon(
+                    Icons.check_circle_rounded,
+                    color: Color(0xFF22C55E),
+                    size: 52,
+                  ),
                   const SizedBox(height: 10),
-                  Text('Submitted!', style: TextStyle(fontSize: 22, fontWeight: FontWeight.w800, color: context.textPrimary)),
+                  Text(
+                    'Submitted!',
+                    style: TextStyle(
+                      fontSize: 22,
+                      fontWeight: FontWeight.w800,
+                      color: context.textPrimary,
+                    ),
+                  ),
                   const SizedBox(height: 20),
                   Row(
                     children: [
-                      Expanded(child: _ResultStatCard(
-                        label: 'Score',
-                        value: _negativeMarkingEnabled ? '${_fmtScore(_lastNetScore)}/$_lastTotal' : '$_lastCorrectCount/$_lastTotal',
-                        valueColor: context.textPrimary,
-                        backgroundColor: context.surfaceMuted,
-                      )),
+                      Expanded(
+                        child: _ResultStatCard(
+                          label: 'Score',
+                          value: _negativeMarkingEnabled
+                              ? '${_fmtScore(_lastNetScore)}/$_lastTotal'
+                              : '$_lastCorrectCount/$_lastTotal',
+                          valueColor: context.textPrimary,
+                          backgroundColor: context.surfaceMuted,
+                        ),
+                      ),
                       const SizedBox(width: 10),
-                      Expanded(child: _ResultStatCard(label: 'Accuracy', value: '$_lastPercent%', valueColor: const Color(0xFF0F766E), backgroundColor: context.isDark ? const Color(0xFF0D9488).withValues(alpha: 0.15) : const Color(0xFFF0FDFA))),
+                      Expanded(
+                        child: _ResultStatCard(
+                          label: 'Accuracy',
+                          value: '$_lastPercent%',
+                          valueColor: const Color(0xFF0F766E),
+                          backgroundColor: context.isDark
+                              ? const Color(0xFF0D9488).withValues(alpha: 0.15)
+                              : const Color(0xFFF0FDFA),
+                        ),
+                      ),
                     ],
                   ),
                   const SizedBox(height: 10),
                   Row(
                     children: [
-                      Expanded(child: _ResultStatCard(label: 'Correct', value: '$_lastCorrectCount', valueColor: const Color(0xFF15803D), backgroundColor: context.isDark ? const Color(0xFF15803D).withValues(alpha: 0.15) : const Color(0xFFF0FDF4))),
+                      Expanded(
+                        child: _ResultStatCard(
+                          label: 'Correct',
+                          value: '$_lastCorrectCount',
+                          valueColor: const Color(0xFF15803D),
+                          backgroundColor: context.isDark
+                              ? const Color(0xFF15803D).withValues(alpha: 0.15)
+                              : const Color(0xFFF0FDF4),
+                        ),
+                      ),
                       const SizedBox(width: 10),
-                      Expanded(child: _ResultStatCard(
-                        label: _negativeMarkingEnabled ? 'Wrong (−${_fmtScore(penalty)})' : 'Wrong',
-                        value: '$wrongCount',
-                        valueColor: const Color(0xFFDC2626),
-                        backgroundColor: context.isDark ? const Color(0xFFDC2626).withValues(alpha: 0.15) : const Color(0xFFFEF2F2),
-                      )),
+                      Expanded(
+                        child: _ResultStatCard(
+                          label: _negativeMarkingEnabled
+                              ? 'Wrong (−${_fmtScore(penalty)})'
+                              : 'Wrong',
+                          value: '$wrongCount',
+                          valueColor: const Color(0xFFDC2626),
+                          backgroundColor: context.isDark
+                              ? const Color(0xFFDC2626).withValues(alpha: 0.15)
+                              : const Color(0xFFFEF2F2),
+                        ),
+                      ),
                     ],
                   ),
                   if (_negativeMarkingEnabled && wrongCount > 0) ...[
                     const SizedBox(height: 10),
                     Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 9),
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 12,
+                        vertical: 9,
+                      ),
                       decoration: BoxDecoration(
-                        color: context.isDark ? const Color(0xFFDC2626).withValues(alpha: 0.12) : const Color(0xFFFEF2F2),
+                        color: context.isDark
+                            ? const Color(0xFFDC2626).withValues(alpha: 0.12)
+                            : const Color(0xFFFEF2F2),
                         borderRadius: BorderRadius.circular(10),
-                        border: Border.all(color: const Color(0xFFDC2626).withValues(alpha: 0.35)),
+                        border: Border.all(
+                          color: const Color(
+                            0xFFDC2626,
+                          ).withValues(alpha: 0.35),
+                        ),
                       ),
                       child: Row(
                         children: [
-                          const Icon(Icons.remove_circle_outline_rounded, color: Color(0xFFDC2626), size: 14),
+                          const Icon(
+                            Icons.remove_circle_outline_rounded,
+                            color: Color(0xFFDC2626),
+                            size: 14,
+                          ),
                           const SizedBox(width: 6),
                           Text(
                             '−0.25 × $wrongCount wrong = −${_fmtScore(penalty)} penalty applied',
-                            style: const TextStyle(color: Color(0xFFDC2626), fontSize: 12, fontWeight: FontWeight.w600),
+                            style: const TextStyle(
+                              color: Color(0xFFDC2626),
+                              fontSize: 12,
+                              fontWeight: FontWeight.w600,
+                            ),
                           ),
                         ],
                       ),
@@ -1181,12 +1596,21 @@ class _PracticeScreenState extends State<PracticeScreen> {
                   ],
                   if (skippedCount > 0) ...[
                     const SizedBox(height: 10),
-                    _ResultStatCard(label: 'Skipped', value: '$skippedCount', valueColor: const Color(0xFFB45309), backgroundColor: context.isDark ? const Color(0xFFB45309).withValues(alpha: 0.15) : const Color(0xFFFFFBEB)),
+                    _ResultStatCard(
+                      label: 'Skipped',
+                      value: '$skippedCount',
+                      valueColor: const Color(0xFFB45309),
+                      backgroundColor: context.isDark
+                          ? const Color(0xFFB45309).withValues(alpha: 0.15)
+                          : const Color(0xFFFFFBEB),
+                    ),
                   ],
                   if (!_isWeakAreasMode && _prevBestScore > 0) ...[
                     const SizedBox(height: 12),
                     _DeltaChip(
-                      current: _negativeMarkingEnabled ? _lastNetScore.round() : _lastCorrectCount,
+                      current: _negativeMarkingEnabled
+                          ? _lastNetScore.round()
+                          : _lastCorrectCount,
                       previous: _prevBestScore,
                       total: _lastTotal,
                     ),
@@ -1206,14 +1630,22 @@ class _PracticeScreenState extends State<PracticeScreen> {
                 ),
                 child: Row(
                   children: [
-                    const Icon(Icons.auto_fix_high_rounded, color: Color(0xFF15803D), size: 20),
+                    const Icon(
+                      Icons.auto_fix_high_rounded,
+                      color: Color(0xFF15803D),
+                      size: 20,
+                    ),
                     const SizedBox(width: 10),
                     Expanded(
                       child: Text(
                         _lastClearedCount > 0
                             ? '$_lastClearedCount question${_lastClearedCount == 1 ? '' : 's'} removed from your weak areas. Keep going!'
                             : 'Review the answers below and practise again to clear weak areas.',
-                        style: const TextStyle(color: Color(0xFF15803D), fontWeight: FontWeight.w600, height: 1.4),
+                        style: const TextStyle(
+                          color: Color(0xFF15803D),
+                          fontWeight: FontWeight.w600,
+                          height: 1.4,
+                        ),
                       ),
                     ),
                   ],
@@ -1224,18 +1656,43 @@ class _PracticeScreenState extends State<PracticeScreen> {
               Container(
                 padding: const EdgeInsets.all(14),
                 decoration: BoxDecoration(
-                  color: context.isDark ? const Color(0xFF1E3A5F) : const Color(0xFFEFF6FF),
+                  color: context.isDark
+                      ? const Color(0xFF1E3A5F)
+                      : const Color(0xFFEFF6FF),
                   borderRadius: BorderRadius.circular(14),
-                  border: Border.all(color: context.isDark ? const Color(0xFF1D4ED8).withValues(alpha: 0.4) : const Color(0xFFBFDBFE)),
+                  border: Border.all(
+                    color: context.isDark
+                        ? const Color(0xFF1D4ED8).withValues(alpha: 0.4)
+                        : const Color(0xFFBFDBFE),
+                  ),
                 ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('Best Performance', style: TextStyle(fontSize: 13, fontWeight: FontWeight.w700, color: context.textSecondary)),
+                    Text(
+                      'Best Performance',
+                      style: TextStyle(
+                        fontSize: 13,
+                        fontWeight: FontWeight.w700,
+                        color: context.textSecondary,
+                      ),
+                    ),
                     const SizedBox(height: 8),
-                    Text('Best Score: $bestScore/$_lastTotal', style: TextStyle(fontWeight: FontWeight.w700, color: context.textPrimary)),
+                    Text(
+                      'Best Score: $bestScore/$_lastTotal',
+                      style: TextStyle(
+                        fontWeight: FontWeight.w700,
+                        color: context.textPrimary,
+                      ),
+                    ),
                     const SizedBox(height: 4),
-                    Text('Best Accuracy: $bestAccuracy%', style: const TextStyle(fontWeight: FontWeight.w700, color: Color(0xFF1D4ED8))),
+                    Text(
+                      'Best Accuracy: $bestAccuracy%',
+                      style: const TextStyle(
+                        fontWeight: FontWeight.w700,
+                        color: Color(0xFF1D4ED8),
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -1244,11 +1701,16 @@ class _PracticeScreenState extends State<PracticeScreen> {
             SizedBox(
               width: double.infinity,
               child: OutlinedButton.icon(
-                onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => _ReviewPage(
-                  questions: _reviewQuestions,
-                  userSelections: _reviewSelections,
-                  bookmarkedIndices: _reviewBookmarks,
-                ))),
+                onPressed: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => _ReviewPage(
+                      questions: _reviewQuestions,
+                      userSelections: _reviewSelections,
+                      bookmarkedIndices: _reviewBookmarks,
+                    ),
+                  ),
+                ),
                 icon: const Icon(Icons.list_alt_rounded, size: 18),
                 label: const Text('Review Answers'),
                 style: OutlinedButton.styleFrom(
@@ -1277,8 +1739,14 @@ class _PracticeScreenState extends State<PracticeScreen> {
                   child: OutlinedButton(
                     onPressed: _restartCurrentSet,
                     style: OutlinedButton.styleFrom(
-                      side: BorderSide(color: context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D)),
-                      foregroundColor: context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D),
+                      side: BorderSide(
+                        color: context.isDark
+                            ? const Color(0xFF60A5FA)
+                            : const Color(0xFF1F3C6D),
+                      ),
+                      foregroundColor: context.isDark
+                          ? const Color(0xFF60A5FA)
+                          : const Color(0xFF1F3C6D),
                       padding: const EdgeInsets.symmetric(vertical: 14),
                     ),
                     child: const Text('Repeat'),
@@ -1312,33 +1780,59 @@ class _PracticeScreenState extends State<PracticeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    if (isLoading) return const Scaffold(body: Center(child: CircularProgressIndicator()));
+    if (isLoading) {
+      return const Scaffold(body: Center(child: CircularProgressIndicator()));
+    }
 
-    if (_quizCompleted) return _buildCompletionView();
+    if (_quizCompleted) {
+      return _buildCompletionView();
+    }
 
     if (isLocked) {
       return Scaffold(
         backgroundColor: context.scaffoldBg,
-        appBar: AppBar(backgroundColor: const Color(0xFF1F3C6D), foregroundColor: Colors.white, title: Text('${widget.title} Practice')),
+        appBar: AppBar(
+          backgroundColor: const Color(0xFF1F3C6D),
+          foregroundColor: Colors.white,
+          title: Text('${widget.title} Practice'),
+        ),
         body: Center(
           child: Padding(
             padding: const EdgeInsets.all(24),
             child: Container(
               padding: const EdgeInsets.all(24),
-              decoration: BoxDecoration(color: context.cardBg, borderRadius: BorderRadius.circular(20), border: Border.all(color: context.borderSubtle)),
+              decoration: BoxDecoration(
+                color: context.cardBg,
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(color: context.borderSubtle),
+              ),
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Container(
-                    width: 64, height: 64,
-                    decoration: BoxDecoration(color: const Color(0xFFF59E0B).withValues(alpha: 0.12), shape: BoxShape.circle),
-                    child: const Icon(Icons.workspace_premium_rounded, color: Color(0xFFF59E0B), size: 32),
+                    width: 64,
+                    height: 64,
+                    decoration: BoxDecoration(
+                      color: const Color(0xFFF59E0B).withValues(alpha: 0.12),
+                      shape: BoxShape.circle,
+                    ),
+                    child: const Icon(
+                      Icons.workspace_premium_rounded,
+                      color: Color(0xFFF59E0B),
+                      size: 32,
+                    ),
                   ),
                   const SizedBox(height: 16),
                   Text(
-                    _isMixedQuiz ? 'Daily mixed quiz limit reached' : 'Daily practice limit reached',
+                    _isMixedQuiz
+                        ? 'Daily mixed quiz limit reached'
+                        : 'Daily practice limit reached',
                     textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700, color: context.textPrimary),
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.w700,
+                      color: context.textPrimary,
+                    ),
                   ),
                   const SizedBox(height: 8),
                   Text(
@@ -1346,15 +1840,32 @@ class _PracticeScreenState extends State<PracticeScreen> {
                         ? 'Free plan includes $freeMixedQuizAttemptsPerDay Take a Quiz session per day. Unlock premium for unlimited mixed quizzes.'
                         : 'Free plan includes $freePracticeAttemptsPerDay practice sessions per category each day. Unlock premium for unlimited practice.',
                     textAlign: TextAlign.center,
-                    style: TextStyle(color: context.textSecondary, height: 1.45),
+                    style: TextStyle(
+                      color: context.textSecondary,
+                      height: 1.45,
+                    ),
                   ),
                   const SizedBox(height: 14),
-                  Text('Remaining today: $remainingSessions', style: TextStyle(color: context.textSecondary, fontWeight: FontWeight.w600)),
+                  Text(
+                    'Remaining today: $remainingSessions',
+                    style: TextStyle(
+                      color: context.textSecondary,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
                   const SizedBox(height: 18),
                   ElevatedButton(
                     onPressed: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (_) => const PremiumScreen())).then((_) {
-                        if (mounted) { setState(() => isLoading = true); _initializePractice(); }
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) => const PremiumScreen(),
+                        ),
+                      ).then((_) {
+                        if (mounted) {
+                          setState(() => isLoading = true);
+                          _initializePractice();
+                        }
                       });
                     },
                     child: const Text('View Premium'),
@@ -1369,13 +1880,25 @@ class _PracticeScreenState extends State<PracticeScreen> {
 
     if (questions.isEmpty) {
       return Scaffold(
-        appBar: AppBar(title: const Text('Practice'), backgroundColor: const Color(0xFF1F3C6D), foregroundColor: Colors.white),
-        body: Center(child: Text('Not enough data to generate practice questions.', style: TextStyle(color: context.textSecondary), textAlign: TextAlign.center)),
+        appBar: AppBar(
+          title: const Text('Practice'),
+          backgroundColor: const Color(0xFF1F3C6D),
+          foregroundColor: Colors.white,
+        ),
+        body: Center(
+          child: Text(
+            'Not enough data to generate practice questions.',
+            style: TextStyle(color: context.textSecondary),
+            textAlign: TextAlign.center,
+          ),
+        ),
       );
     }
 
     final question = questions[currentIndex];
-    final selectedOption = _userSelections.length > currentIndex ? _userSelections[currentIndex] : null;
+    final selectedOption = _userSelections.length > currentIndex
+        ? _userSelections[currentIndex]
+        : null;
     final isBookmarked = _bookmarkedIndices.contains(currentIndex);
     final showFreeTierInfo = !premiumUnlocked;
 
@@ -1384,7 +1907,11 @@ class _PracticeScreenState extends State<PracticeScreen> {
       appBar: AppBar(
         backgroundColor: const Color(0xFF1F3C6D),
         foregroundColor: Colors.white,
-        title: Text(_isWeakAreasMode ? '${widget.title} — Weak Areas' : '${widget.title} Practice'),
+        title: Text(
+          _isWeakAreasMode
+              ? '${widget.title} — Weak Areas'
+              : '${widget.title} Practice',
+        ),
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 14),
@@ -1396,307 +1923,475 @@ class _PracticeScreenState extends State<PracticeScreen> {
           ),
         ],
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            // Stats row
-            if (_isWeakAreasMode)
-              Container(
-                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
-                decoration: BoxDecoration(
-                  color: context.isDark ? const Color(0xFF1E3A5F) : const Color(0xFFEFF6FF),
-                  borderRadius: BorderRadius.circular(14),
-                  border: Border.all(color: context.isDark ? const Color(0xFF1D4ED8).withValues(alpha: 0.4) : const Color(0xFFBFDBFE)),
-                ),
-                child: Row(
-                  children: [
-                    const Icon(Icons.track_changes_rounded, color: Color(0xFF1D4ED8), size: 20),
-                    const SizedBox(width: 10),
-                    Expanded(
-                      child: Text(
-                        '${questions.length} weak area${questions.length == 1 ? '' : 's'} to clear',
-                        style: const TextStyle(fontWeight: FontWeight.w700, color: Color(0xFF1D4ED8), fontSize: 15),
-                      ),
-                    ),
-                    Text('Answer correctly to remove', style: TextStyle(color: context.textSecondary, fontSize: 11)),
-                  ],
-                ),
-              )
-            else
-              Container(
-                padding: const EdgeInsets.all(14),
-                decoration: BoxDecoration(color: context.cardBg, borderRadius: BorderRadius.circular(14), border: Border.all(color: context.borderSubtle)),
-                child: Row(
-                  children: [
-                    Expanded(child: _StatBox(label: 'Best Score', value: '$bestScore/${questions.length}')),
-                    Container(width: 1, height: 40, color: context.borderSubtle),
-                    Expanded(child: Padding(
-                      padding: const EdgeInsets.only(left: 14),
-                      child: _StatBox(label: 'Avg Score', value: attempts > 0 ? '$averageScore/${questions.length}' : '—'),
-                    )),
-                    Container(width: 1, height: 40, color: context.borderSubtle),
-                    Expanded(child: Padding(
-                      padding: const EdgeInsets.only(left: 14),
-                      child: _StatBox(label: 'Attempts', value: attempts > 0 ? '$attempts' : '—'),
-                    )),
-                  ],
-                ),
-              ),
-            if (!_isWeakAreasMode) ...[
-              const SizedBox(height: 10),
-              GestureDetector(
-                onTap: _toggleNegativeMarking,
-                child: Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
-                  decoration: BoxDecoration(
-                    color: _negativeMarkingEnabled
-                        ? (context.isDark ? const Color(0xFFDC2626).withValues(alpha: 0.12) : const Color(0xFFFEF2F2))
-                        : context.cardBg,
-                    borderRadius: BorderRadius.circular(12),
-                    border: Border.all(
-                      color: _negativeMarkingEnabled
-                          ? const Color(0xFFDC2626).withValues(alpha: 0.5)
-                          : context.borderSubtle,
-                    ),
-                  ),
-                  child: Row(
-                    children: [
-                      Icon(
-                        Icons.remove_circle_outline_rounded,
-                        size: 16,
-                        color: _negativeMarkingEnabled ? const Color(0xFFDC2626) : context.textSecondary,
-                      ),
-                      const SizedBox(width: 8),
-                      Text(
-                        'Negative marking',
-                        style: TextStyle(
-                          fontWeight: FontWeight.w600,
-                          fontSize: 13,
-                          color: _negativeMarkingEnabled ? const Color(0xFFDC2626) : context.textPrimary,
-                        ),
-                      ),
-                      const SizedBox(width: 6),
-                      Text(
-                        '−0.25 per wrong',
-                        style: TextStyle(fontSize: 12, color: context.textSecondary),
-                      ),
-                      const Spacer(),
-                      Switch(
-                        value: _negativeMarkingEnabled,
-                        onChanged: (_) => _toggleNegativeMarking(),
-                        activeThumbColor: const Color(0xFFDC2626),
-                        materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ],
-            if (showFreeTierInfo) ...[
-              const SizedBox(height: 10),
-              Container(
-                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
-                decoration: BoxDecoration(color: const Color(0xFFFFFBEB), borderRadius: BorderRadius.circular(14), border: Border.all(color: const Color(0xFFFDE68A))),
-                child: Row(
-                  children: [
-                    const Icon(Icons.bolt_rounded, size: 18, color: Color(0xFFB45309)),
-                    const SizedBox(width: 8),
-                    Expanded(
-                      child: Text(
-                        _isMixedQuiz ? '$remainingSessions mixed quiz session left today.' : '$remainingSessions free sessions left today.',
-                        style: const TextStyle(color: Color(0xFF92400E), fontWeight: FontWeight.w600),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-            const SizedBox(height: 14),
-            // Progress row
-            Row(
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(16),
+          child: SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Text('Question ${currentIndex + 1} of ${questions.length}', style: TextStyle(color: context.textSecondary, fontWeight: FontWeight.w600)),
-                const Spacer(),
-                Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-                  decoration: BoxDecoration(
-                    color: context.isDark ? const Color(0xFF1E3A5F) : const Color(0xFFEFF6FF),
-                    borderRadius: BorderRadius.circular(8),
-                    border: Border.all(color: context.isDark ? const Color(0xFF1D4ED8).withValues(alpha: 0.4) : const Color(0xFFBFDBFE)),
-                  ),
-                  child: Text(
-                    'Answered: $_answeredCount/${questions.length}',
-                    style: TextStyle(fontSize: 12, fontWeight: FontWeight.w700, color: context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1D4ED8)),
-                  ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 8),
-            LinearProgressIndicator(
-              value: _answeredCount / questions.length,
-              minHeight: 8,
-              borderRadius: BorderRadius.circular(999),
-              backgroundColor: context.borderSubtle,
-              color: const Color(0xFF22C55E),
-            ),
-            const SizedBox(height: 16),
-            // Question card
-            Container(
-              padding: const EdgeInsets.all(14),
-              decoration: BoxDecoration(color: context.cardBg, borderRadius: BorderRadius.circular(14), border: Border.all(color: context.borderSubtle)),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 4),
-                        decoration: BoxDecoration(color: const Color(0xFF1F3C6D), borderRadius: BorderRadius.circular(7)),
-                        child: Text(
-                          'Q${currentIndex + 1}',
-                          style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 13),
-                        ),
+                // Stats row
+                if (_isWeakAreasMode)
+                  Container(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 14,
+                      vertical: 12,
+                    ),
+                    decoration: BoxDecoration(
+                      color: context.isDark
+                          ? const Color(0xFF1E3A5F)
+                          : const Color(0xFFEFF6FF),
+                      borderRadius: BorderRadius.circular(14),
+                      border: Border.all(
+                        color: context.isDark
+                            ? const Color(0xFF1D4ED8).withValues(alpha: 0.4)
+                            : const Color(0xFFBFDBFE),
                       ),
-                      const Spacer(),
-                      GestureDetector(
-                        onTap: _toggleBookmark,
-                        child: Icon(
-                          isBookmarked ? Icons.bookmark_rounded : Icons.bookmark_border_rounded,
-                          color: isBookmarked ? (context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D)) : context.textSecondary,
-                          size: 22,
+                    ),
+                    child: Row(
+                      children: [
+                        const Icon(
+                          Icons.track_changes_rounded,
+                          color: Color(0xFF1D4ED8),
+                          size: 20,
                         ),
-                      ),
-                    ],
+                        const SizedBox(width: 10),
+                        Expanded(
+                          child: Text(
+                            '${questions.length} weak area${questions.length == 1 ? '' : 's'} to clear',
+                            style: const TextStyle(
+                              fontWeight: FontWeight.w700,
+                              color: Color(0xFF1D4ED8),
+                              fontSize: 15,
+                            ),
+                          ),
+                        ),
+                        Text(
+                          'Answer correctly to remove',
+                          style: TextStyle(
+                            color: context.textSecondary,
+                            fontSize: 11,
+                          ),
+                        ),
+                      ],
+                    ),
+                  )
+                else
+                  Container(
+                    padding: const EdgeInsets.all(14),
+                    decoration: BoxDecoration(
+                      color: context.cardBg,
+                      borderRadius: BorderRadius.circular(14),
+                      border: Border.all(color: context.borderSubtle),
+                    ),
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: _StatBox(
+                            label: 'Best Score',
+                            value: '$bestScore/${questions.length}',
+                          ),
+                        ),
+                        Container(
+                          width: 1,
+                          height: 40,
+                          color: context.borderSubtle,
+                        ),
+                        Expanded(
+                          child: Padding(
+                            padding: const EdgeInsets.only(left: 14),
+                            child: _StatBox(
+                              label: 'Avg Score',
+                              value: attempts > 0
+                                  ? '$averageScore/${questions.length}'
+                                  : '—',
+                            ),
+                          ),
+                        ),
+                        Container(
+                          width: 1,
+                          height: 40,
+                          color: context.borderSubtle,
+                        ),
+                        Expanded(
+                          child: Padding(
+                            padding: const EdgeInsets.only(left: 14),
+                            child: _StatBox(
+                              label: 'Attempts',
+                              value: attempts > 0 ? '$attempts' : '—',
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
+                if (!_isWeakAreasMode) ...[
                   const SizedBox(height: 10),
-                  Text(question.prompt, style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600, color: context.textPrimary, height: 1.4)),
-                ],
-              ),
-            ),
-            const SizedBox(height: 12),
-            // Options
-            Expanded(
-              child: ListView.builder(
-                itemCount: question.options.length,
-                itemBuilder: (context, index) {
-                  final option = question.options[index];
-                  final isSelected = selectedOption == index;
-
-                  return GestureDetector(
-                    onTap: () => _selectOption(index),
-                    child: AnimatedContainer(
-                      duration: const Duration(milliseconds: 150),
-                      margin: const EdgeInsets.only(bottom: 10),
-                      padding: const EdgeInsets.all(14),
+                  GestureDetector(
+                    onTap: _toggleNegativeMarking,
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 14,
+                        vertical: 10,
+                      ),
                       decoration: BoxDecoration(
-                        color: isSelected ? (context.isDark ? const Color(0xFF1E3A5F) : const Color(0xFFEFF6FF)) : context.cardBg,
+                        color: _negativeMarkingEnabled
+                            ? (context.isDark
+                                  ? const Color(
+                                      0xFFDC2626,
+                                    ).withValues(alpha: 0.12)
+                                  : const Color(0xFFFEF2F2))
+                            : context.cardBg,
                         borderRadius: BorderRadius.circular(12),
                         border: Border.all(
-                          color: isSelected
-                              ? (context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D))
+                          color: _negativeMarkingEnabled
+                              ? const Color(0xFFDC2626).withValues(alpha: 0.5)
                               : context.borderSubtle,
-                          width: isSelected ? 2 : 1,
                         ),
                       ),
                       child: Row(
                         children: [
-                          Container(
-                            width: 28,
-                            height: 28,
-                            decoration: BoxDecoration(
-                              shape: BoxShape.circle,
-                              color: isSelected
-                                  ? (context.isDark ? const Color(0xFF3B82F6) : const Color(0xFF1F3C6D))
-                                  : context.surfaceMuted,
-                            ),
-                            child: Center(
-                              child: Text(
-                                String.fromCharCode(65 + index), // A, B, C, D
-                                style: TextStyle(
-                                  fontWeight: FontWeight.w700,
-                                  fontSize: 13,
-                                  color: isSelected ? Colors.white : context.textSecondary,
+                          Icon(
+                            Icons.remove_circle_outline_rounded,
+                            size: 16,
+                            color: _negativeMarkingEnabled
+                                ? const Color(0xFFDC2626)
+                                : context.textSecondary,
+                          ),
+                          const SizedBox(width: 8),
+                          Expanded(
+                            child: Wrap(
+                              crossAxisAlignment: WrapCrossAlignment.center,
+                              spacing: 6,
+                              runSpacing: 2,
+                              children: [
+                                Text(
+                                  'Negative marking',
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: 13,
+                                    color: _negativeMarkingEnabled
+                                        ? const Color(0xFFDC2626)
+                                        : context.textPrimary,
+                                  ),
                                 ),
-                              ),
+                                Text(
+                                  '−0.25 per wrong',
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    color: context.textSecondary,
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
-                          const SizedBox(width: 12),
-                          Expanded(
-                            child: Text(
-                              option,
-                              style: TextStyle(
-                                fontSize: 15,
-                                color: isSelected
-                                    ? (context.isDark ? Colors.white : const Color(0xFF1F3C6D))
-                                    : context.textPrimary,
-                                fontWeight: isSelected ? FontWeight.w600 : FontWeight.normal,
-                              ),
-                            ),
+                          Switch(
+                            value: _negativeMarkingEnabled,
+                            onChanged: (_) => _toggleNegativeMarking(),
+                            activeThumbColor: const Color(0xFFDC2626),
+                            materialTapTargetSize:
+                                MaterialTapTargetSize.shrinkWrap,
                           ),
                         ],
                       ),
                     ),
-                  );
-                },
-              ),
-            ),
-            const SizedBox(height: 8),
-            // Prev / Grid / Next row
-            Row(
-              children: [
-                Expanded(
-                  child: OutlinedButton.icon(
-                    onPressed: currentIndex > 0 ? () => _goToIndex(currentIndex - 1) : null,
-                    icon: const Icon(Icons.arrow_back_rounded, size: 18),
-                    label: const Text('Prev'),
-                    style: OutlinedButton.styleFrom(
-                      side: BorderSide(color: context.borderMedium),
-                      foregroundColor: context.textSecondary,
-                      padding: const EdgeInsets.symmetric(vertical: 12),
+                  ),
+                ],
+                if (showFreeTierInfo) ...[
+                  const SizedBox(height: 10),
+                  Container(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 14,
+                      vertical: 10,
+                    ),
+                    decoration: BoxDecoration(
+                      color: const Color(0xFFFFFBEB),
+                      borderRadius: BorderRadius.circular(14),
+                      border: Border.all(color: const Color(0xFFFDE68A)),
+                    ),
+                    child: Row(
+                      children: [
+                        const Icon(
+                          Icons.bolt_rounded,
+                          size: 18,
+                          color: Color(0xFFB45309),
+                        ),
+                        const SizedBox(width: 8),
+                        Expanded(
+                          child: Text(
+                            _isMixedQuiz
+                                ? '$remainingSessions mixed quiz session left today.'
+                                : '$remainingSessions free sessions left today.',
+                            style: const TextStyle(
+                              color: Color(0xFF92400E),
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
                   ),
-                ),
-                const SizedBox(width: 10),
-                OutlinedButton(
-                  onPressed: _showQuestionGrid,
-                  style: OutlinedButton.styleFrom(
-                    side: BorderSide(color: context.borderMedium),
-                    foregroundColor: context.textSecondary,
-                    padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
-                  ),
-                  child: const Icon(Icons.grid_view_rounded, size: 20),
-                ),
-                const SizedBox(width: 10),
-                Expanded(
-                  child: OutlinedButton.icon(
-                    onPressed: currentIndex < questions.length - 1 ? () => _goToIndex(currentIndex + 1) : null,
-                    icon: const Icon(Icons.arrow_forward_rounded, size: 18),
-                    label: const Text('Next'),
-                    iconAlignment: IconAlignment.end,
-                    style: OutlinedButton.styleFrom(
-                      side: BorderSide(color: context.borderMedium),
-                      foregroundColor: context.textSecondary,
-                      padding: const EdgeInsets.symmetric(vertical: 12),
+                ],
+                const SizedBox(height: 14),
+                // Progress row
+                Row(
+                  children: [
+                    Text(
+                      'Question ${currentIndex + 1} of ${questions.length}',
+                      style: TextStyle(
+                        color: context.textSecondary,
+                        fontWeight: FontWeight.w600,
+                      ),
                     ),
+                    const Spacer(),
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 10,
+                        vertical: 4,
+                      ),
+                      decoration: BoxDecoration(
+                        color: context.isDark
+                            ? const Color(0xFF1E3A5F)
+                            : const Color(0xFFEFF6FF),
+                        borderRadius: BorderRadius.circular(8),
+                        border: Border.all(
+                          color: context.isDark
+                              ? const Color(0xFF1D4ED8).withValues(alpha: 0.4)
+                              : const Color(0xFFBFDBFE),
+                        ),
+                      ),
+                      child: Text(
+                        'Answered: $_answeredCount/${questions.length}',
+                        style: TextStyle(
+                          fontSize: 12,
+                          fontWeight: FontWeight.w700,
+                          color: context.isDark
+                              ? const Color(0xFF60A5FA)
+                              : const Color(0xFF1D4ED8),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 8),
+                LinearProgressIndicator(
+                  value: _answeredCount / questions.length,
+                  minHeight: 8,
+                  borderRadius: BorderRadius.circular(999),
+                  backgroundColor: context.borderSubtle,
+                  color: const Color(0xFF22C55E),
+                ),
+                const SizedBox(height: 16),
+                // Question card
+                Container(
+                  padding: const EdgeInsets.all(14),
+                  decoration: BoxDecoration(
+                    color: context.cardBg,
+                    borderRadius: BorderRadius.circular(14),
+                    border: Border.all(color: context.borderSubtle),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Container(
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 9,
+                              vertical: 4,
+                            ),
+                            decoration: BoxDecoration(
+                              color: const Color(0xFF1F3C6D),
+                              borderRadius: BorderRadius.circular(7),
+                            ),
+                            child: Text(
+                              'Q${currentIndex + 1}',
+                              style: const TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.w800,
+                                fontSize: 13,
+                              ),
+                            ),
+                          ),
+                          const Spacer(),
+                          GestureDetector(
+                            onTap: _toggleBookmark,
+                            child: Icon(
+                              isBookmarked
+                                  ? Icons.bookmark_rounded
+                                  : Icons.bookmark_border_rounded,
+                              color: isBookmarked
+                                  ? (context.isDark
+                                        ? const Color(0xFF60A5FA)
+                                        : const Color(0xFF1F3C6D))
+                                  : context.textSecondary,
+                              size: 22,
+                            ),
+                          ),
+                        ],
+                      ),
+                      const SizedBox(height: 10),
+                      Text(
+                        question.prompt,
+                        style: TextStyle(
+                          fontSize: 17,
+                          fontWeight: FontWeight.w600,
+                          color: context.textPrimary,
+                          height: 1.4,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 12),
+                // Options
+                ListView.builder(
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  itemCount: question.options.length,
+                  itemBuilder: (context, index) {
+                    final option = question.options[index];
+                    final isSelected = selectedOption == index;
+
+                    return GestureDetector(
+                      onTap: () => _selectOption(index),
+                      child: AnimatedContainer(
+                        duration: const Duration(milliseconds: 150),
+                        margin: const EdgeInsets.only(bottom: 10),
+                        padding: const EdgeInsets.all(14),
+                        decoration: BoxDecoration(
+                          color: isSelected
+                              ? (context.isDark
+                                    ? const Color(0xFF1E3A5F)
+                                    : const Color(0xFFEFF6FF))
+                              : context.cardBg,
+                          borderRadius: BorderRadius.circular(12),
+                          border: Border.all(
+                            color: isSelected
+                                ? (context.isDark
+                                      ? const Color(0xFF60A5FA)
+                                      : const Color(0xFF1F3C6D))
+                                : context.borderSubtle,
+                            width: isSelected ? 2 : 1,
+                          ),
+                        ),
+                        child: Row(
+                          children: [
+                            Container(
+                              width: 28,
+                              height: 28,
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                color: isSelected
+                                    ? (context.isDark
+                                          ? const Color(0xFF3B82F6)
+                                          : const Color(0xFF1F3C6D))
+                                    : context.surfaceMuted,
+                              ),
+                              child: Center(
+                                child: Text(
+                                  String.fromCharCode(65 + index), // A, B, C, D
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.w700,
+                                    fontSize: 13,
+                                    color: isSelected
+                                        ? Colors.white
+                                        : context.textSecondary,
+                                  ),
+                                ),
+                              ),
+                            ),
+                            const SizedBox(width: 12),
+                            Expanded(
+                              child: Text(
+                                option,
+                                style: TextStyle(
+                                  fontSize: 15,
+                                  color: isSelected
+                                      ? (context.isDark
+                                            ? Colors.white
+                                            : const Color(0xFF1F3C6D))
+                                      : context.textPrimary,
+                                  fontWeight: isSelected
+                                      ? FontWeight.w600
+                                      : FontWeight.normal,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    );
+                  },
+                ),
+                const SizedBox(height: 8),
+                // Prev / Grid / Next row
+                Row(
+                  children: [
+                    Expanded(
+                      child: OutlinedButton.icon(
+                        onPressed: currentIndex > 0
+                            ? () => _goToIndex(currentIndex - 1)
+                            : null,
+                        icon: const Icon(Icons.arrow_back_rounded, size: 18),
+                        label: const Text('Prev'),
+                        style: OutlinedButton.styleFrom(
+                          side: BorderSide(color: context.borderMedium),
+                          foregroundColor: context.textSecondary,
+                          padding: const EdgeInsets.symmetric(vertical: 12),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    OutlinedButton(
+                      onPressed: _showQuestionGrid,
+                      style: OutlinedButton.styleFrom(
+                        side: BorderSide(color: context.borderMedium),
+                        foregroundColor: context.textSecondary,
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 14,
+                          vertical: 12,
+                        ),
+                      ),
+                      child: const Icon(Icons.grid_view_rounded, size: 20),
+                    ),
+                    const SizedBox(width: 10),
+                    Expanded(
+                      child: OutlinedButton.icon(
+                        onPressed: currentIndex < questions.length - 1
+                            ? () => _goToIndex(currentIndex + 1)
+                            : null,
+                        icon: const Icon(Icons.arrow_forward_rounded, size: 18),
+                        label: const Text('Next'),
+                        iconAlignment: IconAlignment.end,
+                        style: OutlinedButton.styleFrom(
+                          side: BorderSide(color: context.borderMedium),
+                          foregroundColor: context.textSecondary,
+                          padding: const EdgeInsets.symmetric(vertical: 12),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 10),
+                ElevatedButton(
+                  onPressed: _tryFinish,
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: const Color(0xFF1F3C6D),
+                    foregroundColor: Colors.white,
+                    padding: const EdgeInsets.symmetric(vertical: 14),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                  ),
+                  child: Text(
+                    'Submit Quiz  ($_answeredCount/${questions.length} answered)',
                   ),
                 ),
               ],
             ),
-            const SizedBox(height: 10),
-            ElevatedButton(
-              onPressed: _tryFinish,
-              style: ElevatedButton.styleFrom(
-                backgroundColor: const Color(0xFF1F3C6D),
-                foregroundColor: Colors.white,
-                padding: const EdgeInsets.symmetric(vertical: 14),
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-              ),
-              child: Text('Submit Quiz  ($_answeredCount/${questions.length} answered)'),
-            ),
-          ],
+          ),
         ),
       ),
     );
@@ -1722,7 +2417,14 @@ class _ReviewModeBadge extends StatelessWidget {
         children: [
           Icon(Icons.track_changes_rounded, size: 14, color: Colors.white),
           SizedBox(width: 5),
-          Text('Review Mode', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w700, fontSize: 12)),
+          Text(
+            'Review Mode',
+            style: TextStyle(
+              color: Colors.white,
+              fontWeight: FontWeight.w700,
+              fontSize: 12,
+            ),
+          ),
         ],
       ),
     );
@@ -1737,18 +2439,26 @@ class _TimerWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     final m = seconds ~/ 60;
     final s = seconds % 60;
-    final text = '${m.toString().padLeft(2, '0')}:${s.toString().padLeft(2, '0')}';
+    final text =
+        '${m.toString().padLeft(2, '0')}:${s.toString().padLeft(2, '0')}';
     final Color color = seconds <= 120
         ? Colors.red.shade300
         : seconds <= 300
-            ? Colors.amber.shade300
-            : Colors.white;
+        ? Colors.amber.shade300
+        : Colors.white;
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
         Icon(Icons.timer_rounded, size: 16, color: color),
         const SizedBox(width: 4),
-        Text(text, style: TextStyle(color: color, fontWeight: FontWeight.w700, fontSize: 15)),
+        Text(
+          text,
+          style: TextStyle(
+            color: color,
+            fontWeight: FontWeight.w700,
+            fontSize: 15,
+          ),
+        ),
       ],
     );
   }
@@ -1774,7 +2484,9 @@ class _QuestionGridSheet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(bottom: MediaQuery.of(context).viewInsets.bottom),
+      padding: EdgeInsets.only(
+        bottom: MediaQuery.of(context).viewInsets.bottom,
+      ),
       child: Container(
         padding: const EdgeInsets.fromLTRB(20, 20, 20, 32),
         child: Column(
@@ -1783,22 +2495,47 @@ class _QuestionGridSheet extends StatelessWidget {
           children: [
             Row(
               children: [
-                Text('Jump to Question', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700, color: context.textPrimary)),
+                Text(
+                  'Jump to Question',
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.w700,
+                    color: context.textPrimary,
+                  ),
+                ),
                 const Spacer(),
                 GestureDetector(
                   onTap: () => Navigator.pop(context),
-                  child: Icon(Icons.close_rounded, color: context.textSecondary),
+                  child: Icon(
+                    Icons.close_rounded,
+                    color: context.textSecondary,
+                  ),
                 ),
               ],
             ),
             const SizedBox(height: 12),
             Row(
               children: [
-                _legendDot(context.cardBg, context.borderSubtle, 'Unanswered', textColor: context.textSecondary),
+                _legendDot(
+                  context.cardBg,
+                  context.borderSubtle,
+                  'Unanswered',
+                  textColor: context.textSecondary,
+                ),
                 const SizedBox(width: 16),
-                _legendDot(const Color(0xFF1F3C6D), const Color(0xFF1F3C6D), 'Answered', textColor: Colors.white),
+                _legendDot(
+                  const Color(0xFF1F3C6D),
+                  const Color(0xFF1F3C6D),
+                  'Answered',
+                  textColor: Colors.white,
+                ),
                 const SizedBox(width: 16),
-                _legendDot(const Color(0xFF22C55E).withValues(alpha: 0.15), const Color(0xFF22C55E), 'Current', textColor: context.textSecondary),
+                _legendDot(
+                  const Color(0xFF22C55E).withValues(alpha: 0.15),
+                  const Color(0xFF22C55E),
+                  'Current',
+                  textColor: context.textSecondary,
+                ),
               ],
             ),
             const SizedBox(height: 16),
@@ -1813,7 +2550,8 @@ class _QuestionGridSheet extends StatelessWidget {
               ),
               itemCount: total,
               itemBuilder: (context, i) {
-                final isAnswered = userSelections.length > i && userSelections[i] != null;
+                final isAnswered =
+                    userSelections.length > i && userSelections[i] != null;
                 final isCurrent = i == currentIndex;
                 final isBookmarked = bookmarkedIndices.contains(i);
 
@@ -1824,11 +2562,15 @@ class _QuestionGridSheet extends StatelessWidget {
                       color: isCurrent
                           ? const Color(0xFF22C55E).withValues(alpha: 0.12)
                           : isAnswered
-                              ? const Color(0xFF1F3C6D)
-                              : context.cardBg,
+                          ? const Color(0xFF1F3C6D)
+                          : context.cardBg,
                       borderRadius: BorderRadius.circular(10),
                       border: Border.all(
-                        color: isCurrent ? const Color(0xFF22C55E) : isAnswered ? const Color(0xFF1F3C6D) : context.borderSubtle,
+                        color: isCurrent
+                            ? const Color(0xFF22C55E)
+                            : isAnswered
+                            ? const Color(0xFF1F3C6D)
+                            : context.borderSubtle,
                         width: isCurrent ? 2 : 1.5,
                       ),
                     ),
@@ -1840,7 +2582,9 @@ class _QuestionGridSheet extends StatelessWidget {
                             style: TextStyle(
                               fontWeight: FontWeight.w700,
                               fontSize: 14,
-                              color: isAnswered && !isCurrent ? Colors.white : context.textSecondary,
+                              color: isAnswered && !isCurrent
+                                  ? Colors.white
+                                  : context.textSecondary,
                             ),
                           ),
                         ),
@@ -1851,7 +2595,11 @@ class _QuestionGridSheet extends StatelessWidget {
                             child: Icon(
                               Icons.bookmark_rounded,
                               size: 10,
-                              color: isAnswered ? Colors.white70 : (context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D)),
+                              color: isAnswered
+                                  ? Colors.white70
+                                  : (context.isDark
+                                        ? const Color(0xFF60A5FA)
+                                        : const Color(0xFF1F3C6D)),
                             ),
                           ),
                       ],
@@ -1870,11 +2618,22 @@ class _QuestionGridSheet extends StatelessWidget {
     return Row(
       children: [
         Container(
-          width: 14, height: 14,
-          decoration: BoxDecoration(color: bg, border: Border.all(color: border), borderRadius: BorderRadius.circular(4)),
+          width: 14,
+          height: 14,
+          decoration: BoxDecoration(
+            color: bg,
+            border: Border.all(color: border),
+            borderRadius: BorderRadius.circular(4),
+          ),
         ),
         const SizedBox(width: 5),
-        Text(label, style: TextStyle(fontSize: 11, color: textColor ?? const Color(0xFF64748B))),
+        Text(
+          label,
+          style: TextStyle(
+            fontSize: 11,
+            color: textColor ?? const Color(0xFF64748B),
+          ),
+        ),
       ],
     );
   }
@@ -1887,7 +2646,11 @@ class _ReviewPage extends StatelessWidget {
   final List<int?> userSelections;
   final Set<int> bookmarkedIndices;
 
-  const _ReviewPage({required this.questions, required this.userSelections, required this.bookmarkedIndices});
+  const _ReviewPage({
+    required this.questions,
+    required this.userSelections,
+    required this.bookmarkedIndices,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -1905,16 +2668,36 @@ class _ReviewPage extends StatelessWidget {
                   labelColor: Colors.white,
                   unselectedLabelColor: Colors.white60,
                   indicatorColor: Colors.white,
-                  tabs: [Tab(text: 'All Questions'), Tab(text: 'Bookmarked')],
+                  tabs: [
+                    Tab(text: 'All Questions'),
+                    Tab(text: 'Bookmarked'),
+                  ],
                 )
               : null,
         ),
         body: hasBookmarks
-            ? TabBarView(children: [
-                _QuestionList(questions: questions, userSelections: userSelections, bookmarkedIndices: bookmarkedIndices, filterBookmarked: false),
-                _QuestionList(questions: questions, userSelections: userSelections, bookmarkedIndices: bookmarkedIndices, filterBookmarked: true),
-              ])
-            : _QuestionList(questions: questions, userSelections: userSelections, bookmarkedIndices: bookmarkedIndices, filterBookmarked: false),
+            ? TabBarView(
+                children: [
+                  _QuestionList(
+                    questions: questions,
+                    userSelections: userSelections,
+                    bookmarkedIndices: bookmarkedIndices,
+                    filterBookmarked: false,
+                  ),
+                  _QuestionList(
+                    questions: questions,
+                    userSelections: userSelections,
+                    bookmarkedIndices: bookmarkedIndices,
+                    filterBookmarked: true,
+                  ),
+                ],
+              )
+            : _QuestionList(
+                questions: questions,
+                userSelections: userSelections,
+                bookmarkedIndices: bookmarkedIndices,
+                filterBookmarked: false,
+              ),
       ),
     );
   }
@@ -1926,13 +2709,26 @@ class _QuestionList extends StatelessWidget {
   final Set<int> bookmarkedIndices;
   final bool filterBookmarked;
 
-  const _QuestionList({required this.questions, required this.userSelections, required this.bookmarkedIndices, required this.filterBookmarked});
+  const _QuestionList({
+    required this.questions,
+    required this.userSelections,
+    required this.bookmarkedIndices,
+    required this.filterBookmarked,
+  });
 
   @override
   Widget build(BuildContext context) {
-    final indices = List.generate(questions.length, (i) => i).where((i) => !filterBookmarked || bookmarkedIndices.contains(i)).toList();
+    final indices = List.generate(
+      questions.length,
+      (i) => i,
+    ).where((i) => !filterBookmarked || bookmarkedIndices.contains(i)).toList();
     if (indices.isEmpty) {
-      return Center(child: Text('No bookmarked questions.', style: TextStyle(color: context.textSecondary)));
+      return Center(
+        child: Text(
+          'No bookmarked questions.',
+          style: TextStyle(color: context.textSecondary),
+        ),
+      );
     }
     return ListView.builder(
       padding: const EdgeInsets.all(16),
@@ -1942,7 +2738,11 @@ class _QuestionList extends StatelessWidget {
         final q = questions[i];
         final sel = userSelections.length > i ? userSelections[i] : null;
         final isSkipped = sel == null;
-        final isCorrect = !isSkipped && sel >= 0 && sel < q.options.length && q.options[sel] == q.correctAnswer;
+        final isCorrect =
+            !isSkipped &&
+            sel >= 0 &&
+            sel < q.options.length &&
+            q.options[sel] == q.correctAnswer;
         final isBookmarked = bookmarkedIndices.contains(i);
 
         final Color statusColor;
@@ -1967,7 +2767,10 @@ class _QuestionList extends StatelessWidget {
           decoration: BoxDecoration(
             color: context.cardBg,
             borderRadius: BorderRadius.circular(14),
-            border: Border.all(color: statusColor.withValues(alpha: 0.25), width: 1.5),
+            border: Border.all(
+              color: statusColor.withValues(alpha: 0.25),
+              width: 1.5,
+            ),
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1977,16 +2780,41 @@ class _QuestionList extends StatelessWidget {
                 child: Row(
                   children: [
                     Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                      decoration: BoxDecoration(color: const Color(0xFF1F3C6D).withValues(alpha: 0.08), borderRadius: BorderRadius.circular(6)),
-                      child: Text('Q${i + 1}', style: const TextStyle(fontWeight: FontWeight.w800, color: Color(0xFF1F3C6D), fontSize: 13)),
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 8,
+                        vertical: 4,
+                      ),
+                      decoration: BoxDecoration(
+                        color: const Color(0xFF1F3C6D).withValues(alpha: 0.08),
+                        borderRadius: BorderRadius.circular(6),
+                      ),
+                      child: Text(
+                        'Q${i + 1}',
+                        style: const TextStyle(
+                          fontWeight: FontWeight.w800,
+                          color: Color(0xFF1F3C6D),
+                          fontSize: 13,
+                        ),
+                      ),
                     ),
                     const SizedBox(width: 8),
                     Icon(statusIcon, color: statusColor, size: 17),
                     const SizedBox(width: 4),
-                    Text(statusLabel, style: TextStyle(color: statusColor, fontWeight: FontWeight.w700, fontSize: 13)),
+                    Text(
+                      statusLabel,
+                      style: TextStyle(
+                        color: statusColor,
+                        fontWeight: FontWeight.w700,
+                        fontSize: 13,
+                      ),
+                    ),
                     const Spacer(),
-                    if (isBookmarked) const Icon(Icons.bookmark_rounded, color: Color(0xFF1F3C6D), size: 18),
+                    if (isBookmarked)
+                      const Icon(
+                        Icons.bookmark_rounded,
+                        color: Color(0xFF1F3C6D),
+                        size: 18,
+                      ),
                   ],
                 ),
               ),
@@ -1996,17 +2824,48 @@ class _QuestionList extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(q.prompt, style: TextStyle(fontSize: 15, color: context.textPrimary, height: 1.45)),
+                    Text(
+                      q.prompt,
+                      style: TextStyle(
+                        fontSize: 15,
+                        color: context.textPrimary,
+                        height: 1.45,
+                      ),
+                    ),
                     const SizedBox(height: 12),
-                    if (!isCorrect && !isSkipped && sel >= 0 && sel < q.options.length) ...[
-                      _answerRow(label: 'Your Answer', text: q.options[sel], color: const Color(0xFFDC2626), bg: context.isDark ? const Color(0xFFDC2626).withValues(alpha: 0.15) : const Color(0xFFFEF2F2)),
+                    if (!isCorrect &&
+                        !isSkipped &&
+                        sel >= 0 &&
+                        sel < q.options.length) ...[
+                      _answerRow(
+                        label: 'Your Answer',
+                        text: q.options[sel],
+                        color: const Color(0xFFDC2626),
+                        bg: context.isDark
+                            ? const Color(0xFFDC2626).withValues(alpha: 0.15)
+                            : const Color(0xFFFEF2F2),
+                      ),
                       const SizedBox(height: 6),
                     ],
                     if (isSkipped) ...[
-                      _answerRow(label: 'Skipped', text: 'No answer selected', color: const Color(0xFFB45309), bg: context.isDark ? const Color(0xFFB45309).withValues(alpha: 0.15) : const Color(0xFFFFFBEB)),
+                      _answerRow(
+                        label: 'Skipped',
+                        text: 'No answer selected',
+                        color: const Color(0xFFB45309),
+                        bg: context.isDark
+                            ? const Color(0xFFB45309).withValues(alpha: 0.15)
+                            : const Color(0xFFFFFBEB),
+                      ),
                       const SizedBox(height: 6),
                     ],
-                    _answerRow(label: 'Correct Answer', text: q.correctAnswer, color: const Color(0xFF16A34A), bg: context.isDark ? const Color(0xFF16A34A).withValues(alpha: 0.15) : const Color(0xFFECFDF3)),
+                    _answerRow(
+                      label: 'Correct Answer',
+                      text: q.correctAnswer,
+                      color: const Color(0xFF16A34A),
+                      bg: context.isDark
+                          ? const Color(0xFF16A34A).withValues(alpha: 0.15)
+                          : const Color(0xFFECFDF3),
+                    ),
                   ],
                 ),
               ),
@@ -2017,15 +2876,30 @@ class _QuestionList extends StatelessWidget {
     );
   }
 
-  Widget _answerRow({required String label, required String text, required Color color, required Color bg}) {
+  Widget _answerRow({
+    required String label,
+    required String text,
+    required Color color,
+    required Color bg,
+  }) {
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
-      decoration: BoxDecoration(color: bg, borderRadius: BorderRadius.circular(8)),
+      decoration: BoxDecoration(
+        color: bg,
+        borderRadius: BorderRadius.circular(8),
+      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(label, style: TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: color)),
+          Text(
+            label,
+            style: TextStyle(
+              fontSize: 11,
+              fontWeight: FontWeight.w700,
+              color: color,
+            ),
+          ),
           const SizedBox(height: 4),
           Text(text, style: TextStyle(fontSize: 14, color: color, height: 1.4)),
         ],
@@ -2047,9 +2921,23 @@ class _StatBox extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(label, style: TextStyle(color: context.textSecondary, fontSize: 12, fontWeight: FontWeight.w600)),
+        Text(
+          label,
+          style: TextStyle(
+            color: context.textSecondary,
+            fontSize: 12,
+            fontWeight: FontWeight.w600,
+          ),
+        ),
         const SizedBox(height: 4),
-        Text(value, style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700, color: context.textPrimary)),
+        Text(
+          value,
+          style: TextStyle(
+            fontSize: 18,
+            fontWeight: FontWeight.w700,
+            color: context.textPrimary,
+          ),
+        ),
       ],
     );
   }
@@ -2060,7 +2948,11 @@ class _DeltaChip extends StatelessWidget {
   final int previous;
   final int total;
 
-  const _DeltaChip({required this.current, required this.previous, required this.total});
+  const _DeltaChip({
+    required this.current,
+    required this.previous,
+    required this.total,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -2070,18 +2962,18 @@ class _DeltaChip extends StatelessWidget {
     final Color color = isEqual
         ? context.textSecondary
         : isPositive
-            ? const Color(0xFF16A34A)
-            : const Color(0xFFDC2626);
+        ? const Color(0xFF16A34A)
+        : const Color(0xFFDC2626);
     final IconData icon = isEqual
         ? Icons.remove_rounded
         : isPositive
-            ? Icons.arrow_upward_rounded
-            : Icons.arrow_downward_rounded;
+        ? Icons.arrow_upward_rounded
+        : Icons.arrow_downward_rounded;
     final String text = isEqual
         ? 'Matched your best of $previous/$total'
         : isPositive
-            ? '+$delta vs your previous best ($previous/$total)'
-            : '$delta vs your previous best ($previous/$total)';
+        ? '+$delta vs your previous best ($previous/$total)'
+        : '$delta vs your previous best ($previous/$total)';
 
     return Container(
       width: double.infinity,
@@ -2094,7 +2986,16 @@ class _DeltaChip extends StatelessWidget {
         children: [
           Icon(icon, size: 14, color: color),
           const SizedBox(width: 6),
-          Flexible(child: Text(text, style: TextStyle(fontSize: 12, color: color, fontWeight: FontWeight.w600))),
+          Flexible(
+            child: Text(
+              text,
+              style: TextStyle(
+                fontSize: 12,
+                color: color,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
+          ),
         ],
       ),
     );
@@ -2108,7 +3009,11 @@ class _PracticeQuestion {
   final List<String> options;
   final String correctAnswer;
 
-  const _PracticeQuestion({required this.prompt, required this.options, required this.correctAnswer});
+  const _PracticeQuestion({
+    required this.prompt,
+    required this.options,
+    required this.correctAnswer,
+  });
 }
 
 class _ResultStatCard extends StatelessWidget {
@@ -2117,19 +3022,41 @@ class _ResultStatCard extends StatelessWidget {
   final Color valueColor;
   final Color backgroundColor;
 
-  const _ResultStatCard({required this.label, required this.value, required this.valueColor, required this.backgroundColor});
+  const _ResultStatCard({
+    required this.label,
+    required this.value,
+    required this.valueColor,
+    required this.backgroundColor,
+  });
 
   @override
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(12),
-      decoration: BoxDecoration(color: backgroundColor, borderRadius: BorderRadius.circular(14)),
+      decoration: BoxDecoration(
+        color: backgroundColor,
+        borderRadius: BorderRadius.circular(14),
+      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(label, style: TextStyle(fontSize: 12, fontWeight: FontWeight.w700, color: context.textSecondary)),
+          Text(
+            label,
+            style: TextStyle(
+              fontSize: 12,
+              fontWeight: FontWeight.w700,
+              color: context.textSecondary,
+            ),
+          ),
           const SizedBox(height: 6),
-          Text(value, style: TextStyle(fontSize: 22, fontWeight: FontWeight.w800, color: valueColor)),
+          Text(
+            value,
+            style: TextStyle(
+              fontSize: 22,
+              fontWeight: FontWeight.w800,
+              color: valueColor,
+            ),
+          ),
         ],
       ),
     );

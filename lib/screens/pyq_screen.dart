@@ -161,14 +161,18 @@ class _PYQScreenState extends State<PYQScreen> {
   List<String> _availableTopics = [];
   String? _selectedTopic;
   List<int?> _allSelections = []; // parallel to _allQuestions
-  List<int?> _selections = [];   // parallel to _questions (current view)
+  List<int?> _selections = []; // parallel to _questions (current view)
   int _currentIndex = 0;
   bool _quizDone = false;
 
   bool get _isPremium => premiumUnlocked;
   bool get _isLocked => !_isPremium && _currentIndex >= freePYQLimit;
 
-  Future<void> _loadAndStart(_ExamInfo exam, {bool fresh = false, int jumpToIndex = 0}) async {
+  Future<void> _loadAndStart(
+    _ExamInfo exam, {
+    bool fresh = false,
+    int jumpToIndex = 0,
+  }) async {
     if (fresh) await clearPYQSession(exam.name);
     setState(() {
       _isLoading = true;
@@ -177,8 +181,9 @@ class _PYQScreenState extends State<PYQScreen> {
     try {
       final raw = await rootBundle.loadString(exam.file);
       final list = json.decode(raw) as List;
-      final questions =
-          list.map((e) => PYQQuestion.fromJson(e as Map<String, dynamic>)).toList();
+      final questions = list
+          .map((e) => PYQQuestion.fromJson(e as Map<String, dynamic>))
+          .toList();
       if (!mounted) return;
       if (questions.isEmpty) {
         setState(() {
@@ -186,30 +191,34 @@ class _PYQScreenState extends State<PYQScreen> {
           _selectedExam = null;
         });
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('No questions added yet. Check back soon!')),
+          const SnackBar(
+            content: Text('No questions added yet. Check back soon!'),
+          ),
         );
         return;
       }
       final years = questions.map((q) => q.year).toSet().toList()
         ..sort((a, b) => b.compareTo(a));
       final subExams = questions.map((q) => q.exam).toSet().toList()..sort();
-      final difficulties = questions
-          .map((q) => q.difficulty)
-          .where((d) => d.isNotEmpty)
-          .toSet()
-          .toList()
-        ..sort();
-      final topics = questions
-          .map((q) => q.topic)
-          .where((t) => t.isNotEmpty)
-          .toSet()
-          .toList()
-        ..sort();
+      final difficulties =
+          questions
+              .map((q) => q.difficulty)
+              .where((d) => d.isNotEmpty)
+              .toSet()
+              .toList()
+            ..sort();
+      final topics =
+          questions
+              .map((q) => q.topic)
+              .where((t) => t.isNotEmpty)
+              .toSet()
+              .toList()
+            ..sort();
       final resumeIndex = jumpToIndex > 0
           ? jumpToIndex.clamp(0, questions.length - 1)
           : fresh
-              ? 0
-              : getPYQResumeIndex(exam.name).clamp(0, questions.length - 1);
+          ? 0
+          : getPYQResumeIndex(exam.name).clamp(0, questions.length - 1);
       final allSel = List<int?>.filled(questions.length, null);
       if (!fresh) {
         for (final e in getPYQSelections(exam.name).entries) {
@@ -263,7 +272,12 @@ class _PYQScreenState extends State<PYQScreen> {
     });
   }
 
-  List<PYQQuestion> _filtered(String? subExam, String? year, String? difficulty, String? topic) {
+  List<PYQQuestion> _filtered(
+    String? subExam,
+    String? year,
+    String? difficulty,
+    String? topic,
+  ) {
     return _allQuestions.where((q) {
       return (subExam == null || q.exam == subExam) &&
           (year == null || q.year == year) &&
@@ -280,7 +294,12 @@ class _PYQScreenState extends State<PYQScreen> {
   }
 
   void _applySubExamFilter(String? subExam) {
-    final f = _filtered(subExam, _selectedYear, _selectedDifficulty, _selectedTopic);
+    final f = _filtered(
+      subExam,
+      _selectedYear,
+      _selectedDifficulty,
+      _selectedTopic,
+    );
     setState(() {
       _selectedSubExam = subExam;
       _questions = f;
@@ -290,7 +309,12 @@ class _PYQScreenState extends State<PYQScreen> {
   }
 
   void _applyYearFilter(String? year) {
-    final f = _filtered(_selectedSubExam, year, _selectedDifficulty, _selectedTopic);
+    final f = _filtered(
+      _selectedSubExam,
+      year,
+      _selectedDifficulty,
+      _selectedTopic,
+    );
     setState(() {
       _selectedYear = year;
       _questions = f;
@@ -300,7 +324,12 @@ class _PYQScreenState extends State<PYQScreen> {
   }
 
   void _applyDifficultyFilter(String? difficulty) {
-    final f = _filtered(_selectedSubExam, _selectedYear, difficulty, _selectedTopic);
+    final f = _filtered(
+      _selectedSubExam,
+      _selectedYear,
+      difficulty,
+      _selectedTopic,
+    );
     setState(() {
       _selectedDifficulty = difficulty;
       _questions = f;
@@ -310,7 +339,12 @@ class _PYQScreenState extends State<PYQScreen> {
   }
 
   void _applyTopicFilter(String? topic) {
-    final f = _filtered(_selectedSubExam, _selectedYear, _selectedDifficulty, topic);
+    final f = _filtered(
+      _selectedSubExam,
+      _selectedYear,
+      _selectedDifficulty,
+      topic,
+    );
     setState(() {
       _selectedTopic = topic;
       _questions = f;
@@ -343,42 +377,84 @@ class _PYQScreenState extends State<PYQScreen> {
       context: context,
       isScrollControlled: true,
       shape: const RoundedRectangleBorder(
-          borderRadius: BorderRadius.vertical(top: Radius.circular(20))),
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
       builder: (_) => StatefulBuilder(
         builder: (ctx, setSheetState) {
           final previewCount = _filtered(
-              _selectedSubExam, _selectedYear, _selectedDifficulty, _selectedTopic).length;
+            _selectedSubExam,
+            _selectedYear,
+            _selectedDifficulty,
+            _selectedTopic,
+          ).length;
 
-          void tapSubExam(String? val) { _applySubExamFilter(val); setSheetState(() {}); }
-          void tapYear(String? val) { _applyYearFilter(val); setSheetState(() {}); }
-          void tapDifficulty(String? val) { _applyDifficultyFilter(val); setSheetState(() {}); }
-          void tapTopic(String? val) { _applyTopicFilter(val); setSheetState(() {}); }
+          void tapSubExam(String? val) {
+            _applySubExamFilter(val);
+            setSheetState(() {});
+          }
+
+          void tapYear(String? val) {
+            _applyYearFilter(val);
+            setSheetState(() {});
+          }
+
+          void tapDifficulty(String? val) {
+            _applyDifficultyFilter(val);
+            setSheetState(() {});
+          }
+
+          void tapTopic(String? val) {
+            _applyTopicFilter(val);
+            setSheetState(() {});
+          }
 
           Widget sectionLabel(String text) => Text(
             text,
-            style: TextStyle(fontSize: 13, fontWeight: FontWeight.w700, color: ctx.textSecondary),
+            style: TextStyle(
+              fontSize: 13,
+              fontWeight: FontWeight.w700,
+              color: ctx.textSecondary,
+            ),
           );
 
           return SingleChildScrollView(
-            padding: EdgeInsets.fromLTRB(20, 20, 20, MediaQuery.of(ctx).viewInsets.bottom + 32),
+            padding: EdgeInsets.fromLTRB(
+              20,
+              20,
+              20,
+              MediaQuery.of(ctx).viewInsets.bottom + 32,
+            ),
             child: Column(
               mainAxisSize: MainAxisSize.min,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
                   children: [
-                    const Text('Filter Questions',
-                        style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800)),
+                    const Text(
+                      'Filter Questions',
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.w800,
+                      ),
+                    ),
                     const Spacer(),
                     if (_hasActiveFilter)
                       TextButton(
-                        onPressed: () { _clearAllFilters(); setSheetState(() {}); },
-                        child: const Text('Clear all',
-                            style: TextStyle(color: Color(0xFFDC2626))),
+                        onPressed: () {
+                          _clearAllFilters();
+                          setSheetState(() {});
+                        },
+                        child: const Text(
+                          'Clear all',
+                          style: TextStyle(color: Color(0xFFDC2626)),
+                        ),
                       ),
                     GestureDetector(
                       onTap: () => Navigator.pop(ctx),
-                      child: Icon(Icons.close_rounded, color: ctx.textSecondary),
+                      child: Icon(
+                        Icons.close_rounded,
+                        color: ctx.textSecondary,
+                      ),
                     ),
                   ],
                 ),
@@ -393,8 +469,15 @@ class _PYQScreenState extends State<PYQScreen> {
                         _filterChip(null, 'All', _selectedSubExam, tapSubExam),
                         ..._availableSubExams.map((e) {
                           final prefix = '${_selectedExam!.name} ';
-                          final label = e.startsWith(prefix) ? e.substring(prefix.length) : e;
-                          return _filterChip(e, label, _selectedSubExam, tapSubExam);
+                          final label = e.startsWith(prefix)
+                              ? e.substring(prefix.length)
+                              : e;
+                          return _filterChip(
+                            e,
+                            label,
+                            _selectedSubExam,
+                            tapSubExam,
+                          );
                         }),
                       ],
                     ),
@@ -408,9 +491,20 @@ class _PYQScreenState extends State<PYQScreen> {
                     scrollDirection: Axis.horizontal,
                     child: Row(
                       children: [
-                        _filterChip(null, 'All', _selectedDifficulty, tapDifficulty),
+                        _filterChip(
+                          null,
+                          'All',
+                          _selectedDifficulty,
+                          tapDifficulty,
+                        ),
                         ..._availableDifficulties.map(
-                            (d) => _filterChip(d, d, _selectedDifficulty, tapDifficulty)),
+                          (d) => _filterChip(
+                            d,
+                            d,
+                            _selectedDifficulty,
+                            tapDifficulty,
+                          ),
+                        ),
                       ],
                     ),
                   ),
@@ -425,7 +519,8 @@ class _PYQScreenState extends State<PYQScreen> {
                     children: [
                       _filterChip(null, 'All', _selectedTopic, tapTopic),
                       ..._availableTopics.map(
-                          (t) => _filterChip(t, t, _selectedTopic, tapTopic)),
+                        (t) => _filterChip(t, t, _selectedTopic, tapTopic),
+                      ),
                     ],
                   ),
                   const SizedBox(height: 20),
@@ -439,7 +534,8 @@ class _PYQScreenState extends State<PYQScreen> {
                       children: [
                         _filterChip(null, 'All', _selectedYear, tapYear),
                         ..._availableYears.map(
-                            (y) => _filterChip(y, y, _selectedYear, tapYear)),
+                          (y) => _filterChip(y, y, _selectedYear, tapYear),
+                        ),
                       ],
                     ),
                   ),
@@ -453,11 +549,19 @@ class _PYQScreenState extends State<PYQScreen> {
                   ),
                   child: Row(
                     children: [
-                      Icon(Icons.help_outline_rounded, size: 16, color: _accent),
+                      Icon(
+                        Icons.help_outline_rounded,
+                        size: 16,
+                        color: _accent,
+                      ),
                       const SizedBox(width: 8),
                       Text(
                         '$previewCount question${previewCount == 1 ? '' : 's'} match your filters',
-                        style: TextStyle(fontSize: 13, fontWeight: FontWeight.w600, color: _accent),
+                        style: TextStyle(
+                          fontSize: 13,
+                          fontWeight: FontWeight.w600,
+                          color: _accent,
+                        ),
                       ),
                     ],
                   ),
@@ -502,7 +606,8 @@ class _PYQScreenState extends State<PYQScreen> {
       context: context,
       isScrollControlled: true,
       shape: const RoundedRectangleBorder(
-          borderRadius: BorderRadius.vertical(top: Radius.circular(20))),
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
       builder: (ctx) => DraggableScrollableSheet(
         initialChildSize: 0.55,
         minChildSize: 0.35,
@@ -518,34 +623,47 @@ class _PYQScreenState extends State<PYQScreen> {
                 children: [
                   Row(
                     children: [
-                      Text('Jump to Question',
-                          style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.w700,
-                              color: context.textPrimary)),
+                      Text(
+                        'Jump to Question',
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.w700,
+                          color: context.textPrimary,
+                        ),
+                      ),
                       const Spacer(),
                       GestureDetector(
                         onTap: () => Navigator.pop(context),
-                        child: Icon(Icons.close_rounded,
-                            color: context.textSecondary),
+                        child: Icon(
+                          Icons.close_rounded,
+                          color: context.textSecondary,
+                        ),
                       ),
                     ],
                   ),
                   const SizedBox(height: 12),
                   Row(
                     children: [
-                      _gridLegend(context.cardBg, context.borderSubtle,
-                          'Unanswered', textColor: context.textSecondary),
+                      _gridLegend(
+                        context.cardBg,
+                        context.borderSubtle,
+                        'Unanswered',
+                        textColor: context.textSecondary,
+                      ),
                       const SizedBox(width: 16),
                       _gridLegend(
-                          const Color(0xFF1F3C6D), const Color(0xFF1F3C6D),
-                          'Answered',
-                          textColor: Colors.white),
+                        const Color(0xFF1F3C6D),
+                        const Color(0xFF1F3C6D),
+                        'Answered',
+                        textColor: Colors.white,
+                      ),
                       const SizedBox(width: 16),
                       _gridLegend(
-                          const Color(0xFF22C55E).withValues(alpha: 0.15),
-                          const Color(0xFF22C55E),
-                          'Current', textColor: context.textSecondary),
+                        const Color(0xFF22C55E).withValues(alpha: 0.15),
+                        const Color(0xFF22C55E),
+                        'Current',
+                        textColor: context.textSecondary,
+                      ),
                     ],
                   ),
                   const SizedBox(height: 12),
@@ -554,80 +672,83 @@ class _PYQScreenState extends State<PYQScreen> {
             ),
             Expanded(
               child: GridView.builder(
-              controller: scrollController,
-              padding: const EdgeInsets.fromLTRB(20, 4, 20, 32),
-              gridDelegate:
-                  const SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 5,
-                mainAxisSpacing: 10,
-                crossAxisSpacing: 10,
-                childAspectRatio: 1,
-              ),
-              itemCount: total,
-              itemBuilder: (_, i) {
-                final isAnswered =
-                    _selections.length > i && _selections[i] != null;
-                final isCurrent = i == _currentIndex;
-                return GestureDetector(
-                  onTap: () {
-                    Navigator.pop(context);
-                    setState(() => _currentIndex = i);
-                  },
-                  child: Container(
-                    decoration: BoxDecoration(
-                      color: isCurrent
-                          ? const Color(0xFF22C55E).withValues(alpha: 0.12)
-                          : isAnswered
-                              ? const Color(0xFF1F3C6D)
-                              : context.cardBg,
-                      borderRadius: BorderRadius.circular(10),
-                      border: Border.all(
+                controller: scrollController,
+                padding: const EdgeInsets.fromLTRB(20, 4, 20, 32),
+                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 5,
+                  mainAxisSpacing: 10,
+                  crossAxisSpacing: 10,
+                  childAspectRatio: 1,
+                ),
+                itemCount: total,
+                itemBuilder: (_, i) {
+                  final isAnswered =
+                      _selections.length > i && _selections[i] != null;
+                  final isCurrent = i == _currentIndex;
+                  return GestureDetector(
+                    onTap: () {
+                      Navigator.pop(context);
+                      setState(() => _currentIndex = i);
+                    },
+                    child: Container(
+                      decoration: BoxDecoration(
                         color: isCurrent
-                            ? const Color(0xFF22C55E)
+                            ? const Color(0xFF22C55E).withValues(alpha: 0.12)
                             : isAnswered
-                                ? const Color(0xFF1F3C6D)
-                                : context.borderSubtle,
-                        width: isCurrent ? 2 : 1.5,
+                            ? const Color(0xFF1F3C6D)
+                            : context.cardBg,
+                        borderRadius: BorderRadius.circular(10),
+                        border: Border.all(
+                          color: isCurrent
+                              ? const Color(0xFF22C55E)
+                              : isAnswered
+                              ? const Color(0xFF1F3C6D)
+                              : context.borderSubtle,
+                          width: isCurrent ? 2 : 1.5,
+                        ),
                       ),
-                    ),
-                    child: Center(
-                      child: Text(
-                        '${i + 1}',
-                        style: TextStyle(
-                          fontWeight: FontWeight.w700,
-                          fontSize: 14,
-                          color: isAnswered && !isCurrent
-                              ? Colors.white
-                              : context.textSecondary,
+                      child: Center(
+                        child: Text(
+                          '${i + 1}',
+                          style: TextStyle(
+                            fontWeight: FontWeight.w700,
+                            fontSize: 14,
+                            color: isAnswered && !isCurrent
+                                ? Colors.white
+                                : context.textSecondary,
+                          ),
                         ),
                       ),
                     ),
-                  ),
-                );
-              },
+                  );
+                },
+              ),
             ),
-          ),
           ],
         ),
       ),
     );
   }
 
-  Widget _gridLegend(Color bg, Color border, String label,
-      {Color textColor = const Color(0xFF334155)}) {
+  Widget _gridLegend(
+    Color bg,
+    Color border,
+    String label, {
+    Color textColor = const Color(0xFF334155),
+  }) {
     return Row(
       children: [
         Container(
           width: 14,
           height: 14,
           decoration: BoxDecoration(
-              color: bg,
-              border: Border.all(color: border),
-              borderRadius: BorderRadius.circular(4)),
+            color: bg,
+            border: Border.all(color: border),
+            borderRadius: BorderRadius.circular(4),
+          ),
         ),
         const SizedBox(width: 5),
-        Text(label,
-            style: TextStyle(fontSize: 11, color: textColor)),
+        Text(label, style: TextStyle(fontSize: 11, color: textColor)),
       ],
     );
   }
@@ -635,9 +756,12 @@ class _PYQScreenState extends State<PYQScreen> {
   int get _correctCount => _selections
       .asMap()
       .entries
-      .where((e) =>
-          e.value != null &&
-          _questions[e.key].options[e.value!] == _questions[e.key].correctAnswer)
+      .where(
+        (e) =>
+            e.value != null &&
+            _questions[e.key].options[e.value!] ==
+                _questions[e.key].correctAnswer,
+      )
       .length;
 
   // ── Colors ──────────────────────────────────────────────────────────────────
@@ -687,7 +811,8 @@ class _PYQScreenState extends State<PYQScreen> {
       if (q.difficulty.isNotEmpty) q.difficulty,
     ].join(' · ');
 
-    final text = '''🧠 Can you crack this?
+    final text =
+        '''🧠 Can you crack this?
 
 ${q.question}
 
@@ -759,73 +884,88 @@ $optionsText
       body: _isLoading
           ? const Center(child: CircularProgressIndicator())
           : _inQuiz
-              ? (_quizDone ? _buildResult() : _buildQuiz())
-              : _buildHub(),
+          ? (_quizDone ? _buildResult() : _buildQuiz())
+          : _buildHub(),
     );
   }
 
   // ── Hub ──────────────────────────────────────────────────────────────────────
 
   Widget _buildHub() {
-    return SingleChildScrollView(
-      padding: const EdgeInsets.fromLTRB(20, 4, 20, 32),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            'Choose an Exam',
-            style: TextStyle(
-              fontSize: 22,
-              fontWeight: FontWeight.w800,
-              color: context.textPrimary,
-            ),
-          ),
-          const SizedBox(height: 4),
-          Text(
-            'Practice real questions from previous papers',
-            style: TextStyle(fontSize: 14, color: context.textSecondary),
-          ),
-          const SizedBox(height: 20),
-          GridView.count(
-            crossAxisCount: 2,
-            shrinkWrap: true,
-            physics: const NeverScrollableScrollPhysics(),
-            crossAxisSpacing: 14,
-            mainAxisSpacing: 14,
-            childAspectRatio: 1.05,
-            children: _exams
-                .map((exam) => _ExamGridCard(
-                      exam: exam,
-                      onTap: () => _loadAndStart(exam),
-                    ))
-                .toList(),
-          ),
-          if (!_isPremium) ...[
-            const SizedBox(height: 20),
-            Container(
-              padding: const EdgeInsets.all(14),
-              decoration: BoxDecoration(
-                color: context.surfaceMuted,
-                borderRadius: BorderRadius.circular(12),
-              ),
-              child: Row(
-                children: [
-                  Icon(Icons.info_outline_rounded,
-                      size: 16, color: context.textSecondary),
-                  const SizedBox(width: 8),
-                  Expanded(
-                    child: Text(
-                      'First $freePYQLimit questions free per exam · Upgrade for unlimited access',
-                      style: TextStyle(
-                          fontSize: 12, color: context.textSecondary),
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final crossAxisCount = constraints.maxWidth > 600 ? 3 : 2;
+
+        return ListView(
+          padding: const EdgeInsets.fromLTRB(20, 4, 20, 32),
+          children: [
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'Choose an Exam',
+                  style: TextStyle(
+                    fontSize: 22,
+                    fontWeight: FontWeight.w800,
+                    color: context.textPrimary,
+                  ),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  'Practice real questions from previous papers',
+                  style: TextStyle(fontSize: 14, color: context.textSecondary),
+                ),
+                const SizedBox(height: 20),
+                GridView.count(
+                  crossAxisCount: crossAxisCount,
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  crossAxisSpacing: 14,
+                  mainAxisSpacing: 14,
+                  childAspectRatio: 1.12,
+                  children: _exams
+                      .map(
+                        (exam) => _ExamGridCard(
+                          exam: exam,
+                          onTap: () => _loadAndStart(exam),
+                        ),
+                      )
+                      .toList(),
+                ),
+                if (!_isPremium) ...[
+                  const SizedBox(height: 20),
+                  Container(
+                    padding: const EdgeInsets.all(14),
+                    decoration: BoxDecoration(
+                      color: context.surfaceMuted,
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Row(
+                      children: [
+                        Icon(
+                          Icons.info_outline_rounded,
+                          size: 16,
+                          color: context.textSecondary,
+                        ),
+                        const SizedBox(width: 8),
+                        Expanded(
+                          child: Text(
+                            'First $freePYQLimit questions free per exam · Upgrade for unlimited access',
+                            style: TextStyle(
+                              fontSize: 12,
+                              color: context.textSecondary,
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
                   ),
                 ],
-              ),
+              ],
             ),
           ],
-        ],
-      ),
+        );
+      },
     );
   }
 
@@ -836,12 +976,13 @@ $optionsText
 
     final q = _questions[_currentIndex];
     final total = _isPremium ? _questions.length : freePYQLimit;
-    final navBtnColor = context.isDark ? const Color(0xFF60A5FA) : const Color(0xFF1F3C6D);
+    final navBtnColor = context.isDark
+        ? const Color(0xFF60A5FA)
+        : const Color(0xFF1F3C6D);
 
-    return Padding(
-      padding: const EdgeInsets.all(16),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
+    return SafeArea(
+      child: ListView(
+        padding: const EdgeInsets.all(16),
         children: [
           // Progress row
           Row(
@@ -849,13 +990,17 @@ $optionsText
               Text(
                 'Question ${_currentIndex + 1} of $total',
                 style: TextStyle(
-                    color: context.textSecondary, fontWeight: FontWeight.w600),
+                  color: context.textSecondary,
+                  fontWeight: FontWeight.w600,
+                ),
               ),
               const Spacer(),
               if (!_isPremium)
                 Container(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 10,
+                    vertical: 4,
+                  ),
                   decoration: BoxDecoration(
                     color: const Color(0xFFFFFBEB),
                     borderRadius: BorderRadius.circular(8),
@@ -864,9 +1009,10 @@ $optionsText
                   child: Text(
                     '${freePYQLimit - _currentIndex - 1} free left',
                     style: const TextStyle(
-                        fontSize: 12,
-                        fontWeight: FontWeight.w700,
-                        color: Color(0xFFB45309)),
+                      fontSize: 12,
+                      fontWeight: FontWeight.w700,
+                      color: Color(0xFFB45309),
+                    ),
                   ),
                 ),
             ],
@@ -887,21 +1033,27 @@ $optionsText
               runSpacing: 6,
               children: [
                 if (_selectedSubExam != null)
-                  _activeFilterChip(
-                    () {
-                      final prefix = '${_selectedExam!.name} ';
-                      return _selectedSubExam!.startsWith(prefix)
-                          ? _selectedSubExam!.substring(prefix.length)
-                          : _selectedSubExam!;
-                    }(),
-                    () => _applySubExamFilter(null),
-                  ),
+                  _activeFilterChip(() {
+                    final prefix = '${_selectedExam!.name} ';
+                    return _selectedSubExam!.startsWith(prefix)
+                        ? _selectedSubExam!.substring(prefix.length)
+                        : _selectedSubExam!;
+                  }(), () => _applySubExamFilter(null)),
                 if (_selectedDifficulty != null)
-                  _activeFilterChip(_selectedDifficulty!, () => _applyDifficultyFilter(null)),
+                  _activeFilterChip(
+                    _selectedDifficulty!,
+                    () => _applyDifficultyFilter(null),
+                  ),
                 if (_selectedTopic != null)
-                  _activeFilterChip(_selectedTopic!, () => _applyTopicFilter(null)),
+                  _activeFilterChip(
+                    _selectedTopic!,
+                    () => _applyTopicFilter(null),
+                  ),
                 if (_selectedYear != null)
-                  _activeFilterChip(_selectedYear!, () => _applyYearFilter(null)),
+                  _activeFilterChip(
+                    _selectedYear!,
+                    () => _applyYearFilter(null),
+                  ),
               ],
             ),
             const SizedBox(height: 10),
@@ -918,7 +1070,8 @@ $optionsText
                   Icons.label_outline_rounded,
                   isActive: _selectedTopic == q.topic,
                   onTap: () => _applyTopicFilter(
-                      _selectedTopic == q.topic ? null : q.topic),
+                    _selectedTopic == q.topic ? null : q.topic,
+                  ),
                 ),
               if (q.difficulty.isNotEmpty)
                 _buildTag(
@@ -927,151 +1080,151 @@ $optionsText
                   Icons.signal_cellular_alt_rounded,
                   isActive: _selectedDifficulty == q.difficulty,
                   onTap: () => _applyDifficultyFilter(
-                      _selectedDifficulty == q.difficulty ? null : q.difficulty),
+                    _selectedDifficulty == q.difficulty ? null : q.difficulty,
+                  ),
                 ),
-              _buildTag('${q.exam} · ${q.year}',
-                  _selectedExam!.gradient.last, _selectedExam!.icon),
+              _buildTag(
+                '${q.exam} · ${q.year}',
+                _selectedExam!.gradient.last,
+                _selectedExam!.icon,
+              ),
             ],
           ),
           const SizedBox(height: 14),
-          // Question card + options + explanation — all scrollable together
-          Expanded(
-            child: SingleChildScrollView(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  // Passage card (CLAT-style comprehension)
-                  if (q.passage.isNotEmpty) ...[
-                    _PassageCard(passage: q.passage, accent: _accent),
-                    const SizedBox(height: 12),
-                  ],
-                  // Question card — practice style
-                  Container(
-                    padding: const EdgeInsets.all(16),
-                    decoration: BoxDecoration(
-                      color: context.cardBg,
-                      borderRadius: BorderRadius.circular(14),
-                      border: Border.all(color: context.borderSubtle),
-                    ),
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Container(
-                          padding: const EdgeInsets.symmetric(
-                              horizontal: 9, vertical: 4),
-                          decoration: BoxDecoration(
-                            color: const Color(0xFF1F3C6D),
-                            borderRadius: BorderRadius.circular(7),
-                          ),
-                          child: Text(
-                            'Q${_currentIndex + 1}',
-                            style: const TextStyle(
-                                color: Colors.white,
-                                fontWeight: FontWeight.w800,
-                                fontSize: 13),
-                          ),
-                        ),
-                        const SizedBox(width: 10),
-                        Expanded(
-                          child: Text(
-                            q.question,
-                            style: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.w600,
-                                color: context.textPrimary,
-                                height: 1.4),
-                          ),
-                        ),
-                      ],
+          // Passage card (CLAT-style comprehension)
+          if (q.passage.isNotEmpty) ...[
+            _PassageCard(passage: q.passage, accent: _accent),
+            const SizedBox(height: 12),
+          ],
+          // Question card — practice style
+          Container(
+            padding: const EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              color: context.cardBg,
+              borderRadius: BorderRadius.circular(14),
+              border: Border.all(color: context.borderSubtle),
+            ),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 9,
+                    vertical: 4,
+                  ),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFF1F3C6D),
+                    borderRadius: BorderRadius.circular(7),
+                  ),
+                  child: Text(
+                    'Q${_currentIndex + 1}',
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.w800,
+                      fontSize: 13,
                     ),
                   ),
-                  const SizedBox(height: 12),
-                  ...q.options.asMap().entries.map((e) {
-                    final idx = e.key;
-                    final label = String.fromCharCode(65 + idx);
-                    final selected = _selections[_currentIndex];
-                    final isSelected = selected == idx;
-                    final isCorrectOption =
-                        _questions[_currentIndex].options[idx] ==
-                            _questions[_currentIndex].correctAnswer;
+                ),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: Text(
+                    q.question,
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w600,
+                      color: context.textPrimary,
+                      height: 1.4,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(height: 12),
+          ...q.options.asMap().entries.map((e) {
+            final idx = e.key;
+            final label = String.fromCharCode(65 + idx);
+            final selected = _selections[_currentIndex];
+            final isSelected = selected == idx;
+            final isCorrectOption =
+                _questions[_currentIndex].options[idx] ==
+                _questions[_currentIndex].correctAnswer;
 
-                    return Padding(
-                      padding: const EdgeInsets.only(bottom: 10),
-                      child: GestureDetector(
-                        onTap: selected == null ? () => _select(idx) : null,
-                        child: AnimatedContainer(
-                          duration: const Duration(milliseconds: 150),
-                          padding: const EdgeInsets.all(14),
-                          constraints: const BoxConstraints(minHeight: 56),
-                          decoration: BoxDecoration(
-                            color: _optionBg(context, idx),
-                            borderRadius: BorderRadius.circular(12),
-                            border: Border.all(
-                              color: _optionBorder(context, idx),
-                              width: isSelected || (selected != null && isCorrectOption) ? 2 : 1,
+            return Padding(
+              padding: const EdgeInsets.only(bottom: 10),
+              child: GestureDetector(
+                onTap: selected == null ? () => _select(idx) : null,
+                child: AnimatedContainer(
+                  duration: const Duration(milliseconds: 150),
+                  padding: const EdgeInsets.all(14),
+                  constraints: const BoxConstraints(minHeight: 56),
+                  decoration: BoxDecoration(
+                    color: _optionBg(context, idx),
+                    borderRadius: BorderRadius.circular(12),
+                    border: Border.all(
+                      color: _optionBorder(context, idx),
+                      width: isSelected || (selected != null && isCorrectOption)
+                          ? 2
+                          : 1,
+                    ),
+                  ),
+                  child: Row(
+                    children: [
+                      Container(
+                        width: 28,
+                        height: 28,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: selected != null && isCorrectOption
+                              ? const Color(0xFF16A34A)
+                              : isSelected && selected != null
+                              ? const Color(0xFFDC2626)
+                              : isSelected
+                              ? const Color(0xFF1F3C6D)
+                              : context.surfaceMuted,
+                        ),
+                        child: Center(
+                          child: Text(
+                            label,
+                            style: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              fontSize: 13,
+                              color:
+                                  (selected != null && isCorrectOption) ||
+                                      (isSelected && selected != null) ||
+                                      isSelected
+                                  ? Colors.white
+                                  : context.textSecondary,
                             ),
-                          ),
-                          child: Row(
-                            children: [
-                              Container(
-                                width: 28,
-                                height: 28,
-                                decoration: BoxDecoration(
-                                  shape: BoxShape.circle,
-                                  color: selected != null && isCorrectOption
-                                      ? const Color(0xFF16A34A)
-                                      : isSelected && selected != null
-                                          ? const Color(0xFFDC2626)
-                                          : isSelected
-                                              ? const Color(0xFF1F3C6D)
-                                              : context.surfaceMuted,
-                                ),
-                                child: Center(
-                                  child: Text(
-                                    label,
-                                    style: TextStyle(
-                                      fontWeight: FontWeight.w700,
-                                      fontSize: 13,
-                                      color: (selected != null && isCorrectOption) ||
-                                              (isSelected && selected != null) ||
-                                              isSelected
-                                          ? Colors.white
-                                          : context.textSecondary,
-                                    ),
-                                  ),
-                                ),
-                              ),
-                              const SizedBox(width: 12),
-                              Expanded(
-                                child: Text(
-                                  e.value,
-                                  style: TextStyle(
-                                    fontSize: 15,
-                                    color: isSelected
-                                        ? _optionBorder(context, idx)
-                                        : context.textPrimary,
-                                    fontWeight: isSelected
-                                        ? FontWeight.w600
-                                        : FontWeight.normal,
-                                    height: 1.4,
-                                  ),
-                                ),
-                              ),
-                            ],
                           ),
                         ),
                       ),
-                    );
-                  }),
-                  if (_selections[_currentIndex] != null) ...[
-                    const SizedBox(height: 8),
-                    _buildExplanationCard(q, total),
-                  ],
-                  const SizedBox(height: 8),
-                ],
+                      const SizedBox(width: 12),
+                      Expanded(
+                        child: Text(
+                          e.value,
+                          style: TextStyle(
+                            fontSize: 15,
+                            color: isSelected
+                                ? _optionBorder(context, idx)
+                                : context.textPrimary,
+                            fontWeight: isSelected
+                                ? FontWeight.w600
+                                : FontWeight.normal,
+                            height: 1.4,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
               ),
-            ),
-          ),
+            );
+          }),
+          if (_selections[_currentIndex] != null) ...[
+            const SizedBox(height: 8),
+            _buildExplanationCard(q, total),
+          ],
           const SizedBox(height: 8),
           // Prev / Grid / Next row
           Row(
@@ -1096,14 +1249,18 @@ $optionsText
                   side: BorderSide(color: navBtnColor),
                   foregroundColor: navBtnColor,
                   padding: const EdgeInsets.symmetric(
-                      horizontal: 14, vertical: 12),
+                    horizontal: 14,
+                    vertical: 12,
+                  ),
                 ),
                 child: const Icon(Icons.grid_view_rounded, size: 20),
               ),
               const SizedBox(width: 10),
               Expanded(
                 child: OutlinedButton.icon(
-                  onPressed: (!_isPremium && _currentIndex < freePYQLimit) || _currentIndex < _questions.length - 1
+                  onPressed:
+                      (!_isPremium && _currentIndex < freePYQLimit) ||
+                          _currentIndex < _questions.length - 1
                       ? _goNext
                       : null,
                   icon: const Icon(Icons.arrow_forward_rounded, size: 18),
@@ -1127,7 +1284,8 @@ $optionsText
               foregroundColor: Colors.white,
               padding: const EdgeInsets.symmetric(vertical: 14),
               shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12)),
+                borderRadius: BorderRadius.circular(12),
+              ),
               elevation: 0,
             ),
             child: Text(
@@ -1170,8 +1328,12 @@ $optionsText
     );
   }
 
-  Widget _filterChip(String? value, String label, String? selectedValue,
-      void Function(String?) onTap) {
+  Widget _filterChip(
+    String? value,
+    String label,
+    String? selectedValue,
+    void Function(String?) onTap,
+  ) {
     final isSelected = selectedValue == value;
     return Padding(
       padding: const EdgeInsets.only(right: 8),
@@ -1201,8 +1363,13 @@ $optionsText
     );
   }
 
-  Widget _buildTag(String label, Color color, IconData icon,
-      {VoidCallback? onTap, bool isActive = false}) {
+  Widget _buildTag(
+    String label,
+    Color color,
+    IconData icon, {
+    VoidCallback? onTap,
+    bool isActive = false,
+  }) {
     final dark = Color.lerp(color, Colors.black, 0.25)!;
     final tag = AnimatedContainer(
       duration: const Duration(milliseconds: 150),
@@ -1258,25 +1425,28 @@ $optionsText
     final isCorrect = q.options[selected] == q.correctAnswer;
     final cardColor = isCorrect
         ? (context.isDark
-            ? const Color(0xFF16A34A).withValues(alpha: 0.15)
-            : const Color(0xFFDCFCE7))
+              ? const Color(0xFF16A34A).withValues(alpha: 0.15)
+              : const Color(0xFFDCFCE7))
         : (context.isDark
-            ? const Color(0xFFDC2626).withValues(alpha: 0.15)
-            : const Color(0xFFFEE2E2));
-    final borderColor =
-        isCorrect ? const Color(0xFF16A34A) : const Color(0xFFDC2626);
-    final iconColor =
-        isCorrect ? const Color(0xFF16A34A) : const Color(0xFFDC2626);
-    final icon =
-        isCorrect ? Icons.check_circle_rounded : Icons.cancel_rounded;
+              ? const Color(0xFFDC2626).withValues(alpha: 0.15)
+              : const Color(0xFFFEE2E2));
+    final borderColor = isCorrect
+        ? const Color(0xFF16A34A)
+        : const Color(0xFFDC2626);
+    final iconColor = isCorrect
+        ? const Color(0xFF16A34A)
+        : const Color(0xFFDC2626);
+    final icon = isCorrect ? Icons.check_circle_rounded : Icons.cancel_rounded;
 
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: cardColor,
         borderRadius: BorderRadius.circular(16),
-        border:
-            Border.all(color: borderColor.withValues(alpha: 0.5), width: 1.5),
+        border: Border.all(
+          color: borderColor.withValues(alpha: 0.5),
+          width: 1.5,
+        ),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -1330,84 +1500,89 @@ $optionsText
     final pct = total > 0 ? (correct / total * 100).round() : 0;
     final gradient = _selectedExam!.gradient;
 
-    return SingleChildScrollView(
+    return ListView(
       padding: const EdgeInsets.fromLTRB(20, 16, 20, 32),
-      child: Column(
-        children: [
-          Container(
-            width: double.infinity,
-            padding: const EdgeInsets.all(28),
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                  colors: gradient,
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight),
-              borderRadius: BorderRadius.circular(24),
+      children: [
+        Container(
+          width: double.infinity,
+          padding: const EdgeInsets.all(28),
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: gradient,
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
             ),
-            child: Column(
-              children: [
-                Text(
-                  '$pct%',
-                  style: const TextStyle(
-                    fontSize: 64,
-                    fontWeight: FontWeight.w900,
-                    color: Colors.white,
-                    height: 1,
-                  ),
-                ),
-                const SizedBox(height: 6),
-                Text(
-                  '$correct out of $total correct',
-                  style: TextStyle(
-                    fontSize: 16,
-                    color: Colors.white.withValues(alpha: 0.85),
-                    fontWeight: FontWeight.w600,
-                  ),
-                ),
-                const SizedBox(height: 4),
-                Text(
-                  _selectedExam!.name,
-                  style: TextStyle(
-                    fontSize: 13,
-                    color: Colors.white.withValues(alpha: 0.65),
-                  ),
-                ),
-              ],
-            ),
+            borderRadius: BorderRadius.circular(24),
           ),
-          const SizedBox(height: 24),
-          SizedBox(
-            width: double.infinity,
-            child: ElevatedButton(
-              onPressed: () => _loadAndStart(_selectedExam!, fresh: true),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: gradient.last,
-                foregroundColor: Colors.white,
-                padding: const EdgeInsets.symmetric(vertical: 15),
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(14)),
-                elevation: 0,
+          child: Column(
+            children: [
+              Text(
+                '$pct%',
+                style: const TextStyle(
+                  fontSize: 64,
+                  fontWeight: FontWeight.w900,
+                  color: Colors.white,
+                  height: 1,
+                ),
               ),
-              child: const Text('Retry This Exam',
-                  style: TextStyle(fontWeight: FontWeight.w700, fontSize: 16)),
-            ),
-          ),
-          const SizedBox(height: 12),
-          SizedBox(
-            width: double.infinity,
-            child: OutlinedButton(
-              onPressed: _resetToHub,
-              style: OutlinedButton.styleFrom(
-                padding: const EdgeInsets.symmetric(vertical: 15),
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(14)),
+              const SizedBox(height: 6),
+              Text(
+                '$correct out of $total correct',
+                style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.white.withValues(alpha: 0.85),
+                  fontWeight: FontWeight.w600,
+                ),
               ),
-              child: const Text('Choose Another Exam',
-                  style: TextStyle(fontWeight: FontWeight.w600, fontSize: 16)),
+              const SizedBox(height: 4),
+              Text(
+                _selectedExam!.name,
+                style: TextStyle(
+                  fontSize: 13,
+                  color: Colors.white.withValues(alpha: 0.65),
+                ),
+              ),
+            ],
+          ),
+        ),
+        const SizedBox(height: 24),
+        SizedBox(
+          width: double.infinity,
+          child: ElevatedButton(
+            onPressed: () => _loadAndStart(_selectedExam!, fresh: true),
+            style: ElevatedButton.styleFrom(
+              backgroundColor: gradient.last,
+              foregroundColor: Colors.white,
+              padding: const EdgeInsets.symmetric(vertical: 15),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(14),
+              ),
+              elevation: 0,
+            ),
+            child: const Text(
+              'Retry This Exam',
+              style: TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
             ),
           ),
-        ],
-      ),
+        ),
+        const SizedBox(height: 12),
+        SizedBox(
+          width: double.infinity,
+          child: OutlinedButton(
+            onPressed: _resetToHub,
+            style: OutlinedButton.styleFrom(
+              padding: const EdgeInsets.symmetric(vertical: 15),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(14),
+              ),
+            ),
+            child: const Text(
+              'Choose Another Exam',
+              style: TextStyle(fontWeight: FontWeight.w600, fontSize: 16),
+            ),
+          ),
+        ),
+      ],
     );
   }
 
@@ -1427,16 +1602,20 @@ $optionsText
                 color: const Color(0xFFFEF3C7),
                 borderRadius: BorderRadius.circular(20),
               ),
-              child: const Icon(Icons.lock_rounded,
-                  size: 36, color: Color(0xFFD97706)),
+              child: const Icon(
+                Icons.lock_rounded,
+                size: 36,
+                color: Color(0xFFD97706),
+              ),
             ),
             const SizedBox(height: 20),
             Text(
               'Unlock All PYQs',
               style: TextStyle(
-                  fontSize: 22,
-                  fontWeight: FontWeight.w800,
-                  color: context.textPrimary),
+                fontSize: 22,
+                fontWeight: FontWeight.w800,
+                color: context.textPrimary,
+              ),
             ),
             const SizedBox(height: 8),
             Text(
@@ -1448,19 +1627,23 @@ $optionsText
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () => Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const PremiumScreen())),
+                onPressed: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => const PremiumScreen()),
+                ),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: const Color(0xFFD97706),
                   foregroundColor: Colors.white,
                   padding: const EdgeInsets.symmetric(vertical: 15),
                   shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(14)),
+                    borderRadius: BorderRadius.circular(14),
+                  ),
                   elevation: 0,
                 ),
-                child: const Text('View Premium Plans',
-                    style:
-                        TextStyle(fontWeight: FontWeight.w700, fontSize: 16)),
+                child: const Text(
+                  'View Premium Plans',
+                  style: TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
+                ),
               ),
             ),
             const SizedBox(height: 12),
@@ -1471,10 +1654,13 @@ $optionsText
                 style: OutlinedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(vertical: 15),
                   shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(14)),
+                    borderRadius: BorderRadius.circular(14),
+                  ),
                 ),
-                child: const Text('See My Results',
-                    style: TextStyle(fontWeight: FontWeight.w600, fontSize: 16)),
+                child: const Text(
+                  'See My Results',
+                  style: TextStyle(fontWeight: FontWeight.w600, fontSize: 16),
+                ),
               ),
             ),
           ],
@@ -1607,6 +1793,8 @@ class _ExamGridCard extends StatelessWidget {
               padding: const EdgeInsets.all(16),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                mainAxisSize: MainAxisSize.max,
                 children: [
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -1624,7 +1812,9 @@ class _ExamGridCard extends StatelessWidget {
                       if (attempted > 0)
                         Container(
                           padding: const EdgeInsets.symmetric(
-                              horizontal: 8, vertical: 4),
+                            horizontal: 8,
+                            vertical: 4,
+                          ),
                           decoration: BoxDecoration(
                             color: Colors.white.withValues(alpha: 0.22),
                             borderRadius: BorderRadius.circular(20),
@@ -1640,23 +1830,31 @@ class _ExamGridCard extends StatelessWidget {
                         ),
                     ],
                   ),
-                  const Spacer(),
-                  Text(
-                    exam.name,
-                    style: const TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.w900,
-                      color: Colors.white,
-                    ),
-                  ),
-                  const SizedBox(height: 3),
-                  Text(
-                    exam.fullName,
-                    style: TextStyle(
-                      fontSize: 11,
-                      color: Colors.white.withValues(alpha: 0.80),
-                      height: 1.3,
-                    ),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        exam.name,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: const TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w900,
+                          color: Colors.white,
+                        ),
+                      ),
+                      const SizedBox(height: 3),
+                      Text(
+                        exam.fullName,
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(
+                          fontSize: 10,
+                          color: Colors.white.withValues(alpha: 0.80),
+                          height: 1.2,
+                        ),
+                      ),
+                    ],
                   ),
                 ],
               ),

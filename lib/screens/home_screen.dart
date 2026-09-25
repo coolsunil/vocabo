@@ -39,7 +39,9 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
     _loadPremiumMeta();
-    loadTodayArticle().then((_) { if (mounted) setState(() {}); });
+    loadTodayArticle().then((_) {
+      if (mounted) setState(() {});
+    });
     WidgetsBinding.instance.addPostFrameCallback((_) {
       _checkOnboarding();
       Future.delayed(const Duration(seconds: 2), initNotifications);
@@ -56,10 +58,14 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
   void didChangeAppLifecycleState(AppLifecycleState state) {
     if (state == AppLifecycleState.resumed) {
       if (wordOfDayIsStale) {
-        loadWordOfDay().then((_) { if (mounted) setState(() {}); });
+        loadWordOfDay().then((_) {
+          if (mounted) setState(() {});
+        });
       }
       if (articleIsStale) {
-        loadTodayArticle().then((_) { if (mounted) setState(() {}); });
+        loadTodayArticle().then((_) {
+          if (mounted) setState(() {});
+        });
       }
     }
   }
@@ -71,7 +77,8 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
       Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (_) => OnboardingScreen(onDone: () => Navigator.pop(context)),
+          builder: (_) =>
+              OnboardingScreen(onDone: () => Navigator.pop(context)),
         ),
       );
     }
@@ -95,12 +102,12 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
     final message = current >= 30
         ? 'Legendary dedication!'
         : current >= 14
-            ? 'You\'re on fire — keep it up!'
-            : current >= 7
-                ? 'One week strong!'
-                : current >= 3
-                    ? 'Great momentum!'
-                    : 'Keep opening the app daily!';
+        ? 'You\'re on fire — keep it up!'
+        : current >= 7
+        ? 'One week strong!'
+        : current >= 3
+        ? 'Great momentum!'
+        : 'Keep opening the app daily!';
 
     showModalBottomSheet(
       context: context,
@@ -121,8 +128,11 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
               ),
             ),
             const SizedBox(height: 20),
-            const Icon(Icons.local_fire_department_rounded,
-                color: Color(0xFFEA580C), size: 48),
+            const Icon(
+              Icons.local_fire_department_rounded,
+              color: Color(0xFFEA580C),
+              size: 48,
+            ),
             const SizedBox(height: 12),
             Text(
               '$current-day streak',
@@ -135,10 +145,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
             const SizedBox(height: 6),
             Text(
               message,
-              style: TextStyle(
-                fontSize: 15,
-                color: ctx.textSecondary,
-              ),
+              style: TextStyle(fontSize: 15, color: ctx.textSecondary),
             ),
             const SizedBox(height: 24),
             Container(
@@ -151,8 +158,11 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const Icon(Icons.emoji_events_rounded,
-                      color: Color(0xFFD97706), size: 20),
+                  const Icon(
+                    Icons.emoji_events_rounded,
+                    color: Color(0xFFD97706),
+                    size: 20,
+                  ),
                   const SizedBox(width: 8),
                   Text(
                     'Best streak: $best day${best == 1 ? '' : 's'}',
@@ -189,9 +199,10 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                     color: Color(0xFFF59E0B),
                   ),
                   const SizedBox(width: 6),
-                  Flexible(
+                  Expanded(
                     child: Text(
                       'Hello, Learner',
+                      maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                       style: TextStyle(
                         fontSize: 16,
@@ -200,55 +211,79 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                       ),
                     ),
                   ),
-                  const SizedBox(width: 6),
                   if (currentStreak > 0) ...[
-                    GestureDetector(
-                      onTap: () => _showStreakSheet(),
-                      child: Container(
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 10, vertical: 6),
-                        decoration: BoxDecoration(
-                          color: const Color(0xFFFFF7ED),
-                          borderRadius: BorderRadius.circular(20),
-                          border: Border.all(color: const Color(0xFFFDBA74)),
-                        ),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.min,
-                          children: [
-                            const Icon(Icons.local_fire_department_rounded,
-                                color: Color(0xFFEA580C), size: 16),
-                            const SizedBox(width: 4),
-                            Text(
-                              '$currentStreak',
-                              style: const TextStyle(
-                                color: Color(0xFFEA580C),
-                                fontWeight: FontWeight.w700,
-                                fontSize: 14,
+                    IconButton(
+                      tooltip: 'Streak',
+                      onPressed: () => _showStreakSheet(),
+                      padding: const EdgeInsets.all(4),
+                      constraints: const BoxConstraints(
+                        minWidth: 30,
+                        minHeight: 30,
+                      ),
+                      icon: Stack(
+                        alignment: Alignment.center,
+                        children: [
+                          const Icon(
+                            Icons.local_fire_department_rounded,
+                            color: Color(0xFFEA580C),
+                            size: 20,
+                          ),
+                          Positioned(
+                            right: 1,
+                            bottom: 3,
+                            child: Container(
+                              padding: const EdgeInsets.symmetric(
+                                horizontal: 2,
+                                vertical: 0,
+                              ),
+                              constraints: const BoxConstraints(
+                                minWidth: 10,
+                                minHeight: 10,
+                              ),
+                              decoration: BoxDecoration(
+                                color: const Color(0xFFFFF7ED),
+                                borderRadius: BorderRadius.circular(8),
+                                border: Border.all(
+                                  color: const Color(0xFFFDBA74),
+                                  width: 0.8,
+                                ),
+                              ),
+                              child: Text(
+                                '$currentStreak',
+                                textAlign: TextAlign.center,
+                                style: const TextStyle(
+                                  color: Color(0xFFEA580C),
+                                  fontWeight: FontWeight.w700,
+                                  fontSize: 8,
+                                ),
                               ),
                             ),
-                          ],
-                        ),
+                          ),
+                        ],
                       ),
                     ),
-                    const SizedBox(width: 4),
                   ],
                   ValueListenableBuilder<ThemeMode>(
                     valueListenable: themeNotifier,
                     builder: (_, mode, child) => IconButton(
-                      tooltip: mode == ThemeMode.dark ? 'Light mode' : 'Dark mode',
+                      tooltip: mode == ThemeMode.dark
+                          ? 'Light mode'
+                          : 'Dark mode',
                       onPressed: toggleTheme,
-                      padding: const EdgeInsets.all(6),
-                      constraints: const BoxConstraints(),
+                      padding: const EdgeInsets.all(4),
+                      constraints: const BoxConstraints(
+                        minWidth: 30,
+                        minHeight: 30,
+                      ),
                       icon: Icon(
                         mode == ThemeMode.dark
                             ? Icons.light_mode_rounded
                             : Icons.dark_mode_rounded,
                         color: context.textSecondary,
-                        size: 22,
+                        size: 20,
                       ),
                     ),
                   ),
-                  const SizedBox(width: 4),
                   IconButton(
                     tooltip: 'Search',
                     onPressed: () {
@@ -257,15 +292,17 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                         MaterialPageRoute(builder: (_) => const SearchScreen()),
                       );
                     },
-                    padding: const EdgeInsets.all(6),
-                    constraints: const BoxConstraints(),
+                    padding: const EdgeInsets.all(4),
+                    constraints: const BoxConstraints(
+                      minWidth: 30,
+                      minHeight: 30,
+                    ),
                     icon: Icon(
                       Icons.search_rounded,
                       color: context.textSecondary,
-                      size: 22,
+                      size: 20,
                     ),
                   ),
-                  const SizedBox(width: 4),
                   IconButton(
                     tooltip: 'Settings',
                     onPressed: () {
@@ -281,12 +318,15 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                         }
                       });
                     },
-                    padding: const EdgeInsets.all(6),
-                    constraints: const BoxConstraints(),
+                    padding: const EdgeInsets.all(4),
+                    constraints: const BoxConstraints(
+                      minWidth: 30,
+                      minHeight: 30,
+                    ),
                     icon: Icon(
                       Icons.settings_rounded,
                       color: context.textSecondary,
-                      size: 22,
+                      size: 20,
                     ),
                   ),
                 ],
@@ -336,7 +376,11 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                     const SizedBox(height: 20),
                     Text(
                       'Explore',
-                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: context.textPrimary),
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        color: context.textPrimary,
+                      ),
                     ),
                     const SizedBox(height: 12),
                     GridView.count(
@@ -694,15 +738,14 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                     const SizedBox(height: 14),
                     _QuizCategoryTile(
                       title: 'Previous Year Questions (PYQs)',
-                      subtitle: 'SSC · IBPS · SBI · UPSC · CLAT · AFCAT · CSIR · Supreme Court · RBI & more',
+                      subtitle:
+                          'SSC · IBPS · SBI · UPSC · CLAT · AFCAT · CSIR · Supreme Court · RBI & more',
                       gradient: const [Color(0xFF14532D), Color(0xFF16A34A)],
                       icon: Icons.fact_check_rounded,
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(
-                            builder: (_) => const PYQScreen(),
-                          ),
+                          MaterialPageRoute(builder: (_) => const PYQScreen()),
                         );
                       },
                     ),
@@ -717,7 +760,10 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                                 : premiumUnlocked
                                 ? 'Unlimited access'
                                 : '$_remainingMixedQuizSessions session${_remainingMixedQuizSessions == 1 ? '' : 's'} left',
-                            gradient: const [Color(0xFF701A75), Color(0xFFC026D3)],
+                            gradient: const [
+                              Color(0xFF701A75),
+                              Color(0xFFC026D3),
+                            ],
                             icon: Icons.quiz_rounded,
                             onTap: () {
                               Navigator.push(
@@ -737,15 +783,25 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                           child: _SmallActionTile(
                             title: 'Community',
                             subtitle: 'Join on Telegram',
-                            gradient: const [Color(0xFF0063A5), Color(0xFF0088CC)],
+                            gradient: const [
+                              Color(0xFF0063A5),
+                              Color(0xFF0088CC),
+                            ],
                             icon: Icons.send_rounded,
                             onTap: () async {
-                              final tgUri = Uri.parse('tg://resolve?domain=vocabo_community');
-                              final webUri = Uri.parse('https://t.me/vocabo_community');
+                              final tgUri = Uri.parse(
+                                'tg://resolve?domain=vocabo_community',
+                              );
+                              final webUri = Uri.parse(
+                                'https://t.me/vocabo_community',
+                              );
                               if (await canLaunchUrl(tgUri)) {
                                 await launchUrl(tgUri);
                               } else {
-                                await launchUrl(webUri, mode: LaunchMode.externalApplication);
+                                await launchUrl(
+                                  webUri,
+                                  mode: LaunchMode.externalApplication,
+                                );
                               }
                             },
                           ),
@@ -942,8 +998,11 @@ class _DailyGoalCard extends StatelessWidget {
               children: [
                 Row(
                   children: [
-                    const Icon(Icons.local_fire_department_rounded,
-                        color: Colors.white, size: 15),
+                    const Icon(
+                      Icons.local_fire_department_rounded,
+                      color: Colors.white,
+                      size: 15,
+                    ),
                     const SizedBox(width: 6),
                     const Text(
                       'Daily Goal',
@@ -958,7 +1017,9 @@ class _DailyGoalCard extends StatelessWidget {
                     if (done)
                       Container(
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 10, vertical: 4),
+                          horizontal: 10,
+                          vertical: 4,
+                        ),
                         decoration: BoxDecoration(
                           color: Colors.white.withValues(alpha: 0.25),
                           borderRadius: BorderRadius.circular(20),
@@ -978,7 +1039,9 @@ class _DailyGoalCard extends StatelessWidget {
                         onTap: () => _showGoalPicker(context),
                         child: Container(
                           padding: const EdgeInsets.symmetric(
-                              horizontal: 10, vertical: 4),
+                            horizontal: 10,
+                            vertical: 4,
+                          ),
                           decoration: BoxDecoration(
                             color: Colors.white.withValues(alpha: 0.20),
                             borderRadius: BorderRadius.circular(20),
@@ -986,8 +1049,11 @@ class _DailyGoalCard extends StatelessWidget {
                           child: Row(
                             mainAxisSize: MainAxisSize.min,
                             children: const [
-                              Icon(Icons.tune_rounded,
-                                  color: Colors.white, size: 12),
+                              Icon(
+                                Icons.tune_rounded,
+                                color: Colors.white,
+                                size: 12,
+                              ),
                               SizedBox(width: 4),
                               Text(
                                 'Set goal',
@@ -1046,12 +1112,24 @@ class _DailyGoalCard extends StatelessWidget {
 
 class _OverallProgressCard extends StatelessWidget {
   static const Map<String, int> _totals = {
-    'core': 1513, 'synonyms': 438, 'oneword': 501, 'confusing': 380,
-    'idioms': 473, 'advanced': 515, 'fixed_prepositions': 217,
-    'phrasal_verbs': 285, 'root_words': 461, 'common_errors': 492,
-    'homophones': 278, 'spellings': 250, 'foreign_words': 276,
-    'proverbs': 145, 'sentence_improvement': 183, 'cloze_test': 153,
-    'voices': 228, 'narration': 212,
+    'core': 1513,
+    'synonyms': 438,
+    'oneword': 501,
+    'confusing': 380,
+    'idioms': 473,
+    'advanced': 515,
+    'fixed_prepositions': 217,
+    'phrasal_verbs': 285,
+    'root_words': 461,
+    'common_errors': 492,
+    'homophones': 278,
+    'spellings': 250,
+    'foreign_words': 276,
+    'proverbs': 145,
+    'sentence_improvement': 183,
+    'cloze_test': 153,
+    'voices': 228,
+    'narration': 212,
   };
 
   const _OverallProgressCard();
@@ -1060,11 +1138,13 @@ class _OverallProgressCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final totalWords = _totals.values.fold(0, (a, b) => a + b);
     final learnedWords = progressCategories.fold<int>(
-      0, (sum, cat) => sum + (progressStore[cat] ?? 0),
+      0,
+      (sum, cat) => sum + (progressStore[cat] ?? 0),
     );
     final progress = totalWords == 0 ? 0.0 : learnedWords / totalWords;
-    final categoriesStarted =
-        _totals.keys.where((cat) => (progressStore[cat] ?? 0) > 0).length;
+    final categoriesStarted = _totals.keys
+        .where((cat) => (progressStore[cat] ?? 0) > 0)
+        .length;
 
     return Container(
       padding: const EdgeInsets.all(20),
@@ -1096,86 +1176,93 @@ class _OverallProgressCard extends StatelessWidget {
             ),
           ),
           Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Icon(Icons.insights_rounded, color: Colors.white, size: 20),
-              const SizedBox(width: 8),
-              const Text(
-                'Overall Progress',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 15,
-                  fontWeight: FontWeight.w700,
-                ),
-              ),
-              const Spacer(),
-              Container(
-                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-                decoration: BoxDecoration(
-                  color: Colors.white.withValues(alpha: 0.18),
-                  borderRadius: BorderRadius.circular(20),
-                ),
-                child: Text(
-                  '$categoriesStarted / ${_totals.length} categories',
-                  style: const TextStyle(
+              Row(
+                children: [
+                  const Icon(
+                    Icons.insights_rounded,
                     color: Colors.white,
-                    fontSize: 12,
-                    fontWeight: FontWeight.w600,
+                    size: 20,
                   ),
+                  const SizedBox(width: 8),
+                  const Text(
+                    'Overall Progress',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 15,
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                  const Spacer(),
+                  Container(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 10,
+                      vertical: 4,
+                    ),
+                    decoration: BoxDecoration(
+                      color: Colors.white.withValues(alpha: 0.18),
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                    child: Text(
+                      '$categoriesStarted / ${_totals.length} categories',
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 12,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 14),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: [
+                  Text(
+                    '$learnedWords',
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 36,
+                      fontWeight: FontWeight.w800,
+                      height: 1,
+                    ),
+                  ),
+                  const SizedBox(width: 6),
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 4),
+                    child: Text(
+                      '/ $totalWords cards',
+                      style: TextStyle(
+                        color: Colors.white.withValues(alpha: 0.7),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 12),
+              ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                child: LinearProgressIndicator(
+                  value: progress,
+                  minHeight: 8,
+                  backgroundColor: Colors.white.withValues(alpha: 0.25),
+                  valueColor: const AlwaysStoppedAnimation(Colors.white),
                 ),
               ),
-            ],
-          ),
-          const SizedBox(height: 14),
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.end,
-            children: [
+              const SizedBox(height: 8),
               Text(
-                '$learnedWords',
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 36,
-                  fontWeight: FontWeight.w800,
-                  height: 1,
-                ),
-              ),
-              const SizedBox(width: 6),
-              Padding(
-                padding: const EdgeInsets.only(bottom: 4),
-                child: Text(
-                  '/ $totalWords cards',
-                  style: TextStyle(
-                    color: Colors.white.withValues(alpha: 0.7),
-                    fontSize: 14,
-                    fontWeight: FontWeight.w500,
-                  ),
+                '${(progress * 100).toStringAsFixed(1)}% complete',
+                style: TextStyle(
+                  color: Colors.white.withValues(alpha: 0.8),
+                  fontSize: 12,
+                  fontWeight: FontWeight.w500,
                 ),
               ),
             ],
           ),
-          const SizedBox(height: 12),
-          ClipRRect(
-            borderRadius: BorderRadius.circular(10),
-            child: LinearProgressIndicator(
-              value: progress,
-              minHeight: 8,
-              backgroundColor: Colors.white.withValues(alpha: 0.25),
-              valueColor: const AlwaysStoppedAnimation(Colors.white),
-            ),
-          ),
-          const SizedBox(height: 8),
-          Text(
-            '${(progress * 100).toStringAsFixed(1)}% complete',
-            style: TextStyle(
-              color: Colors.white.withValues(alpha: 0.8),
-              fontSize: 12,
-              fontWeight: FontWeight.w500,
-            ),
-          ),
-        ],
-        ),
         ],
       ),
     );
@@ -1206,12 +1293,22 @@ class _ModernCategoryTile extends StatelessWidget {
   });
 
   (IconData, Color)? get _milestone {
-    if (total == 0 || learned == 0) return null;
+    if (total == 0 || learned == 0) {
+      return null;
+    }
     final pct = learned / total;
-    if (pct >= 1.0) return (Icons.check_circle_rounded, const Color(0xFF059669));
-    if (pct >= 0.75) return (Icons.emoji_events_rounded, const Color(0xFFD97706));
-    if (pct >= 0.5) return (Icons.local_fire_department_rounded, const Color(0xFFEA580C));
-    if (pct >= 0.25) return (Icons.star_rounded, const Color(0xFF3B82F6));
+    if (pct >= 1.0) {
+      return (Icons.check_circle_rounded, const Color(0xFF059669));
+    }
+    if (pct >= 0.75) {
+      return (Icons.emoji_events_rounded, const Color(0xFFD97706));
+    }
+    if (pct >= 0.5) {
+      return (Icons.local_fire_department_rounded, const Color(0xFFEA580C));
+    }
+    if (pct >= 0.25) {
+      return (Icons.star_rounded, const Color(0xFF3B82F6));
+    }
     return null;
   }
 
@@ -1234,133 +1331,141 @@ class _ModernCategoryTile extends StatelessWidget {
     return MediaQuery(
       data: MediaQuery.of(context).copyWith(textScaler: TextScaler.noScaling),
       child: InteractivePressable(
-      borderRadius: BorderRadius.circular(18),
-      onTap: onTap,
-      overlayColor: hasGradient ? Colors.white : iconColor,
-      child: Container(
-        padding: const EdgeInsets.all(16),
-        clipBehavior: Clip.hardEdge,
-        decoration: BoxDecoration(
-          color: hasGradient ? null : backgroundColor,
-          gradient: gradient,
-          borderRadius: BorderRadius.circular(18),
-          border: Border.all(
-            color: hasGradient ? Colors.transparent : borderColor,
-            width: 1.2,
-          ),
-          boxShadow: [
-            BoxShadow(
-              color: hasGradient
-                  ? iconColor.withValues(alpha: 0.35)
-                  : iconColor.withValues(alpha: 0.12),
-              blurRadius: 16,
-              offset: const Offset(0, 8),
+        borderRadius: BorderRadius.circular(18),
+        onTap: onTap,
+        overlayColor: hasGradient ? Colors.white : iconColor,
+        child: Container(
+          padding: const EdgeInsets.all(16),
+          clipBehavior: Clip.hardEdge,
+          decoration: BoxDecoration(
+            color: hasGradient ? null : backgroundColor,
+            gradient: gradient,
+            borderRadius: BorderRadius.circular(18),
+            border: Border.all(
+              color: hasGradient ? Colors.transparent : borderColor,
+              width: 1.2,
             ),
-          ],
-        ),
-        child: Stack(
-          children: [
-            Positioned(
-              right: -16,
-              bottom: -16,
-              child: Icon(
-                icon,
-                size: 86,
-                color: (hasGradient ? Colors.white : iconColor)
-                    .withValues(alpha: 0.10),
-              ),
-            ),
-            Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Stack(
-                  clipBehavior: Clip.none,
-                  children: [
-                    Container(
-                      width: 52,
-                      height: 52,
-                      decoration: BoxDecoration(
-                        color: iconBg,
-                        borderRadius: BorderRadius.circular(16),
-                      ),
-                      child: Icon(icon, color: iconFg, size: 28),
-                    ),
-                    if (badge != null)
-                      Positioned(
-                        top: -6,
-                        right: -6,
-                        child: Container(
-                          width: 22,
-                          height: 22,
-                          decoration: BoxDecoration(
-                            color: badge.$2,
-                            shape: BoxShape.circle,
-                            border: Border.all(color: Colors.white, width: 2),
-                          ),
-                          child: Icon(badge.$1, size: 11, color: Colors.white),
-                        ),
-                      ),
-                  ],
-                ),
-                const Spacer(),
-                SizedBox(
-                  width: 40,
-                  height: 40,
-                  child: Stack(
-                    alignment: Alignment.center,
-                    children: [
-                      CircularProgressIndicator(
-                        value: pct,
-                        strokeWidth: 3.5,
-                        strokeCap: StrokeCap.round,
-                        backgroundColor: ringBg,
-                        valueColor: AlwaysStoppedAnimation(ringFg),
-                      ),
-                      if (pct > 0)
-                        Text(
-                          '${(pct * 100).round()}%',
-                          style: TextStyle(
-                            fontSize: 9,
-                            fontWeight: FontWeight.w800,
-                            color: pctColor,
-                          ),
-                        ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-            const Spacer(),
-            Text(
-              title,
-              maxLines: 2,
-              overflow: TextOverflow.ellipsis,
-              style: TextStyle(
-                fontSize: 17,
-                fontWeight: FontWeight.w700,
-                color: titleColor,
-              ),
-            ),
-            if (learned > 0 && learned < total) ...[
-              const SizedBox(height: 3),
-              Text(
-                'Resume · card $learned',
-                style: TextStyle(
-                  fontSize: 10,
-                  fontWeight: FontWeight.w600,
-                  color: titleColor.withValues(alpha: 0.6),
-                ),
+            boxShadow: [
+              BoxShadow(
+                color: hasGradient
+                    ? iconColor.withValues(alpha: 0.35)
+                    : iconColor.withValues(alpha: 0.12),
+                blurRadius: 16,
+                offset: const Offset(0, 8),
               ),
             ],
-          ],
-        ),
-          ],
+          ),
+          child: Stack(
+            children: [
+              Positioned(
+                right: -16,
+                bottom: -16,
+                child: Icon(
+                  icon,
+                  size: 86,
+                  color: (hasGradient ? Colors.white : iconColor).withValues(
+                    alpha: 0.10,
+                  ),
+                ),
+              ),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Stack(
+                        clipBehavior: Clip.none,
+                        children: [
+                          Container(
+                            width: 52,
+                            height: 52,
+                            decoration: BoxDecoration(
+                              color: iconBg,
+                              borderRadius: BorderRadius.circular(16),
+                            ),
+                            child: Icon(icon, color: iconFg, size: 28),
+                          ),
+                          if (badge != null)
+                            Positioned(
+                              top: -6,
+                              right: -6,
+                              child: Container(
+                                width: 22,
+                                height: 22,
+                                decoration: BoxDecoration(
+                                  color: badge.$2,
+                                  shape: BoxShape.circle,
+                                  border: Border.all(
+                                    color: Colors.white,
+                                    width: 2,
+                                  ),
+                                ),
+                                child: Icon(
+                                  badge.$1,
+                                  size: 11,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                        ],
+                      ),
+                      const Spacer(),
+                      SizedBox(
+                        width: 40,
+                        height: 40,
+                        child: Stack(
+                          alignment: Alignment.center,
+                          children: [
+                            CircularProgressIndicator(
+                              value: pct,
+                              strokeWidth: 3.5,
+                              strokeCap: StrokeCap.round,
+                              backgroundColor: ringBg,
+                              valueColor: AlwaysStoppedAnimation(ringFg),
+                            ),
+                            if (pct > 0)
+                              Text(
+                                '${(pct * 100).round()}%',
+                                style: TextStyle(
+                                  fontSize: 9,
+                                  fontWeight: FontWeight.w800,
+                                  color: pctColor,
+                                ),
+                              ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                  const Spacer(),
+                  Text(
+                    title,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(
+                      fontSize: 17,
+                      fontWeight: FontWeight.w700,
+                      color: titleColor,
+                    ),
+                  ),
+                  if (learned > 0 && learned < total) ...[
+                    const SizedBox(height: 3),
+                    Text(
+                      'Resume · card $learned',
+                      style: TextStyle(
+                        fontSize: 10,
+                        fontWeight: FontWeight.w600,
+                        color: titleColor.withValues(alpha: 0.6),
+                      ),
+                    ),
+                  ],
+                ],
+              ),
+            ],
+          ),
         ),
       ),
-    ),
     );
   }
 }
@@ -1416,51 +1521,47 @@ class _QuizCategoryTile extends StatelessWidget {
               ),
             ),
             Row(
-          children: [
-            Container(
-              width: 52,
-              height: 52,
-              decoration: BoxDecoration(
-                color: Colors.white.withValues(alpha: 0.18),
-                borderRadius: BorderRadius.circular(16),
-              ),
-              child: Icon(
-                icon,
-                color: Colors.white,
-                size: 28,
-              ),
-            ),
-            const SizedBox(width: 14),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    title,
-                    style: const TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.w700,
-                      color: Colors.white,
-                    ),
+              children: [
+                Container(
+                  width: 52,
+                  height: 52,
+                  decoration: BoxDecoration(
+                    color: Colors.white.withValues(alpha: 0.18),
+                    borderRadius: BorderRadius.circular(16),
                   ),
-                  const SizedBox(height: 4),
-                  Text(
-                    subtitle,
-                    style: TextStyle(
-                      color: Colors.white.withValues(alpha: 0.82),
-                      fontSize: 13,
-                    ),
+                  child: Icon(icon, color: Colors.white, size: 28),
+                ),
+                const SizedBox(width: 14),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        title,
+                        style: const TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.w700,
+                          color: Colors.white,
+                        ),
+                      ),
+                      const SizedBox(height: 4),
+                      Text(
+                        subtitle,
+                        style: TextStyle(
+                          color: Colors.white.withValues(alpha: 0.82),
+                          fontSize: 13,
+                        ),
+                      ),
+                    ],
                   ),
-                ],
-              ),
+                ),
+                Icon(
+                  Icons.arrow_forward_ios_rounded,
+                  size: 16,
+                  color: Colors.white.withValues(alpha: 0.8),
+                ),
+              ],
             ),
-            Icon(
-              Icons.arrow_forward_ios_rounded,
-              size: 16,
-              color: Colors.white.withValues(alpha: 0.8),
-            ),
-          ],
-        ),
           ],
         ),
       ),
@@ -1512,77 +1613,82 @@ class _WordOfDayCard extends StatelessWidget {
               ),
             ),
             Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Icon(Icons.calendar_today_rounded,
-                    color: Colors.white, size: 15),
-                const SizedBox(width: 6),
-                const Text(
-                  'Word of the Day',
-                  style: TextStyle(
+                Row(
+                  children: [
+                    const Icon(
+                      Icons.calendar_today_rounded,
+                      color: Colors.white,
+                      size: 15,
+                    ),
+                    const SizedBox(width: 6),
+                    const Text(
+                      'Word of the Day',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 13,
+                        fontWeight: FontWeight.w700,
+                        letterSpacing: 0.5,
+                      ),
+                    ),
+                    const Spacer(),
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 10,
+                        vertical: 4,
+                      ),
+                      decoration: BoxDecoration(
+                        color: Colors.white.withValues(alpha: 0.25),
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: const Text(
+                        'View →',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 12,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 12),
+                Text(
+                  word.word,
+                  style: const TextStyle(
                     color: Colors.white,
-                    fontSize: 13,
-                    fontWeight: FontWeight.w700,
-                    letterSpacing: 0.5,
+                    fontSize: 26,
+                    fontWeight: FontWeight.w800,
+                    height: 1.1,
                   ),
                 ),
-                const Spacer(),
-                Container(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-                  decoration: BoxDecoration(
-                    color: Colors.white.withValues(alpha: 0.25),
-                    borderRadius: BorderRadius.circular(20),
+                const SizedBox(height: 6),
+                Text(
+                  meaning,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(
+                    color: Colors.white.withValues(alpha: 0.88),
+                    fontSize: 15,
+                    height: 1.4,
                   ),
-                  child: const Text(
-                    'View →',
+                ),
+                if (word.meaningHi.isNotEmpty) ...[
+                  const SizedBox(height: 6),
+                  Text(
+                    word.meaningHi,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
                     style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 12,
-                      fontWeight: FontWeight.w600,
+                      color: Colors.white.withValues(alpha: 0.80),
+                      fontSize: 14,
+                      height: 1.4,
                     ),
                   ),
-                ),
+                ],
               ],
             ),
-            const SizedBox(height: 12),
-            Text(
-              word.word,
-              style: const TextStyle(
-                color: Colors.white,
-                fontSize: 26,
-                fontWeight: FontWeight.w800,
-                height: 1.1,
-              ),
-            ),
-            const SizedBox(height: 6),
-            Text(
-              meaning,
-              maxLines: 2,
-              overflow: TextOverflow.ellipsis,
-              style: TextStyle(
-                color: Colors.white.withValues(alpha: 0.88),
-                fontSize: 15,
-                height: 1.4,
-              ),
-            ),
-            if (word.meaningHi.isNotEmpty) ...[
-              const SizedBox(height: 6),
-              Text(
-                word.meaningHi,
-                maxLines: 2,
-                overflow: TextOverflow.ellipsis,
-                style: TextStyle(
-                  color: Colors.white.withValues(alpha: 0.80),
-                  fontSize: 14,
-                  height: 1.4,
-                ),
-              ),
-            ],
-          ],
-        ),
           ],
         ),
       ),
@@ -1640,8 +1746,11 @@ class _TodayReadingCard extends StatelessWidget {
               children: [
                 Row(
                   children: [
-                    const Icon(Icons.article_rounded,
-                        color: Colors.white, size: 15),
+                    const Icon(
+                      Icons.article_rounded,
+                      color: Colors.white,
+                      size: 15,
+                    ),
                     const SizedBox(width: 6),
                     const Text(
                       "Today's Reading",
@@ -1656,7 +1765,9 @@ class _TodayReadingCard extends StatelessWidget {
                     if (isRead)
                       Container(
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 10, vertical: 4),
+                          horizontal: 10,
+                          vertical: 4,
+                        ),
                         decoration: BoxDecoration(
                           color: Colors.white.withValues(alpha: 0.25),
                           borderRadius: BorderRadius.circular(20),
@@ -1673,7 +1784,9 @@ class _TodayReadingCard extends StatelessWidget {
                     else
                       Container(
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 10, vertical: 4),
+                          horizontal: 10,
+                          vertical: 4,
+                        ),
                         decoration: BoxDecoration(
                           color: Colors.white.withValues(alpha: 0.25),
                           borderRadius: BorderRadius.circular(20),
@@ -1704,7 +1817,9 @@ class _TodayReadingCard extends StatelessWidget {
                   children: [
                     Container(
                       padding: const EdgeInsets.symmetric(
-                          horizontal: 8, vertical: 3),
+                        horizontal: 8,
+                        vertical: 3,
+                      ),
                       decoration: BoxDecoration(
                         color: Colors.white.withValues(alpha: 0.15),
                         borderRadius: BorderRadius.circular(20),
@@ -1719,22 +1834,32 @@ class _TodayReadingCard extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(width: 8),
-                    const Icon(Icons.schedule_rounded,
-                        color: Colors.white60, size: 12),
+                    const Icon(
+                      Icons.schedule_rounded,
+                      color: Colors.white60,
+                      size: 12,
+                    ),
                     const SizedBox(width: 3),
                     Text(
                       '${article.readTime} min read',
                       style: const TextStyle(
-                          color: Colors.white60, fontSize: 12),
+                        color: Colors.white60,
+                        fontSize: 12,
+                      ),
                     ),
                     const SizedBox(width: 8),
-                    const Icon(Icons.school_rounded,
-                        color: Colors.white60, size: 12),
+                    const Icon(
+                      Icons.school_rounded,
+                      color: Colors.white60,
+                      size: 12,
+                    ),
                     const SizedBox(width: 3),
                     Text(
                       '${article.highlightedWords.length} words',
                       style: const TextStyle(
-                          color: Colors.white60, fontSize: 12),
+                        color: Colors.white60,
+                        fontSize: 12,
+                      ),
                     ),
                   ],
                 ),
@@ -1793,7 +1918,11 @@ class _SmallActionTile extends StatelessWidget {
             Positioned(
               right: -16,
               bottom: -16,
-              child: Icon(icon, size: 72, color: Colors.white.withValues(alpha: 0.10)),
+              child: Icon(
+                icon,
+                size: 72,
+                color: Colors.white.withValues(alpha: 0.10),
+              ),
             ),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -1854,72 +1983,79 @@ class _FeedbackCard extends StatelessWidget {
       onTap: _openStore,
       overlayColor: Colors.white,
       child: Container(
-      padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 14),
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(16),
-        gradient: const LinearGradient(
-          colors: [Color(0xFF92400E), Color(0xFFD97706)],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
+        padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 14),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(16),
+          gradient: const LinearGradient(
+            colors: [Color(0xFF92400E), Color(0xFFD97706)],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+          boxShadow: [
+            BoxShadow(
+              color: const Color(0xFFD97706).withValues(alpha: 0.35),
+              blurRadius: 14,
+              offset: const Offset(0, 7),
+            ),
+          ],
         ),
-        boxShadow: [
-          BoxShadow(
-            color: const Color(0xFFD97706).withValues(alpha: 0.35),
-            blurRadius: 14,
-            offset: const Offset(0, 7),
-          ),
-        ],
-      ),
-      child: Row(
-        children: [
-          Container(
-            padding: const EdgeInsets.all(10),
-            decoration: BoxDecoration(
-              color: Colors.white.withValues(alpha: 0.18),
-              borderRadius: BorderRadius.circular(12),
-            ),
-            child: const Icon(Icons.star_rounded, color: Colors.white, size: 22),
-          ),
-          const SizedBox(width: 14),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const Text(
-                  'Rate & Feedback',
-                  style: TextStyle(
-                    fontSize: 15,
-                    fontWeight: FontWeight.w700,
-                    color: Colors.white,
-                  ),
-                ),
-                const SizedBox(height: 2),
-                Text(
-                  'Enjoying Vocabo? Leave a review on Play Store',
-                  style: TextStyle(fontSize: 12, color: Colors.white.withValues(alpha: 0.80)),
-                ),
-              ],
-            ),
-          ),
-          const SizedBox(width: 8),
-          Container(
-            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
-            decoration: BoxDecoration(
-              color: Colors.white.withValues(alpha: 0.20),
-              borderRadius: BorderRadius.circular(10),
-              border: Border.all(color: Colors.white.withValues(alpha: 0.40)),
-            ),
-            child: const Text(
-              'Rate',
-              style: TextStyle(
-                fontSize: 13,
-                fontWeight: FontWeight.w700,
+        child: Row(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                color: Colors.white.withValues(alpha: 0.18),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: const Icon(
+                Icons.star_rounded,
                 color: Colors.white,
+                size: 22,
               ),
             ),
-          ),
-        ],
-      ),
+            const SizedBox(width: 14),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text(
+                    'Rate & Feedback',
+                    style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.w700,
+                      color: Colors.white,
+                    ),
+                  ),
+                  const SizedBox(height: 2),
+                  Text(
+                    'Enjoying Vocabo? Leave a review on Play Store',
+                    style: TextStyle(
+                      fontSize: 12,
+                      color: Colors.white.withValues(alpha: 0.80),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(width: 8),
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+              decoration: BoxDecoration(
+                color: Colors.white.withValues(alpha: 0.20),
+                borderRadius: BorderRadius.circular(10),
+                border: Border.all(color: Colors.white.withValues(alpha: 0.40)),
+              ),
+              child: const Text(
+                'Rate',
+                style: TextStyle(
+                  fontSize: 13,
+                  fontWeight: FontWeight.w700,
+                  color: Colors.white,
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
@@ -1964,7 +2100,11 @@ class _SupportCard extends StatelessWidget {
                 color: Colors.white.withValues(alpha: 0.18),
                 borderRadius: BorderRadius.circular(12),
               ),
-              child: const Icon(Icons.favorite_rounded, color: Colors.white, size: 22),
+              child: const Icon(
+                Icons.favorite_rounded,
+                color: Colors.white,
+                size: 22,
+              ),
             ),
             const SizedBox(width: 14),
             const Expanded(
@@ -2125,7 +2265,10 @@ class _ReferralCard extends StatelessWidget {
                     icon: const Icon(Icons.share_rounded, size: 18),
                     label: const Text(
                       'Share Vocabo',
-                      style: TextStyle(fontWeight: FontWeight.w700, fontSize: 15),
+                      style: TextStyle(
+                        fontWeight: FontWeight.w700,
+                        fontSize: 15,
+                      ),
                     ),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.white,
